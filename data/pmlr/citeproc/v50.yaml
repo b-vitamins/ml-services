@@ -1,0 +1,165 @@
+
+- title: 'Preface'
+  abstract: 'These proceedings contain the 3 papers accepted to, and presented at, the research track of the 2nd International Conference on Predictive APIs and Apps (PAPIs ’15), held in Sydney, Australia on August 7th, 2015.'
+  volume: 50
+  URL: https://proceedings.mlr.press/v50/preface.html
+  PDF: http://proceedings.mlr.press/v50/preface.pdf
+  edit: https://github.com/mlresearch//v50/edit/gh-pages/_posts/2016-06-05-preface.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd International Conference on Predictive APIs and Apps'
+  publisher: 'PMLR'
+  author: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  editor: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  address: Sydney, Australia
+  page: i-vi
+  id: preface
+  issued:
+    date-parts: 
+      - 2016
+      - 6
+      - 5
+  firstpage: i
+  lastpage: vi
+  published: 2016-06-05 00:00:00 +0000
+- title: 'AzureML: Anatomy of a machine learning service'
+  abstract: 'In this paper, we describe AzureML: a web service enabling software developers and data scientists to build predictive applications. AzureML provides several unique features. These include (a) Collaboration (b) Versioning (c) Graphical authoring(d) Push button operationalization and (e) Monetization. We outline the design principles, system design and lessons learned in building such a system.'
+  volume: 50
+  URL: https://proceedings.mlr.press/v50/azureml15.html
+  PDF: http://proceedings.mlr.press/v50/azureml15.pdf
+  edit: https://github.com/mlresearch//v50/edit/gh-pages/_posts/2016-06-05-azureml15.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd International Conference on Predictive APIs and Apps'
+  publisher: 'PMLR'
+  author: 
+  - given: AzureML
+    family: Team
+  editor: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  address: Sydney, Australia
+  page: 1-13
+  id: azureml15
+  issued:
+    date-parts: 
+      - 2016
+      - 6
+      - 5
+  firstpage: 1
+  lastpage: 13
+  published: 2016-06-05 00:00:00 +0000
+- title: 'Deploying high throughput predictive models with the actor framework'
+  abstract: 'The majority of data science and machine learning tutorials focus on generating models: assembling a dataset; splitting the data into training, validation, and testing subsets; building the model; and demonstrating its generalizability. But when it’s time to repeat the analogous steps when using the model in production, issues of high latency or low throughput can arise. To an end user, the cost of too much time spent featurizing raw data and evaluating a model over features can wind up erasing any gains a smarter prediction can offer. Exposing concurrency in these model-usage steps, and then capitalizing on that concurrency, can improve throughput. This paper describes how the actor framework can be used to bring a predictive model to a real-time setting. Two case-study examples are described: a live deployment built for the freelancing platform Upwork, a simple text classifier with accompanying code for use as an introductory project.'
+  volume: 50
+  URL: https://proceedings.mlr.press/v50/gawalt15.html
+  PDF: http://proceedings.mlr.press/v50/gawalt15.pdf
+  edit: https://github.com/mlresearch//v50/edit/gh-pages/_posts/2016-06-05-gawalt15.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd International Conference on Predictive APIs and Apps'
+  publisher: 'PMLR'
+  author: 
+  - given: Brian
+    family: Gawalt
+  editor: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  address: Sydney, Australia
+  page: 15-28
+  id: gawalt15
+  issued:
+    date-parts: 
+      - 2016
+      - 6
+      - 5
+  firstpage: 15
+  lastpage: 28
+  published: 2016-06-05 00:00:00 +0000
+- title: 'Protocols and Structures for Inference: A RESTful API for Machine Learning'
+  abstract: 'Diversity in machine learning APIs (in both software toolkits and web services), works against realising machine learning’s full potential, making it difficult to draw on individual algorithms from different products or to compose multiple algorithms to solve complex tasks. This paper introduces the Protocols and Structures for Inference (PSI) service architecture and specification, which presents inferential entities—relations, attributes, learners and predictors—as RESTful web resources that are accessible via a common but flexible and extensible interface. Resources describe the data they ingest or emit using a variant of the JSON schema language, and the API has mechanisms to support non-JSON data and future extension of service features.'
+  volume: 50
+  URL: https://proceedings.mlr.press/v50/montgomery15.html
+  PDF: http://proceedings.mlr.press/v50/montgomery15.pdf
+  edit: https://github.com/mlresearch//v50/edit/gh-pages/_posts/2016-06-05-montgomery15.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd International Conference on Predictive APIs and Apps'
+  publisher: 'PMLR'
+  author: 
+  - given: James
+    family: Montgomery
+  - given: Mark D.
+    family: Reid
+  - given: Barry
+    family: Drake
+  editor: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  address: Sydney, Australia
+  page: 29-42
+  id: montgomery15
+  issued:
+    date-parts: 
+      - 2016
+      - 6
+      - 5
+  firstpage: 29
+  lastpage: 42
+  published: 2016-06-05 00:00:00 +0000
+- title: 'The Past, Present, and Future of Machine Learning APIs'
+  abstract: 'In this paper, we start off by summarizing the key evolutionary turning points of machine learning APIs and conclude by laying out our vision for the future of this key enabling component that can power tomorrow’s ubiquitous intelligent systems.'
+  volume: 50
+  URL: https://proceedings.mlr.press/v50/cetinsoy15.html
+  PDF: http://proceedings.mlr.press/v50/cetinsoy15.pdf
+  edit: https://github.com/mlresearch//v50/edit/gh-pages/_posts/2016-06-05-cetinsoy15.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd International Conference on Predictive APIs and Apps'
+  publisher: 'PMLR'
+  author: 
+  - given: Atakan
+    family: Cetinsoy
+  - given: Francisco J.
+    family: Martin
+  - given: José Antonio
+    family: Ortega
+  - given: Poul
+    family: Petersen
+  editor: 
+  - given: Louis
+    family: Dorard
+  - given: Mark D.
+    family: Reid
+  - given: Francisco J.
+    family: Martin
+  address: Sydney, Australia
+  page: 43-49
+  id: cetinsoy15
+  issued:
+    date-parts: 
+      - 2016
+      - 6
+      - 5
+  firstpage: 43
+  lastpage: 49
+  published: 2016-06-05 00:00:00 +0000

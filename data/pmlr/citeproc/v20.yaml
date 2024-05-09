@@ -1,0 +1,781 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of the 3rd Asian Conference on Machine Learning, November 13-15, Taoyuan, Taiwan.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/hsu11.html
+  PDF: http://proceedings.mlr.press/v20/hsu11/hsu11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-hsu11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: i-xii
+  id: hsu11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: i
+  lastpage: xii
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Improving Policy Gradient Estimates with Influence Information'
+  abstract: 'In reinforcement learning (RL) it is often possible to obtain sound, but incomplete, information about influences and independencies among problem variables and rewards, even when an exact domain model is unknown. For example, such information can be computed based on a partial, qualitative domain model, or via domain-specific analysis techniques. While, intuitively, such information appears useful for RL, there are no algorithms that incorporate it in a sound way. In this work, we describe how to leverage such information for improving the estimation of policy gradients, which can be used to speedup gradient-based RL. We prove general conditions under which our estimator is unbiased and show that it will typically have reduced variance compared to standard unbiased gradient estimates. We evaluate the approach in the domain of Adaptation-Based Programming where RL is used to optimize the performance of programs and independence information can be computed via standard program analysis techniques. Incorporating independence information produces a large speedup in learning on a variety of adaptive programs.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/pinto11.html
+  PDF: http://proceedings.mlr.press/v20/pinto11/pinto11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-pinto11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jervis
+    family: Pinto
+  - given: Alan
+    family: Fern
+  - given: Tim
+    family: Bauer
+  - given: Martin
+    family: Erwig
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 1-18
+  id: pinto11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 1
+  lastpage: 18
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Continuous Rapid Action Value Estimates'
+  abstract: 'In the last decade, Monte-Carlo Tree Search (MCTS) has revolutionized the domain of large-scale Markov Decision Process problems. MCTS most often uses the Upper Confidence Tree algorithm to handle the exploration versus exploitation trade-off, while a few heuristics are used to guide the exploration in large search spaces. Among these heuristics is Rapid Action Value Estimate (RAVE). This paper is concerned with extending the RAVE heuristics to continuous action and state spaces. The approach is experimentally validated on two artificial benchmark problems: the treasure hunt game, and a real-world energy management problem.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/couetoux11.html
+  PDF: http://proceedings.mlr.press/v20/couetoux11/couetoux11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-couetoux11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Adrien
+    family: Couëtoux
+  - given: Mario
+    family: Milone
+  - given: Mátyás
+    family: Brendel
+  - given: Hassan
+    family: Doghmen
+  - given: Michèle
+    family: Sebag
+  - given: Olivier
+    family: Teytaud
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 19-31
+  id: couetoux11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 19
+  lastpage: 31
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Nonlinear Online Classification Algorithm with Probability Margin'
+  abstract: 'Usually, it is necessary for nonlinear online learning algorithms to store a set of misclassified observed examples for computing kernel values. For large-scale problems, this is not only time consuming but leads also to an out-of-memory problem. In the paper, a nonlinear online classification algorithm is proposed with a probability margin to address the problem. In particular, the discriminant function is defined by the Gaussian mixture model with the statistical information of all the observed examples instead of data points. Then, the learnt model is used to train a nonlinear online classification algorithm with confidence such that the corresponding margin is defined by probability. When doing so, the internal memory is significantly reduced while the classification performance is kept. Also, we prove mistake bounds in terms of the generative model. Experiments carried out on one synthesis and two real large-scale data sets validate the effectiveness of the proposed approach.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/chi11.html
+  PDF: http://proceedings.mlr.press/v20/chi11/chi11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-chi11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mingmin
+    family: Chi
+  - given: Huijun
+    family: He
+  - given: Wenqiang
+    family: Zhang
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 33-46
+  id: chi11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 33
+  lastpage: 46
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Learning to Locate Relative Outliers'
+  abstract: 'Outliers usually spread across regions of low density. However, due to the absence or scarcity of outliers, designing a robust detector to sift outliers from a given dataset is still very challenging. In this paper, we consider to identify relative outliers from the target dataset with respect to another reference dataset of normal data. Particularly, we employ Maximum Mean Discrepancy (MMD) for matching the distribution between these two datasets and present a novel learning framework to learn a relative outlier detector. The learning task is formulated as a Mixed Integer Programming (MIP) problem, which is computationally hard. To this end, we propose an effective procedure to find a largely violated labeling vector for identifying relative outliers from abundant normal patterns, and its convergence is also presented. Then, a set of largely violated labeling vectors are combined by multiple kernel learning methods to robustly locate relative outliers. Comprehensive empirical studies on real-world datasets verify that our proposed relative outlier detection outperforms existing methods.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/li11.html
+  PDF: http://proceedings.mlr.press/v20/li11/li11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-li11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Shukai
+    family: Li
+  - given: Ivor W.
+    family: Tsang
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 47-62
+  id: li11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 47
+  lastpage: 62
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Microbagging Estimators: An Ensemble Approach to Distance-weighted Classifiers'
+  abstract: 'Support vector machines (SVMs) have been the predominate approach to kernel-based classification. While SVMs have demonstrated excellent performance in many application domains, they are known to be sensitive to noise in their training dataset. Motivated by the equalizing effect of bagging classifiers, we present a novel approach to kernel-based classification that we call microbagging. This method bags all possible maximal-margin estimators between pairs of training points to create a novel linear kernel classifier with weights defined directly as functions of the pairwise distance matrix induced by the kernel function. We derive relationships between linear and distance-based classifiers and empirically compare microbagging to the SVMs and robust SVMs on several datasets.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/nelson11.html
+  PDF: http://proceedings.mlr.press/v20/nelson11/nelson11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-nelson11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Blaine
+    family: Nelson
+  - given: Battista
+    family: Biggio
+  - given: Pavel
+    family: Laskov
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 63-79
+  id: nelson11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 63
+  lastpage: 79
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Bayesian Inference for Statistical Abduction Using Markov Chain Monte Carlo'
+  abstract: 'Abduction is one of the basic logical inferences (deduction, induction and abduction) and derives the best explanations for our observation. Statistical abduction attempts to define a probability distribution over explanations and to evaluate them by their probabilities. The framework of statistical abduction is general since many well-known probabilistic models, i.e., BNs, HMMs and PCFGs, are formulated as statistical abduction. Logic-based probabilistic models (LBPMs) have been developed as a way to combine probabilities and logic, and it enables us to perform statistical abduction. However, most of existing LBPMs impose restrictions on explanations (logical formulas) to realize efficient probability computation and learning. To relax those restrictions, we propose two MCMC (Markov chain Monte Carlo) methods for Bayesian inference on LBPMs using binary decision diagrams. The main advantage of our methods over existing methods is that it has no restriction on formulas. In the context of statistical abduction with Bayesian inference, whereas our deterministic knowledge can be described by logical formulas as rules and facts, our non-deterministic knowledge like frequency and preference can be reflected in a prior distribution in Bayesian inference. To illustrate our methods, we first formulate LDA (latent Dirichlet allocation) which is a well-known generative probabilistic model for bag-of-words as a form of statistical abduction, and compare the learning result of our methods with that of an MCMC method called collapsed Gibbs sampling specialized for LDA. We also apply our methods to diagnosis for failure in a logic circuit and evaluate explanations using a posterior distribution approximated by our method. The experiment shows Bayesian inference achieves better predicting accuracy than that of Maximum likelihood estimation.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/ishihata11.html
+  PDF: http://proceedings.mlr.press/v20/ishihata11/ishihata11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-ishihata11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Masakuzu
+    family: Ishihata
+  - given: Taisuke
+    family: Sato
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 81-96
+  id: ishihata11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 81
+  lastpage: 96
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Support Vector Machines Under Adversarial Label Noise'
+  abstract: 'In adversarial classification tasks like spam filtering and intrusion detection, malicious adversaries may manipulate data to thwart the outcome of an automatic analysis. Thus, besides achieving good classification performances, machine learning algorithms have to be robust against adversarial data manipulation to successfully operate in these tasks. While support vector machines (SVMs) have shown to be a very successful approach in classification problems, their effectiveness in adversarial classification tasks has not been extensively investigated yet. In this paper we present a preliminary investigation of the robustness of SVMs against adversarial data manipulation. In particular, we assume that the adversary has control over some training data, and aims to subvert the SVM learning process. Within this assumption, we show that this is indeed possible, and propose a strategy to improve the robustness of SVMs to training data manipulation based on a simple kernel matrix correction.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/biggio11.html
+  PDF: http://proceedings.mlr.press/v20/biggio11/biggio11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-biggio11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Battista
+    family: Biggio
+  - given: Blaine
+    family: Nelson
+  - given: Pavel
+    family: Laskov
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 97-112
+  id: biggio11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 97
+  lastpage: 112
+  published: 2011-11-17 00:00:00 +0000
+- title: 'A General Linear Non-Gaussian State-Space Model: Identifiability, Identification, and Applications'
+  abstract: 'State-space modeling provides a powerful tool for system identification and prediction. In linear state-space models the data are usually assumed to be Gaussian and the models have certain structural constraints such that they are identifiable. In this paper we propose a non-Gaussian state-space model which does not have such constraints. We prove that this model is fully identifiable. We then propose an efficient two-step method for parameter estimation: one first extracts the subspace of the latent processes based on the temporal information of the data, and then performs multichannel blind deconvolution, making use of both the temporal information and non-Gaussianity. We conduct a series of simulations to illustrate the performance of the proposed method. Finally, we apply the proposed model and parameter estimation method on real data, including major world stock indices and magnetoencephalography (MEG) recordings. Experimental results are encouraging and show the practical usefulness of the proposed model and method.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/zhang11.html
+  PDF: http://proceedings.mlr.press/v20/zhang11/zhang11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-zhang11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kun
+    family: Zhang
+  - given: Aapo
+    family: Hyvärinen
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 113-128
+  id: zhang11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 113
+  lastpage: 128
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Unsupervised Multiple Kernel Learning'
+  abstract: 'Traditional multiple kernel learning (MKL) algorithms are essentially supervised learning in the sense that the kernel learning task requires the class labels of training data. However, class labels may not always be available prior to the kernel learning task in some real world scenarios, e.g., an early preprocessing step of a classification task or an unsupervised learning task such as dimension reduction. In this paper, we investigate a problem of Unsupervised Multiple Kernel Learning (UMKL), which does not require class labels of training data as needed in a conventional multiple kernel learning task. Since a kernel essentially defines pairwise similarity between any two examples, our unsupervised kernel learning method mainly follows two intuitive principles: (1) a good kernel should allow every example to be well reconstructed from its localized bases weighted by the kernel values; (2) a good kernel should induce kernel values that are coincided with the local geometry of the data. We formulate the unsupervised multiple kernel learning problem as an optimization task and propose an efficient alternating optimization algorithm to solve it. Empirical results on both classification and dimension reductions tasks validate the efficacy of the proposed UMKL algorithm.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/zhuang11.html
+  PDF: http://proceedings.mlr.press/v20/zhuang11/zhuang11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-zhuang11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jinfeng
+    family: Zhuang
+  - given: Jialei
+    family: Wang
+  - given: Steven C. H.
+    family: Hoi
+  - given: Xiangyang
+    family: Lan
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 129-144
+  id: zhuang11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 129
+  lastpage: 144
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Quadratic Weighted Automata:Spectral Algorithm and Likelihood Maximization'
+  abstract: 'In this paper, we address the problem of non-parametric density estimation on a set of strings $\Sigma^*$. We introduce a probabilistic model - called quadratic weighted automaton, or QWA - and we present some methods which can be used in a density estimation task. A spectral analysis method leads to an effective regularization and a consistent estimate of the parameters. We provide a set of theoretical results on the convergence of this method. Experiments show that the combination of this method with likelihood maximization may be an interesting alternative to the well-known Baum-Welch algorithm.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/bailly11.html
+  PDF: http://proceedings.mlr.press/v20/bailly11/bailly11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-bailly11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Raphael
+    family: Bailly
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 147-163
+  id: bailly11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 147
+  lastpage: 163
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Approximate Model Selection for Large Scale LSSVM'
+  abstract: 'Model selection is critical to least squares support vector machine (LSSVM). A major problem of existing model selection approaches of LSSVM is that the inverse of the kernel matrix need to be calculated with O(n^3) complexity for each iteration, where n is the number of training examples. It is prohibitive for the large scale application. In this paper, we propose an approximate approach to model selection of LSSVM. We use multilevel circulant matrices to approximate the kernel matrix so that the fast Fourier transform (FFT) can be applied to reduce the computational cost of matrix inverse. With such approximation, we first design an efficient LSSVM algorithm with O(nlog(n)) complexity and theoretically analyze the effect of kernel matrix approximation on the decision function of LSSVM. We further show that the approximate optimal model produced with the multilevel circulant matrix is consistent with the accurate one produced with the original kernel matrix. Under the guarantee of consistency, we present an approximate model selection scheme, whose complexity is significantly lower than the previous approaches. Experimental results on benchmark datasets demonstrate the effectiveness of approximate model selection.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/ding11.html
+  PDF: http://proceedings.mlr.press/v20/ding11/ding11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-ding11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Lizhong
+    family: Ding
+  - given: Shizhong
+    family: Liao
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 165-180
+  id: ding11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 165
+  lastpage: 180
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Learning low-rank output kernels'
+  abstract: 'Output kernel learning techniques allow to simultaneously learn a vector-valued function and a positive semidefinite matrix which describes the relationships between the outputs. In this paper, we introduce a new formulation that imposes a low-rank constraint on the output kernel and operates directly on a factor of the kernel matrix. First, we investigate the connection between output kernel learning and a regularization problem for an architecture with two layers. Then, we show that a variety of methods such as nuclear norm regularized regression, reduced-rank regression, principal component analysis, and low rank matrix approximation can be seen as special cases of the output kernel learning framework. Finally, we introduce a block coordinate descent strategy for learning low-rank output kernels.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/dinuzzo11.html
+  PDF: http://proceedings.mlr.press/v20/dinuzzo11/dinuzzo11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-dinuzzo11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Francesco
+    family: Dinuzzo
+  - given: Kenji
+    family: Fukumizu
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 181-196
+  id: dinuzzo11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 181
+  lastpage: 196
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Learning Rules from Incomplete Examples via Implicit Mention Models'
+  abstract: 'We study the problem of learning general rules from concrete facts extracted from natural data sources such as the newspaper stories and medical histories. Natural data sources present two challenges to automated learning, namely, radical incompleteness and systematic bias. In this paper, we propose an approach that combines simultaneous learning of multiple predictive rules with differential scoring of evidence which adapts to a presumed model of data generation. Learning multiple predicates simultaneously mitigates the problem of radical incompleteness, while the differential scoring would help reduce the effects of systematic bias. We evaluate our approach empirically on both textual and non-textual sources. We further present a theoretical analysis that elucidates our approach and explains the empirical results.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/doppa11.html
+  PDF: http://proceedings.mlr.press/v20/doppa11/doppa11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-doppa11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Janardhan Rao
+    family: Doppa
+  - given: Mohammad Shahed
+    family: Sorower
+  - given: Mohammad
+    family: Nasresfahani
+  - given: Jed
+    family: Irvine
+  - given: Walker
+    family: Orr
+  - given: Thomas G.
+    family: Dietterich
+  - given: Xiaoli
+    family: Fern
+  - given: Prasad
+    family: Tadepalli
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 197-212
+  id: doppa11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 197
+  lastpage: 212
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Mixed-Variate Restricted Boltzmann Machines'
+  abstract: 'Modern datasets are becoming heterogeneous. To this end, we present in this paper Mixed-Variate Restricted Boltzmann Machines for simultaneously modelling variables of multiple types and modalities, including binary and continuous responses, categorical options, multicategorical choices, ordinal assessment and category-ranked preferences. Dependency among variables is modeled using latent binary variables, each of which can be interpreted as a particular hidden aspect of the data. The proposed model, similar to the standard RBMs, allows fast evaluation of the posterior for the latent variables. Hence, it is naturally suitable for many common tasks including, but not limited to, (a) as a pre-processing step to convert complex input data into a more convenient vectorial representation through the latent posteriors, thereby offering a dimensionality reduction capacity, (b) as a classifier supporting binary, multiclass, multilabel, and label-ranking outputs, or a regression tool for continuous outputs and (c) as a data completion tool for multimodal and heterogeneous data. We evaluate the proposed model on a large-scale dataset using the world opinion survey results on three tasks: feature extraction and visualization, data completion and prediction.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/tran11.html
+  PDF: http://proceedings.mlr.press/v20/tran11/tran11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-tran11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Truyen
+    family: Tran
+  - given: Dinh
+    family: Phung
+  - given: Svetha
+    family: Venkatesh
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 213-229
+  id: tran11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 213
+  lastpage: 229
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Robust Generation of Dynamical Patterns in Human Motion by a Deep Belief Nets'
+  abstract: 'We propose a Deep Belief Net model for robust motion generation, which consists of two layers of Restricted Boltzmann Machines (RBMs). The lower layer has multiple RBMs for encoding real-valued spatial patterns of motion frames into compact representations. The upper layer has one conditional RBM for learning temporal constraints on transitions between those compact representations. This separation of spatial and temporal learning makes it possible to reproduce many attractive dynamical behaviors such as walking by a stable limit cycle, a gait transition by bifurcation, synchronization of limbs by phase-locking, and easy top-down control. We trained the model with human motion capture data and the results of motion generation are reported here.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/sukhbaatar11.html
+  PDF: http://proceedings.mlr.press/v20/sukhbaatar11/sukhbaatar11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-sukhbaatar11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sainbaya
+    family: Sukhbaatar
+  - given: Takaki
+    family: Makino
+  - given: Kazuyuki
+    family: Aihara
+  - given: Takashi
+    family: Chikayama
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 231-246
+  id: sukhbaatar11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 231
+  lastpage: 246
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Computationally Efficient Sufficient Dimension Reduction via Squared-Loss Mutual Information'
+  abstract: 'The purpose of sufficient dimension reduction (SDR) is to find a low-dimensional expression of input features that is sufficient for predicting output values. In this paper, we propose a novel distribution-free SDR method called sufficient component analysis (SCA), which is computationally more efficient than existing methods. In our method, a solution is computed by iteratively performing dependence estimation and maximization: Dependence estimation is analytically carried out by recently-proposed least-squares mutual information (LSMI), and dependence maximization is also analytically carried out by utilizing the Epanechnikov kernel. Through large-scale experiments on real-world image classification and audio tagging problems, the proposed method is shown to compare favorably with existing dimension reduction approaches.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/yamada11.html
+  PDF: http://proceedings.mlr.press/v20/yamada11/yamada11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-yamada11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Makoto
+    family: Yamada
+  - given: Gang
+    family: Niu
+  - given: Jun
+    family: Takagi
+  - given: Masashi
+    family: Sugiyama
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 247-262
+  id: yamada11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 247
+  lastpage: 262
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Learning Attribute-weighted Voter Model over Social Networks'
+  abstract: 'We propose an opinion formation model, an extension of the voter model that incorporates the strength of each node, which is modeled as a function of the node attributes. Then, we address the problem of estimating parameter values for these attributes that appear in the function from the observed opinion formation data and solve this by maximizing the likelihood using an iterative parameter value updating algorithm, which is efficient and is guaranteed to converge. We show that the proposed algorithm can correctly learn the dependency in our experiments on four real world networks for which we used the assumed attribute dependency. We further show that the influence degree of each node based on the extended voter model is substantially different from that obtained assuming a uniform strength (a naive model for which the influence degree is known to be proportional to the node degree), and is more sensitive to the node strength than the node degree even for a moderate value of the node strength.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/yamagishi11.html
+  PDF: http://proceedings.mlr.press/v20/yamagishi11/yamagishi11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-yamagishi11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuki
+    family: Yamagishi
+  - given: Kazumi
+    family: Saito
+  - given: Kouzou
+    family: Ohara
+  - given: Masahiro
+    family: Kimura
+  - given: Hiroshi
+    family: Motoda
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 263-280
+  id: yamagishi11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 263
+  lastpage: 280
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Multi-label Classification with Error-correcting Codes'
+  abstract: 'We formulate a framework for applying error-correcting codes (ECC) on multi-label classification problems. The framework treats some base learners as noisy channels and uses ECC to correct the prediction errors made by the learners. An immediate use of the framework is a novel ECC-based explanation of the popular random k-label-sets (RAKEL) algorithm using a simple repetition ECC. Using the framework, we empirically compare a broad spectrum of ECC designs for multi-label classification. The results not only demonstrate that RAKEL can be improved by applying some stronger ECC, but also show that the traditional Binary Relevance approach can be enhanced by learning more parity-checking labels. In addition, our study on different ECC helps understand the trade-off between the strength of ECC and the hardness of the base learning tasks.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/ferng11.html
+  PDF: http://proceedings.mlr.press/v20/ferng11/ferng11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-ferng11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chung-Sung
+    family: Ferng
+  - given: Hsuan-Tien
+    family: Lin
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 281-295
+  id: ferng11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 281
+  lastpage: 295
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Estimating Diffusion Probability Changes for AsIC-SIS Model from Information Diffusion Results'
+  abstract: 'We address the problem of estimating changes in diffusion probability over a social network from the observed information diffusion results, which is possibly caused by an unknown external situation change. For this problem, we focused on the asynchronous independent cascade (AsIC) model in the SIS (Susceptible/Infected/Susceptible) setting in order to meet more realistic situations such as communication in a blogosphere. This model is referred to as the AsIC-SIS model. We assume that the diffusion parameter changes are approximated by a series of step functions, and their changes are reflected in the observed diffusion results. Thus, the problem is reduced to detecting how many step functions are needed, where in time each one starts and how long it lasts, and what the hight of each one is. The method employs the derivative of the likelihood function of the observed data that are assumed to be generated from the AsIC-SIS model, adopts a divide-and-conquer type greedy recursive partitioning, and utilizes an MDL model selection measure to determine the adequate number of step functions. The results obtained using real world network structures confirmed that the method works well as intended. The MDL criterion is useful to avoid overfitting, and the found pattern is not necessarily the same in terms of the number of step functions as the one assumed to be true, but the error is always reduced to a small value.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/koide11.html
+  PDF: http://proceedings.mlr.press/v20/koide11/koide11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-koide11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Akihiro
+    family: Koide
+  - given: Kazumi
+    family: Saito
+  - given: Kouzou
+    family: Ohara
+  - given: Masahiro
+    family: Kimura
+  - given: Hiroshi
+    family: Motoda
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 297-313
+  id: koide11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 297
+  lastpage: 313
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Multi-label Active Learning with Auxiliary Learner'
+  abstract: 'Multi-label active learning is an important problem because of the expensive labeling cost in multi-label classification applications. A state-of-the-art approach for multi-label active learning, maximum loss reduction with maximum confidence (MMC), heavily depends on the binary relevance support vector machine in both learning and querying. Nevertheless, it is not clear whether the heavy dependence is necessary or unrivaled. In this work, we extend MMC to a more general framework that removes the heavy dependence and clarifies the roles of each component in MMC. In particular, the framework is characterized by a major learner for making predictions, an auxiliary learner for helping with query decisions and a query criterion based on the disagreement between the two learners. The framework takes MMC and several baseline multi-label active learning algorithms as special cases. With the flexibility of the general framework, we design two criteria other than the one used by MMC. We also explore the possibility of using learners other than the binary relevance support vector machine for multi-label active learning. Experimental results demonstrate that a new criterion, soft Hamming loss reduction, is usually better than the original MMC criterion across different pairs of major/auxiliary learners, and validate the usefulness of the proposed framework.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/hung11.html
+  PDF: http://proceedings.mlr.press/v20/hung11/hung11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-hung11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chen-Wei
+    family: Hung
+  - given: Hsuan-Tien
+    family: Lin
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 315-332
+  id: hung11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 315
+  lastpage: 332
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Acceleration Technique for Boosting Classification and its Application to Face Detection'
+  abstract: 'We propose an acceleration technique for boosting classification without any loss of classification accuracy and apply it to a face detection task. In classification task, much effort has been spent on improving the classification accuracy and the computational cost of training. In addition to them, the computational cost of classification itself can be critical in several applications including face detection. In face detection, a celebrating work by Viola and Jones (2001) developed a significantly fast face detector achieving a competitive accuracy with all preceding face detectors. In their algorithm, the cascade structure of boosting classifier plays an important role. In this paper, we propose an acceleration technique for boosting classifier. The key idea of our proposal is the fact that one can determine the sign of discriminant function before all weak learners are evaluated in general. An advantage is that our algorithm has no loss in classification accuracy. Another advantage is that our proposal is a unsupervised learning so that it can treat a covariate shift situation. We also apply our proposal to each cascaded boosting classifier in Viola and Jones type face detector. As a result, our proposal succeeds in reducing the classification cost by 20%.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/kawakita11.html
+  PDF: http://proceedings.mlr.press/v20/kawakita11/kawakita11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-kawakita11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Masanori
+    family: Kawakita
+  - given: Ryota
+    family: Izumi
+  - given: Jun'ichi
+    family: Takeuchi
+  - given: Yi
+    family: Hu
+  - given: Tetsuya
+    family: Takamori
+  - given: Hirokazu
+    family: Kameyama
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 335-349
+  id: kawakita11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 335
+  lastpage: 349
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Summarization of Yes/No Questions Using a Feature Function Model'
+  abstract: 'Answer summarization is an important problem in the study of Question and Answering. In this paper, we deal with the general questions with “Yes/No” answers in English. We design 1) a model to score the relevance of the answers and the questions, and 2) a feature function combining the relevance and opinion scores to classify each answer to be “Yes”, “No” or “Neutral”. We combine the opinion features together with two weighting scores to solve this problem and conduct experiments on a real word dataset. Given an input question, the system firstly detects if it can be simply answered by “Yes/No” or not, and then outputs the resulting voting numbers of “Yes” answers and “No” answers to this question. We also first proposed the accuracy, precision, and recall to the “Yes/No” answer detection.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/he11.html
+  PDF: http://proceedings.mlr.press/v20/he11/he11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-he11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jing
+    family: He
+  - given: Decheng
+    family: Dai
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 351-366
+  id: he11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 351
+  lastpage: 366
+  published: 2011-11-17 00:00:00 +0000
+- title: 'Mapping Kernels Defined Over Countably Infinite Mapping Systems and their Application'
+  abstract: 'The mapping kernel is a generalization of Haussler’s convolution kernel, and has a wide range of application including kernels for higher degree structures such as trees. Like Haussler’s convolution kernel, a mapping kernel is a finite sum of values of a primitive kernel. One of the major reasons to use the mapping kernel template in engineering novel kernels is because a strong theorem is known for positive definiteness of the resulting mapping kernels. If the mapping kernel meets the transitivity condition and if the primitive kernel is positive definite, the mapping kernel is also positive definite. In this paper, we generalize this theorem by showing, even when we extend the definition of mapping kernels so that a mapping kernel can be a converging sum of countably infinite primitive kernel values, the transitivity condition is still a criteria to determine positive definiteness of mapping kernels according to the extended definition. Interestingly, this result is also useful to investigate positive definiteness of mapping kernels determined as finite sums, when they do not meet the transitivity condition. For this purpose, we introduce a general method that we call covering technique.'
+  volume: 20
+  URL: https://proceedings.mlr.press/v20/shin11.html
+  PDF: http://proceedings.mlr.press/v20/shin11/shin11.pdf
+  edit: https://github.com/mlresearch//v20/edit/gh-pages/_posts/2011-11-17-shin11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kilho
+    family: Shin
+  editor: 
+  - given: Chun-Nan
+    family: Hsu
+  - given: Wee Sun
+    family: Lee
+  address: South Garden Hotels and Resorts, Taoyuan, Taiwain
+  page: 367-382
+  id: shin11
+  issued:
+    date-parts: 
+      - 2011
+      - 11
+      - 17
+  firstpage: 367
+  lastpage: 382
+  published: 2011-11-17 00:00:00 +0000

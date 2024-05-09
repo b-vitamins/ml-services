@@ -1,0 +1,832 @@
+
+- title: 'Learning Green’s Functions of Linear Reaction-Diffusion Equations with Application to Fast Numerical Solver'
+  abstract: 'Partial differential equations are often used to model various physical phenomena, such as heat diffusion, wave propagation, fluid dynamics, elasticity, electrodynamics and so on. Due to their important applications in scientific research and engineering, many numerical methods have been developed in the past decades for efficient and accurate solutions of these equations. Inspired by the rapidly growing impact of deep learning techniques, we propose in this paper a novel neural network method, “GF-Net”, for learning the Green’s functions of the classic linear reaction-diffusion equations in the unsupervised fashion. The proposed method overcomes the challenges for finding the Green’s functions of the equations on arbitrary domains by utilizing the physics-informed neural network approach and domain decomposition. As a consequence, it particularly leads to a fast algorithm for solving the target equations subject to various sources and Dirichlet boundary conditions without network retraining. We also numerically demonstrate the effectiveness of the proposed method by extensive experiments in the square, annular and L-shape domains.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/teng22a.html
+  PDF: https://proceedings.mlr.press/v190/teng22a/teng22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-teng22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuankai
+    family: Teng
+  - given: Xiaoping
+    family: Zhang
+  - given: Zhu
+    family: Wang
+  - given: Lili
+    family: Ju
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 1-16
+  id: teng22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 1
+  lastpage: 16
+  published: 2022-09-14 00:00:00 +0000
+- title: 'A Quantum-Inspired Hamiltonian Monte Carlo Method for Missing Data Imputation'
+  abstract: 'We propose a hybrid technique combining Bayesian inference and quantum-inspired Hamiltonian Monte Carlo (QHMC) method for imputation of missing datasets. QHMC is an efficient way to sample from a broad class of distributions. Unlike the standard Hamiltonian Monte Carlo algorithm in which a particle has a fixed mass, QHMC allows a particle to have a random mass matrix with a probability distribution. Our data imputation method uses stochastic gradient optimization in QHMC to avoid calculating the full gradient on the entire dataset when evolving the Hamiltonian system. We combine the stochastic gradient QHMC and first order Langevin dynamics to obtain samples whose distribution converges to the posterior one. Comparing the performance of our method with existing imputation methods on several datasets, we found out that our proposed algorithm improves the efficiency of data imputation.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/kochan22a.html
+  PDF: https://proceedings.mlr.press/v190/kochan22a/kochan22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-kochan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Didem
+    family: Kochan
+  - given: Zheng
+    family: Zhang
+  - given: Xiu
+    family: Yang
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 17-32
+  id: kochan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 17
+  lastpage: 32
+  published: 2022-09-14 00:00:00 +0000
+- title: 'SpecNet2: Orthogonalization-free Spectral Embedding by Neural Networks'
+  abstract: 'Spectral methods which represent data points by eigenvectors of kernel matrices or graph Laplacian matrices have been a primary tool in unsupervised data analysis. In many application scenarios, parametrizing the spectral embedding by a neural network that can be trained over batches of data samples gives a promising way to achieve automatic out-of-sample extension as well as computational scalability. Such an approach was taken in the original paper of SpectralNet (Shaham et al. 2018), which we call SpecNet1. The current paper introduces a new neural network approach, named SpecNet2, to compute spectral embedding which optimizes an equivalent objective of the eigen-problem and removes the orthogonalization layer in SpecNet1. SpecNet2 also allows separating the sampling of rows and columns of the graph affinity matrix by tracking the neighbors of each data point through the gradient formula. Theoretically, we show that any local minimizer of the new orthogonalization-free objective reveals the leading eigenvectors. Furthermore, global convergence for this new orthogonalization-free objective using a batch-based gradient descent method is proved. Numerical experiments demonstrate the improved performance and computational efficiency of SpecNet2 on simulated data and image datasets.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/chen22a.html
+  PDF: https://proceedings.mlr.press/v190/chen22a/chen22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-chen22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ziyu
+    family: Chen
+  - given: Yingzhou
+    family: Li
+  - given: Xiuyuan
+    family: Cheng
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 33-48
+  id: chen22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 33
+  lastpage: 48
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Monte Carlo Tree Search based Hybrid Optimization of Variational Quantum Circuits'
+  abstract: 'Variational quantum algorithms stand at the forefront of simulations on near-term and future fault-tolerant quantum devices. While most variational quantum algorithms involve only continuous optimization variables, the representation power of the variational ansatz can sometimes be significantly enhanced by adding certain discrete optimization variables, as is exemplified by the generalized quantum approximate optimization algorithm (QAOA). However, the hybrid discrete-continuous optimization problem in the generalized QAOA poses a challenge to the optimization. We propose a new algorithm called MCTS-QAOA, which combines a Monte Carlo tree search method with an improved policy gradient solver to optimize the discrete and continuous variables in the quantum circuit, respectively. We find that MCTS-QAOA has excellent noise-resilience properties, and can outperform prior algorithms in challenging instances of the generalized QAOA.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/yao22a.html
+  PDF: https://proceedings.mlr.press/v190/yao22a/yao22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-yao22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jiahao
+    family: Yao
+  - given: Haoya
+    family: Li
+  - given: Marin
+    family: Bukov
+  - given: Lin
+    family: Lin
+  - given: Lexing
+    family: Ying
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 49-64
+  id: yao22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 49
+  lastpage: 64
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Structure-preserving Sparse Identification of Nonlinear Dynamics for Data-driven Modeling'
+  abstract: 'Discovery of dynamical systems from data forms the foundation for data-driven modeling and recently, structure-preserving geometric perspectives have been shown to provide improved forecasting, stability, and physical realizability guarantees. We present here a unification of the Sparse Identification of Nonlinear Dynamics (SINDy) formalism with neural ordinary differential equations. The resulting framework allows learning of both “black-box” dynamics and learning of structure preserving bracket formalisms for both reversible and irreversible dynamics. We present a suite of benchmarks demonstrating effectiveness and structure preservation, including for chaotic systems.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/lee22a.html
+  PDF: https://proceedings.mlr.press/v190/lee22a/lee22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-lee22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kookjin
+    family: Lee
+  - given: Nathaniel
+    family: Trask
+  - given: Panos
+    family: Stinis
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 65-80
+  id: lee22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 65
+  lastpage: 80
+  published: 2022-09-14 00:00:00 +0000
+- title: 'MURANA: A Generic Framework for Stochastic Variance-Reduced Optimization'
+  abstract: 'We propose a generic variance-reduced algorithm, which we call MUltiple RANdomized Algorithm (MURANA), for minimizing a sum of several smooth functions plus a regularizer, in a sequential or distributed manner. Our method is formulated with general stochastic operators, which allow us to model various strategies for reducing the computational complexity. For example, MURANA supports sparse activation of the gradients, and also reduction of the communication load via compression of the update vectors. This versatility allows MURANA to cover many existing randomization mechanisms within a unified framework, which also makes it possible to design new methods as special cases.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/condat22a.html
+  PDF: https://proceedings.mlr.press/v190/condat22a/condat22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-condat22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Laurent
+    family: Condat
+  - given: Peter
+    family: Richtarik
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 81-96
+  id: condat22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 81
+  lastpage: 96
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Optimal denoising of rotationally invariant rectangular matrices'
+  abstract: 'In this manuscript we consider denoising of large rectangular matrices: given a noisy observation of a signal matrix, what is the best way of recovering the signal matrix itself? For Gaussian noise and rotationally-invariant signal priors, we completely characterize the optimal denoiser and its performance in the high-dimensional limit, in which the size of the signal matrix goes to infinity with fixed aspects ratio, and under the Bayes optimal setting, that is when the statistician knows how the signal and the observations were generated. Our results generalise previous works that considered only symmetric matrices to the more general case of non-symmetric and rectangular ones. We explore analytically and numerically a particular choice of factorized signal prior that models cross-covariance matrices and the matrix factorization problem. As a byproduct of our analysis, we provide an explicit asymptotic evaluation of the rectangular Harish-Chandra-Itzykson-Zuber integral in a special case.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/troiani22a.html
+  PDF: https://proceedings.mlr.press/v190/troiani22a/troiani22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-troiani22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Emanuele
+    family: Troiani
+  - given: Vittorio
+    family: Erba
+  - given: FLORENT
+    family: KRZAKALA
+  - given: Antoine
+    family: Maillard
+  - given: Lenka
+    family: Zdeborova
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 97-112
+  id: troiani22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 97
+  lastpage: 112
+  published: 2022-09-14 00:00:00 +0000
+- title: 'On the Nash equilibrium of moment-matching GANs for stationary Gaussian processes'
+  abstract: 'Generative Adversarial Networks (GANs) learn an implicit generative model from data samples through a two-player game. In this paper, we study the existence of Nash equilibrium of the game which is consistent as the number of data samples grows to infinity. In a realizable setting where the goal is to estimate the ground-truth generator of a stationary Gaussian process, we show that the existence of consistent Nash equilibrium depends crucially on the choice of the discriminator family. The discriminator defined from second-order statistical moments can result in non-existence of Nash equilibrium, existence of consistent non-Nash equilibrium, or existence and uniqueness of consistent Nash equilibrium, depending on whether symmetry properties of the generator family are respected. We further study empirically the local stability and global convergence of gradient descent-ascent methods towards consistent equilibrium.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/zhang22a.html
+  PDF: https://proceedings.mlr.press/v190/zhang22a/zhang22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-zhang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sixin
+    family: Zhang
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 113-128
+  id: zhang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 113
+  lastpage: 128
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Natural Compression for Distributed Deep Learning'
+  abstract: 'Modern deep learning models are often trained in parallel over a collection of distributed machines to reduce training time. In such settings, communication of model updates among machines becomes a significant performance bottleneck and various lossy update compression techniques have been proposed to alleviate this problem. In this work, we introduce a new, simple yet theoretically and practically effective compression technique: {\em natural compression ($C_{\text{nat}}$)}. Our technique is applied individually to all entries of the to-be-compressed update vector and works by randomized rounding to the nearest (negative or positive) power of two, which can be computed in a “natural” way by ignoring the mantissa. We show that compared to no compression, $C_{\text{nat}}$ increases the second moment of the compressed vector by not more than the tiny factor $\frac{9}{8}$, which means that the effect of $C_{\text{nat}}$ on the convergence speed of popular training algorithms, such as distributed SGD, is negligible. However, the communications savings enabled by $C_{\text{nat}}$ are substantial, leading to {\em $3$-$4\times$ improvement in overall theoretical running time}. For applications requiring more aggressive compression, we generalize $C_{\text{nat}}$ to {\em natural dithering}, which we prove is {\em exponentially better} than the common random dithering technique. Our compression operators can be used on their own or in combination with existing operators for a more aggressive combined effect, and offer new state-of-the-art both in theory and practice.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/horvoth22a.html
+  PDF: https://proceedings.mlr.press/v190/horvoth22a/horvoth22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-horvoth22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Samuel
+    family: Horvóth
+  - given: Chen-Yu
+    family: Ho
+  - given: Ludovit
+    family: Horvath
+  - given: Atal Narayan
+    family: Sahu
+  - given: Marco
+    family: Canini
+  - given: Peter
+    family: Richtarik
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 129-141
+  id: horvoth22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 129
+  lastpage: 141
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Error-in-variables modelling for operator learning'
+  abstract: 'Deep operator learning has emerged as a promising tool for reduced-order modelling and PDE model discovery. Leveraging the expressive power of deep neural networks, especially in high dimensions, such methods learn the mapping between functional state variables. While proposed methods have assumed noise only in the dependent variables, experimental and numerical data for operator learning typically exhibit noise in the independent variables as well, since both variables represent signals that are subject to measurement error. In regression on scalar data, failure to account for noisy independent variables can lead to biased parameter estimates. With noisy independent variables, linear models fitted via ordinary least squares (OLS) will show attenuation bias, wherein the slope will be underestimated. In this work, we derive an analogue of attenuation bias for linear operator regression with white noise in both the independent and dependent variables, showing that the norm upper bound of the operator learned via OLS decreases with increasing noise in the independent variable. In the nonlinear setting, we computationally demonstrate underprediction of the action of the Burgers operator in the presence of noise in the independent variable. We propose error-in-variables (EiV) models for two operator regression methods, MOR-Physics and DeepONet, and demonstrate that these new models reduce bias in the presence of noisy independent variables for a variety of operator learning problems. Considering the Burgers operator in 1D and 2D, we demonstrate that EiV operator learning robustly recovers operators in high-noise regimes that defeat OLS operator learning. We also introduce an EiV model for time-evolving PDE discovery and show that OLS and EiV perform similarly in learning the Kuramoto-Sivashinsky evolution operator from corrupted data, suggesting that the effect of bias in OLS operator learning depends on the regularity of the target operator.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/patel22a.html
+  PDF: https://proceedings.mlr.press/v190/patel22a/patel22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-patel22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ravi
+    family: Patel
+  - given: Indu
+    family: Manickam
+  - given: Myoungkyu
+    family: Lee
+  - given: Mamikon
+    family: Gulian
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 142-157
+  id: patel22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 142
+  lastpage: 157
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Data adaptive RKHS Tikhonov regularization for learning kernels in operators'
+  abstract: 'We present DARTR: a Data Adaptive RKHS Tikhonov Regularization method for the linear inverse problem of nonparametric learning of function parameters in operators. A key ingredient is a system intrinsic data adaptive (SIDA) RKHS, whose norm restricts the learning to take place in the function space of identifiability. DARTR utilizes this norm and selects the regularization parameter by the L-curve method. We illustrate its performance in examples including integral operators, nonlinear operators and nonlocal operators with discrete synthetic data. Numerical results show that DARTR leads to an accurate estimator robust to both numerical error due to discrete data and noise in data, and the estimator converges at a consistent rate as the data mesh refines under different levels of noises, outperforming two baseline regularizers using $l^2$ and $L^2$ norms.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/lu22a.html
+  PDF: https://proceedings.mlr.press/v190/lu22a/lu22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-lu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Fei
+    family: Lu
+  - given: Quanjun
+    family: Lang
+  - given: Qingci
+    family: An
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 158-172
+  id: lu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 158
+  lastpage: 172
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Stochastic and Private Nonconvex Outlier-Robust PCAs'
+  abstract: 'We develop theoretically guaranteed stochastic methods for outlier-robust PCA. Outlier-robust PCA seeks an underlying low-dimensional linear subspace from a dataset that is corrupted with outliers. We are able to show that our methods, which involve stochastic geodesic gradient descent over the Grassmannian manifold, converge and recover an underlying subspace in various regimes through the development of a novel convergence analysis. The main application of this method is an effective differentially private algorithm for outlier-robust PCA that uses a Gaussian noise mechanism within the stochastic gradient method. Our results emphasize the advantages of the nonconvex methods over another convex approach to solving this problem in the differentially private setting. Experiments on synthetic and stylized data verify these results.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/maunu22a.html
+  PDF: https://proceedings.mlr.press/v190/maunu22a/maunu22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-maunu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tyler
+    family: Maunu
+  - given: Chenyu
+    family: Yu
+  - given: Gilad
+    family: Lerman
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 173-188
+  id: maunu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 173
+  lastpage: 188
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Momentum Transformer: Closing the Performance Gap Between Self-attention and Its Linearization'
+  abstract: 'Transformers have achieved remarkable success in sequence modeling and beyond but suffer from quadratic computational and memory complexities with respect to the length of the input sequence. Leveraging techniques include sparse and linear attention and hashing tricks; efficient transformers have been proposed to reduce the quadratic complexity of transformers but significantly degrade the accuracy. In response, we first interpret the linear attention and residual connections in computing the attention map as gradient descent steps. We then introduce momentum into these components and propose the \emph{momentum transformer}, which utilizes momentum to improve the accuracy of linear transformers while maintaining linear memory and computational complexities. Furthermore, we develop an adaptive strategy to compute the momentum value for our model based on the optimal momentum for quadratic optimization. This adaptive momentum eliminates the need to search for the optimal momentum value and further enhances the performance of the momentum transformer. A range of experiments on both autoregressive and non-autoregressive tasks, including image generation and machine translation, demonstrate that the momentum transformer outperforms popular linear transformers in training efficiency and accuracy.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/nguyen22a.html
+  PDF: https://proceedings.mlr.press/v190/nguyen22a/nguyen22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-nguyen22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tan Minh
+    family: Nguyen
+  - given: Richard
+    family: Baraniuk
+  - given: Robert
+    family: Kirby
+  - given: Stanley
+    family: Osher
+  - given: Bao
+    family: Wang
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 189-204
+  id: nguyen22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 189
+  lastpage: 204
+  published: 2022-09-14 00:00:00 +0000
+- title: 'An Upper Limit of Decaying Rate with Respect to Frequency in Linear Frequency Principle Model'
+  abstract: 'Deep neural network (DNN) usually learns the target function from low to high frequency, which is called frequency principle or spectral bias. This frequency principle sheds light on a high-frequency curse of DNNs — difficult to learn high-frequency information. Inspired by the frequency principle, a series of works are devoted to develop algorithms for overcoming the high-frequency curse. A natural question arises: what is the upper limit of the decaying rate w.r.t. frequency when one trains a DNN? In this work, we abstract a paradigm for modeling and analysis of algorithm suitable for supervised learning problems from the sufficiently wide two-layer neural network, i.e., linear frequency principle (LFP) model. Our theory confirms that there is a critical decaying rate w.r.t. frequency in LFP model. It is precisely because of the existence of this limit that a sufficiently wide DNN interpolates the training data by a function with a certain regularity. However, if the decay rate of an algrithm in our paradigm is above such upper limit, then this algorithm interpolates the training data by a trivial function, i.e., a function is only non-zero at training data points. This work rigorously proves that the high-frequency curse is an intrinsic difficulty of the LFP model, which provides similar insight to DNN.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/luo22a.html
+  PDF: https://proceedings.mlr.press/v190/luo22a/luo22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-luo22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tao
+    family: Luo
+  - given: Zheng
+    family: Ma
+  - given: Zhiwei
+    family: Wang
+  - given: Zhiqin
+    family: John Xu
+  - given: Yaoyu
+    family: Zhang
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 205-214
+  id: luo22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 205
+  lastpage: 214
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Error Estimates for the Deep Ritz Method with Boundary Penalty'
+  abstract: 'We estimate the error of the Deep Ritz Method for linear elliptic equations. For Dirichlet boundary conditions, we estimate the error when the boundary values are imposed through the boundary penalty method. Our results apply to arbitrary sets of ansatz functions and estimate the error in dependence of the optimization accuracy, the approximation capabilities of the ansatz class and – in the case of Dirichlet boundary values – the penalization strength $\lambda$. To the best of our knowledge, our results are presently the only ones in the literature that treat the case of Dirichlet boundary conditions in full generality, i.e., without a lower order term that leads to coercivity on all of $H^1(\Omega)$. Further, we discuss the implications of our results for ansatz classes which are given through ReLU networks and the relation to existing estimates for finite element functions. For high dimensional problems our results show that the favourable approximation capabilities of neural networks for smooth functions are inherited by the Deep Ritz Method.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/muller22a.html
+  PDF: https://proceedings.mlr.press/v190/muller22a/muller22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-muller22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Johannes
+    family: Müller
+  - given: Marius
+    family: Zeinhofer
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 215-230
+  id: muller22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 215
+  lastpage: 230
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Notes on Exact Boundary Values in Residual Minimisation'
+  abstract: 'We analyse the difference in convergence mode using exact versus penalised boundary values for the residual minimisation of PDEs with neural network type ansatz functions, as is commonly done in the context of physics informed neural networks. It is known that using an $L^2$ boundary penalty leads to a loss of regularity of $3/2$ meaning that approximation in $H^2$ yields a posteriori estimates in $H^{1/2}$. These notes demonstrate how this loss of regularity can be circumvented if the functions in the ansatz class satisfy the boundary values exactly. Furthermore, it is shown that in this case, the loss function provides a consistent a posteriori error estimator in $H^2$ norm made by the residual minimisation method. We provide analogue results for linear time dependent problems and discuss the implications of measuring the residual in Sobolev norms.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/muller22b.html
+  PDF: https://proceedings.mlr.press/v190/muller22b/muller22b.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-muller22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Johannes
+    family: Müller
+  - given: Marius
+    family: Zeinhofer
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 231-240
+  id: muller22b
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 231
+  lastpage: 240
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Online Weak-form Sparse Identification of Partial Differential Equations'
+  abstract: 'This paper presents an online algorithm for identification of partial differential equations (PDEs) based on the weak-form sparse identification of nonlinear dynamics algorithm (WSINDy). The algorithm is online in a sense that if performs the identification task by processing solution snapshots that arrive sequentially. The core of the method combines a weak-form discretization of candidate PDEs with an online proximal gradient descent approach to the sparse regression problem. In particular, we do not regularize the $\ell_0$-pseudo-norm, instead finding that directly applying its proximal operator (which corresponds to a hard thresholding) leads to efficient online system identification from noisy data. We demonstrate the success of the method on the Kuramoto-Sivashinsky equation, the nonlinear wave equation with time-varying wavespeed, and the linear wave equation, in one, two, and three spatial dimensions, respectively. In particular, our examples show that the method is capable of identifying and tracking systems with coefficients that vary abruptly in time, and offers a streaming alternative to problems in higher dimensions.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/a-messenger22a.html
+  PDF: https://proceedings.mlr.press/v190/a-messenger22a/a-messenger22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-a-messenger22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Daniel
+    family: A.Messenger
+  - given: Emiliano
+    family: Dall’Anese
+  - given: David
+    family: Bortz
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 241-256
+  id: a-messenger22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 241
+  lastpage: 256
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Freeze and Chaos: NTK views on DNN Normalization, Checkerboard and Boundary Artifacts'
+  abstract: 'We analyze architectural features of Deep Neural Networks (DNNs) using the so-called Neural Tangent Kernel (NTK), which describes the training and generalization of DNNs in the infinite-width setting. In this setting, we show that for fully-connected DNNs, as the depth grows, two regimes appear: freeze (or order), where the (scaled) NTK converges to a constant, and chaos, where it converges to a Kronecker delta. Extreme freeze slows down training while extreme chaos hinders generalization. Using the scaled ReLU as a nonlinearity, we end up in the frozen regime. In contrast, Layer Normalization brings the network into the chaotic regime. We observe a similar effect for Batch Normalization (BN) applied after the last nonlinearity. We uncover the same freeze and chaos modes in Deep Deconvolutional Networks (DC-NNs). Our analysis explains the appearance of so-called checkerboard patterns and border artifacts. Moving the network into the chaotic regime prevents checkerboard patterns; we propose a graph-based parametrization which eliminates border artifacts; finally, we introduce a new layer-dependent learning rate to improve the convergence of DC-NNs. We illustrate our findings on DCGANs: the frozen regime leads to a collapse of the generator to a checkerboard mode, which can be avoided by tuning the nonlinearity to reach the chaotic regime. As a result, we are able to obtain good quality samples for DCGANs without BN.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/jacot22a.html
+  PDF: https://proceedings.mlr.press/v190/jacot22a/jacot22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-jacot22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Arthur
+    family: Jacot
+  - given: Franck
+    family: Gabriel
+  - given: Francois
+    family: Ged
+  - given: Clement
+    family: Hongler
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 257-270
+  id: jacot22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 257
+  lastpage: 270
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Hierarchical partition of unity networks: fast multilevel training'
+  abstract: 'We present a probabilistic mixture of experts framework to perform nonparametric piecewise polynomial approximation without the need for an underlying mesh partitioning space. Deep neural networks traditionally used for classification provide a means of localizing polynomial approximation, and the probabilistic formulation admits a trivially parallelizable expectation maximization (EM) strategy. We then introduce a hierarchical architecture whose EM loss naturally decomposes into coarse and fine scale terms and small decoupled least squares problems. We exploit this hierarchical structure to formulate a V-cycle multigrid-inspired training algorithm. A suite of benchmarks demonstrate the ability of the scheme to: realize for smooth data algebraic convergence with respect to number of partitions, exponential convergence with respect to polynomial order; exactly reproduce piecewise polynomial functions; and demonstrate through an application to data-driven semiconductor modeling the ability to accurately treat data spanning several orders of magnitude.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/trask22a.html
+  PDF: https://proceedings.mlr.press/v190/trask22a/trask22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-trask22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Nathaniel
+    family: Trask
+  - given: Amelia
+    family: Henriksen
+  - given: Carianne
+    family: Martinez
+  - given: Eric
+    family: Cyr
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 271-286
+  id: trask22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 271
+  lastpage: 286
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Concentration of Random Feature Matrices in High-Dimensions'
+  abstract: 'The spectra of random feature matrices provide essential information on the conditioning of the linear system used in random feature regression problems and are thus connected to the consistency and generalization of random feature models. Random feature matrices are asymmetric rectangular nonlinear matrices depending on two input variables, the data and the weights, which can make their characterization challenging. We consider two settings for the two input variables, either both are random variables or one is a random variable and the other is well-separated, i.e. there is a minimum distance between points. With conditions on the dimension, the complexity ratio, and the sampling variance, we show that the singular values of these matrices concentrate near their full expectation and near one with high-probability. In particular, since the dimension depends only on the logarithm of the number of random weights or the number of data points, our complexity bounds can be achieved even in moderate dimensions for many practical setting. The theoretical results are verified with numerical experiments.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/chen22b.html
+  PDF: https://proceedings.mlr.press/v190/chen22b/chen22b.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-chen22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhijun
+    family: Chen
+  - given: Hayden
+    family: Schaeffer
+  - given: Rachel
+    family: Ward
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 287-302
+  id: chen22b
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 287
+  lastpage: 302
+  published: 2022-09-14 00:00:00 +0000
+- title: 'SHRIMP: Sparser Random Feature Models via Iterative Magnitude Pruning'
+  abstract: 'Sparse shrunk additive models and sparse random feature models have been developed separately as methods to learn low-order functions, where there are few interactions between variables, but neither offers computational efficiency. On the other hand, $\ell_2$-based shrunk additive models are efficient but do not offer feature selection as the resulting coefficient vectors are dense. Inspired by the success of the iterative magnitude pruning technique in finding lottery tickets of neural networks, we propose a new method—Sparser Random Feature Models via IMP (ShRIMP)—to efficiently fit high-dimensional data with inherent low-dimensional structure in the form of sparse variable dependencies. Our method can be viewed as a combined process to construct and find sparse lottery tickets for two-layer dense networks. We explain the observed benefit of SHRIMP through a refined analysis of the generalization error for thresholded Basis Pursuit and resulting bounds on eigenvalues. From function approximation experiments on both synthetic data and real-world benchmark datasets, we show that SHRIMP obtains better than or competitive test accuracy compared to state-of-the-art sparse feature and additive methods such as SRFE-S, SSAM, and SALSA. Meanwhile, SHRIMP performs feature selection with low computational complexity and is robust to the pruning rate, indicating robustness in the structure of the obtained subnetworks. We gain insight into the lottery ticket hypothesis through SHRIMP by noting a correspondence between our model and weight/neuron subnetworks.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/xie22a.html
+  PDF: https://proceedings.mlr.press/v190/xie22a/xie22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-xie22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuege
+    family: Xie
+  - given: Robert
+    family: Shi
+  - given: Hayden
+    family: Schaeffer
+  - given: Rachel
+    family: Ward
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 303-318
+  id: xie22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 303
+  lastpage: 318
+  published: 2022-09-14 00:00:00 +0000
+- title: 'A Machine Learning Enhanced Algorithm for the Optimal Landing Problem'
+  abstract: 'We propose a machine learning enhanced algorithm for solving the optimal landing problem. Using Pontryagin’s minimum principle, we derive a two-point boundary value problem for the landing problem. The proposed algorithm uses deep learning to predict the optimal landing time and a space-marching technique to provide good initial guesses for the boundary value problem solver. The performance of the proposed method is studied using the quadrotor example, a reasonably high dimensional and strongly nonlinear system. Drastic improvement in reliability and efficiency is observed.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/zang22a.html
+  PDF: https://proceedings.mlr.press/v190/zang22a/zang22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-zang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yaohua
+    family: Zang
+  - given: Jihao
+    family: Long
+  - given: Xuanxi
+    family: Zhang
+  - given: Wei
+    family: Hu
+  - given: Weinan
+    family: E
+  - given: Jiequn
+    family: Han
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 319-334
+  id: zang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 319
+  lastpage: 334
+  published: 2022-09-14 00:00:00 +0000
+- title: 'Adaptive sampling methods for learning dynamical systems'
+  abstract: 'Learning dynamical systems from observed trajectories is a fundamental problem in data-driven science and engineering. While many existing works focus on improving model architectures or training methods, less attention has been directed at how to effectively sample training data to give rise to accurate models. In particular, one of the most basic problems is to select the length of sampled trajectories that balances computational overhead due to sampling and the quality of learned models. This paper deals with the task of improving sampling efficiency for learning dynamics.We first formulate proper target risks to evaluate the model performance of learning in the dynamical setting.This allows us to connect generalization to matching empirical measures with specific target measures. In line with this observation, we propose a class of adaptive algorithms to find effective sampling strategies that control the length of sampled trajectories. Through numerical experiments, we show the adaptive algorithms can achieve more accurate results given a sampling budget compared to baseline sampling methods.'
+  volume: 190
+  URL: https://proceedings.mlr.press/v190/zhao22a.html
+  PDF: https://proceedings.mlr.press/v190/zhao22a/zhao22a.pdf
+  edit: https://github.com/mlresearch//v190/edit/gh-pages/_posts/2022-09-14-zhao22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Mathematical and Scientific Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Zichen
+    family: Zhao
+  - given: Qianxiao
+    family: Li
+  editor: 
+  - given: Bin
+    family: Dong
+  - given: Qianxiao
+    family: Li
+  - given: Lei
+    family: Wang
+  - given: Zhi-Qin John
+    family: Xu
+  page: 335-350
+  id: zhao22a
+  issued:
+    date-parts: 
+      - 2022
+      - 9
+      - 14
+  firstpage: 335
+  lastpage: 350
+  published: 2022-09-14 00:00:00 +0000

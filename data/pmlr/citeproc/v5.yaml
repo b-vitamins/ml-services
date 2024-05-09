@@ -1,0 +1,2763 @@
+
+- title: 'Clusterability: A Theoretical Study'
+  abstract: 'We investigate measures of the clusterability of data sets. Namely, ways to define how ‘strong’ or ‘conclusive’ is the clustering structure of a given data set. We address this issue with generality, aiming for conclusions that apply regardless of any particular clustering algorithm or any specific data generation  model.    We survey several notions of clusterability that have been discussed in the literature, as well as propose a new notion of data clusterability.    Our comparison of these notions reveals that, although they all attempt to evaluate the same intuitive property, they are pairwise inconsistent.    Our analysis discovers an interesting phenomenon; Although most of the common clustering tasks are NP-hard, finding a close-to-optimal clustering for well-clusterable data sets is easy (computationally). We prove instances of this general claim with respect to the various clusterability notions that we discuss.    Finally, we investigate how hard it is to determine the clusterability value of a given data set. In most cases, it turns out that this is an NP-hard problem.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/ackerman09a.html
+  PDF: http://proceedings.mlr.press/v5/ackerman09a/ackerman09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-ackerman09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Margareta
+    family: Ackerman
+  - given: Shai
+    family: Ben-David
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 1-8
+  id: ackerman09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 1
+  lastpage: 8
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Latent Force Models'
+  abstract: 'Purely data driven approaches for machine learning present difficulties when data is scarce relative to the complexity of the model or when the model is forced to extrapolate. On the other hand, purely mechanistic approaches  need to identify and specify all the interactions in the problem at hand (which  may not be feasible) and still leave the issue of how to parameterize the system. In this paper, we present a hybrid approach using Gaussian processes and differential equations to combine data driven modeling with a physical model of the system. We show how different, physically-inspired, kernel functions  can be developed through sensible, simple, mechanistic assumptions about the underlying system. The versatility of our approach is illustrated with three case studies from computational biology, motion capture and geostatistics.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/alvarez09a.html
+  PDF: http://proceedings.mlr.press/v5/alvarez09a/alvarez09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-alvarez09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Mauricio
+    family: Álvarez
+  - given: David
+    family: Luengo
+  - given: Neil D.
+    family: Lawrence
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 9-16
+  id: alvarez09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 9
+  lastpage: 16
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Variational Bridge Regression'
+  abstract: 'Here we obtain approximate Bayes inferences through variational methods when an exponential power family type prior is specified for the regression coefficients to mimic the characteristics of the Bridge regression. We accomplish this through hierarchical modeling of such priors. Although the mixing distribution is not explicitly stated for scale normal mixtures, we obtain the required moments only to attain the variational distributions for the regression coefficients. By choosing specific values of hyper-parameters (tuning parameters) present in the model, we can mimic the model selection performance of best subset selection in sparse underlying settings. The fundamental difference between MAP, maximum a posteriori, estimation and the proposed method is that, here we can obtain approximate inferences besides a point estimator. We also empirically analyze the frequentist properties of the estimator obtained. Results suggest that the proposed method yields an estimator that performs significantly better in sparse underlying setups than the existing state-of-the-art procedures in both n>p and p>n scenarios.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/armagan09a.html
+  PDF: http://proceedings.mlr.press/v5/armagan09a/armagan09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-armagan09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Artin
+    family: Armagan
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 17-24
+  id: armagan09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 17
+  lastpage: 24
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning Low Density Separators'
+  abstract: 'We define a novel, basic, unsupervised learning problem - learning  the lowest density homogeneous hyperplane separator of an  unknown probability distribution.  This task is relevant to several  problems in machine learning, such as semi-supervised learning and  clustering stability.  We investigate the question of existence of a  universally consistent algorithm for this problem. We propose two  natural learning paradigms and prove that, on input unlabeled random  samples generated by any member of a rich family of distributions,  they are guaranteed to converge to the optimal separator for that  distribution. We complement this result by showing that no learning  algorithm for our task can achieve uniform learning rates (that are  independent of the data generating distribution).'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/ben-david09a.html
+  PDF: http://proceedings.mlr.press/v5/ben-david09a/ben-david09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-ben-david09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Shai
+    family: Ben-David
+  - given: Tyler
+    family: Lu
+  - given: David
+    family: Pal
+  - given: Miroslava
+    family: Sotakova
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 25-32
+  id: ben-david09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 25
+  lastpage: 32
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Supervised Spectral Latent Variable Models'
+  abstract: 'We present a probabilistic structured prediction method for learning input-output dependencies where correlations between outputs are modeled as low-dimensional manifolds constrained by both geometric, distance preserving output relations,and predictive power of inputs. Technically this reduces to learning a probabilistic, input conditional model, over latent (manifold) and output variables using an alternation scheme. In one round, we optimize the parameters of an input-driven manifold predictor using latent targets given by preimages (conditional expectations) of the current manifold-to-output model. In the next round, we use the distribution given by the manifold predictor in order to maximize the probability of the outputs with an additional, implicit distance preserving constraint on the manifold. The resulting Supervised Spectral Latent Variable Model (SSLVM) combines the properties of probabilistic geometric manifold learning (accommodates geometric constraints corresponding to any spectral embedding method including PCA, ISOMAP or Laplacian Eigenmaps), with the additional supervisory information to further constrain it for predictive tasks. We demonstrate the superiority of the method over baseline PPCA + regression frameworks and show its potential in difficult realworld computer vision benchmarks designed for the reconstruction of three-dimensional human poses from monocular image sequences.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/bo09a.html
+  PDF: http://proceedings.mlr.press/v5/bo09a/bo09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-bo09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Liefeng
+    family: Bo
+  - given: Cristian
+    family: Sminchisescu
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 33-40
+  id: bo09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 33
+  lastpage: 40
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Estimating Tree-Structured Covariance Matrices via Mixed-Integer Programming'
+  abstract: 'We present a novel method for estimating tree-structured covariance matrices directly from observed  continuous data. A representation of these classes of matrices as linear combinations  of rank-one matrices indicating object partitions is used to formulate estimation as  instances of well-studied numerical optimization problems.    In particular, our estimates are based on projection, where the covariance estimate  is the nearest tree-structured covariance matrix to an observed sample covariance matrix.  The problem is posed as a linear or quadratic mixed-integer program (MIP) where  a setting of the integer variables in the MIP specifies a set of tree topologies of the structured  covariance matrix. We solve these problems to optimality using efficient and robust existing MIP solvers.    We present a case study in phylogenetic analysis of expression in yeast gene families and a comparison using simulated data to distance-based tree estimating procedures.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/bravo09a.html
+  PDF: http://proceedings.mlr.press/v5/bravo09a/bravo09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-bravo09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Hector Corrada
+    family: Bravo
+  - given: Stephen
+    family: Wright
+  - given: Kevin
+    family: Eng
+  - given: Sunduz
+    family: Keles
+  - given: Grace
+    family: Wahba
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 41-48
+  id: bravo09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 41
+  lastpage: 48
+  published: 2009-04-15 00:00:00 +0000
+- title: 'A New Perspective for Information Theoretic Feature Selection'
+  abstract: 'Feature Filters are among the simplest and  fastest approaches to feature selection. A “filter”  defines a statistical criterion, used to rank  features on how useful they are expected to  be for classification. The highest ranking features are retained, and the lowest ranking can  be discarded. A common approach is to use  the Mutual Information between the features and class label. This area has seen a recent  flurry of activity, resulting in a confusing variety  of heuristic criteria all based on mutual  information, and a lack of a principled way  to understand or relate them. The contribution  of this paper is a unifying theoretical  understanding of such filters. In contrast to current  methods which manually construct filter criteria  with particular properties, we show how  to naturally derive a space of possible ranking  criteria. We will show that several recent  contributions in the feature selection literature  are points within this space, and that  there exist many points that have never been  explored.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/brown09a.html
+  PDF: http://proceedings.mlr.press/v5/brown09a/brown09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-brown09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Gavin
+    family: Brown
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 49-56
+  id: brown09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 49
+  lastpage: 56
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Structure Identification by Optimized Interventions'
+  abstract: 'We consider the problem of optimal experimental design in structure identification. Whereas standard approaches simply minimize Shannon’s entropy of the estimated parameter posterior, we show how to select between alternative model configurations, too. Our method specifies the intervention that makes an experiment capable of determining whether or not a particular configuration hypothesis is correct. This is performed by a novel clustering technique in approximated Bayesian parameter estimation for non-linear dynamical systems. The computation of the perturbation that minimizes the effective number of clusters in the belief state is constrained by the increase of the expected Kullback-Leibler divergence between the parameter prior and the posterior. This enables the disambiguation of persisting alternative explanations in cases where standard design systematically fails. Its applicability is illustrated with a biochemical Goodwin model, showing correct identification between multiple kinetic structures. We expect that our approach will prove useful especially for complex structures with reduced observability and multimodal posteriors.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/busetto09a.html
+  PDF: http://proceedings.mlr.press/v5/busetto09a/busetto09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-busetto09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Alberto Giovanni
+    family: Busetto
+  - given: Joachim
+    family: Buhmann
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 57-64
+  id: busetto09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 57
+  lastpage: 64
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Online Inference of Topics with Latent Dirichlet Allocation'
+  abstract: 'Inference algorithms for topic models are typically designed to be run over an entire collection of documents after they have been observed. However, in many applications of these models, the collection grows over time, making it infeasible to run batch algorithms repeatedly. This problem can be addressed by using online algorithms, which update estimates of the topics as each document is observed. We introduce two related Rao-Blackwellized online inference algorithms for the latent Dirichlet allocation (LDA) model – incremental Gibbs samplers and particle filters – and compare their runtime and performance to that of existing algorithms.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/canini09a.html
+  PDF: http://proceedings.mlr.press/v5/canini09a/canini09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-canini09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Kevin
+    family: Canini
+  - given: Lei
+    family: Shi
+  - given: Thomas
+    family: Griffiths
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 65-72
+  id: canini09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 65
+  lastpage: 72
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Handling Sparsity via the Horseshoe'
+  abstract: 'This paper presents a general, fully Bayesian framework for sparse supervised-learning problems based on the horseshoe prior. The horseshoe prior is a member of the family of multivariate scale mixtures of normals, and is therefore closely related to widely used approaches for sparse Bayesian learning, including, among others, Laplacian priors (e.g. the LASSO) and Student-t priors (e.g. the relevance vector machine). The advantages of the horseshoe are its robustness at handling unknown sparsity and large outlying signals. These properties are justifed theoretically via a representation theorem and accompanied by comprehensive empirical experiments that compare its performance to benchmark alternatives.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/carvalho09a.html
+  PDF: http://proceedings.mlr.press/v5/carvalho09a/carvalho09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-carvalho09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Carlos M.
+    family: Carvalho
+  - given: Nicholas G.
+    family: Polson
+  - given: James G.
+    family: Scott
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 73-80
+  id: carvalho09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 73
+  lastpage: 80
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Relational Topic Models for Document Networks'
+  abstract: 'We develop the relational topic model (RTM), a model of documents and the links between them. For each pair of documents, the RTM models their link as a binary random variable that is conditioned on their contents. The model can be used to summarize a network of documents, predict links between them, and predict words within them. We derive efficient inference and learning algorithms based on variational methods and evaluate the predictive performance of the RTM for large networks of scientific abstracts and web documents.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/chang09a.html
+  PDF: http://proceedings.mlr.press/v5/chang09a/chang09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-chang09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Jonathan
+    family: Chang
+  - given: David
+    family: Blei
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 81-88
+  id: chang09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 81
+  lastpage: 88
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Probabilistic Models for Incomplete Multi-dimensional Arrays'
+  abstract: 'In multiway data, each sample is measured by multiple sets of  correlated attributes. We develop a probabilistic framework for  modeling structural dependency from partially observed  multi-dimensional array data, known as pTucker. Latent components  associated with individual array dimensions are jointly retrieved  while the core tensor is integrated out. The resulting algorithm  is capable of handling large-scale data sets. We verify the  usefulness of this approach by comparing against classical models  on applications to modeling amino acid fluorescence, collaborative  filtering and a number of benchmark multiway array data.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/chu09a.html
+  PDF: http://proceedings.mlr.press/v5/chu09a/chu09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-chu09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Wei
+    family: Chu
+  - given: Zoubin
+    family: Ghahramani
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 89-96
+  id: chu09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 89
+  lastpage: 96
+  published: 2009-04-15 00:00:00 +0000
+- title: 'On Partitioning Rules for Bipartite Ranking'
+  abstract: 'The purpose of this paper is to investigate the  properties of partitioning scoring rules in the  bipartite ranking setup. We focus on ranking rules based on scoring functions. General sufficient conditions for the AUC consistency of scoring functions that are constant on cells of a partition of the feature space are provided.  Rate bounds are obtained for cubic  histogram scoring rules under mild smoothness  assumptions on the regression function.  In this setup, it is shown how to penalize the  empirical AUC criterion in order to select a  scoring rule nearly as good as the one that  can be built when the degree of smoothness  of the regression function is known.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/clemencon09a.html
+  PDF: http://proceedings.mlr.press/v5/clemencon09a/clemencon09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-clemencon09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Stephan
+    family: Clemencon
+  - given: Nicolas
+    family: Vayatis
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 97-104
+  id: clemencon09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 97
+  lastpage: 104
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Gaussian Margin Machines'
+  abstract: 'We introduce Gaussian Margin Machines   (GMMs), which maintain a Gaussian distribution over weight vectors for binary classification. The learning algorithm for these machines   seeks the least informative distribution that will   classify the training data correctly with high   probability. One formulation can be expressed   as a convex constrained optimization problem   whose solution can be represented linearly   in terms of training instances and their inner   and outer products, supporting kernelization.   The algorithm has a natural PAC-Bayesian   generalization bound. A preliminary evaluation   on handwriting recognition data shows that our   algorithm improves over SVMs for the same   task.   methods, we maintain a distribution over alternative weight   vectors, rather than committing to a single specific one. However, these distributions are not derived by Bayes? rule.   Instead, they represent our knowledge of the weights given constraints imposed by the training examples. Specifically, we use a Gaussian distribution over weight vectors with   mean and covariance parameters that are learned from the training data. The learning algorithm seeks for a distribution with a small Kullback-Leibler (KL) divergence from a   ﬁxed isotropic distribution, such that each training example is correctly classified by a strict majority of the weight   vectors. Conceptually, this is a large-margin probabilistic   principle, instead of the geometric large margin principle   in SVMs.   The learning problem for GMMs can be expressed as a   convex constrained optimization, and its optimal solution'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/crammer09a.html
+  PDF: http://proceedings.mlr.press/v5/crammer09a/crammer09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-crammer09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Koby
+    family: Crammer
+  - given: Mehryar
+    family: Mohri
+  - given: Fernando
+    family: Pereira
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 105-112
+  id: crammer09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 105
+  lastpage: 112
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning Thin Junction Trees via Graph Cuts'
+  abstract: 'Structure learning algorithms usually focus on  the compactness of the learned model. However,  compact representation does not imply the existence  of tractable inference algorithms: both exact  and approximate inference may still be NP-hard.  This focus on compactness leads to learning  good models that require approximate inference  techniques, thus reducing their prediction  quality. In this paper, we propose a method for  learning an attractive class of models: bounded treewidth  junction trees. Those models permit  both compact representation of probability distributions  and efficient exact inference.  Our method uses a new global criterion to construct  the tree. Our criterion, based on a Bethe  approximation of the likelihood, transforms the  structure learning problem into an intuitive graph  theoretical task.  We present an efficient randomized algorithm  with theoretical guarantees for finding good separators.  We recursively apply this procedure to  obtain a thin junction tree. Our extensive empirical  evaluation demonstrates the benefit of applying  exact inference using our models to answer  queries. We also extend our technique to learn  low tree-width conditional random fields, and  demonstrate significant improvements over state  of the art block-L1 regularization techniques.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/dafna09a.html
+  PDF: http://proceedings.mlr.press/v5/dafna09a/dafna09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-dafna09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Shahaf
+    family: Dafna
+  - given: Carlos
+    family: Guestrin
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 113-120
+  id: dafna09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 113
+  lastpage: 120
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Matching Pursuit Kernel Fisher Discriminant Analysis'
+  abstract: 'We derive a novel sparse version of Kernel Fisher Discriminant Analysis (KFDA) using an approach based on Matching Pursuit (MP). We call this algorithm Matching Pursuit Kernel Fisher Discriminant Analysis (MPKFDA). We provide generalisation error bounds analogous to those constructed for the Robust Minimax algorithm together with a sample compression bounding technique. We present experimental results on real world datasets, which show that MPKFDA is competitive with the KFDA and the SVM on UCI datasets, and additional experiments that show that the MPKFDA on average outperforms KFDA and SVM in extremely high dimensional settings.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/diethe09a.html
+  PDF: http://proceedings.mlr.press/v5/diethe09a/diethe09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-diethe09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Tom
+    family: Diethe
+  - given: Zakria
+    family: Hussain
+  - given: David
+    family: Hardoon
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 121-128
+  id: diethe09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 121
+  lastpage: 128
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Statistical and Computational Tradeoffs in Stochastic Composite Likelihood'
+  abstract: 'Maximum likelihood estimators are often of limited practical use due to the intensive computation they require. We propose a family of alternative estimators that maximize a stochastic variation of the composite likelihood function. We prove the consistency of the estimators, provide formulas for their asymptotic variance and computational complexity, and discuss experimental results in the context of Boltzmann machines and conditional random fields. The theoretical and experimental studies demonstrate the effectiveness of the estimators in achieving a predefined balance between computational complexity and statistical accuracy.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/dillon09a.html
+  PDF: http://proceedings.mlr.press/v5/dillon09a/dillon09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-dillon09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Joshua
+    family: Dillon
+  - given: Guy
+    family: Lebanon
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 129-136
+  id: dillon09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 129
+  lastpage: 136
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Variational Inference for the Indian Buffet Process'
+  abstract: 'The Indian Buffet Process (IBP) is a nonparametric prior for latent feature models in which observations are influenced by a combination of several hidden features.  For example, images may be composed of several objects or sounds may consist of several notes.  Latent feature models seek to infer what these latent features from a set of observations. Current inference methods for the IBP have all relied on sampling.  While these methods are guaranteed to be accurate in the limit, in practice, samplers for the IBP tend to mix slow.  We develop a deterministic variational method for the IBP.  We provide theoretical guarantees on its truncation bounds and demonstrate its superior performance for high dimensional data sets.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/doshi09a.html
+  PDF: http://proceedings.mlr.press/v5/doshi09a/doshi09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-doshi09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Finale
+    family: Doshi
+  - given: Kurt
+    family: Miller
+  - given: Jurgen Van
+    family: Gael
+  - given: Yee Whye
+    family: Teh
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 137-144
+  id: doshi09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 137
+  lastpage: 144
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Choosing a Variable to Clamp'
+  abstract: 'In this paper we propose an algorithm for  approximate inference on graphical models  based on belief propagation (BP). Our algorithm  is an approximate version of Cutset  Conditioning, in which a set of variables is  instantiated to make the rest of the graph  singly connected. We relax the constraint  of single-connectedness, and select variables  one at a time for conditioning, running belief  propagation after each selection. We consider  the problem of determining the best variable  to clamp at each level of recursion, and  propose a fast heuristic which applies backpropagation  to the BP updates. We demonstrate  that the heuristic performs better than  selecting variables at random, and give experimental  results which show that it performs  competitively with existing approximate inference  algorithms.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/eaton09a.html
+  PDF: http://proceedings.mlr.press/v5/eaton09a/eaton09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-eaton09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Frederik
+    family: Eaton
+  - given: Zoubin
+    family: Ghahramani
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 145-152
+  id: eaton09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 145
+  lastpage: 152
+  published: 2009-04-15 00:00:00 +0000
+- title: 'The Difficulty of Training Deep Architectures and the Effect of Unsupervised Pre-Training'
+  abstract: 'Whereas theoretical work suggests that deep architectures might be more efficient at representing highly-varying functions, training deep architectures  was unsuccessful until the recent advent of algorithms based on unsupervised pre-training. Even though these new algorithms have enabled training deep models, many questions remain as to the nature of this difficult learning problem. Answering these questions is important if learning in deep architectures is to be further improved. We attempt to shed some light on these questions through extensive simulations. The experiments confirm and clarify the advantage of unsupervised pre-training. They demonstrate the robustness of the training procedure with respect to the random initialization, the positive  effect of pre-training in terms of optimization and its role as a kind of regularizer. We show the influence of architecture depth, model capacity, and number of training examples.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/erhan09a.html
+  PDF: http://proceedings.mlr.press/v5/erhan09a/erhan09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-erhan09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Dumitru
+    family: Erhan
+  - given: Pierre-Antoine
+    family: Manzagol
+  - given: Yoshua
+    family: Bengio
+  - given: Samy
+    family: Bengio
+  - given: Pascal
+    family: Vincent
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 153-160
+  id: erhan09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 153
+  lastpage: 160
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Semi-Supervised Affinity Propagation with Instance-Level Constraints'
+  abstract: 'Recently, affinity propagation (AP) was introduced  as an unsupervised learning algorithm for  exemplar based clustering. Here we extend the  AP model to account for semi-supervised clustering.  AP, which is formulated as inference in  a factor-graph, can be naturally extended to account  for `instance-level’ constraints: pairs of  data points that cannot belong to the same cluster  (cannot-link), or must belong to the same cluster  (must-link). We present a semi-supervised AP algorithm  (SSAP) that can use instance-level constraints  to guide the clustering. We demonstrate  the applicability of SSAP to interactive image  segmentation by using SSAP to cluster superpixels  while taking into account user instructions regarding  which superpixels belong to the same object.  We demonstrate SSAP can achieve better  performance compared to other semi-supervised  methods.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/givoni09a.html
+  PDF: http://proceedings.mlr.press/v5/givoni09a/givoni09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-givoni09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Inmar
+    family: Givoni
+  - given: Brendan
+    family: Frey
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 161-168
+  id: givoni09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 161
+  lastpage: 168
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Multi-Manifold Semi-Supervised Learning'
+  abstract: 'We study semi-supervised learning when the data consists of multiple intersecting manifolds.  We give a finite sample analysis to quantify the potential gain of using unlabeled data in this multi-manifold setting.  We then propose a semi-supervised learning algorithm that separates different manifolds into decision sets, and performs supervised learning within each set.  Our algorithm involves a novel application of Hellinger distance and size-constrained spectral clustering.  Experiments demonstrate the benefit of our multi-manifold semi-supervised learning approach.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/goldberg09a.html
+  PDF: http://proceedings.mlr.press/v5/goldberg09a/goldberg09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-goldberg09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrew
+    family: Goldberg
+  - given: Xiaojin
+    family: Zhu
+  - given: Aarti
+    family: Singh
+  - given: Zhiting
+    family: Xu
+  - given: Robert
+    family: Nowak
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 169-176
+  id: goldberg09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 169
+  lastpage: 176
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Residual Splash for Optimally Parallelizing Belief Propagation'
+  abstract: 'As computer architectures move towards parallelism we must build a    new theoretical understanding of parallelism in machine learning.    In this paper we focus on parallelizing message passing inference    algorithms in graphical models. We develop a theoretical    understanding of the limitations of parallelism in belief    propagation and bound the optimal achievable running parallel    performance on a certain class of graphical models.  We demonstrate    that the fully synchronous parallelization of belief propagation is    highly inefficient.  We provide a new parallel belief propagation    which achieves optimal performance on a certain class of graphical    models.  Using two challenging real-world problems, we empirically    evaluate the performance of our algorithm. On the real-world    problems, we find that our new algorithm achieves near linear    performance improvements and out performs alternative parallel    belief propagation algorithms.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/gonzalez09a.html
+  PDF: http://proceedings.mlr.press/v5/gonzalez09a/gonzalez09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-gonzalez09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph
+    family: Gonzalez
+  - given: Yucheng
+    family: Low
+  - given: Carlos
+    family: Guestrin
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 177-184
+  id: gonzalez09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 177
+  lastpage: 184
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Sparse Probabilistic Principal Component Analysis'
+  abstract: 'Principal component analysis (PCA) is a  popular dimensionality reduction algorithm.  However, it is not easy to interpret which of  the original features are important based on  the principal components. Recent methods improve interpretability by sparsifying PCA through adding an $L_1$ regularizer. In this paper,  we introduce a probabilistic formulation  for sparse PCA. By presenting sparse PCA  as a probabilistic Bayesian formulation, we  gain the benefit of automatic model selection.  We examine three different priors for achieving  sparsification: (1) a two-level hierarchical prior equivalent to a Laplacian distribution and consequently to an $L_1$ regularization, (2) an inverse-Gaussian prior, and (3) a Jeffrey’s prior. We learn these models by applying variational inference. Our experiments verify that indeed our sparse probabilistic model  results in a sparse PCA solution.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/guan09a.html
+  PDF: http://proceedings.mlr.press/v5/guan09a/guan09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-guan09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yue
+    family: Guan
+  - given: Jennifer
+    family: Dy
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 185-192
+  id: guan09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 185
+  lastpage: 192
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Visualization Databases for the Analysis of Large Complex Datasets'
+  abstract: 'Comprehensive visualization that preserves the information in a large complex dataset requires a visualization database (VDB): many displays, some with many pages, and with one or more panels per page. A single display using a specific display method results from partitioning the data into subsets, sampling the subsets, and applying the method to each sample, typically one per panel. The time of the analyst to generate a display is not increased by choosing a large sample over a small one. Displays and display viewers can be designed to allow rapid scanning. Often, it is not necessary to view every page of a display. VDBs, already successful just with off-the-shelf tools, can be greatly improved by research that rethinks all of the areas of data visualization in the context of VDBs.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/guha09a.html
+  PDF: http://proceedings.mlr.press/v5/guha09a/guha09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-guha09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Saptarshi
+    family: Guha
+  - given: Paul
+    family: Kidwell
+  - given: Ryan P.
+    family: Hafen
+  - given: William S.
+    family: Cleveland
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 193-200
+  id: guha09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 193
+  lastpage: 200
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Active Learning as Non-Convex Optimization'
+  abstract: 'We propose a new view of active learning algorithms as optimization. We show that many online active learning algorithms can be viewed as stochastic gradient descent on non-convex objective functions. Variations of some of these algorithms and objective functions have been previously proposed without noting this connection.  We also point out a connection between the standard min-margin offline active learning algorithm and non-convex losses.  Finally, we discuss and show empirically how viewing active learning as non-convex loss minimization helps explain two previously observed phenomena: certain active learning algorithms achieve better generalization error than passive learning algorithms on certain data sets and on other data sets many active learning algorithms are prone to local minima.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/guillory09a.html
+  PDF: http://proceedings.mlr.press/v5/guillory09a/guillory09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-guillory09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrew
+    family: Guillory
+  - given: Erick
+    family: Chastain
+  - given: Jeff
+    family: Bilmes
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 201-208
+  id: guillory09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 201
+  lastpage: 208
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Network Completion and Survey Sampling'
+  abstract: 'We study the problem of learning the topology of an undirected network  by observing a random subsample.  Specifically, the sample is chosen by  randomly selecting a fixed number of vertices, and for each we are allowed  to observe all edges it is incident with.  We analyze a general formalization  of learning from such samples, and derive confidence bounds on the number  of differences between the true and learned topologies, as a function of  the number of observed mistakes and the algorithm’s bias.  In addition to this  general analysis, we also analyze a variant of the problem under a stochastic  block model assumption.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/hanneke09a.html
+  PDF: http://proceedings.mlr.press/v5/hanneke09a/hanneke09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-hanneke09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Steve
+    family: Hanneke
+  - given: Eric P.
+    family: Xing
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 209-215
+  id: hanneke09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 209
+  lastpage: 215
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Distilled sensing: selective sampling for sparse signal recovery'
+  abstract: 'A selective sampling methodology called Distilled Sensing (DS) is proposed for recovering sparse signals in noise.  DS exploits the fact that it is often easier to rule out locations that do not contain signal than it is to detect the locations of non-zero signal components.  We formalize this observation and use it to devise a sequential selective sensing strategy that focuses sensing/measurement resources towards the signal subspace.  This adaptivity in sensing results in rather surprising gains in sparse signal recovery compared to non-adaptive sensing.  We show that exponentially weaker sparse signals can be recovered via DS compared with conventional non-adaptive sensing.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/haupt09a.html
+  PDF: http://proceedings.mlr.press/v5/haupt09a/haupt09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-haupt09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Jarvis
+    family: Haupt
+  - given: Rui
+    family: Castro
+  - given: Robert
+    family: Nowak
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 216-223
+  id: haupt09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 216
+  lastpage: 223
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Infinite Hierarchical Hidden Markov Models'
+  abstract: 'In this paper we present the Infinite Hierarchical Hidden Markov Model (IHHMM), a nonparametric generalization of Hierarchical Hidden Markov Models (HHMMs). HHMMs have been used for modeling sequential data in applications such as speech recognition, detecting topic transitions in video and extracting information from text. The IHHMM provides more flexible modeling of sequential data by allowing a potentially unbounded number of levels in the hierarchy, instead of requiring the specification of a fixed hierarchy depth.  Inference and learning are performed efficiently using Gibbs sampling and a modified forward-backtrack algorithm. We show encouraging demonstrations of the workings of the IHHMM.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/heller09a.html
+  PDF: http://proceedings.mlr.press/v5/heller09a/heller09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-heller09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Katherine
+    family: Heller
+  - given: Yee Whye
+    family: Teh
+  - given: Dilan
+    family: Gorur
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 224-231
+  id: heller09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 224
+  lastpage: 231
+  published: 2009-04-15 00:00:00 +0000
+- title: 'An Expectation Maximization Algorithm for Continuous Markov Decision Processes with Arbitrary Reward'
+  abstract: 'We derive a new expectation maximization algorithm for policy optimization in  linear Gaussian Markov decision processes, where the reward function is  parameterised in terms of a flexible mixture of Gaussians. This approach  exploits both analytical tractability and numerical optimization. Consequently,  on the one hand, it is more flexible and general than closed-form solutions,  such as the widely used linear quadratic Gaussian (LQG) controllers. On the  other hand, it is more accurate and faster than optimization methods that rely  on approximation and simulation. Partial analytical solutions (though costly)  eliminate the need for simulation and, hence, avoid approximation error. The  experiments will show that for the same cost of computation, policy  optimization methods that rely on analytical tractability have higher value  than the ones that rely on simulation.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/hoffman09a.html
+  PDF: http://proceedings.mlr.press/v5/hoffman09a/hoffman09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-hoffman09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthew
+    family: Hoffman
+  - given: Nando
+    family: Freitas
+  - given: Arnaud
+    family: Doucet
+  - given: Jan
+    family: Peters
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 232-239
+  id: hoffman09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 232
+  lastpage: 239
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Maximum Entropy Density Estimation with Incomplete Presence-Only Data'
+  abstract: 'We demonstrate a generalization of Maximum Entropy Density Estimation that elegantly handles incomplete presence-only data. We provide a formulation that is able to learn from known values of incomplete data without having to learn imputed values, which may be inaccurate. This saves the effort needed to perform accurate imputation while observing the principle of maximum entropy throughout the learning process. We provide analysis and examples of our algorithm under different settings of missing data.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/huang09a.html
+  PDF: http://proceedings.mlr.press/v5/huang09a/huang09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-huang09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Bert
+    family: Huang
+  - given: Ansaf
+    family: Salleb-Aouissi
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 240-247
+  id: huang09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 240
+  lastpage: 247
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Exploiting Probabilistic Independence for Permutations'
+  abstract: 'Permutations are ubiquitous in many real  world problems, such as voting, rankings  and data association.   Representing  uncertainty over permutations is  challenging, since there are n!  possibilities. Recent Fourier-based  approaches can be used to provide a compact representation  over low-frequency components of the distribution. Though polynomial,  the complexity of these representations grows very rapidly, especially  if we want to maintain reasonable estimates for peaked distributions.   In this paper, we first characterize the notion of probabilistic independence   for  distribution over permutations.   We then present a method for factoring distributions into  independent components in the Fourier domain,  and use our algorithms to decompose large  problems into much smaller ones.  We demonstrate that our method provides very significant improvements  in terms of running time, on real tracking data.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/huang09b.html
+  PDF: http://proceedings.mlr.press/v5/huang09b/huang09b.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-huang09b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Jonathan
+    family: Huang
+  - given: Carlos
+    family: Guestrin
+  - given: Xiaoye
+    family: Jiang
+  - given: Leonidas
+    family: Guibas
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 248-255
+  id: huang09b
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 248
+  lastpage: 255
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Particle Belief Propagation'
+  abstract: 'The popularity of particle filtering for inference in Markov chain models defined over random variables with very large or continuous domains makes it natural to consider sample–based versions of belief propagation (BP) for more general (tree–structured or loopy) graphs. Already, several such algorithms have been proposed in the literature.  However, many questions remain open about the behavior of particle–based BP algorithms, and little theory has been developed to analyze their performance. In this paper, we describe a generic particle belief propagation (PBP) algorithm which is closely related to previously proposed methods.  We prove that this algorithm is consistent, approaching the true BP messages as the number of samples grows large. We then use concentration bounds to analyze the finite-sample behavior and give a convergence rate for the algorithm on tree–structured graphs. Our convergence rate is $O(1/\sqrt{n})$ where n is the number of samples, independent of the domain size of the variables.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/ihler09a.html
+  PDF: http://proceedings.mlr.press/v5/ihler09a/ihler09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-ihler09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Ihler
+  - given: David
+    family: McAllester
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 256-263
+  id: ihler09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 256
+  lastpage: 263
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Data Biased Robust Counter Strategies'
+  abstract: 'The problem of exploiting information about the environment while still being robust to inaccurate or incomplete information arises in many domains. Competitive imperfect information games where the goal is to maximally exploit an unknown opponent’s weaknesses are an example of this problem.  Agents for these games must balance two objectives.  First, they should aim to exploit data from past interactions with the opponent, seeking a best-response counter strategy.  Second, they should aim to minimize losses since the limited data may be misleading or the opponent’s strategy may have changed, suggesting an opponent-agnostic Nash equilibrium strategy.  In this paper, we show how to partially satisfy both of these objectives at the same time, producing strategies with favorable tradeoffs between the ability to exploit an opponent and the capacity to be exploited.  Like a recently published technique, our approach involves solving a modified game; however the result is more generally applicable and even performs well in situations with very limited data.  We evaluate our technique in the game of two-player, Limit Texas Hold’em.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/johanson09a.html
+  PDF: http://proceedings.mlr.press/v5/johanson09a/johanson09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-johanson09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Johanson
+  - given: Michael
+    family: Bowling
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 264-271
+  id: johanson09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 264
+  lastpage: 271
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Sleeping Experts and Bandits with Stochastic Action Availability and Adversarial Rewards'
+  abstract: 'We consider algorithms for selecting actions in order to maximize rewards chosen by an adversary, where the set of actions available on any given round is selected stochastically. We present the first polynomial-time no-regret algorithms for this setting. In the full-observation (experts) version of the problem, we present an exponential-weights algorithm that achieves regret $\mathcal{O}(\sqrt{T \log n})$, which is the best possible. For the bandit setting (where the algorithm only observes the reward of the action selected), we present a no-regret algorithm based on follow-the-perturbed-leader. This algorithm runs in polynomial time, unlike the EXP4 algorithm which can also be applied to this setting. Our algorithm has the interesting interpretation of solving a geometric experts problem where the embedding in which rewards are linear is never explicitly constructed. We argue that this adversarial-reward, stochastic availability formulation is important in practice, as assuming stationary stochastic rewards is unrealistic in many domains.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/kanade09a.html
+  PDF: http://proceedings.mlr.press/v5/kanade09a/kanade09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-kanade09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Varun
+    family: Kanade
+  - given: H. Brendan
+    family: McMahan
+  - given: Brent
+    family: Bryan
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 272-279
+  id: kanade09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 272
+  lastpage: 279
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Covariance Operator Based Dimensionality Reduction  with Extension to Semi-Supervised Settings'
+  abstract: 'We consider the task of dimensionality reduction for regression (DRR) informed by real-valued multivariate labels. The problem is often treated as a regression task where the goal is to find a low dimensional representation of the input data that preserves the statistical correlation with the targets. Recently, Covariance Operator Inverse Regression (COIR) was proposed as an effective solution that exploits the covariance structures of both input and output. COIR addresses known limitations of recent DRR techniques and allows a closed-form solution without resorting to explicit output space slicing often required by existing IR-based methods. In this work we provide a unifying view of COIR and other DRR techniques and relate them to the popular supervised dimensionality reduction methods including the canonical correlation analysis (CCA) and the linear discriminant analysis (LDA). We then show that COIR can be effectively extended to a semi-supervised learning setting where many of the input points lack their corresponding multivariate targets. A study of benefits of proposed approaches is presented on several important regression problems in both fully-supervised and semi-supervised settings.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/kim09a.html
+  PDF: http://proceedings.mlr.press/v5/kim09a/kim09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-kim09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Minyoung
+    family: Kim
+  - given: Vladimir
+    family: Pavlovic
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 280-287
+  id: kim09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 280
+  lastpage: 287
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Lanczos Approximations for the Speedup of Kernel Partial Least Squares Regression'
+  abstract: 'The runtime for Kernel Partial Least Squares (KPLS) to compute the fit is quadratic in the number of examples. However, the necessity of obtaining sensitivity measures as degrees of freedom for model selection or confidence intervals for more detailed analysis requires cubic runtime, and thus constitutes  a computational bottleneck in real-world data analysis. We propose a novel algorithm for KPLS which not only computes (a) the fit, but also (b) its approximate degrees of freedom and (c) error bars in quadratic runtime. The algorithm exploits a close connection between Kernel PLS and the Lanczos algorithm for approximating the eigenvalues of symmetric matrices, and uses this approximation to compute the trace of powers of the kernel matrix in quadratic runtime.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/kramer09a.html
+  PDF: http://proceedings.mlr.press/v5/kramer09a/kramer09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-kramer09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Nicole
+    family: Kramer
+  - given: Masashi
+    family: Sugiyama
+  - given: Mikio
+    family: Braun
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 288-295
+  id: kramer09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 288
+  lastpage: 295
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Convex Perturbations for Scalable Semidefinite Programming'
+  abstract: 'Many important machine learning problems are modeled and solved via semidefinite programs; examples include metric learning, nonlinear embedding, and certain clustering problems. Often, off-the-shelf software is invoked for the associated optimization, which can be inappropriate due to excessive computational and storage requirements.  In this paper, we introduce the use of convex perturbations for solving semidefinite programs (SDPs), and for a specific perturbation we derive an algorithm that has several advantages over existing techniques: a) it is simple, requiring only a few lines of Matlab, b) it is a first-order method, and thereby scalable, and c) it can easily exploit the structure of a given SDP (e.g., when the constraint matrices are low-rank, a situation common to several machine learning SDPs). A pleasant byproduct of our method is a fast, kernelized version of the large-margin nearest neighbor metric learning algorithm.  We demonstrate that our algorithm is effective in finding fast approximations to large-scale SDPs arising in some machine learning applications.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/kulis09a.html
+  PDF: http://proceedings.mlr.press/v5/kulis09a/kulis09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-kulis09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Brian
+    family: Kulis
+  - given: Suvrit
+    family: Sra
+  - given: Inderjit
+    family: Dhillon
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 296-303
+  id: kulis09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 296
+  lastpage: 303
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Sampling Techniques for the Nystrom Method'
+  abstract: 'The Nystrom method is an efficient technique to generate low-rank matrix   approximations and is used in several large-scale learning applications. A   key aspect of this method is the distribution according to which columns are   sampled from the original matrix.  In this work, we present an analysis of   different sampling techniques for the Nystrom method. Our analysis includes   both empirical and theoretical components. We first present novel experiments   with several real world datasets, comparing the performance of the Nystrom   method when used with uniform versus non-uniform sampling distributions. Our   results suggest that uniform sampling without replacement, in addition to being   more efficient both in time and space, produces more effective approximations.   This motivates the theoretical part of our analysis which gives the first   performance bounds for the Nystrom method precisely when used with uniform   sampling without replacement.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/kumar09a.html
+  PDF: http://proceedings.mlr.press/v5/kumar09a/kumar09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-kumar09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Sanjiv
+    family: Kumar
+  - given: Mehryar
+    family: Mohri
+  - given: Ameet
+    family: Talwalkar
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 304-311
+  id: kumar09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 304
+  lastpage: 311
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Deep Learning using Robust Interdependent Codes'
+  abstract: 'We investigate a simple yet effective method to introduce inhibitory and  excitatory interactions between units in the layers of a deep neural  network classifier. The method is based on the greedy layer-wise procedure  of deep learning algorithms and extends the denoising autoencoder of (Vincent et al., 2008) by adding asymmetric  lateral connections between its hidden coding units, in a manner that is much simpler and  computationally more efficient than previously proposed approaches. We present experiments on two character recognition problems which show for  the first time that lateral connections can significantly improve the  classification performance of deep networks.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/larochelle09a.html
+  PDF: http://proceedings.mlr.press/v5/larochelle09a/larochelle09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-larochelle09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Hugo
+    family: Larochelle
+  - given: Dumitru
+    family: Erhan
+  - given: Pascal
+    family: Vincent
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 312-319
+  id: larochelle09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 312
+  lastpage: 319
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Group Nonnegative Matrix Factorization for EEG Classification'
+  abstract: 'Given EEG data measured from several subjects under the same condition,  our goal is to estimate common task-related bases in a linear model  that capture intra-subject variations as well as inter-subject variations.  Such bases capture the common phenomenon in a group data, which is known as group analysis.  In this paper we present a method of nonnegative matrix factorization (NMF) that  is well suited to analyze EEG data of multiple subjects.  The method is referred to as group nonnegative matrix factorization (GNMF)  where we seek task-related common bases reflecting both intra-subject and  inter-subject variations, as well as bases involving individual characteristics.  We compare GNMF with NMF and some modified NMFs, in a task of learning spectral features  from EEG data. Experiments on BCI competition data indicate that GNMF improves  the EEG classification performance. In addition, we also show that GNMF is useful  in a task of subject-to-subject transfer where the prediction for an unseen subject  is performed based on a linear model learned from different subjects in the same group.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/lee09a.html
+  PDF: http://proceedings.mlr.press/v5/lee09a/lee09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-lee09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Hyekyoung
+    family: Lee
+  - given: Seungjin
+    family: Choi
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 320-327
+  id: lee09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 320
+  lastpage: 327
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Kernel Learning by Unconstrained Optimization'
+  abstract: 'We study the problem of learning a kernel matrix from an  apriori kernel and training data. In this context, we propose a new unconstrained convex optimization formulation, with an  arbitrary convex second-order differentiable loss function on kernel  entries and a LogDet divergence term for regularization. Since the  number of variables is of order $O(n^2)$, the computational cost of  standard Newton and quasi-Newton methods for learning a kernel  matrix is prohibitive. Here an operator form Hessian is  used to develop an $O(n^3)$ trust-region inexact Newton method,  where the Newton direction is computed using several conjugate  gradient steps on the Hessian operator equation. On the uspst  dataset, our algorithm can handle 2 million optimization variables  within one hour. Experiments are shown for both linear (Mahalanobis)  metric learning and for kernel learning. The convergence rate, speed  and performance of several loss functions and algorithms are  discussed.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/li09a.html
+  PDF: http://proceedings.mlr.press/v5/li09a/li09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-li09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Fuxin
+    family: Li
+  - given: Yunshan
+    family: Fu
+  - given: Yu-Hong
+    family: Dai
+  - given: Cristian
+    family: Sminchisescu
+  - given: Jue
+    family: Wang
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 328-335
+  id: li09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 328
+  lastpage: 335
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Latent Wishart Processes for Relational Kernel Learning'
+  abstract: 'In this paper, we propose a novel relational kernel learning model based on  latent Wishart processes (LWP) to learn the kernel function for relational data.  This is done by seamlessly integrating the relational information and the input attributes into the kernel learning process.  Through extensive experiments on diverse real-world applications, we demonstrate that our LWP model can give very promising performance in practice.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/li09b.html
+  PDF: http://proceedings.mlr.press/v5/li09b/li09b.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-li09b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Wu-Jun
+    family: Li
+  - given: Zhihua
+    family: Zhang
+  - given: Dit-Yan
+    family: Yeung
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 336-343
+  id: li09b
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 336
+  lastpage: 343
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Tighter and Convex Maximum Margin Clustering'
+  abstract: 'Maximum margin principle  has been successfully applied to many  supervised and semi-supervised problems in machine learning.  Recently, this principle was extended for clustering, referred to as  Maximum Margin Clustering (MMC) and achieved promising performance  in recent studies. To avoid the problem of local minima, MMC can be  solved globally via convex semi-definite programming (SDP)  relaxation. Although many efficient approaches have been proposed to  alleviate the computational burden of SDP, convex MMCs are still not  scalable for medium data sets. In this paper, we propose a novel  convex optimization method, LG-MMC, which maximizes the margin of  opposite clusters via label generation. It can be shown that LG-MMC  is much more scalable than existing convex approaches. Moreover, we  show that our convex relaxation is tighter than state-of-art convex  MMCs. Experiments on eighteen UCI datasets and MNIST dataset show  significant improvement over existing MMC algorithms.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/li09c.html
+  PDF: http://proceedings.mlr.press/v5/li09c/li09c.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-li09c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yu-Feng
+    family: Li
+  - given: Ivor W.
+    family: Tsang
+  - given: Jame
+    family: Kwok
+  - given: Zhi-Hua
+    family: Zhou
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 344-351
+  id: li09c
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 344
+  lastpage: 351
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning Exercise Policies for American Options'
+  abstract: 'Options are important instruments in modern finance. In this paper, we investigate reinforcement learning (RL) methods—in particular, least-squares policy iteration (LSPI)—for the problem of learning exercise policies for American options. We develop finite-time bounds on the performance of the policy obtained with LSPI and compare LSPI and the fitted Q-iteration algorithm (FQI) with the Longstaff-Schwartz method (LSM), the standard least-squares Monte Carlo algorithm from the finance community. Our empirical results show that the exercise policies discovered by LSPI and FQI gain larger payoffs than those discovered by LSM, on both real and synthetic data. Furthermore, we find that for all methods the policies learned from real data generally gain similar payoffs to the policies learned from simulated data. Our work shows that solution methods developed in machine learning can advance the state-of-the-art in an important and challenging application area, while demonstrating that computational finance remains a promising area for future applications of machine learning methods.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/li09d.html
+  PDF: http://proceedings.mlr.press/v5/li09d/li09d.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-li09d.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuxi
+    family: Li
+  - given: Csaba
+    family: Szepesvari
+  - given: Dale
+    family: Schuurmans
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 352-359
+  id: li09d
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 352
+  lastpage: 359
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning Sparse Markov Network Structure via Ensemble-of-Trees Models'
+  abstract: 'Learning the sparse structure of a general  Markov network is a hard problem. One of the  main difficulties is the computation of its generally  intractable partition function. To circumvent  this difficulty, this paper proposes to learn  the network structure using an ensemble-of-trees  (ET) model. The ET model was first introduced  by Meila and Jaakkola [1], and it approximates  a Markov network using a mixture of all possible  (super-exponentially many) spanning trees.  The advantage of the ET model is that, although  it needs to sum over super-exponentially many  trees, its partition function as well as data likelihood  can be computed in a closed form. Furthermore,  since the ET model tends to represent  a Markov network using as small number  of trees as possible, it provides a natural regularization  for finding a sparse network structure.  Our simulation results show that the proposed  ET approach is able to accurately recover  the true Markov network connectivity and significantly  outperform the state-of-art approaches  for both discrete and continuous random variable  networks. Furthermore, we also demonstrate the  usage of the ET model for discovering the network  of words from blog posts.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/lin09a.html
+  PDF: http://proceedings.mlr.press/v5/lin09a/lin09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-lin09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuanqing
+    family: Lin
+  - given: Shenghuo
+    family: Zhu
+  - given: Daniel
+    family: Lee
+  - given: Ben
+    family: Taskar
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 360-367
+  id: lin09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 360
+  lastpage: 367
+  published: 2009-04-15 00:00:00 +0000
+- title: 'A kernel method for unsupervised structured network inference'
+  abstract: 'Network inference is the problem of inferring edges between a set of  real-world objects, for instance, interactions between pairs of  proteins in bioinformatics.   Current kernel-based approaches to this problem share a set of   common features:   (i) they are supervised and hence require labeled training data; (ii)  edges in the network are treated as mutually independent   and hence topological properties are largely ignored; (iii) they lack  a statistical interpretation.   We argue that these common assumptions are often   undesirable for network inference, and propose (i) an   unsupervised kernel method (ii) that takes the global structure of the   network into account and (iii) is statistically motivated.   We show that our approach can explain commonly used heuristics in  statistical terms.  In experiments on social networks, different variants of our  method demonstrate appealing predictive performance.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/lippert09a.html
+  PDF: http://proceedings.mlr.press/v5/lippert09a/lippert09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-lippert09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Christoph
+    family: Lippert
+  - given: Oliver
+    family: Stegle
+  - given: Zoubin
+    family: Ghahramani
+  - given: Karsten
+    family: Borgwardt
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 368-375
+  id: lippert09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 368
+  lastpage: 375
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Estimation Consistency of the Group Lasso and its Applications'
+  abstract: 'We extend the $\ell_2$-consistency result of (Meinshausen and Yu 2008) from the Lasso to  the group Lasso. Our main theorem shows that the group Lasso  achieves estimation consistency under a mild condition and an asymptotic upper bound on the number of selected variables can be obtained.  As a result, we can apply the nonnegative garrote procedure to the group Lasso result to obtain an estimator which is simultaneously  estimation  and variable selection consistent.  In particular,  our setting allows both the number of groups and the number of variables per  group increase and thus is applicable to high-dimensional problems.  We also provide   estimation consistency analysis for a version of the sparse additive models with increasing dimensions. Some finite-sample results are also reported.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/liu09a.html
+  PDF: http://proceedings.mlr.press/v5/liu09a/liu09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-liu09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Han
+    family: Liu
+  - given: Jian
+    family: Zhang
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 376-383
+  id: liu09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 376
+  lastpage: 383
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning a Parametric Embedding by Preserving Local Structure'
+  abstract: 'The paper presents a new unsupervised dimensionality reduction technique, called parametric t-SNE, that learns a parametric mapping between the high-dimensional data space and the low-dimensional latent space. Parametric t-SNE learns the parametric mapping in such a way that the local structure of the data is preserved as well as possible in the latent space.  We evaluate the performance of parametric t-SNE in experiments on two datasets, in which we compare it to the performance of two other unsupervised parametric dimensionality reduction techniques. The results of experiments illustrate the strong performance of parametric t-SNE, in particular, in learning settings in which the dimensionality of the latent space is relatively low.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/maaten09a.html
+  PDF: http://proceedings.mlr.press/v5/maaten09a/maaten09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-maaten09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Laurens
+    family: van der Maaten
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 384-391
+  id: maaten09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 384
+  lastpage: 391
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Tractable Search for Learning Exponential Models of Rankings'
+  abstract: 'We consider the problem of learning the Generalized Mallows (GM) model  of [Fligner and Verducci, 1986], which represents a probability distribution over all  possible permutations (aka rankings) of a given set of objects. The  training data consists of a set of permutations. This problem  generalizes the well known rank aggregation problem. Maximum  Likelihood estimation of the GM model is NP-hard. An exact but  inefficient search-based method was recently proposed for this  problem. Here we introduce the first non-trivial heuristic function  for this search. We justify it theoretically, and show why it is  admissible in practice. We experimentally demonstrate its  effectiveness, and show that it is superior to existing techniques for  learning the GM model. We also show good performance of a family of  faster approximate methods of search.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/mandhani09a.html
+  PDF: http://proceedings.mlr.press/v5/mandhani09a/mandhani09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-mandhani09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Bhushan
+    family: Mandhani
+  - given: Marina
+    family: Meila
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 392-399
+  id: mandhani09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 392
+  lastpage: 399
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Exact and Approximate Sampling by Systematic Stochastic Search'
+  abstract: 'We introduce _adaptive sequential rejection sampling_, an  algorithm for generating exact samples from high-dimensional, discrete  distributions, building on ideas from classical AI search. Just as  systematic search algorithms like A* recursively build complete  solutions from partial solutions, sequential rejection sampling  recursively builds exact samples over high-dimensional spaces from  exact samples over lower-dimensional subspaces. Our algorithm recovers  widely-used particle filters as an approximate variant without  adaptation, and a randomized version of the directed arc consistency  algorithm with backtracking when applied to deterministic problems. In  this paper, we present the mathematical and algorithmic underpinnings  of our approach and measure its behavior on ferromagnetic Isings and  other probabilistic graphical models, obtaining exact and approximate  samples in a range of situations.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/mansinghka09a.html
+  PDF: http://proceedings.mlr.press/v5/mansinghka09a/mansinghka09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-mansinghka09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Vikash
+    family: Mansinghka
+  - given: Daniel
+    family: Roy
+  - given: Eric
+    family: Jonas
+  - given: Joshua
+    family: Tenenbaum
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 400-407
+  id: mansinghka09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 400
+  lastpage: 407
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Spanning Tree Approximations for Conditional Random Fields'
+  abstract: 'In this work we show that one can train Conditional Random Fields of intractable graphs effectively and efficiently by considering a mixture of random spanning trees of the underlying graphical model. Furthermore, we show how a maximum-likelihood estimator of such a training objective can subsequently be used for prediction on the full graph. We present experimental results which improve on the state-of-the-art. Additionally, the training objective is less sensitive to the regularization than pseudo-likelihood based training approaches. We perform the experimental validation on two classes of data sets where structure is important: image denoising and multilabel classification.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/pletscher09a.html
+  PDF: http://proceedings.mlr.press/v5/pletscher09a/pletscher09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-pletscher09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Patrick
+    family: Pletscher
+  - given: Cheng Soon
+    family: Ong
+  - given: Joachim
+    family: Buhmann
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 408-415
+  id: pletscher09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 408
+  lastpage: 415
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Chromatic PAC-Bayes Bounds for Non-IID Data'
+  abstract: 'PAC-Bayes bounds are among the most accurate generalization bounds for classifiers learned with IID data, and it    is particularly so for margin classifiers.  However, there are many    practical cases where the training data show some dependencies and    where the traditional IID assumption does not apply. Stating    generalization bounds for such frameworks is therefore of the utmost    interest, both from theoretical and practical standpoints. In this work, we propose the first – to the best of our knowledge –  PAC-Bayes generalization bounds for classifiers trained on data    exhibiting dependencies. The approach undertaken to establish our    results is based on the decomposition of a so-called dependency    graph that encodes the dependencies within the data, in sets of    independent data, through the tool of graph fractional covers.  Our    bounds are very general, since being able to find an upper bound on    the (fractional) chromatic number of the dependency graph is    sufficient to get new PAC-Bayes bounds for specific settings. We show how our results can be used to derive bounds for bipartite    ranking and windowed prediction on sequential data.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/ralaivola09a.html
+  PDF: http://proceedings.mlr.press/v5/ralaivola09a/ralaivola09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-ralaivola09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Liva
+    family: Ralaivola
+  - given: Marie
+    family: Szafranski
+  - given: Guillaume
+    family: Stempfel
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 416-423
+  id: ralaivola09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 416
+  lastpage: 423
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Inverse Optimal Heuristic Control for Imitation Learning'
+  abstract: 'Imitation learning is an increasingly important tool for both developing  automatic decision making systems as well as for learning to predict  decision-making and behavior by observation. Two basic approaches are common:  the first, which we here term behavioral cloning (BC)\citeBehavioralCloning,ALVINN,DAVE, treats the imitation learning problem  as a straightforward one of supervised learning (e.g. classification) where the  goal is to map observations to controls.  Secondly, the notion of inverse optimal control (IOC) \citeBoydIOC,ng00irl,Abbeel04c,mmp06 for  modeling   such decision making behavior has gained prominence as it allows for learned   decision-making that reasons sequentially and over a long horizon.  Unfortunately, such inverse optimal control methods rely upon the ability to   efficiently solve a planning problem and suffer from the usual “curse of  dimensionality” when the state space gets large. This paper presents a novel  approach to imitation learning that we call Inverse Optimal Heuristic Control (IOHC) which capitalizes on the strengths of both paradigms by  allowing long-horizon, planning style reasoning in a low dimensional space,  while enabling a high dimensional additional set of features to guide overall  action selection.  We frame this combined problem as one of optimization, and  although the resulting objective function is actually non-convex, we are able  to provide convex upper and lower bounds to optimize as surrogates. Further,  these bounds, as well as our empirical results, show that the objective   function is nearly convex and leads to improved performance on a set of  imitation learning problems including turn prediction of drivers as well as  predicting the likely paths taken by pedestrians in an office environment.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/ratliff09a.html
+  PDF: http://proceedings.mlr.press/v5/ratliff09a/ratliff09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-ratliff09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Nathan
+    family: Ratliff
+  - given: Brian
+    family: Ziebart
+  - given: Kevin
+    family: Peterson
+  - given: J. Andrew
+    family: Bagnell
+  - given: Martial
+    family: Hebert
+  - given: Anind K.
+    family: Dey
+  - given: Siddhartha
+    family: Srinivasa
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 424-431
+  id: ratliff09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 424
+  lastpage: 431
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Learning the Switching Rate by Discretising Bernoulli Sources Online'
+  abstract: 'The expert tracking algorithm Fixed-Share  depends on a parameter alpha, called the switching rate. If the final number of outcomes $T$ is known in advance, then the switching rate can be learned with regret $\frac{1}{2} \log T + O(1)$ bits. The current fastest method that  achieves this, Learn-alpha, is based on optimal  discretisation of the Bernoulli distributions into $O(\sqrt{T})$ bins and runs in $(T\sqrt{T})$ time; however the exact locations of these points  have to be determined algorithmically.    This paper introduces a new discretisation  scheme with the same regret bound for  known $T$, that specifies the number and positions of the discretisation points explicitly. The scheme is especially useful when $T$ is not known in advance: a new fully online algorithm, Refine-Online, is presented, which  runs in $O(T \sqrt{T} \log T)$ time and achieves a  regret of $\frac{1}{2} \log 3 \log T + O(\log \log T)$ bits.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/rooij09a.html
+  PDF: http://proceedings.mlr.press/v5/rooij09a/rooij09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-rooij09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Steven
+    family: Rooij
+  - given: Tim
+    family: Erven
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 432-439
+  id: rooij09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 432
+  lastpage: 439
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Sequential Learning of Classifiers for Structured Prediction Problems'
+  abstract: 'Many classification problems with structured outputs can be regarded as a set of interrelated sub-problems where constraints  dictate valid variable assignments.  The standard approaches to these problems include either independent learning of individual classifiers for each of the sub-problems or joint learning of the entire set of classifiers with the constraints enforced during learning.  We propose an intermediate approach where we learn these classifiers in a sequence using previously learned classifiers to guide learning of the next classifier by enforcing constraints between their outputs. We provide a theoretical motivation to explain why this learning protocol is expected to outperform both alternatives when individual problems have different ‘complexity’. This analysis motivates an algorithm for choosing a preferred order of classifier learning. We evaluate our technique on artificial experiments and on the entity and relation identification problem where the proposed method  outperforms both joint and independent learning.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/roth09a.html
+  PDF: http://proceedings.mlr.press/v5/roth09a/roth09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-roth09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Dan
+    family: Roth
+  - given: Kevin
+    family: Small
+  - given: Ivan
+    family: Titov
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 440-447
+  id: roth09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 440
+  lastpage: 447
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Deep Boltzmann Machines'
+  abstract: 'We present a new learning algorithm for Boltzmann machines that contain many layers of hidden variables. Data-dependent expectations are estimated using a variational approximation that tends to focus on a single mode, and data-independent expectations are approximated using persistent Markov chains. The use of two quite different techniques for estimating the two types of expectation that enter into the gradient of the log-likelihood makes it practical to learn Boltzmann machines with multiple hidden layers and millions of parameters. The learning can be made more efficient by using a layer-by-layer “pre-training” phase that allows variational inference to be initialized by a single bottom-up pass. We present results on the MNIST and NORB datasets showing that deep Boltzmann machines learn good generative models and perform well on handwritten digit and visual object recognition tasks.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/salakhutdinov09a.html
+  PDF: http://proceedings.mlr.press/v5/salakhutdinov09a/salakhutdinov09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-salakhutdinov09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Ruslan
+    family: Salakhutdinov
+  - given: Geoffrey
+    family: Hinton
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 448-455
+  id: salakhutdinov09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 448
+  lastpage: 455
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-Newton Algorithm'
+  abstract: 'An optimization algorithm for minimizing a smooth function over a    convex set is described.  Each iteration of the method computes a    descent direction by minimizing, over the original constraints, a    diagonal plus low-rank quadratic approximation to the function.  The    quadratic approximation is constructed using a limited-memory    quasi-Newton update.  The method is suitable for large-scale    problems where evaluation of the function is substantially more    expensive than projection onto the constraint set.  Numerical    experiments on one-norm regularized test problems indicate that the    proposed method is competitive with state-of-the-art methods such as    bound-constrained L-BFGS and orthant-wise descent. We further show    that the method generalizes to a wide class of problems, and     substantially improves on state-of-the-art methods for problems such    as learning the structure of Gaussian graphical models and Markov random    fields.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/schmidt09a.html
+  PDF: http://proceedings.mlr.press/v5/schmidt09a/schmidt09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-schmidt09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Mark
+    family: Schmidt
+  - given: Ewout
+    family: Berg
+  - given: Michael
+    family: Friedlander
+  - given: Kevin
+    family: Murphy
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 456-463
+  id: schmidt09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 456
+  lastpage: 463
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Novelty detection: Unlabeled data definitely help'
+  abstract: 'In machine learning, one formulation of the novelty detection problem is  to build a detector based on a training sample consisting of only nominal  data. The standard (inductive) approach to this problem has been to  declare novelties where the nominal density is low, which reduces the  problem to density level set estimation. In this paper, we consider the  setting where an unlabeled and possibly contaminated sample is also  available at learning time. We argue that novelty detection is naturally  solved by a general reduction to a binary classification problem. In  particular, a detector with a desired false positive rate can be achieved  through a reduction to Neyman-Pearson classification. Unlike the inductive  approach, our approach yields detectors that are optimal (e.g.,  statistically consistent) regardless of the distribution on novelties.  Therefore, in novelty detection, unlabeled data have a substantial impact  on the theoretical properties of the decision rule.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/scott09a.html
+  PDF: http://proceedings.mlr.press/v5/scott09a/scott09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-scott09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Clayton
+    family: Scott
+  - given: Gilles
+    family: Blanchard
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 464-471
+  id: scott09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 464
+  lastpage: 471
+  published: 2009-04-15 00:00:00 +0000
+- title: 'PAC-Bayesian Generalization Bound for Density Estimation with Application to Co-clustering'
+  abstract: 'We derive a PAC-Bayesian generalization bound for density estimation.  Similar to the PAC-Bayesian generalization bound for classification, the  result has the appealingly simple form of a tradeoff between empirical  performance and the KL-divergence of the posterior from the  prior. Moreover, the PAC-Bayesian generalization bound for  classification can be derived as a special case of the bound for density  estimation.    To illustrate a possible application of our bound we derive a  generalization bound for co-clustering. The bound provides a criterion  to evaluate the ability of co-clustering to predict new co-occurrences,  thus introducing a supervised flavor to this traditionally unsupervised task.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/seldin09a.html
+  PDF: http://proceedings.mlr.press/v5/seldin09a/seldin09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-seldin09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yevgeny
+    family: Seldin
+  - given: Naftali
+    family: Tishby
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 472-479
+  id: seldin09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 472
+  lastpage: 479
+  published: 2009-04-15 00:00:00 +0000
+- title: 'PAC-Bayes Analysis Of Maximum Entropy Classification'
+  abstract: 'We extend and apply the PAC-Bayes theorem to the analysis of maximum entropy learning by considering maximum entropy classification. The theory introduces a multiple sampling technique that controls an effective margin of the bound. We further develop a dual implementation of the convex optimisation that optimises the bound. This algorithm is tested on some simple datasets and the value of the bound compared with the test error.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/shawe-taylor09a.html
+  PDF: http://proceedings.mlr.press/v5/shawe-taylor09a/shawe-taylor09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-shawe-taylor09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: John
+    family: Shawe-Taylor
+  - given: David
+    family: Hardoon
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 480-487
+  id: shawe-taylor09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 480
+  lastpage: 487
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Efficient graphlet kernels for large graph comparison'
+  abstract: 'State-of-the-art  graph kernels do not scale to large graphs with hundreds of nodes and thousands of edges. In this article we propose to compare graphs by counting graphlets, i.e., subgraphs with $k$ nodes where $k \in \{ 3, 4, 5 \}$. Exhaustive enumeration of all graphlets being prohibitively expensive, we introduce two theoretically grounded speedup schemes, one based on sampling and the second one specifically designed for bounded degree graphs. In our experimental evaluation, our novel kernels allow us to efficiently compare large graphs that cannot be tackled by existing graph kernels.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/shervashidze09a.html
+  PDF: http://proceedings.mlr.press/v5/shervashidze09a/shervashidze09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-shervashidze09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Nino
+    family: Shervashidze
+  - given: SVN
+    family: Vishwanathan
+  - given: Tobias
+    family: Petri
+  - given: Kurt
+    family: Mehlhorn
+  - given: Karsten
+    family: Borgwardt
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 488-495
+  id: shervashidze09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 488
+  lastpage: 495
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Hash Kernels'
+  abstract: 'We propose hashing to facilitate efficient kernels. This generalizes    previous work using sampling and we show a principled way to compute    the kernel matrix for data streams and sparse feature    spaces. Moreover, we give deviation bounds from the exact kernel    matrix. This has applications to estimation on strings and graphs.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/shi09a.html
+  PDF: http://proceedings.mlr.press/v5/shi09a/shi09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-shi09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Qinfeng
+    family: Shi
+  - given: James
+    family: Petterson
+  - given: Gideon
+    family: Dror
+  - given: John
+    family: Langford
+  - given: Alex
+    family: Smola
+  - given: Alex
+    family: Strehl
+  - given: S. V. N.
+    family: Vishwanathan
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 496-503
+  id: shi09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 496
+  lastpage: 503
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Locally Minimax Optimal Predictive Modeling with Bayesian Networks'
+  abstract: 'We propose an information-theoretic approach for predictive modeling with Bayesian networks. Our approach is based on the minimax optimal Normalized Maximum Likelihood (NML) distribution, motivated by the MDL principle. In particular, we present a parameter learning method which, together with a previously introduced NML-based model selection criterion, provides a way to construct highly predictive Bayesian network models from data. The method is parameter-free and robust, unlike the currently popular Bayesian marginal likelihood approach which has been shown to be sensitive to the choice of prior hyperparameters. Empirical tests show that the proposed method compares favorably with the Bayesian approach in predictive tasks.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/silander09a.html
+  PDF: http://proceedings.mlr.press/v5/silander09a/silander09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-silander09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Tomi
+    family: Silander
+  - given: Teemu
+    family: Roos
+  - given: Petri
+    family: Myllymäki
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 504-511
+  id: silander09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 504
+  lastpage: 511
+  published: 2009-04-15 00:00:00 +0000
+- title: 'MCMC Methods for Bayesian Mixtures of Copulas'
+  abstract: 'Applications of copula models have been increasing in number in recent  years. This class of models provides a modular parameterization of  joint distributions: the specification of the marginal distributions  is parameterized separately from the dependence structure of the  joint, a convenient way of encoding a model for domains such as  finance. Some recent advances on how to specify copulas for arbitrary  dimensions have been proposed, by means of mixtures of decomposable  graphical models. This paper introduces a Bayesian approach for  dealing with mixtures of copulas which, due to the lack of prior  conjugacy, raise computational challenges. We motivate and present  families of Markov chain Monte Carlo (MCMC) proposals that exploit the  particular structure of mixtures of copulas. Different algorithms are  evaluated according to their mixing properties, and an application in  financial forecasting with missing data illustrates the usefulness of  the methodology.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/silva09a.html
+  PDF: http://proceedings.mlr.press/v5/silva09a/silva09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-silva09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Ricardo
+    family: Silva
+  - given: Robert
+    family: Gramacy
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 512-519
+  id: silva09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 512
+  lastpage: 519
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Factorial Mixture of Gaussians and the Marginal Independence Model'
+  abstract: 'Marginal independence constraints play an important role in learning  with graphical models. One way of parameterizing a model of marginal  independencies is by building a latent variable model where two  independent observed variables have no common latent source. In sparse  domains, however, it might be advantageous to model the marginal  observed distribution directly, without explicitly including latent  variables in the model. There have been recent advances in Gaussian  and binary models of marginal independence, but no models with  non-linear dependencies between continuous variables has been proposed  so far. In this paper, we describe how to generalize the Gaussian  model of marginal independencies based on mixtures, and how to learn  parameters. This requires a non-standard parameterization and raises  difficult non-linear optimization issues.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/silva09b.html
+  PDF: http://proceedings.mlr.press/v5/silva09b/silva09b.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-silva09b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Ricardo
+    family: Silva
+  - given: Zoubin
+    family: Ghahramani
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 520-527
+  id: silva09b
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 520
+  lastpage: 527
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Tractable Bayesian Inference of Time-Series Dependence Structure'
+  abstract: 'We consider the problem of Bayesian inference over graphical structures describing the interactions among multiple vector time-series. A directed temporal interaction model is presented which assumes a fixed dependence structure among time-series. Using a conjugate prior over this model’s structure and parameters, we focus our attention on characterizing the exact posterior uncertainty in the structure given data. The model is extended via the introduction of a dynamically evolving latent variable which indexes dependence structures over time. Performing inference using this model yields promising results when analyzing the interaction of multiple tracked moving objects.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/siracusa09a.html
+  PDF: http://proceedings.mlr.press/v5/siracusa09a/siracusa09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-siracusa09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Siracusa
+  - given: John Fisher
+    family: III
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 528-535
+  id: siracusa09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 528
+  lastpage: 535
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Relative Novelty Detection'
+  abstract: 'Novelty detection is an important tool for unsupervised data   analysis. It relies on finding regions of low density within which   events are then flagged as novel. By design this is dependent on the   underlying measure of the space. In this paper we derive a   formulation which is able to address this problem by allowing for a   reference measure to be given in the form of a sample from an   alternate distribution. We show that this optimization problem can   be solved efficiently and that it works well in practice.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/smola09a.html
+  PDF: http://proceedings.mlr.press/v5/smola09a/smola09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-smola09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Alex
+    family: Smola
+  - given: Le
+    family: Song
+  - given: Choon Hui
+    family: Teo
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 536-543
+  id: smola09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 536
+  lastpage: 543
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Tree Block Coordinate Descent for MAP in Graphical Models'
+  abstract: 'A number of linear programming relaxations have been proposed for finding most likely settings of the variables (MAP) in large probabilistic models. The relaxations are often succinctly expressed in the dual and reduce to different types of reparameterizations of the original model. The dual objectives are typically solved by performing local block coordinate descent steps. In this work, we show how to perform block coordinate descent on spanning trees of the graphical model. We also show how all of the earlier dual algorithms are related to each other, giving transformations from one type of reparameterization to another while maintaining monotonicity relative to a common objective function. Finally, we quantify when the MAP solution can and cannot be decoded directly from the dual LP relaxation.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/sontag09a.html
+  PDF: http://proceedings.mlr.press/v5/sontag09a/sontag09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-sontag09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Sontag
+  - given: Tommi
+    family: Jaakkola
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 544-551
+  id: sontag09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 544
+  lastpage: 551
+  published: 2009-04-15 00:00:00 +0000
+- title: 'The Block Diagonal Infinite Hidden Markov Model'
+  abstract: 'The Infinite Hidden Markov Model (IHMM) extends hidden Markov models to have a countably infinite number of hidden states (Beal et al., 2002; Teh et al., 2006). We present a generalization of this framework that introduces block-diagonal structure in the transitions between the hidden states. These blocks correspond to “sub-behaviors” exhibited by data sequences. In identifying such structure, the model classifies, or partitions, sequence data according to these sub-behaviors in an unsupervised way. We present an application of this model to artificial data, a video gesture classification task, and a musical theme labeling task, and show that components of the model can also be applied to graph segmentation.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/stepleton09a.html
+  PDF: http://proceedings.mlr.press/v5/stepleton09a/stepleton09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-stepleton09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Stepleton
+  - given: Zoubin
+    family: Ghahramani
+  - given: Geoffrey
+    family: Gordon
+  - given: Tai-Sing
+    family: Lee
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 552-559
+  id: stepleton09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 552
+  lastpage: 559
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Variable Metric Stochastic Approximation Theory'
+  abstract: 'We provide a variable metric stochastic approximation theory. In doing so, we provide a convergence theory for a large class of online variable metric methods including the recently introduced online versions of the BFGS algorithm and  its limited-memory LBFGS variant. We also discuss the implications of our results in the areas of elicitation of properties of distributions using prediction markets and in learning from expert advice.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/sunehag09a.html
+  PDF: http://proceedings.mlr.press/v5/sunehag09a/sunehag09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-sunehag09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Peter
+    family: Sunehag
+  - given: Jochen
+    family: Trumpf
+  - given: S.V.N.
+    family: Vishwanathan
+  - given: Nicol
+    family: Schraudolph
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 560-566
+  id: sunehag09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 560
+  lastpage: 566
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Variational Learning of Inducing Variables in Sparse Gaussian Processes'
+  abstract: 'Sparse Gaussian process methods that use inducing variables require the selection of the inducing inputs and the kernel hyperparameters. We introduce a variational formulation for sparse approximations that jointly infers the inducing inputs and the kernel hyperparameters by maximizing a lower bound of the true log marginal likelihood. The key property of this formulation is that the inducing inputs  are defined to be variational parameters  which are selected by minimizing  the Kullback-Leibler divergence between  the variational distribution and the exact posterior distribution over the latent function values. We apply this technique to regression and we compare it with other approaches in the literature.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/titsias09a.html
+  PDF: http://proceedings.mlr.press/v5/titsias09a/titsias09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-titsias09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Michalis
+    family: Titsias
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 567-574
+  id: titsias09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 567
+  lastpage: 574
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Non-Negative Semi-Supervised Learning'
+  abstract: 'The contributions of this paper are three-fold. First, we present a general formulation for reaping the benefits from both non-negative data factorization and semi-supervised learning, and the solution naturally possesses the characteristics of sparsity, robustness to partial occlusions, and greater discriminating power via extra unlabeled data. Then, an efficient multiplicative updating procedure is proposed along with its theoretic justification of the algorithmic convergency. Finally, the tensorization of this general formulation for non-negative semi-supervised learning is also briefed for handling tensor data of arbitrary order. Extensive experiments compared with the state-of-the-art algorithms for non-negative data factorization and semi-supervised learning demonstrate the algorithmic properties in sparsity, classification power, and robustness to image occlusions.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/wang09a.html
+  PDF: http://proceedings.mlr.press/v5/wang09a/wang09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-wang09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Changhu
+    family: Wang
+  - given: Shuicheng
+    family: Yan
+  - given: Lei
+    family: Zhang
+  - given: Hongjiang
+    family: Zhang
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 575-582
+  id: wang09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 575
+  lastpage: 582
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Markov Topic Models'
+  abstract: 'We develop Markov topic models (MTMs), a novel family of generative graphical models that can learn topics simultaneously from multiple corpora, such as papers from different conferences. We apply Gaussian (Markov) random fields to model the correlations of different corpora.  MTMs capture both the internal topic structure within each corpus and the relationships between topics across the corpora.  We derive an efficient estimation procedure with variational expectation-maximization.  We study the performance of our models on a corpus of abstracts from six different computer science conferences.  Our analysis reveals qualitative discoveries that are not possible with traditional topic models, and improved quantitative performance over the state of the art.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/wang09b.html
+  PDF: http://proceedings.mlr.press/v5/wang09b/wang09b.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-wang09b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Chong
+    family: Wang
+  - given: Bo
+    family: Thiesson
+  - given: Chris
+    family: Meek
+  - given: David
+    family: Blei
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 583-590
+  id: wang09b
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 583
+  lastpage: 590
+  published: 2009-04-15 00:00:00 +0000
+- title: 'An Information Geometry Approach for Distance Metric Learning'
+  abstract: 'Metric learning is an important problem in machine learning and  pattern recognition. In this paper, we propose a framework for  metric learning based on information geometry. The key idea is to  construct two kernel matrices for the given training data: one is  based on the distance metric and the other is based on the assigned  class labels. Inspired by the idea of information geometry, we  relate these two kernel matrices to two Gaussian distributions, and  the difference between the two kernel matrices is then computed by  the Kullback-Leibler (KL) divergence between the two Gaussian  distributions. The optimal distance metric is then found by  minimizing the divergence between the two distributions. Based on  this idea, we present two metric learning algorithms, one for linear  distance metric and the other for nonlinear distance with the  introduction of a kernel function. Unlike many existing algorithms  for metric learning that require solving a non-trivial optimization  problem and therefore are computationally expensive when the data  dimension is high, the proposed algorithms have a closed-form  solution and are computationally more efficient. Extensive  experiments with data classification and face recognition show that  the proposed algorithms are comparable to or better than the  state-of-the-art algorithms for metric learning.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/wang09c.html
+  PDF: http://proceedings.mlr.press/v5/wang09c/wang09c.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-wang09c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Shijun
+    family: Wang
+  - given: Rong
+    family: Jin
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 591-598
+  id: wang09c
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 591
+  lastpage: 598
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Large-Margin Structured Prediction via Linear Programming'
+  abstract: 'This paper presents a novel learning algorithm for structured classification problems, where the task is to predict multiple and interacting labels (multilabel) for an input object. The maximum margin separation between the correct multilabels and the incorrect ones is formulated as a linear program.  Instead of explicitly writing out the entire problem with an exponentially large  constraint set, the linear program is solved iteratively via column generation. In this case, the process of generating most violated constraints is equivalent to searching for highest-scored misclassified incorrect multilabels, which can be easily achieved by decoding the structure based on current estimations.  In addition, we also explore the integration of the column generation and the extragradient method for linear programming to gain further efficiency. Compared to previous works on large-margin structured prediction, this framework has advantages in handling arbitrary structures and larger-scale  problems. Experimental results on part-of-speech tagging and statistical machine translation tasks are reported, demonstrating the competitiveness of the proposed approach.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/wang09d.html
+  PDF: http://proceedings.mlr.press/v5/wang09d/wang09d.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-wang09d.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhuoran
+    family: Wang
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 599-606
+  id: wang09d
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 599
+  lastpage: 606
+  published: 2009-04-15 00:00:00 +0000
+- title: 'A Hierarchical Nonparametric Bayesian Approach to Statistical Language Model Domain Adaptation'
+  abstract: 'In this paper we present a doubly hierarchical Pitman-Yor process language model. Its bottom layer of hierarchy consists of multiple hierarchical Pitman-Yor process language models, one each for some number of domains. The novel top layer of hierarchy consists of a mechanism to couple together multiple language models such that they share statistical strength. Intuitively this sharing results in the “adaptation” of a latent shared language model to each domain. We introduce a general formalism capable of describing the overall model which we call the graphical Pitman-Yor process and explain how to perform Bayesian inference in it. We present encouraging language model domain adaptation results that both illustrate the potential benefits of our new model and suggest new avenues of inquiry.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/wood09a.html
+  PDF: http://proceedings.mlr.press/v5/wood09a/wood09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-wood09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Frank
+    family: Wood
+  - given: Yee Whye
+    family: Teh
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 607-614
+  id: wood09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 607
+  lastpage: 614
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Speed and Sparsity of Regularized Boosting'
+  abstract: 'Boosting algorithms with $l_1$ regularization are of interest because $l_1$ regularization leads to sparser composite classifiers. Moreover, Rosset et al. have shown that for separable data, standard $l_p$ regularized loss minimization results in a margin maximizing classifier in the limit as regularization is relaxed. For the case $p=1$, we extend these results by obtaining explicit convergence bounds on the regularization required to yield a margin within prescribed accuracy of the maximum achievable margin. We derive similar rates of convergence for the $\epsilon$-AdaBoost algorithm, in the process providing a new proof that $\epsilon$-AdaBoost is margin maximizing as $\epsilon$ converges to $0$. Because both of these known algorithms are computationally expensive, we introduce a new hybrid algorithm, AdaBoost+$L_1$, that combines the virtues of AdaBoost with the sparsity of $l_1$ regularization in a computationally efficient fashion. We prove that the algorithm is margin maximizing and empirically examine its performance on five datasets.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/xi09a.html
+  PDF: http://proceedings.mlr.press/v5/xi09a/xi09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-xi09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yongxin
+    family: Xi
+  - given: Zhen
+    family: Xiang
+  - given: Peter
+    family: Ramadge
+  - given: Robert
+    family: Schapire
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 615-622
+  id: xi09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 615
+  lastpage: 622
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Tree-Based Inference for Dirichlet Process Mixtures'
+  abstract: 'The Dirichlet process mixture (DPM) is a widely used model for clustering and for general nonparametric Bayesian density estimation. Unfortunately, like in many statistical models, exact inference in a DPM is intractable, and  approximate methods are needed to perform efficient inference. While most attention in the literature has been placed on Markov chain Monte Carlo (MCMC), variational Bayesian (VB) and collapsed variational methods, Heller and Ghahramani (2005) recently introduced a novel class of approximation for DPMs based on Bayesian hierarchical clustering (BHC). These tree-based combinatorial approximations efficiently sum over exponentially many ways of partitioning the data and offer a novel lower bound on the marginal likelihood of the DPM. In this paper we make the following contributions: (1) We show empirically that the BHC lower bounds are substantially tighter than the bounds given by VB and by collapsed variational methods on synthetic and real datasets. (2) We also show that BHC offers a more accurate predictive performance on these datasets. (3) We further improve the tree-based lower bounds with an algorithm that efficiently sums contributions from alternative trees. (4) We present a fast approximate method for BHC. Our results suggest that our combinatorial approximate inference methods and lower bounds may be useful not only in DPMs but in other models as well.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/xu09a.html
+  PDF: http://proceedings.mlr.press/v5/xu09a/xu09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-xu09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Yang
+    family: Xu
+  - given: Katherine
+    family: Heller
+  - given: Zoubin
+    family: Ghahramani
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 623-630
+  id: xu09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 623
+  lastpage: 630
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Dual Temporal Difference Learning'
+  abstract: 'Recently, researchers have investigated novel dual representations  as a basis for dynamic programming and reinforcement learning algorithms.  Although the convergence properties of classical dynamic programming  algorithms have been established for dual representations, temporal  difference learning algorithms have not yet been analyzed.  In this paper,  we study the convergence properties of temporal difference learning using  dual representations.  We contribute significant progress by proving the  convergence of dual temporal difference learning with eligibility traces.  Experimental results suggest that the dual algorithms seem to demonstrate  empirical benefits over standard primal algorithms.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/yang09a.html
+  PDF: http://proceedings.mlr.press/v5/yang09a/yang09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-yang09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Min
+    family: Yang
+  - given: Yuxi
+    family: Li
+  - given: Dale
+    family: Schuurmans
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 631-638
+  id: yang09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 631
+  lastpage: 638
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Active Sensing'
+  abstract: 'Labels are often expensive to get, and this motivates active learning which chooses the most informative samples for label  acquisition. In this paper we study active sensing in a multi-view setting, motivated from many problems where grouped features are also expensive to obtain and need to be acquired (or sensed) actively (e.g., in cancer diagnosis each patient might  go through many tests such as CT, Ultrasound and MRI to get valuable  features). The strength of this model is that one actively sensed (sample, view) pair would improve the joint multi-view  classification on all the samples. For this purpose we extend the  Bayesian co-training framework such that it can handle missing views  in a principled way, and introduce two criteria for view acquisition.  Experiments on one toy data and two real-world medical problems show  the effectiveness of this model.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/yu09a.html
+  PDF: http://proceedings.mlr.press/v5/yu09a/yu09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-yu09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Shipeng
+    family: Yu
+  - given: Balaji
+    family: Krishnapuram
+  - given: Romer
+    family: Rosales
+  - given: R. Bharat
+    family: Rao
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 639-646
+  id: yu09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 639
+  lastpage: 646
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Coherence Functions for Multicategory Margin-based Classification Methods'
+  abstract: 'Margin-based classification methods are typically devised based on a majorization-minimization procedure, which approximately solves an  otherwise intractable minimization problem defined with the 0-l loss. However, extension of such methods from the binary classification setting to the more general multicategory setting turns out to be non-trivial. In this paper, our focus is to devise margin-based classification methods that can be seamlessly applied to both settings, with the binary setting simply as a special case. In particular, we propose a new majorization loss function that we call the coherence function, and then devise a new multicategory margin-based boosting algorithm based on the coherence function. Analogous to deterministic annealing, the coherence function is characterized by a temperature factor. It is closely related to the multinomial log-likelihood function and its limit at zero temperature corresponds to a multicategory hinge loss function.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/zhang09a.html
+  PDF: http://proceedings.mlr.press/v5/zhang09a/zhang09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-zhang09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhihua
+    family: Zhang
+  - given: Michael
+    family: Jordan
+  - given: Wu-Jun
+    family: Li
+  - given: Dit-Yan
+    family: Yeung
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 647-654
+  id: zhang09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 647
+  lastpage: 654
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Latent Variable Models for Dimensionality Reduction'
+  abstract: 'Principal coordinate analysis (PCO), as a duality of principal component analysis (PCA), is also a classical method for explanatory data analysis.  In this paper we propose a probabilistic PCO by using a normal latent variable model in which   maximum likelihood estimation and an expectation-maximization algorithm are respectively devised to calculate the configurations of objects in a low-dimensional Euclidean space. We also devise probabilistic formulations for kernel PCA which is a nonlinear extension of PCA.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/zhang09b.html
+  PDF: http://proceedings.mlr.press/v5/zhang09b/zhang09b.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-zhang09b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhihua
+    family: Zhang
+  - given: Michael I.
+    family: Jordan
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 655-662
+  id: zhang09b
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 655
+  lastpage: 662
+  published: 2009-04-15 00:00:00 +0000
+- title: 'Reversible Jump MCMC for Non-Negative Matrix Factorization'
+  abstract: 'We present a fully Bayesian approach to Non-Negative Matrix Factorisation (NMF) by developing a Reversible Jump Markov Chain Monte Carlo (RJMCMC) method which provides full posteriors over the matrix components. In addition the NMF model selection issue is addressed, for the first time, as our RJMCMC procedure provides the posterior  distribution over the matrix dimensions and therefore the number of components in the NMF model. A comparative analysis is provided with the Bayesian Information Criterion (BIC) and model selection employing estimates of the marginal likelihood. An illustrative synthetic example is provided using blind mixtures of images. This is then followed by a large scale study of the recovery of component spectra  from multiplexed Raman readouts. The power and flexibility of the Bayesian methodology and the proposed RJMCMC procedure to objectively assess  differing model structures and infer the corresponding plausible component spectra for this complex data is demonstrated convincingly.'
+  volume: 5
+  URL: https://proceedings.mlr.press/v5/zhong09a.html
+  PDF: http://proceedings.mlr.press/v5/zhong09a/zhong09a.pdf
+  edit: https://github.com/mlresearch//v5/edit/gh-pages/_posts/2009-04-15-zhong09a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics'
+  publisher: 'PMLR'
+  author: 
+  - given: Mingjun
+    family: Zhong
+  - given: Mark
+    family: Girolami
+  editor: 
+  - given: David
+    prefix: van
+    family: Dyk
+  - given: Max
+    family: Welling
+  address: Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA
+  page: 663-670
+  id: zhong09a
+  issued:
+    date-parts: 
+      - 2009
+      - 4
+      - 15
+  firstpage: 663
+  lastpage: 670
+  published: 2009-04-15 00:00:00 +0000

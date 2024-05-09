@@ -1,0 +1,216 @@
+
+- title: 'Preface: The 2020 ACM SIGKDD Workshop on Causal Discovery '
+  abstract: 'Preface to the 2020 KDD Workshop on Causal Discovery (CD 2020)'
+  volume: 127
+  URL: https://proceedings.mlr.press/v127/le20a.html
+  PDF: http://proceedings.mlr.press/v127/le20a/le20a.pdf
+  edit: https://github.com/mlresearch//v127/edit/gh-pages/_posts/2020-08-19-le20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2020 KDD Workshop on Causal Discovery'
+  publisher: 'PMLR'
+  author: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 1-3
+  id: le20a
+  issued:
+    date-parts: 
+      - 2020
+      - 8
+      - 19
+  firstpage: 1
+  lastpage: 3
+  published: 2020-08-19 00:00:00 +0000
+- title: 'Continuous Treatment Effect Estimation via Generative Adversarial De-confounding '
+  abstract: 'One fundamental problem in causal inference is the treatment effect estimation in obser- vational studies, and its key challenge is to handle the confounding bias induced by the associations between covariates and treatment variable. In this paper, we study the prob- lem of effect estimation on continuous treatment from observational data, going beyond previous work on binary treatments. Previous work for binary treatment focuses on de- confounding by balancing the distribution of covariates between the treated and control groups with either propensity score or confounder balancing techniques. In the continuous setting, those methods would fail as we can hardly evaluate the distribution of covariates under each treatment status. To tackle the case of continuous treatments, we propose a novel Generative Adversarial De-confounding (GAD) algorithm to eliminate the associa- tions between covariates and treatment variable with two main steps: (1) generating an “calibration” distribution without associations between covariates and treatment by ran- dom perturbation; (2) learning sample weight that transfer the distribution of observed data to the “calibration” distribution for de-confounding with a Generative Adversarial Network. Extensive experiments on both synthetic and real-world datasets demonstrate that our algorithm outperforms the state-of-the-art methods for effect estimation of con- tinuous treatment with observational data.'
+  volume: 127
+  URL: https://proceedings.mlr.press/v127/li20a.html
+  PDF: http://proceedings.mlr.press/v127/li20a/li20a.pdf
+  edit: https://github.com/mlresearch//v127/edit/gh-pages/_posts/2020-08-19-li20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2020 KDD Workshop on Causal Discovery'
+  publisher: 'PMLR'
+  author: 
+  - given: Yunzhe
+    family: Li
+  - given: Kun
+    family: Kuang
+  - given: Bo
+    family: Li
+  - given: Peng
+    family: Cui
+  - given: Jianrong
+    family: Tao
+  - given: Hongxia
+    family: Yang
+  - given: Fei
+    family: Wu
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 4-22
+  id: li20a
+  issued:
+    date-parts: 
+      - 2020
+      - 8
+      - 19
+  firstpage: 4
+  lastpage: 22
+  published: 2020-08-19 00:00:00 +0000
+- title: 'Predictive and Causal Implications of using Shapley Value for Model Interpretation'
+  abstract: 'Shapley value is a concept from game theory. Recently, it has been used for explaining complex models produced by machine learning techniques. Although the mathematical definition of Shapley value is straight-forward, the implication of using it as a model inter- pretation tool is yet to be described. In the current paper, we analyzed Shapley value in the Bayesian network framework. We established the relationship between Shapley value and conditional independence, a key concept in both predictive and causal modeling. Our results indicate that, eliminating a variable with high Shapley value from a model do not necessarily impair predictive performance, whereas eliminating a variable with low Shapley value from a model could impair performance. Therefore, using Shapley value for feature selection do not result in the most parsimonious and predictively optimal model in the general case. More importantly, Shapley value of a variable do not reflect their causal relationship with the target of interest.'
+  volume: 127
+  URL: https://proceedings.mlr.press/v127/ma20a.html
+  PDF: http://proceedings.mlr.press/v127/ma20a/ma20a.pdf
+  edit: https://github.com/mlresearch//v127/edit/gh-pages/_posts/2020-08-19-ma20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2020 KDD Workshop on Causal Discovery'
+  publisher: 'PMLR'
+  author: 
+  - given: Sisi
+    family: Ma
+  - given: Roshan
+    family: Tourani
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 23-38
+  id: ma20a
+  issued:
+    date-parts: 
+      - 2020
+      - 8
+      - 19
+  firstpage: 23
+  lastpage: 38
+  published: 2020-08-19 00:00:00 +0000
+- title: 'Hi-CI: Deep Causal Inference in High Dimensions'
+  abstract: 'We address the problem of counterfactual regression using causal inference (CI) in obser- vational studies consisting of high dimensional covariates and high cardinality treatments. Confounding bias, which leads to inaccurate treatment effect estimation, is attributed to covariates that affect both treatments and outcome. The presence of high-dimensional co- variates exacerbates the impact of bias as it is harder to isolate and measure the impact of these confounders. In the presence of high-cardinality treatment variables, CI is rendered ill-posed due to the increase in the number of counterfactual outcomes to be predicted. We propose Hi-CI, a deep neural network (DNN) based framework for estimating causal effects in the presence of large number of covariates, and high-cardinal and continuous treatment variables. The proposed architecture comprises of a decorrelation network and an outcome prediction network. In the decorrelation network, we learn a data representa- tion in lower dimensions as compared to the original covariates, and addresses confounding bias alongside. Subsequently, in the outcome prediction network, we learn an embedding of high-cardinality and continuous treatments, jointly with the data representation. We demonstrate the efficacy of causal effect prediction of the proposed Hi-CI network using synthetic and real-world NEWS datasets.'
+  volume: 127
+  URL: https://proceedings.mlr.press/v127/sharma20a.html
+  PDF: http://proceedings.mlr.press/v127/sharma20a/sharma20a.pdf
+  edit: https://github.com/mlresearch//v127/edit/gh-pages/_posts/2020-08-19-sharma20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2020 KDD Workshop on Causal Discovery'
+  publisher: 'PMLR'
+  author: 
+  - given: Ankit
+    family: Sharma
+  - given: Garima
+    family: Gupta
+  - given: Ranjitha
+    family: Prasad
+  - given: Arnab
+    family: Chatterjee
+  - given: Lovekesh
+    family: Vig
+  - given: Gautam
+    family: Shroff
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 39-61
+  id: sharma20a
+  issued:
+    date-parts: 
+      - 2020
+      - 8
+      - 19
+  firstpage: 39
+  lastpage: 61
+  published: 2020-08-19 00:00:00 +0000
+- title: 'Learning Latent Causal Structures with a Redundant Input Neural Network'
+  abstract: 'Most causal discovery algorithms find causal structure among a set of observed variables. Learning the causal structure among latent variables remains an important open problem, particularly when using high-dimensional data. In this paper, we address a problem for which it is known that inputs cause outputs, and these causal relationships are encoded by a causal network among a set of an unknown number of latent variables. We developed a deep learning model, which we call a redundant input neural network (RINN), with a modified architecture and a regularized objective function to find causal relationships between input, hidden, and output variables. More specifically, our model allows input variables to directly interact with all latent variables in a neural network to influence what information the latent variables should encode in order to generate the output variables accurately. In this setting, the direct connections between input and latent variables makes the latent variables partially interpretable; furthermore, the connectivity among the latent variables in the neural network serves to model their potential causal relationships to each other and to the output variables. A series of simulation experiments provide support that the RINN method can successfully recover latent causal structure between input and output variables.'
+  volume: 127
+  URL: https://proceedings.mlr.press/v127/young20a.html
+  PDF: http://proceedings.mlr.press/v127/young20a/young20a.pdf
+  edit: https://github.com/mlresearch//v127/edit/gh-pages/_posts/2020-08-19-young20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2020 KDD Workshop on Causal Discovery'
+  publisher: 'PMLR'
+  author: 
+  - given: Jonathan D.
+    family: Young
+  - given: Bryan
+    family: Andrews
+  - given: Gregory F.
+    family: Cooper
+  - given: Xinghua
+    family: Lu
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Lin
+    family: Liu
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 62-91
+  id: young20a
+  issued:
+    date-parts: 
+      - 2020
+      - 8
+      - 19
+  firstpage: 62
+  lastpage: 91
+  published: 2020-08-19 00:00:00 +0000

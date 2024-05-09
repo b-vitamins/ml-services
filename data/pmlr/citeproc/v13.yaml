@@ -1,0 +1,731 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of 2nd Asian Conference on Machine Learning (ACML2010) November 8-10, 2010, Tokyo, Japan.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/sugiyama10a.html
+  PDF: http://proceedings.mlr.press/v13/sugiyama10a/sugiyama10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-sugiyama10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: i-xiv
+  id: sugiyama10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: i
+  lastpage: xiv
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Pairwise Measures of Causal Direction in Linear Non-Gaussian Acyclic Models'
+  abstract: 'We present new measures of the causal direction between two nongaussian random variables. They are based on the likelihood ratio under the linear non-gaussian acyclic model (LiNGAM). We also develop simple first-order approximations and analyze them based on related cumulant-based measures. The cumulant-based measures can be shown to give the right causal directions, and they are statistically consistent even in the presence of measurement noise. We further show how to apply these measures to estimate LiNGAM for more than two variables, and even in the case of more variables than observations. The proposed framework is statistically at least as good as existing ones in the cases of few data points or noisy data, and it is computationally and conceptually very simple.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/hyvarinen10a.html
+  PDF: http://proceedings.mlr.press/v13/hyvarinen10a/hyvarinen10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-hyvarinen10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Aapo
+    family: Hyvarinen
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 1-16
+  id: hyvarinen10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 1
+  lastpage: 16
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Learning Polyhedral Classifiers Using Logistic Function'
+  abstract: 'In this paper we propose a new algorithm for learning polyhedral classifiers. In contrast to existing methods for learning polyhedral classifier which solve a constrained optimization problem, our method solves an unconstrained optimization problem. Our method is based on a logistic function based model for the posterior probability function. We propose an alternating optimization algorithm, namely, SPLA1 (Single Polyhedral Learning Algorithm1) which maximizes the loglikelihood of the training data to learn the parameters. We also extend our method to make it independent of any user specified parameter (e.g., number of hyperplanes required to form a polyhedral set) in SPLA2. We show the effectiveness of our approach with experiments on various synthetic and real world datasets and compare our approach with a standard decision tree method (OC1) and a constrained optimization based method for learning polyhedral sets (Astorino and Gaudioso, 2002).'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/manwani10a.html
+  PDF: http://proceedings.mlr.press/v13/manwani10a/manwani10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-manwani10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Naresh
+    family: Manwani
+  - given: P. S.
+    family: Sastry
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 17-30
+  id: manwani10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 17
+  lastpage: 30
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Ellipsoidal Support Vector Machines'
+  abstract: 'This paper proposes the ellipsoidal SVM (e-SVM) that uses an ellipsoid center, in the version space, to approximate the Bayes point. Since SVM approximates it by a sphere center, e-SVM provides an extension to SVM for better approximation of the Bayes point. Although the idea has been mentioned before (Ruján, 1997), no work has been done for formulating and kernelizing the method. Starting from the maximum volume ellipsoid problem, we successfully formulate and kernelize it by employing relaxations. The resulting e-SVM optimization framework has much similarity to SVM; it is naturally extendable to other loss functions and other problems. A variant of the sequential minimal optimization is provided for efficient batch implementation. Moreover, we provide an online version of linear, or primal, e-SVM to be applicable for large-scale datasets.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/momma10a.html
+  PDF: http://proceedings.mlr.press/v13/momma10a/momma10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-momma10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Michinari
+    family: Momma
+  - given: Kohei
+    family: Hatano
+  - given: Hiroki
+    family: Nakayama
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 31-46
+  id: momma10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 31
+  lastpage: 46
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Minimum Conditional Entropy Clustering: A Discriminative Framework for Clustering'
+  abstract: 'In this paper, we introduce an assumption which makes it possible to extend the learning ability of discriminative model to unsupervised setting. We propose an information-theoretic framework as an implementation of the low-density separation assumption. The proposed framework provides a unified perspective of Maximum Margin Clustering (MMC), Discriminative $k$-means, Spectral Clustering and Unsupervised Renyi''s Entropy Analysis and also leads to a novel and efficient algorithm, Accelerated Maximum Relative Margin Clustering (ARMC), which maximizes the margin while considering the spread of projections and affine invariance. Experimental results show that the proposed discriminative unsupervised learning method is more efficient in utilizing data and achieves the state-of-the-art or even better performance compared with mainstream clustering methods.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/dai10a.html
+  PDF: http://proceedings.mlr.press/v13/dai10a/dai10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-dai10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Bo
+    family: Dai
+  - given: Baogang
+    family: Hu
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 47-62
+  id: dai10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 47
+  lastpage: 62
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Efficient Collapsed Gibbs Sampling for Latent Dirichlet Allocation'
+  abstract: 'Collapsed Gibbs sampling is a frequently applied method to approximate intractable integrals in probabilistic generative models such as latent Dirichlet allocation. This sampling method has however the crucial drawback of high computational complexity, which makes it limited applicable on large data sets. We propose a novel dynamic sampling strategy to significantly improve the efficiency of collapsed Gibbs sampling. The strategy is explored in terms of efficiency, convergence and perplexity. Besides, we present a straight-forward parallelization to further improve the efficiency. Finally, we underpin our proposed improvements with a comparative study on different scale data sets.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/xiao10a.html
+  PDF: http://proceedings.mlr.press/v13/xiao10a/xiao10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-xiao10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Han
+    family: Xiao
+  - given: Thomas
+    family: Stibor
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 63-78
+  id: xiao10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 63
+  lastpage: 78
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Variational Relevance Vector Machine for Tabular Data'
+  abstract: 'We adopt the Relevance Vector Machine (RVM) framework to handle cases of table-structured data such as image blocks and image descriptors. This is achieved by coupling the regularization coefficients of rows and columns of features. We present two variants of this new gridRVM framework, based on the way in which the regularization coefficients of the rows and columns are combined. Appropriate variational optimization algorithms are derived for inference within this framework. The consequent reduction in the number of parameters from the product of the table’s dimensions to the sum of its dimensions allows for better performance in the face of small training sets, resulting in improved resistance to overfitting, as well as providing better interpretation of results. These properties are demonstrated on synthetic data-sets as well as on a modern and challenging visual identification benchmark.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/kropotov10a.html
+  PDF: http://proceedings.mlr.press/v13/kropotov10a/kropotov10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-kropotov10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Dmitry
+    family: Kropotov
+  - given: Dmitry
+    family: Vetrov
+  - given: Lior
+    family: Wolf
+  - given: Tal
+    family: Hassner
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 79-94
+  id: kropotov10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 79
+  lastpage: 94
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Hierarchical Gaussian Process Regression'
+  abstract: 'We address an approximation method for Gaussian process (GP) regression, where we approximate covariance by a block matrix such that diagonal blocks are calculated exactly while off-diagonal blocks are approximated. Partitioning input data points, we present a two-layer hierarchical model for GP regression, where prototypes of clusters in the upper layer are involved for coarse modeling by a GP and data points in each cluster in the lower layer are involved for fine modeling by an individual GP whose prior mean is given by the corresponding prototype and covariance is parameterized by data points in the partition. In this hierarchical model, integrating out latent variables in the upper layer leads to a block covariance matrix, where diagonal blocks contain similarities between data points in the same partition and off-diagonal blocks consist of approximate similarities calculated using prototypes. This particular structure of the covariance matrix divides the full GP into a pieces of manageable sub-problems whose complexity scales with the number of data points in a partition. In addition, our hierarchical GP regression (HGPR) is also useful for cases where partitions of data reveal different characteristics. Experiments on several benchmark datasets confirm the useful behavior of our method.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/park10a.html
+  PDF: http://proceedings.mlr.press/v13/park10a/park10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-park10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sunho
+    family: Park
+  - given: Seungjin
+    family: Choi
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 95-110
+  id: park10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 95
+  lastpage: 110
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Content-based Image Retrieval with Multinomial Relevance Feedback'
+  abstract: 'The paper considers an interactive search paradigm in which at each round a user is presented with a set of k images and is required to select one that is closest to her target. Performance is measured by the number of rounds needed to identify a specific target image or to find an image among the t nearest neighbours to the target in the database. Building on earlier work we assume a multinomial user model with the probabilities of response proportional to a function of the distance to the target. The conjugate prior Dirichlet distribution is used to model the problem motivating an algorithm that trades exploration and exploitation in presenting the images in each round. Experimental results verify the fit of the model with the problem as well as show that the new approach compares favourably with previous work.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/glowacka10a.html
+  PDF: http://proceedings.mlr.press/v13/glowacka10a/glowacka10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-glowacka10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Dorota
+    family: Glowacka
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 111-125
+  id: glowacka10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 111
+  lastpage: 125
+  published: 2010-10-31 00:00:00 +0000
+- title: 'The Coding Divergence for Measuring the Complexity of Separating Two Sets'
+  abstract: 'In this paper we integrate two essential processes, discretization of continuous data and learning of a model that explains them, towards fully computational machine learning from continuous data. Discretization is fundamental for machine learning and data mining, since every continuous datum; e.g., a real-valued datum obtained by observation in the real world, must be discretized and converted from analog (continuous) to digital (discrete) form to store in databases. However, most machine learning methods do not pay attention to the situation; i.e., they use digital data in actual applications on a computer whereas assume analog data (usually vectors of real numbers) theoretically. To bridge the gap, we propose a novel measure of the difference between two sets of data, called the coding divergence, and unify two processes discretization and learning computationally. Discretization of continuous data is realized by a topological mapping (in the sense of mathematics) from the $d$-dimensional Euclidean space $\mathbb{R}^d$ into the Cantor space $\Sigma^\omega$, and the simplest model is learned in the Cantor space, which corresponds to the minimum open set separating the given two sets of data. Furthermore, we construct a classifier using the divergence, and experimentally demonstrate robust performance of it. Our contribution is not only introducing a new measure from the computational point of view, but also triggering more interaction between experimental science and machine learning.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/sugiyama10b.html
+  PDF: http://proceedings.mlr.press/v13/sugiyama10b/sugiyama10b.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-sugiyama10b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mahito
+    family: Sugiyama
+  - given: Akihiro
+    family: Yamamoto
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 127-143
+  id: sugiyama10b
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 127
+  lastpage: 143
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Single versus Multiple Sorting in All Pairs Similarity Search'
+  abstract: 'To save memory and improve speed, vectorial data such as images and signals are often represented as strings of discrete symbols (i.e., sketches). Chariker (2002) proposed a fast approximate method for finding neighbor pairs of strings by sorting and scanning with a small window. This method, which we shall call ''single sorting'', is applied to locality sensitive codes and prevalently used in speed-demanding web-related applications. To improve on single sorting, we propose a novel method that employs blockwise masked sorting. Our method can dramatically reduce the number of candidate pairs which have to be verified by distance calculation in exchange with an increased amount of sorting operations. So it is especially attractive for high dimensional dense data, where distance calculation is expensive. Empirical results show the efficiency of our method in comparison to single sorting and recent fast nearest neighbor methods.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/tabei10a.html
+  PDF: http://proceedings.mlr.press/v13/tabei10a/tabei10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-tabei10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yasuo
+    family: Tabei
+  - given: Takeaki
+    family: Uno
+  - given: Masashi
+    family: Sugiyama
+  - given: Koji
+    family: Tsuda
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 145-160
+  id: tabei10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 145
+  lastpage: 160
+  published: 2010-10-31 00:00:00 +0000
+- title: 'An EM Algorithm on BDDs with Order Encoding for Logic-based Probabilistic Models'
+  abstract: 'Logic-based probabilistic models (LBPMs) enable us to handle various problems in the real world thanks to the expressive power of logic. However, most of LBPMs have restrictions to realize efficient probability computation and learning. We propose an EM algorithm working on BDDs with order encoding for LBPMs. A notable advantage of our algorithm over existing approaches is that it copes with multi-valued random variables without restrictions. The complexity of our algorithm is proportional to the size of the BDD. In the case of hidden Markov models (HMMs), the complexity is the same as that specialized for HMMs. As an example to eliminate restrictions of existing approaches, we utilize our algorithm to give diagnoses for failure in a logic circuit involving stochastic error gates.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/ishihata10a.html
+  PDF: http://proceedings.mlr.press/v13/ishihata10a/ishihata10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-ishihata10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Masakazu
+    family: Ishihata
+  - given: Yoshitaka
+    family: Kameya
+  - given: Taisuke
+    family: Sato
+  - given: Shin-ichi
+    family: Minato
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 161-176
+  id: ishihata10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 161
+  lastpage: 176
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Exploiting the High Predictive Power of Multi-class Subgroups'
+  abstract: 'Subgroup discovery aims at finding subsets of a population whose class distribution is significantly different from the overall distribution. A number of multi-class subgroup discovery methods has been previously investigated, proposed and implemented in the CN2-MSD system. When a decision tree learner was applied using the induced subgroups as features, it led to the construction of accurate and compact predictive models, demonstrating the usefulness of the subgroups. In this paper we show that, given a significant, sufficient and diverse set of subgroups, no further learning phase is required to build a good predictive model. Our systematic study bridges the gap between rule learning and decision tree modelling by proposing a method which uses the training information associated with the subgroups to form a simple tree-based probability estimator and ranker, RankFree-MSD, without the need for an additional learning phase. Furthermore, we propose an efficient subgroup pruning algorithm, RankFree-Pruning, that prunes unimportant subgroups from the subgroup tree in order to reduce the number of subgroups and the size of the tree without decreasing predictive performance. Despite the simplicity of our approach we experimentally show that its predictive performance in general is comparable to other decision tree and rule learners over 10 multi-class UCI data sets.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/abudawood10a.html
+  PDF: http://proceedings.mlr.press/v13/abudawood10a/abudawood10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-abudawood10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tarek
+    family: Abudawood
+  - given: Peter
+    family: Flach
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 177-192
+  id: abudawood10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 177
+  lastpage: 192
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Generative Models of Information Diffusion with Asynchronous Timedelay'
+  abstract: 'We address the problem of formalizing an information diffusion process on a social network as a generative model in the machine learning framework so that we can learn model parameters from the observation. Time delay plays an important role in formulating the likelihood function as well as for the analyses of information diffusion. We identified that there are two different types of time delay: link delay and node delay. The former corresponds to the delay associated with information propagation, and the latter corresponds to the delay due to human action. We further identified that there are two distinctions of the way the activation from the multiple parents is updated: nonoverride and override. The former sticks to the initial activation and the latter can decide to update the time to activate multiple times. We formulated the likelihood function of the well known diffusion models: independent cascade and linear threshold, both enhanced with asynchronous time delay distinguishing the difference in two types of delay and two types of update scheme. Simulation using four real world networks reveals that there are differences in the spread of information diffusion and they strongly depend on the choice of the parameter values and the denseness of the network.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/saito10a.html
+  PDF: http://proceedings.mlr.press/v13/saito10a/saito10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-saito10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kazumi
+    family: Saito
+  - given: Masahiro
+    family: Kimura
+  - given: Kouzou
+    family: Ohara
+  - given: Hiroshi
+    family: Motoda
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 193-208
+  id: saito10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 193
+  lastpage: 208
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Decision Tree for Dynamic and Uncertain Data Streams'
+  abstract: 'Current research on data stream classification mainly focuses on certain data, in which precise and definite value is usually assumed. However, data with uncertainty is quite natural in real-world application due to various causes, including imprecise measurement, repeated sampling and network errors. In this paper, we focus on uncertain data stream classification. Based on CVFDT and DTU, we propose our UCVFDT (Uncertainty-handling and Concept-adapting Very Fast Decision Tree) algorithm, which not only maintains the ability of CVFDT to cope with concept drift with high speed, but also adds the ability to handle data with uncertain attribute. Experimental study shows that the proposed UCVFDT algorithm is efficient in classifying dynamic data stream with uncertain numerical attribute and it is computationally efficient.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/liang10a.html
+  PDF: http://proceedings.mlr.press/v13/liang10a/liang10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-liang10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chunquan
+    family: Liang
+  - given: Yang
+    family: Zhang
+  - given: Qun
+    family: Song
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 209-224
+  id: liang10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 209
+  lastpage: 224
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Accurate Ensembles for Data Streams: Combining Restricted Hoeffding Trees using Stacking'
+  abstract: 'The success of simple methods for classification shows that is is often not necessary to model complex attribute interactions to obtain good classification accuracy on practical problems. In this paper, we propose to exploit this phenomenon in the data stream context by building an ensemble of Hoeffding trees that are each limited to a small subset of attributes. In this way, each tree is restricted to model interactions between attributes in its corresponding subset. Because it is not known a priori which attribute subsets are relevant for prediction, we build exhaustive ensembles that consider all possible attribute subsets of a given size. As the resulting Hoeffding trees are not all equally important, we weigh them in a suitable manner to obtain accurate classifications. This is done by combining the log-odds of their probability estimates using sigmoid perceptrons, with one perceptron per class. We propose a mechanism for setting the perceptrons’ learning rate using the ADWIN change detection method for data streams, and also use ADWIN to reset ensemble members (i.e. Hoeffding trees) when they no longer perform well. Our experiments show that the resulting ensemble classifier outperforms bagging for data streams in terms of accuracy when both are used in conjunction with adaptive naive Bayes Hoeffding trees, at the expense of runtime and memory consumption.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/bifet10a.html
+  PDF: http://proceedings.mlr.press/v13/bifet10a/bifet10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-bifet10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Albert
+    family: Bifet
+  - given: Eibe
+    family: Frank
+  - given: Geoffrey
+    family: Holmes
+  - given: Bernhard
+    family: Pfahringer
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 225-240
+  id: bifet10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 225
+  lastpage: 240
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Mining Recurring Concept Drifts with Limited Labeled Streaming Data'
+  abstract: 'Tracking recurring concept drifts is a significant issue for machine learning and data mining that frequently appears in real world stream classification problems. It is a challenge for many streaming classification algorithms to learn recurring concepts in a data stream envi- ronment with unlabeled data, and this challenge has received little attention from the research community. Motivated by this challenge, this paper focuses on the problem of recurring contexts in streaming environments with limited labeled data. We propose a Semisupervised classification algorithm for data streams with REcurring concept Drifts and Limited LAbeled data, called REDLLA, in which, a decision tree is adopted as the classification model. When growing a tree, a clustering algorithm based on k-Means is installed to produce concept clusters and unlabeled data are labeled at leaves. In view of deviations between history and new concept clusters, potential concept drifts are distinguished and recurring concepts are maintained. Extensive studies on both synthetic and real-world data confirm the advantages of our REDLLA algorithm over two state-of-the-art online classification algorithms of CVFDT and CDRDT and several known online semi-supervised algorithms, even in the case with more than 90% unlabeled data.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/li10a.html
+  PDF: http://proceedings.mlr.press/v13/li10a/li10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-li10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Peipei
+    family: Li
+  - given: Xindong
+    family: Wu
+  - given: Xuegang
+    family: Hu
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 241-252
+  id: li10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 241
+  lastpage: 252
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Hierarchical Convex NMF for Clustering Massive Data'
+  abstract: 'We present an extension of convex-hull non-negative matrix factorization (CH-NMF) which was recently proposed as a large scale variant of convex non-negative matrix factorization or Archetypal Analysis. CHNMF factorizes a non-negative data matrix $V$ into two non-negative matrix factors $V \approx WH$ such that the columns of $W$ are convex combinations of certain data points so that they are readily interpretable to data analysts. There is, however, no free lunch: imposing convexity constraints on W typically prevents adaptation to intrinsic, low dimensional structures in the data. Alas, in cases where the data is distributed in a non-convex manner or consists of mixtures of lower dimensional convex distributions, the cluster representatives obtained from CH-NMF will be less meaningful. In this paper, we present a hierarchical CH-NMF that automatically adapts to internal structures of a dataset, hence it yields meaningful and interpretable clusters for non-convex datasets. This is also confirmed by our extensive evaluation on DBLP publication records of $760,000$ authors, $4,000,000$ images harvested from the web, and $150,000,000$ votes on World of Warcraft guilds.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/kersting10a.html
+  PDF: http://proceedings.mlr.press/v13/kersting10a/kersting10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-kersting10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kristian
+    family: Kersting
+  - given: Mirwaes
+    family: Wahabzada
+  - given: Christian
+    family: Thurau
+  - given: Christian
+    family: Bauckhage
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 253-268
+  id: kersting10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 253
+  lastpage: 268
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Multi-task Learning for Recommender System'
+  abstract: 'This paper focuses on exploring personalized multi-task learning approaches for collaborative filtering towards the goal of improving the prediction performance of rating prediction systems. These methods first specifically identify a set of users that are closely related to the user under consideration (i.e., active user), and then learn multiple rating prediction models simultaneously, one for the active user and one for each of the related users. Such learning for multiple models (tasks) in parallel is implemented by representing all learning instances (users and items) using a coupled user-item representation, and within error-insensitive Support Vector Regression ($\epsilon$-SVR) framework applying multi-task kernel tricks. A comprehensive set of experiments shows that multi-task learning approaches lead to significant performance improvement over conventional alternatives.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/ning10a.html
+  PDF: http://proceedings.mlr.press/v13/ning10a/ning10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-ning10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Xia
+    family: Ning
+  - given: George
+    family: Karypis
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 269-284
+  id: ning10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 269
+  lastpage: 284
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Adaptive Step-size Policy Gradients with Average Reward Metric'
+  abstract: 'In this paper, we propose a novel adaptive step-size approach for policy gradient reinforcement learning. A new metric is defined for policy gradients that measures the effect of changes on average reward with respect to the policy parameters. Since the metric directly measures the effects on the average reward, the resulting policy gradient learning employs an adaptive step-size strategy that can effectively avoid falling into a stagnant phase from the complex structure of the average reward function with respect to the policy parameters. Two algorithms are derived with the metric as variants of ordinary and natural policy gradients. Their properties are compared with previously proposed policy gradients through numerical experiments with simple, but non-trivial, 3-state Markov Decision Processes (MDPs). We also show performance improvements over previous methods in on-line learning with more challenging 20-state MDPs.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/matsubara10a.html
+  PDF: http://proceedings.mlr.press/v13/matsubara10a/matsubara10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-matsubara10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Takamitsu
+    family: Matsubara
+  - given: Tetsuro
+    family: Morimura
+  - given: Jun
+    family: Morimoto
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 285-298
+  id: matsubara10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 285
+  lastpage: 298
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Finite-sample Analysis of Bellman Residual Minimization'
+  abstract: 'We consider the Bellman residual minimization approach for solving discounted Markov decision problems, where we assume that a generative model of the dynamics and rewards is available. At each policy iteration step, an approximation of the value function for the current policy is obtained by minimizing an empirical Bellman residual defined on a set of $n$ states drawn i.i.d. from a distribution $\mu$, the immediate rewards, and the next states sampled from the model. Our main result is a generalization bound for the Bellman residual in linear approximation spaces. In particular, we prove that the empirical Bellman residual approaches the true (quadratic) Bellman residual in $\mu$-norm with a rate of order $O(1/\sqrt{n})$. This result implies that minimizing the empirical residual is indeed a sound approach for the minimization of the true Bellman residual which guarantees a good approximation of the value function for each policy. Finally, we derive performance bounds for the resulting approximate policy iteration algorithm in terms of the number of samples $n$ and a measure of how well the function space is able to approximate the sequence of value functions.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/maillard10a.html
+  PDF: http://proceedings.mlr.press/v13/maillard10a/maillard10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-maillard10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Odalric-Ambrym
+    family: Maillard
+  - given: Remi
+    family: Munos
+  - given: Alessandro
+    family: Lazaric
+  - given: Mohammad
+    family: Ghavamzadeh
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 299-314
+  id: maillard10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 299
+  lastpage: 314
+  published: 2010-10-31 00:00:00 +0000
+- title: 'A Study of Approximate Inference in Probabilistic Relational Models'
+  abstract: 'We tackle the problem of approximate inference in Probabilistic Relational Models (PRMs) and propose the Lazy Aggregation Block Gibbs (LABG) algorithm. The LABG algorithm makes use of the inherent relational structure of the ground Bayesian network corresponding to a PRM. We evaluate our approach on artificial and real data and show that it scales well with the size of the data set.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/kaelin10a.html
+  PDF: http://proceedings.mlr.press/v13/kaelin10a/kaelin10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-kaelin10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Fabian
+    family: Kaelin
+  - given: Doina
+    family: Precup
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 315-330
+  id: kaelin10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 315
+  lastpage: 330
+  published: 2010-10-31 00:00:00 +0000
+- title: 'Conceptual Imitation Learning: An Application to Human-robot Interaction'
+  abstract: 'In general, imitation is imprecisely used to address different levels of social learning from high level knowledge transfer to low level regeneration of motor commands. However, true imitation is based on abstraction and conceptualization. This paper presents a conceptual approach for imitation learning using feedback cues and interactive training to abstract spatio-temporal demonstrations based on their perceptual and functional characteristics. Abstraction, concept acquisition, and self-organization of proto-symbols are performed through an incremental and gradual learning algorithm. In this algorithm, Hidden Markov Models (HMMs) are used to abstract perceptually similar demonstrations. However, abstract (relational) concepts emerge as a collection of HMMs irregularly scattered in the perceptual space. Performance of the proposed algorithm is evaluated in a human-robot interaction task of imitating signs produced by hand movements. Experimental results show efficiency of our model for concept extraction, symbol emergence, motion pattern recognition, and regeneration.'
+  volume: 13
+  URL: https://proceedings.mlr.press/v13/hajimirsadeghi10a.html
+  PDF: http://proceedings.mlr.press/v13/hajimirsadeghi10a/hajimirsadeghi10a.pdf
+  edit: https://github.com/mlresearch//v13/edit/gh-pages/_posts/2010-10-31-hajimirsadeghi10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Asian Conference on Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hossein
+    family: Hajimirsadeghi
+  - given: Majid Nili
+    family: Ahmadabadi
+  - given: Mostafa
+    family: Ajallooeian
+  - given: Babak
+    family: Araabi
+  - given: Hadi
+    family: Moradi
+  editor: 
+  - given: Masashi
+    family: Sugiyama
+  - given: Qiang
+    family: Yang
+  address: Tokyo, Japan
+  page: 331-346
+  id: hajimirsadeghi10a
+  issued:
+    date-parts: 
+      - 2010
+      - 10
+      - 31
+  firstpage: 331
+  lastpage: 346
+  published: 2010-10-31 00:00:00 +0000

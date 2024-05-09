@@ -1,0 +1,389 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of the Fourth International Workshop on Feature Selection in Data Mining  June 21st, 2010, Hyderabad, India'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/liu10a.html
+  PDF: http://proceedings.mlr.press/v10/liu10a/liu10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-liu10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 1-3
+  id: liu10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 1
+  lastpage: 3
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Feature Selection: An Ever Evolving Frontier in Data Mining'
+  abstract: 'The rapid advance of computer technologies in data processing, collection, and storage has provided unparalleled opportunities to expand capabilities in production, services, communications, and research. However, immense quantities of high-dimensional data renew the challenges to the state-of-the-art data mining techniques. Feature selection is an effective technique for dimension reduction and an essential step in successful data mining applications. It is a research area of great practical significance and has been developed and evolved to answer the challenges due to data of increasingly high dimensionality. Its direct benefits include: building simpler and more comprehensible models, improving data mining performance, and helping prepare, clean, and understand data. We first briefly introduce the key components of feature selection, and review its developments with the growth of data mining. We then overview FSDM and the papers of FSDM10, which showcases of a vibrant research field of some contemporary interests, new applications, and ongoing research efforts. We then examine nascent demands in data-intensive applications and identify some potential lines of research that require multidisciplinary efforts.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/liu10b.html
+  PDF: http://proceedings.mlr.press/v10/liu10b/liu10b.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-liu10b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 4-13
+  id: liu10b
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 4
+  lastpage: 13
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Feature Selection, Association Rules Network and Theory Building'
+  abstract: 'As the size and dimensionality of data sets increase, the task of feature selection has become increasingly important. In this paper we demonstrate how association rules can be used to build a network of features, which we refer to as an association rules network, to extract features from large data sets. Association rules network can play a fundamental role in *theory building* - which is a task common to all data sciences- statistics, machine learning and data mining.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/chawla10a.html
+  PDF: http://proceedings.mlr.press/v10/chawla10a/chawla10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-chawla10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Sanjay
+    family: Chawla
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 14-21
+  id: chawla10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 14
+  lastpage: 21
+  published: 2010-05-26 00:00:00 +0000
+- title: 'A Statistical Implicative Analysis Based Algorithm and MMPC Algorithm for Detecting Multiple Dependencies'
+  abstract: 'Discovering the dependencies among the variables of a domain from examples is an important problem in optimization. Many methods have been proposed for this purpose, but few large-scale evaluations were conducted. Most of these methods are based on measurements of conditional probability. The statistical implicative analysis offers another perspective of dependencies. It is important to compare the results obtained using this approach with one of the best methods currently available for this task: the MMPC heuristic. As the SIA is not used directly to address this problem, we designed an extension of it for our purpose. We conducted a large number of experiments by varying parameters such as the number of dependencies, the number of variables involved or the type of their distribution to compare the two approaches. The results show strong complementarities of the two methods.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/salehi10a.html
+  PDF: http://proceedings.mlr.press/v10/salehi10a/salehi10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-salehi10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Elham
+    family: Salehi
+  - given: Jayashree
+    family: Nyayachavadi
+  - given: Robin
+    family: Gras
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 22-34
+  id: salehi10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 22
+  lastpage: 34
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Attribute Selection Based on FRiS-Compactness'
+  abstract: 'Commonly to classify new object in Data Mining one should estimate its similarity with given classes. Function of Rival Similarity (FRiS) is assigned to calculate quantitative measure of similarity considering a competitive situation. FRiS-function allows constructing new effective algorithms for various Data Mining tasks solving. In particular, it enables to obtain quantitative estimation of compactness of patterns which can be used as indirect criterion for informative attributes selection. FRiS-compactness predicts reliability of recognition of control sample more precisely, than such widespread methods as One-Leave-Out and Cross-Validation. Presented in the paper results of real genetic task solving confirm efficiency of FRiS-function using in attributes selection and decision rules construction.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/zagoruiko10a.html
+  PDF: http://proceedings.mlr.press/v10/zagoruiko10a/zagoruiko10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-zagoruiko10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Nikolay
+    family: Zagoruiko
+  - given: Irina
+    family: Borisova
+  - given: Vladimir
+    family: Dyubanov
+  - given: Olga
+    family: Kutnenko
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 35-44
+  id: zagoruiko10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 35
+  lastpage: 44
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Effective Wrapper-Filter hybridization through GRASP Schemata'
+  abstract: 'Of all of the challenges which face the selection of relevant features for predictive data mining or pattern recognition modeling, the adaptation of computational intelligence techniques to feature selection problem requirements is one of the primary impediments. A new improved metaheuristic based on \textitGreedy Randomized Adaptive Search Procedure (GRASP) is proposed for the problem of Feature Selection. Our devised optimization approach provides an effective scheme for wrapper-filter hybridization through the adaptation of GRASP components. The paper investigates, the GRASP component design as well as its adaptation to the feature selection problem. Carried out experiments showed Empirical effectiveness of the devised approach.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/esseghir10a.html
+  PDF: http://proceedings.mlr.press/v10/esseghir10a/esseghir10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-esseghir10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Mohamed Amir
+    family: Esseghir
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 45-54
+  id: esseghir10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 45
+  lastpage: 54
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Feature Extraction for Machine Learning: Logic-Probabilistic Approach'
+  abstract: 'The paper analyzes peculiarities of preprocessing of learning data represented in object data bases constituted by multiple relational tables with ontology on top of it. Exactly such learning data structures are peculiar to many novel challenging applications. The paper proposes a new technology supported by a number of novel algorithms intended for ontology-centered transformation of heterogeneous possibly poor structured learning data into homogeneous informative binary feature space based on (1) aggregation of the ontology notion instances and their attribute domains and subsequent probabilistic cause-consequence analysis aimed at extraction more informative features. The proposed technology is fully implemented and validated on several case studies.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/gorodetsky10a.html
+  PDF: http://proceedings.mlr.press/v10/gorodetsky10a/gorodetsky10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-gorodetsky10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Vladimir
+    family: Gorodetsky
+  - given: Vladimir
+    family: Samoylov
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 55-65
+  id: gorodetsky10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 55
+  lastpage: 65
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Feature Extraction for Outlier Detection in High-Dimensional Spaces'
+  abstract: 'This work addresses the problem of feature extraction for boosting the performance of outlier detectors in high-dimensional spaces. Recent years have observed the prominence of multidimensional data on which traditional detection techniques usually fail to work as expected due to the curse of dimensionality. This paper introduces an efficient feature extraction method which brings nontrivial improvements in detection accuracy when applied on two popular detection techniques. Experiments carried out on real datasets demonstrate the feasibility of feature extraction in outlier detection.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/nguyen10a.html
+  PDF: http://proceedings.mlr.press/v10/nguyen10a/nguyen10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-nguyen10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Hoang Vu
+    family: Nguyen
+  - given: Vivekanand
+    family: Gopalkrishnan
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 66-75
+  id: nguyen10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 66
+  lastpage: 75
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Feature Selection for Text Classification Based on Gini Coefficient of Inequality'
+  abstract: 'A number of feature selection mechanisms have been explored in text categorization, among which mutual information, information gain and chi-square are considered most effective. In this paper, we study another method known as \it within class popularity to deal with feature selection based on the concept \it Gini coefficient of inequality (a commonly used measure of inequality of \textitincome). The proposed measure explores the relative distribution of a feature among different classes. From extensive experiments with four text classifiers over three datasets of different levels of heterogeneity, we observe that the proposed measure outperforms the mutual information, information gain and chi-square static with an average improvement of approximately 28.5%, 19% and 9.2% respectively.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/sanasam10a.html
+  PDF: http://proceedings.mlr.press/v10/sanasam10a/sanasam10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-sanasam10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Ranbir
+    family: Sanasam
+  - given: Hema
+    family: Murthy
+  - given: Timothy
+    family: Gonsalves
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 76-85
+  id: sanasam10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 76
+  lastpage: 85
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Increasing Feature Selection Accuracy for L1 Regularized Linear Models'
+  abstract: 'L1 (also referred to as the 1-norm or Lasso) penalty based formulations have been shown to be effective in problem domains when noisy features are present. However, the L1 penalty does not give favorable asymptotic properties with respect to feature selection, and has been shown to be inconsistent as a feature selection estimator; e.g. when noisy features are correlated with the relevant features. This can affect the estimation of the correct feature set, in certain domains like robotics, when both the number of examples and the number of features are large. The weighted lasso penalty by (Zou, 2006) has been proposed to rectify this problem of correct estimation of the feature set. This paper proposes a novel method for identifying problem specific L1 feature weights by utilizing the results from (Zou, 2006) and (Rocha et al., 2009) and is applicable to regression and classification algorithms. Our method increases the accuracy of L1 penalized algorithms through randomized experiments on subsets of the training data as a fast pre-processing step. We show experimental and theoretical results supporting the efficacy of the proposed method on two L1 penalized classification algorithms.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/jaiantilal10a.html
+  PDF: http://proceedings.mlr.press/v10/jaiantilal10a/jaiantilal10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-jaiantilal10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Abhishek
+    family: Jaiantilal
+  - given: Gregory
+    family: Grudic
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 86-96
+  id: jaiantilal10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 86
+  lastpage: 96
+  published: 2010-05-26 00:00:00 +0000
+- title: 'Learning Dissimilarities for Categorical Symbols'
+  abstract: 'In this paper we learn a dissimilarity measure for categorical data, for effective classification of the data points. Each categorical feature (with values taken from a finite set of symbols) is mapped onto a continuous feature whose values are real numbers. Guided by the classification error based on a nearest neighbor based technique, we repeatedly update the assignment of categorical symbols to real numbers to minimize this error. Intuitively, the algorithm pushes together points with the same class label, while enlarging the distances to points labeled differently. Our experiments show that 1) the learned dissimilarities improve classification accuracy by using the affinities of categorical symbols; 2) they outperform dissimilarities produced by previous data-driven methods; 3) our enhanced nearest neighbor classifier (called LD) based on the new space is competitive compared with classifiers such as decision trees, RBF neural networks, Naive Bayes and support vector machines, on a range of categorical datasets.'
+  volume: 10
+  URL: https://proceedings.mlr.press/v10/xie10a.html
+  PDF: http://proceedings.mlr.press/v10/xie10a/xie10a.pdf
+  edit: https://github.com/mlresearch//v10/edit/gh-pages/_posts/2010-05-26-xie10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Feature Selection in Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Jierui
+    family: Xie
+  - given: Boleslaw
+    family: Szymanski
+  - given: Mohammed
+    family: Zaki
+  editor: 
+  - given: Huan
+    family: Liu
+  - given: Hiroshi
+    family: Motoda
+  - given: Rudy
+    family: Setiono
+  - given: Zheng
+    family: Zhao
+  address: Hyderabad, India
+  page: 97-106
+  id: xie10a
+  issued:
+    date-parts: 
+      - 2010
+      - 5
+      - 26
+  firstpage: 97
+  lastpage: 106
+  published: 2010-05-26 00:00:00 +0000

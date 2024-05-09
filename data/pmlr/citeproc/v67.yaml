@@ -1,0 +1,110 @@
+
+- title: 'Preface'
+  abstract: 'These proceedings contain papers accepted to, and presented at, the research and industry tracks of the 3rd International Conference on Predictive Applications and APIs (PAPIs ’16), held in Boston, USA on 11-12 October 2016.'
+  volume: 67
+  URL: https://proceedings.mlr.press/v67/hardgrove17a.html
+  PDF: http://proceedings.mlr.press/v67/hardgrove17a/hardgrove17a.pdf
+  edit: https://github.com/mlresearch//v67/edit/gh-pages/_posts/2017-07-04-hardgrove17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 3rd International Conference on Predictive Applications and APIs'
+  publisher: 'PMLR'
+  author: 
+  - given: Claire
+    family: Hardgrove
+  - given: Louis
+    family: Dorard
+  - given: Keiran
+    family: Thompson
+  - given: Florian
+    family: Douetteau
+  editor: 
+  - given: Claire
+    family: Hardgrove
+  - given: Louis
+    family: Dorard
+  - given: Keiran
+    family: Thompson
+  - given: Florian
+    family: Douetteau
+  page: i-iii
+  id: hardgrove17a
+  issued:
+    date-parts: 
+      - 2017
+      - 7
+      - 4
+  firstpage: i
+  lastpage: iii
+  published: 2017-07-04 00:00:00 +0000
+- title: 'Causal Inference and Uplift Modelling: A Review of the Literature'
+  abstract: 'Uplift modeling refers to the set of techniques used to model the incremental impact of an action or treatment on a customer outcome. Uplift modeling is therefore both a Causal Inference problem and a Machine Learning one. The literature on uplift is split into 3 main approaches - the Two-Model approach, the Class Transformation approach and modeling uplift directly. Unfortunately, in the absence of a common framework of causal inference and notation, it can be quite difficult to assess those three methods. In this paper, we use the Rubin (1974) model of causal inference and its modern “econometrics” notation to provide a clear comparison of the three approaches and generalize one of them. To our knowledge, this is the first paper that provides a unified review of the uplift literature. Moreover, our paper contributes to the literature by showing that, in the limit, minimizing the Mean Square Error (MSE) formula with respect to a causal effect estimator is equivalent to minimizing the MSE in which the unobserved treatment effect is replaced by a modified target variable. Finally, we hope that our paper will be of use to researchers interested in applying Machine Learning techniques to causal inference problems in a business context as well as in other fields: medicine, sociology or economics.'
+  volume: 67
+  URL: https://proceedings.mlr.press/v67/gutierrez17a.html
+  PDF: http://proceedings.mlr.press/v67/gutierrez17a/gutierrez17a.pdf
+  edit: https://github.com/mlresearch//v67/edit/gh-pages/_posts/2017-07-04-gutierrez17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 3rd International Conference on Predictive Applications and APIs'
+  publisher: 'PMLR'
+  author: 
+  - given: Pierre
+    family: Gutierrez
+  - given: Jean-Yves
+    family: Gérardy
+  editor: 
+  - given: Claire
+    family: Hardgrove
+  - given: Louis
+    family: Dorard
+  - given: Keiran
+    family: Thompson
+  - given: Florian
+    family: Douetteau
+  page: 1-13
+  id: gutierrez17a
+  issued:
+    date-parts: 
+      - 2017
+      - 7
+      - 4
+  firstpage: 1
+  lastpage: 13
+  published: 2017-07-04 00:00:00 +0000
+- title: 'Scaling Machine Learning as a Service'
+  abstract: 'Machine learning as a service (MLaaS) is imperative to the success of many companies as they need to gain business intelligence from big data. Building a scalable MLaaS for mission-critical and real-time applications is a very challenging problem. In this paper, we present the scalable MLaaS we built for Uber that operates globally. We focus on several scalability challenges. First, how to scale feature computation for many machine learning use cases. Second, how to build accurate models using global data and account for individual city or region characteristics. Third, how to enable scalable model deployment and real-time serving for hundreds of thousands of models across multiple data centers. Our technical solutions are the design and implementation of a scalable feature computing engine and feature store, a framework to manage and train a hierarchy of models as a single logical entity, and an automated one-click deployment system and scalable real-time serving service.'
+  volume: 67
+  URL: https://proceedings.mlr.press/v67/li17a.html
+  PDF: http://proceedings.mlr.press/v67/li17a/li17a.pdf
+  edit: https://github.com/mlresearch//v67/edit/gh-pages/_posts/2017-07-04-li17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 3rd International Conference on Predictive Applications and APIs'
+  publisher: 'PMLR'
+  author: 
+  - given: Li Erran
+    family: Li
+  - given: Eric
+    family: Chen
+  - given: Jeremy
+    family: Hermann
+  - given: Pusheng
+    family: Zhang
+  - given: Luming
+    family: Wang
+  editor: 
+  - given: Claire
+    family: Hardgrove
+  - given: Louis
+    family: Dorard
+  - given: Keiran
+    family: Thompson
+  - given: Florian
+    family: Douetteau
+  page: 14-29
+  id: li17a
+  issued:
+    date-parts: 
+      - 2017
+      - 7
+      - 4
+  firstpage: 14
+  lastpage: 29
+  published: 2017-07-04 00:00:00 +0000

@@ -1,0 +1,1926 @@
+
+- title: 'NeurIPS 2021 Competition and Demonstration Track Revised Selected Papers'
+  abstract: 'Introduction to this volume.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/kiela22a.html
+  PDF: https://proceedings.mlr.press/v176/kiela22a/kiela22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-kiela22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: i-ii
+  id: kiela22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: i
+  lastpage: ii
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Results and findings of the 2021 Image Similarity Challenge'
+  abstract: 'The 2021 Image Similarity Challenge introduced a dataset to serve as a benchmark to evaluate image copy detection methods. There were 200 participants to the competition. This paper presents a quantitative and qualitative analysis of the top submissions. It appears that the most difficult image transformations involve either severe image crops or overlaying onto unrelated images, combined with local pixel perturbations. The key algorithmic elements in the winning submissions are: training on strong augmentations, self-supervised learning, score normalization, explicit overlay detection, and global descriptor matching followed by pairwise image comparison.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/papakipos22a.html
+  PDF: https://proceedings.mlr.press/v176/papakipos22a/papakipos22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-papakipos22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Zoë
+    family: Papakipos
+  - given: Giorgos
+    family: Tolias
+  - given: Tomas
+    family: Jenicek
+  - given: Ed
+    family: Pizzi
+  - given: Shuhei
+    family: Yokoo
+  - given: Wenhao
+    family: Wang
+  - given: Yifan
+    family: Sun
+  - given: Weipu
+    family: Zhang
+  - given: Yi
+    family: Yang
+  - given: Sanjay
+    family: Addicam
+  - given: Sergio Manuel
+    family: Papadakis
+  - given: Cristian Canton
+    family: Ferrer
+  - given: Ondřej
+    family: Chum
+  - given: Matthijs
+    family: Douze
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 1-12
+  id: papakipos22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 1
+  lastpage: 12
+  published: 2022-07-20 00:00:00 +0000
+- title: 'MineRL Diamond 2021 Competition: Overview, Results, and Lessons Learned'
+  abstract: 'Reinforcement learning competitions advance the field by providing appropriate scope and support to develop solutions toward a specific problem. To promote the development of more broadly applicable methods, organizers need to enforce the use of general techniques, the use of sample-efficient methods, and the reproducibility of the results. While beneficial for the research community, these restrictions come at a cost—increased difficulty. If the barrier for entry is too high, many potential participants are demoralized. With this in mind, we hosted the third edition of the MineRL ObtainDiamond competition, MineRL Diamond 2021, with a separate track in which we permitted any solution to promote the participation of newcomers. With this track and more extensive tutorials and support, we saw an increased number of submissions. The participants of this easier track were able to obtain a diamond, and the participants of the harder track progressed the generalizable solutions in the same task.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/kanervisto22a.html
+  PDF: https://proceedings.mlr.press/v176/kanervisto22a/kanervisto22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-kanervisto22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Anssi
+    family: Kanervisto
+  - given: Stephanie
+    family: Milani
+  - given: Karolis
+    family: Ramanauskas
+  - given: Nicholay
+    family: Topin
+  - given: Zichuan
+    family: Lin
+  - given: Junyou
+    family: Li
+  - given: Jianing
+    family: Shi
+  - given: Deheng
+    family: Ye
+  - given: Qiang
+    family: Fu
+  - given: Wei
+    family: Yang
+  - given: Weijun
+    family: Hong
+  - given: Zhongyue
+    family: Huang
+  - given: Haicheng
+    family: Chen
+  - given: Guangjun
+    family: Zeng
+  - given: Yue
+    family: Lin
+  - given: Vincent
+    family: Micheli
+  - given: Eloi
+    family: Alonso
+  - given: François
+    family: Fleuret
+  - given: Alexander
+    family: Nikulin
+  - given: Yury
+    family: Belousov
+  - given: Oleg
+    family: Svidchenko
+  - given: Aleksei
+    family: Shpilman
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 13-28
+  id: kanervisto22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 13
+  lastpage: 28
+  published: 2022-07-20 00:00:00 +0000
+- title: 'The Open Catalyst Challenge 2021: Competition Report'
+  abstract: 'In this report, we describe the Open Catalyst Challenge held at NeurIPS 2021, focusing on using machine learning (ML) to accelerate the search for low-cost catalysts that can drive reactions converting renewable energy to storable forms. Specifically, the challenge required participants to develop ML approaches for relaxed energy prediction, i.e. given atomic positions for an adsorbate-catalyst system, the goal was to predict the energy of the system’s relaxed or lowest energy state. To perform well on this task, ML approaches need to approximate the quantum mechanical computations in Density Functional Theory (DFT). By modeling these accurately, the catalyst’s impact on the overall rate of a chemical reaction may be estimated; a key factor in filtering potential electrocatalyst materials. The challenge encouraged community-wide progress on this task and the winning approach improved direct relaxed energy prediction by  15% relative over the previous state-of-the-art.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/das22a.html
+  PDF: https://proceedings.mlr.press/v176/das22a/das22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-das22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Abhishek
+    family: Das
+  - given: Muhammed
+    family: Shuaibi
+  - given: Aini
+    family: Palizhati
+  - given: Siddharth
+    family: Goyal
+  - given: Aditya
+    family: Grover
+  - given: Adeesh
+    family: Kolluru
+  - given: Janice
+    family: Lan
+  - given: Ammar
+    family: Rizvi
+  - given: Anuroop
+    family: Sriram
+  - given: Brandon
+    family: Wood
+  - given: Devi
+    family: Parikh
+  - given: Zachary
+    family: Ulissi
+  - given: C. Lawrence
+    family: Zitnick
+  - given: Guolin
+    family: Ke
+  - given: Shuxin
+    family: Zheng
+  - given: Yu
+    family: Shi
+  - given: Di
+    family: He
+  - given: Tie-Yan
+    family: Liu
+  - given: Chengxuan
+    family: Ying
+  - given: Jiacheng
+    family: You
+  - given: Yihan
+    family: He
+  - given: Rostislav
+    family: Grigoriev
+  - given: Ruslan
+    family: Lukin
+  - given: Adel
+    family: Yarullin
+  - given: Max
+    family: Faleev
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 29-40
+  id: das22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 29
+  lastpage: 40
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Insights From the NeurIPS 2021 NetHack Challenge'
+  abstract: 'In this report, we summarize the takeaways from the first NeurIPS 2021 NetHack Challenge. Participants were tasked with developing a program or agent that can win (i.e., ’ascend’ in) the popular dungeon-crawler game of NetHack by interacting with the NetHack Learning Environment (NLE), a scalable, procedurally generated, and challenging Gym environment for reinforcement learning (RL). The challenge showcased community-driven progress in AI with many diverse approaches significantly beating the previously best results on NetHack. Furthermore, it served as a direct comparison between neural (e.g., deep RL) and symbolic AI, as well as hybrid systems, demonstrating that on NetHack symbolic bots currently outperform deep RL by a large margin. Lastly, no agent got close to winning the game, illustrating NetHack’s suitability as a long-term benchmark for AI research.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/hambro22a.html
+  PDF: https://proceedings.mlr.press/v176/hambro22a/hambro22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-hambro22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Eric
+    family: Hambro
+  - given: Sharada
+    family: Mohanty
+  - given: Dmitrii
+    family: Babaev
+  - given: Minwoo
+    family: Byeon
+  - given: Dipam
+    family: Chakraborty
+  - given: Edward
+    family: Grefenstette
+  - given: Minqi
+    family: Jiang
+  - given: Jo
+    family: Daejin
+  - given: Anssi
+    family: Kanervisto
+  - given: Jongmin
+    family: Kim
+  - given: Sungwoong
+    family: Kim
+  - given: Robert
+    family: Kirk
+  - given: Vitaly
+    family: Kurin
+  - given: Heinrich
+    family: Küttler
+  - given: Taehwon
+    family: Kwon
+  - given: Donghoon
+    family: Lee
+  - given: Vegard
+    family: Mella
+  - given: Nantas
+    family: Nardelli
+  - given: Ivan
+    family: Nazarov
+  - given: Nikita
+    family: Ovsov
+  - given: Jack
+    family: Holder
+  - given: Roberta
+    family: Raileanu
+  - given: Karolis
+    family: Ramanauskas
+  - given: Tim
+    family: Rocktäschel
+  - given: Danielle
+    family: Rothermel
+  - given: Mikayel
+    family: Samvelyan
+  - given: Dmitry
+    family: Sorokin
+  - given: Maciej
+    family: Sypetkowski
+  - given: Michał
+    family: Sypetkowski
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 41-52
+  id: hambro22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 41
+  lastpage: 52
+  published: 2022-07-20 00:00:00 +0000
+- title: 'The Second NeurIPS Tournament of Reconnaissance Blind Chess'
+  abstract: 'Reconnaissance Blind Chess is an imperfect-information variant of chess with significant private information that challenges state-of-the-art algorithms. The Johns Hopkins University Applied Physics Laboratory and several organizing partners held the second NeurIPS machine Reconnaissance Blind Chess competition in 2021. 18 bots competed in 9,180 games, revealing a dominant champion with 91% wins. The top four bots in the tournament matched or exceeded the performance of the inaugural tournament’s winner. However, none of the algorithms converge to an optimal, unexploitable strategy or appear to have addressed the core research challenges associated with Reconnaissance Blind Chess.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/perrotta22a.html
+  PDF: https://proceedings.mlr.press/v176/perrotta22a/perrotta22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-perrotta22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Gino
+    family: Perrotta
+  - given: Ryan W.
+    family: Gardner
+  - given: Corey
+    family: Lowman
+  - given: Mohammad
+    family: Taufeeque
+  - given: Nitish
+    family: Tongia
+  - given: Shivaram
+    family: Kalyanakrishnan
+  - given: Gregory
+    family: Clark
+  - given: Kevin
+    family: Wang
+  - given: Eitan
+    family: Rothberg
+  - given: Brady P.
+    family: Garrison
+  - given: Prithviraj
+    family: Dasgupta
+  - given: Callum
+    family: Canavan
+  - given: Lucas
+    family: McCabe
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 53-65
+  id: perrotta22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 53
+  lastpage: 65
+  published: 2022-07-20 00:00:00 +0000
+- title: 'VisDA-2021 Competition: Universal Domain Adaptation to Improve Performance on Out-of-Distribution Data'
+  abstract: 'Progress in machine learning is typically measured by training and testing a model on samples drawn from the same distribution, i.e. the same domain. This over-estimates future accuracy on out-of-distribution data. The Visual Domain Adaptation (VisDA) 2021 competition tests models’ ability to adapt to novel test distributions and handle distributional shift. We set up unsupervised domain adaptation challenges for image classifiers and evaluate adaptation to novel viewpoints, backgrounds, styles and degradation in quality. Our challenge draws on large-scale publicly available datasets but constructs the evaluation across domains, rather than the traditional in-domain benchmarking. Furthermore, we focus on the difficult “universal" setting where, in addition to input distribution drift, methods encounter missing and/or novel classes in the test set. In this paper, we describe the datasets and evaluation metrics and highlight similarities across top-performing methods that might point to promising future directions in universal domain adaptation research. We hope that the competition will encourage further improvement in machine learning methods’ ability to handle realistic data in many deployment scenarios. http://ai.bu.edu/visda-2021/.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/bashkirova22a.html
+  PDF: https://proceedings.mlr.press/v176/bashkirova22a/bashkirova22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-bashkirova22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Dina
+    family: Bashkirova
+  - given: Dan
+    family: Hendrycks
+  - given: Donghyun
+    family: Kim
+  - given: Haojin
+    family: Liao
+  - given: Samarth
+    family: Mishra
+  - given: Chandramouli
+    family: Rajagopalan
+  - given: Kate
+    family: Saenko
+  - given: Kuniaki
+    family: Saito
+  - given: Burhan Ul
+    family: Tayyab
+  - given: Piotr
+    family: Teterwak
+  - given: Ben
+    family: Usman
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 66-79
+  id: bashkirova22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 66
+  lastpage: 79
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Lessons learned from the NeurIPS 2021 MetaDL challenge: Backbone fine-tuning without episodic meta-learning dominates for few-shot learning image classification'
+  abstract: 'Although deep neural networks are capable of achieving performance superior to humans on various tasks, they are notorious for requiring large amounts of data and computing resources, restricting their success to domains where such resources are available. Meta-learning methods can address this problem by transferring knowledge from related tasks, thus reducing the amount of data and computing resources needed to learn new tasks. We organize the MetaDL competition series, which provide opportunities for research groups all over the world to create and experimentally assess new meta-(deep)learning solutions for real problems. In this paper, authored collaboratively between the competition organizers and the top-ranked participants, we describe the design of the competition, the datasets, the best experimental results, as well as the top-ranked methods in the NeurIPS 2021 challenge, which attracted 15 active teams who made it to the final phase (by outperforming the baseline), making over 100 code submissions during the feedback phase. The solutions of the top participants have been open-sourced. The lessons learned include that learning good representations is essential for effective transfer learning.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/el-baz22a.html
+  PDF: https://proceedings.mlr.press/v176/el-baz22a/el-baz22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-el-baz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Adrian
+    family: El Baz
+  - given: Ihsan
+    family: Ullah
+  - given: Edesio
+    family: Alcobaça
+  - given: André C. P. L. F.
+    family: Carvalho
+  - given: Hong
+    family: Chen
+  - given: Fabio
+    family: Ferreira
+  - given: Henry
+    family: Gouk
+  - given: Chaoyu
+    family: Guan
+  - given: Isabelle
+    family: Guyon
+  - given: Timothy
+    family: Hospedales
+  - given: Shell
+    family: Hu
+  - given: Mike
+    family: Huisman
+  - given: Frank
+    family: Hutter
+  - given: Zhengying
+    family: Liu
+  - given: Felix
+    family: Mohr
+  - given: Ekrem
+    family: Öztürk
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Haozhe
+    family: Sun
+  - given: Xin
+    family: Wang
+  - given: Wenwu
+    family: Zhu
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 80-96
+  id: el-baz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 80
+  lastpage: 96
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Traffic4cast at NeurIPS 2021 - Temporal and Spatial Few-Shot Transfer Learning in Gridded Geo-Spatial Processes'
+  abstract: 'The IARAI Traffic4cast competitions at NeurIPS 2019 and 2020 showed that neural networks can successfully predict future traffic conditions 1 hour into the future on simply aggregated GPS probe data in time and space bins. We thus reinterpreted the challenge of forecasting traffic conditions as a movie completion task. U-Nets proved to be the winning architecture, demonstrating an ability to extract relevant features in this complex real-world geo-spatial process. Building on the previous competitions, Traffic4cast 2021 now focuses on the question of model robustness and generalizability across time and space. Moving from one city to an entirely different city, or moving from pre-COVID times to times after COVID hit the world thus introduces a clear domain shift. We thus, for the first time, release data featuring such domain shifts. The competition now covers ten cities over 2 years, providing data compiled from over $10^{12}$ GPS probe data. Winning solutions captured traffic dynamics sufficiently well to even cope with these complex domain shifts. Surprisingly, this seemed to require only the previous 1h traffic dynamic history and static road graph as input. '
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/eichenberger22a.html
+  PDF: https://proceedings.mlr.press/v176/eichenberger22a/eichenberger22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-eichenberger22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Christian
+    family: Eichenberger
+  - given: Moritz
+    family: Neun
+  - given: Henry
+    family: Martin
+  - given: Pedro
+    family: Herruzo
+  - given: Markus
+    family: Spanring
+  - given: Yichao
+    family: Lu
+  - given: Sungbin
+    family: Choi
+  - given: Vsevolod
+    family: Konyakhin
+  - given: Nina
+    family: Lukashina
+  - given: Aleksei
+    family: Shpilman
+  - given: Nina
+    family: Wiedemann
+  - given: Martin
+    family: Raubal
+  - given: Bo
+    family: Wang
+  - given: Hai L.
+    family: Vu
+  - given: Reza
+    family: Mohajerpoor
+  - given: Chen
+    family: Cai
+  - given: Inhi
+    family: Kim
+  - given: Luca
+    family: Hermes
+  - given: Andrew
+    family: Melnik
+  - given: Riza
+    family: Velioglu
+  - given: Markus
+    family: Vieth
+  - given: Malte
+    family: Schilling
+  - given: Alabi
+    family: Bojesomo
+  - given: Hasan Al
+    family: Marzouqi
+  - given: Panos
+    family: Liatsis
+  - given: Jay
+    family: Santokhi
+  - given: Dylan
+    family: Hillier
+  - given: Yiming
+    family: Yang
+  - given: Joned
+    family: Sarwar
+  - given: Anna
+    family: Jordan
+  - given: Emil
+    family: Hewage
+  - given: David
+    family: Jonietz
+  - given: Fei
+    family: Tang
+  - given: Aleksandra
+    family: Gruca
+  - given: Michael
+    family: Kopp
+  - given: David
+    family: Kreil
+  - given: Sepp
+    family: Hochreiter
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 97-112
+  id: eichenberger22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 97
+  lastpage: 112
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Evaluating Approximate Inference in Bayesian Deep Learning'
+  abstract: 'Uncertainty representation is crucial to the safe and reliable deployment of deep learning. Bayesian methods provide a natural mechanism to represent epistemic uncertainty, leading to improved generalization and calibrated predictive distributions. Understanding the fidelity of approximate inference has extraordinary value beyond the standard approach of measuring generalization on a particular task: if approximate inference is working correctly, then we can expect more reliable and accurate deployment across any number of real-world settings. In this competition, we evaluate the fidelity of approximate Bayesian inference procedures in deep learning, using as a reference Hamiltonian Monte Carlo (HMC) samples obtained by parallelizing computations over hundreds of tensor processing unit (TPU) devices. We consider a variety of tasks, including image recognition, regression, covariate shift, and medical applications. All data are publicly available, and we release several baselines, including stochastic MCMC, variational methods, and deep ensembles. The competition resulted in hundreds of submissions across many teams. The winning entries all involved novel multi-modal posterior approximations, highlighting the relative importance of representing multiple modes, and suggesting that we should not consider deep ensembles a {“}non-Bayesian{”} alternative to standard unimodal approximations. In the future, the competition will provide a foundation for innovation and continued benchmarking of approximate Bayesian inference procedures in deep learning. The HMC samples will remain available through the competition website.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/wilson22a.html
+  PDF: https://proceedings.mlr.press/v176/wilson22a/wilson22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-wilson22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrew Gordon
+    family: Wilson
+  - given: Pavel
+    family: Izmailov
+  - given: Matthew D
+    family: Hoffman
+  - given: Yarin
+    family: Gal
+  - given: Yingzhen
+    family: Li
+  - given: Melanie F
+    family: Pradier
+  - given: Sharad
+    family: Vikram
+  - given: Andrew
+    family: Foong
+  - given: Sanae
+    family: Lotfi
+  - given: Sebastian
+    family: Farquhar
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 113-124
+  id: wilson22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 113
+  lastpage: 124
+  published: 2022-07-20 00:00:00 +0000
+- title: 'HEAR: Holistic Evaluation of Audio Representations'
+  abstract: 'What audio embedding approach generalizes best to a wide range of downstream tasks across a variety of everyday domains without fine-tuning? The aim of the HEAR benchmark is to develop a general-purpose audio representation that provides a strong basis for learning in a wide variety of tasks and scenarios. HEAR evaluates audio representations using a benchmark suite across a variety of domains, including speech, environmental sound, and music. HEAR was launched as a NeurIPS 2021 shared challenge. In the spirit of shared exchange, each participant submitted an audio embedding model following a common API that is general-purpose, open-source, and freely available to use. Twenty-nine models by thirteen external teams were evaluated on nineteen diverse downstream tasks derived from sixteen datasets. Open evaluation code, submitted models and datasets are key contributions, enabling comprehensive and reproducible evaluation, as well as previously impossible longitudinal studies. It still remains an open question whether one single general-purpose audio representation can perform as holistically as the human ear.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/turian22a.html
+  PDF: https://proceedings.mlr.press/v176/turian22a/turian22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-turian22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph
+    family: Turian
+  - given: Jordie
+    family: Shier
+  - given: Humair Raj
+    family: Khan
+  - given: Bhiksha
+    family: Raj
+  - given: Björn W.
+    family: Schuller
+  - given: Christian J.
+    family: Steinmetz
+  - given: Colin
+    family: Malloy
+  - given: George
+    family: Tzanetakis
+  - given: Gissel
+    family: Velarde
+  - given: Kirk
+    family: McNally
+  - given: Max
+    family: Henry
+  - given: Nicolas
+    family: Pinto
+  - given: Camille
+    family: Noufi
+  - given: Christian
+    family: Clough
+  - given: Dorien
+    family: Herremans
+  - given: Eduardo
+    family: Fonseca
+  - given: Jesse
+    family: Engel
+  - given: Justin
+    family: Salamon
+  - given: Philippe
+    family: Esling
+  - given: Pranay
+    family: Manocha
+  - given: Shinji
+    family: Watanabe
+  - given: Zeyu
+    family: Jin
+  - given: Yonatan
+    family: Bisk
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 125-145
+  id: turian22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 125
+  lastpage: 145
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Interactive Grounded Language Understanding  in a Collaborative Environment: IGLU 2021'
+  abstract: 'Human intelligence has the remarkable ability to quickly adapt to new tasks and environments. Starting from a very young age, humans acquire new skills and learn how to solve new tasks either by imitating the behavior of others or by following provided natural language instructions. To facilitate research in this direction, we propose IGLU: Interactive Grounded Language Understanding in a Collaborative Environment. The primary goal of the competition is to approach the problem of how to build interactive agents that learn to solve a task while provided with grounded natural language instructions in a collaborative environment. Understanding the complexity of the challenge, we split it into sub-tasks to make it feasible for participants.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/kiseleva22a.html
+  PDF: https://proceedings.mlr.press/v176/kiseleva22a/kiseleva22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-kiseleva22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Julia
+    family: Kiseleva
+  - given: Ziming
+    family: Li
+  - given: Mohammad
+    family: Aliannejadi
+  - given: Shrestha
+    family: Mohanty
+  - given: Maartje
+    prefix: ter
+    family: Hoeve
+  - given: Mikhail
+    family: Burtsev
+  - given: Alexey
+    family: Skrynnik
+  - given: Artem
+    family: Zholus
+  - given: Aleksandr
+    family: Panov
+  - given: Kavya
+    family: Srinet
+  - given: Arthur
+    family: Szlam
+  - given: Yuxuan
+    family: Sun
+  - given: Katja
+    family: Hofmann
+  - given: Marc-Alexandre
+    family: Côté
+  - given: Ahmed
+    family: Awadallah
+  - given: Linar
+    family: Abdrazakov
+  - given: Igor
+    family: Churin
+  - given: Putra
+    family: Manggala
+  - given: Kata
+    family: Naszadi
+  - given: Michiel
+    prefix: van der
+    family: Meer
+  - given: Taewoon
+    family: Kim
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 146-161
+  id: kiseleva22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 146
+  lastpage: 161
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Multimodal single cell data integration challenge: Results and lessons learned'
+  abstract: 'Biology has become a data-intensive science. Recent technological advances in single-cell genomics have enabled the measurement of multiple facets of cellular state, producing datasets with millions of single-cell observations. While these data hold great promise for understanding molecular mechanisms in health and disease, analysis challenges arising from sparsity, technical and biological variability, and high dimensionality of the data hinder the derivation of such mechanistic insights. To promote the innovation of algorithms for analysis of multimodal single-cell data, we organized a competition at NeurIPS 2021 applying the Common Task Framework to multimodal single-cell data integration. For this competition we generated the first multimodal benchmarking dataset for single-cell biology and defined three tasks in this domain: prediction of missing modalities, aligning modalities, and learning a joint representation across modalities. We further specified evaluation metrics and developed a cloud-based algorithm evaluation pipeline. Using this setup, 280 competitors submitted over 2600 proposed solutions within a 3 month period, showcasing substantial innovation especially in the modality alignment task. Here, we present the results, describe trends of well performing approaches, and discuss challenges associated with running the competition.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/lance22a.html
+  PDF: https://proceedings.mlr.press/v176/lance22a/lance22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-lance22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Christopher
+    family: Lance
+  - given: Malte D.
+    family: Luecken
+  - given: Daniel B.
+    family: Burkhardt
+  - given: Robrecht
+    family: Cannoodt
+  - given: Pia
+    family: Rautenstrauch
+  - given: Anna
+    family: Laddach
+  - given: Aidyn
+    family: Ubingazhibov
+  - given: Zhi-Jie
+    family: Cao
+  - given: Kaiwen
+    family: Deng
+  - given: Sumeer
+    family: Khan
+  - given: Qiao
+    family: Liu
+  - given: Nikolay
+    family: Russkikh
+  - given: Gleb
+    family: Ryazantsev
+  - given: Uwe
+    family: Ohler
+  - given: NeurIPS 2021 Multimodal
+    prefix: data integration competition
+    family: participants
+  - given: Angela Oliveira
+    family: Pisco
+  - given: Jonathan
+    family: Bloom
+  - given: Smita
+    family: Krishnaswamy
+  - given: Fabian J.
+    family: Theis
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 162-176
+  id: lance22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 162
+  lastpage: 176
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Results of the NeurIPS’21 Challenge on Billion-Scale Approximate Nearest Neighbor Search'
+  abstract: 'Despite the broad range of algorithms for Approximate Nearest Neighbor Search, most empirical evaluations of algorithms have focused on smaller datasets, typically of 1 million points \citep{Benchmark}. However, deploying recent advances in embedding based techniques for search, recommendation and ranking at scale require ANNS indices at billion, trillion or larger scale. Barring a few recent papers, there is limited consensus on which algorithms are effective at this scale vis-à-vis their hardware cost. This competition\footnote{\url{https://big-ann-benchmarks.com}} compares ANNS algorithms at billion-scale by hardware cost, accuracy and performance. We set up an open source evaluation framework\footnote{\url{https://github.com/harsha-simhadri/big-ann-benchmarks/}}% and leaderboards for both standardized and specialized hardware. The competition involves three tracks. The standard hardware track T1 evaluates algorithms on an Azure VM with limited DRAM, often the bottleneck in serving billion-scale indices, where the embedding data can be hundreds of GigaBytes in size. It uses FAISS \citep{Faiss17} as the baseline. The standard hardware track T2 additional allows inexpensive SSDs in addition to the limited DRAM and uses DiskANN \citep{DiskANN19} as the baseline. The specialized hardware track T3 allows any hardware configuration, and again uses FAISS as the baseline. We compiled six diverse billion-scale datasets, four newly released for this competition, that span a variety of modalities, data types, dimensions, deep learning models, distance functions and sources. The outcome of the competition was ranked leaderboards of algorithms in each track based on recall at a query throughput threshold. Additionally, for track T3, separate leaderboards were created based on recall as well as cost-normalized and power-normalized query throughput.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/simhadri22a.html
+  PDF: https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-simhadri22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Harsha Vardhan
+    family: Simhadri
+  - given: George
+    family: Williams
+  - given: Martin
+    family: Aumüller
+  - given: Matthijs
+    family: Douze
+  - given: Artem
+    family: Babenko
+  - given: Dmitry
+    family: Baranchuk
+  - given: Qi
+    family: Chen
+  - given: Lucas
+    family: Hosseini
+  - given: Ravishankar
+    family: Krishnaswamny
+  - given: Gopal
+    family: Srinivasa
+  - given: Suhas Jayaram
+    family: Subramanya
+  - given: Jingdong
+    family: Wang
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 177-189
+  id: simhadri22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 177
+  lastpage: 189
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Real Robot Challenge: A Robotics Competition in the Cloud'
+  abstract: 'Dexterous manipulation remains an open problem in robotics. To coordinate efforts of the research community towards tackling this problem, we propose a shared benchmark. We designed and built robotic platforms that are hosted at the MPI-IS and can be accessed remotely. Each platform consists of three robotic fingers that are capable of dexterous object manipulation. Users are able to control the platforms remotely by submitting code that is executed automatically, akin to a computational cluster. Using this setup, i) we host robotics competitions, where teams from anywhere in the world access our platforms to tackle challenging tasks ii) we publish the datasets collected during these competitions (consisting of hundreds of robot hours), and iii) we give researchers access to these platforms for their own projects.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/bauer22a.html
+  PDF: https://proceedings.mlr.press/v176/bauer22a/bauer22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-bauer22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Stefan
+    family: Bauer
+  - given: Manuel
+    family: Wüthrich
+  - given: Felix
+    family: Widmaier
+  - given: Annika
+    family: Buchholz
+  - given: Sebastian
+    family: Stark
+  - given: Anirudh
+    family: Goyal
+  - given: Thomas
+    family: Steinbrenner
+  - given: Joel
+    family: Akpo
+  - given: Shruti
+    family: Joshi
+  - given: Vincent
+    family: Berenz
+  - given: Vaibhav
+    family: Agrawal
+  - given: Niklas
+    family: Funk
+  - given: Julen
+    family: Urain De Jesus
+  - given: Jan
+    family: Peters
+  - given: Joe
+    family: Watson
+  - given: Claire
+    family: Chen
+  - given: Krishnan
+    family: Srinivasan
+  - given: Junwu
+    family: Zhang
+  - given: Jeffrey
+    family: Zhang
+  - given: Matthew
+    family: Walter
+  - given: Rishabh
+    family: Madan
+  - given: Takuma
+    family: Yoneda
+  - given: Denis
+    family: Yarats
+  - given: Arthur
+    family: Allshire
+  - given: Ethan
+    family: Gordon
+  - given: Tapomayukh
+    family: Bhattacharjee
+  - given: Siddhartha
+    family: Srinivasa
+  - given: Animesh
+    family: Garg
+  - given: Takahiro
+    family: Maeda
+  - given: Harshit
+    family: Sikchi
+  - given: Jilong
+    family: Wang
+  - given: Qingfeng
+    family: Yao
+  - given: Shuyu
+    family: Yang
+  - given: Robert
+    family: McCarthy
+  - given: Francisco
+    family: Sanchez
+  - given: Qiang
+    family: Wang
+  - given: David
+    family: Bulens
+  - given: Kevin
+    family: McGuinness
+  - given: Noel
+    family: O’Connor
+  - given: Redmond
+    family: Stephen
+  - given: Bernhard
+    family: Schölkopf
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 190-204
+  id: bauer22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 190
+  lastpage: 204
+  published: 2022-07-20 00:00:00 +0000
+- title: '2021 BEETL Competition: Advancing Transfer Learning for Subject Independence and Heterogenous EEG Data Sets'
+  abstract: 'Transfer learning and meta-learning offer some of the most promising avenues to unlock the scalability of healthcare and consumer technologies driven by biosignal data. This is because regular machine learning methods cannot generalise well across human subjects and handle learning from different, heterogeneously collected data sets, thus limiting the scale of training data available. On the other hand, the many developments in transfer- and meta-learning fields would benefit significantly from a real-world benchmark with immediate practical application. Therefore, we pick electroencephalography (EEG) as an exemplar for all the things that make biosignal data analysis a hard problem. We design two transfer learning challenges around a. clinical diagnostics and b. neurotechnology. These two challenges are designed to probe algorithmic performance with all the challenges of biosignal data, such as low signal-to-noise ratios, major variability among subjects, differences in the data recording sessions and techniques, and even between the specific BCI tasks recorded in the dataset. Task 1 is centred on the field of medical diagnostics, addressing automatic sleep stage annotation across subjects. Task 2 is centred on Brain-Computer Interfacing (BCI), addressing motor imagery decoding across both subjects and data sets. The successful 2021 BEETL competition with its over 30 competing teams and its 3 winning entries brought attention to the potential of deep transfer learning and combinations of set theory and conventional machine learning techniques to overcome the challenges. The results set a new state-of-the-art for the real-world BEETL benchmarks.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/wei22a.html
+  PDF: https://proceedings.mlr.press/v176/wei22a/wei22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-wei22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiaoxi
+    family: Wei
+  - given: A. Aldo
+    family: Faisal
+  - given: Moritz
+    family: Grosse-Wentrup
+  - given: Alexandre
+    family: Gramfort
+  - given: Sylvain
+    family: Chevallier
+  - given: Vinay
+    family: Jayaram
+  - given: Camille
+    family: Jeunet
+  - given: Stylianos
+    family: Bakas
+  - given: Siegfried
+    family: Ludwig
+  - given: Konstantinos
+    family: Barmpas
+  - given: Mehdi
+    family: Bahri
+  - given: Yannis
+    family: Panagakis
+  - given: Nikolaos
+    family: Laskaris
+  - given: Dimitrios A.
+    family: Adamos
+  - given: Stefanos
+    family: Zafeiriou
+  - given: William C.
+    family: Duong
+  - given: Stephen M.
+    family: Gordon
+  - given: Vernon J.
+    family: Lawhern
+  - given: Maciej
+    family: Śliwowski
+  - given: Vincent
+    family: Rouanne
+  - given: Piotr
+    family: Tempczyk
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 205-219
+  id: wei22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 205
+  lastpage: 219
+  published: 2022-07-20 00:00:00 +0000
+- title: 'The Machine Learning for Combinatorial Optimization Competition (ML4CO): Results and Insights'
+  abstract: 'Combinatorial optimization is a well-established area in operations research and computer science. Until recently, its methods have focused on solving problem instances in isolation, ignoring that they often stem from related data distributions in practice. However, recent years have seen a surge of interest in using machine learning as a new approach for solving combinatorial problems, either directly as solvers or by enhancing exact solvers. Based on this context, the ML4CO aims at improving state-of-the-art combinatorial optimization solvers by replacing key heuristic components. The competition featured three challenging tasks: finding the best feasible solution, producing the tightest optimality certificate, and giving an appropriate solver configuration. Three realistic datasets were considered: balanced item placement, workload apportionment, and maritime inventory routing. This last dataset was kept anonymous for the contestants.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/gasse22a.html
+  PDF: https://proceedings.mlr.press/v176/gasse22a/gasse22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-gasse22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Maxime
+    family: Gasse
+  - given: Simon
+    family: Bowly
+  - given: Quentin
+    family: Cappart
+  - given: Jonas
+    family: Charfreitag
+  - given: Laurent
+    family: Charlin
+  - given: Didier
+    family: Chételat
+  - given: Antonia
+    family: Chmiela
+  - given: Justin
+    family: Dumouchelle
+  - given: Ambros
+    family: Gleixner
+  - given: Aleksandr M.
+    family: Kazachkov
+  - given: Elias
+    family: Khalil
+  - given: Pawel
+    family: Lichocki
+  - given: Andrea
+    family: Lodi
+  - given: Miles
+    family: Lubin
+  - given: Chris J.
+    family: Maddison
+  - given: Morris
+    family: Christopher
+  - given: Dimitri J.
+    family: Papageorgiou
+  - given: Augustin
+    family: Parjadis
+  - given: Sebastian
+    family: Pokutta
+  - given: Antoine
+    family: Prouvost
+  - given: Lara
+    family: Scavuzzo
+  - given: Giulia
+    family: Zarpellon
+  - given: Linxin
+    family: Yang
+  - given: Sha
+    family: Lai
+  - given: Akang
+    family: Wang
+  - given: Xiaodong
+    family: Luo
+  - given: Xiang
+    family: Zhou
+  - given: Haohan
+    family: Huang
+  - given: Shengcheng
+    family: Shao
+  - given: Yuanming
+    family: Zhu
+  - given: Dong
+    family: Zhang
+  - given: Tao
+    family: Quan
+  - given: Zixuan
+    family: Cao
+  - given: Yang
+    family: Xu
+  - given: Zhewei
+    family: Huang
+  - given: Shuchang
+    family: Zhou
+  - given: Chen
+    family: Binbin
+  - given: He
+    family: Minggui
+  - given: Hao
+    family: Hao
+  - given: Zhang
+    family: Zhiyu
+  - given: An
+    family: Zhiwu
+  - given: Mao
+    family: Kun
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 220-231
+  id: gasse22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 220
+  lastpage: 231
+  published: 2022-07-20 00:00:00 +0000
+- title: 'WebQA: A Multimodal Multihop NeurIPS Challenge'
+  abstract: 'Scaling the current QA formulation to the open-domain and multi-hop nature of web searches requires fundamental advances in visual representation learning, multimodal reasoning and language generation. To facilitate research at this intersection, we propose WebQA challenge that mirrors the way humans use the web: 1) Ask a question, 2) Choose sources to aggregate, and 3) Produce a fluent language response. Our challenge for the community is to create unified multimodal reasoning models that can answer questions regardless of the source modality, moving us closer to digital assistants that search through not only text-based knowledge, but also the richer visual trove of information.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/chang22a.html
+  PDF: https://proceedings.mlr.press/v176/chang22a/chang22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-chang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Yingshan
+    family: Chang
+  - given: Yonatan
+    family: Bisk
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 232-245
+  id: chang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 232
+  lastpage: 245
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Learning by Doing: Controlling a Dynamical System using Causality, Control, and Reinforcement Learning'
+  abstract: 'Questions in causality, control, and reinforcement learning go beyond the classical machine learning task of prediction under i.i.d. observations. Instead, these fields consider the problem of learning how to actively perturb a system to achieve a certain effect on a response variable. Arguably, they have complementary views on the problem: In control, one usually aims to first identify the system by excitation strategies to then apply model-based design techniques to control the system. In (non-model-based) reinforcement learning, one directly optimizes a reward. In causality, one focus is on identifiability of causal structure. We believe that combining the different views might create synergies and this competition is meant as a first step toward such synergies. The participants had access to observational and (offline) interventional data generated by dynamical systems. Track CHEM considers an open-loop problem in which a single impulse at the beginning of the dynamics can be set, while Track ROBO considers a closed-loop problem in which control variables can be set at each time step. The goal in both tracks is to infer controls that drive the system to a desired state. Code is open-sourced ( https://github.com/LearningByDoingCompetition/learningbydoing-comp ) to reproduce the winning solutions of the competition and to facilitate trying out new methods on the competition tasks.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/weichwald22a.html
+  PDF: https://proceedings.mlr.press/v176/weichwald22a/weichwald22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-weichwald22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Sebastian
+    family: Weichwald
+  - given: Søren Wengel
+    family: Mogensen
+  - given: Tabitha Edith
+    family: Lee
+  - given: Dominik
+    family: Baumann
+  - given: Oliver
+    family: Kroemer
+  - given: Isabelle
+    family: Guyon
+  - given: Sebastian
+    family: Trimpe
+  - given: Jonas
+    family: Peters
+  - given: Niklas
+    family: Pfister
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 246-258
+  id: weichwald22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 246
+  lastpage: 258
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Retrospective on the 2021 MineRL BASALT Competition on Learning from Human Feedback'
+  abstract: 'We held the first-ever MineRL Benchmark for Agents that Solve Almost-Lifelike Tasks (MineRL BASALT) Competition at the Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS 2021). The goal of the competition was to promote research towards agents that use learning from human feedback (LfHF) techniques to solve open-world tasks. Rather than mandating the use of LfHF techniques, we described four tasks in natural language to be accomplished in the video game Minecraft, and allowed participants to use any approach they wanted to build agents that could accomplish the tasks. Teams developed a diverse range of LfHF algorithms across a variety of possible human feedback types. The three winning teams implemented significantly different approaches while achieving similar performance. Interestingly, their approaches performed well on <em>different</em> tasks, validating our choice of tasks to include in the competition. While the outcomes validated the design of our competition, we did not get as many participants and submissions as our sister competition, MineRL Diamond. We speculate about the causes of this problem and suggest improvements for future iterations of the competition.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/shah22a.html
+  PDF: https://proceedings.mlr.press/v176/shah22a/shah22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-shah22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Rohin
+    family: Shah
+  - given: Steven H.
+    family: Wang
+  - given: Cody
+    family: Wild
+  - given: Stephanie
+    family: Milani
+  - given: Anssi
+    family: Kanervisto
+  - given: Vinicius G.
+    family: Goecks
+  - given: Nicholas
+    family: Waytowich
+  - given: David
+    family: Watkins-Valls
+  - given: Bharat
+    family: Prakash
+  - given: Edmund
+    family: Mills
+  - given: Divyansh
+    family: Garg
+  - given: Alexander
+    family: Fries
+  - given: Alexandra
+    family: Souly
+  - given: Jun Shern
+    family: Chan
+  - given: Daniel
+    prefix: del
+    family: Castillo
+  - given: Tom
+    family: Lieberum
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 259-272
+  id: shah22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 259
+  lastpage: 272
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Prospective Explanations: An Interactive Mechanism for Model Understanding'
+  abstract: 'We demonstrate a system for prospective explanations of black box models for regression and classification tasks with structured data. Prospective explanations are aimed at showing how models function by highlighting likely changes in model outcomes under changes in input. This in contrast to most post-hoc explanability methods, that aim to provide a justification for a decision retrospectively. To do so, we employ a surrogate Bayesian network model and learn dependencies through a structure learning task. Our system is designed to provide fast estimates of changes in outcomes for any arbitrary exploratory query from users. Such queries are typical partial, i.e. involve only a selected number of features, the outcomes labels are shown therefore as likelihoods. Repeated queries can indicate which aspects of the feature space are more likely to influence the target variable. We demonstrate the system from a real-world application from the humanitarian sector and show the value of bayesian network surrogates.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/nair22a.html
+  PDF: https://proceedings.mlr.press/v176/nair22a/nair22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-nair22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Rahul
+    family: Nair
+  - given: Pierpaolo
+    family: Tommasi
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 273-277
+  id: nair22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 273
+  lastpage: 277
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Interactive Corpora Visualization for 60 Years of AI Research'
+  abstract: 'Research in artificial intelligence (AI) has been around for over six decades. In that time, it has experienced rich growth, with on and off interest, as researchers tackle this problem from different angles using inspiration from various fields. However, it is difficult to see an overview of the journey that research in AI has taken in its lifespan. We created a visualization we call “60 Years of AI” that explores a (biased) selection of the most influential publications that have shaped the field. Our visualization shows similar works clustered together throughout time and allows users to input abstracts of new ideas to see where their ideas position in the landscape of the ever-growing field of AI.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/strobelt22a.html
+  PDF: https://proceedings.mlr.press/v176/strobelt22a/strobelt22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-strobelt22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Hendrik
+    family: Strobelt
+  - given: Benjamin
+    family: Hoover
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 278-282
+  id: strobelt22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 278
+  lastpage: 282
+  published: 2022-07-20 00:00:00 +0000
+- title: 'The SenSE Toolkit: A System for Visualization and Explanation of Semantic Shift'
+  abstract: ' Lexical Semantic Change (LSC) detection, also known as Semantic Shift, is the process of identifying and characterizing variations in language usage across different scenarios such as time and domain. It allows us to track the evolution of word senses, as well as to understand the difference between the languages used by distinct communities. LSC detection is often done by applying a distance measure over vectors of two aligned word embedding matrices. In this paper, we present SenSE, an interactive semantic shift exploration toolkit that provides visualization and explanation of lexical semantic change for an input pair of text sources. Our system focuses on showing how the different alignment strategies may affect the output of an LSC model as well as on explaining semantic change based on the neighbors of a chosen target word, while also extracting examples of sentences where these semantic deviations appear. The system runs as a web application (available at \url{http://sense.mgruppi.me}), allowing the audience to interact by configuring the alignment strategies while visualizing the results in a web browser.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/gruppi22a.html
+  PDF: https://proceedings.mlr.press/v176/gruppi22a/gruppi22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-gruppi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Maurício
+    family: Gruppi
+  - given: Sibel
+    family: Adalı
+  - given: Pin-Yu
+    family: Chen
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 283-287
+  id: gruppi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 283
+  lastpage: 287
+  published: 2022-07-20 00:00:00 +0000
+- title: 'AIMEE: Interactive model maintenance with rule-based surrogates'
+  abstract: 'In real-world applications, such as loan approvals or claims management, machine learn-ing (ML) models need to be updated or retrained to adhere to new rules and regulations.But how can a new model be built and new decision boundaries be formed without having new training data available? We present the AI Model Explorer and Editor tool (AIMEE) for model exploration and model editing using human understandable rules. It addresses the problem of changing decision boundaries by leveraging user-specified feedback rules that are used to pre-process training data such that a retrained model will reflect user changes.The pre-processing step uses synthetic oversampling and relabeling and assumes black-box access to the algorithm that retrains the model. AIMEE provides interactive methods to edit rule sets, visualize changes to decision boundaries, and generate interpretable comparisons of model changes so that users see their feedback reflected in the updated model. The demo shows an end-to-end solution that supports the full update lifecycle of an ML model.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/cornec22a.html
+  PDF: https://proceedings.mlr.press/v176/cornec22a/cornec22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-cornec22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Owen
+    family: Cornec
+  - given: Rahul
+    family: Nair
+  - given: Elizabeth
+    family: Daly
+  - given: Oznur
+    family: Alkan
+  - given: Dennis
+    family: Wei
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 288-291
+  id: cornec22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 288
+  lastpage: 291
+  published: 2022-07-20 00:00:00 +0000
+- title: 'GANs for All: Supporting Fun and Intuitive Exploration of GAN Latent Spaces'
+  abstract: 'We have developed a new tool that makes it possible for people with zero programming experience to intentionally and meaningfully explore the latent space of a GAN. We combine a number of methods from the literature into a single system that includes multiple functionalities: uploading and locating images in the latent space, image generation with text, visual style mixing, and intentional and intuitive latent space exploration. This tool was developed to provide a means for designers to explore the "design space" of their domains. Our goal was to create a system to support novices in gaining a more complete, expert understanding of their domain{’}s design space by lowering the barrier of entry to using deep generative models in creative practice.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/jiang22a.html
+  PDF: https://proceedings.mlr.press/v176/jiang22a/jiang22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-jiang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Wei
+    family: Jiang
+  - given: Richard Lee
+    family: Davis
+  - given: Kevin Gonyop
+    family: Kim
+  - given: Pierre
+    family: Dillenbourg
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 292-296
+  id: jiang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 292
+  lastpage: 296
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Lesan – Machine Translation for Low Resource Languages'
+  abstract: 'Millions of people around the world can not access content on the Web because most of the content is not readily available in their language. Machine translation (MT) systems have the potential to change this for many languages. Current MT systems provide very accurate results for high resource language pairs, e.g., German and English. However, for many low resource languages, MT is still under active research. The key challenge is lack of datasets to build these systems. We present Lesan (https://lesan.ai/), an MT system for low resource languages. Our pipeline solves the key bottleneck to low resource MT by leveraging online and offline sources, a custom Optical Character Recognition (OCR) system for Ethiopic and an automatic alignment module. The final step in the pipeline is a sequence to sequence model that takes parallel corpus as input and gives us a translation model. Lesan{’}s translation model is based on the Transformer architecture. After constructing a base model, back translation is used to leverage monolingual corpora. Currently Lesan supports translation to and from Tigrinya, Amharic and English. We perform extensive human evaluation and show that Lesan outperforms state-of-the-art systems such as Google Translate and Microsoft Translator across all six pairs. Lesan is freely available and has served more than 10 million translations so far. At the moment, there are only 217 Tigrinya and 15,009 Amharic Wikipedia articles. We believe that Lesan will contribute towards democratizing access to the Web through MT for millions of people.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/hadgu22a.html
+  PDF: https://proceedings.mlr.press/v176/hadgu22a/hadgu22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-hadgu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Asmelash Teka
+    family: Hadgu
+  - given: Abel
+    family: Aregawi
+  - given: Adam
+    family: Beaudoin
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 297-301
+  id: hadgu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 297
+  lastpage: 301
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Exploring Conceptual Soundness with TruLens'
+  abstract: 'As machine learning has become increasingly ubiquitous, there has been a growing need to assess the trustworthiness of learned models. One important aspect to model trust is conceptual soundness, i.e., the extent to which a model uses features that are appropriate for its intended task. We present <em>TruLens</em>, a new cross-platform framework for explaining deep network behavior. In our demonstration, we provide an interactive application built on TruLens that we use to explore the conceptual soundness of various pre-trained models. We take the unique perspective that robustness to small-norm adversarial examples is a necessary condition for conceptual soundness; we demonstrate this by comparing explanations on models trained with and without a robust objective. Our demonstration will focus on our end-to-end application, which will be made accessible for the audience to interact with; but we will also provide details on its open-source components, including the TruLens library and the code used to train robust networks.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/datta22a.html
+  PDF: https://proceedings.mlr.press/v176/datta22a/datta22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-datta22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Anupam
+    family: Datta
+  - given: Matt
+    family: Fredrikson
+  - given: Klas
+    family: Leino
+  - given: Kaiji
+    family: Lu
+  - given: Shayak
+    family: Sen
+  - given: Ricardo
+    family: Shih
+  - given: Zifan
+    family: Wang
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 302-307
+  id: datta22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 302
+  lastpage: 307
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Real-Time and Accurate Self-Supervised Monocular Depth Estimation on Mobile Device'
+  abstract: 'In this paper, we present our innovations on self-supervised monocular depth estimation. First, we enhance self-supervised monocular depth estimation with semantic information during training. This reduces the error by 12% and achieves state-of-the-art performance. Second, we enhance the backbone architecture using a scalable method for neural architecture search which optimizes directly for inference latency on a target device. This enables operation at more than 30 FPS. We demonstrate these techniques on a smartphone powered by a Snapdragon Mobile Platform.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/cai22a.html
+  PDF: https://proceedings.mlr.press/v176/cai22a/cai22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-cai22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Hong
+    family: Cai
+  - given: Fei
+    family: Yin
+  - given: Tushar
+    family: Singhal
+  - given: Sandeep
+    family: Pendyam
+  - given: Parham
+    family: Noorzad
+  - given: Yinhao
+    family: Zhu
+  - given: Khoi
+    family: Nguyen
+  - given: Janarbek
+    family: Matai
+  - given: Bharath
+    family: Ramaswamy
+  - given: Frank
+    family: Mayer
+  - given: Chirag
+    family: Patel
+  - given: Abhijit
+    family: Khobare
+  - given: Fatih
+    family: Porikli
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 308-313
+  id: cai22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 308
+  lastpage: 313
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Automated Evaluation of GNN Explanations with Neuro Symbolic Reasoning'
+  abstract: 'Explaining Graph Neural Networks predictions to end users of AI applications in easily understandable terms remains an unsolved problem. In particular, we do not have well developed methods for automatically evaluating explanations, in ways that are closer to how users consume those explanations. Based on recent application trends and our own experiences in real world problems, we propose an automatic evaluation approach for GNN Explanations using Neuro Symbolic Reasoning.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/kumar22a.html
+  PDF: https://proceedings.mlr.press/v176/kumar22a/kumar22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-kumar22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Vanya Bannihatti
+    family: Kumar
+  - given: Balaji
+    family: Ganesan
+  - given: Muhammed
+    family: Ameen
+  - given: Devbrat
+    family: Sharma
+  - given: Arvind
+    family: Agarwal
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 314-318
+  id: kumar22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 314
+  lastpage: 318
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Pylon: A PyTorch Framework for Learning with Constraints'
+  abstract: 'Deep learning excels at learning low-level task information from large amounts of data, but struggles with learning high-level domain knowledge, which can often be directly and succinctly expressed. In this work, we introduce Pylon, a neuro-symbolic training framework that builds on PyTorch to augment procedurally trained neural networks with declaratively specified knowledge. Pylon allows users to programmatically specify <em>constraints<\em> as PyTorch functions, and compiles them into a differentiable loss, thus training predictive models that fit the data <em>whilst<\em> satisfying the specified constraints. Pylon includes both exact as well as approximate compilers to efficiently compute the loss, employing fuzzy logic, sampling methods, and circuits, ensuring scalability even to complex models and constraints. A guiding principle in designing Pylon has been the ease with which any existing deep learning codebase can be extended to learn from constraints using only a few lines: a function expressing the constraint and a single line of code to compile it into a loss. We include case studies from natural language processing, computer vision, logical games, and knowledge graphs, that can be interactively trained, and highlights Pylon{’}s usage.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/ahmed22a.html
+  PDF: https://proceedings.mlr.press/v176/ahmed22a/ahmed22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-ahmed22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Kareem
+    family: Ahmed
+  - given: Tao
+    family: Li
+  - given: Thy
+    family: Ton
+  - given: Quan
+    family: Guo
+  - given: Kai-Wei
+    family: Chang
+  - given: Parisa
+    family: Kordjamshidi
+  - given: Vivek
+    family: Srikumar
+  - given: Guy
+    prefix: Van den
+    family: Broeck
+  - given: Sameer
+    family: Singh
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 319-324
+  id: ahmed22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 319
+  lastpage: 324
+  published: 2022-07-20 00:00:00 +0000
+- title: 'MEWS: Real-time Social Media Manipulation Detection and Analysis'
+  abstract: 'This article presents a beta-version of MEWS (Misinformation Early Warning System). It describes the various aspects of the ingestion, manipulation detection, and graphing algorithms employed to determine–in near real-time–the relationships between social media images as they emerge and spread on social media platforms. By combining these various technologies into a single processing pipeline, MEWS can identify manipulated media items as they arise and identify when these particular items begin trending on individual social media platforms or even across multiple platforms. The emergence of a novel manipulation followed by rapid diffusion of the manipulated content suggests a disinformation campaign.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/ford22a.html
+  PDF: https://proceedings.mlr.press/v176/ford22a/ford22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-ford22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Trenton
+    family: Ford
+  - given: Michael
+    family: Yankoski
+  - given: William
+    family: Theisen
+  - given: Tom
+    family: Henry
+  - given: Farah
+    family: Khashman
+  - given: Katherine
+    family: Dearstyne
+  - given: Tim
+    family: Weninger
+  - given: Pamela
+    family: Bilo Thomas
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 325-329
+  id: ford22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 325
+  lastpage: 329
+  published: 2022-07-20 00:00:00 +0000
+- title: 'An Interactive Visual Demo of Bias Mitigation Techniques for Word Representations From a Geometric Perspective'
+  abstract: 'Language representations are known to encode and propagate biases, i.e., stereotypical associations between words or groups of words that may cause representational harm. In this demo, we utilize interactive visualization to increase the interpretability of a number of state-of-the-art techniques that are designed to identify, mitigate, and attenuate these biases in word representations, in particular, from a geometric perspective. We provide an open source web-based visualization tool and offer hands-on experience in exploring the effects of these debiasing techniques on the geometry of high-dimensional word vectors. To help understand how various debiasing techniques change the underlying geometry, we decompose each technique into modular and interpretable sequences of primitive operations, and study their effect on the word vectors using dimensionality reduction and interactive visual exploration. This demo is primarily designed to aid natural language processing (NLP) practitioners and researchers working with fairness and ethics of machine learning systems. It can also be used to educate NLP novices in understanding the existence of and then mitigating biases in word embeddings. '
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/rathore22a.html
+  PDF: https://proceedings.mlr.press/v176/rathore22a/rathore22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-rathore22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Archit
+    family: Rathore
+  - given: Sunipa
+    family: Dev
+  - given: Vivek
+    family: Srikumar
+  - given: Jeff M
+    family: Phillips
+  - given: Yan
+    family: Zheng
+  - given: Michael
+    family: Yeh
+  - given: Junpeng
+    family: Wang
+  - given: Wei
+    family: Zhang
+  - given: Bei
+    family: Wang
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 330-335
+  id: rathore22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 330
+  lastpage: 335
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Training Transformers Together'
+  abstract: 'The infrastructure necessary for training state-of-the-art models is becoming overly expensive, which makes training such models affordable only to large corporations and institutions. Recent work proposes several methods for training such models collaboratively, i.e., by pooling together hardware from many independent parties and training a shared model over the Internet. In this demonstration, we collaboratively trained a text-to-image transformer similar to OpenAI DALL-E. We invited the viewers to join the ongoing training run, showing them instructions on how to contribute using the available hardware. We explained how to address the engineering challenges associated with such a training run (slow communication, limited memory, uneven performance between devices, and security concerns) and discussed how the viewers can set up collaborative training runs themselves. Finally, we show that the resulting model generates images of reasonable quality on a number of prompts.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/borzunov22a.html
+  PDF: https://proceedings.mlr.press/v176/borzunov22a/borzunov22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-borzunov22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Borzunov
+  - given: Max
+    family: Ryabinin
+  - given: Tim
+    family: Dettmers
+  - given: Quentin
+    family: Lhoest
+  - given: Lucile
+    family: Saulnier
+  - given: Michael
+    family: Diskin
+  - given: Yacine
+    family: Jernite
+  - given: Thomas
+    family: Wolf
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 335-342
+  id: borzunov22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 335
+  lastpage: 342
+  published: 2022-07-20 00:00:00 +0000
+- title: 'TripleBlind: A Privacy-Preserving Framework for Decentralized Data and Algorithms'
+  abstract: 'Centralized sharing of sensitive data for training and inference is challenging and undesired due to privacy, competition, and legal concerns. While distributed learning and secure inference have demonstrated significant privacy gains, these methods still largely ignore the design and implementation of practical, privacy-preserving tool support. To address these challenges, we present TripleBlind, an automated privacy-preserving framework for creating and consuming data-driven applications from decentralized data and algorithms. TripleBlind provides a set of automated, high-level APIs that enable (1) extracting knowledge from remote data without moving it outside the owner’s infrastructure, (2) training AI models from decentralized data, and (3) consuming trained models for secure inference-as-a-service; all without compromising the privacy of either the model/query or the data. In this short paper, we shed light on the underlying training and inference methods, the design and implementation of our framework, and showcase the actual code necessary to run a secure, remote inference using our secure multi-party computation API. A video demo highlighting the main features of our framework is located at www.tripleblind.ai/neurips2021 '
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/gharibi22a.html
+  PDF: https://proceedings.mlr.press/v176/gharibi22a/gharibi22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-gharibi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Gharib
+    family: Gharibi
+  - given: Babak
+    family: Poorebrahim Gilkalaye
+  - given: Ravi
+    family: Patel
+  - given: Andrew
+    family: Rademacher
+  - given: David
+    family: Wagner
+  - given: Jack
+    family: Fay
+  - given: Gary
+    family: Moore
+  - given: Steve
+    family: Penrod
+  - given: Greg
+    family: Storm
+  - given: Riddhiman
+    family: Das
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 343-348
+  id: gharibi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 343
+  lastpage: 348
+  published: 2022-07-20 00:00:00 +0000
+- title: 'Deep Learning Frameworks for Weakly-Supervised Indoor Localization'
+  abstract: 'We present two weakly-supervised deep learning frameworks for person indoor localization through Wi-Fi signal. These two frameworks, namely OT-Isomap and WiCluster, in contrast with prior works, require only room/zone level labels that is easier to acquire, compared to hard-to-acquire centimeter accuracy position labels. The OT-Isomap is a modality-agnostic model and formulates the localization problem in the context of parametric manifold learning and optimal transportation. This framework allows jointly learning a low-dimensional embedding as well as correspondences with a topological map. The WiCluster method is based on self-supervised deep clustering and metric learning models. Inspired by the deep cluster method, the Wi-Fi signals are spatially charted and represented in lower-dimensional space while a triplet margin-loss constrains an isometric representation of data on its 2D/3D intrinsic space. We demonstrate the meter-level accuracy of these two methods on both real-world Wi-Fi and camera-based indoor localization.'
+  volume: 176
+  URL: https://proceedings.mlr.press/v176/zanjani22a.html
+  PDF: https://proceedings.mlr.press/v176/zanjani22a/zanjani22a.pdf
+  edit: https://github.com/mlresearch//v176/edit/gh-pages/_posts/2022-07-20-zanjani22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Farhad G.
+    family: Zanjani
+  - given: Ilia
+    family: Karmanov
+  - given: Hanno
+    family: Ackermann
+  - given: Daniel
+    family: Dijkman
+  - given: Simone
+    family: Merlin
+  - given: Ishaque
+    family: Kadampot
+  - given: Brian
+    family: Buesker
+  - given: Vamsi
+    family: Vegunta
+  - given: Fatih
+    family: Porikli
+  editor: 
+  - given: Douwe
+    family: Kiela
+  - given: Marco
+    family: Ciccone
+  - given: Barbara
+    family: Caputo
+  page: 349-354
+  id: zanjani22a
+  issued:
+    date-parts: 
+      - 2022
+      - 7
+      - 20
+  firstpage: 349
+  lastpage: 354
+  published: 2022-07-20 00:00:00 +0000

@@ -1,0 +1,869 @@
+
+
+
+@Proceedings{ALT2024,
+  title =     {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  booktitle = {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  editor =    {Claire Vernade and Daniel Hsu},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    237
+}
+
+
+
+
+@InProceedings{pmlr-v237-vernade24a,
+  title = 	 {Algorithmic Learning Theory 2024: Preface},
+  author =       {Vernade, Claire and Hsu, Daniel},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1--2},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/vernade24a/vernade24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/vernade24a.html},
+  abstract = 	 {Presentation of this volume}
+}
+
+
+
+
+@InProceedings{pmlr-v237-abernethy24a,
+  title = 	 {A Mechanism for Sample-Efficient In-Context Learning for Sparse Retrieval Tasks},
+  author =       {Abernethy, Jacob and Agarwal, Alekh and Marinov, Teodor Vanislavov and Warmuth, Manfred K.},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {3--46},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/abernethy24a/abernethy24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/abernethy24a.html},
+  abstract = 	 {We study the phenomenon of in-context learning (ICL) exhibited by large language models, where they can adapt to a new learning task, given a handful of labeled examples, without any explicit parameter optimization. Our goal is to explain how a pre-trained transformer model is able to perform ICL under reasonable assumptions on the pre-training process and the downstream tasks. We posit a mechanism whereby a transformer can achieve the following: (a) receive an i.i.d. sequence of examples which have been converted into a prompt using potentially-ambiguous delimiters, (b) correctly segment the prompt into examples and labels, (c) infer from the data a sparse linear regressor hypothesis, and finally (d) apply this hypothesis on the given test example and return a predicted label. We establish that this entire procedure is implementable using the transformer mechanism, and we give sample complexity guarantees for this learning framework. Our empirical findings validate the challenge of segmentation, and we show a correspondence between our posited mechanisms and observed attention maps for step (c).}
+}
+
+
+
+
+@InProceedings{pmlr-v237-afzali24a,
+  title = 	 {Mixtures of Gaussians are Privately Learnable with a Polynomial Number of Samples},
+  author =       {Afzali, Mohammad and Ashtiani, Hassan and Liaw, Christopher},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {47--73},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/afzali24a/afzali24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/afzali24a.html},
+  abstract = 	 {We study the problem of estimating mixtures of Gaussians under the constraint of differential privacy (DP). Our main result is that $\text{poly}(k,d,1/\alpha,1/\varepsilon,\log(1/\delta))$ samples are sufficient to estimate a mixture of $k$ Gaussians in $\mathbb{R}^d$ up to total variation distance $\alpha$ while satisfying $(\varepsilon, \delta)$-DP. This is the first finite sample complexity upper bound for the problem that does not make any structural assumptions on the GMMs. To solve the problem, we devise a new framework which may be useful for other tasks. On a high level, we show that if a class of distributions (such as Gaussians) is (1) list decodable and (2) admits a âlocally smallâ cover (Bun et al., 2021) with respect to total variation distance, then the class of its mixtures is privately learnable. The proof circumvents a known barrier indicating that, unlike Gaussians, GMMs do not admit a locally small cover (Aden-Ali et al., 2021b). }
+}
+
+
+
+
+@InProceedings{pmlr-v237-agrawal24a,
+  title = 	 {CRIMED: Lower and Upper Bounds on Regret for Bandits with Unbounded Stochastic Corruption},
+  author =       {Agrawal, Shubhada and Mathieu, Timoth\'ee and Basu, Debabrota and Maillard, Odalric-Ambrym},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {74--124},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/agrawal24a/agrawal24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/agrawal24a.html},
+  abstract = 	 {We investigate the regret-minimisation problem in a multi-armed bandit setting with arbitrary corruptions. Similar to the classical setup, the agent receives rewards generated independently from the distribution of the arm chosen at each time. However, these rewards are not directly observed. Instead, with a fixed $\varepsilon\in (0,\frac{1}{2})$, the agent observes a sample from the chosen armâs distribution with probability $1-\varepsilon$, or from an arbitrary corruption distribution with probability $\varepsilon$. Importantly, we impose no assumptions on these corruption distributions, which can be unbounded. In this setting, accommodating potentially unbounded corruptions, we establish a problem-dependent lower bound on regret for a given family of arm distributions. We introduce CRIMED, an asymptotically-optimal algorithm that achieves the exact lower bound on regret for bandits with Gaussian distributions with known variance.  Additionally, we provide a finite-sample analysis of CRIMEDâs regret performance. Notably, CRIMED can effectively handle corruptions with $\varepsilon$ values as high as $\frac{1}{2}$. Furthermore, we develop a tight concentration result for medians in the presence of arbitrary corruptions, even with $\varepsilon$ values up to $\frac{1}{2}$, which may be of independent interest. We also discuss an extension of the algorithm for handling misspecification in Gaussian model.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-awasthi24a,
+  title = 	 {Semi-supervised Group DRO: Combating Sparsity with Unlabeled Data},
+  author =       {Awasthi, Pranjal and Kale, Satyen and Pensia, Ankit},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {125--160},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/awasthi24a/awasthi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/awasthi24a.html},
+  abstract = 	 {In this work we formulate the problem of group distributionally robust optimization (DRO) in a semi-supervised setting.  Motivated by applications in robustness and fairness, the goal in group DRO is to learn a hypothesis that minimizes the worst case performance over a pre-specified set of groups defined over the data distribution.  In contrast to existing work that assumes access to labeled data from each of the groups, we consider the practical setting where many groups may have little to no amount of labeled data.  We design near optimal learning algorithms in this setting by leveraging the unlabeled data from different groups.  The performance of our algorithms can be characterized in terms of a natural quantity that captures the similarity among the various groups and the maximum <em> best-in-class</em> error among the groups. Furthermore, for the special case of squared loss and a convex function class we show that the dependence on the best-in-class error can be avoided. We also derive sample complexity bounds for our proposed semi-supervised algorithm.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-biggar24a,
+  title = 	 {The Attractor of the Replicator Dynamic in Zero-Sum Games},
+  author =       {Biggar, Oliver and Shames, Iman},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {161--178},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/biggar24a/biggar24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/biggar24a.html},
+  abstract = 	 {In this paper we characterise the long-run behaviour of the replicator dynamic in zero-sum games (symmetric or non-symmetric). Specifically, we prove that every zero-sum game possesses a unique global replicator attractor, which we then characterise. Most surprisingly, this attractor depends only on each playerâs preference order over their own strategies and not on the cardinal payoff values, defined by a finite directed graph we call the gameâs preference graph. When the game is symmetric, this graph is a tournament whose nodes are strategies; when the game is not symmetric, this graph is the gameâs response graph. We discuss the consequences of our results on chain recurrence and Nash equilibria.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-blanchard24a,
+  title = 	 {Tight Bounds for Local Glivenko-Cantelli},
+  author =       {Blanchard, Mo\"ise and Voracek, Vaclav},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {179--220},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/blanchard24a/blanchard24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/blanchard24a.html},
+  abstract = 	 {This paper addresses the statistical problem of estimating the infinite-norm deviation from the empirical mean to the distribution mean for high-dimensional distributions on $\{0,1\}^d$, potentially with $d=\infty$. Unlike traditional bounds as in the classical Glivenko-Cantelli theorem, we explore the instance-dependent convergence behavior. For product distributions, we provide the exact non-asymptotic behavior of the expected maximum deviation, revealing various regimes of decay. In particular, these tight bounds demonstrate the necessity of a previously proposed factor for an upper bound, answering a corresponding COLT 2023 open problem (Cohen and Kontorovich, 2022, 2023). We also consider general distributions on $\{0,1\}^d$ and provide the tightest possible bounds for the maximum deviation of the empirical mean given only the mean statistic. Along the way, we prove a localized version of the DvoretzkyâKieferâWolfowitz inequality. Additionally, we present some results for two other cases, one where the deviation is measured in some $q$-norm, and the other where the distribution is supported on a continuous domain $[0,1]^d$, and also provide some high-probability bounds for the maximum deviation in the independent Bernoulli case.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-blum24a,
+  title = 	 {Dueling Optimization with a Monotone Adversary},
+  author =       {Blum, Avrim and Gupta, Meghal and Li, Gene and Manoj, Naren Sarayu and Saha, Aadirupa and Yang, Yuanyuan},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {221--243},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/blum24a/blum24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/blum24a.html},
+  abstract = 	 {We introduce and study the problem of \textit{dueling optimization with a monotone adversary}, which is a generalization of (noiseless) dueling convex optimization. The goal is to design an online algorithm to find a minimizer $\bm{x}^{\star}$ for a function $f\colon \mathcal{X} \to \mathbb{R}$, where $\mathcal{X} \subseteq \mathbb{R}^d$. In each round, the algorithm submits a pair of guesses, i.e., $\bm{x}^{(1)}$ and $\bm{x}^{(2)}$, and the adversary responds with \textit{any} point in the space that is at least as good as both guesses. The cost of each query is the suboptimality of the worse of the two guesses; i.e., ${\max} \left( f(\bm{x}^{(1)}), f(\bm{x}^{(2)}) \right) - f(\bm{x}^{\star})$. The goal is to minimize the number of iterations required to find an $\eps$-optimal point and to minimize the total cost (regret) of the guesses over many rounds. Our main result is an efficient randomized algorithm for several natural choices of the function $f$ and set $\mathcal{X}$ that incurs cost $O(d)$ and iteration complexity $O(d\log(1/\varepsilon)^2)$. Moreover, our dependence on $d$ is asymptotically optimal, as we show examples in which any randomized algorithm for this problem must incur $\Omega(d)$ cost and iteration complexity.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-brown24a,
+  title = 	 {Online Recommendations for Agents with Discounted Adaptive Preferences},
+  author =       {Brown, William and Agarwal, Arpit},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {244--281},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/brown24a/brown24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/brown24a.html},
+  abstract = 	 {We consider a bandit recommendations problem in which an agentâs preferences (representing selection probabilities over recommended items) evolve as a function of past selections, according to an unknown \textit{preference model}. In each round, we show a menu of $k$ items (out of $n$ total) to the agent, who then chooses a single item, and we aim to minimize regret with respect to some \textit{target set} (a subset of the item simplex) for adversarial losses over the agentâs choices. Extending the setting from \cite{AgarwalB22}, where uniform-memory agents were considered, here we allow for non-uniform memory in which a discount factor is applied to the agentâs memory vector at each subsequent round. In the âlong-term memoryâ regime (when the effective memory horizon scales with $T$ sublinearly), we show that efficient sublinear regret is obtainable with respect to the set of \textit{everywhere instantaneously realizable distributions} (the âEIRD setâ, as formulated in prior work) for any \textit{smooth} preference model. Further, for preferences which are bounded above and below by linear functions of memory weight (we call these âscale-boundedâ preferences) we give an algorithm which obtains efficient sublinear regret with respect to nearly the \textit{entire} item simplex. We show an NP-hardness result for expanding to targets beyond EIRD in general. In the âshort-term memoryâ regime (when the memory horizon is constant), we show that scale-bounded preferences again enable efficient sublinear regret for nearly the entire simplex even without smoothness if losses do not change too frequently, yet we show an information-theoretic barrier for competing against the EIRD set under arbitrary smooth preference models even when losses are constant.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-brugere24a,
+  title = 	 {Distances for Markov Chains, and Their Differentiation},
+  author =       {Brug\`ere, Tristan and Wan, Zhengchao and Wang, Yusu},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {282--336},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/brugere24a/brugere24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/brugere24a.html},
+  abstract = 	 {(Directed) graphs with node attributes are a common type of data in various applications and there is a vast literature on developing metrics and efficient algorithms for comparing them. Recently, in the graph learning and optimization communities, a range of new approaches have been developed for comparing graphs with node attributes, leveraging ideas such as the Optimal Transport (OT) and the Weisfeiler-Lehman (WL) graph isomorphism test. Two state-of-the-art representatives are the OTC distance proposed in (OâConnor et al., 2022) and the WL distance in (Chen et al., 2022). Interestingly, while these two distances are developed based on different ideas, we observe that they both view graphs as Markov chains, and are deeply connected.  Indeed, in this paper, we propose a unified framework to generate distances for Markov chains (thus including (directed) graphs with node attributes), which we call the <em>Optimal Transport Markov (OTM)</em> distances, that encompass both the OTC and the WL distances. We further introduce a special one-parameter family of distances within our OTM framework, called the <em>discounted WL distance</em>. We show that the discounted WL distance has nice theoretical properties and can address several limitations of the existing OTC and WL distances. Furthermore, contrary to the OTC and the WL distances, our new discounted WL distance can be differentiated after a entropy-regularization similar to the Sinkhorn distance, making it suitable to use in learning frameworks, e.g., as the reconstruction loss in a graph generative model.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-brunel24a,
+  title = 	 {Concentration of empirical barycenters in metric spaces},
+  author =       {Brunel, Victor-Emmanuel and Serres, Jordan},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {337--361},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/brunel24a/brunel24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/brunel24a.html},
+  abstract = 	 {Barycenters (aka FrÃ©chet means) were introduced in statistics in the 1940âs and popularized in the fields of shape statistics and, later, in optimal transport and matrix analysis. They provide the most natural extension of linear averaging to non-Euclidean geometries, which is perhaps the most basic and widely used tool in data science. In various setups, their asymptotic properties, such as laws of large numbers and central limit theorems, have been established, but their non-asymptotic behaviour is still not well understood. In this work, we prove finite sample concentration inequalities (namely, generalizations of Hoeffdingâs and Bernsteinâs inequalities) for barycenters of i.i.d. random variables in metric spaces with non-positive curvature in Alexandrovâs sense. As a byproduct, we also obtain PAC guarantees for a stochastic online algorithm that computes the barycenter of a finite collection of points in a non-positively curved space. We also discuss extensions of our results to spaces with possibly positive curvature.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-bun24a,
+  title = 	 {Private PAC Learning May be Harder than Online Learning},
+  author =       {Bun, Mark and Cohen, Aloni and Desai, Rathin},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {362--389},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/bun24a/bun24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/bun24a.html},
+  abstract = 	 {We continue the study of the computational complexity of differentially private PAC learning and how it is situated within the foundations of machine learning. A recent line of work uncovered a qualitative equivalence between the private PAC model and Littlestoneâs mistake-bounded model of online learning, in particular, showing that any concept class of Littlestone dimension $d$ can be privately PAC learned using $\operatorname{poly}(d)$ samples. This raises the natural question of whether there might be a generic conversion from online learners to private PAC learners that also preserves computational efficiency. We give a negative answer to this question under reasonable cryptographic assumptions (roughly, those from which it is possible to build indistinguishability obfuscation for all circuits). We exhibit a concept class that admits an online learner running in polynomial time with a polynomial mistake bound, but for which there is no computationally-efficient differentially private PAC learner. Our construction and analysis strengthens and generalizes that of Bun and Zhandry (TCC 2016-A), who established such a separation between private and non-private PAC learner.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-bun24b,
+  title = 	 {Not All Learnable Distribution Classes are Privately Learnable},
+  author =       {Bun, Mark and Kamath, Gautam and Mouzakis, Argyris and Singhal, Vikrant},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {390--401},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/bun24b/bun24b.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/bun24b.html},
+  abstract = 	 {We give an example of a class of distributions that is learnable in total variation distance with a finite number of samples, but not learnable under $(\varepsilon, \delta)$-differential privacy. This refutes a conjecture of Ashtiani.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-choo24a,
+  title = 	 {Learning bounded-degree polytrees with known skeleton},
+  author =       {Choo, Davin and Yang, Joy Qiping and Bhattacharyya, Arnab and Canonne, Cl{\'e}ment L},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {402--443},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/choo24a/choo24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/choo24a.html},
+  abstract = 	 {We establish finite-sample guarantees for efficient proper learning of bounded-degree {\em polytrees}, a rich class of high-dimensional probability distributions and a subclass of Bayesian networks, a widely-studied type of graphical model. Recently, Bhattacharyya et al. (2021) obtained finite-sample guarantees for recovering tree-structured Bayesian networks, i.e., 1-polytrees. We extend their results by providing an efficient algorithm which learns $d$-polytrees in polynomial time and sample complexity for any bounded $d$ when the underlying undirected graph (skeleton) is known. We complement our algorithm with an information-theoretic sample complexity lower bound, showing that the dependence on the dimension and target accuracy parameters are nearly tight.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-croissant24a,
+  title = 	 {Near-continuous time {Reinforcement} {Learning} for continuous state-action spaces},
+  author =       {Croissant, Lorenzo and Abeille, Marc and Bouchard, Bruno},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {444--498},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/croissant24a/croissant24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/croissant24a.html},
+  abstract = 	 {We consider the reinforcement learning problem of controlling an unknown dynamical system to maximise the long-term average reward along a single trajectory.  Most of the literature considers system interactions that occur in discrete time and discrete state-action spaces.  Although this standpoint is suitable for games, it is often inadequate for systems in which interactions occur at a high frequency, if not in continuous time, or those whose state spaces are large if not inherently continuous.  Perhaps the only exception is the linear quadratic framework for which results exist both in discrete and continuous time.   However, its ability to handle continuous states comes with the drawback of a rigid dynamic and reward structure. This work aims to overcome these shortcomings by modelling interaction times with a Poisson clock of frequency $\varepsilon^{-1}$ which captures arbitrary time scales from discrete ($\varepsilon=1$) to continuous time ($\varepsilon\downarrow0$).  In addition, we consider a generic reward function and model the state dynamics according to a jump process with an arbitrary transition kernel on $\mathbb{R}^d$.  We show that the celebrated optimism protocol applies when the sub-tasks (learning and planning) can be performed effectively.  We tackle learning by extending the eluder dimension framework and propose an approximate planning method based on a diffusive limit ($\varepsilon\downarrow0$) approximation of the jump process. Overall, our algorithm enjoys a regret of order $\tilde{\mathcal{O}}(\sqrt{T})$ or $\tilde{\mathcal{O}}(\varepsilon^{1/2} T+\sqrt{T})$ with the approximate planning.  As the frequency of interactions blows up, the approximation error $\varepsilon^{1/2} T$ vanishes, showing that $\tilde{\mathcal{O}}(\sqrt{T})$ is attainable in near-continuous time.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-dabagia24a,
+  title = 	 {Computation with Sequences of Assemblies in a Model of the Brain},
+  author =       {Dabagia, Max and Papadimitriou, Christos and Vempala, Santosh},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {499--504},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/dabagia24a/dabagia24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/dabagia24a.html},
+  abstract = 	 {Even as machine learning exceeds human-level performance on many applications, the generality, robustness, and rapidity of the brainâs learning capabilities remain unmatched. How cognition arises from neural activity is <em> the</em> central open question in neuroscience, inextricable from the study of intelligence itself. A simple formal model of neural activity was proposed in Papadimitriou (2020) and has been subsequently shown, through both mathematical proofs and simulations, to be capable of implementing certain simple cognitive operations via the creation and manipulation of assemblies of neurons. However, many intelligent behaviors rely on the ability to recognize, store, and manipulate temporal <em> sequences </em> of stimuli (planning, language, navigation, to list a few). Here we show that, in the same model, time can be captured naturally as precedence through synaptic weights and plasticity, and, as a result, a range of computations on <em> sequences </em> of assemblies can be carried out.  In particular, repeated presentation of a sequence of stimuli leads to the memorization of the sequence through corresponding neural assemblies: upon future presentation of any stimulus in the sequence, the corresponding assembly and its subsequent ones will be activated, one after the other, until the end of the sequence.  If the stimulus sequence is presented to two brain areas simultaneously, a scaffolded representation is created, resulting in more efficient memorization and recall, in agreement with cognitive experiments. Finally, we show that any finite state machine can be learned in a similar way, through the presentation of appropriate patterns of sequences.  Through an extension of this mechanism, the model can be shown to be capable of universal computation. We support our analysis with a number of experiments to probe the limits of learning in this model in key ways. Taken together, these results provide a concrete hypothesis for the basis of the brainâs remarkable abilities to compute and learn, with sequences playing a vital role.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-daniely24a,
+  title = 	 {On the Sample Complexity of Two-Layer Networks: Lipschitz Vs. Element-Wise Lipschitz Activation},
+  author =       {Daniely, Amit and Granot, Elad},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {505--517},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/daniely24a/daniely24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/daniely24a.html},
+  abstract = 	 {This study delves into the sample complexity of two-layer neural networks. For a given reference matrix $W^0 \in \mathbb{R}^{\mathcal{T}\times d}$ (typically representing initial training weights) and an $O(1)$-Lipschitz activation function $\sigma:\mathbb{R}\to\mathbb{R}$, we examine the class $\mathcal{H}_{W^0, B, R, r}^{\sigma} = \left\{\textbf{x}\mapsto â¨\textbf{v},\sigma((W+W^0)\textbf{x})â©: \|W\|_{\text{Frobenius}} \le R, \|\textbf{v}\| \le r, \|\textbf{x}\|\le B\right\}$. We demonstrate that when $\sigma$ operates element-wise, the sample complexity of $\mathcal{H}_{W^0, B, R, r}^{\sigma}$ is bounded by $\tilde O \left(\frac{L^2 B^2 r^2 (R^2+\|W\|^2_{\text{Spectral}})}{\epsilon^2}\right)$. This bound is optimal, barring logarithmic factors, and depends logarithmically on the width $\mathcal{T}$. This finding builds upon [Vardi et al., 2022], who established a similar outcome for $W^0 = 0$. Our motivation stems from the real-world observation that trained weights often remain close to their initial counterparts, implying that $\|W\|_{\text{Frobenius}} \ll \|W+W^0\|_{\text{Frobenius}}$. To arrive at our conclusion, we employed and enhanced a recently new norm-based bounds method, the Approximate Description Length (ADL), as proposed by [Daniely and and Granot, 2019]. Finally, our results underline the crucial role of the element-wise nature of $\sigma$ for achieving a logarithmic width-dependent bound. To illustrate, we prove that there exists an $O(1)$-Lipschitz (non-element-wise) activation function $\Psi:\mathbb{R}^{\mathcal{T}}\to\mathbb{R}^{\mathcal{T}}$ where the sample complexity of $\mathcal{H}_{W^0, B, R, r}^{\Psi}$ increases linearly with the width.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-daniely24b,
+  title = 	 {RedEx: Beyond Fixed Representation Methods via Convex Optimization},
+  author =       {Daniely, Amit and Schain, Mariano and Yehudai, Gilad},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {518--543},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/daniely24b/daniely24b.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/daniely24b.html},
+  abstract = 	 {Optimizing Neural networks is a difficult task which is still not well understood. On the other hand, fixed representation methods such as kernels and random features have provable optimization guarantees but inferior performance due to their inherent inability to learn the representations. In this paper, we aim at bridging this gap by presenting a novel architecture called RedEx (Reduced Expander Extractor) that is as expressive as neural networks and can also be trained in a layer-wise fashion via a convex program with semi-definite constraints and optimization guarantees. We also show that RedEx provably surpasses fixed representation methods, in the sense that it can efficiently learn a family of target functions which fixed representation methods cannot.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-devulapalli24a,
+  title = 	 {The Dimension of Self-Directed Learning},
+  author =       {Devulapalli, Pramith and Hanneke, Steve},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {544--573},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/devulapalli24a/devulapalli24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/devulapalli24a.html},
+  abstract = 	 {Understanding the self-directed learning complexity has been an important problem that has captured the attention of the online learning theory community since the early 1990s. Within this framework, the learner is allowed to adaptively choose its next data point in making predictions unlike the setting in adversarial online learning. In this paper, we study the self-directed learning complexity in both the binary and multi-class settings, and we develop a dimension, namely $SDdim$, that exactly characterizes the self-directed learning mistake-bound for any concept class. The intuition behind $SDdim$ can be understood as a two-player game called the âlabelling game". Armed with this two-player game, we calculate $SDdim$ on a whole host of examples with notable results on axis-aligned rectangles, VC dimension $1$ classes, and linear separators. We demonstrate several learnability gaps with a central focus between self-directed learning and offline sequence learning models that include either the best or worst ordering. Finally, we extend our analysis to the self-directed binary agnostic setting where we derive upper and lower bounds.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-fallat24a,
+  title = 	 {Learning Hypertrees From Shortest Path Queries},
+  author =       {Fallat, Shaun M and Maliuk, Valerii and Mojallal, Seyed Ahmad and Zilles, Sandra},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {574--589},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/fallat24a/fallat24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/fallat24a.html},
+  abstract = 	 {We consider the problem of learning a labeled hypergraph from a given family of hypergraphs, using shortest path (SP) queries. An SP query specifies two vertices and asks for their distance in the target hypergraph. For various classes $\mathcal{H}$ of hypertrees, we present bounds on the number of queries required to learn an unknown hypertree from $\mathcal{H}$. Matching upper and lower asymptotic bounds are presented for learning hyperpaths and hyperstars, both in the adaptive and in the non-adaptive setting. Moreover, two non-trivial classes of hypertrees are shown to be efficiently learnable from adaptive SP queries, under certain conditions on structural parameters.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-frost24a,
+  title = 	 {Partially Interpretable Models with Guarantees on Coverage and Accuracy},
+  author =       {Frost, Nave and Lipton, Zachary and Mansour, Yishay and Moshkovitz, Michal},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {590--613},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/frost24a/frost24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/frost24a.html},
+  abstract = 	 {Simple, sufficient explanations furnished by short decision lists can be useful for guiding stakeholder actions. Unfortunately, this transparency can come at the expense of the higher accuracy enjoyed by black box methods, like deep nets. To date, practitioners typically either (i) insist on the simpler model, forsaking accuracy; or (ii) insist on maximizing accuracy, settling for post-hoc explanations of dubious faithfulness. In this paper, we propose a hybrid partially interpretable model that represents a compromise between the two extremes. In our setup, each input is first processed by a decision list that can either execute a decision or abstain,  handing off authority to the opaque model.  The key to optimizing the decision list is to optimally trade off the accuracy of the composite system against coverage (the fraction of the population that receives explanations). We contribute a new principled algorithm for constructing partially interpretable decision lists, providing theoretical guarantees addressing both interpretability and accuracy. As an instance of our result, we prove that when the optimal decision list has length $k$, coverage $c$, and $b$ mistakes, our algorithm will generate a decision list that has length no greater than $4k$, coverage at least $c/2$, and makes at most $4b$ mistakes. Finally, we empirically validate the effectiveness of the new model.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-gabbianelli24a,
+  title = 	 {Importance-Weighted Offline Learning Done Right},
+  author =       {Gabbianelli, Germano and Neu, Gergely and Papini, Matteo},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {614--634},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/gabbianelli24a/gabbianelli24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/gabbianelli24a.html},
+  abstract = 	 {We study the problem of offline policy optimization in stochastic contextual bandit problems, where the goal is to learn a near-optimal policy based on a dataset of decision data collected by a suboptimal behavior policy. Rather than making any structural assumptions on the reward function, we assume access to a given policy class and aim to compete with the best comparator policy within this class. In this setting, a standard approach is to compute importance-weighted estimators of the value of each policy, and select a policy that minimizes the estimated value up to a âpessimisticâ adjustment subtracted from the estimates to reduce their random fluctuations. In this paper, we show that a simple alternative approach based on the âimplicit explorationâ estimator of \citet{Neu2015} yields performance guarantees that are superior in nearly all possible terms to all previous results. Most notably, we remove an extremely restrictive âuniform coverageâ assumption made in all previous works. These improvements are made possible by the observation that the upper and lower tails importance-weighted estimators behave very differently from each other, and their careful control can massively improve on previous results that were all based on symmetric two-sided concentration inequalities. We also extend our results to infinite policy classes in a PAC-Bayesian fashion, and showcase the robustness of our algorithm to the choice of hyper-parameters by means of numerical simulations.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-karbasi24a,
+  title = 	 {The Impossibility of Parallelizing Boosting},
+  author =       {Karbasi, Amin and Green Larsen, Kasper},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {635--653},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/karbasi24a/karbasi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/karbasi24a.html},
+  abstract = 	 {The aim of boosting is to convert a sequence of weak learners into a strong learner. At their heart, these methods are fully sequential. In this paper, we investigate the possibility of parallelizing boosting. Our main contribution is a strong negative result, implying that significant parallelization of boosting requires an exponential blow-up in the total computing resources needed for training.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-karchmer24a,
+  title = 	 {Agnostic Membership Query Learning with Nontrivial Savings: New Results and Techniques},
+  author =       {Karchmer, Ari},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {654--682},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/karchmer24a/karchmer24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/karchmer24a.html},
+  abstract = 	 {Designing computationally efficient algorithms in the agnostic learning model (Haussler, 1992; Kearns et al., 1994) is notoriously difficult. In this work, we consider agnostic learning with membership queries for touchstone classes at the frontier of agnostic learning, with a focus on how much computation can be saved over the trivial run-time of $2^n$. This approach is inspired by and continues the study of âlearning with nontrivial savingsâ (Servedio and Tan, 2017). To this end, we establish multiple agnostic learning algorithms, highlighted by: <ul><li>An agnostic learning algorithm for circuits consisting of a sublinear number of gates, which can each be any function computable by a sublogarithmic degree $k$ polynomial threshold function (the depth of the circuit is bounded only by size). This algorithm runs in time $2^{n -s(n)}$ for $s(n) \approx n/(k+1)$, and learns over the uniform distribution over unlabelled examples on $\{0,1\}^n$.</li> <li>An agnostic learning algorithm for circuits consisting of a sublinear number of gates, where each can be any function computable by a $\sym^+$ circuit of subexponential size and sublogarithmic degree $k$. This algorithm runs in time $2^{n-s(n)}$ for $s(n) \approx n/(k+1)$, and learns over distributions of unlabelled examples that are products of $k+1$ \textit{arbitrary and unknown} distributions, each over $\{0,1\}^{n/(k+1)}$ (assume without loss of generality that $k+1$ divides $n$).</li></ul> Furthermore, we apply our new agnostic learning algorithms for these classes to also obtain algorithms for randomized compression, exact learning with membership and equivalence queries, and distribution-independent PAC-learning with membership queries. Our core technique, which may be of independent interest, remixes the learning from natural proofs paradigm (Carmosino et al. 2016, 2017), so that we can tolerate concept classes fundamentally different than $\AC^0[p]$, and achieve fully agnostic learning. We make use of communication-complexity-based natural proofs (Nisan, 1993), rather than natural proofs of Razborov (1987) and Smolensky (1987) for $\AC^0[p]$.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-kash24a,
+  title = 	 {Slowly Changing Adversarial Bandit Algorithms are Efficient for Discounted MDPs},
+  author =       {Kash, Ian A. and Reyzin, Lev and Yu, Zishun},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {683--718},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/kash24a/kash24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/kash24a.html},
+  abstract = 	 {Reinforcement learning generalizes multi-armed bandit problems with additional difficulties of a longer planning horizon and unknown transition kernel. We explore a black-box reduction from discounted infinite-horizon tabular reinforcement learning to multi-armed bandits, where, specifically, an independent bandit learner is placed in each state. We show that, under ergodicity and fast mixing assumptions, any slowly changing adversarial bandit algorithm achieving optimal regret in the adversarial bandit setting can also attain optimal expected regret in infinite-horizon discounted Markov decision processes, with respect to the number of rounds $T$. Furthermore, we examine our reduction using a specific instance of the exponential-weight algorithm.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-hanneke24a,
+  title = 	 {Efficient Agnostic Learning with Average Smoothness},
+  author =       {Hanneke, Steve and Kontorovich, Aryeh and Kornowski, Guy},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {719--731},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/hanneke24a/hanneke24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/hanneke24a.html},
+  abstract = 	 {We study distribution-free nonparametric regression following a notion of average smoothness initiated by Ashlagi et al. (2021), which measures the âeffectiveâ smoothness of a function with respect to an arbitrary unknown underlying distribution.  While the recent work of Hanneke et al. (2023) established tight uniform convergence bounds for average-smooth functions in the realizable case and provided a computationally efficient realizable learning algorithm, both of these results currently lack analogs in the general agnostic (i.e. noisy) case. In this work, we fully close these gaps. First, we provide a distribution-free uniform convergence bound for average-smoothness classes in the agnostic setting. Second, we match the derived sample complexity with a computationally efficient agnostic learning algorithm. Our results, which are stated in terms of the intrinsic geometry of the data and hold over any totally bounded metric space, show that the guarantees recently obtained for realizable learning of average-smooth functions transfer to the agnostic setting. At the heart of our proof, we establish the uniform convergence rate of a function class in terms of its bracketing entropy, which may be of independent interest.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-liao24a,
+  title = 	 {Provable Accelerated Convergence of Nesterovâs Momentum for Deep ReLU Neural Networks},
+  author =       {Liao, Fangshuo and Kyrillidis, Anastasios},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {732--784},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/liao24a/liao24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/liao24a.html},
+  abstract = 	 {Current state-of-the-art analyses on the convergence of gradient descent for training neural networks focus on characterizing properties of the loss landscape, such as the Polyak-Lojaciewicz (PL) condition and the restricted strong convexity. While gradient descent converges linearly under such conditions, it remains an open question whether Nesterovâs momentum enjoys accelerated convergence under similar settings and assumptions. In this work, we consider a new class of objective functions, where only a subset of the parameters satisfies strong convexity, and show Nesterovâs momentum achieves acceleration in theory for this objective class. We provide two realizations of the problem class, one of which is deep ReLU networks, which constitutes this work as the first that proves an accelerated convergence rate for non-trivial neural network architectures.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-liao24b,
+  title = 	 {Learning Spanning Forests Optimally in Weighted Undirected Graphs with CUT queries},
+  author =       {Liao, Hang and Chakrabarty, Deeparnab},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {785--807},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/liao24b/liao24b.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/liao24b.html},
+  abstract = 	 {In this paper we describe a randomized algorithm which returns a maximal spanning forest of an unknown {\em weighted} undirected graph making  $O(n)$ $\mathsf{CUT}$ queries in expectation. For weighted graphs, this is optimal due to a result in [Auza and Lee, 2021] which shows an $\Omega(n)$ lower bound for zero-error randomized algorithms. These questions have been extensively studied in the past few years, especially due to the problemâs connections to symmetric submodular function minimization. We also describe a simple polynomial time deterministic algorithm that makes $O(\frac{n\log n}{\log\log n})$ queries on undirected unweighted graphs and returns a maximal spanning forest, thereby (slightly) improving upon the state-of-the-art.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-verchand24a,
+  title = 	 {Alternating minimization for generalized rank one matrix sensing: Sharp predictions from a random initialization},
+  author =       {Verchand, Kabir Aladin and Lou, Mengqi and Pananjady, Ashwin},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {808--809},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/verchand24a/verchand24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/verchand24a.html},
+  abstract = 	 {We consider the problem of estimating the factors of a rank-$1$ matrix with i.i.d. Gaussian, rank-$1$ measurements that are nonlinearly transformed and corrupted by noise. Considering two prototypical choices for the nonlinearity, we study the convergence properties of a natural alternating update rule for this nonconvex optimization problem starting from a random initialization. We show sharp convergence guarantees for a sample-split version of the algorithm by deriving a deterministic recursion that is accurate even in high-dimensional problems. Notably, while the infinite-sample population update is uninformative and suggests exact recovery in a single step, the algorithmâand our deterministic predictionâconverges geometrically fast from a random initialization. Our sharp, non-asymptotic analysis also exposes several other fine-grained properties of this problem, including how the nonlinearity and noise level affect convergence behavior.\\{On} a technical level, our results are enabled by showing that the empirical error recursion can be predicted by our deterministic sequence within fluctuations of the order $n^{-1/2}$ when each iteration is run with $n$ observations. Our technique leverages leave-one-out tools originating in the literature on high-dimensional $M$-estimation and provides an avenue for sharply analyzing complex iterative algorithms from a random initialization in other high-dimensional optimization problems with random data.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-lu24a,
+  title = 	 {On the Computational Benefit of Multimodal Learning},
+  author =       {Lu, Zhou},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {810--821},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/lu24a/lu24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/lu24a.html},
+  abstract = 	 {Human perception inherently operates in a multimodal manner. Similarly, as machines interpret the empirical world, their learning processes ought to be multimodal. The recent, remarkable successes in empirical multimodal learning underscore the significance of understanding this paradigm. Yet, a solid theoretical foundation for multimodal learning has eluded the field for some time. While a recent study by \cite{zhoul} has shown the superior sample complexity of multimodal learning compared to its unimodal counterpart, another basic question remains: does multimodal learning also offer computational advantages over unimodal learning? This work initiates a study on the computational benefit of multimodal learning. We demonstrate that, under certain conditions, multimodal learning can outpace unimodal learning exponentially in terms of computation. Specifically, we present a learning task that is NP-hard for unimodal learning but is solvable in polynomial time by a multimodal algorithm. Our construction is based on a novel modification to the intersection of two half-spaces problem.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-mao24a,
+  title = 	 {Predictor-Rejector Multi-Class Abstention: Theoretical Analysis and Algorithms},
+  author =       {Mao, Anqi and Mohri, Mehryar and Zhong, Yutao},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {822--867},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/mao24a/mao24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/mao24a.html},
+  abstract = 	 {We study the key framework of learning with abstention in the multi-class classification setting. In this setting, the learner can choose to abstain from making a prediction with some pre-defined cost. We present a series of new theoretical and algorithmic results for this learning problem in the predictor-rejector framework. We introduce several new families of surrogate losses for which we prove strong non-asymptotic and hypothesis set-specific consistency guarantees, thereby resolving positively two existing open questions. These guarantees provide upper bounds on the estimation error of the abstention loss function in terms of that of the surrogate loss. We analyze both a single-stage setting where the predictor and rejector are learned simultaneously and a two-stage setting crucial in applications, where the predictor is learned in a first stage using a standard surrogate loss such as cross-entropy. These guarantees suggest new multi-class abstention algorithms based on minimizing these surrogate losses. We also report the results of extensive experiments comparing these algorithms to the current state-of-the-art algorithms on CIFAR-10, CIFAR-100 and SVHN datasets. Our results demonstrate empirically the benefit of our new surrogate losses and show the remarkable performance of our broadly applicable two-stage abstention algorithm.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-menart24a,
+  title = 	 {Differentially Private Non-Convex Optimization under the KL Condition with Optimal Rates},
+  author =       {Menart, Michael and Ullah, Enayat and Arora, Raman and Bassily, Raef and Guzman, Cristobal},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {868--906},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/menart24a/menart24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/menart24a.html},
+  abstract = 	 {We study private empirical risk minimization (ERM) problem for losses satisfying the $(\gamma,\kappa)$-Kurdyka-{Å}ojasiewicz (KL) condition, that is, the empirical loss $F$ satisfies $F(w)-\min_{w}F(w) \leq \gamma^\kappa \|\nabla F(w)\|^\kappa$. The Polyak-{Å}ojasiewicz (PL) condition is a special case of this condition when $\kappa=2$. Specifically, we study this problem under the constraint of $\rho$ zero-concentrated differential privacy (zCDP). When $\kappa\in[1,2]$ and the loss function is Lipschitz and smooth over a sufficiently large region, we provide a new algorithm based on variance reduced gradient descent that achieves the rate $\tilde{O}\big(\big(\frac{\sqrt{d}}{n\sqrt{\rho}}\big)^\kappa\big)$ on the excess empirical risk, where $n$ is the dataset size and $d$ is the dimension. We further show that this rate is nearly optimal. When $\kappa \geq 2$ and the loss is instead Lipschitz and weakly convex, we show it is possible to achieve the rate $\tilde{O}\big(\big(\frac{\sqrt{d}}{n\sqrt{\rho}}\big)^\kappa\big)$ with a private implementation of the proximal point method. When the KL parameters are unknown, we provide a novel modification and analysis of the noisy gradient descent algorithm and show that this algorithm achieves a rate of $\tilde{O}\big(\big(\frac{\sqrt{d}}{n\sqrt{\rho}}\big)^{\frac{2\kappa}{4-\kappa}}\big)$ adaptively, which is nearly optimal when $\kappa = 2$. We further show that, without assuming the KL condition, the same gradient descent algorithm can achieve fast convergence to a stationary point when the gradient stays sufficiently large during the run of the algorithm. Specifically, we show that this algorithm can approximate stationary points of Lipschitz, smooth (and possibly nonconvex) objectives with rate as fast as $\tilde{O}\big(\frac{\sqrt{d}}{n\sqrt{\rho}}\big)$ and never worse than $\tilde{O}\big(\big(\frac{\sqrt{d}}{n\sqrt{\rho}}\big)^{1/2}\big)$. The latter rate matches the best known rate for methods that do not rely on variance reduction.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-neu24a,
+  title = 	 {Adversarial Contextual Bandits Go Kernelized},
+  author =       {Neu, Gergely and Olkhovskaya, Julia and Vakili, Sattar},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {907--929},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/neu24a/neu24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/neu24a.html},
+  abstract = 	 {We study a generalization of the problem of online learning in adversarial linear contextual bandits by incorporating loss functions that belong to a reproducing kernel Hilbert space, which allows for a more flexible modeling of complex decision-making scenarios. We propose a computationally efficient algorithm that makes use of a new optimistically biased estimator for the loss functions and achieves near-optimal regret guarantees under a variety of eigenvalue decay assumptions made on the underlying kernel. Specifically, under the assumption of polynomial eigendecay with exponentÂ $c>1$, the regret is $\tilde O(KT^{\frac{1}{2}\pa{1+\frac{1}{c}}})$, where $T$ denotes the number of rounds and $K$ the number of actions. Furthermore, when the eigendecay follows an exponential pattern, we achieve an even tighter regret bound of $\tOO(\sqrt{T})$. These rates match the lower bounds in all special cases where lower bounds are known at all, and match the best known upper bounds available for the more well-studied stochastic counterpart of our problem.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-pabbaraju24a,
+  title = 	 {Multiclass Learnability Does Not Imply Sample Compression},
+  author =       {Pabbaraju, Chirag},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {930--944},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/pabbaraju24a/pabbaraju24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/pabbaraju24a.html},
+  abstract = 	 {A hypothesis class admits a sample compression scheme, if for every sample labeled by a hypothesis from the class, it is possible to retain only a small subsample, using which  the labels on the entire sample can be inferred. The size of the compression scheme is an upper bound on the size of the subsample produced. Every learnable binary hypothesis class (which must necessarily have finite VC dimension) admits a sample compression scheme of size only a finite function of its VC dimension, independent of the sample size. For multiclass hypothesis classes, the analog of VC dimension is the DS dimension. We show that the analogous statement pertaining to sample compression is not true for multiclass hypothesis classes: every learnable multiclass hypothesis class, which must necessarily have finite DS dimension, does not admit a sample compression scheme of size only a finite function of its DS dimension.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-pasteris24a,
+  title = 	 {Adversarial Online Collaborative Filtering},
+  author =       {Pasteris, Stephen and Vitale, Fabio and Herbster, Mark and Gentile, Claudio and Panisson, Andre},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {945--971},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/pasteris24a/pasteris24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/pasteris24a.html},
+  abstract = 	 {We investigate the problem of online collaborative filtering under no-repetition constraints, whereby users need to be served content in an online fashion and a given user cannot be recommended the same content item more than once. We start by designing and analyzing an algorithm that works under biclustering assumptions on the user-item preference matrix, and show that this algorithm exhibits an optimal regret guarantee, while being fully adaptive, in that it is oblivious to any prior knowledge about the sequence of users, the universe of items, as well as the biclustering parameters of the preference matrix. We then propose a more robust version of this algorithm which operates with general matrices. Also this algorithm is parameter free, and we prove regret guarantees that scale with the amount by which the preference matrix deviates from a biclustered structure. To our knowledge, these are the first results on online collaborative filtering that hold at this level of generality and adaptivity under no-repetition constraints. Finally, we complement our theoretical findings with simple experiments on real-world datasets aimed at both validating the theory and empirically comparing to standard baselines. This comparison shows the competitive advantage of our approach over these baselines.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-peng24a,
+  title = 	 {The complexity of non-stationary reinforcement learning},
+  author =       {Peng, Binghui and Papadimitriou, Christos},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {972--996},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/peng24a/peng24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/peng24a.html},
+  abstract = 	 {The problem of continual learning in the domain of reinforcement learning, often called non-stationary reinforcement learning, has been identified as an important challenge to the application of reinforcement learning. We prove a worst-case complexity result, which we believe captures this challenge: Modifying the probabilities or the reward of a single state-action pair in a reinforcement learning problem requires an amount of time almost as large as the number of states  in order to keep the value function up to date, unless the strong exponential time hypothesis (SETH) is false; SETH is a widely accepted strengthening of the P $\neq$ NP conjecture.  Recall that the number of states in current applications of reinforcement learning is typically astronomical.  In contrast, we show that just adding a new state-action pair is considerably easier to implement. }
+}
+
+
+
+
+@InProceedings{pmlr-v237-raman24a,
+  title = 	 {Multiclass Online Learnability under Bandit Feedback},
+  author =       {Raman, Ananth and Raman, Vinod and Subedi, Unique and Mehalel, Idan and Tewari, Ambuj},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {997--1012},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/raman24a/raman24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/raman24a.html},
+  abstract = 	 {We study online multiclass classification under bandit feedback. We extend the results of Daniely and Helbertal [2013] by showing that the finiteness of the Bandit Littlestone dimension is necessary and sufficient for bandit online learnability even when the label space is unbounded. Moreover, we show that, unlike the full-information setting, sequential uniform convergence is necessary but not sufficient for bandit online learnability. Our result complements the recent work by Hanneke, Moran, Raman, Subedi, and Tewari [2023] who show that the Littlestone dimension characterizes online multiclass learnability in the full-information setting even when the label space is unbounded.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-shidani24a,
+  title = 	 {Optimal Regret Bounds for Collaborative Learning in Bandits},
+  author =       {Shidani, Amitis and Vakili, Sattar},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1013--1029},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/shidani24a/shidani24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/shidani24a.html},
+  abstract = 	 {We consider regret minimization in a general collaborative multi-agent multi-armed bandit model, in which each agent faces a finite set of arms and may communicate with other agents through a central controller. The optimal arm for each agent in this model is the arm with the largest expected <em>mixed<em> reward, where the mixed reward of each arm is a weighted average of its rewards across all agents, making communication among agents crucial. While near-optimal sample complexities for best arm identification are known under this collaborative model, the question of optimal regret remains open. In this work, we address this problem and propose the first algorithm with order optimal regret bounds under this collaborative bandit model. Furthermore, we show that only a small constant number of expected communication rounds is needed.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-singhal24a,
+  title = 	 {A Polynomial Time, Pure Differentially Private Estimator for Binary Product Distributions},
+  author =       {Singhal, Vikrant},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1030--1054},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/singhal24a/singhal24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/singhal24a.html},
+  abstract = 	 {We present the first $\varepsilon$-differentially private, computationally efficient algorithm that estimates the means of product distributions over $\{0,1\}^d$ accurately in total-variation distance, whilst attaining the optimal sample complexity to within polylogarithmic factors. The prior work had either solved this problem efficiently and optimally under weaker notions of privacy, or had solved it optimally while having exponential running times.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-stojanovic24a,
+  title = 	 {Tight bounds for maximum $\ell_1$-margin classifiers},
+  author =       {Stojanovic, Stefan and Donhauser, Konstantin and Yang, Fanny},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1055--1112},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/stojanovic24a/stojanovic24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/stojanovic24a.html},
+  abstract = 	 {Popular iterative algorithms such as boosting methods and coordinate descent on linear models converge to the maximum $\ell_1$-margin classifier, a.k.a. sparse hard-margin SVM, in high dimensional regimes where the data is linearly separable. Previous works consistently show that many estimators relying on the $\ell_1$-norm achieve improved statistical rates for hard sparse ground truths. We show that surprisingly, this adaptivity does not apply to the maximum $\ell_1$-margin classifier for a standard discriminative setting. In particular, for the noiseless setting, we prove tight upper and lower bounds for the prediction error that match existing rates of order $\frac{\|\w^*\|_1^{2/3}}{n^{1/3}}$ for general ground truths. To complete the picture, we show that when interpolating noisy observations, the error vanishes at a rate of order $\frac{1}{\sqrt{\log(d/n)}}$. We are therefore first to show benign overfitting for the maximum $\ell_1$-margin classifier.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-subedi24a,
+  title = 	 {Online Infinite-Dimensional Regression: Learning Linear Operators},
+  author =       {Subedi, Unique and Raman, Vinod and Tewari, Ambuj},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1113--1133},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/subedi24a/subedi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/subedi24a.html},
+  abstract = 	 {We consider the problem of learning linear operators under squared loss between two infinite-dimensional Hilbert spaces in the online setting. We show that the class of linear operators with uniformly bounded $p$-Schatten norm is online learnable for any $p \in [1, \infty)$. On the other hand, we prove an impossibility result by showing that the class of uniformly bounded linear operators with respect to the operator norm is \textit{not} online learnable. Moreover, we show a separation between sequential uniform convergence and online learnability by identifying a class of bounded linear operators that is online learnable but uniform convergence does not hold. Finally, we prove that the impossibility result and the separation between uniform convergence and learnability also hold in the batch setting.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-tabaghi24a,
+  title = 	 {Universal Representation of Permutation-Invariant Functions on Vectors and Tensors},
+  author =       {Tabaghi, Puoya and Wang, Yusu},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1134--1187},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/tabaghi24a/tabaghi24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/tabaghi24a.html},
+  abstract = 	 {A main object of our study is multiset functions â that is, permutation-invariant functions over inputs of varying sizes. Deep Sets, proposed by Zaheer et al. (2017), provides a universal representation for continuous multiset functions on scalars via a sum-decomposable model. Restricting the domain of the functions to finite multisets of $D$-dimensional vectors, Deep Sets also provides a universal approximation that requires a latent space dimension of $O(N^D)$ â where $N$ is an upper bound on the size of input multisets. In this paper, we strengthen this result by proving that universal representation is guaranteed for continuous and discontinuous multiset functions through a latent space dimension of $O(N^D)$ (which we will further improve upon). We then introduce identifiable multisets for which we can uniquely label their elements using an identifier function, namely, finite-precision vectors are identifiable. Based on our analysis of identifiable multisets, we prove that a sum-decomposable model, for general continuous multiset functions requires only a latent dimension of $2DN$, as opposed to $O(N^D)$. We further show that both encoder and decoder functions of the model are continuous â our main contribution to the existing work which lacks such a guarantee. Additionally, this provides a significant improvement over the aforementioned $O(N^D)$ bound, derived for the universal representation of both continuous and discontinuous multiset functions. We then extend our results and provide special sum-decomposition structures to universally represent permutation-invariant tensor functions on identifiable tensors. These families of sum-decomposition models enable us to design deep network architectures and deploy them on a variety of learning tasks on sequences, images, and graphs.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-weitzman24a,
+  title = 	 {Adaptive Combinatorial Maximization: Beyond Approximate Greedy Policies},
+  author =       {Weitzman, Shlomi and Sabato, Sivan},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1188--1207},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/weitzman24a/weitzman24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/weitzman24a.html},
+  abstract = 	 {We study adaptive combinatorial maximization, which is a core challenge in machine learning, with applications in active learning as well as many other domains.  We study the Bayesian setting, and consider the objectives of maximization under a cardinality constraint and minimum cost coverage.  We provide new comprehensive approximation guarantees that subsume previous results, as well as considerably strengthen them.  Our approximation guarantees simultaneously support the maximal gain ratio as well as near-submodular utility functions,  and include both maximization under a cardinality constraint and a minimum cost coverage guarantee.  In addition, we provided an approximation guarantee for a modified prior, which is crucial for obtaining active learning guarantees that do not depend on the smallest probability in the prior. Moreover, we discover a new parameter of adaptive selection policies, which we term the maximal gain ratio.  We show that this parameter is strictly less restrictive than the greedy approximation parameter that has been used in previous approximation guarantees,  and show that it can be used to provide stronger approximation guarantees than previous results.  In particular, we show that the maximal gain ratio is never larger than the greedy approximation factor of a policy, and that it can be considerably smaller.  This provides a new insight into the properties that make a policy useful for adaptive combinatorial maximization.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-zhang24a,
+  title = 	 {Improving Adaptive Online Learning Using Refined Discretization},
+  author =       {Zhang, Zhiyu and Yang, Heng and Cutkosky, Ashok and Paschalidis, Ioannis C},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1208--1233},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/zhang24a/zhang24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/zhang24a.html},
+  abstract = 	 {We study unconstrained Online Linear Optimization with Lipschitz losses. The goal is to simultaneously achieve (i) second order gradient adaptivity; and (ii) comparator norm adaptivity also known as âparameter freenessâ in the literature. Existing regret bounds (Cutkosky and Orabona, 2018; Mhammedi and Koolen, 2020; Jacobsen and Cutkosky, 2022) have the suboptimal $O(\sqrt{V_T\log V_T})$ dependence on the gradient variance $V_T$ , while the present work improves it to the optimal rate $O(\sqrt{V_T})$ using a novel continuous-time-inspired algorithm, without any impractical doubling trick. This result can be extended to the setting with unknown Lipschitz constant, eliminating the range ratio problem from prior works (Mhammedi and Koolen, 2020). Concretely, we first show that the aimed simultaneous adaptivity can be achieved fairly easily in a continuous time analogue of the problem, where the environment is modeled by an arbitrary continuous semimartingale. Then, our key innovation is a new discretization argument that preserves such adaptivity in the discrete time adversarial setting. This refines a non-gradient-adaptive discretization argument from (Harvey et al., 2023), both algorithmically and analytically, which could be of independent interest.}
+}
+
+
+
+
+@InProceedings{pmlr-v237-zuo24a,
+  title = 	 {Corruption-Robust Lipschitz Contextual Search},
+  author =       {Zuo, Shiliang},
+  booktitle = 	 {Proceedings of The 35th International Conference on Algorithmic Learning Theory},
+  pages = 	 {1234--1254},
+  year = 	 {2024},
+  editor = 	 {Vernade, Claire and Hsu, Daniel},
+  volume = 	 {237},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {25--28 Feb},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v237/zuo24a/zuo24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v237/zuo24a.html},
+  abstract = 	 {I study the problem of learning a Lipschitz function with corrupted binary signals. The learner tries to learn a $L$-Lipschitz function $f: [0,1]^d \rightarrow [0, L]$ that the adversary chooses. There is a total of $T$ rounds. In each round $t$, the adversary selects a context vector $x_t$ in the input space, and the learner makes a guess to the true function value $f(x_t)$ and receives a binary signal indicating whether the guess is high or low. In a total of $C$ rounds, the signal may be corrupted, though the value of $C$ is unknown to the learner. The learnerâs goal is to incur a small cumulative loss. This work introduces the new algorithmic technique agnostic checking as well as new analysis techniques. I design algorithms which: for the absolute loss, the learner achieves regret $L\cdot O(C\log T)$ when $d = 1$ and $L\cdot O_d(C\log T + T^{(d-1)/d})$ when $d > 1$; for the pricing loss, the learner achieves regret $L\cdot \widetilde{O} (T^{d/(d+1)} + C\cdot T^{1/(d+1)})$. }
+}
+
+
+

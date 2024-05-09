@@ -1,0 +1,148 @@
+
+- title: 'PreDefense: Defending Underserved AI Students and Researchers from Predatory Conferences'
+  abstract: 'Mentorship in the AI community is crucial to maintaining and increasing diversity, especially with respect to fostering the academic growth of underserved students. While the research process itself is important, there is not sufficient emphasis on the submission, presentation, and publication process, which is a cause for concern given the meteoric rise of predatory scientific conferences, which are based on profit only and have little to no peer review. These conferences are a direct threat to integrity in science by promoting work with little to no scientific merit. However, they also threaten diversity in the AI community by marginalizing underrepresented groups away from legitimate conferences due to convenience and targeting mechanisms like e-mail invitations. Due to the importance of conference presentation in AI research, this very specific problem must be addressed through direct mentorship. In this work, we propose PreDefense, a mentorship program that seeks to guide underrepresented students through the scientific conference and workshop process, with an emphasis on choosing legitimate venues that align with the specific work that the students are focused in and preparing students of all backgrounds for future successful, integrous AI research careers.'
+  volume: 142
+  URL: https://proceedings.mlr.press/v142/chen21a.html
+  PDF: https://proceedings.mlr.press/v142/chen21a/chen21a.pdf
+  edit: https://github.com/mlresearch//v142/edit/gh-pages/_posts/2021-09-16-chen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Workshop on Diversity in Artificial Intelligence (AIDBEI)'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas Y.
+    family: Chen
+  editor: 
+  - given: Deepti
+    family: Lamba
+  - given: William H.
+    family: Hsu
+  page: 1-6
+  id: chen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 9
+      - 16
+  firstpage: 1
+  lastpage: 6
+  published: 2021-09-16 00:00:00 +0000
+- title: 'Waking up to Marginalization: Public Value Failures in Artificial Intelligence and Data Science'
+  abstract: 'Data science education is increasingly becoming an integral part of many educational structures, both informal and formal. Much of the attention has been on the application of AI principles and techniques, especially machine learning, natural language processing and predictive analytics. While AI is only one phase in the data science ecosystem, we must embrace a fuller range of job roles that help manage AI algorithms and systems — from the AI innovators and architects (in CS, Math and Statistics) to the AI technicians and specialists (in CS, IT and IS). Also, it’s important that we better understand the current state of the low participation and representation of minoritized groups that further stifles the accessibility and inclusion efforts. However, how we learn and what we learn is highly dependent on who we are as learners. In this paper, we examine demographic disparities by race/ethnicity and gender within the information systems educational infrastructure from an evaluative perspective. More specifically, we adopt intersectional methods and apply the theory of public value failure to identify learning gaps in the fast-growing field of data science. National datasets of Master’s and Doctoral graduate students in IS, CS, Math and Statistics are used to create an “institutional parity score” which calculates field-specific representation by race/ethnicity and gender in data science related fields. We conclude by showcasing bias creep including the situational exclusion of individuals from access to the broader information economy, be it access to technologies and data or access to participate in the data workforce or data enabled-economic activity. Policy recommendations are suggested to curb and reduce this marginalization within information systems and related disciplines.'
+  volume: 142
+  URL: https://proceedings.mlr.press/v142/monroe-white21a.html
+  PDF: https://proceedings.mlr.press/v142/monroe-white21a/monroe-white21a.pdf
+  edit: https://github.com/mlresearch//v142/edit/gh-pages/_posts/2021-09-16-monroe-white21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Workshop on Diversity in Artificial Intelligence (AIDBEI)'
+  publisher: 'PMLR'
+  author: 
+  - given: Thema
+    family: Monroe-White
+  - given: Brandeis
+    family: Marshall
+  - given: Hugo
+    family: Contreras-Palacios
+  editor: 
+  - given: Deepti
+    family: Lamba
+  - given: William H.
+    family: Hsu
+  page: 7-21
+  id: monroe-white21a
+  issued:
+    date-parts: 
+      - 2021
+      - 9
+      - 16
+  firstpage: 7
+  lastpage: 21
+  published: 2021-09-16 00:00:00 +0000
+- title: 'Characterizing Intersectional Group Fairness with Worst-Case Comparisons'
+  abstract: 'Machine Learning or Artificial Intelligence algorithms have gained considerable scrutiny in recent times owing to their propensity towards imitating and amplifying existing prejudices in society. This has led to a niche but growing body of work that identifies and attempts to fix these biases. A first step towards making these algorithms more fair is designing metrics that measure unfairness. Most existing work in this field deals with either a binary view of fairness (protected vs. unprotected groups) or politically defined categories (race or gender). Such categorization misses the important nuance of intersectionality - biases can often be amplified in subgroups that combine membership from different categories, especially if such a subgroup is particularly underrepresented in historical platforms of opportunity. In this paper, we discuss why fairness metrics need to be looked at under the lens of intersectionality, identify existing work in intersectional fairness, suggest a simple worst case comparison method to expand the definitions of existing group fairness metrics to incorporate intersectionality, and finally conclude with the social, legal and political framework to handle intersectional fairness in the modern context.'
+  volume: 142
+  URL: https://proceedings.mlr.press/v142/ghosh21a.html
+  PDF: https://proceedings.mlr.press/v142/ghosh21a/ghosh21a.pdf
+  edit: https://github.com/mlresearch//v142/edit/gh-pages/_posts/2021-09-16-ghosh21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Workshop on Diversity in Artificial Intelligence (AIDBEI)'
+  publisher: 'PMLR'
+  author: 
+  - given: Avijit
+    family: Ghosh
+  - given: Lea
+    family: Genuit
+  - given: Mary
+    family: Reagan
+  editor: 
+  - given: Deepti
+    family: Lamba
+  - given: William H.
+    family: Hsu
+  page: 22-34
+  id: ghosh21a
+  issued:
+    date-parts: 
+      - 2021
+      - 9
+      - 16
+  firstpage: 22
+  lastpage: 34
+  published: 2021-09-16 00:00:00 +0000
+- title: 'Working Set Selection to Accelerate SVR Training'
+  abstract: 'With the increasing demand for robust and resilient machine learning models, support vector machines (SVMs) are regaining attention. One of the significant problems in SVMs is finding the support vectors as soon as possible during the optimization process. This paper describes a methodology to accelerate the training by making certain assumptions on the data and find the support vectors near the convex hull of every class group. Results suggest that the methodology can provide an advantage over traditional training for larger datasets with specific statistical properties. We focus on the particular case of support vector machines for regression.'
+  volume: 142
+  URL: https://proceedings.mlr.press/v142/rivas21a.html
+  PDF: https://proceedings.mlr.press/v142/rivas21a/rivas21a.pdf
+  edit: https://github.com/mlresearch//v142/edit/gh-pages/_posts/2021-09-16-rivas21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Workshop on Diversity in Artificial Intelligence (AIDBEI)'
+  publisher: 'PMLR'
+  author: 
+  - given: Pablo
+    family: Rivas
+  editor: 
+  - given: Deepti
+    family: Lamba
+  - given: William H.
+    family: Hsu
+  page: 35-38
+  id: rivas21a
+  issued:
+    date-parts: 
+      - 2021
+      - 9
+      - 16
+  firstpage: 35
+  lastpage: 38
+  published: 2021-09-16 00:00:00 +0000
+- title: 'Measuring Diversity of Artificial Intelligence Conferences'
+  abstract: 'The lack of diversity of the Artificial Intelligence (AI) field is nowadays a concern, and several initiatives such as funding schemes and mentoring programs have been designed to overcome it. However, there is no indication on how these initiatives actually impact AI diversity in the short and long term. This work studies the concept of diversity in this particular context and proposes a small set of diversity indicators (i.e. indexes) of AI scientific events. These indicators are designed to quantify the diversity of the AI field and monitor its evolution. We consider diversity in terms of gender, geographical location and business (understood as the presence of academia versus industry). We compute these indicators for the different communities of a conference: authors, keynote speakers and organizing committee. From these components we compute a summarized diversity indicator for each AI event. We evaluate the proposed indexes for a set of recent major AI conferences and we discuss their values and limitations.'
+  volume: 142
+  URL: https://proceedings.mlr.press/v142/freire21a.html
+  PDF: https://proceedings.mlr.press/v142/freire21a/freire21a.pdf
+  edit: https://github.com/mlresearch//v142/edit/gh-pages/_posts/2021-09-16-freire21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 2nd Workshop on Diversity in Artificial Intelligence (AIDBEI)'
+  publisher: 'PMLR'
+  author: 
+  - given: Ana
+    family: Freire
+  - given: Lorenzo
+    family: Porcaro
+  - given: Emilia
+    family: Gómez
+  editor: 
+  - given: Deepti
+    family: Lamba
+  - given: William H.
+    family: Hsu
+  page: 39-50
+  id: freire21a
+  issued:
+    date-parts: 
+      - 2021
+      - 9
+      - 16
+  firstpage: 39
+  lastpage: 50
+  published: 2021-09-16 00:00:00 +0000

@@ -1,0 +1,1795 @@
+
+- title: 'ISIPTA 2019: Preface'
+  abstract: 'The ISIPTA meetings are the primary forum for presenting and discussing advances in imprecise probabilities research. They are organized once every two years by SIPTA, the Society for Imprecise Probabilities: Theories and Applications. The first meeting was held in Ghent in 1999. It was followed by meetings in Ithaca, Lugano, Pittsburgh, Prague, Durham, Innsbruck, Compiègne, Pescara and Lugano. After twenty years, we return to Ghent for the <em>11th International Symposium on Imprecise Probabilities: Theories and Applications</em>. This anniversary edition will be held from Wednesday 3 to Saturday 6 July 2019.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/de-bock19a.html
+  PDF: http://proceedings.mlr.press/v103/de-bock19a/de-bock19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-de-bock19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 1-1
+  id: de-bock19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 1
+  lastpage: 1
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Natural Selection with Objective Imprecise Probability'
+  abstract: 'I argue that natural selection sometimes depends on objective imprecise probabilities. I give a general argument for the existence of objective imprecise probabilities. I then argue that natural selection, whether involving objective imprecise probabilities or not, would give rise to organisms whose behavior was imprecisely probabilistic, and that this would mean that other organisms’ environments were imprecisely probabilistic. Since natural selection can be influenced by the environment, it therefore sometimes depends on objective imprecise probability. I explain why the absence of reports of objective imprecise probability in evolution is nevertheless unsurprising, and provide illustrations of ways to model natural selection with objective imprecise probabilities.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/abrams19a.html
+  PDF: http://proceedings.mlr.press/v103/abrams19a/abrams19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-abrams19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marshall
+    family: Abrams
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 2-13
+  id: abrams19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 2
+  lastpage: 13
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Credal Sentential Decision Diagrams'
+  abstract: '<em>Probabilistic sentential decision diagrams</em> are logical circuits annotated by probability mass functions on the disjunctive gates. This allows for a compact representation of joint mass functions consistent with logical constraints. We propose a <em>credal</em> generalisation of the probabilistic quantification of these models, that allows to replace the local probabilities with (credal) sets of mass functions specified by linear constraints. This induces a joint credal set, that sharply assigns probability zero to states inconsistent with the constraints. These models can support cautious estimates of the local parameters when only small amounts of training data are available. Algorithmic strategies to compute lower and upper bounds of marginal and conditional queries are provided. The task can be achieved in linear time with respect to the diagram size for marginal queries. The same can be done for conditional queries if the topology of the circuit is singly connected.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/antonucci19a.html
+  PDF: http://proceedings.mlr.press/v103/antonucci19a/antonucci19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-antonucci19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Alessandro
+    family: Facchini
+  - given: Lilith
+    family: Mattei
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 14-22
+  id: antonucci19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 14
+  lastpage: 22
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Bernstein’s Socks, Polynomial-Time Provable Coherence and Entanglement'
+  abstract: 'We recently introduced a bounded rationality approach for the theory of desirable gambles. It is based on the unique requirement that being nonnegative for a gamble has to be defined so that it can be provable in polynomial time. In this paper we continue to investigate properties of this class of models. In particular we verify that the space of Bernstein polynomials in which nonnegativity is specified by the Krivine-Vasilescu certificate is yet another instance of this theory. As a consequence, we show how it is possible to construct in it a thought experiment uncovering entanglement with classical (hence non quantum) coins.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/benavoli19a.html
+  PDF: http://proceedings.mlr.press/v103/benavoli19a/benavoli19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-benavoli19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessio
+    family: Benavoli
+  - given: Alessandro
+    family: Facchini
+  - given: Marco
+    family: Zaffalon
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 23-31
+  id: benavoli19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 23
+  lastpage: 31
+  published: 2019-06-29 00:00:00 +0000
+- title: 'On Minimum Elementary-Triplet Bases for Independence Relations'
+  abstract: 'A semi-graphoid independence relation is a set of independence statements, called triplets, and is typically exponentially large in the number of variables involved. For concise representation of such a relation, a subset of its triplets is listed in a so-called basis; its other triplets are defined implicitly through a set of axioms. An elementary-triplet basis for this purpose consists of all elementary triplets of a relation. Such a basis however, may include redundant information. In this paper we provide two lower bounds on the size of an elementary-triplet basis in general and an upper bound on the size of a minimum elementary-triplet basis. We further specify the construction of an elementary-triplet basis of minimum size for restricted relations.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/bolt19a.html
+  PDF: http://proceedings.mlr.press/v103/bolt19a/bolt19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-bolt19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Janneke
+    family: Bolt
+  - given: Linda C.
+    prefix: van der
+    family: Gaag
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 32-37
+  id: bolt19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 32
+  lastpage: 37
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Aggregating Belief Models'
+  abstract: 'This paper has two goals. The first goal is to say something about how one might combine different agents’ imprecise probabilities to generate an aggregate imprecise probability. The second goal is to champion the very general theory of “belief models” (de Cooman “Belief models: an order theoretic investigation” Annals of Mathematics and AI 2005) which, I think, deserves more attention. The belief models framework is interesting partly because many other formal models of reasoning appear as special cases of belief models (for example, propositional logic, ranking functions, imprecise probability).'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/bradley19a.html
+  PDF: http://proceedings.mlr.press/v103/bradley19a/bradley19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-bradley19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Seamus
+    family: Bradley
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 38-48
+  id: bradley19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 38
+  lastpage: 48
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Possibility Measures for Valid Statistical Inference Based on Censored Data'
+  abstract: 'Inferential challenges that arise when data are corrupted by censoring have been extensively studied under the classical frameworks. In this paper, we provide an alternative approach based on a generalized inferential model whose output is a data-dependent possibility distribution. This construction is driven by an association between the censored data, parameter of interest, and unobserved auxiliary variable that takes the form of a relative likelihood. The possibility distribution then emerges from the introduction of a nested random set designed to predict that unobserved auxiliary variable and is calibrated to achieve certain frequentist guarantees. The performance of the proposed method is investigated using real and simulated data.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/cahoon19a.html
+  PDF: http://proceedings.mlr.press/v103/cahoon19a/cahoon19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-cahoon19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Joyce
+    family: Cahoon
+  - given: Ryan
+    family: Martin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 49-58
+  id: cahoon19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 49
+  lastpage: 58
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Imprecise Gaussian Discriminant Classification'
+  abstract: 'Gaussian discriminant analysis is a popular classification model, that in the precise case can produce unreliable predictions in case of high uncertainty. While imprecise probability theory offer a nice theoretical framework to solve this issue, it has not been yet applied to Gaussian discriminant analysis. This work remedies this, by proposing a new Gaussian discriminant analysis based on robust Bayesian analysis and near-ignorance priors. The model delivers <em>cautious</em> predictions, in form of set-valued class, in case of limited or imperfect available information. Experiments show that including an imprecise component in the Gaussian discriminant analysis produces reasonably cautious predictions, in the sense that the number of set-valued predictions is not too high, and that those predictions correspond to hard-to-classify instances, that is instances for which the precise classifier accuracy drops.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/carranza-alarcon19a.html
+  PDF: http://proceedings.mlr.press/v103/carranza-alarcon19a/carranza-alarcon19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-carranza-alarcon19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Yonatan Carlos
+    family: Carranza Alarcon
+  - given: Sébastien
+    family: Destercke
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 59-67
+  id: carranza-alarcon19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 59
+  lastpage: 67
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Incorporating Expert Opinion in an Inferential Model while Maintaining Validity'
+  abstract: 'The incorporation of partial prior information in statistical inference problems still lacks a definitive answer. The two most popular statistical schools of thought deal with partial priors in different ways: they either get completely ignored (frequentist approach) or they are transformed into a “complete” prior information, i.e., a probability distribution (Bayesian approach). Acknowledging the importance of (i) taking into account all sources of relevant information in a given problem and (ii) controlling error probabilities, the present paper provides insights on how to incorporate partial priors “as they are”. This incorporation is guided by desired properties, such as that correct partial priors should result in more efficient inferences and, most importantly, that the inferences are always calibrated, independent of the truthfulness of the partial prior.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/cella19a.html
+  PDF: http://proceedings.mlr.press/v103/cella19a/cella19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-cella19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Leonardo
+    family: Cella
+  - given: Ryan
+    family: Martin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 68-77
+  id: cella19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 68
+  lastpage: 77
+  published: 2019-06-29 00:00:00 +0000
+- title: 'An Experimental Study of Prior Dependence in Bayesian Network Structure Learning'
+  abstract: 'The Bayesian Dirichlet equivalent uniform (BDeu) function is a popular score to evaluate the goodness of a Bayesian network structure given complete categorical data. Despite its interesting properties, such as likelihood equivalence, it does require a prior expressed via a user-defined parameter known as Equivalent Sample Size (ESS), which significantly affects the final structure. We study conditions to obtain prior independence in BDeu-based structure learning. We show in experiments that the amount of data needed to render the learning robust to different ESS values is prohibitively large, even in big data times.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/correia19a.html
+  PDF: http://proceedings.mlr.press/v103/correia19a/correia19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-correia19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alvaro Henrique Chaim
+    family: Correia
+  - given: Cassio P.
+    prefix: de
+    family: Campos
+  - given: Linda C.
+    prefix: van der
+    family: Gaag
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 78-81
+  id: correia19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 78
+  lastpage: 81
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Extending Nearly-Linear Models'
+  abstract: 'Nearly-Linear Models are a family of neighbourhood models, obtaining lower/upper probabilities from a given probability by a linear affine transformation with barriers. They include a number of known models as special cases, among them the Pari-Mutuel Model, the $\varepsilon$-contamination model, the Total Variation Model and the vacuous lower/upper probabilities. We classified Nearly-Linear models, investigating their consistency properties, in previous work. Here we focus on how to extend those Nearly-Linear Models that are coherent or at least avoid sure loss. We derive formulae for their natural extensions, interpret a specific model as a natural extension itself of a certain class of lower probabilities, and supply a risk measurement interpretation for one of the natural extensions we compute.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/corsato19a.html
+  PDF: http://proceedings.mlr.press/v103/corsato19a/corsato19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-corsato19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Chiara
+    family: Corsato
+  - given: Renato
+    family: Pelessoni
+  - given: Paolo
+    family: Vicig
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 82-90
+  id: corsato19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 82
+  lastpage: 90
+  published: 2019-06-29 00:00:00 +0000
+- title: 'The Joy of Probabilistic Answer Set Programming'
+  abstract: 'Probabilistic answer set programming (PASP) combines rules, facts, and independent probabilistic facts. Often one restricts such programs so that every query yields a sharp probability value. The purpose of this paper is to argue that a very useful modeling language is obtained by adopting a particular credal semantics for PASP, where one associates with each consistent program a credal set. We examine the basic properties of PASP and present an algorithm to compute (upper) probabilities given a program.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/cozman19a.html
+  PDF: http://proceedings.mlr.press/v103/cozman19a/cozman19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-cozman19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Fabio
+    family: Cozman
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 91-101
+  id: cozman19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 91
+  lastpage: 101
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Graphoid Properties of Variants of Epistemic Independence Based on Regular Conditioning'
+  abstract: 'Graphoid properties attempt to capture the most important features of abstract “independence”. We examine which semi-graphoid properties are satisfied by various concepts of independence for credal sets; we focus on variants of epistemic, confirmational, and type-5 independence that are based on regular conditioning.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/cozman19b.html
+  PDF: http://proceedings.mlr.press/v103/cozman19b/cozman19b.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-cozman19b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Fabio
+    family: Cozman
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 102-110
+  id: cozman19b
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 102
+  lastpage: 110
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Imprecise Probabilities as a Semantics for Intuitive Probabilistic Reasoning'
+  abstract: 'I prove a connection between the logical framework for intuitive probabilistic reasoning (IPR) introduced by Crane (2017) and sets of probabilities. More specifically, this connection provides a straightforward interpretation of imprecise probabilities as subjective credal states, giving a formal semantics for Crane’s IPR proposal.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/crane19a.html
+  PDF: http://proceedings.mlr.press/v103/crane19a/crane19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-crane19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Harry
+    family: Crane
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 111-120
+  id: crane19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 111
+  lastpage: 120
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Decideit 3.0: Software for Second-Order Based Decision Evaluations'
+  abstract: 'In this paper, we discuss representation and evaluation in the DecideIT 3.0 decision tool which is based on a belief mass interpretation of the background information. The decision components are imprecise in terms of intervals and qualitative estimates and we emphasise how multiplicative and additive aggregations influence the resulting belief distribution over the expected values.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/danielson19a.html
+  PDF: http://proceedings.mlr.press/v103/danielson19a/danielson19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-danielson19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Mats
+    family: Danielson
+  - given: Love
+    family: Ekenberg
+  - given: Aron
+    family: Larsson
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 121-124
+  id: danielson19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 121
+  lastpage: 124
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Interpreting, Axiomatising and Representing Coherent Choice Functions in Terms of Desirability'
+  abstract: 'Choice functions constitute a simple, direct and very general mathematical framework for modelling choice under uncertainty. In particular, they are able to represent the set-valued choices that appear in imprecise-probabilistic decision making. We provide these choice functions with a clear interpretation in terms of desirability, use this interpretation to derive a set of basic coherence axioms, and show that this notion of coherence leads to a representation in terms of sets of strict preference orders. By imposing additional properties such as totality, the mixing property and Archimedeanity, we obtain representation in terms of sets of strict total orders, lexicographic probability systems, coherent lower previsions or linear previsions.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/de-bock19b.html
+  PDF: http://proceedings.mlr.press/v103/de-bock19b/de-bock19b.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-de-bock19b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jasper
+    family: De Bock
+  - given: Gert
+    family: de Cooman
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 125-134
+  id: de-bock19b
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 125
+  lastpage: 134
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Monte Carlo Estimation for Imprecise Probabilities: Basic Properties'
+  abstract: 'We describe Monte Carlo methods for estimating lower envelopes of expectations of real random variables. We prove that the estimation bias is negative and that its absolute value shrinks with increasing sample size. We discuss fairly practical techniques for proving strong consistency of the estimators and use these to prove the consistency of an example in the literature. We also provide an example where there is no consistency.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/decadt19a.html
+  PDF: http://proceedings.mlr.press/v103/decadt19a/decadt19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-decadt19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arne
+    family: Decadt
+  - given: Gert
+    family: de Cooman
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 135-144
+  id: decadt19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 135
+  lastpage: 144
+  published: 2019-06-29 00:00:00 +0000
+- title: 'An Axiomatic Utility Theory for Dempster-Shafer Belief Functions'
+  abstract: 'The main goal of this paper is to describe an axiomatic utility theory for Dempster-Shafer belief function lotteries. The axiomatic framework used is analogous to von Neumann-Morgenstern’s utility theory for probabilistic lotteries as described by Luce and Raiffa. Unlike the probabilistic case, our axiomatic framework leads to interval-valued utilities, and therefore, to a partial (incomplete) preference order on the set of all belief function lotteries. If the belief function reference lotteries we use are Bayesian belief functions, then our representation theorem coincides with Jaffray’s representation theorem for his linear utility theory for belief functions. We illustrate our framework using some examples discussed in the literature. Finally, we compare our decision theory with those proposed by Jaffray and Smets.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/denoeux19a.html
+  PDF: http://proceedings.mlr.press/v103/denoeux19a/denoeux19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-denoeux19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thierry
+    family: Denoeux
+  - given: Prakash P.
+    family: Shenoy
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 145-155
+  id: denoeux19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 145
+  lastpage: 155
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Robustness in Sum-Product Networks with Continuous and Categorical Data'
+  abstract: 'Sum-product networks are a popular family of probabilistic graphical models for which marginal inference can be performed in polynomial time. After learning sum-product networks from scarce data, small variations of parameters could lead to different conclusions. We adapt the robustness measure created for categorical credal sum-product networks to domains with both continuous and categorical variables. We apply this approach to a real-world dataset of online purchases where the goal is to identify fraudulent cases. We empirically show that such credal models can better discriminate between easy and hard instances than simply using the probability of the most probable class.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/de-wit19a.html
+  PDF: http://proceedings.mlr.press/v103/de-wit19a/de-wit19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-de-wit19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Rob
+    family: de Wit
+  - given: Cassio P.
+    family: de Campos
+  - given: Diarmaid
+    family: Conaty
+  - given: Jesus Martinez
+    family: del Rincon
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 156-158
+  id: de-wit19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 156
+  lastpage: 158
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Coherent Upper Conditional Previsions Defined by Hausdorff Outer Measures for  Unbounded Random Variables'
+  abstract: 'A model of upper conditional previsions for bounded and unbounded random variables with finite Choquet integral with respect to the Hausdorff outer and inner measures is proposed in a metric space. They are defined by the Choquet integral with respect to Hausdorff outer measures if the conditioning event has positive and finite Hausdorff outer measure in its dimension, otherwise, when the conditioning event has Hausdorff outer measure equal to zero or infinity in its Hausdorff dimension, they are defined by a 0-1 valued finitely, but not countably, additive probability.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/doria19a.html
+  PDF: http://proceedings.mlr.press/v103/doria19a/doria19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-doria19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Serena
+    family: Doria
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 159-166
+  id: doria19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 159
+  lastpage: 166
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Robust Bayes Factor for Independent Two-Sample Comparisons under Imprecise Prior Information'
+  abstract: 'This paper proposes the robust Bayes Factor as a direct generalization of the conventional Bayes Factor for a special case of independent two-sample comparisons. Such comparisons are of great importance in psychological research, and more generally wherever the scientific endeavour is to ascertain a potential group effect. The conventional Bayes Factor as the ratio of the marginal likelihoods under two considered hypotheses demands for a precise, subjective specification of the prior distribution for the parameter of interest. Thus, it lacks the possibility of incorporating prior knowledge that is only available partially. Drawing on the theory of Imprecise Probabilities, the <em>robust</em> Bayes Factor is presented in view of lifting the restrictions on the specification of the prior distribution as being precise. In practice, the robust Bayes Factor approach enables an analyst to specify hyperparameter <em>intervals</em>, whose lengths correspond to the degree of subjective prior uncertainty. Based thereon, a set of (infinitely) many subjective prior distributions is established to substitute one precise prior distribution. Finally, the robust Bayes Factor is defined as an interval, bounded by the minimal and the maximal resultant Bayes Factor values. Latter are obtained by optimizing the conventional Bayes Factor over the predefined set of prior distributions. This explicit incorporation of incomplete prior knowledge increases the feasibility of applying a Bayesian approach to hypothesis comparisons in scientific practice. It reduces error-proneness, enables for an inclusion of multiple perspectives and encourages cautious, more realistic conclusions in hypothesis comparisons.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/ebner19a.html
+  PDF: http://proceedings.mlr.press/v103/ebner19a/ebner19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-ebner19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Luisa
+    family: Ebner
+  - given: Patrick Michael
+    family: Schwaferts
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 167-174
+  id: ebner19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 167
+  lastpage: 174
+  published: 2019-06-29 00:00:00 +0000
+- title: 'First Steps Towards an Imprecise Poisson Process'
+  abstract: 'The Poisson process is the most elementary continuous-time stochastic process that models a stream of repeating events. It is uniquely characterised by a single parameter called the rate. Instead of a single value for this rate, we here consider a rate interval and let it characterise two nested sets of stochastic processes. We call these two sets of stochastic process imprecise Poisson processes, explain why this is justified, and study the corresponding lower and upper (conditional) expectations. Besides a general theoretical framework, we also provide practical methods to compute lower and upper (conditional) expectations of functions that depend on the number of events at a single point in time.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/erreygers19a.html
+  PDF: http://proceedings.mlr.press/v103/erreygers19a/erreygers19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-erreygers19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Erreygers
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 175-184
+  id: erreygers19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 175
+  lastpage: 184
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Improving the Convergence of Iterative Importance Sampling for Computing Upper and Lower Expectations'
+  abstract: 'The aim of this paper is to present methods for improving the convergence of an iterative importance sampling algorithm for calculating lower and upper expectations with respect to sets of probability distributions. Our focus here is on the reuse and the combination of results obtained in previous iteration steps of the algorithm.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/fetz19a.html
+  PDF: http://proceedings.mlr.press/v103/fetz19a/fetz19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-fetz19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Fetz
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 185-193
+  id: fetz19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 185
+  lastpage: 193
+  published: 2019-06-29 00:00:00 +0000
+- title: 'SIPTA-Community Based on Paper Contributions – Descriptive Statistics and Network Analysis'
+  abstract: 'The ISIPTA electronic proceedings provide an insight into the SIPTA community. For the anniversary edition of ISIPTA they are analyzed descriptively and in terms of a collaboration network. Different aspects, including paper keywords and geographic location are also investigated. A descriptive analysis of papers reveals how the type of papers changed over the years, including the hot topics by means of an analysis of the keywords of the papers. The network analyses show that there is a core of authors, contributing to ISIPTAs since the beginning, who are now key figures within the collaboration network, attracting new researchers who become key figures themselves.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/fink19a.html
+  PDF: http://proceedings.mlr.press/v103/fink19a/fink19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-fink19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paul
+    family: Fink
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 194-202
+  id: fink19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 194
+  lastpage: 202
+  published: 2019-06-29 00:00:00 +0000
+- title: 'On the Usefulness of Imprecise Bayesianism in Chemical Kinetics'
+  abstract: 'Bayesian methods are growing ever more popular in chemical kinetics. The reasons for this and general challenges related to kinetic parameter estimation are shortly reviewed. Most authors content themselves with using one single (mostly uniform) prior distribution. The goal of this paper is to go into some serious issues this raises. The problems of confusing knowledge and ignorance and of reparametrisation are examined. The legitimacy of a probabilistic Ockham’s razor is called into question. A synthetic example involving two reaction models was used to illustrate how merging the parameter space volume with the model accuracy into a single number might be unwise. Robust Bayesian analysis appears to be a simple and straightforward way to avoid the problems mentioned throughout this article.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/fischer19a.html
+  PDF: http://proceedings.mlr.press/v103/fischer19a/fischer19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-fischer19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marc
+    family: Fischer
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 203-215
+  id: fischer19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 203
+  lastpage: 215
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Constructing Simulation Data with Dependency Structure for Unreliable Single-Cell RNA-Sequencing Data Using Copulas'
+  abstract: 'Simulation studies are becoming increasingly important for the evaluation of complex statistical methods. They tend to represent idealized situations. With our framework, which incorporates dependency structures using copulas, we propose multidimensional simulation data with marginals based on different degrees of heterogeneity, which are built on different ranges of distribution parameters of a zero-inflated negative binomial distribution. The obtained higher and lower variation of the simulation data allows to create lower and upper distribution functions lead to simulation data containing extreme points for each observation. Our approach aims at being closer to reality by considering data distortion. It is an approach of examining classification quality in case of measurement distortions in gene expression data and might propose specific instructions of calibrating measuring instruments.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/fuetterer19a.html
+  PDF: http://proceedings.mlr.press/v103/fuetterer19a/fuetterer19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-fuetterer19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Cornelia
+    family: Fuetterer
+  - given: Georg
+    family: Schollmeyer
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 216-224
+  id: fuetterer19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 216
+  lastpage: 224
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Simultaneous Inference under the Vacuous Orientation Assumption'
+  abstract: 'I propose a novel approach to simultaneous inference that alleviates the need to specify a correlational structure among marginal errors. The <em>vacuous orientation</em> assumption retains what the normal i.i.d. assumption implies about the distribution of error configuration, but relaxes the implication that the error orientation is isotropic. When a large number of highly dependent hypotheses are tested simultaneously, the proposed model produces calibrated posterior inference by leveraging the logical relationship among them. This stands in contrast to the conservative performance of the Bonferroni correction, even if neither approaches makes assumptions about error dependence. The proposed model employs the Dempster-Shafer Extended Calculus of Probability, and delivers posterior inference in the form of stochastic three-valued logic.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/gong19a.html
+  PDF: http://proceedings.mlr.press/v103/gong19a/gong19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-gong19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ruobin
+    family: Gong
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 225-234
+  id: gong19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 225
+  lastpage: 234
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Confidence in Belief, Weight of Evidence and Uncertainty Reporting'
+  abstract: 'One way of putting a popular objection to the Bayesian account of belief and decision is that it does not allow a role for something akin to the Keynesian concept of ‘weight of evidence’ in choice. This paper argues that a recently-defended approach, which refines the credal-set representation of beliefs to give pride of place to an agent’s confidence in her beliefs, can do so fruitfully. Motivated by the use of confidence by the IPCC and US Defense Intelligence Agency in their assessments of uncertainty, the paper then considers the consequences of the proposed approach for uncertainty reporting. On the one hand, when connected to decision, the model affords a clear separation of the belief and value factors: an important quality in policy making contexts where these are the responsibility of different actors. On the other hand, the issue of inter-agent confidence calibration is discussed, and a calibration scale is proposed and defended, on the basis of weight-of-evidence version of David Lewis’s Principal Principle.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/hill19a.html
+  PDF: http://proceedings.mlr.press/v103/hill19a/hill19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-hill19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Brian
+    family: Hill
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 235-245
+  id: hill19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 235
+  lastpage: 245
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Embedding Probabilities, Utilities and Decisions in a Generalization of Abstract Dialectical Frameworks'
+  abstract: 'Life is made up of a long list of decisions. In each of them there exists quite a number of choices and most of the decisions are effected by uncertainties and preferences, from choosing a healthy lunch and nice clothes to choosing a profession and a field of study. Uncertainties can be modeled by probabilities and preferences by utilities. A rational decision maker prefers to make a decision with the least regret or the most satisfaction. The principle of maximum expected utility can be helpful in this issue. Expected utility deals with problems in which agents make a decision under conditions in which probabilities of states play a role in the choice, as well as the utilities of outcomes. Argumentation formalisms could be an option to model these problems and to pick one or several alternatives. In this paper, a new argument-based framework, numerical abstract dialectical frameworks (nADFs for short), is introduced to do so. First, the semantics of this formalism, which is a generalization of abstract dialectical frameworks (ADFs for short), based on many-valued interpretations are introduced, including preferred, grounded, complete and model-based semantics. Second, it is shown how nADFs are expressive enough to formalize standard decision problems. It is shown that the different types of semantics of an nADF that is associated with a decision problem all coincide and have the standard meaning. In this way, it is shown how the nADF semantics can be used to choose the best set of decisions.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/keshavarzi-zafarghandi19a.html
+  PDF: http://proceedings.mlr.press/v103/keshavarzi-zafarghandi19a/keshavarzi-zafarghandi19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-keshavarzi-zafarghandi19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Atefeh
+    family: Keshavarzi Zafarghandi
+  - given: Bart
+    family: Verheij
+  - given: Rineke
+    family: Verbrugge
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 246-255
+  id: keshavarzi-zafarghandi19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 246
+  lastpage: 255
+  published: 2019-06-29 00:00:00 +0000
+- title: 'IP Scoring Rules: Foundations and Applications'
+  abstract: 'The mathematical foundations of imprecise probability theory (IP) have been in place for 25 years, and IP has proved successful in practice. But IP methods lack rigorous accuracy-centered, philosophical justifications. Traditional Bayesian methods can be justified using epistemic scoring rules, which measure the accuracy of the estimates that they produce. But there has been little work extending these justifications to the IP framework. This paper makes plea for the IP community to embrace this research programme. The plea comes in three parts. Firstly, I outline some initial work developing scoring rules for imprecise probabilities — IP scoring rules — and using them to shore up the philosophical foundations of IP. Secondly, I explain why a range of impossibility results for IP scoring rules should <em>not</em> dissuade the IP community from working on the foundations of IP scoring rules. Finally, I highlight one potential applications for IP scoring rules: IP aggregation.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/konek19a.html
+  PDF: http://proceedings.mlr.press/v103/konek19a/konek19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-konek19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jason
+    family: Konek
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 256-264
+  id: konek19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 256
+  lastpage: 264
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Hitting Times and Probabilities for Imprecise Markov Chains'
+  abstract: 'We consider the problem of characterising expected hitting times and hitting probabilities for imprecise Markov chains. To this end, we consider three distinct ways in which imprecise Markov chains have been defined in the literature: as sets of homogeneous Markov chains, as sets of more general stochastic processes, and as game-theoretic probability models. Our first contribution is that all these different types of imprecise Markov chains have the same lower and upper expected hitting times, and similarly the hitting probabilities are the same for these three types. Moreover, we provide a characterisation of these quantities that directly generalises a similar characterisation for precise, homogeneous Markov chains.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/krak19a.html
+  PDF: http://proceedings.mlr.press/v103/krak19a/krak19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-krak19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Krak
+  - given: Natan
+    family: T’Joens
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 265-275
+  id: krak19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 265
+  lastpage: 275
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Making Set-Valued Predictions in Evidential Classification: A Comparison of Different Approaches'
+  abstract: 'In classification, it is often preferable to assign a pattern to a set of classes when the uncertainty is too high to make a precise decision. In this paper, we consider the problem of making set-valued predictions in classification tasks, when uncertainty is described by belief functions. Two approaches are contrasted. In the first one, an act is defined as the assignment to only one class, and we define a partial preorder among acts. The set of non-dominated acts is then given as the prediction. In the second approach, an act is defined as the assignment to a set of classes, and we construct a complete preorder among acts. The two approaches are discussed and compared experimentally. A critical issue both to make decisions and to evaluate decision rules is to define the utility of set-valued prediction. To this end, we propose to model the decision maker’s attitude towards imprecision using an Ordered Weighted Average (OWA) operator, which allows us to extend the utility matrix. An experimental comparison of different decision rules is performed using UCI and artificial Gaussian data sets.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/ma19a.html
+  PDF: http://proceedings.mlr.press/v103/ma19a/ma19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-ma19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Liyao
+    family: Ma
+  - given: Thierry
+    family: Denoeux
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 276-285
+  id: ma19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 276
+  lastpage: 285
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Validity-Preservation Properties of Rules for Combining Inferential Models'
+  abstract: 'An inferential model encodes the data analyst’s degrees of belief about an unknown quantity of interest based on the observed data, posited statistical model, etc. Inferences drawn based on these degrees of belief should be reliable in a certain sense, so we require the inferential model to be <em>valid</em>. The construction of valid inferential models based on individual pieces of data is relatively straightforward, but how to combine these so that the validity property is preserved? In this paper we analyze some common combination rules with respect to this question, and we conclude that the best strategy currently available is one that combines via a certain dimension reduction step before the inferential model construction.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/martin19a.html
+  PDF: http://proceedings.mlr.press/v103/martin19a/martin19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-martin19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ryan
+    family: Martin
+  - given: Nicholas
+    family: Syring
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 286-294
+  id: martin19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 286
+  lastpage: 294
+  published: 2019-06-29 00:00:00 +0000
+- title: 'On Valid Uncertainty Quantification About a Model'
+  abstract: 'Inference on parameters within a given model is familiar, as is ranking different models for the purpose of selection. Less familiar, however, is the quantification of uncertainty about the models themselves. A Bayesian approach provides a posterior distribution for the model but it comes with no validity guarantees, and, therefore, is only suited for ranking and selection. In this paper, I will present an alternative way to view this model uncertainty problem, through the lens of a valid inferential model based on random sets and non-additive beliefs. Specifically, I will show that valid uncertainty quantification about a model is attainable within this framework in general, and highlight the benefits in a classical signal detection problem.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/martin19b.html
+  PDF: http://proceedings.mlr.press/v103/martin19b/martin19b.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-martin19b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ryan
+    family: Martin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 295-303
+  id: martin19b
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 295
+  lastpage: 303
+  published: 2019-06-29 00:00:00 +0000
+- title: 'A Unifying Frame for Neighbourhood and Distortion Models'
+  abstract: 'Neighbourhoods of precise probabilities are instrumental to perform robustness analysis, as they rely on very few parameters. Many such models, sometimes referred to as <em>distortion</em> models, have been proposed in the literature, such as the pari-mutuel model, linear vacuous mixtures or the constant odds ratio model. In this paper, we show that all of them can be represented as probability sets that are neighbourhoods defined over different (pre)-metrics, providing a unified view of such models. We also compare them in terms of a number of properties: precision, number of extreme points, n-monotonicity, … thus providing possible guidelines to pick a neighbourhood rather than another.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/miranda19a.html
+  PDF: http://proceedings.mlr.press/v103/miranda19a/miranda19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-miranda19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Enrique
+    family: Miranda
+  - given: Ignacio
+    family: Montes
+  - given: Sébastien
+    family: Destercke
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 304-313
+  id: miranda19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 304
+  lastpage: 313
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Random Set Solutions to Stochastic Wave Equations'
+  abstract: 'This paper is devoted to three topics. First, to prove a measurability theorem for multifunctions with values in non-metrizable spaces, which is required to show that solutions to stochastic wave equations with interval parameters are random sets; second, to apply the theorem to wave equations in any space dimension; and third, to compute upper and lower probabilities of the values of the solution in the case of one space dimension.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/oberguggenberger19a.html
+  PDF: http://proceedings.mlr.press/v103/oberguggenberger19a/oberguggenberger19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-oberguggenberger19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Oberguggenberger
+  - given: Lukas
+    family: Wurzer
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 314-323
+  id: oberguggenberger19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 314
+  lastpage: 323
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Dilation and Asymmetric Relevance'
+  abstract: 'A characterization result of dilation in terms of positive and negative association admits an extremal counterexample, which we present together with a minor repair of the result. Dilation may be asymmetric whereas covariation itself is symmetric. Dilation is still characterized in terms of positive and negative covariation, however, once the event to be dilated has been specified.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/pedersen19a.html
+  PDF: http://proceedings.mlr.press/v103/pedersen19a/pedersen19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-pedersen19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arthur Paul
+    family: Pedersen
+  - given: Gregory
+    family: Wheeler
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 324-326
+  id: pedersen19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 324
+  lastpage: 326
+  published: 2019-06-29 00:00:00 +0000
+- title: 'On Intercausal Interactions in Probabilistic Relational Models'
+  abstract: 'Probabilistic relational models (PRMs) extend Bayesian networks beyond propositional expressiveness by allowing the representation of multiple interacting classes. For a specific instance of sets of concrete objects per class, a ground Bayesian network is composed by replicating parts of the PRM. The interactions between the objects that are thereby induced, are not always obvious from the PRM. We demonstrate in this paper that the replicative structure of the ground network in fact constrains the space of possible probability distributions and thereby the possible patterns of intercausal interaction.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/renooij19a.html
+  PDF: http://proceedings.mlr.press/v103/renooij19a/renooij19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-renooij19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Silja
+    family: Renooij
+  - given: Linda C.
+    prefix: van der
+    family: Gaag
+  - given: Philippe
+    family: Leray
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 327-329
+  id: renooij19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 327
+  lastpage: 329
+  published: 2019-06-29 00:00:00 +0000
+- title: 'A Short Note on the Equivalence of the Ontic and the Epistemic View on Data Imprecision for the Case of Stochastic Dominance for Interval-Valued Data'
+  abstract: 'In the context of the analysis of interval-valued or set-valued data it is often emphasized that one has to carefully distinguish between an epistemic and an ontic understanding of set-valued data. However, there are cases, for which an ontic and an epistemic view do still lead to exactly the same results of the corresponding data analysis. The present paper is a short note on this fact in the context of the analysis of stochastic dominance for interval-valued data.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/schollmeyer19a.html
+  PDF: http://proceedings.mlr.press/v103/schollmeyer19a/schollmeyer19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-schollmeyer19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Georg
+    family: Schollmeyer
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 330-337
+  id: schollmeyer19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 330
+  lastpage: 337
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Imprecise Hypothesis-Based Bayesian Decision Making with Simple Hypotheses'
+  abstract: 'Applied real-world decisions are frequently guided by the outcome of hypothesis-based statistical analyses. However, most often relevant information about the phenomenon of interest is available only imprecisely, and misleading results might be obtained, in particular, by either ignoring relevant information or pretending a level of knowledge that is not given. In order to be able to include (partial) information authentically in the imprecise form it is available, this paper tries to extend the framework of hypothesis-based Bayesian decision making with simple hypotheses to be able to deal with imprecise information about the three relevant quantities: hypotheses, prior beliefs, and loss function. Although straightforward at first glance, it appears that by specifying the hypotheses imprecisely, Bayesian updating of the prior beliefs might be inconsistent. In that, this paper provides the basic mathematical formulation to further extend imprecise hypothesis-based Bayesian decision theory to more elaborate contexts, such as those involving composite imprecise hypotheses, and in addition highlights the necessity of paying particular attention to the depicted updating issues.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/schwaferts19a.html
+  PDF: http://proceedings.mlr.press/v103/schwaferts19a/schwaferts19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-schwaferts19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Patrick Michael
+    family: Schwaferts
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 338-345
+  id: schwaferts19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 338
+  lastpage: 345
+  published: 2019-06-29 00:00:00 +0000
+- title: 'A Retrospective on Isaac Levi: June 30, 1930 – December 25, 2018'
+  abstract: 'Isaac Levi’s philosophy places him squarely within the tradition of American Pragmatism: the noble legacy of Peirce, James, and Dewey, evidently influenced by his teachers and colleagues at Columbia University, amongst whom E. Nagel and S. Morgenbesser, and fellow graduate students at Columbia University, e.g., H. E. Kyburg, Jr. and F. Schick. Important for understanding Levi’s original perspective on large scale philosophical problems is the theme that decision theory is embedded in them all. Typical of his work, Levi’s contributions are grounded on significant distinctions, many of which are cast with the aid of sound decision-theory. In this retrospective I review four salient examples of his interests, spanning Levi’s work on 1) belief acceptance, 2) belief revision, 3) social philosophy, and 4) statistical inference.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/seidenfeld19a.html
+  PDF: http://proceedings.mlr.press/v103/seidenfeld19a/seidenfeld19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-seidenfeld19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Teddy
+    family: Seidenfeld
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 346-353
+  id: seidenfeld19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 346
+  lastpage: 353
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Extensions of Sets of Markov Operators Under Epistemic Irrelevance'
+  abstract: 'Sets of Markov operators can serve as generalised models for imprecise probabilities. They act on gambles as transformations preserving desirability. Often imprecise probabilistic models and also sets of operators need to be extended to larger domains. Such extensions are especially interesting when some kind of independence requirements have to be taken into account. The goal of this paper is to propose extension methods for sets of Markov operators that are consistent with the existing extension methods for imprecise probabilistic models. The main focus is on extensions satisfying epistemic irrelevance. We propose a new general approach to extending sets of desirable gambles, called <em>additive independent extension</em>, which subsumes important types of extensions, such as epistemic irrelevance and marginal extension. This approach is then extended to sets of Markov operators, so that the extensions are consistent with those of sets of desirable gambles.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/skulj19a.html
+  PDF: http://proceedings.mlr.press/v103/skulj19a/skulj19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-skulj19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Damjan
+    family: Skulj
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 354-363
+  id: skulj19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 354
+  lastpage: 363
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Imprecise Compositional Data Analysis: Alternative Statistical Methods'
+  abstract: 'This paper briefly describes statistical methods for analyzing imprecise compositional data that might be elicited from approximate measurement or from expert judgments. Two alternative approaches are discussed: Log-ratio transforms and probability-ratio transforms. The first is well-established and the second is under development by the author. The primary focus in this paper is on generalized linear models for predicting imprecise compositional data.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/smithson19a.html
+  PDF: http://proceedings.mlr.press/v103/smithson19a/smithson19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-smithson19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Smithson
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 364-366
+  id: smithson19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 364
+  lastpage: 366
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Incompletely Known Sample Spaces: Models and Human Intuitions'
+  abstract: 'This paper surveys models and human intuitions about incompletely known “sample spaces” ($\Omega$). Given that there are very few guidelines for how best to form such beliefs when $\Omega$ is incompletely known, and there is very little research on the psychology behind beliefs about $\Omega$, this survey is preliminary and brings in ideas and models from probability and statistics, biology, and psychology. Pilot experimental studies of how people estimate the cardinality of $\Omega$ when given sample information from it are presented, demonstrating that to a surprising extent their estimates correspond with those produced by normative statistical models. The paper concludes by outlining future directions for a research program on this topic.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/smithson19b.html
+  PDF: http://proceedings.mlr.press/v103/smithson19b/smithson19b.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-smithson19b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Smithson
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 367-376
+  id: smithson19b
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 367
+  lastpage: 376
+  published: 2019-06-29 00:00:00 +0000
+- title: 'In Search of a Global Belief Model for Discrete-Time Uncertain Processes'
+  abstract: 'To model discrete-time uncertain processes, we argue for the use of a global belief model in the form of an upper expectation that satisfies a number of simple and intuitive axioms. We motivate these axioms on the basis of two possible interpretations for this upper expectation: a behavioural interpretation similar to that of Walley’s, and an interpretation in terms of upper envelopes of linear expectations. Subsequently, we show that the most conservative upper expectation satisfying our axioms coincides with a particular version of the game-theoretic upper expectation introduced by Shafer and Vovk. This has two important implications. On the one hand, it guarantees that there is a unique most conservative global belief model satisfying our axioms. On the other hand, it shows that Shafer and Vovk’s model can be given an axiomatic characterisation, thereby providing an alternative motivation for adopting this model, even outside their framework.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/t-joens19a.html
+  PDF: http://proceedings.mlr.press/v103/t-joens19a/t-joens19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-t-joens19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Natan
+    family: T’Joens
+  - given: Jasper
+    family: De Bock
+  - given: Gert
+    family: de Cooman
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 377-385
+  id: t-joens19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 377
+  lastpage: 385
+  published: 2019-06-29 00:00:00 +0000
+- title: 'A Cantelli-Type Inequality for Constructing Non-Parametric P-Boxes Based on Exchangeability'
+  abstract: 'In this paper we prove a new probability inequality that can be used to construct p-boxes in a non-parametric fashion, using the sample mean and sample standard deviation instead of the true mean and true standard deviation. The inequality relies only on exchangeability and boundedness.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/troffaes19a.html
+  PDF: http://proceedings.mlr.press/v103/troffaes19a/troffaes19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-troffaes19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthias
+    family: Troffaes
+  - given: Tathagata
+    family: Basu
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 386-393
+  id: troffaes19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 386
+  lastpage: 393
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Two-State Imprecise Markov Chains for Statistical Modelling of Two-State Non-Markovian Processes'
+  abstract: 'This paper proposes a method for fitting a two-state imprecise Markov chain to time series data from a two-state non-Markovian process. Such non-Markovian processes are common in practical applications. We focus on how to fit modelling parameters based on data from a process where time to transition is not exponentially distributed, thereby violating the Markov assumption. We do so by first fitting a many-state (i.e. having more than two states) Markov chain to the data, through its associated phase-type distribution. Then, we lump the process to a two-state imprecise Markov chain. In practical applications, a two-state imprecise Markov chain might be more convenient than a many-state Markov chain, as we have closed analytic expressions for typical quantities of interest (including the lower and upper expectation of any function of the state at any point in time). A numerical example demonstrates how the entire inference process (fitting and prediction) can be done using Markov chain Monte Carlo, for a given set of prior distributions on the parameters. In particular, we numerically identify the set of posterior densities and posterior lower and upper expectations on all model parameters and predictive quantities. We compare our inferences under a range of sample sizes and model assumptions.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/troffaes19b.html
+  PDF: http://proceedings.mlr.press/v103/troffaes19b/troffaes19b.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-troffaes19b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthias
+    family: Troffaes
+  - given: Thomas
+    family: Krak
+  - given: Henna
+    family: Bains
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 394-403
+  id: troffaes19b
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 394
+  lastpage: 403
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Imprecise Extensions of Random Forests and Random Survival Forests'
+  abstract: 'Robust weighted aggregation schemes taking into account imprecision of the decision tree estimates in random forests and in random survival forests are proposed in the paper. The first scheme dealing with the random forest improves the classification problem solution. The second scheme dealing with the random survival forest improves the survival analysis task solution. The main idea underlying the proposed modifications is to introduce the tree weights which take simultaneously into account imprecision of estimations as well as aims of the classification and regression problems. The imprecision of the tree estimates is defined by means of imprecise statistical inference models and interval models. Special modifications of loss functions for the classification and regression tasks are proposed in order to simplify minimax and maximin optimization problems for computing optimal weights. Numerical examples illustrate the proposed robust models.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/utkin19a.html
+  PDF: http://proceedings.mlr.press/v103/utkin19a/utkin19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-utkin19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Lev
+    family: Utkin
+  - given: Maxim
+    family: Kovalev
+  - given: Anna
+    family: Meldo
+  - given: Frank
+    family: Coolen
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 404-413
+  id: utkin19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 404
+  lastpage: 413
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Irrelevant Natural Extension for Choice Functions'
+  abstract: 'We consider coherent choice functions under the recent axiomatisation proposed by De Bock and De Cooman that guarantees a representation in terms of binary preferences, and we discuss how to define conditioning in this framework. In a multivariate context, we propose a notion of marginalisation, and its inverse operation called weak (cylindrical) extension. We combine this with our definition of conditioning to define a notion of irrelevance, and we obtain the irrelevant natural extension in this framework: the least informative choice function that satisfies a given irrelevance assessment.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/van-camp19a.html
+  PDF: http://proceedings.mlr.press/v103/van-camp19a/van-camp19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-van-camp19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arthur
+    family: Van Camp
+  - given: Enrique
+    family: Miranda
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 414-423
+  id: van-camp19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 414
+  lastpage: 423
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Robust Causal Domain Adaptation in a Simple Diagnostic Setting'
+  abstract: 'Causal domain adaptation approaches aim to find statistical relations in a source domain, that will still hold in a target domain, using the assumption that a common causal graph underlies both domains. For many such problems, the available information is insufficient to uniquely identify the target domain distribution, and we find a set of distributions instead. We propose to use a worst-case approach, picking an action that performs well against all distributions in this set. In this paper, we study a specific diagnostic instance of this problem, and find a sufficient and necessary condition that characterizes the worst-case distribution in the target domain. We find that the Brier and logarithmic scores lead to different distributions, and consequently to different recommendations for the decision maker.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/van-ommen19a.html
+  PDF: http://proceedings.mlr.press/v103/van-ommen19a/van-ommen19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-van-ommen19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thijs
+    prefix: van
+    family: Ommen
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 424-429
+  id: van-ommen19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 424
+  lastpage: 429
+  published: 2019-06-29 00:00:00 +0000
+- title: 'Robust Analysis of MAP Inference in Selective Sum-Product Networks'
+  abstract: 'Sum-Product Networks (SPN) are deep probabilistic models that have shown to achieve state-of-the-art performance in several machine learning tasks. As with many other probabilistic models, performing Maximum-A-Posteriori (MAP) inference is NP-hard in SPNs. A notable exception is selective SPNs, that constrain the network so as to allow MAP inference to be performed in linear time. Due to the high number of parameters, SPNs learned from data can produce unreliable and overconfident inference; this phenomenon can be partially mitigated by performing a Robustness Analysis of the model predictions to changes in the parameters. In this work, we address the problem of assessing the robustness of MAP inferences produced with Selective SPNs to global perturbations of the parameters. We present efficient algorithms and an empirical analysis with realistic problems.'
+  volume: 103
+  URL: https://proceedings.mlr.press/v103/villanueva-llerena19a.html
+  PDF: http://proceedings.mlr.press/v103/villanueva-llerena19a/villanueva-llerena19a.pdf
+  edit: https://github.com/mlresearch//v103/edit/gh-pages/_posts/2019-06-29-villanueva-llerena19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eleventh International Symposium on Imprecise Probabilities: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Julissa Giuliana
+    family: Villanueva Llerena
+  - given: Denis Deratani
+    family: Mauá
+  editor: 
+  - given: Jasper
+    family: De Bock
+  - given: Cassio P.
+    family: de Campos
+  - given: Gert
+    family: de Cooman
+  - given: Erik
+    family: Quaeghebeur
+  - given: Gregory
+    family: Wheeler
+  page: 430-440
+  id: villanueva-llerena19a
+  issued:
+    date-parts: 
+      - 2019
+      - 6
+      - 29
+  firstpage: 430
+  lastpage: 440
+  published: 2019-06-29 00:00:00 +0000

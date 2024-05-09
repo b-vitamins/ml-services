@@ -1,0 +1,229 @@
+
+- title: 'Trading Bitcoin and Online Time Series Prediction'
+  abstract: 'Given live streaming Bitcoin activity, we aim to forecast future Bitcoin prices so as to execute profitable trades. We show that Bitcoin price data exhibit desirable properties such as stationarity and mixing. Even so, some classical time series prediction methods that exploit this behavior, such as ARIMA models, produce poor predictions and also lack a probabilistic interpretation. In light of these limitations, we make two contributions: first, we introduce a theoretical framework for predicting and trading ternary-state Bitcoin price changes, i.e. increase, decrease or no-change; and second, using the framework, we present simple, scalable and real-time algorithms that achieve a high return on average Bitcoin investment (e.g. 6-7x, 4-6x and 3-6x return on investments for tests in 2014, 2015 and 2016), while consistently maintaining a high prediction accuracy (> 60-70%) and respectable Sharpe Ratio (> 2.0). Furthermore, when trained on a period eight months earlier than the test period, our algorithms performed nearly as well as they did when trained on recent data! As an important contribution, we provide a justification for why it makes sense to use classification algorithms in settings where the underlying time series is stationary and mixing.'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/amjad16.html
+  PDF: http://proceedings.mlr.press/v55/amjad16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-amjad16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Muhammad
+    family: Amjad
+  - given: Devavrat
+    family: Shah
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 1-15
+  id: amjad16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 1
+  lastpage: 15
+  published: 2017-02-16 00:00:00 +0000
+- title: 'Sparse and Smooth Adjustments for Coherent Forecasts in Temporal Aggregation of Time Series'
+  abstract: 'Independent forecasts obtained from different temporal aggregates of a given time series may not be mutually consistent. State-of the art forecasting methods usually apply adjustments on the individual level forecasts to satisfy the aggregation constraints. These adjustments require the estimation of the covariance between the individual forecast errors at all aggregation levels. In order to keep a maximum number of individual forecasts unaffected by estimation errors, we propose a new forecasting algorithm that provides sparse and smooth adjustments while still preserving the aggregation constraints. The algorithm computes the revised forecasts by solving a generalized lasso problem. It is shown that it not only provides accurate forecasts, but also applies a significantly smaller number of adjustments to the base forecasts in a large-scale smart meter dataset.'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/bentaieb16.html
+  PDF: http://proceedings.mlr.press/v55/bentaieb16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-bentaieb16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Souhaib
+    family: Ben Taieb
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 16-26
+  id: bentaieb16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 16
+  lastpage: 26
+  published: 2017-02-16 00:00:00 +0000
+- title: 'Influential Node Detection in Implicit Social Networks using Multi-task Gaussian Copula Models'
+  abstract: 'Influential node detection is a central research topic in social network analysis. Many existing methods rely on the assumption that the network structure is completely known a priori. However, in many applications, network structure is unavailable to explain the underlying information diffusion phenomenon. To address the challenge of information diffusion analysis with incomplete knowledge of network structure, we develop a multi-task low rank linear influence model. By exploiting the relationships between contagions, our approach can simultaneously predict the volume (i.e. time series prediction) for each contagion (or topic) and automatically identify the most influential nodes for each contagion. The proposed model is validated using synthetic data and an ISIS twitter dataset. In addition to improving the volume prediction performance significantly, we show that the proposed approach can reliably infer the most influential users for specific contagions.'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/li16.html
+  PDF: http://proceedings.mlr.press/v55/li16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-li16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Qunwei
+    family: Li
+  - given: Bhavya
+    family: Kailkhura
+  - given: Jayaraman
+    family: Thiagarajan
+  - given: Zhenliang
+    family: Zhang
+  - given: Pramod
+    family: Varshney
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 27-37
+  id: li16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 27
+  lastpage: 37
+  published: 2017-02-16 00:00:00 +0000
+- title: 'SSH (Sketch, Shingle, & Hash) for Indexing Massive-Scale Time Series'
+  abstract: 'Similarity search on time series is a frequent operation in large-scale data-driven applications.  Sophisticated similarity measures are standard for time series matching, as they are usually misaligned.  Dynamic Time Warping or DTW is the most widely used similarity measure for time series because it combines  alignment and matching at the same time.
+However, the alignment makes DTW slow. To speed up the expensive similarity search with DTW, branch and bound  based pruning strategies are adopted. However, branch and bound based pruning are only useful for very short  queries (low dimensional time series), and the bounds are quite weak for longer queries. Due to the loose bounds  branch and bound pruning strategy boils down to a brute-force search. To circumvent this issue, we design SSH  (Sketch, Shingle, & Hashing), an efficient and approximate hashing scheme which is much faster than the  state-of-the-art branch and bound searching technique: the UCR suite. SSH uses a novel combination of sketching,  shingling and hashing techniques to produce (probabilistic) indexes which align (near perfectly) with DTW similarity  measure. The generated indexes are then used to create hash buckets for sub-linear search. Our results show that SSH  is very effective for longer time sequence and prunes around 95% candidates, leading to the massive speedup in search  with DTW. Empirical results on two large-scale benchmark time series data show that our proposed method can be around  20 times faster than the state-of-the-art package (UCR suite) without any significant loss in accuracy.
+'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/luo16.html
+  PDF: http://proceedings.mlr.press/v55/luo16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-luo16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Chen
+    family: Luo
+  - given: Anshumali
+    family: Shrivastava
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 38-58
+  id: luo16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 38
+  lastpage: 58
+  published: 2017-02-16 00:00:00 +0000
+- title: 'Exploring and measuring non-linear correlations: Copulas, Lightspeed Transportation and Clustering'
+  abstract: 'We propose a methodology to explore and measure the pairwise correlations that exist between variables in a dataset. The methodology leverages copulas for encoding dependence between two variables, state-of-the-art optimal transport for providing a relevant geometry to the copulas, and clustering for summarizing the main dependence patterns found between the variables. Some of the clusters centers can be used to parameterize a novel dependence coefficient which can target or forget specific dependence patterns. Finally, we illustrate and benchmark the methodology on several datasets. Code and numerical experiments are available online at https://www.datagrapple.com/Tech for reproducible research.'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/marti16.html
+  PDF: http://proceedings.mlr.press/v55/marti16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-marti16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Gautier
+    family: Marti
+  - given: Sébastien
+    family: Andler
+  - given: Frank
+    family: Nielsen
+  - given: Philippe
+    family: Donnat
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 59-69
+  id: marti16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 59
+  lastpage: 69
+  published: 2017-02-16 00:00:00 +0000
+- title: 'A central limit theorem with application to inference in α-stable regression models'
+  abstract: 'It is well known that the α-stable distribution, while having no closed form density function in the general case, admits a Poisson series representation (PSR) in which the terms of the series are a function of the arrival times of a unit rate Poisson process. In our previous work we have shown how to carry out inference for regression models using this series representation, which leads to a very convenient conditionally Gaussian framework, amenable to straightforward Gaussian inference procedures.  The PSR has to be truncated to a finite number of terms for practical purposes. The residual terms have been approximated in our previous work by a Gaussian distribution with fully characterised moments. In this paper we present a new Central Limit Theorem (CLT) for the residual terms which serves to justify our previous approximation of the residual as Gaussian.  Furthermore, we provide an analysis of the asymptotic convergence rate expressed in the CLT.'
+  volume: 55
+  URL: https://proceedings.mlr.press/v55/riabiz16.html
+  PDF: http://proceedings.mlr.press/v55/riabiz16.pdf
+  edit: https://github.com/mlresearch//v55/edit/gh-pages/_posts/2017-02-16-riabiz16.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Time Series Workshop at NIPS 2016'
+  publisher: 'PMLR'
+  author: 
+  - given: Marina
+    family: Riabiz
+  - given: Tohid
+    family: Ardeshiri
+  - given: Simon
+    family: Godsill
+  editor: 
+  - given: Oren
+    family: Anava
+  - given: Azadeh
+    family: Khaleghi
+  - given: Marco
+    family: Cuturi
+  - given: Vitaly
+    family: Kuznetsov
+  - given: Alexander
+    family: Rakhlin
+  address: Barcelona, Spain
+  page: 70-82
+  id: riabiz16
+  issued:
+    date-parts: 
+      - 2017
+      - 2
+      - 16
+  firstpage: 70
+  lastpage: 82
+  published: 2017-02-16 00:00:00 +0000

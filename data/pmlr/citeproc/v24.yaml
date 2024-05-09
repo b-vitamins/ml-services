@@ -1,0 +1,437 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of the Tenth European Workshop on Reinforcement Learning June, 2012, Edinburgh, Scotland.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/deisenroth12a.html
+  PDF: http://proceedings.mlr.press/v24/deisenroth12a/deisenroth12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-deisenroth12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: i-i
+  id: deisenroth12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: i
+  lastpage: i
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Learning Exploration/Exploitation Strategies for Single Trajectory Reinforcement Learning'
+  abstract: 'We consider the problem of learning high-performance Exploration/Exploitation (E/E) strategies for finite Markov Decision Processes (MDPs) when the MDP to be controlled is supposed to be drawn from a known probability distribution $p_\mathcal{M}(\cdot)$. The performance criterion is the sum of discounted rewards collected by the E/E strategy over an infinite length trajectory. We propose an approach for solving this problem that works by considering a rich set of candidate E/E strategies and by looking for the one that gives the best average performances on MDPs drawn according to $p_\mathcal{M}(\cdot)$. As candidate E/E strategies, we consider index-based strategies parametrized by small formulas combining variables that include the estimated reward function, the number of times each transition has occurred and the optimal value functions and the optimal value functions $\hat{V}$ and $\hat{Q}$ of the estimated MDP (obtained through value iteration). The search for the best formula is formalized as a multi-armed bandit problem, each arm being associated with a formula. We experimentally compare the performances of the approach with R-max as well as with $\epsilon$-Greedy strategies and the results are promising.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/castronovo12a.html
+  PDF: http://proceedings.mlr.press/v24/castronovo12a/castronovo12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-castronovo12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Castronovo
+  - given: Francis
+    family: Maes
+  - given: Raphael
+    family: Fonteneau
+  - given: Damien
+    family: Ernst
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 1-10
+  id: castronovo12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 1
+  lastpage: 10
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Feature Reinforcement Learning using Looping Suffix Trees'
+  abstract: 'There has recently been much interest in history-based methods using suffix trees to solve POMDPs. However, these suffix trees cannot efficiently represent environments that have long-term dependencies. We extend the recently introduced CTÎ¦MDP algorithm to the space of looping suffix trees which have previously only been used in solving deterministic POMDPs. The resulting algorithm replicates results from CTÎ¦MDP for environments with short term dependencies, while it outperforms LSTM-based methods on TMaze, a deep memory environment.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/daswani12a.html
+  PDF: http://proceedings.mlr.press/v24/daswani12a/daswani12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-daswani12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mayank
+    family: Daswani
+  - given: Peter
+    family: Sunehag
+  - given: Marcus
+    family: Hutter
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 11-24
+  id: daswani12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 11
+  lastpage: 24
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Planning in Reward-Rich Domains via PAC Bandits'
+  abstract: 'In some decision-making environments, successful solutions are common. If the evaluation of candidate solutions is noisy, however, the challenge is knowing when a “good enough” answer has been found. We formalize this problem as an infinite-armed bandit and provide upper and lower bounds on the number of evaluations or “pulls” needed to identify a solution whose evaluation exceeds a given threshold r0 . We present several algorithms and use them to identify reliable strategies for solving screens from the video games \emphInfinite Mario and \emphPitfall! We show order of magnitude improvements in sample complexity over a natural approach that pulls each arm until a good estimate of its success probability is known.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/goschin12a.html
+  PDF: http://proceedings.mlr.press/v24/goschin12a/goschin12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-goschin12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sergiu
+    family: Goschin
+  - given: Ari
+    family: Weinstein
+  - given: Michael L.
+    family: Littman
+  - given: Erick
+    family: Chastain
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 25-42
+  id: goschin12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 25
+  lastpage: 42
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Actor-Critic Reinforcement Learning with Energy-Based Policies'
+  abstract: 'We consider reinforcement learning in Markov decision processes with high dimensional state and action spaces. We parametrize policies using energy-based models (particularly restricted Boltzmann machines), and train them using policy gradient learning. Our approach builds upon Sallans and Hinton (2004), who parameterized value functions using energy-based models, trained using a non-linear variant of temporal-difference (TD) learning. Unfortunately, non-linear TD is known to diverge in theory and practice. We introduce the first sound and efficient algorithm for training energy-based policies, based on an actor-critic architecture. Our algorithm is computationally efficient, converges close to a local optimum, and outperforms Sallans and Hinton (2004) in several high dimensional domains.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/heess12a.html
+  PDF: http://proceedings.mlr.press/v24/heess12a/heess12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-heess12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Nicolas
+    family: Heess
+  - given: David
+    family: Silver
+  - given: Yee Whye
+    family: Teh
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 45-58
+  id: heess12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 45
+  lastpage: 58
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Directed Exploration in Reinforcement Learning with Transferred Knowledge'
+  abstract: 'Experimental results suggest that transfer learning (TL), compared to learning from scratch, can decrease exploration by reinforcement learning (RL) algorithms. Most existing TL algorithms for RL are heuristic and may result in worse performance than learning from scratch (i.e., negative transfer). We introduce a theoretically grounded and flexible approach that transfers action-values via an intertask mapping and, based on those, explores the target task systematically. We characterize positive transfer as (1) decreasing sample complexity in the target task compared to the sample complexity of the base RL algorithm (without transferred action-values) and (2) guaranteeing that the algorithm converges to a near-optimal policy (i.e., negligible optimality loss). The sample complexity of our approach is no worse than the base algorithm''s, and our analysis reveals that positive transfer can occur even with highly inaccurate and partial intertask mappings. Finally, we empirically test directed exploration with transfer in a multijoint reaching task, which highlights the value of our analysis and the robustness of our approach under imperfect conditions.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/mann12a.html
+  PDF: http://proceedings.mlr.press/v24/mann12a/mann12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-mann12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Timothy A.
+    family: Mann
+  - given: Yoonsuck
+    family: Choe
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 59-76
+  id: mann12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 59
+  lastpage: 76
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Online Skill Discovery using Graph-based Clustering'
+  abstract: 'We introduce a new online skill discovery method for reinforcement learning in discrete domains. The method is based on the bottleneck principle and identifies skills using a bottom-up hierarchical clustering of the estimated transition graph. In contrast to prior clustering approaches, it can be used incrementally and thus several times during the learning process. Our empirical evaluation shows that “assuming dense local connectivity in the face of uncertainty” can prevent premature identification of skills. Furthermore, we show that the choice of the linkage criterion is crucial for dealing with non-random sampling policies and stochastic environments.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/metzen12a.html
+  PDF: http://proceedings.mlr.press/v24/metzen12a/metzen12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-metzen12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jan Hendrik
+    family: Metzen
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 77-88
+  id: metzen12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 77
+  lastpage: 88
+  published: 2013-01-12 00:00:00 +0000
+- title: 'An Empirical Analysis of Off-policy Learning in Discrete MDPs'
+  abstract: 'Off-policy evaluation is the problem of evaluating a decision-making policy using data collected under a different behaviour policy. While several methods are available for addressing off-policy evaluation, little work has been done on identifying the best methods. In this paper, we conduct an in-depth comparative study of several off-policy evaluation methods in non-bandit, finite-horizon MDPs, using randomly generated MDPs, as well as a Mallard population dynamics model [Anderson, 1975] . We find that un-normalized importance sampling can exhibit prohibitively large variance in problems involving look-ahead longer than a few time steps, and that dynamic programming methods perform better than Monte-Carlo style methods.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/paduraru12a.html
+  PDF: http://proceedings.mlr.press/v24/paduraru12a/paduraru12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-paduraru12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Cosmin
+    family: Păduraru
+  - given: Doina
+    family: Precup
+  - given: Joelle
+    family: Pineau
+  - given: Gheorghe
+    family: Comănici
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 89-102
+  id: paduraru12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 89
+  lastpage: 102
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Evaluation and Analysis of the Performance of the EXP3 Algorithm in Stochastic Environments'
+  abstract: 'EXP3 is a popular algorithm for adversarial multiarmed bandits, suggested and analyzed in this setting by Auer et al. [2002b]. Recently there was an increased interest in the performance of this algorithm in the stochastic setting, due to its new applications to stochastic multiarmed bandits with side information [Seldin et al., 2011] and to multiarmed bandits in the mixed stochastic-adversarial setting [Bubeck and Slivkins, 2012]. We present an empirical evaluation and improved analysis of the performance of the EXP3 algorithm in the stochastic setting, as well as a modification of the EXP3 algorithm capable of achieving “logarithmic” regret in stochastic environments.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/seldin12a.html
+  PDF: http://proceedings.mlr.press/v24/seldin12a/seldin12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-seldin12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yevgeny
+    family: Seldin
+  - given: Csaba
+    family: Szepesvári
+  - given: Peter
+    family: Auer
+  - given: Yasin
+    family: Abbasi-Yadkori
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 103-116
+  id: seldin12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 103
+  lastpage: 116
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Gradient Temporal Difference Networks'
+  abstract: 'Temporal-difference (TD) networks (Sutton and Tanner, 2004) are a predictive represen- tation of state in which each node is an answer to a question about future observations or questions. Unfortunately, existing algorithms for learning TD networks are known to diverge, even in very simple problems. In this paper we present the first sound learning rule for TD networks. Our approach is to develop a true gradient descent algorithm that takes account of all three roles performed by each node in the network: as state, as an answer, and as a target for other questions. Our algorithm combines gradient temporal-difference learning (Maei et al., 2009) with real-time recurrent learning (Williams and Zipser, 1994). We provide a generalisation of the Bellman equation that corresponds to the semantics of the TD network, and prove that our algorithm converges to a fixed point of this equation.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/silver12a.html
+  PDF: http://proceedings.mlr.press/v24/silver12a/silver12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-silver12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Silver
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 117-130
+  id: silver12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 117
+  lastpage: 130
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Semi-Supervised Apprenticeship Learning'
+  abstract: 'In apprenticeship learning we aim to learn a good policy by observing the behavior of an expert or a set of experts. In particular, we consider the case where the expert acts so as to maximize an unknown reward function defined as a linear combination of a set of state features. In this paper, we consider the setting where we observe many sample trajectories (i.e., sequences of states) but only one or a few of them are labeled as experts'' trajectories. We investigate the conditions under which the remaining unlabeled trajectories can help in learning a policy with a good performance. In particular, we define an extension to the max-margin inverse reinforcement learning proposed by Abbeel and Ng [2004] where, at each iteration, the max-margin optimization step is replaced by a semi-supervised optimiza- tion problem which favors classifiers separating clusters of trajectories. Finally, we report empirical results on two grid-world domains showing that the semi-supervised algorithm is able to output a better policy in fewer iterations than the related algorithm that does not take the unlabeled trajectories into account.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/valko12a.html
+  PDF: http://proceedings.mlr.press/v24/valko12a/valko12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-valko12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Michal
+    family: Valko
+  - given: Mohammad
+    family: Ghavamzadeh
+  - given: Alessandro
+    family: Lazaric
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 131-142
+  id: valko12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 131
+  lastpage: 142
+  published: 2013-01-12 00:00:00 +0000
+- title: 'An investigation of imitation learning algorithms for structured prediction'
+  abstract: 'In the imitation learning paradigm algorithms learn from expert demonstrations in order to become able to accomplish a particular task. DaumÃ© III et al. [2009] framed structured prediction in this paradigm and developed the search-based structured prediction algorithm (Searn) which has been applied successfully to various natural language processing tasks with state-of-the-art performance. Recently, Ross et al. [2011] proposed the dataset aggre- gation algorithm (DAgger) and compared it with Searn in sequential prediction tasks. In this paper, we compare these two algorithms in the context of a more complex structured prediction task, namely biomedical event extraction. We demonstrate that DAgger has more stable performance and faster learning than Searn, and that these advantages are more pronounced in the parameter-free versions of the algorithms.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/vlachos12a.html
+  PDF: http://proceedings.mlr.press/v24/vlachos12a/vlachos12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-vlachos12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Andreas
+    family: Vlachos
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 143-154
+  id: vlachos12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 143
+  lastpage: 154
+  published: 2013-01-12 00:00:00 +0000
+- title: 'Rollout-based Game-tree Search Outprunes Traditional Alpha-beta'
+  abstract: 'Recently, rollout-based planning and search methods have emerged as an alternative to traditional tree-search methods. The fundamental operation in rollout-based tree search is the generation of trajectories in the search tree from root to leaf. Game-playing programs based on Monte-Carlo rollouts methods such as “UCT” have proven remarkably effective at using information from trajectories to make state-of-the-art decisions at the root. In this paper, we show that trajectories can be used to prune more aggressively than classical alpha-beta search. We modify a rollout-based method, FSSS, to allow for use in game-tree search and show it outprunes alpha-beta both empirically and formally.'
+  volume: 24
+  URL: https://proceedings.mlr.press/v24/weinstein12a.html
+  PDF: http://proceedings.mlr.press/v24/weinstein12a/weinstein12a.pdf
+  edit: https://github.com/mlresearch//v24/edit/gh-pages/_posts/2013-01-12-weinstein12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth European Workshop on Reinforcement Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ari
+    family: Weinstein
+  - given: Michael L.
+    family: Littman
+  - given: Sergiu
+    family: Goschin
+  editor: 
+  - given: Marc Peter
+    family: Deisenroth
+  - given: Csaba
+    family: Szepesvári
+  - given: Jan
+    family: Peters
+  address: Edinburgh, Scotland
+  page: 155-167
+  id: weinstein12a
+  issued:
+    date-parts: 
+      - 2013
+      - 1
+      - 12
+  firstpage: 155
+  lastpage: 167
+  published: 2013-01-12 00:00:00 +0000

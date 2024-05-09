@@ -1,0 +1,167 @@
+
+- title: 'Gaussian Process Approximations of Stochastic Differential Equations'
+  abstract: 'Stochastic differential equations arise naturally in a range of contexts, from financial to environmental modeling. Current solution methods are limited in their representation of the posterior process in the presence of data. In this work, we present a novel Gaussian process approximation to the posterior measure <em>over paths</em> for a general class of stochastic differential equations in the presence of observations. The method is applied to two simple problems: the Ornstein-Uhlenbeck process, of which the exact solution is known and can be compared to, and the double-well system, for which standard approaches such as the ensemble Kalman smoother fail to provide a satisfactory result. Experiments show that our variational approximation is viable and that the results are very promising as the variational approximate solution outperforms standard Gaussian process regression for non-Gaussian Markov processes.'
+  volume: 1
+  URL: https://proceedings.mlr.press/v1/archambeau07a.html
+  PDF: http://proceedings.mlr.press/v1/archambeau07a/archambeau07a.pdf
+  edit: https://github.com/mlresearch//v1/edit/gh-pages/_posts/2007-03-11-archambeau07a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Gaussian Processes in Practice'
+  publisher: 'PMLR'
+  author: 
+  - given: Cedric
+    family: Archambeau
+  - given: Dan
+    family: Cornford
+  - given: Manfred
+    family: Opper
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: Neil D.
+    family: Lawrence
+  - given: Anton
+    family: Schwaighofer
+  - given: Joaquin
+    family: Quiñonero Candela
+  address: Bletchley Park, UK
+  page: 1-16
+  id: archambeau07a
+  issued:
+    date-parts: 
+      - 2007
+      - 3
+      - 11
+  firstpage: 1
+  lastpage: 16
+  published: 2007-03-11 00:00:00 +0000
+- title: 'Multi-class Semi-supervised Learning with the $\epsilon$-truncated Multinomial Probit Gaussian Process'
+  abstract: 'Recently, the null category noise model has been proposed as a simple and elegant solution to the problem of incorporating unlabeled data into a Gaussian process (GP) classification model. In this paper, we show how this binary likelihood model can be generalised to the multi-class setting through the use of the multinomial probit GP classifier. We present a Gibbs sampling scheme for sampling the GP parameters and also derive a more efficient variational updating scheme. We find that the performance improvement is roughly consistent with that observed in binary classification and that there is no significant difference in classification performance between the Gibbs sampling and variational schemes.'
+  volume: 1
+  URL: https://proceedings.mlr.press/v1/rogers07a.html
+  PDF: http://proceedings.mlr.press/v1/rogers07a/rogers07a.pdf
+  edit: https://github.com/mlresearch//v1/edit/gh-pages/_posts/2007-03-11-rogers07a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Gaussian Processes in Practice'
+  publisher: 'PMLR'
+  author: 
+  - given: Simon
+    family: Rogers
+  - given: Mark
+    family: Girolami
+  editor: 
+  - given: Neil D.
+    family: Lawrence
+  - given: Anton
+    family: Schwaighofer
+  - given: Joaquin
+    family: Quiñonero Candela
+  address: Bletchley Park, UK
+  page: 17-32
+  id: rogers07a
+  issued:
+    date-parts: 
+      - 2007
+      - 3
+      - 11
+  firstpage: 17
+  lastpage: 32
+  published: 2007-03-11 00:00:00 +0000
+- title: 'Learning RoboCup-Keepaway with Kernels'
+  abstract: 'We apply kernel-based methods to solve the difficult reinforcement learning problem of 3vs2 keepaway in RoboCup simulated soccer. Key challenges in keepaway are the highdimensionality of the state space (rendering conventional discretization-based function approximation like tilecoding infeasible), the stochasticity due to noise and multiple learning agents needing to cooperate (meaning that the exact dynamics of the environment are unknown) and real-time learning (meaning that an efficient online implementation is required).  We employ the general framework of approximate policy iteration with least-squares-based policy evaluation. As underlying function approximator we consider the family of regularization networks with subset of regressors approximation. The core of our proposed solution is an efficient recursive implementation with automatic supervised selection of relevant basis functions. Simulation results indicate that the behavior learned through our approach clearly outperforms the best results obtained with tilecoding by Stone et al. (2005).'
+  volume: 1
+  URL: https://proceedings.mlr.press/v1/jung07a.html
+  PDF: http://proceedings.mlr.press/v1/jung07a/jung07a.pdf
+  edit: https://github.com/mlresearch//v1/edit/gh-pages/_posts/2007-03-11-jung07a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Gaussian Processes in Practice'
+  publisher: 'PMLR'
+  author: 
+  - given: Tobias
+    family: Jung
+  - given: Daniel
+    family: Polani
+  editor: 
+  - given: Neil D.
+    family: Lawrence
+  - given: Anton
+    family: Schwaighofer
+  - given: Joaquin
+    family: Quiñonero Candela
+  address: Bletchley Park, UK
+  page: 33-57
+  id: jung07a
+  issued:
+    date-parts: 
+      - 2007
+      - 3
+      - 11
+  firstpage: 33
+  lastpage: 57
+  published: 2007-03-11 00:00:00 +0000
+- title: 'Salient Point and Scale Detection by Minimum Likelihood'
+  abstract: 'We propose a novel approach for detection of salient image points and estimation of their intrinsic scales based on the fractional Brownian image model.  Under this model images are realisations of a Gaussian random process on the plane. We define salient points as points that have a locally unique image structure. Such points are usually sparsely distributed in images and carry important information about the image content. Locality is defined in terms of the measurement scale of the filters used to describe the image structure.  Here we use partial derivatives of the image function defined using linear scale space theory. We propose to detect salient points and their intrinsic scale by detecting points in scale-space that locally minimise the likelihood under the model.'
+  volume: 1
+  URL: https://proceedings.mlr.press/v1/pedersen07a.html
+  PDF: http://proceedings.mlr.press/v1/pedersen07a/pedersen07a.pdf
+  edit: https://github.com/mlresearch//v1/edit/gh-pages/_posts/2007-03-11-pedersen07a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Gaussian Processes in Practice'
+  publisher: 'PMLR'
+  author: 
+  - given: Kim S.
+    family: Pedersen
+  - given: Marco
+    family: Loog
+  - given: Pieter
+    family: Dorst
+  editor: 
+  - given: Neil D.
+    family: Lawrence
+  - given: Anton
+    family: Schwaighofer
+  - given: Joaquin
+    family: Quiñonero Candela
+  address: Bletchley Park, UK
+  page: 59-72
+  id: pedersen07a
+  issued:
+    date-parts: 
+      - 2007
+      - 3
+      - 11
+  firstpage: 59
+  lastpage: 72
+  published: 2007-03-11 00:00:00 +0000
+- title: 'Sparse Log Gaussian Processes via MCMC for Spatial Epidemiology'
+  abstract: 'Log Gaussian processes are an attractive manner to construct intensity surfaces for the purposes of spatial epidemiology. The intensity surfaces are naturally smoothed by placing a Gaussian process (GP) prior over the relative log Poisson rate, and the spatial correlations between areas can be included in an explicit and natural way into the model via a correlation function. The drawback with using a Gaussian process is the computational burden of the covariance matrix calculations.  To overcome the computational limitations a number of approximations for Gaussian process have been suggested in the literature. In this work a fully independent training conditional sparse approximation is used to speed up the computations. The posterior inference is conducted using Markov chain Monte Carlo simulations and the sampling of the latent values is sped up by a transformation taking into account their posterior covariance. The sparse approximation is compared to a full GP with two sets of mortality data.'
+  volume: 1
+  URL: https://proceedings.mlr.press/v1/vanhatalo07a.html
+  PDF: http://proceedings.mlr.press/v1/vanhatalo07a/vanhatalo07a.pdf
+  edit: https://github.com/mlresearch//v1/edit/gh-pages/_posts/2007-03-11-vanhatalo07a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Gaussian Processes in Practice'
+  publisher: 'PMLR'
+  author: 
+  - given: Jarno
+    family: Vanhatalo
+  - given: Aki
+    family: Vehtari
+  editor: 
+  - given: Neil D.
+    family: Lawrence
+  - given: Anton
+    family: Schwaighofer
+  - given: Joaquin
+    family: Quiñonero Candela
+  address: Bletchley Park, UK
+  page: 73-89
+  id: vanhatalo07a
+  issued:
+    date-parts: 
+      - 2007
+      - 3
+      - 11
+  firstpage: 73
+  lastpage: 89
+  published: 2007-03-11 00:00:00 +0000

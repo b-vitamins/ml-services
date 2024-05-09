@@ -1,0 +1,340 @@
+
+- title: 'Lempel-Ziv Networks '
+  abstract: 'Sequence processing has long been a central area of machine learning research. Recurrent neural nets have been successful in processing sequences for a number of tasks; however, they are known to be both ineffective and computationally expensive when applied to very long sequences. Compression-based methods have demonstrated more robustness when processing such sequences — in particular, an approach pairing the Lempel-Ziv Jaccard Distance (LZJD) with the k-Nearest Neighbor algorithm has shown promise on long sequence problems (up to steps) involving malware classification. Unfortunately, use of LZJD is limited to discrete domains. To extend the benefits of LZJD to a continuous domain, we investigate the effectiveness of a deep-learning analog of the algorithm, the Lempel-Ziv Network. While we achieve successful proof-of-concept, we are unable to meaningfully improve on the performance of a standard LSTM across a variety of datasets and sequence processing tasks. In addition to presenting this negative result, our work highlights the problem of sub-par baseline tuning in newer research areas.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/saul23a.html
+  PDF: https://proceedings.mlr.press/v187/saul23a/saul23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-saul23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Rebecca
+    family: Saul
+  - given: Mohammad Mahmudul
+    family: Alam
+  - given: John
+    family: Hurwitz
+  - given: Edward
+    family: Raff
+  - given: Tim
+    family: Oates
+  - given: James
+    family: Holt
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 1-11
+  id: saul23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 1
+  lastpage: 11
+  published: 2023-02-28 00:00:00 +0000
+- title: 'When Does Re-initialization Work?'
+  abstract: 'Re-initializing a neural network during training has been observed to improve generalization in recent works. Yet it is neither widely adopted in deep learning practice nor is it often used in state-of-the-art training protocols. This raises the question of when re-initialization works, and whether it should be used together with regularization techniques such as data augmentation, weight decay and learning rate schedules. In this work, we conduct an extensive empirical comparison of standard training with a selection of re-initialization methods to answer this question, training over 15,000 models on a variety of image classification benchmarks. We first establish that such methods are consistently beneficial for generalization in the absence of any other regularization. However, when deployed alongside other carefully tuned regularization techniques, re-initialization methods offer little to no added benefit for generalization, although optimal generalization performance becomes less sensitive to the choice of learning rate and weight decay hyperparameters. To investigate the impact of re-initialization methods on noisy data, we also consider learning under label noise. Surprisingly, in this case, re-initialization significantly improves upon standard training, even in the presence of other carefully tuned regularization techniques.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/zaidi23a.html
+  PDF: https://proceedings.mlr.press/v187/zaidi23a/zaidi23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-zaidi23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Sheheryar
+    family: Zaidi
+  - given: Tudor
+    family: Berariu
+  - given: Hyunjik
+    family: Kim
+  - given: Jorg
+    family: Bornschein
+  - given: Claudia
+    family: Clopath
+  - given: Yee Whye
+    family: Teh
+  - given: Razvan
+    family: Pascanu
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 12-26
+  id: zaidi23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 12
+  lastpage: 26
+  published: 2023-02-28 00:00:00 +0000
+- title: 'Adversarial Attacks are a Surprisingly Strong Baseline for Poisoning Few-Shot Meta-Learners'
+  abstract: 'This paper examines the robustness of deployed few-shot meta-learning systems when they are fed an imperceptibly perturbed few-shot dataset. We attack amortized meta-learners, which allows us to craft colluding sets of inputs that are tailored to fool the system’s learning algorithm when used as training data. Jointly crafted adversarial inputs might be expected to synergistically manipulate a classifier, allowing for very strong data-poisoning attacks that would be hard to detect. We show that in a white box setting, these attacks are very successful and can cause the target model’s predictions to become worse than chance. However, in opposition to the well-known transferability of adversarial examples in general, the colluding sets do not transfer well to different classifiers. We explore two hypotheses to explain this: ’overfitting’ by the attack, and mismatch between the model on which the attack is generated and that to which the attack is transferred. Regardless of the mitigation strategies suggested by these hypotheses, the colluding inputs transfer no better than adversarial inputs that are generated independently in the usual way.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/oldewage23a.html
+  PDF: https://proceedings.mlr.press/v187/oldewage23a/oldewage23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-oldewage23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Elre T.
+    family: Oldewage
+  - given: John
+    family: Bronskill
+  - given: Richard E.
+    family: Turner
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 27-40
+  id: oldewage23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 27
+  lastpage: 40
+  published: 2023-02-28 00:00:00 +0000
+- title: 'Denoising Deep Generative Models '
+  abstract: 'Likelihood-based deep generative models have recently been shown to exhibit pathological behaviour under the manifold hypothesis as a consequence of using high-dimensional densities to model data with low-dimensional structure. In this paper we propose two methodologies aimed at addressing this problem. Both are based on adding Gaussian noise to the data to remove the dimensionality mismatch during training, and both provide a denoising mechanism whose goal is to sample from the model as though no noise had been added to the data. Our first approach is based on Tweedie’s formula, and the second on models which take the variance of added noise as a conditional input. We show that surprisingly, while well motivated, these approaches only sporadically improve performance over not adding noise, and that other methods of addressing the dimensionality mismatch are more empirically adequate.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/loaiza-ganem23a.html
+  PDF: https://proceedings.mlr.press/v187/loaiza-ganem23a/loaiza-ganem23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-loaiza-ganem23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Gabriel
+    family: Loaiza-Ganem
+  - given: Brendan Leigh
+    family: Ross
+  - given: Luhuan
+    family: Wu
+  - given: John Patrick
+    family: Cunningham
+  - given: Jesse C.
+    family: Cresswell
+  - given: Anthony L.
+    family: Caterini
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 41-50
+  id: loaiza-ganem23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 41
+  lastpage: 50
+  published: 2023-02-28 00:00:00 +0000
+- title: 'On the Maximum Hessian Eigenvalue and Generalization'
+  abstract: 'The mechanisms by which certain training interventions, such as increasing learning rates and applying batch normalization, improve the generalization of deep networks remains a mystery. Prior works have speculated that "flatter" solutions generalize better than "sharper" solutions to unseen data, motivating several metrics for measuring flatness (particularly $\lambda_{\rm max}$ , the largest eigenvalue of the Hessian of the loss); and algorithms, such as Sharpness-Aware Minimization (SAM), that directly optimize for flatness. Other works question the link between $\lambda_{\rm max}$ and generalization. In this paper, we present findings that call $\lambda_{\rm max}$’s influence on generalization further into question. We show that: (1) while larger learning rates reduce $\lambda_{\rm max}$ for all batch sizes, generalization benefits sometimes vanish at larger batch sizes; (2) by scaling batch size and learning rate simultaneously, we can change $\lambda_{\rm max}$ without affecting generalization; (3) while SAM produces smaller $\lambda_{\rm max}$ for all batch sizes, generalization benefits (also) vanish with larger batch sizes; (4) for dropout, excessively high dropout probabilities can degrade generalization, even as they promote smaller $\lambda_{\rm max}$ ; and (5) while batch-normalization does not consistently produce smaller $\lambda_{\rm max}$ , it nevertheless confers generalization benefits. While our experiments affirm the generalization benefits of large learning rates and SAM for minibatch SGD, the GD-SGD discrepancy demonstrates limits to $\lambda_{\rm max}$’s ability to explain generalization in neural networks.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/kaur23a.html
+  PDF: https://proceedings.mlr.press/v187/kaur23a/kaur23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-kaur23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Simran
+    family: Kaur
+  - given: Jeremy
+    family: Cohen
+  - given: Zachary Chase
+    family: Lipton
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 51-65
+  id: kaur23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 51
+  lastpage: 65
+  published: 2023-02-28 00:00:00 +0000
+- title: 'Continuous Soft Pseudo-Labeling in ASR '
+  abstract: 'Continuous pseudo-labeling (PL) algorithms such as slimIPL have recently emerged as a powerful strategy for semi-supervised learning in speech recognition. In contrast with earlier strategies that alternated between training a model and generating pseudo-labels (PLs) with it, here PLs are generated in end-to-end manner as training proceeds, improving training speed and the accuracy of the final model.  PL shares a common theme with teacher-student models such as distillation in that a teacher model generates targets that need to be mimicked by the student model being trained. However, interestingly, PL strategies in general use hard-labels, whereas distillation uses the distribution over labels as the target to mimic. Inspired by distillation we expect that specifying the whole distribution (aka soft-labels) over sequences as the target for unlabeled data, instead of a single best pass pseudo-labeled transcript (hard-labels) should improve PL performance and convergence. Surprisingly and unexpectedly, we find that soft-labels targets can lead to training divergence, with the model collapsing to a degenerate token distribution per frame. We hypothesize that the reason this does not happen with hard-labels is that training loss on hard-labels imposes sequence-level consistency that keeps the model from collapsing to the degenerate solution.  In this paper, we show several experiments that support this hypothesis, and experiment with several regularization approaches that can ameliorate the degenerate collapse when using soft-labels. These approaches can bring the accuracy of soft-labels closer to that of hard-labels, and while they are unable to outperform them yet, they serve as a useful framework for further improvements.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/likhomanenko23a.html
+  PDF: https://proceedings.mlr.press/v187/likhomanenko23a/likhomanenko23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-likhomanenko23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Tatiana
+    family: Likhomanenko
+  - given: Ronan
+    family: Collobert
+  - given: Navdeep
+    family: Jaitly
+  - given: Samy
+    family: Bengio
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 66-84
+  id: likhomanenko23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 66
+  lastpage: 84
+  published: 2023-02-28 00:00:00 +0000
+- title: 'Volume-based Performance not Guaranteed by Promising Patch-based Results in Medical Imaging '
+  abstract: 'Whole-body MRIs are commonly used to screen for early signs of cancer. In addition to the small size of tumours at onset, variations in individuals, tumour types, and MRI machines increase the difficulty of finding tumours in these scans. Using patches, rather than whole-body scans, to train a deep-learning-based segmentation model with a custom compound patch loss function, several augmentations, and additional synthetically generated training data to identify areas where there is a high probability of a tumour provided promising results at the patch-level. However, applying the patch-based model to the entire volume did not yield great results despite all of the state-of-the-art improvements, with over 50% of the tumour sections in the dataset being missed. Our work highlights the discrepancy between the commonly used patch-based analysis and the overall performance on the whole image and the importance of focusing on the metrics relevant to the ultimate user in our case, the clinician. Much work remains to be done to bring state-of-the-art segmentation to the clinical practice of cancer screening.'
+  volume: 187
+  URL: https://proceedings.mlr.press/v187/moturu23a.html
+  PDF: https://proceedings.mlr.press/v187/moturu23a/moturu23a.pdf
+  edit: https://github.com/mlresearch//v187/edit/gh-pages/_posts/2023-02-28-moturu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I Can''t Believe It''s Not Better!  - Understanding Deep Learning Through Empirical Falsification" at NeurIPS 2022 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Abhishek
+    family: Moturu
+  - given: Sayali
+    family: Joshi
+  - given: Andrea S.
+    family: Doria
+  - given: Anna
+    family: Goldenberg
+  editor: 
+  - given: Javier
+    family: Antorán
+  - given: Arno
+    family: Blaas
+  - given: Fan
+    family: Feng
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Ian
+    family: Mason
+  - given: Melanie F.
+    family: Pradier
+  - given: David
+    family: Rohde
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Aaron
+    family: Schein
+  page: 85-93
+  id: moturu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 28
+  firstpage: 85
+  lastpage: 93
+  published: 2023-02-28 00:00:00 +0000

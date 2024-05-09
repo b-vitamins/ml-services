@@ -1,0 +1,371 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of the Second Workshop on Applications of Pattern Analysis  19-21 October, 2011, CIEM, Castro Urdiales, Spain.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/diethe11a.html
+  PDF: http://proceedings.mlr.press/v17/diethe11a/diethe11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-diethe11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 1-4
+  id: diethe11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 1
+  lastpage: 4
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Detecting Sentiment Change in Twitter Streaming Data'
+  abstract: 'MOA-TweetReader is a real-time system to read tweets in real time, to detect changes, and to find the terms whose frequency changed. Twitter is a micro-blogging service built to discover what is happening at any moment in time, anywhere in the world. Twitter messages are short, and generated constantly, and well suited for knowledge discovery using data stream mining. MOA-TweetReader is a software extension to the MOA framework. Massive Online Analysis (MOA) is a software environment for implementing algorithms and running experiments for online learning from evolving data streams. MOA-TweetReader is released under the GNU GPL license.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/bifet11a.html
+  PDF: http://proceedings.mlr.press/v17/bifet11a/bifet11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-bifet11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Albert
+    family: Bifet
+  - given: Geoff
+    family: Holmes
+  - given: Bernhard
+    family: Pfahringer
+  - given: Ricard
+    family: Gavalda
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 5-11
+  id: bifet11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 5
+  lastpage: 11
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Using GNUsmail to Compare Data Stream Mining Methods for On-line Email Classification'
+  abstract: 'Real-time classification of emails is a challenging task because of its online nature, and also because email streams are subject to concept drift. Identifying email spam, where only two different labels or classes are defined (spam or not spam), has received great attention in the literature. We are nevertheless interested in a more specific classification where multiple folders exist, which is an additional source of complexity: the class can have a very large number of different values. Moreover, neither cross-validation nor other sampling procedures are suitable for evaluation in data stream contexts, which is why other metrics, like the prequential error, have been proposed. However, the prequential error poses some problems, which can be alleviated by using recently proposed mechanisms such as fading factors. In this paper, we present GNUsmail, an open-source extensible framework for email classification, and we focus on its ability to perform online evaluation. GNUsmails architecture supports incremental and online learning, and it can be used to compare different data stream mining methods, using state-of-art online evaluation metrics. Besides describing the framework, characterized by two overlapping phases, we show how it can be used to compare different algorithms in order to find the most appropriate one. The GNUsmail source code includes a tool for launching replicable experiments.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/carmona11a.html
+  PDF: http://proceedings.mlr.press/v17/carmona11a/carmona11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-carmona11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Jose M.
+    family: Carmona-Cejudo
+  - given: Manuel
+    family: Baena-Garcia
+  - given: Jose
+    family: Campo-Avila
+  - given: Rafael
+    family: Morales-Bueno
+  - given: Joao
+    family: Gama
+  - given: Albert
+    family: Bifet
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 12-18
+  id: carmona11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 12
+  lastpage: 18
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Streaming Multi-label Classification'
+  abstract: 'This paper presents a new experimental framework for studying multi-label evolving stream classification, with efficient methods that combine the best practices in streaming scenarios with the best practices in multi-label classification. Many real world problems involve data which can be considered as multi-label data streams. Efficient methods exist for multi-label classification in non streaming scenarios. However, learning in evolving streaming scenarios is more challenging, as the learners must be able to adapt to change using limited time and memory. We present a new experimental software that extends the MOA framework. Massive Online Analysis (MOA) is a software environment for implementing algorithms and running experiments for online learning from evolving data streams. It is released under the GNU GPL license.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/read11a.html
+  PDF: http://proceedings.mlr.press/v17/read11a/read11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-read11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Jesse
+    family: Read
+  - given: Albert
+    family: Bifet
+  - given: Geoff
+    family: Holmes
+  - given: Bernhard
+    family: Pfahringer
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 19-25
+  id: read11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 19
+  lastpage: 25
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Comparing classification methods for predicting distance students’ performance'
+  abstract: 'Virtual teaching is constantly growing and, with it, the necessity of instructors to predict the performance of their students. In response to this necessity, different machine learning techniques can be used. Although there are so many benchmarks comparing their performance and accuracy, there are still very few experiments carried out on educational datasets which have very special features which make them different from other datasets. Therefore, in this work we compare the performance and interpretation level of the output of the different classification techniques applied on educational datasets and propose a meta-algorithm to preprocess the datasets and improve the accuracy of the model, which will be used by virtual instructors for their decision making through the ElWM tool.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/garcia-saiz11a.html
+  PDF: http://proceedings.mlr.press/v17/garcia-saiz11a/garcia-saiz11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-garcia-saiz11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Diego
+    family: Garcia-Saiz
+  - given: Marta
+    family: Zorrilla
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 26-32
+  id: garcia-saiz11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 26
+  lastpage: 32
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Employing The Complete Face in AVSR to Recover from Facial Occlusions'
+  abstract: 'Existing Audio-Visual Speech Recognition (AVSR) systems visually focus intensely on a small region of the face, centred on the immediate mouth area. This is poor design for a variety reasons in real world situations because any occlusion to this small area renders all visual advantage null and void. This is poorby design because it is well known that humans use the complete face to speechread. We demonstrate a new application of a novel visual algorithm, the Multi-Channel Gradient Model, the deploys information from the complete face to perform AVSR. Our MCGM model performs near to the performance of Discrete Cosine Transforms in the case where a small region of interest around the lips, but in the case of an occluded face we can achieve results that match nearly 70% of the performance that DCTs can achieve on the DCT best case, lips centeric approach.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/hall11a.html
+  PDF: http://proceedings.mlr.press/v17/hall11a/hall11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-hall11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Benjamin X.
+    family: Hall
+  - given: John
+    family: Shawe-Taylor
+  - given: Alan
+    family: Johnston
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 33-40
+  id: hall11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 33
+  lastpage: 40
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Bayesian Probabilistic Models for Image Retrieval'
+  abstract: 'In this paper we present new probabilistic ranking functions for content based image retrieval. Our methodology generalises previous approaches and is based on the predictive densities of generative probabilistic models modelling the density of image features. We evaluate the proposed methodology and compare it against two state of the art image retrieval systems using a well known image collection.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/stathopoulos11a.html
+  PDF: http://proceedings.mlr.press/v17/stathopoulos11a/stathopoulos11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-stathopoulos11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Vassilios
+    family: Stathopoulos
+  - given: Joemon M.
+    family: Jose
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 41-47
+  id: stathopoulos11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 41
+  lastpage: 47
+  published: 2011-10-21 00:00:00 +0000
+- title: 'MOA Concept Drift Active Learning Strategies for Streaming Data'
+  abstract: 'We present a framework for active learning on evolving data streams, as an extension to the MOA system. In learning to classify streaming data, obtaining the true labels may require major effort and may incur excessive cost. Active learning focuses on learning an accurate model with as few labels as possible. Streaming data poses additional challenges for active learning, since the data distribution may change over time (concept drift) and classifiers need to adapt. Conventional active learning strategies concentrate on querying the most uncertain instances, which are typically concentrated around the decision boundary. If changes do not occur close to the boundary, they will be missed and classifiers will fail to adapt. We propose a software system that implements active learning strategies, extending the MOA framework. This software is released under the GNU GPL license.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/zliobaite11a.html
+  PDF: http://proceedings.mlr.press/v17/zliobaite11a/zliobaite11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-zliobaite11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Indre
+    family: Zliobaite
+  - given: Albert
+    family: Bifet
+  - given: Geoff
+    family: Holmes
+  - given: Bernhard
+    family: Pfahringer
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 48-55
+  id: zliobaite11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 48
+  lastpage: 55
+  published: 2011-10-21 00:00:00 +0000
+- title: 'A Software System for the Microbial Source Tracking Problem'
+  abstract: 'The aim of this paper is to report the achievement of Ichnaea, a fully computer-based prediction system that is able to make fairly accurate predictions for Microbial Source Tracking studies. The system accepts examples showing different concentration levels, uses indicators (variables) with different environmental persistence, and can be applied at different geographical or climatic areas. We describe the inner workings of the system and report on the specific problems and challenges arisen from the machine learning point of view and how they have been addressed.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/sanchez11a.html
+  PDF: http://proceedings.mlr.press/v17/sanchez11a/sanchez11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-sanchez11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Sanchez
+  - given: Lluis A.
+    family: Belanche
+  - given: Anicet R.
+    family: Blanch
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 56-62
+  id: sanchez11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 56
+  lastpage: 62
+  published: 2011-10-21 00:00:00 +0000
+- title: 'Automating Quantitative Narrative Analysis of News Data'
+  abstract: 'We present a working system for large scale quantitative narrative analysis (QNA) of news corpora, which includes various recent ideas from text mining and pattern analysis in order to solve a problem arising in computational social sciences. The task is that of identifying the key actors in a body of news, and the actions they perform, so that further analysis can be carried out. This step is normally performed by hand and is very labour intensive. We then characterise the actors by: studying their position in the overall network of actors and actions; studying the time series associated with some of their properties; generating scatter plots describing the subject/object bias of each actor; and investigating the types of actions each actor is most associated with. The system is demonstrated on a set of 100,000 articles about crime appeared on the New York Times between 1987 and 2007. As an example, we find that Men were most commonly responsible for crimes against the person, while Women and Children were most often victims of those crimes.'
+  volume: 17
+  URL: https://proceedings.mlr.press/v17/sudhahar11a.html
+  PDF: http://proceedings.mlr.press/v17/sudhahar11a/sudhahar11a.pdf
+  edit: https://github.com/mlresearch//v17/edit/gh-pages/_posts/2011-10-21-sudhahar11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Second Workshop on Applications of Pattern Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Saatviga
+    family: Sudhahar
+  - given: Roberto
+    family: Franzosi
+  - given: Nello
+    family: Cristianini
+  editor: 
+  - given: Tom
+    family: Diethe
+  - given: Jose
+    family: Balcazar
+  - given: John
+    family: Shawe-Taylor
+  - given: Cristina
+    family: Tirnauca
+  address: CIEM, Castro Urdiales, Spain
+  page: 63-71
+  id: sudhahar11a
+  issued:
+    date-parts: 
+      - 2011
+      - 10
+      - 21
+  firstpage: 63
+  lastpage: 71
+  published: 2011-10-21 00:00:00 +0000

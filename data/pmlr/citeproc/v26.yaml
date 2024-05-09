@@ -1,0 +1,245 @@
+
+- title: 'Preface'
+  abstract: 'Preface to the Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2 July 2, 2011, Bellevue, Washington, USA.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/glowacka12a.html
+  PDF: http://proceedings.mlr.press/v26/glowacka12a/glowacka12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-glowacka12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Dorota
+    family: Głowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: i-i
+  id: glowacka12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: i
+  lastpage: i
+  published: 2012-05-02 00:00:00 +0000
+- title: 'Online Clustering with Experts'
+  abstract: 'We propose an online clustering algorithm that manages the exploration/exploitation tradeoff using an adaptive weighting over batch clustering algorithms. We extend algorithms for online supervised learning, with access to expert predictors, to the unsupervised learning setting.  Instead of computing prediction errors in order to re-weight the experts, the algorithm computes an approximation to the current value of the \emphk-means objective obtained by each expert. When the experts are batch clustering algorithms with   \emphb-approximation guarantees with respect to the \emphk-means   objective (for example, the \emphk-means++ or \emphk-means # algorithms), applied to a sliding window of the data stream, our algorithm achieves an approximation guarantee with respect to the \emphk-means objective.  The form of this online clustering approximation guarantee is novel, and extends  an evaluation framework proposed by Dasgupta as an analog to regret.  Our algorithm tracks the best clustering algorithm on real and simulated data sets.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/choromanska12a.html
+  PDF: http://proceedings.mlr.press/v26/choromanska12a/choromanska12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-choromanska12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Anna
+    family: Choromanska
+  - given: Claire
+    family: Monteleoni
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 1-18
+  id: choromanska12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 1
+  lastpage: 18
+  published: 2012-05-02 00:00:00 +0000
+- title: 'An Unbiased Offline Evaluation of Contextual Bandit Algorithms with Generalized Linear Models'
+  abstract: 'Contextual bandit algorithms have become popular tools in online   recommendation and advertising systems. \emphOffline evaluation of the effectiveness of new algorithms in these applications is critical for protecting online user experiences but very challenging due to their “partial-label” nature.  A common practice is to create a simulator which simulates the online environment for the problem at hand and then run an algorithm against this simulator. However, creating the simulator itself is often difficult and modeling bias is usually unavoidably introduced. The purpose of this paper is two-fold.  First, we review a recently proposed \emphoffline evaluation technique.  Different from simulator-based approaches, the method is completely data-driven, is easy to adapt to different applications, and more importantly, provides provably unbiased evaluations.  We argue for the wide use of this technique as standard practice when comparing bandit algorithms in real-life problems. Second, as an application of this technique, we compare and validate a number of new algorithms based on \emphgeneralized linear models.  Experiments using real Yahoo! data suggest substantial improvement over algorithms with linear models when the rewards are binary.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/li12a.html
+  PDF: http://proceedings.mlr.press/v26/li12a/li12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-li12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Lihong
+    family: Li
+  - given: Wei
+    family: Chu
+  - given: John
+    family: Langford
+  - given: Taesup
+    family: Moon
+  - given: Xuanhui
+    family: Wang
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 19-36
+  id: li12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 19
+  lastpage: 36
+  published: 2012-05-02 00:00:00 +0000
+- title: 'Exploration and Exploitation with Insufficient Resources'
+  abstract: 'In physical experimentation, the resources available to discover new knowledge are typically extremely small in comparison to the size and dimensionality of the parameter spaces that can be searched. Additionally, due to the nature of physical experimentation, experimental errors will occur, particularly in biochemical experimentation where the reactants may undetectably denature, or reactant contamination could occur or equipment failure. These errors mean that not all experimental measurements and observations will be accurate or representative of the system being investigated. As the validity of observations is not guaranteed, resources must be split between exploration to discover new knowledge and exploitation to test the validity of the new knowledge. Currently we are investigating the automation of discovery in physical experimentation, with the aim of producing a fully autonomous closed-loop robotic machine capable of autonomous experimentation. This machine will build and evaluate hypotheses, determine experiments to perform and then perform them on an automated lab-on-chip experimentation platform for biochemical response characterisation. In the present work we examine how the trade-off between exploration and exploitation can occur in a situation where the number of experiments that can be performed is extremely small and where the observations returned are sometimes erroneous or unrepresentative of the behaviour being examined. To manage this trade-off we consider the use of a Bayesian notion of surprise, which is used to perform exploration experiments whilst observations are unsurprising from the predictions that can be made and exploits when observations are surprising as they do not match the predicted response.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/lovell12a.html
+  PDF: http://proceedings.mlr.press/v26/lovell12a/lovell12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-lovell12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Chris
+    family: Lovell
+  - given: Gareth
+    family: Jones
+  - given: Klaus-Peter
+    family: Zauner
+  - given: Steve R.
+    family: Gunn
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 37-61
+  id: lovell12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 37
+  lastpage: 61
+  published: 2012-05-02 00:00:00 +0000
+- title: 'ICML Exploration & Exploitation Challenge: Keep it simple!'
+  abstract: 'Recommendation has become a key feature in the economy of a lot of   companies (online shopping, search engines...). There is a lot of   work going on regarding recommender systems and there is still a lot   to do to improve them. Indeed nowadays in many companies most of the   job is done by hand. Moreover even when a supposedly smart   recommender system is designed, it is hard to evaluate it without   using real audience which obviously involves economic issues. The   ICML Exploration & Exploitation challenge is an attempt to make   people propose efficient recommendation techniques and particularly   focuses on limited computational resources. The challenge also   proposes a framework to address the problem of evaluating a   recommendation algorithm with real data. We took part in this   challenge and achieved the best performances; this paper aims at   reporting on this achievement; we also discuss the evaluation   process and propose a better one for future challenges of the   same kind.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/nicol12a.html
+  PDF: http://proceedings.mlr.press/v26/nicol12a/nicol12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-nicol12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Olivier
+    family: Nicol
+  - given: Jérémie
+    family: Mary
+  - given: Philippe
+    family: Preux
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 62-85
+  id: nicol12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 62
+  lastpage: 85
+  published: 2012-05-02 00:00:00 +0000
+- title: 'Stumping along a Summary for Exploration & Exploitation Challenge 2011'
+  abstract: 'The  \emphPascal Exploration & Exploitation challenge 2011 seeks to evaluate algorithms for the online website content selection problem. This article presents the solution we used to achieve second place in this challenge and some side-experiments we performed. The methods we evaluated are all structured in three layers. The first layer provides an online summary of the data stream for continuous and nominal data. Continuous data are handled using an online quantile summary. Nominal data are summarized with a hash-based counting structure. With these techniques, we managed to build an accurate stream summary with a small memory footprint. The second layer uses the summary to build predictors. We exploited several kinds of trees from simple decision stumps to deep multivariate ones. For the last layer, we explored several combination strategies: online bagging, exponential weighting, linear ranker, and simple averaging.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/salperwyck12a.html
+  PDF: http://proceedings.mlr.press/v26/salperwyck12a/salperwyck12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-salperwyck12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Christophe
+    family: Salperwyck
+  - given: Tanguy
+    family: Urvoy
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 86-97
+  id: salperwyck12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 86
+  lastpage: 97
+  published: 2012-05-02 00:00:00 +0000
+- title: 'PAC-Bayes-Bernstein Inequality for Martingales and its Application to Multiarmed Bandits'
+  abstract: 'We develop a new tool for data-dependent analysis of the   exploration-exploitation trade-off in learning under limited   feedback. Our tool is based on two main ingredients. The first   ingredient is a new concentration inequality that makes it possible   to control the concentration of weighted averages of multiple   (possibly uncountably many) simultaneously evolving and   interdependent martingales. The second ingredient is an application of this inequality to the exploration-exploitation trade-off via importance weighted sampling. We apply the new tool to the stochastic multiarmed bandit problem, however, the main importance of this paper is the development and understanding of the new tool rather than improvement of existing algorithms for stochastic multiarmed bandits. In the follow-up work we demonstrate that the new tool can improve over state-of-the-art in structurally richer problems, such as stochastic multiarmed bandits with side information.'
+  volume: 26
+  URL: https://proceedings.mlr.press/v26/seldin12a.html
+  PDF: http://proceedings.mlr.press/v26/seldin12a/seldin12a.pdf
+  edit: https://github.com/mlresearch//v26/edit/gh-pages/_posts/2012-05-02-seldin12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2'
+  publisher: 'PMLR'
+  author: 
+  - given: Yevgeny
+    family: Seldin
+  - given: Nicolò
+    family: Cesa-Bianchi
+  - given: Peter
+    family: Auer
+  - given: François
+    family: Laviolette
+  - given: John
+    family: Shawe-Taylor
+  editor: 
+  - given: Dorota
+    family: Glowacka
+  - given: Louis
+    family: Dorard
+  - given: John
+    family: Shawe-Taylor
+  address: Bellevue, Washington, USA
+  page: 98-111
+  id: seldin12a
+  issued:
+    date-parts: 
+      - 2012
+      - 5
+      - 2
+  firstpage: 98
+  lastpage: 111
+  published: 2012-05-02 00:00:00 +0000

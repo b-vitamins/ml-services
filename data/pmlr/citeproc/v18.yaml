@@ -1,0 +1,558 @@
+
+- title: 'The Yahoo! Music Dataset and KDD-Cup’11'
+  abstract: 'KDD-Cup 2011 challenged the community to identify user tastes in music by leveraging Yahoo! Music user ratings. The competition hosted two tracks, which were based on two datasets sampled from the raw data, including hundreds of millions of ratings. The underlying ratings were given to four types of musical items: tracks, albums, artists, and genres, forming a four level hierarchical taxonomy. The challenge started on March 15, 2011 and ended on June 30, 2011 attracting 2389 participants, 2100 of which were active by the end of the competition. The popularity of the challenge is related to the fact that learning a large scale recommender systems is a generic problem, highly relevant to the industry. In addition, the contest drew interest by introducing a number of scientific and technical challenges including dataset size, hierarchical structure of items, high resolution timestamps of ratings, and a non-conventional ranking-based task. This paper provides the organizers’ account of the contest, including: a detailed analysis of the datasets, discussion of the contest goals and actual conduct, and lessons learned throughout the contest.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/dror12a.html
+  PDF: http://proceedings.mlr.press/v18/dror12a/dror12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-dror12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Gideon
+    family: Dror
+  - given: Noam
+    family: Koenigstein
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 3-18
+  id: dror12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 3
+  lastpage: 18
+  published: 2012-06-01 00:00:00 +0000
+- title: 'A Linear Ensemble of Individual and Blended Models for Music Rating Prediction'
+  abstract: 'Track 1 of KDDCup 2011 aims at predicting the rating behavior of users in the Yahoo! Music system. At National Taiwan University, we organize a course that teams up students to work on both tracks of KDDCup 2011. For trackÂ 1, we first tackle the problem by building variants of existing individual models, including Matrix Factorization, Restricted Boltzmann Machine, k-Nearest Neighbors, Probabilistic Latent Semantic Analysis, Probabilistic Principle Component Analysis and Supervised Regression. We then blend the individual models along with some carefully extracted features in a non-linear manner. A large linear ensemble that contains both the individual and the blended models is learned and taken through some post-processing steps to form the final solution. The four stages: individual model building, non-linear blending, linear ensemble and post-processing lead to a successful final solution, within which techniques on feature engineering and aggregation (blending and ensemble learning) play crucial roles. Our team is the first prize winner of both tracks of KDD Cup 2011.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/chen12a.html
+  PDF: http://proceedings.mlr.press/v18/chen12a/chen12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-chen12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Po-Lung
+    family: Chen
+  - given: Chen-Tse
+    family: Tsai
+  - given: Yao-Nan
+    family: Chen
+  - given: Ku-Chun
+    family: Chou
+  - given: Chun-Liang
+    family: Li
+  - given: Cheng-Hao
+    family: Tsai
+  - given: Kuan-Wei
+    family: Wu
+  - given: Yu-Cheng
+    family: Chou
+  - given: Chung-Yi
+    family: Li
+  - given: Wei-Shih
+    family: Lin
+  - given: Shu-Hao
+    family: Yu
+  - given: Rong-Bing
+    family: Chiu
+  - given: Chieh-Yen
+    family: Lin
+  - given: Chien-Chih
+    family: Wang
+  - given: Po-Wei
+    family: Wang
+  - given: Wei-Lun
+    family: Su
+  - given: Chen-Hung
+    family: Wu
+  - given: Tsung-Ting
+    family: Kuo
+  - given: Todd G.
+    family: McKenzie
+  - given: Ya-Hsuan
+    family: Chang
+  - given: Chun-Sung
+    family: Ferng
+  - given: Chia-Mau
+    family: Ni
+  - given: Hsuan-Tien
+    family: Lin
+  - given: Chih-Jen
+    family: Lin
+  - given: Shou-De
+    family: Lin
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 21-60
+  id: chen12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 21
+  lastpage: 60
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Collaborative Filtering Ensemble'
+  abstract: 'This paper provides the solution of the team “commendo” on the Track1 dataset of the KDD Cup 2011 Dror etÂ al.. Yahoo Labs provides a snapshot of their music-rating database as dataset for the competition. We get approximately 260 million ratings from 1 million users on 600k items. Timestamp and taxonomy information are added to the ratings. The goal of the competition was to predict unknown ratings on a testset with RMSE as error measure. Our final submission is a blend of different collaborative filtering algorithms. The algorithms are trained consecutively and they are blended together with a neural network.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/jahrer12a.html
+  PDF: http://proceedings.mlr.press/v18/jahrer12a/jahrer12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-jahrer12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Jahrer
+  - given: Andreas
+    family: Töscher
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 61-74
+  id: jahrer12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 61
+  lastpage: 74
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Rating Prediction with Informative Ensemble of Multi-Resolution Dynamic Models'
+  abstract: 'The Yahoo! music rating data set in KDD Cup 2011 raises several interesting challenges: (1) The data covers a lengthy time period of more than eight years. (2) Not only are training ratings associated date and time information, so are the test ratings. (3) The items form a hierarchy consisting of four types of items: genres, artists, albums and tracks. To capture the rich temporal dynamics within the data set, we design a class of time-aware matrix/tensor factorization models, which adopts time series based parameterizations and models user/item drifting behaviors at multiple temporal resolutions. We also incorporate the taxonomical structure into the item parameters by introducing sharing parameters between ancestors and descendants in the taxonomy. Finally, we have identified some conditions that systematically affect the effectiveness of different types of models and parameter settings. Based on these findings, we designed an informative ensemble framework, which considers additional meta features when making predictions for a particular pair of user and item. Using these techniques, we built the best single model reported officially, and our final ensemble model got third place in KDD Cup 2011.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/zheng12a.html
+  PDF: http://proceedings.mlr.press/v18/zheng12a/zheng12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-zheng12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhao
+    family: Zheng
+  - given: Tianqi
+    family: Chen
+  - given: Nathan
+    family: Liu
+  - given: Qiang
+    family: Yang
+  - given: Yong
+    family: Yu
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 75-97
+  id: zheng12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 75
+  lastpage: 97
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Novel Models and Ensemble Techniques to Discriminate Favorite Items from Unrated Ones for Personalized Music Recommendation'
+  abstract: 'The Track 2 problem in KDD-Cup 2011 (music recommendation) is to discriminate between music tracks highly rated by a given user from those which are overall highly rated, but not rated by the given user. The training dataset consists of not only user rating history, but also the taxonomic information of track, artist, album, and genre. This paper describes the solution of the National Taiwan University team which ranked first place in the competition. We exploited a diverse of models (neighborhood models, latent models, Bayesian Personalized Ranking models, and random-walk models) with local blending and global ensemble to achieve 97.45% in accuracy on the testing dataset.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/mckenzie12a.html
+  PDF: http://proceedings.mlr.press/v18/mckenzie12a/mckenzie12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-mckenzie12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Todd G.
+    family: McKenzie
+  - given: Chun-Sung
+    family: Ferng
+  - given: Yao-Nan
+    family: Chen
+  - given: Chun-Liang
+    family: Li
+  - given: Cheng-Hao
+    family: Tsai
+  - given: Kuan-Wei
+    family: Wu
+  - given: Ya-Hsuan
+    family: Chang
+  - given: Chung-Yi
+    family: Li
+  - given: Wei-Shih
+    family: Lin
+  - given: Shu-Hao
+    family: Yu
+  - given: Chieh-Yen
+    family: Lin
+  - given: Po-Wei
+    family: Wang
+  - given: Chia-Mau
+    family: Ni
+  - given: Wei-Lun
+    family: Su
+  - given: Tsung-Ting
+    family: Kuo
+  - given: Chen-Tse
+    family: Tsai
+  - given: Po-Lung
+    family: Chen
+  - given: Rong-Bing
+    family: Chiu
+  - given: Ku-Chun
+    family: Chou
+  - given: Yu-Cheng
+    family: Chou
+  - given: Chien-Chih
+    family: Wang
+  - given: Chen-Hung
+    family: Wu
+  - given: Hsuan-Tien
+    family: Lin
+  - given: Chih-Jen
+    family: Lin
+  - given: Shou-De
+    family: Lin
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 101-135
+  id: mckenzie12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 101
+  lastpage: 135
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Hybrid Recommendation Models for Binary User Preference Prediction Problem'
+  abstract: 'This paper presents detailed information of our solutions to the task 2 of KDD Cup 2011. The task 2 is called binary user preference prediction problem in the paper because it aims at separating tracks rated highly by specific users from tracks not rated by them, and the solutions of this task can be easily applied to binary user behavior data. In the contest, we firstly implemented many different models, including neighborhood-based models, latent factor models, content-based models, etc. Then, linear combination is used to combine different models together. Finally, we used robust post-processing to further refine the special user-item pairs. The final error rate is 2.4808% which placed number 2 in the Leaderboard.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/lai12a.html
+  PDF: http://proceedings.mlr.press/v18/lai12a/lai12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-lai12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Siwei
+    family: Lai
+  - given: Yang
+    family: Liu
+  - given: Huxiang
+    family: Gu
+  - given: Liheng
+    family: Xu
+  - given: Kang
+    family: Liu
+  - given: Shiming
+    family: Xiang
+  - given: Jun
+    family: Zhao
+  - given: Rui
+    family: Diao
+  - given: Liang
+    family: Xiang
+  - given: Hang
+    family: Li
+  - given: Dong
+    family: Wang
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 137-151
+  id: lai12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 137
+  lastpage: 151
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Collaborative Filtering Ensemble for Ranking'
+  abstract: 'This paper provides the solution of the team “commendo” on the Track2 dataset of the KDD Cup 2011 Dror et al.. Yahoo Labs provides a snapshot of their music-rating database as dataset for the competition, consisting of approximately 62 million ratings from 250k users on 300k items. The dataset includes hierachical information about the items. The goal of the competition is to distinguish beteen “High rated” and “Not rated” items of a user. The rating scale is discrete and ranges from 0 to 100, while a “High” rating is a rating$\geq 0$. The error measure is the percent of false rated tracks over all users, known as the fractions of misclassifications. The task is to minimize this error rate, hence the ranking should be optimized. Our final submission is a blend of different collaborative filtering algorithms enhanced, with basic statistics. The algorithms are trained consecutively and they are blended together with a neural network. Each of the algorithms optimizes a rank error measure.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/jahrer12b.html
+  PDF: http://proceedings.mlr.press/v18/jahrer12b/jahrer12b.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-jahrer12b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Jahrer
+  - given: Andreas
+    family: Töscher
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 153-167
+  id: jahrer12b
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 153
+  lastpage: 167
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Taxonomy-Informed Latent Factor Models for Implicit Feedback'
+  abstract: 'We describe a latent-factor-model-based approach to the Track 2 task of KDD Cup 2011, which required learning to discriminate between highly rated and unrated items from a large dataset of music ratings. We take the pairwise ranking route, training our models to rank the highly rated items above the unrated items that are sampled from the same distribution. Using the item relationship information from the provided taxonomy to constrain item representations results in improved predictive performance. Providing the model with features summarizing the user’s rating history as it relates to the item being ranked leads to further gains, producing the best single model result on Track 2.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/mnih12a.html
+  PDF: http://proceedings.mlr.press/v18/mnih12a/mnih12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-mnih12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Andriy
+    family: Mnih
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 169-181
+  id: mnih12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 169
+  lastpage: 181
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Feature Engineering in User’s Music Preference Prediction'
+  abstract: 'The second track of this year’s KDD Cup asked contestants to separate a user’s highly rated songs from unrated songs for a large set of Yahoo! Music listeners. We cast this task as a binary classification problem and addressed it utilizing gradient boosted decision trees. We created a set of highly predictive features, each with a clear explanation. These features were grouped into five categories: hierarchical linkage features, track-based statistical features, user-based statistical features, features derived from the k-nearest neighbors of the users, and features derived from the k-nearest neighbors of the items. No music domain knowledge was needed to create these features. We demonstrate that each group of features improved the prediction accuracy of the classification model. We also discuss the top predictive features of each category in this paper.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/xie12a.html
+  PDF: http://proceedings.mlr.press/v18/xie12a/xie12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-xie12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Jianjun
+    family: Xie
+  - given: Scott
+    family: Leishman
+  - given: Liang
+    family: Tian
+  - given: David
+    family: Lisuk
+  - given: Seongjoon
+    family: Koo
+  - given: Matthias
+    family: Blume
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 183-197
+  id: xie12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 183
+  lastpage: 197
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Combining Predictors for Recommending Music:the False Positives’ approach to KDD Cup track 2'
+  abstract: 'We describe our solution for the KDD Cup 2011 track 2 challenge. Our solution relies heavily on ensembling together diverse individual models for the prediction task, and achieved a final leaderboard/Test 1 misclassification rate of 3.8863%. This paper provides details on both the modeling and ensemble creation steps.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/balakrishnan12a.html
+  PDF: http://proceedings.mlr.press/v18/balakrishnan12a/balakrishnan12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-balakrishnan12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Suhrid
+    family: Balakrishnan
+  - given: Rensheng
+    family: Wang
+  - given: Carlos
+    family: Scheidegger
+  - given: Angus
+    family: MacLellan
+  - given: Yifan
+    family: Hu
+  - given: Aaron
+    family: Archer
+  - given: Shankar
+    family: Krishnan
+  - given: David
+    family: Applegate
+  - given: Guang Qin
+    family: Ma
+  - given: S. Tom
+    family: Au
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 199-213
+  id: balakrishnan12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 199
+  lastpage: 213
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Committee Based Prediction System for Recommendation: KDD Cup 2011, Track2'
+  abstract: 'This paper describes a solution to the 2011 KDD Cup competition, Track2: discriminating between highly rated tracks and unrated tracks in a Yahoo! Music dataset. Our approach was to use supervised learning based on 65 features generated using various techniques such as collaborative filtering, SVD, and similarity scoring. During our modeling stage, we created a number of predictors including logistic regression, artificial neural networks and gradient-boosted decision trees. To further improve robustness and reduce the variance, we used three of our top performing models and took a weighted average for the final submission, which achieved 4.3768% error.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/zhang12a.html
+  PDF: http://proceedings.mlr.press/v18/zhang12a/zhang12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-zhang12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Hang
+    family: Zhang
+  - given: Eric
+    family: Riedl
+  - given: Valery
+    family: Petrushin
+  - given: Siddharth
+    family: Pal
+  - given: Jacob
+    family: Spoelstra
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 215-229
+  id: zhang12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 215
+  lastpage: 229
+  published: 2012-06-01 00:00:00 +0000
+- title: 'Personalized Ranking for Non-Uniformly Sampled Items'
+  abstract: 'We develop an adapted version of the Bayesian Personalized Ranking (BPR) optimization criterion (Rendle etÂ al.,Â 2009) that takes the non-uniform sampling of negative test items – as in track 2 of the KDD Cup 2011 – into account. Furthermore, we present a modified version of the generic BPR learning algorithm that maximizes the new criterion. We use it to train ranking matrix factorization models as components of an ensemble. Additionally, we combine the ranking predictions with rating prediction models to also take into account rating data. With an ensemble of such combined models, we ranked 8th (out of more than 300 teams) in track 2 of the KDD Cup 2011, without using the additional taxonomic information offered by the competition organizers.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/gantner12a.html
+  PDF: http://proceedings.mlr.press/v18/gantner12a/gantner12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-gantner12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Zeno
+    family: Gantner
+  - given: Lucas
+    family: Drumond
+  - given: Christoph
+    family: Freudenthaler
+  - given: Lars
+    family: Schmidt-Thieme
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 231-247
+  id: gantner12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 231
+  lastpage: 247
+  published: 2012-06-01 00:00:00 +0000
+- title: 'The Love-Hate Square Counting Method for Recommender Systems'
+  abstract: 'Recommender systems provide personalized suggestions to users and are critical to the success of many e-commerce sites, such as Netflix and Amazon. Outside of e-commerce, recommender systems can be deployed in fields such as intelligence analysis, for recommending high-quality information source to analysts for further examination. In this work, we present the square counting method for rating predictions in recommender systems. Our method is based on analyzing the bipartite rating network with score-labeled edges representing user nodes’ ratings to item nodes. Edges are denoted as an I-love-it or I-hate-it edge based on whether the rating score on the edge is above or below a threshold. For a target user-item pair, we count the number for each configuration of love-hate squares that involve the target pair, where the sequence of I-love-it or I-hate-it edges determine the particular configuration. The counts are used as features in a supervised machine learning framework for training and rating prediction. The method is implemented and empirically evaluated on a large-scale Yahoo! music user-item rating dataset. Results show that the square counting method is fast, simple to parallelize, scalable to massive datasets and makes highly accurate predictions. Finally, we report an interesting empirical finding that configurations with consecutive I-hate-it edges seem to provide the most powerful signal in predicting a user’s love for an item.'
+  volume: 18
+  URL: https://proceedings.mlr.press/v18/kong12a.html
+  PDF: http://proceedings.mlr.press/v18/kong12a/kong12a.pdf
+  edit: https://github.com/mlresearch//v18/edit/gh-pages/_posts/2012-06-01-kong12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD Cup 2011'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph S.
+    family: Kong
+  - given: Kyle
+    family: Teague
+  - given: Justin
+    family: Kessler
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Yehuda
+    family: Koren
+  - given: Markus
+    family: Weimer
+  page: 249-261
+  id: kong12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 1
+  firstpage: 249
+  lastpage: 261
+  published: 2012-06-01 00:00:00 +0000

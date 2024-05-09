@@ -1,0 +1,216 @@
+
+- title: 'Masked Spectrogram Modeling using Masked Autoencoders for Learning General-purpose Audio Representation'
+  abstract: ' Recent general-purpose audio representations show state-of-the-art performance on various audio tasks. These representations are pre-trained by self-supervised learning methods that create training signals from the input. For example, typical audio contrastive learning uses temporal relationships among input sounds to create training signals, whereas some methods use a difference among input views created by data augmentations. However, these training signals do not provide information derived from the intact input sound, which we think is suboptimal for learning representation that describes the input as it is. In this paper, we seek to learn audio representations from the input itself as supervision using a pretext task of auto-encoding of masked spectrogram patches, Masked Spectrogram Modeling (MSM, a variant of Masked Image Modeling applied to audio spectrogram). To implement MSM, we use Masked Autoencoders (MAE), an image self-supervised learning method. MAE learns to efficiently encode the small number of visible patches into latent representations to carry essential information for reconstructing a large number of masked patches. While training, MAE minimizes the reconstruction error, which uses the input as training signal, consequently achieving our goal. We conducted experiments on our MSM using MAE (MSM-MAE) models under the evaluation benchmark of the HEAR 2021 NeurIPS Challenge. Our MSM-MAE models outperformed the HEAR 2021 Challenge results on seven out of 15 tasks (e.g., accuracies of 73.4% on CREMA-D and 85.8% on LibriCount), while showing top performance on other tasks where specialized models perform better. We also investigate how the design choices of MSM-MAE impact the performance and conduct qualitative analysis of visualization outcomes to gain an understanding of learned representations. We have made our code available online for further improvements and applications of the MSM framework. '
+  volume: 166
+  URL: https://proceedings.mlr.press/v166/niizumi22a.html
+  PDF: https://proceedings.mlr.press/v166/niizumi22a/niizumi22a.pdf
+  edit: https://github.com/mlresearch//v166/edit/gh-pages/_posts/2022-12-30-niizumi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)'
+  publisher: 'PMLR'
+  author: 
+  - given: Daisuke
+    family: Niizumi
+  - given: Daiki
+    family: Takeuchi
+  - given: Yasunori
+    family: Ohishi
+  - given: Noboru
+    family: Harada
+  - given: Kunio
+    family: Kashino
+  editor: 
+  - given: Joseph
+    family: Turian
+  - given: Björn W.
+    family: Schuller
+  - given: Dorien
+    family: Herremans
+  - given: Katrin
+    family: Kirchoff
+  - given: Paola Garcia
+    family: Perera
+  - given: Philippe
+    family: Esling
+  page: 1-24
+  id: niizumi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 30
+  firstpage: 1
+  lastpage: 24
+  published: 2022-12-30 00:00:00 +0000
+- title: 'BYOL-S: Learning Self-supervised Speech Representations by Bootstrapping'
+  abstract: 'Methods for extracting audio and speech features have been studied since pioneering work on spectrum analysis decades ago. Recent efforts are guided by the ambition to develop general-purpose audio representations. For example, deep neural networks can extract optimal embeddings if they are trained on large audio datasets. This work extends existing methods based on self-supervised learning by bootstrapping, proposes various encoder architectures, and explores the effects of using different pre-training datasets. Lastly, we present a novel training framework to come up with a <em>hybrid</em> audio representation, which combines handcrafted and data-driven learned audio features. All the proposed representations were evaluated within the HEAR NeurIPS 2021 challenge for auditory scene classification and timestamp detection tasks. Our results indicate that the hybrid model with a convolutional transformer as the encoder yields superior performance in most HEAR challenge tasks.'
+  volume: 166
+  URL: https://proceedings.mlr.press/v166/elbanna22a.html
+  PDF: https://proceedings.mlr.press/v166/elbanna22a/elbanna22a.pdf
+  edit: https://github.com/mlresearch//v166/edit/gh-pages/_posts/2022-12-30-elbanna22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)'
+  publisher: 'PMLR'
+  author: 
+  - given: Gasser
+    family: Elbanna
+  - given: Neil
+    family: Scheidwasser-Clow
+  - given: Mikolaj
+    family: Kegler
+  - given: Pierre
+    family: Beckmann
+  - given: Karl
+    family: El Hajal
+  - given: Milos
+    family: Cernak
+  editor: 
+  - given: Joseph
+    family: Turian
+  - given: Björn W.
+    family: Schuller
+  - given: Dorien
+    family: Herremans
+  - given: Katrin
+    family: Kirchoff
+  - given: Paola Garcia
+    family: Perera
+  - given: Philippe
+    family: Esling
+  page: 25-47
+  id: elbanna22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 30
+  firstpage: 25
+  lastpage: 47
+  published: 2022-12-30 00:00:00 +0000
+- title: 'From HEAR to GEAR: Generative Evaluation of Audio Representations'
+  abstract: 'The “Holistic Evaluation of Audio Representations” (HEAR) is an emerging research program towards statistical models that can transfer to diverse machine listening tasks. The originality of HEAR is to conduct a fair,  “apples-to-apples” comparison of many deep learning models over many datasets, resulting in multitask evaluation metrics that are readily interpretable by practitioners. On the flip side, this comparison incurs a neural architecture search: as such, it is not directly interpretable in terms of audio signal processing. In this paper, we propose a complementary viewpoint on the HEAR benchmark, which we name GEAR: Generative Evaluation of Audio Representations. The key idea behind GEAR is to generate a dataset of sounds with few independent factors of variability, analyze it with HEAR embeddings, and visualize it with an unsupervised manifold learning algorithm. Visual inspection reveals stark contrasts in the global structure of the nearest-neighbor graphs associated to logmelspec, Open-$L^3$, BYOL, CREPE, wav2vec2, GURA, and YAMNet. Although GEAR currently lacks mathematical refinement, we intend it as a proof of concept to show the potential of parametric audio synthesis in general-purpose machine listening research.'
+  volume: 166
+  URL: https://proceedings.mlr.press/v166/lostanlen22a.html
+  PDF: https://proceedings.mlr.press/v166/lostanlen22a/lostanlen22a.pdf
+  edit: https://github.com/mlresearch//v166/edit/gh-pages/_posts/2022-12-30-lostanlen22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)'
+  publisher: 'PMLR'
+  author: 
+  - given: Vincent
+    family: Lostanlen
+  - given: Lingyao
+    family: Yan
+  - given: Xianyi
+    family: Yang
+  editor: 
+  - given: Joseph
+    family: Turian
+  - given: Björn W.
+    family: Schuller
+  - given: Dorien
+    family: Herremans
+  - given: Katrin
+    family: Kirchoff
+  - given: Paola Garcia
+    family: Perera
+  - given: Philippe
+    family: Esling
+  page: 48-64
+  id: lostanlen22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 30
+  firstpage: 48
+  lastpage: 64
+  published: 2022-12-30 00:00:00 +0000
+- title: 'Learning General Audio Representations With Large-Scale Training of Patchout Audio Transformers'
+  abstract: 'The success of supervised deep learning methods is largely due to their ability to learn relevant features from raw data. Deep Neural Networks (DNNs) trained on large-scale datasets are capable of capturing a diverse set of features, and learning a representation that can generalize onto unseen tasks and datasets that are from the same domain. Hence, these models can be used as powerful feature extractors, in combination with shallower models as classifiers, for smaller tasks and datasets where the amount of training data is insufficient for learning an end-to-end model from scratch. During the past years, Convolutional Neural Networks (CNNs) have largely been the method of choice for audio processing. However, recently attention-based transformer models have demonstrated great potential in supervised settings, outperforming CNNs. In this work, we investigate the use of audio transformers trained on large-scale datasets to learn general-purpose representations. We study how the different setups in these audio transformers affect the quality of their embeddings. We experiment with the models’ time resolution, extracted embedding level, and receptive fields in order to see how they affect performance on a variety of tasks and datasets, following the HEAR 2021 NeurIPS challenge evaluation setup. Our results show that representations extracted by audio transformers outperform CNN representations. Furthermore, we will show that transformers trained on Audioset can be extremely effective representation extractors for a wide range of downstream tasks.'
+  volume: 166
+  URL: https://proceedings.mlr.press/v166/koutini22a.html
+  PDF: https://proceedings.mlr.press/v166/koutini22a/koutini22a.pdf
+  edit: https://github.com/mlresearch//v166/edit/gh-pages/_posts/2022-12-30-koutini22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)'
+  publisher: 'PMLR'
+  author: 
+  - given: Khaled
+    family: Koutini
+  - given: Shahed
+    family: Masoudian
+  - given: Florian
+    family: Schmid
+  - given: Hamid
+    family: Eghbal-zadeh
+  - given: Jan
+    family: Schlüter
+  - given: Gerhard
+    family: Widmer
+  editor: 
+  - given: Joseph
+    family: Turian
+  - given: Björn W.
+    family: Schuller
+  - given: Dorien
+    family: Herremans
+  - given: Katrin
+    family: Kirchoff
+  - given: Paola Garcia
+    family: Perera
+  - given: Philippe
+    family: Esling
+  page: 65-89
+  id: koutini22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 30
+  firstpage: 65
+  lastpage: 89
+  published: 2022-12-30 00:00:00 +0000
+- title: 'The Efficacy of Self-Supervised Speech Models for Audio Representations'
+  abstract: 'Self-supervised learning (SSL) speech models, which can serve as powerful upstream models to extract meaningful speech representations, have achieved unprecedented success in speech representation learning.  However, their effectiveness on non-speech datasets is relatively less explored. In this work, we propose an ensemble framework, with a combination of ensemble techniques, to fuse SSL speech models'' embeddings. Extensive experiments on speech and non-speech audio datasets are conducted to investigate the representation abilities of our ensemble method and its single constituent model. Ablation studies are carried out to evaluate the performances of different ensemble techniques, such as feature averaging and concatenation. All experiments are conducted during NeurIPS 2021 HEAR Challenge as a standard evaluation pipeline provided by competition officials. Results demonstrate SSL speech models'' strong abilities on various non-speech tasks, while we also note that they fail to deal with fine-grained music tasks, such as pitch classification and note onset detection. In addition, feature ensemble is shown to have great potential on producing more holistic representations, as our proposed framework generally surpasses state-of-the-art SSL speech/audio models and has superior performance on various datasets compared with other teams in HEAR Challenge. Our code is available at https://github.com/tony10101105/HEAR-2021-NeurIPS-Challenge—NTU-GURA.'
+  volume: 166
+  URL: https://proceedings.mlr.press/v166/wu22a.html
+  PDF: https://proceedings.mlr.press/v166/wu22a/wu22a.pdf
+  edit: https://github.com/mlresearch//v166/edit/gh-pages/_posts/2022-12-30-wu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)'
+  publisher: 'PMLR'
+  author: 
+  - given: Tung-Yu
+    family: Wu
+  - given: Tsu-Yuan
+    family: Hsu
+  - given: Chen-An
+    family: Li
+  - given: Tzu-Han
+    family: Lin
+  - given: Hung-yi
+    family: Lee
+  editor: 
+  - given: Joseph
+    family: Turian
+  - given: Björn W.
+    family: Schuller
+  - given: Dorien
+    family: Herremans
+  - given: Katrin
+    family: Kirchoff
+  - given: Paola Garcia
+    family: Perera
+  - given: Philippe
+    family: Esling
+  page: 90-110
+  id: wu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 30
+  firstpage: 90
+  lastpage: 110
+  published: 2022-12-30 00:00:00 +0000

@@ -1,0 +1,722 @@
+
+- title: 'Preface'
+  abstract: 'Preface to GMML 2023'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/madu-blessing24a.html
+  PDF: https://proceedings.mlr.press/v226/madu-blessing24a/madu-blessing24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-madu-blessing24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 1-3
+  id: madu-blessing24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 1
+  lastpage: 3
+  published: 2024-04-24 00:00:00 +0000
+- title: 'An Attention-based Predictive Agent for Handwritten Numeral/Alphabet Recognition via Generation'
+  abstract: 'A number of attention-based models for either classification or generation of handwritten numerals/alphabets have been reported in the literature. However, generation and classification are done jointly in very few end-to-end models. We propose a predictive agent model that actively samples its visual environment via a sequence of glimpses. The attention is driven by the agent’s sensory prediction (or generation) error. At each sampling instant, the model predicts the observation class and completes the partial sequence observed till that instant. It learns where and what to sample by jointly minimizing the classification and generation errors. Three variants of this model are evaluated for handwriting generation and recognition on images of handwritten numerals and alphabets from benchmark datasets. We show that the proposed model is more efficient in handwritten numeral/alphabet recognition than human participants in a recently published study as well as a highly-cited attention-based reinforcement model. This is the first known attention-based agent to interact with and learn end-to-end from images for recognition via generation, with high degree of accuracy and efficiency.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/banerjee24a.html
+  PDF: https://proceedings.mlr.press/v226/banerjee24a/banerjee24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-banerjee24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Bonny
+    family: Banerjee
+  - given: Murchana
+    family: Baruah
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 4-20
+  id: banerjee24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 4
+  lastpage: 20
+  published: 2024-04-24 00:00:00 +0000
+- title: 'SAM meets Gaze: Passive Eye Tracking for Prompt-based Instance Segmentation'
+  abstract: 'The annotation of large new datasets for machine learning is a very time-consuming and expensive process. This is particularly true for pixel-accurate labelling of e.g. segmentation masks. Prompt-based methods have been developed to accelerate this label generation process by allowing the model to incorporate additional clues from other sources such as humans. The recently published Segment Anything foundation model (SAM) extends this approach by providing a flexible framework with a model that was trained on more than 1 billion segmentation masks, while also being able to exploit explicit user input. In this paper, we explore the usage of a passive eye tracking system to collect gaze data during unconstrained image inspections which we integrate as a novel prompt input for SAM. We evaluated our method on the original SAM model and finetuned the prompt encoder and mask decoder for different gaze-based inputs, namely fixation points, blurred gaze maps and multiple heatmap variants. Our results indicate that the acquisition of gaze data is faster than other prompt-based approaches while the segmentation performance stays comparable to the state-of-the-art performance of SAM. Code is available at https://zivgitlab.uni-muenster.de/cvmls/sam_meets_gaze.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/beckmann24a.html
+  PDF: https://proceedings.mlr.press/v226/beckmann24a/beckmann24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-beckmann24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Daniel
+    family: Beckmann
+  - given: Jacqueline
+    family: Kockwelp
+  - given: Joerg
+    family: Gromoll
+  - given: Friedemann
+    family: Kiefer
+  - given: Benjamin
+    family: Risse
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 21-39
+  id: beckmann24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 21
+  lastpage: 39
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Temporal Understanding of Gaze Communication with GazeTransformer'
+  abstract: 'Gaze plays a crucial role in daily social interactions as it allows humans to communicate intentions effectively. We address the problem of temporal understanding of gaze communication in social videos in two stages. First, we develop GazeTransformer, an end-to-end module that infers atomic-level behaviours in a given frame. Second, we develop a temporal module that predicts event-level behaviours in a video using the inferred atomic-level behaviours. Compared to existing methods, GazeTransformer does not require human head and object locations as input. Instead, it identifies these locations in a parallel and end-to-end manner. In addition, it can predict the attended targets of all predicted humans and infer more atomic-level behaviours that cannot be handled simultaneously by previous approaches. We achieve promising performance on both atomic- and event-level prediction on the (M)VACATION dataset. Code will be available at https://github.com/gazetransformer/gazetransformer.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/belen24a.html
+  PDF: https://proceedings.mlr.press/v226/belen24a/belen24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-belen24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Ryan
+    prefix: Anthony de
+    family: Belen
+  - given: Gelareh
+    family: Mohammadi
+  - given: Arcot
+    family: Sowmya
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 40-60
+  id: belen24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 40
+  lastpage: 60
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Exploring Foveation and Saccade for Improved Weakly-Supervised Localization'
+  abstract: 'Deep neural networks have become the de facto choice as feature extraction engines, ubiquitously used for computer vision tasks. The current approach is to process every input with uniform resolution in a one-shot manner and make all of the predictions at once. However, human vision is an "active" process that not only actively switches from one focus point to another within the visual field, but also applies spatially varying attention centered at such focus points. To bridge the gap, we propose incorporating the bio-plausible mechanisms of foveation and saccades to build an active object localization framework. While foveation enables it to process different regions of the input with variable degrees of detail, saccades allow it to change the focus point of such foveated regions. Our experiments show that these mechanisms improve the quality of predicted bounding boxes by capturing all the essential object parts while minimizing unnecessary background clutter. Additionally, they enable the resiliency of the method by allowing it to detect multiple objects while being trained only on data containing a single object per image. Finally, we explore the alignment of our method with human perception using the interesting "duck-rabbit" optical illusion. The code is available at: https://github.com/TimurIbrayev/FALcon.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/ibrayev24a.html
+  PDF: https://proceedings.mlr.press/v226/ibrayev24a/ibrayev24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-ibrayev24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Timur
+    family: Ibrayev
+  - given: Manish
+    family: Nagaraj
+  - given: Amitangshu
+    family: Mukherjee
+  - given: Kaushik
+    family: Roy
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 61-89
+  id: ibrayev24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 61
+  lastpage: 89
+  published: 2024-04-24 00:00:00 +0000
+- title: 'StatTexNet: Evaluating the Importance of Statistical Parameters for Pyramid-Based Texture and Peripheral Vision Models'
+  abstract: 'Peripheral vision plays an important role in human vision, directing where and when to make saccades. Although human behavior in the periphery is well-predicted by pyramid- based texture models, these approaches rely on hand-picked image statistics that are still insufficient to capture a wide variety of textures. To develop a more principled approach to statistic selection for texture-based models of peripheral vision, we develop a self-supervised machine learning model to determine what set of statistics are most important for repre- senting texture. Our model, which we call StatTexNet, uses contrastive learning to take a large set of statistics and compress them to a smaller set that best represents texture fami- lies. We validate our method using depleted texture images where the constituent statistics are already known. We then use StatTexNet to determine the most and least important statistics for natural (non-depleted) texture images using weight interpretability metrics, finding these to be consistent with previous psychophysical studies. Finally, we demonstrate that textures are most effectively synthesized with the statistics identified as important; we see noticeable deterioration when excluding the most important statistics, but minimal effects when excluding least important. Overall, we develop a machine learning method of selecting statistics that can be used to create better peripheral vision models. With these better models, we can more effectively understand the effects of peripheral vision in human gaze.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/koevesdi24a.html
+  PDF: https://proceedings.mlr.press/v226/koevesdi24a/koevesdi24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-koevesdi24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Christian
+    family: Koevesdi
+  - given: Vasha
+    family: DuTell
+  - given: Anne
+    family: Harrington
+  - given: Mark
+    family: Hamilton
+  - given: William T.
+    family: Freeman
+  - given: Ruth
+    family: Rosenholtz
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 90-106
+  id: koevesdi24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 90
+  lastpage: 106
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Interaction-aware Dynamic 3D Gaze Estimation in Videos'
+  abstract: 'Human gaze in in-the-wild and outdoor human activities is a continuous and dynamic process that is driven by the anatomical eye movements such as fixations, saccades and smooth pursuit. However, learning gaze dynamics in videos remains as a challenging task as annotating human gaze in videos is labor-expensive. In this paper, we propose a novel method for dynamic 3D gaze estimation in videos by utilizing the human interaction labels. Our model contains a temporal gaze estimator which is built upon Autoregressive Transformer structures. Besides, our model learns the spatial relationship of gaze among multiple subjects, by constructing a Human Interaction Graph from predicted gaze and update the gaze feature with a structure-aware Transformer. Our model predict future gaze conditioned on historical gaze and the gaze interactions in an autoregressive manner. We propose a multi-state training algorithm to alternately update the Interaction module and dynamic gaze estimation module, when training on a mixture of labeled and unlabeled sequences. We show significant improvements in both within-domain gaze estimation accuracy and cross-domain generalization on the physically-unconstrained gaze estimation benchmark.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/kuang24a.html
+  PDF: https://proceedings.mlr.press/v226/kuang24a/kuang24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-kuang24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Chenyi
+    family: Kuang
+  - given: Jeffrey
+    family: O. Kephart
+  - given: Qiang
+    family: Ji
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 107-124
+  id: kuang24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 107
+  lastpage: 124
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Planning By Active Sensing'
+  abstract: 'Flexible behavior requires rapid planning, but planning requires a good internal model of the environment. Learning this model by trial-and-error is impractical when acting in complex environments. How do humans plan action sequences efficiently when there is uncertainty about model components? To address this, we asked human participants to navigate complex mazes in virtual reality. We found that the paths taken to gather rewards were close to optimal even though participants had no prior knowledge of these environments. Based on the sequential eye movement patterns observed when participants mentally compute a path before navigating, we develop an algorithm that is capable of rapidly planning under uncertainty by active sensing i.e., visually sampling information about the structure of the environment. ew eye movements are chosen in an iterative manner by following the gradient of a dynamic value map which is updated based on the previous eye movement, until the planning process reaches convergence. In addition to bearing hallmarks of human navigational planning, the proposed algorithm is sample-efficient such that the number of visual samples needed for planning scales linearly with the path length regardless of the size of the state space.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/lakshminarasimhan24a.html
+  PDF: https://proceedings.mlr.press/v226/lakshminarasimhan24a/lakshminarasimhan24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-lakshminarasimhan24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Kaushik
+    family: Lakshminarasimhan
+  - given: Seren
+    family: Zhu
+  - given: Dora
+    family: Angelaki
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 125-141
+  id: lakshminarasimhan24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 125
+  lastpage: 141
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Detection of Drowsiness and Impending Microsleep from Eye Movements'
+  abstract: 'Drowsiness is a contributing factor in an estimated 12% of all road traffic fatalities. It is known that drowsiness directly affects oculomotor control. We therefore investigate whether drowsiness can be detected based on eye movements. To this end, we develop deep neural sequence models that exploit a person’s raw eye-gaze and eye-closure signals to detect drowsiness. We explore three measures of drowsiness ground truth: a widely-used sleepiness self-assessment, reaction time, and impending microsleep in the near future. We find that our sequence models are able to detect drowsiness and outperform a baseline processing established engineered features. We also find that the risk of a microsleep event in the near future can be predicted more accurately than the sleepiness self-assessment or the reaction time. Moreover, a model that has been trained on predicting microsleep also excels at predicting self-assessed sleepiness in a cross-task evaluation, which indicates that upcoming microsleep is a less noisy proxy of the drowsiness ground truth. We investigate the relative contribution of eye-closure and gaze information to the model’s performance. In order to make the topic of drowsiness detection more accessible to the research community, we collect and share eye-gaze data with participants in baseline and sleep-deprived states.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/makowski24a.html
+  PDF: https://proceedings.mlr.press/v226/makowski24a/makowski24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-makowski24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Silvia
+    family: Makowski
+  - given: Paul
+    family: Prasse
+  - given: Lena
+    family: Ann Jäger
+  - given: Tobias
+    family: Scheffer
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 142-160
+  id: makowski24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 142
+  lastpage: 160
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Leveraging Multi-Modal Saliency and Fusion for Gaze Target Detection'
+  abstract: 'Gaze target detection (GTD) is the task of predicting where a person in an image is looking. This is a challenging task, as it requires the ability to understand the relationship between the person’s head, body, and eyes, as well as the surrounding environment. In this paper, we propose a novel method for GTD that fuses multiple pieces of information extracted from an image. First, we project the 2D image into a 3D representation using monocular depth estimation. We then extract a depth-infused saliency module map, which highlights the most salient (attention - grabbing) regions in image for the subject in consideration. We also extract face and depth modalities from the image, and finally fuse all the extracted modalities to identify the gaze target. We quantitatively evaluated our method, including the ablation analysis on three publicly available datasets, namely VideoAttentionTarget, GazeFollow and GOO-Real, and showed that it outperforms other state-of-the-art methods. This suggests that our method is a promising new approach for GTD.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/mathew24a.html
+  PDF: https://proceedings.mlr.press/v226/mathew24a/mathew24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-mathew24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Athul
+    family: Mathew
+  - given: Arshad
+    family: Khan
+  - given: Thariq
+    family: Khalid
+  - given: AL-Tam
+    family: Faroq
+  - given: Riad
+    family: Souissi
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 161-180
+  id: mathew24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 161
+  lastpage: 180
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Human-like multiple object tracking through occlusion via gaze-following'
+  abstract: 'State-of-the art multiple object tracking (MOT) models have recently been shown to behave in qualitatively different ways from human observers. They exhibit superhuman performance for large numbers of targets and subhuman performance when targets disappear behind occluders. Here we investigate whether human gaze behavior can help explain differences in human and model behavior. Human subjects watched scenes with objects of various appearances. They tracked a designated subset of the objects, which moved continuously and frequently disappeared behind static black-bar occluders, reporting the designated objects at the end of each trial. We measured eye movements during tracking and tracking accuracy. We found that human gaze behavior is clearly guided by task-relevance: designated objects were preferentially fixated. We compared human performance to that of cognitive models inspired by state-of-the art MOT models with object slots, where each slot represents model’s probabilistic belief about the location and appearance of one object. In our model, incoming observations are unambiguously assigned to slots using the Hungarian algorithm. Locations are tracked probabilistically (given the hard assignment) with one Kalman filter per slot. We equipped the computational models with a fovea, yielding high-precision observations at the center and low-precision observations in the periphery. We found that constraining models to follow the same gaze behavior as humans (imposing the human measured fixation sequences) yields best captures human behavioral phenomena. These results demonstrate the importance of gaze behavior, allowing the human visual system to optimally use its limited resources.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/peters24a.html
+  PDF: https://proceedings.mlr.press/v226/peters24a/peters24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-peters24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Benjamin
+    family: Peters
+  - given: Eivinas
+    family: Butkus
+  - given: Nikolaus
+    family: Kriegeskorte
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 181-196
+  id: peters24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 181
+  lastpage: 196
+  published: 2024-04-24 00:00:00 +0000
+- title: 'SuperVision: Self-Supervised Super-Resolution for Appearance-Based Gaze Estimation'
+  abstract: 'Gaze estimation is a valuable tool with a broad range of applications in various fields, including medicine, psychology, virtual reality, marketing, and safety. Therefore, it is essential to have gaze estimation software that is cost-efficient and high-performing. Accurately predicting gaze remains a difficult task, particularly in real-world situations where images are affected by motion blur, video compression, and noise. Super-resolution (SR) has been shown to remove these degradations and improve image quality from a visual perspective. This work examines the usefulness of super-resolution for improving appearance-based gaze estimation and demonstrates that not all SR models preserve the gaze direction. We propose a two-step framework for gaze estimation based on the SwinIR super-resolution model. The proposed method consistently outperforms the state-of-the-art, particularly in scenarios involving low-resolution or degraded images. Furthermore, we examine the use of super-resolution through the lens of self-supervised learning for gaze estimation and propose a novel architecture “SuperVision” by fusing an SR backbone network to a ResNet18. While only using 20% of the data, the proposed SuperVision architecture outperforms the state-of-the-art GazeTR method by 15.5%.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/o-shea24a.html
+  PDF: https://proceedings.mlr.press/v226/o-shea24a/o-shea24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-o-shea24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Galen
+    family: O’Shea
+  - given: Majid
+    family: Komeili
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 197-218
+  id: o-shea24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 197
+  lastpage: 218
+  published: 2024-04-24 00:00:00 +0000
+- title: 'EG-SIF: Improving Appearance Based Gaze Estimation using Self Improving Features'
+  abstract: 'Accurate gaze estimation is integral to a myriad of applications, from augmented reality to non-verbal communication analysis. However, the performance of gaze estimation models is often compromised by adverse conditions such as poor lighting, artifacts, low-resolution imagery, etc. To counter these challenges, we introduce the eye gaze estimation with self- improving features (EG-SIF) method, a novel approach that enhances model robustness and performance in suboptimal conditions. The EG-SIF method innovatively segregates eye images by quality, synthesizing pairs of high-quality and corresponding degraded images. It leverages a multitask training paradigm that emphasizes image enhancement through reconstruction from impaired versions. This strategy is not only pioneering in the realm of data segregation based on image quality but also introduces a transformative multitask framework that integrates image enhancement as an auxiliary task. We implement adaptive binning and mixed regression with intermediate supervision to refine capability of our model further. Empirical evidence demonstrates that our EG-SIF method significantly reduces the angular error in gaze estimation on challenging datasets such as MPIIGaze, improving from 4.64◦ to 4.53◦, and on RTGene, from 7.44◦ to 7.41◦, thereby setting a new benchmark in the field. Our contributions lay the foundation for future eye appearance based gaze estimation models that can operate reliably despite the presence of image quality adversities.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/singh24a.html
+  PDF: https://proceedings.mlr.press/v226/singh24a/singh24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-singh24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Vasudev
+    family: Singh
+  - given: Chaitanya
+    family: Langde
+  - given: Sourav
+    family: Lakotia
+  - given: Vignesh
+    family: Kannan
+  - given: Shuaib
+    family: Ahmed
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 219-235
+  id: singh24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 219
+  lastpage: 235
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Memory-Based Sequential Attention'
+  abstract: 'Computational models of sequential attention often use recurrent neural networks, which may lead to information loss over accumulated glimpses and an inability to dynamically reweigh glimpses at each step. Addressing the former limitation should result in greater performance, while addressing the latter should enable greater interpretability. In this work, we propose a biologically-inspired model of sequential attention for image classification. Specifically, our algorithm contextualizes the history of observed locations from within an image to inform future gaze points, akin to scanpaths in the biological visual system. We achieve this by using a transformer-based memory module coupled with a reinforcement learning-based learning algorithm, improving both task performance and model interpretability. In addition to empirically evaluating our approach on classical vision tasks, we demonstrate the robustness of our algorithm to different initial locations in the image and provide interpretations of sampled locations from within the trajectory.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/stock24a.html
+  PDF: https://proceedings.mlr.press/v226/stock24a/stock24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-stock24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Jason
+    family: Stock
+  - given: Charles
+    family: Anderson
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 236-253
+  id: stock24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 236
+  lastpage: 253
+  published: 2024-04-24 00:00:00 +0000
+- title: 'GazeSAM: Interactive Image Segmentation with Eye Gaze and Segment Anything Model'
+  abstract: 'Interactive image segmentation aims to assist users in efficiently generating high-quality data annotations through user-friendly interactions such as clicking, scribbling, and bounding boxes. However, mouse-based interaction methods can induce user fatigue during large-scale dataset annotation and are not entirely suitable for some domains, such as radiology. This study introduces eye gaze as a novel interactive prompt for image segmentation, different than previous model-based applications. Specifically, leveraging the real-time interactive prompting feature of the recently proposed Segment Anything Model (SAM), we present the GazeSAM system to enable users to collect target segmentation masks by simply looking at the region of interest. GazeSAM tracks users’ eye gaze and utilizes it as the input prompt for SAM, generating target segmentation masks in real time. To our best knowledge, GazeSAM is the first work to combine eye gaze and SAM for interactive image segmentation. Experimental results demonstrate that GazeSAM can improve nearly 50% efficiency in 2D natural image and 3D medical image segmentation tasks. The code is available in https://github.com/ukaukaaaa/GazeSAM.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/wang24a.html
+  PDF: https://proceedings.mlr.press/v226/wang24a/wang24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-wang24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Bin
+    family: Wang
+  - given: Armstrong
+    family: Aboah
+  - given: Zheyuan
+    family: Zhang
+  - given: Hongyi
+    family: Pan
+  - given: Ulas
+    family: Bagci
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 254-265
+  id: wang24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 254
+  lastpage: 265
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Crafting Good Views of Medical Images for Contrastive Learning via Expert-level Visual Attention'
+  abstract: 'Recent advancements in contrastive learning methods have shown significant improvements, which focus on minimizing the distances between different views of the same image. These methods typically craft two randomly augmented views of the same image as a positive pair, expecting the model to capture the inherent representation of the image. However, random data augmentation might not fully preserve image semantic information and can lead to a decline in the quality of the augmented views, thereby affecting the effectiveness of contrastive learning. This issue is particularly pronounced in the domain of medical images, where lesion areas can be subtle and are susceptible to distortion or removal. To address this issue, we leverage insights from radiologists’ expertise in diagnosing medical images and propose Gaze-Conditioned Augmentation (GCA) to craft high-quality contrastive views of medical images given the radiologist’s visual attention. Specifically, we track the gaze movements of radiologists and model their visual attention when reading to diagnose X-ray images. The learned model can predict visual attention of the radiologist when presented with a new X-ray image, and further guide the attention-aware augmentation, ensuring that it pays special attention to preserving disease-related abnormalities. Our proposed GCA can significantly improve the performance of contrastive learning methods on knee X-ray images, revealing its potential in medical applications.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/wang24b.html
+  PDF: https://proceedings.mlr.press/v226/wang24b/wang24b.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-wang24b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Sheng
+    family: Wang
+  - given: Zihao
+    family: Zhao
+  - given: Lichi
+    family: Zhang
+  - given: Dinggang
+    family: Shen
+  - given: Qian
+    family: Wang
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 266-279
+  id: wang24b
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 266
+  lastpage: 279
+  published: 2024-04-24 00:00:00 +0000
+- title: 'Discussion and recommendations from the 2023 "Gaze Meets ML" workshop breakout session'
+  abstract: 'The Gaze Meets ML (GMML) workshop at NeurIPS aims to bring together diverse machine learning communities to foster research that leverages eye gaze (visual attention) to fulfill synergy between human attention/cognition and machine learning model development and evaluation. Towards this mission, the 2023 GMML workshop ran a breakout session to foster the research community by discussing open challenges. Three focus breakout session areas were identified through a selection process: Datasets, Community, and Vision and Actions for the Future. The findings and discussion points from this session were collected during the meeting and further organized and expanded after the meeting for efficient presentation here. The following sections detail each topic.'
+  volume: 226
+  URL: https://proceedings.mlr.press/v226/karargyris24a.html
+  PDF: https://proceedings.mlr.press/v226/karargyris24a/karargyris24a.pdf
+  edit: https://github.com/mlresearch//v226/edit/gh-pages/_posts/2024-04-24-karargyris24a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2nd Gaze Meets ML workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexandros
+    family: Karargyris
+  - given: Shuaib
+    family: Ahmed
+  - given: Ryan
+    prefix: Anthony de
+    family: Belen
+  - given: Bonny
+    family: Banerjee
+  - given: Timur
+    family: Ibrayev
+  - given: Satyananda
+    family: Kashyap
+  - given: Elizabeth
+    family: Krupinski
+  - given: Chenyi
+    family: Kuang
+  - given: Paul
+    family: Madu
+  - given: Amarachi
+    family: Madu
+  - given: Silvia
+    family: Makowski
+  - given: Athul
+    family: Mathew
+  - given: Tim
+    family: Rolff
+  - given: Bert
+    family: Shi
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  editor: 
+  - given: Amarachi
+    family: Madu Blessing
+  - given: Joy
+    family: Wu
+  - given: Danca
+    family: Zario
+  - given: Elizabeth
+    family: Krupinski
+  - given: Satyananda
+    family: Kashyap
+  - given: Alexandros
+    family: Karargyris
+  page: 280-288
+  id: karargyris24a
+  issued:
+    date-parts: 
+      - 2024
+      - 4
+      - 24
+  firstpage: 280
+  lastpage: 288
+  published: 2024-04-24 00:00:00 +0000

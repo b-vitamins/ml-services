@@ -1,0 +1,384 @@
+
+- title: 'Advances in Metalearning: ECML/PKDD Workshop on Meta-Knowledge Transfer'
+  abstract: 'Meta-knowledge plays an important role in current machine learning and AutoML systems. One way of acquiring meta-knowledge is by observing learning processes (on the same task, or on different tasks) and representing it in such a way that it can be used later to improve future learning processes. Metalearning systems, on the other hand, normally explore metaknowledge acquired on different problems. The systems may, in addition, use metaknowledge concerning which part of the space should be examined first (i.e., a warm start or dynamic scheduling). Various contributions of this workshop addressed various aspects of metaknowledge, and in particular, how it is exploited in different systems. This workshop included two invited talks, one by Hospedales on “Meta-learning for Knowledge Transfer” and another by Hitzler on “Some advances regarding ontologies and neuro-symbolic artificial intelligence”. '
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/brazdil22a.html
+  PDF: https://proceedings.mlr.press/v191/brazdil22a/brazdil22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-brazdil22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 1-7
+  id: brazdil22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 1
+  lastpage: 7
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Some advances regarding ontologies and neuro-symbolic artificial intelligence'
+  abstract: 'This abstract serves as pointers to the most relevant literature references underlying my workshop keynote. Symbolic AI (based on knowledge representation and formal logic) and AI based on artificial neural networks (such as deep learning) are fundamentally different approaches to artificial intelligence with complementary capabilities. The former are transparent and data-efficient, but they are sensitive to noise and cannot be applied to non-symbolic domains where the data is ambiguous. The latter can learn complex tasks from examples, are robust to noise, but are black boxes; require large amounts of – not necessarily easily obtained – data, and are slow to learn and prone to adversarial examples. Either paradigm excels at certain types of problems where the other paradigm performs poorly. In order to develop stronger AI systems, integrated neuro-symbolic systems that combine artificial neural networks and symbolic reasoning are being sought. In this talk, we discuss two related lines of investigation in neuro-symbolic AI. (1) We report on our work in progress of using concept induction over ontologies for explaining deep learning systems. (2) We present recent results regarding the acquisition of formal logical reasoning capabilities over ontologies, though deep learning, which we call Deep Deductive Reasoning. '
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/hitzler22a.html
+  PDF: https://proceedings.mlr.press/v191/hitzler22a/hitzler22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-hitzler22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Pascal
+    family: Hitzler
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 8-10
+  id: hitzler22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 8
+  lastpage: 10
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Challenges of Acquiring Compositional Inductive Biases via Meta-Learning'
+  abstract: 'Comparing the performance of two configurations of a given algorithm plays a critical role in algorithm configuration and performance optimisation, be it automated or manual, and requires substantial computational resources. Time is often wasted on less promising configurations but also on instances that require a long running time regardless of the configuration. Prior work has shown that by running an algorithm on carefully selected instances, the time required to accurately decide the better of two given algorithms can be  significantly reduced. In this work, we explore ways to apply a similar selection process to compare two configurations of the same algorithm. We adapted four selection methods from the literature to work with the performance model used in model-based configurators and evaluated them on six benchmarks. Our experimental evaluation shows that, depending on the problem instances and their running time distribution, a decision can be reached 5 to 3000 times faster than with random sampling, the method used in current state-of-the-art configurators.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/anastacio22a.html
+  PDF: https://proceedings.mlr.press/v191/anastacio22a/anastacio22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-anastacio22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Marie
+    family: Anastacio
+  - given: Théo
+    family: Matricon
+  - given: Holger
+    family: Hoos
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 11-23
+  id: anastacio22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 11
+  lastpage: 23
+  published: 2022-12-23 00:00:00 +0000
+- title: 'NeurIPS’22 Cross-Domain MetaDL competition: Design and baseline results'
+  abstract: 'We present the design and baseline results for a new challenge in the ChaLearn meta-learning series, accepted at NeurIPS’22, focusing on “cross-domain” meta-learning. Meta-learning aims to leverage experience gained from previous tasks to solve new tasks efficiently (i.e., with better performance, little training data, and/or modest computational resources). While previous challenges in the series focused on within-domain few-shot learning problems, with the aim of learning efficiently N-way k-shot tasks (i.e., N class classification problems with k training examples), this competition challenges the participants to solve “any-way” and “any-shot” problems drawn from various domains (healthcare, ecology, biology, manufacturing, and others), chosen for their humanitarian and societal impact. To that end, we created Meta-Album, a meta-dataset of 40 image classification datasets from 10 domains, from which we carve out tasks with any number of “ways” (within the range 2-20) and any number of “shots” (within the range 1-20). The competition is with code submission, fully blind-tested on the CodaLab challenge platform. The code of the winners will be open-sourced, enabling the deployment of automated machine learning solutions for few-shot image classification across several domains.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/carrion-ojeda22a.html
+  PDF: https://proceedings.mlr.press/v191/carrion-ojeda22a/carrion-ojeda22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-carrion-ojeda22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Dustin
+    family: Carrión-Ojeda
+  - given: Hong
+    family: Chen
+  - given: Adrian
+    family: El Baz
+  - given: Segio
+    family: Escalera
+  - given: Chaoyu
+    family: Guan
+  - given: Isabelle
+    family: Guyon
+  - given: Ihsan
+    family: Ullah
+  - given: Xin
+    family: Wang
+  - given: Wenwu
+    family: Zhu
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 24-37
+  id: carrion-ojeda22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 24
+  lastpage: 37
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Searching in the Forest for Local Bayesian Optimization'
+  abstract: 'Because of its sample efficiency, Bayesian optimization (BO) has become a popular approach in dealing with expensive black-box optimization problems, such as hyperparameter optimization (HPO). Recent empirical experiments showed that the loss landscapes of HPO problems tend to be more benign than previously assumed, i.e. in the best case uni-modal and convex, such that a BO framework could be more efficient if it can focus on those promising local regions. In this paper, we propose BOinG, a two-stage approach that is tailored toward HPO problems. In the first stage, we build a scalable global surrogate model with a random forest to describe the overall landscape structure. Further, we choose a promising subregion via a bottom-up approach to the upper-level tree structure. In the second stage, a local model in this subregion is utilized to suggest the point to be evaluated next. Empirical experiments show that BOinG is able to exploit the structure of typical HPO problems and performs particularly well on various problems from synthetic functions and HPO.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/deng22a.html
+  PDF: https://proceedings.mlr.press/v191/deng22a/deng22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-deng22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Difan
+    family: Deng
+  - given: Marius
+    family: Lindauer
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 38-50
+  id: deng22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 38
+  lastpage: 50
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Faster Performance Estimation for NAS with Embedding Proximity Score'
+  abstract: 'Neural Architecture Search methods generate large amounts of candidate architectures that need training to assess their performance and find an optimal architecture. To minimize the search time we use different performance estimation strategies. The effectiveness of such strategies varies in terms of accuracy and fit and query time. We propose Embedding proximity score (EmProx). EmProx builds a meta-model that maps candidate architectures to a continuous embedding space using an encoder-decoder framework. The performance of candidates is then estimated using weighted kNN based on the embedding vectors of architectures of which the performance is known. Performance estimations of this method are comparable to similar predictors in terms of accuracy while being nearly nine times faster to train compared to similar methods. Benchmarking against other performance estimation strategies currently used shows similar or better accuracy, while being five up to eighty times faster. Code is made publicly available on GitHub'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/franken22a.html
+  PDF: https://proceedings.mlr.press/v191/franken22a/franken22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-franken22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Gideon
+    family: Franken
+  - given: Prabhant
+    family: Singh
+  - given: Joaquin
+    family: Vanschoren
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 51-61
+  id: franken22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 51
+  lastpage: 61
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Trust Region Meta Learning for Policy Optimization'
+  abstract: 'Reinforcement Learning aims to train autonomous agents in their interaction with the environment by means of maximizing a given reward signal; in the last decade there has been an explosion of new algorithms, which make extensive use of hyper-parameters to control their behaviour, accuracy and speed. Often those hyper-parameters are fine-tuned by hand, and the selected values may change drastically the learning performance of the algorithm; furthermore, it happens to train multiple agents on very similar problems, starting from scratch each time. Our goal is to design a Meta-Reinforcement Learning algorithm to optimize the hyper-parameter of a well-known RL algorithm, named Trust Region Policy Optimization. We use knowledge from previous learning sessions and another RL algorithm, Fitted-Q Iteration, to build a policy-agnostic Meta-Model capable to predict the optimal hyper-parameter for TRPO at each of its steps, on new unseen problems, generalizing across different tasks and policy spaces.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/occorso22a.html
+  PDF: https://proceedings.mlr.press/v191/occorso22a/occorso22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-occorso22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Manuel
+    family: Occorso
+  - given: Luca
+    family: Sabbioni
+  - given: Alberto Maria
+    family: Metelli
+  - given: Marcello
+    family: Restelli
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 62-74
+  id: occorso22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 62
+  lastpage: 74
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Interpretable Meta-Score for Model Performance: Extended Abstract'
+  abstract: 'In benchmarking different machine learning models, we are seeing a real boom—in many applications such as computer vision or neural language processing, more and more challenges are being created. We are therefore collecting more and more data on the performance of individual models or architectures, but the question remains as to how to decide which model gives the best results and whether one model is significantly better than another. The most commonly used measures, such as AUC, accuracy, or RMSE, return a numerical assessment of how well the predictions of the selected model satisfy specific properties: they correctly assign the probability of belonging to the chosen class, they are not wrong in assigning the predicted class, or the difference between the predictions and the true values is not large. From an application point of view, however, we lack information: (i) what is the probability that a given model gets a better performance model than another; (ii) whether the differences we observe between models are statistically significant; (iii) in most cases, the values of the selected model performance metrics are incomparable between different datasets, i.e., how to compare a model’s AUC improvement by $0.01$ if for one dataset the best achieved AUC is of the order of $0.9$ and for the other $0.7$.  To address these shortcomings, in an earlier paper we introduce a new meta-measure of model performance—EPP. It is inspired by the Elo ranking used in chess and other sports games. By comparing the rankings of two players and transforming them accordingly, we obtain information on the probability that one player is better than the other. EPP adapts this property to the specific conditions of benchmarks in machine learning but allows for universal application in many benchmarking schemes. We emphasize this by introducing a unified terminology, the Unified Benchmark Ontology, and the description of the new measure is given in these terms. Hence, models are referred to as players and model performance to score.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/gosiewska22a.html
+  PDF: https://proceedings.mlr.press/v191/gosiewska22a/gosiewska22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-gosiewska22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Alicja
+    family: Gosiewska
+  - given: Katarzyna
+    family: Woźnica
+  - given: Przemysław
+    family: Biecek
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 75-77
+  id: gosiewska22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 75
+  lastpage: 77
+  published: 2022-12-23 00:00:00 +0000
+- title: 'On Usefulness of Outlier Elimination in Classification Tasks: Extended Abstract'
+  abstract: 'Although outlier detection/elimination has been studied before, few comprehensive studies exist on when exactly this technique would be useful as preprocessing in classification tasks. Our objective is identify the most useful workflows for a given set of tasks (datasets), and then examine which outlier elimination methods (OEMs) appear in these workflows. The workflows considered in this work are pipelines that include an outlier elimination step followed by a classifier. The OEMs identified this way are considered as useful. Our final aim is to verify what effect this alteration has on generalization performance. '
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/hetlerovic22a.html
+  PDF: https://proceedings.mlr.press/v191/hetlerovic22a/hetlerovic22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-hetlerovic22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Dušan
+    family: Hetlerovič
+  - given: Luboš
+    family: Popelı́nský
+  - given: Pavel
+    family: Brazdil
+  - given: Carlos
+    family: Soares
+  - given: Fernando
+    family: Freitas
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 78-80
+  id: hetlerovic22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 78
+  lastpage: 80
+  published: 2022-12-23 00:00:00 +0000
+- title: 'Experiments in Cross-domain Few-shot Learning for Image Classification: Extended Abstract'
+  abstract: 'We summarise experiments evaluating cross-domain few-shot learning (CDFSL) with feature extractors trained on ImageNet. The work explores the transfer performance of extracted features on five target domains with different degrees of similarity to ImageNet. These experiments compare robust classifiers and normalisation methods, consider multi-instance learning algorithms, and evaluate the effect of using features extracted by different ResNet backbones at various levels of their convolutional hierarchies. The cosine similarity classifier and 1-vs-rest logistic regression with $\ell_2$ regularisation are the top-performing robust classifiers in the evaluation, and $\ell_2$ normalisation improves performance on all five target domains when using LDA as the robust classifier. The results also show that feature extractors with the highest capacity do not always achieve the best CDFSL performance. Lastly, simple multi-instance learning methods are shown to improve classifier accuracy.'
+  volume: 191
+  URL: https://proceedings.mlr.press/v191/wang22a.html
+  PDF: https://proceedings.mlr.press/v191/wang22a/wang22a.pdf
+  edit: https://github.com/mlresearch//v191/edit/gh-pages/_posts/2022-12-23-wang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'ECMLPKDD Workshop on Meta-Knowledge Transfer'
+  publisher: 'PMLR'
+  author: 
+  - given: Hongyu
+    family: Wang
+  - given: Huon
+    family: Fraser
+  - given: Henry
+    family: Gouk
+  - given: Eibe
+    family: Frank
+  - given: Bernhard
+    family: Pfahringer
+  - given: Michael
+    family: Mayo
+  - given: Geoff
+    family: Holmes
+  editor: 
+  - given: Pavel
+    family: Brazdil
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Henry
+    family: Gouk
+  - given: Felix
+    family: Mohr
+  page: 81-83
+  id: wang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 23
+  firstpage: 81
+  lastpage: 83
+  published: 2022-12-23 00:00:00 +0000

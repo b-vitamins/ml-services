@@ -1,0 +1,1436 @@
+
+- title: 'ISIPTA 2021: Preface'
+  abstract: 'The ISIPTA meetings are the primary international forum for presenting and discussing advances in the theory and applications of imprecise probabilities. They are organized once every two years by SIPTA, {\em The Society for Imprecise Probabilities: Theories and Applications}. The first edition took place in Ghent in 1999. This time the {\em 12th International Symposium on Imprecise Probabilities: Theories and Applications} was planned to take place in Granada, Spain, from 6 to 9 July, 2021, but will now be an essentially virtual event due to the Covid-19 crisis. Even so, we will uphold the ISIPTA tradition of combining a friendly and cooperative style with a strong emphasis on in-depth discussion and interaction.  '
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/cano21a.html
+  PDF: http://proceedings.mlr.press/v147/cano21a/cano21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-cano21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 1-1
+  id: cano21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 1
+  lastpage: 1
+  published: 2021-08-18 00:00:00 +0000
+- title: 'An Info-gap Framework for Comparing Epistemic Uncertainty Models in Hybrid Structural Reliability Analysis'
+  abstract: 'The main objective of this work is to study the effect of the choice of the input uncertainty model on robustness evaluations of probabilities of failure. Aleatory and epistemic uncertainty are jointly propagated by considering hybrid models and applying random set theory. The notion of horizon of uncertainty found in the info-gap theory, which is usually used to assess the robustness of a model to uncertainty, allows the bounds on the failure probability obtained from different epistemic uncertainty models to be compared at increasing levels of uncertainty. Info-gap robustness and opportuneness curves are obtained and compared considering the interval model, triangular and trapezoidal possibility distributions, the probabilistic uniform distribution and the paralellepiped convex model on two toy cases. A specific demand value, as introduced in the info-gap theory, is used as a value of information metric to quantify the gain of information on the probability of failure between a less informative uncertainty model and a more informative one.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/ajenjo21a.html
+  PDF: http://proceedings.mlr.press/v147/ajenjo21a/ajenjo21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-ajenjo21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Antoine
+    family: Ajenjo
+  - given: Emmanuel
+    family: Ardillon
+  - given: Vincent
+    family: Chabridon
+  - given: Scott
+    family: Cogan
+  - given: Emeline
+    family: Sadoulet-Reboul
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 2-11
+  id: ajenjo21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 2
+  lastpage: 11
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Logical Approximations of Qualitative Probability'
+  abstract: 'We provide approximations of qualitative probability, that is, comparative structures which are representable by probability measures. We introduce sequences of qualitative belief structures, based on the ideas of Depth-Bounded logics D’Agostino et al. (2013b), and identify the conditions under which: <ul> <li>a qualitative sequence <em>approximates</em> a qualitative probability;</li> <li>a qualitative probability can be approximated.</li> </ul> '
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/baldi21a.html
+  PDF: http://proceedings.mlr.press/v147/baldi21a/baldi21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-baldi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paolo
+    family: Baldi
+  - given: Hykel
+    family: Hosni
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 12-21
+  id: baldi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 12
+  lastpage: 21
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Quantum Indistinguishability through Exchangeable Desirable Gambles'
+  abstract: 'Two particles are identical if all their intrinsic properties, such as spin and charge, are the same, meaning that no quantum experiment can distinguish them. In addition to the well known principles of quantum mechanics, understanding systems of identical particles requires a new postulate, the so called <em>symmetrization postulate</em>. In this work, we show that the postulate corresponds to exchangeability assessments for sets of observables (gambles) in a quantum experiment, when quantum mechanics is seen as a normative and algorithmic theory guiding an agent to assess her subjective beliefs represented as (coherent) sets of gambles. Finally, we show how sets of exchangeable observables (gambles) may be updated after a measurement and discuss the issue of defining entanglement for indistinguishable particle systems.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/benavoli21a.html
+  PDF: http://proceedings.mlr.press/v147/benavoli21a/benavoli21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-benavoli21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessio
+    family: Benavoli
+  - given: Alessandro
+    family: Facchini
+  - given: Marco
+    family: Zaffalon
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 22-31
+  id: benavoli21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 22
+  lastpage: 31
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Generalized Hartley Measures on Credal Sets'
+  abstract: 'The paper considers various extensions of the Hartley measure on credal sets and their investigation based on a system of axioms.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/bronevich21a.html
+  PDF: http://proceedings.mlr.press/v147/bronevich21a/bronevich21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-bronevich21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrey G.
+    family: Bronevich
+  - given: Igor N.
+    family: Rozenberg
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 32-41
+  id: bronevich21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 32
+  lastpage: 41
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Probability Filters as a Model of Belief; Comparisons to the Framework of Desirable Gambles'
+  abstract: 'We propose a model of uncertain belief. This models coherent beliefs by a filter, ${F}$, on the set of probabilities. That is, it is given by a collection of sets of probabilities which are closed under supersets and finite intersections. This can naturally capture your probabilistic judgements. When you think that it is more likely to be sunny than rainy, we have$\{ p | p(\textsc{Sunny}\xspace)>p(\textsc{Rainy}\xspace)\} \in {F}$. When you think that a gamble $g$ is desirable, we have $\{ p | \mathrm{Exp}_p[g]>0 \} \in {F}$. It naturally extends the model of credal sets; and we will show it captures all the expressive power of the desirable gambles model. It also captures the expressive power of sets of desirable gamble sets (with a mixing axiom, but no Archimadean axiom).'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/campbell-moore21a.html
+  PDF: http://proceedings.mlr.press/v147/campbell-moore21a/campbell-moore21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-campbell-moore21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Catrin
+    family: Campbell-Moore
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 42-50
+  id: campbell-moore21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 42
+  lastpage: 50
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Distributionally Robust, Skeptical Binary Inferences in Multi-label Problems'
+  abstract: 'In this paper, we consider the problem of making distributionally robust, skeptical inferences for the multi-label problem, or more generally for Boolean vectors. By distributionally robust, we mean that we consider sets of probability distributions, and by skeptical we understand that we consider as valid only those inferences that are true for every distribution within this set. Such inferences will provide partial predictions whenever the considered set is sufficiently big. We study in particular the Hamming loss case, a common loss function in multi-label problems, showing how skeptical inferences can be made in this setting. We also perform some experiments demonstrating the interest of our results.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/carranza-alarcon21a.html
+  PDF: http://proceedings.mlr.press/v147/carranza-alarcon21a/carranza-alarcon21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-carranza-alarcon21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Yonatan Carlos
+    family: Carranza Alarcón
+  - given: Sébastien
+    family: Destercke
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 51-60
+  id: carranza-alarcon21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 51
+  lastpage: 60
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Nonlinear Desirability as a Linear Classification Problem'
+  abstract: 'The present paper proposes a generalization of linearity axioms of coherence through a geometrical approach, which leads to an alternative interpretation of desirability as a <em>classification problem</em>. In particular, we analyze different sets of rationality axioms and, for each one of them, we show that proving that a subject, who provides finite accept and reject statements, respects these axioms, corresponds to solving a binary classification task using, each time, a different (usually nonlinear) family of classifiers. Moreover, by borrowing ideas from machine learning, we show the possibility to define a <em>feature mapping</em> allowing us to reformulate the above nonlinear classification problems as linear ones in a higher-dimensional space. This allows us to interpret gambles directly as payoffs vectors of <em>monetary lotteries</em>, as well as to reduce the task of proving the rationality of a subject to a linear classification task.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/casanova21a.html
+  PDF: http://proceedings.mlr.press/v147/casanova21a/casanova21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-casanova21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arianna
+    family: Casanova
+  - given: Alessio
+    family: Benavoli
+  - given: Marco
+    family: Zaffalon
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 61-71
+  id: casanova21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 61
+  lastpage: 71
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Valid Inferential Models for Prediction in Supervised Learning Problems'
+  abstract: 'Prediction, where observed data is used to quantify uncertainty about a future observation, is a fundamental problem in statistics. Prediction sets with coverage probability guarantees are a common solution, but these do not provide probabilistic uncertainty quantification in the sense of assigning beliefs to relevant assertions about the future observable. Alternatively, we recommend the use of a <em>probabilistic predictor</em>, a fully-specified (imprecise) probability distribution for the to-be-predicted observation given the observed data. It is essential that the probabilistic predictor is reliable or valid in some sense, and here we offer a notion of validity and explore its implications. We also provide a general inferential model construction that yields a provably valid probabilistic predictor, with illustrations in regression and classification.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/cella21a.html
+  PDF: http://proceedings.mlr.press/v147/cella21a/cella21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-cella21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Leonardo
+    family: Cella
+  - given: Ryan
+    family: Martin
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 72-82
+  id: cella21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 72
+  lastpage: 82
+  published: 2021-08-18 00:00:00 +0000
+- title: 'When Belief Functions and Lower Probabilities are Indistinguishable'
+  abstract: 'This paper reports on a geometrical investigation of de Finetti’s Dutch Book method as an operational foundation for a wide range of generalisations of probability measures, including lower probabilities, necessity measures and belief functions. Our main result identifies a number of non-limiting circumstances under which de Finetti’s coherence fails to lift from less to more general models. In particular our result shows that rich enough sets of events exist such that the coherence criteria for belief functions and lower probability collapse.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/corsi21a.html
+  PDF: http://proceedings.mlr.press/v147/corsi21a/corsi21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-corsi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Esther Anna
+    family: Corsi
+  - given: Tommaso
+    family: Flaminio
+  - given: Hykel
+    family: Hosni
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 83-89
+  id: corsi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 83
+  lastpage: 89
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Average Behaviour of Imprecise Markov Chains: A Single Pointwise Ergodic Theorem for Six Different Models'
+  abstract: 'We study the average behaviour of imprecise Markov chains; a generalised type of Markov chain where local probabilities are partially specified, and where structural assumptions such as Markovianity are weakened. In particular, we prove a pointwise ergodic theorem that provides (strictly) almost sure bounds on the long term average of any real function of the state of such an imprecise Markov chain. Compared to an earlier ergodic theorem by De Cooman et al. (2006), our result requires weaker conditions, provides tighter bounds, and applies to six different types of models.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/de-bock21a.html
+  PDF: http://proceedings.mlr.press/v147/de-bock21a/de-bock21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-de-bock21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jasper
+    family: De Bock
+  - given: Natan
+    family: T’Joens
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 90-99
+  id: de-bock21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 90
+  lastpage: 99
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Epistemic Argumentation with Conditional Probabilities and Labeling Constraints'
+  abstract: 'We extend epistemic graphs, a powerful representation language employed in argumentation theory, first, by allowing conditional probabilities in that language. We also offer a new way of interpreting the graph as a set of restrictions based on a selected semantics for the abstract argumentation frameworks. The resulting semantics for epistemic graphs are given by credal sets that we characterize through inequalities. We illustrate the main issues in our proposals by resorting to arguments related to climate change.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/bona21a.html
+  PDF: http://proceedings.mlr.press/v147/bona21a/bona21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-bona21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Glauber
+    prefix: de
+    family: Bona
+  - given: Victor Hugo Nascimento
+    family: Rocha
+  - given: Fabio
+    family: Cozman
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 100-109
+  id: bona21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 100
+  lastpage: 109
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Randomness and Imprecision: A Discussion of Recent Results'
+  abstract: 'We discuss our recent work on incorporating imprecision in the field of algorithmic randomness, based on the martingale-theoretic approach of game-theoretic probability. We consider several notions of randomness associated with interval, rather than precise, forecasting systems. We study their properties and argue that there are quite a number of reasons for wanting to do so. First, the richer mathematical structure in this generalisation provides a useful backdrop for a better understanding of precise randomness. Second, randomness associated with non-stationary precise forecasting systems can be captured by a constant but less precise interval forecast: greater model simplicity requires more imprecision. Third, imprecise randomness can’t always be explained away as a result of (over)simplification: there are sequences that are random for a constant interval forecast, but never random for any computable (more) precise forecasting system. Incorporating imprecision into randomness therefore allows us to do more than was hitherto possible. Finally, the random sequences for a non-vacuous interval forecast constitute a meagre set, as they do for precise forecasts: imprecise and precise random sequences are equally rare from a topological point of view, and are, in that sense, equally interesting.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/cooman21a.html
+  PDF: http://proceedings.mlr.press/v147/cooman21a/cooman21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-cooman21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Gert
+    prefix: de
+    family: Cooman
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 110-121
+  id: cooman21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 110
+  lastpage: 121
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Processing Multiple Distortion Models: a Comparative Study'
+  abstract: 'When dealing with uncertain information, distortion or neighbourhood models are convenient practical tools, as they rely on very few parameters. In this paper, we study their behaviour when such models are combined and processed. More specifically, we study their behaviour when merging different distortion models quantifying uncertainty on the same quantity, and when manipulating distortion models defined over multiple variables.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/destercke21a.html
+  PDF: http://proceedings.mlr.press/v147/destercke21a/destercke21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-destercke21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Sébastien
+    family: Destercke
+  - given: Ignacio
+    family: Montes
+  - given: Enrique
+    family: Miranda
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 122-131
+  id: destercke21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 122
+  lastpage: 131
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Credal sets of Coherent Conditional Probabilities Defined by Hausdorff Measures'
+  abstract: 'Credal sets containing coherent conditional probabilities defined by Hausdorff measures on the Borel sigma-field of metric spaces with bi-Lipschitz equivalent metrics, are proven to represent merging opinions with increasing information.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/doria21a.html
+  PDF: http://proceedings.mlr.press/v147/doria21a/doria21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-doria21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Serena
+    family: Doria
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 132-139
+  id: doria21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 132
+  lastpage: 139
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Extending the Domain of Imprecise Jump Processes from Simple Variables to Measurable Ones'
+  abstract: 'We extend the domain of imprecise jump processes, also known as imprecise continuous-time Markov chains, from inferences that depend on a finite number of time points to inferences that can depend on the state of the system at <em>all</em> time points. We also investigate the continuity properties of the resulting lower and upper expectations with respect to point-wise convergent sequences that are monotone or dominated. For two particular inferences, integrals over time and the number of jumps to a subset of states, we strengthen these continuity properties and present an iterative scheme to approximate their lower and upper expectations.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/erreygers21a.html
+  PDF: http://proceedings.mlr.press/v147/erreygers21a/erreygers21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-erreygers21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Erreygers
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 140-149
+  id: erreygers21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 140
+  lastpage: 149
+  published: 2021-08-18 00:00:00 +0000
+- title: 'An Imprecise Bayesian Approach to Thermal Runaway Probability'
+  abstract: 'In this pioneering work, an assessment of thermal runaway probability based on simplified <em>chemical kinetics</em> has been performed with imprecise Bayesian methods relying on several priors. The physical phenomenon is governed by two chemical kinetic parameters $A$ and $Ea$. We suppose that their values are considerably uncertain but also that we know the experimental profiles of a chemical species corresponding to their true values, thereby allowing us to compute likelihoods and posteriors corresponding to different levels of information. We are interested in the critical delay time $tc$ beyond which an explosion will certainly occur. The use of several priors allows us to see when the data truly dominate the prior with respect to the probability distribution of $tc$. It does not appear possible to do so in an orthodox precise Bayesian framework that reduces all forms of uncertainty to a single probability distribution.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/fischer21a.html
+  PDF: http://proceedings.mlr.press/v147/fischer21a/fischer21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-fischer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marc
+    family: Fischer
+  - given: Alexis
+    family: Vignes
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 150-160
+  id: fischer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 150
+  lastpage: 160
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Total Evidence and Learning with Imprecise Probabilities'
+  abstract: 'In dynamic learning, a rational agent must revise their credence about a question of interest in accordance with the total evidence available between the earlier and later times. We discuss situations in which an observable event $F$ that is sufficient for the total evidence can be identified, yet its probabilistic modeling cannot be performed in a precise manner. The agent may employ imprecise (IP) models of reasoning to account for the identified sufficient event, and perform change of credence or sequential decisions accordingly. Our proposal is illustrated with three case studies: the classic Monty Hall problem, statistical inference with non-ignorable missing data, and the use of forward induction in a two-person sequential game.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/gong21a.html
+  PDF: http://proceedings.mlr.press/v147/gong21a/gong21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-gong21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ruobin
+    family: Gong
+  - given: Joseph B.
+    family: Kadane
+  - given: Mark J.
+    family: Schervish
+  - given: Teddy
+    family: Seidenfeld
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 161-168
+  id: gong21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 161
+  lastpage: 168
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Dependent Possibilistic Arithmetic using Copulas'
+  abstract: 'We describe two functions on possibility distributions which allow one to compute binary operations with dependence either specified by a copula or partially defined by an imprecise copula. We use the fact that possibility distributions are consonant belief functions to aggregate two possibility distributions into a bivariate belief function using a version of Sklar’s theorem for minitive belief functions, i.e. necessity measures. The results generalise previously published independent and Fréchet methods, allowing for any stochastic dependence to be specified in the form of a (imprecise) copula. This new method produces tighter extensions than previous methods when a precise copula is used. These latest additions to possibilistic arithmetic give it the same capabilities as p-box arithmetic, and provides a basis for a p-box/possibility hybrid arithmetic. This combined arithmetic provides tighter bounds on the exact upper and lower probabilities than either method alone for the propagation of general belief functions.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/gray21a.html
+  PDF: http://proceedings.mlr.press/v147/gray21a/gray21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-gray21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ander
+    family: Gray
+  - given: Dominik
+    family: Hose
+  - given: Marco
+    family: De Angelis
+  - given: Michael
+    family: Hanss
+  - given: Scott
+    family: Ferson
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 169-179
+  id: gray21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 169
+  lastpage: 179
+  published: 2021-08-18 00:00:00 +0000
+- title: 'A Recursive Formulation of Possibilistic Filters'
+  abstract: 'We derive a recursive formulation of possibilistic filters that allow inference on the states in non-linear time-discrete dynamical systems in the presence of both aleatory and epistemic uncertainty with an imprecise probabilistic interpretation, and we present a particle-based implementation thereof.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/hose21a.html
+  PDF: http://proceedings.mlr.press/v147/hose21a/hose21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-hose21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Dominik
+    family: Hose
+  - given: Michael
+    family: Hanss
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 180-190
+  id: hose21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 180
+  lastpage: 190
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Information Algebras of Coherent Sets of Gambles in General Possibility Spaces'
+  abstract: 'In this paper, we show that coherent sets of gambles can be embedded into the algebraic structure of <em>information algebra</em>. This leads firstly, to a new perspective of the algebraic and logical structure of desirability and secondly, it connects desirability, hence imprecise probabilities, to other formalism in computer science sharing the same underlying structure. Both the <em>domain-free</em> and the <em>labeled</em> view of the information algebra of coherent sets of gambles are presented, considering general possibility spaces.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/kohlas21a.html
+  PDF: http://proceedings.mlr.press/v147/kohlas21a/kohlas21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-kohlas21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Juerg
+    family: Kohlas
+  - given: Arianna
+    family: Casanova
+  - given: Marco
+    family: Zaffalon
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 191-200
+  id: kohlas21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 191
+  lastpage: 200
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Towards Improving Electoral Forecasting by Including Undecided Voters and Interval-valued Prior Knowledge'
+  abstract: 'Increasing numbers of undecided voters constitute a severe challenge for conventional pre-election polls in multi-party systems. While these polls only provide the still pondering individuals with the options to either state a precise party or to drop out, we suggest to regard their valuable information in a set-valued way. The resulting consideration set, listing all the options the individual is still pondering between, can be interpreted under epistemic imprecision. Within this paper we extend the already existing approaches including this valuable information, by making first steps to utilize interval-valued prior information. Including background information is common in election forecasting while we focus on realistically obtainable and credible interval-valued prior information about transition probabilities from the undecided to the eventual choice. We introduce two approaches utilizing this interval-valued information, weighting the credibility against the precision of the results. For the first approach, we narrow the most cautious and wide so-called Dempster bounds by deploying the prior information on the transition probabilities as new worst and best case scenarios for each party. The second approach applies if these interval-valued results are still too wide for useful application. We hereby narrow them towards a good guess of the eventual choice, estimated by a further model-based source of information making use of the covariates. These single-valued estimates on the individual level are regarded as realizations of an underlying probability distribution, which we combine with the prior knowledge in a Bayesian way. The approach can thus be seen as an attempt to combine two, for the needed outcome by themselves inadequate, sources of information to obtain more concise results. We conduct a simulation study showing the applicability and virtues of the new approaches and compare them to conventional ones.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/kreiss21a.html
+  PDF: http://proceedings.mlr.press/v147/kreiss21a/kreiss21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-kreiss21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Dominik
+    family: Kreiss
+  - given: Georg
+    family: Schollmeyer
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 201-209
+  id: kreiss21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 201
+  lastpage: 209
+  published: 2021-08-18 00:00:00 +0000
+- title: 'On the Comonotone Natural Extension of Marginal p-Boxes'
+  abstract: 'The relationship between several random variables is gathered by their joint distribution. While this distribution can be easily determined by the marginals when an assumption of independence is satisfied, there are situations where the random variables are connected by some dependence structure. One such structure that arises often in practice is comonotonicity. This type of dependence refers to random variables that increase or decrease simultaneously. This paper studies the property of comonotonicity when the uncertainty about the random variables is modelled using p-boxes and the induced coherent lower probabilities. In particular, we analyse the problem of finding a comonotone lower probability with given marginal p-boxes, focusing on the existence, construction and uniqueness of such a model. Also, we prove that, under some conditions, there is a most conservative comonotone lower probability with the given marginal p-boxes, that will be called the comonotone natural extension.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/montes21a.html
+  PDF: http://proceedings.mlr.press/v147/montes21a/montes21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-montes21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ignacio
+    family: Montes
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 210-219
+  id: montes21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 210
+  lastpage: 219
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Using Credal C4.5 for Calibrated Label Ranking in Multi-Label Classification '
+  abstract: 'The Multi-Label Classification (MLC) task aims to predict the set of labels that correspond to an instance. It differs from traditional classification, which assumes that each instance has associated a single value of a class variable. Within MLC, the Calibrated Label Ranking algorithm (CLR) considers a binary classification problem for each pair of labels to determine a label ranking for a given instance, exploiting in this way correlations between pairs of labels. Moreover, CLR mitigates the class imbalance problem that frequently appears in MLC motivated by the fact that, in MLC, there are usually very few instances that have associated a certain label. For solving the binary classification problems, a traditional classification algorithm is needed. The C4.5 algorithm, based on Decision Trees, has been widely employed in this domain. In this work, we show that the Credal C4.5 method, a version of C4.5 recently proposed that uses imprecise probabilities, is more suitable than C4.5 for solving the binary classification problems in CLR. An exhaustive experimental analysis carried out in this research shows that Credal C4.5 performs better than C4.5 when both algorithms are employed in CLR, being the improvement more notable as there is more noise in the labels.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/moral-garci-a21a.html
+  PDF: http://proceedings.mlr.press/v147/moral-garci-a21a/moral-garci-a21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-moral-garci-a21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Serafı́n
+    family: Moral Garcı́a
+  - given: Javier Garcı́a
+    family: Castellano
+  - given: Carlos J. Mantas
+    family: Ruiz
+  - given: Joaquı́n
+    family: Abellán
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 220-228
+  id: moral-garci-a21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 220
+  lastpage: 228
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Basic Probability Assignments Representable via Belief Intervals for Singletons in Dempster-Shafer Theory'
+  abstract: 'Dempster-Shafer Theory (DST) or Evidence theory has been commonly employed in the literature to deal with uncertainty-based information. The basis of this theory is the concept of basic probability assignment (BPA). The belief intervals for singletons obtained from a BPA have recently received considerable attention for quantifying uncertainty in DST. Indeed, they are easier to manage than the corresponding BPA to represent uncertainty-based information. Nonetheless, the set of probability distributions consistent with a BPA is smaller than the one compatible with the corresponding belief intervals for singletons. In this research, we give a new characterization of BPAs representable by belief intervals for singletons. Such a characterization might be easier to check than the one provided in previous works. In practical applications, this result allows efficiently knowing when uncertainty can be represented via belief intervals for singletons rather than the associated BPA without loss of information.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/moral-garci-a21b.html
+  PDF: http://proceedings.mlr.press/v147/moral-garci-a21b/moral-garci-a21b.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-moral-garci-a21b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Serafı́n
+    family: Moral Garcı́a
+  - given: Joaquı́n
+    family: Abellán
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 229-234
+  id: moral-garci-a21b
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 229
+  lastpage: 234
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Improving Algorithms for Decision Making with the Hurwicz Criterion'
+  abstract: 'We propose two improved algorithms for evaluating the Hurwicz criterion in the context of decision making with lower previsions, along with a new benchmarking algorithm for measuring these improvements. The Hurwicz criterion is a well-known criterion for decision making with lower previsions under severe uncertainty when decision makers want to balance between pessimistic and optimistic extremes. When the domain of the lower prevision, the set of possible outcomes and the set of possible decisions are all finite, the classic method for applying this criterion goes by solving a sequence of linear programs. We show how to improve this classic algorithm, based on similar improvements that we have proposed for other decision criteria. Additionally, to allow benchmarking these improvements, we provide a new algorithm for randomly generating artificial decision problems with a set number of Hurwicz gambles. In our simulation, our proposed algorithms for Hurwicz outperform the standard algorithm in most scenarios except when the set of outcomes is small, the domain of the lower prevision is large, and there are many Hurwicz optimal decisions at once, in which case our proposed algorithms are slightly slower.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/nakharutai21a.html
+  PDF: http://proceedings.mlr.press/v147/nakharutai21a/nakharutai21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-nakharutai21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nawapon
+    family: Nakharutai
+  - given: Matthias
+    family: Troffaes
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 235-243
+  id: nakharutai21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 235
+  lastpage: 243
+  published: 2021-08-18 00:00:00 +0000
+- title: 'A Remarkable Equivalence between Non-Stationary Precise and Stationary Imprecise Uncertainty Models in Computable Randomness'
+  abstract: 'The field of algorithmic randomness studies what it means for infinite binary sequences to be random for some given uncertainty model. Classically, such randomness involves precise uncertainty models, and it is only recently that imprecision has been introduced into this field. As a consequence, the investigation into how imprecision alters our view on random sequences has only just begun. In this contribution, we establish a close and surprising connection between precise and imprecise uncertainty models in this randomness context. In particular, we show that there are stationary imprecise models and non-stationary precise models that have the exact same set of computably random sequences. We also discuss the possible implications of this result for a statistics based on imprecise probabilities.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/persiau21a.html
+  PDF: http://proceedings.mlr.press/v147/persiau21a/persiau21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-persiau21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Floris
+    family: Persiau
+  - given: Jasper
+    family: De Bock
+  - given: Gert
+    prefix: de
+    family: Cooman
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 244-253
+  id: persiau21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 244
+  lastpage: 253
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Betting Schemes for Assessing Coherent Numerical and Comparative Conditional Possibilities'
+  abstract: 'We introduce coherence conditions having a betting scheme interpretation both for a numerical and a comparative conditional possibility assessment. The conditional bets are considered under partially resolving uncertainty and assuming consonance. This means that we allow situations in which the agent may only acquire the information that a non-impossible event occurs, without knowing which is the true state of the world. Further, he/she can only consider families of nested non-impossible events in computing the gain and has a systematically optimistic behavior. Both conditions are proved to be equivalent to the existence of a conditional possibility agreeing with an axiomatic definition based on the algebraic product t-norm, that extends, either numerically or comparatively (through the induced comparative conditional possibility relation), the given assessment.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/petturiti21a.html
+  PDF: http://proceedings.mlr.press/v147/petturiti21a/petturiti21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-petturiti21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Davide
+    family: Petturiti
+  - given: Barbara
+    family: Vantaggi
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 254-263
+  id: petturiti21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 254
+  lastpage: 263
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Decision-making from Partial Instances by Active Feature Querying'
+  abstract: 'We consider a classification problem in which test instances are not available as complete feature vectors, but must rather be uncovered by repeated queries to an oracle. We have a limited budget of queries: the problem is then to find the best features to ask the oracle for. We consider here a strategy where features are uncovered one by one, so as to maximize the separation between the classes. Once an instance has been uncovered, the distribution of the remaining instances is updated according to the observation. Experiments on synthetic and real data show that our strategy remains reasonably accurate when a decision must be made based on a limited amount of observed features. We briefly discuss the case of imprecise answers, and list out the many problems arising in this case.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/quost21a.html
+  PDF: http://proceedings.mlr.press/v147/quost21a/quost21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-quost21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Benjamin
+    family: Quost
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 264-272
+  id: quost21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 264
+  lastpage: 272
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Computing Simple Bounds for Regression Estimates for Linear Regression with Interval-valued Covariates'
+  abstract: 'In this paper, we deal with linear regression where the covariates are interval-valued and the dependent variable is precise. Opposed to the case where the dependent variable is interval-valued and the covariates are precise, it is far more difficult to compute the set of all ordinary least squares (OLS) estimates as the precise values of the covariates vary over all possible values, compatible with the given intervals of the covariates. Though the exact solution is difficult to obtain, there are still some simple possibilities to compute bounds for the regression parameters. In this paper we deal with simple linear regression and present three different approaches: The first one uses a simple interval-arithmetic consideration for the equation for the slope parameter. The second approach uses reverse regression to swap the roles of the dependent and the independent variable to make the computation analytically solvable. The obtained solution for the reverse regression then gives an analytical upper bound for the slope parameter of the original regression. The third approach does not directly give bounds for the OLS estimator. Instead, before the actual interval analysis, in a first step, we modify the OLS estimator to another linear estimator which is simply a reasonably weighted convex combination of a number of unbiased estimators, which are themselves based on only two data points of the data set, respectively. It turns out that for the degenerate case of a precise independent variable, this estimator coincides with the OLS estimator. Additionally, the third method does also work if both the independent variable, as well as the dependent variable are interval-valued. Also the case of more than one covariate is manageable. A further nice point is that because of the analytical accessibility of the third estimator, also confidence intervals for the bounds can be established. To compare all three approaches, we conduct a short simulation study.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/schollmeyer21a.html
+  PDF: http://proceedings.mlr.press/v147/schollmeyer21a/schollmeyer21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-schollmeyer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Georg
+    family: Schollmeyer
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 273-279
+  id: schollmeyer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 273
+  lastpage: 279
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Imprecise Hypothesis-Based Bayesian Decision Making with Composite Hypotheses'
+  abstract: 'Statistical analyses with composite hypotheses are omnipresent in empirical sciences, and a decision-theoretic account is required in order to formally consider their practical relevance. A Bayesian hypothesis-based decision-theoretic analysis requires the specification of a prior distribution, the hypotheses, and a loss function, and determines the optimal decision by minimizing the expected posterior loss of each hypothesis. However, specifying such a decision problem unambiguously is rather difficult as, typically, the relevant information is available only partially. In order to include such incomplete information into the analysis and to facilitate the use of decision-theoretic approaches in applied sciences, this paper extends the framework of hypothesis-based Bayesian decision making with composite hypotheses into the framework of imprecise probabilities, such that imprecise specifications for the prior distribution, for the composite hypotheses, and for the loss function are allowed. Imprecisely specified composite hypotheses are sets of parameter sets that are able to incorporate blurring borders between hypotheses into the analysis. The imprecisely specified prior distribution gets updated via generalized Bayes rule, such that imprecise probabilities of the (imprecise) hypotheses can be calculated. These lead – together with the (imprecise) loss function – to a set-valued expected posterior loss for finding the optimal decision. Beneficially, the result will also indicate whether or not the available information is sufficient to guide the decision unambiguously, without pretending a level of precision that is not available.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/schwaferts21a.html
+  PDF: http://proceedings.mlr.press/v147/schwaferts21a/schwaferts21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-schwaferts21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Patrick Michael
+    family: Schwaferts
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 280-288
+  id: schwaferts21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 280
+  lastpage: 288
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Stochastic Optimization for Numerical Evaluation of Imprecise Probabilities'
+  abstract: 'In applications of imprecise probability, analysts must compute lower (or upper) expectations, defined as the infimum of an expectation over a set of parameter values. Monte Carlo methods consistently approximate expectations at fixed parameter values, but can be costly to implement in grid search to locate minima over large subsets of the parameter space. We investigate the use of stochastic iterative root-finding methods for efficiently computing lower expectations. In two examples we illustrate the use of various stochastic approximation methods, and demonstrate their superior performance in comparison to grid search.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/syring21a.html
+  PDF: http://proceedings.mlr.press/v147/syring21a/syring21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-syring21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nicholas
+    family: Syring
+  - given: Ryan
+    family: Martin
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 289-298
+  id: syring21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 289
+  lastpage: 298
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Robust Model Checking with Imprecise Markov Reward Models'
+  abstract: 'In recent years probabilistic model checking has become an important area of research because of the diffusion of computational systems of stochastic nature. Despite its great success, standard probabilistic model checking suffers the limitation of requiring a sharp specification of the probabilities governing the model behaviour. The theory of imprecise probabilities offers a natural approach to overcome such limitation by a sensitivity analysis with respect to the values of these parameters. However, only extensions based on discrete-time imprecise Markov chains have been considered so far for such a robust approach to model checking. We present a further extension based on imprecise Markov reward models. In particular, we derive efficient algorithms to compute lower and upper bounds of the expected cumulative reward and probabilistic bounded rewards based on existing results for imprecise Markov chains. These ideas are tested on a real case study involving the spend-down costs of geriatric medicine departments.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/termine21a.html
+  PDF: http://proceedings.mlr.press/v147/termine21a/termine21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-termine21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alberto
+    family: Termine
+  - given: Alessandro
+    family: Antonucci
+  - given: Alessandro
+    family: Facchini
+  - given: Giuseppe
+    family: Primiero
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 299-309
+  id: termine21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 299
+  lastpage: 309
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Global Upper Expectations for Discrete-Time Stochastic Processes: In Practice, They Are All The Same!'
+  abstract: 'We consider three different types of global uncertainty models for discrete-time stochastic processes: measure-theoretic upper expectations, game-theoretic upper expectations and axiomatic upper expectations. The last two are known to be identical. We show that they coincide with measure-theoretic upper expectations on two distinct domains: monotone pointwise limits of finitary gambles, and bounded below Borel-measurable variables. We argue that these domains cover most practical inferences, and that therefore, in practice, it does not matter which model is used.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/t-joens21a.html
+  PDF: http://proceedings.mlr.press/v147/t-joens21a/t-joens21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-t-joens21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Natan
+    family: T’Joens
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 310-319
+  id: t-joens21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 310
+  lastpage: 319
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Independent Natural Extension for Choice Functions'
+  abstract: 'We investigate epistemic independence for choice functions in a multivariate setting. This work is a continuation of earlier work of one of the authors [23], and our results build on the characterization of choice functions in terms of sets of binary preferences recently established by De Bock and De Cooman [7]. We obtain the independent natural extension in this framework. Given the generality of choice functions, our expression for the independent natural extension is the most general one we are aware of, and we show how it implies the independent natural extension for sets of desirable gambles, and therefore also for less informative imprecise-probabilistic models. Once this is in place, we compare this concept of epistemic independence to another independence concept for choice functions proposed by Seidenfeld [22], which De Bock and De Cooman [1]:S-independence have called S-independence. We show that neither is more general than the other.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/van-camp21a.html
+  PDF: http://proceedings.mlr.press/v147/van-camp21a/van-camp21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-van-camp21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arthur
+    family: Van Camp
+  - given: Kevin
+    family: Blackwell
+  - given: Jason
+    family: Konek
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 320-330
+  id: van-camp21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 320
+  lastpage: 330
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Discounting Desirable Gambles'
+  abstract: 'The desirable gambles framework offers the most comprehensive foundations for the theory of lower previsions, which in turn affords the most general account of imprecise probabilities. Nevertheless, for all its generality, the theory of lower previsions rests on the notion of linear utility. This commitment to linearity is clearest in the coherence axioms for sets of desirable gambles. This paper considers two routes to relaxing this commitment. The first preserves the additive structure of the desirable gambles framework and the machinery for coherent inference but detaches the interpretation of desirability from the multiplicative scale invariance axiom. The second strays from the additive combination axiom to accommodate repeated gambles that return rewards by a non-stationary processes that is not necessarily additive. Unlike the first approach, which is a conservative amendment to the desirable gambles framework, the second is a radical departure. Yet, common to both is a method for describing rewards called <em>discounted utility</em>.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/wheeler21a.html
+  PDF: http://proceedings.mlr.press/v147/wheeler21a/wheeler21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-wheeler21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Gregory
+    family: Wheeler
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 331-341
+  id: wheeler21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 331
+  lastpage: 341
+  published: 2021-08-18 00:00:00 +0000
+- title: 'The Sure Thing'
+  abstract: 'If we prefer action $a$ to $b$ both under an event and under its complement, then we should just prefer $a$ to $b$. This is Savage’s <em>sure-thing principle</em>. In spite of its intuitive- and simple-looking nature, for which it gets almost immediate acceptance, the sure thing is not a logical principle. So where does it get its support from? In fact, the sure thing may actually fail. This is related to a variety of deep and foundational concepts in causality, decision theory, and probability, as well as to Simpsons’ paradox and Blyth’s game. In this paper we try to systematically clarify such a network of relations. Then we propose a general desirability theory for nonlinear utility scales. We use that to show that the sure thing is primitive to many of the previous concepts: In non-causal settings, the sure thing follows from considerations of temporal coherence and coincides with conglomerability; it can be understood as a rationality axiom to enable well-behaved conditioning in logic. In causal settings, it can be derived using only coherence and a causal independence condition.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/zaffalon21a.html
+  PDF: http://proceedings.mlr.press/v147/zaffalon21a/zaffalon21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-zaffalon21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marco
+    family: Zaffalon
+  - given: Enrique
+    family: Miranda
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 342-351
+  id: zaffalon21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 342
+  lastpage: 351
+  published: 2021-08-18 00:00:00 +0000
+- title: 'CREPO: An Open Repository to Benchmark Credal Network Algorithms'
+  abstract: 'Credal networks are a popular class of imprecise probabilistic graphical models obtained as a Bayesian network generalization based on, so-called <em>credal</em>, sets of probability mass functions. A Java library called CREMA has been recently released to model, process and query credal networks. Despite the NP-hardness of the (exact) task, a number of algorithms is available to approximate credal network inferences. In this paper we present CREPO, an open repository of synthetic credal networks, provided together with the exact results of inference tasks on these models. A Python tool is also delivered to load these data and interact with CREMA, thus making extremely easy to evaluate and compare existing and novel inference algorithms. To demonstrate such benchmarking scheme, we propose an approximate heuristic to be used inside variable elimination schemes to keep a bound on the maximum number of vertices generated during the combination step. A CREPO-based validation against approximate procedures based on linearization and exact techniques performed in CREMA is finally discussed.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/cabanas21a.html
+  PDF: http://proceedings.mlr.press/v147/cabanas21a/cabanas21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-cabanas21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Rafael
+    family: Cabañas
+  - given: Alessandro
+    family: Antonucci
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 352-356
+  id: cabanas21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 352
+  lastpage: 356
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Constructing Consonant Predictive Beliefs from Data with Scenario Theory'
+  abstract: 'A method for constructing consonant predictive beliefs for multivariate datasets is presented. We make use of recent results in scenario theory to construct a family of enclosing sets that are associated with a predictive lower probability of new data falling in each given set. We show that the sequence of lower bounds indexed by enclosing set yields a consonant belief function. The presented method does not rely on the construction of a likelihood function, therefore possibility distributions can be obtained without the need for normalization. We present a practical example in two dimensions for the sake of visualization, to demonstrate the practical procedure of obtaining the sequence of nested sets.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/de-angelis21a.html
+  PDF: http://proceedings.mlr.press/v147/de-angelis21a/de-angelis21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-de-angelis21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marco
+    family: De Angelis
+  - given: Roberto
+    family: Rocchetta
+  - given: Ander
+    family: Gray
+  - given: Scott
+    family: Ferson
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 357-360
+  id: de-angelis21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 357
+  lastpage: 360
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Probabilistic Risk Management in Project Portfolios'
+  abstract: 'We discuss a novel method for business risk handling in project portfolios under strong uncertainty, where we utilise event trees including adverse consequences together with mitigation costs and expected effects, where consequence and event probabilities and costs are represented by random parameters. The method has been developed to support large-scale real-life applications of portfolio risk management, where the properties of the probabilities and values are entered by domain experts with often very limited knowledge of probability theory, and we demonstrate how this can be accomplished with minor information loss. The method is currently in use in one of the world’s largest telecom equipment manufacturers which has a vast project portfolio of tenders, with each successful tender subsequently becoming an order in the order book portfolio.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/ekenberg21a.html
+  PDF: http://proceedings.mlr.press/v147/ekenberg21a/ekenberg21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-ekenberg21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Love
+    family: Ekenberg
+  - given: Mats
+    family: Danielson
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 361-364
+  id: ekenberg21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 361
+  lastpage: 364
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Towards a Theory of Confidence in Market-Based Predictions'
+  abstract: 'Prediction markets are a way to yield probabilistic predictions about future events, theoretically incorporating all available information. In this paper, we focus on the <em>confidence</em> that we should place in the prediction of a market. When should we believe that the market probability meaningfully reflects underlying uncertainty, and when should we not? We discuss two notions of confidence. The first is based on the expected profit that a trader could make from correcting the market if it were wrong, and the second is based on expected market volatility in the future. Our paper is a stepping stone to future work in this area, and we conclude by discussing some key challenges.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/freeman21a.html
+  PDF: http://proceedings.mlr.press/v147/freeman21a/freeman21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-freeman21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Rupert
+    family: Freeman
+  - given: David
+    family: Pennock
+  - given: Daniel
+    family: Reeves
+  - given: David
+    family: Rothschild
+  - given: Bo
+    family: Waggoner
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 365-368
+  id: freeman21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 365
+  lastpage: 368
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Cautious Random Forests: a New Decision Strategy and some Experiments'
+  abstract: 'Random forest is an accurate classification strategy, which estimates the posterior probabilities of the classes by averaging frequencies provided by trees. When data are scarce, this estimation becomes difficult. The Imprecise Dirichlet Model can be used to make the estimation robust, providing intervals of probabilities as outputs. Here, we propose a new aggregation strategy based on the theory of belief functions. We also propose to assign weights to the trees according to their amount of uncertainty when classifying a new instance. Our approach is compared experimentally to the baseline approach on several datasets.'
+  volume: 147
+  URL: https://proceedings.mlr.press/v147/zhang21a.html
+  PDF: http://proceedings.mlr.press/v147/zhang21a/zhang21a.pdf
+  edit: https://github.com/mlresearch//v147/edit/gh-pages/_posts/2021-08-18-zhang21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Twelveth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Haifei
+    family: Zhang
+  - given: Benjamin
+    family: Quost
+  - given: Marie-Hélène
+    family: Masson
+  editor: 
+  - given: Andrés
+    family: Cano
+  - given: Jasper
+    family: De Bock
+  - given: Enrique
+    family: Miranda
+  - given: Serafı́n
+    family: Moral
+  page: 369-372
+  id: zhang21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 369
+  lastpage: 372
+  published: 2021-08-18 00:00:00 +0000

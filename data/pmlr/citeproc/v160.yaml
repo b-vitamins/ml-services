@@ -1,0 +1,195 @@
+
+- title: 'Causal Discovery with Multi-Domain LiNGAM for Latent Factors'
+  abstract: 'Discovering causal structures among latent factors from observed data is particularly significant yet challenging problem. Despite some efforts for this problem, existing methods focus on the single-domain data only. In this paper, we propose Multi-Domain Linear Non-Gaussian Acyclic Models for LAtent Factors (MD-LiNA), where the causal structures from different domains may be different, but they have a shared causal structure among latent factors of interest. The model enriches the causal representation for multi-domain data. We propose an integrated two-phase algorithm to estimate the model. In particular, we first locate the latent factors and estimate the factor loading matrix. Then to uncover the shared causal structure among latent factors of interest, we derive a score function based on the characterization of independence relations between external influences and the dependence relations between multi-domain latent factors and latent factors of interest. Experimental results on synthetic data demonstrate the efficacy of our approach.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/zeng21a.html
+  PDF: https://proceedings.mlr.press/v160/zeng21a/zeng21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-zeng21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Yan
+    family: Zeng
+  - given: Shohei
+    family: Shimizu
+  - given: Ruichu
+    family: Cai
+  - given: Feng
+    family: Xie
+  - given: Michio
+    family: Yamamoto
+  - given: Zhifeng
+    family: Hao
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 1-4
+  id: zeng21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 1
+  lastpage: 4
+  published: 2021-12-01 00:00:00 +0000
+- title: 'Towards causal modeling of nutritional outcomes'
+  abstract: 'This paper aims at observational causal modelling, investigating the causal relationships between food consumption and health status, exploiting the proprietary Kantar database. This database describes the socioeconomic characteristics and consumption habits of a few dozen thousands households; in particular, the consumed food items are documented almost at the level of precision of barcodes. A first challenge for this observational causal study lies in the number of hidden confounders, ranging from genetic factors to life styles (i.e. smoking and sport habits), not documented in the data. Taking inspiration from the Deconfounder approach (Wang and Blei, 2019b), substitute hidden confounders based on dietary patterns − viewed as characteristics of the alimentary lifestyle − are extracted from the database and exploited to block the biases due to hidden confounders. A second challenge lies in the fact that the data size hardly allows for investigating a number of fine-grained interventions. We thus define a new type of intervention, enabled by the data structure and referred to as macro-intervention, acting on the full basket of food items; an example of such macro-intervention is to replace every non-organic product in a household basket with its organic counterpart. The average treatment effect of this macro-intervention is assessed in the context of the substitute hidden confounders, using inverse propensity weighted estimates to control for covariates such as wealth or education.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/gasnikova21a.html
+  PDF: https://proceedings.mlr.press/v160/gasnikova21a/gasnikova21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-gasnikova21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Ksenia
+    family: Gasnikova
+  - given: Olivier
+    family: Allais
+  - given: Michèle
+    family: Sebag
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 5-19
+  id: gasnikova21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 5
+  lastpage: 19
+  published: 2021-12-01 00:00:00 +0000
+- title: 'Applying Causal Discovery to Intensive Longitudinal Data'
+  abstract: 'Intensive longitudinal data (ILD) could be a solution for two problems in psychology: 1) In traditional experiments and survey studies, ndings are not necessarily representative of the real-life constructs and relationships studied, and 2) Group-level analyses commonly mischaracterize or obscure relationships for individuals. Popular analytic methods within psychology are currently not well-equipped to use ILD for causal discovery and causal inference, however. We have performed the first causal discovery analysis on ILD, encountered some challenges, and developed some solutions to these challenges. This paper describes our application of causal discovery to an example ILD dataset, and addresses two particular challenges that arose: 1) How should one address variables measured on different timelines, and 2) What number of observations is needed for individual-level analysis.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/stevenson21a.html
+  PDF: https://proceedings.mlr.press/v160/stevenson21a/stevenson21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-stevenson21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Brittany
+    family: Stevenson
+  - given: Erich
+    family: Kummerfeld
+  - given: Jennifer
+    family: Merrill
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 20-29
+  id: stevenson21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 20
+  lastpage: 29
+  published: 2021-12-01 00:00:00 +0000
+- title: 'Path Signature Area-Based Causal Discovery in Coupled Time Series'
+  abstract: 'Coupled dynamical systems are frequently observed in nature, but often not well under-stood in terms of their causal structure without additional domain knowledge about the system. Especially when analyzing observational time series data of dynamical systems where it is not possible to conduct controlled experiments, for example time series of cli-mate variables, it can be challenging to determine how features causally influence each other. There are many techniques available to recover causal relationships from data, such as Granger causality, convergent cross mapping, and causal graph structure learning approaches such as PCMCI. Path signatures and their associated signed areas provide a new way to approach the analysis of causally linked dynamical systems, particularly in informing a model-free, data-driven approach to algorithmic causal discovery. With this paper, we explore the use of path signatures in causal discovery and propose the application of confidence sequences to analyze the significance of the magnitude of the signed area between two variables. These confidence sequence regions converge with greater sampling length,and in conjunction with analyzing pairwise signed areas across time-shifted versions of the time series, can help identify the presence of lag/lead causal relationships. This approach provides a new way to define the confidence of a causal link existing between two time series, and ultimately may provide a framework for hypothesis testing to define whether one time series causes another.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/glad21a.html
+  PDF: https://proceedings.mlr.press/v160/glad21a/glad21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-glad21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Will
+    family: Glad
+  - given: Tom
+    family: Woolf
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 21-38
+  id: glad21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 21
+  lastpage: 38
+  published: 2021-12-01 00:00:00 +0000
+- title: 'Causal Abstraction Via Emergence for Predicting Bilateral Trade'
+  abstract: 'Causal abstraction is key in finding efficient representations of noisy and complex systems, for decision-making and prediction of future system states. Hand-crafted causal abstractions, although accurate and interpretable, can be costly to construct and cannot generalize to large, novel datasets. In this paper, we explore the information-theoretic concept of causal emergence, its correspondence to recent definitions of causal abstraction, and the properties of emergent representations that enable more accurate state predictions and semantic interpretations. Using the bilateral trade network as a case study, we enumerate the conditions under which trade agreements exhibit causal emergence properties, and show that causally emergent representations are indeed able to provide better prediction capability than original trade network representations in a variety of cases.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/jammalamadaka21a.html
+  PDF: https://proceedings.mlr.press/v160/jammalamadaka21a/jammalamadaka21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-jammalamadaka21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Aruna
+    family: Jammalamadaka
+  - given: Dana
+    family: Warmsley
+  - given: Tsai-Ching
+    family: Lu
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 39-51
+  id: jammalamadaka21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 39
+  lastpage: 51
+  published: 2021-12-01 00:00:00 +0000
+- title: 'Important Topics in Causal Analysis: Summary of the CAWS 2021 Round Table Discussion'
+  abstract: 'This paper summaries important topics in causal analysis brought up during the round table discussion of CAWS 2021.'
+  volume: 160
+  URL: https://proceedings.mlr.press/v160/kummerfeld21a.html
+  PDF: https://proceedings.mlr.press/v160/kummerfeld21a/kummerfeld21a.pdf
+  edit: https://github.com/mlresearch//v160/edit/gh-pages/_posts/2021-12-01-kummerfeld21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 2021 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Erich
+    family: Kummerfeld
+  - given: Tom
+    family: Woolf
+  - given: Will
+    family: Glad
+  - given: Michèle
+    family: Sebag
+  - given: Sisi
+    family: Ma
+  editor: 
+  - given: Sisi
+    family: Ma
+  - given: Erich
+    family: Kummerfeld
+  page: 52-54
+  id: kummerfeld21a
+  issued:
+    date-parts: 
+      - 2021
+      - 12
+      - 1
+  firstpage: 52
+  lastpage: 54
+  published: 2021-12-01 00:00:00 +0000

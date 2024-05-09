@@ -1,0 +1,490 @@
+
+- title: 'Learning with Imbalanced Domains&#58; Preface'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/torgo17a.html
+  PDF: http://proceedings.mlr.press/v74/torgo17a/torgo17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-torgo17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains&#58; Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 1-6
+  id: torgo17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 1
+  lastpage: 6
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Influence of minority class instance types on SMOTE imbalanced data oversampling'
+  abstract: 'Despite more than two decades of intense research, learning from imbalanced data still remains as one of the major difficulties posed for computational intelligence systems. Among plethora of techniques dedicated to alleviating this problem, preprocessing algorithms are considered among the most efficient ones. They aim at re-balancing the training set by either undersampling of the majority class, or oversampling of the minority one. Here, Synthetic Minority Oversampling Technique, commonly known as SMOTE, stands as the most popular solution that introduces artificial instances on the basis of minority class neighborhood distribution. However, many recent works point out to the fact that the imbalanced ratio itself is not the sole source of learning difficulties in such scenarios. One should take a deeper look into the minority class structure in order to identify which instances influence the performance of classifiers in most significant manner. In this paper, we propose to investigate the role of minority class instance types on the performance of SMOTE. To achieve this, instead of oversampling uniformly the minority class, we preprocess only selected subsets of instances, based on their individual difficulties. Experimental study proves that such a selective oversampling leads to improved classification performance.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/skryjomski17a.html
+  PDF: http://proceedings.mlr.press/v74/skryjomski17a/skryjomski17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-skryjomski17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Przemysław
+    family: Skryjomski
+  - given: Bartosz
+    family: Krawczyk
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 7-21
+  id: skryjomski17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 7
+  lastpage: 21
+  published: 2017-10-11 00:00:00 +0000
+- title: 'A Network Perspective on Stratification of Multi-Label Data'
+  abstract: 'We present a new approach to stratifying multi-label data for classification purposes based on the iterative stratification approach proposed by Sechidis et. al. in an ECML PKDD 2011 paper. Our method extends the iterative approach to take into account second-order relationships between labels. Obtained results are evaluated using statistical properties of obtained strata as presented by Sechidis. We also propose new statistical measures relevant to second-order quality: label pairs distribution, the percentage of label pairs without positive evidence in folds and label pair - fold pairs that have no positive evidence for the label pair. We verify the impact of new methods on classification performance of Binary Relevance, Label Powerset and a fast greedy community detection based label space partitioning classifier. The proposed approach lowers the variance of classification quality, improves label pair oriented measures and example distribution while maintaining a competitive quality in label-oriented measures. We also witness an increase in stability of network characteristics.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/szyma%C5%84ski17a.html
+  PDF: http://proceedings.mlr.press/v74/szymański17a/szymański17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-szymański17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Piotr
+    family: Szymański
+  - given: Tomasz
+    family: Kajdanowicz
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 22-35
+  id: szymański17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 22
+  lastpage: 35
+  published: 2017-10-11 00:00:00 +0000
+- title: 'SMOGN: a Pre-processing Approach for Imbalanced Regression'
+  abstract: 'The problem of imbalanced domains, framed within predictive tasks, is relevant in many practical applications. When dealing with imbalanced domains a performance degradation is usually observed on the most rare and relevant cases for the user. This problem has been thoroughly studied within a classification setting where the target variable is nominal. The exploration of this problem in other contexts is more recent within the research community. For regression tasks, where the target variable is continuous, only a few solutions exist. Pre-processing strategies are among the most successful proposals for tackling this problem. In this paper we propose a new pre-processing approach for dealing with imbalanced regression. Our algorithm, SMOGN, incorporates two existing proposals trying to solve problems detected in both of them. We show that SMOGN has advantages in comparison to other approaches. We also show that our method has a different impact on the learners used, displaying more advantages for Random Forest and Multivariate Adaptive Regression Splines learners.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/branco17a.html
+  PDF: http://proceedings.mlr.press/v74/branco17a/branco17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-branco17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Rita P.
+    family: Ribeiro
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 36-50
+  id: branco17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 36
+  lastpage: 50
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Stacked-MLkNN: A stacking based improvement to Multi-Label k-Nearest Neighbours'
+  abstract: 'Multi-label classification deals with problems where each datapoint can be assigned to more than one class, or label, at the same time. The simplest approach for such problems is to train independent binary classification models for each label and use these models to independently predict a set of relevant labels for a datapoint. MLkNN is an instance-based lazy learning algorithm for multi-label classification that takes this approach. MLkNN, and similar algorithms, however, do not exploit associations which may exist between the set of potential labels. These methods also suffer from imbalance in the frequency of labels in a training dataset. This work attempts to improve the predictions of MLkNN by implementing a two-layer stack-like method, Stacked-MLkNN which exploits the label associations. Experiments show that Stacked-MLkNN produces better predictions than MLkNN and several other state-of-the-art instance-based learning algorithms.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/pakrashi17a.html
+  PDF: http://proceedings.mlr.press/v74/pakrashi17a/pakrashi17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-pakrashi17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arjun
+    family: Pakrashi
+  - given: Brian
+    family: Mac Namee
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 51-63
+  id: pakrashi17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 51
+  lastpage: 63
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Sampling a Longer Life: Binary versus One-class classification Revisited '
+  abstract: 'When faced with imbalanced domains, practitioners have one of two choices; if the imbalance is manageable, sampling or other corrective measures can be utilized in conjunction with binary classifiers (BCs). Beyond a certain point, however, the imbalance becomes too extreme and one-class classifiers (OCCs) are required. Whilst the literature offers many advances in terms of algorithms and understanding, there remains a need to connect our theoretical advances to the most practical of decisions. Specifically, given a dataset with some level of complexity and imbalance, which classification approach should be applied? In this paper, we establish a relationship between these facets in order to help guide the decision regarding when to apply OCC versus BC. Our results show that sampling provides an edge over OCCs on complex domains. Alternatively, OCCs are a good choice on less complex domains that exhibit unimodal properties. Class overlap, on the other hand, has a more uniform impact across all methods.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/bellinger17a.html
+  PDF: http://proceedings.mlr.press/v74/bellinger17a/bellinger17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-bellinger17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Colin
+    family: Bellinger
+  - given: Shiven
+    family: Sharma
+  - given: Osmar R.
+    family: Zaı̈ane
+  - given: Nathalie
+    family: Japkowicz
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 64-78
+  id: bellinger17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 64
+  lastpage: 78
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Improving Resampling-based Ensemble in Churn Prediction'
+  abstract: 'Dealing with class imbalance is a challenging issue in churn prediction. Although resampling-based ensemble solutions have demonstrated their superiority in many fields, previous research shows that they cannot improve the profit-based measure in churn prediction. In this paper, we explore the impact of  the class ratio in the training subsets on the predictive performance of resampling-based ensemble techniques based on experiments on real-world churn prediction data sets. The experimental results show that the setting of the class ratio has a great impact on the model performance. It is also found that by choosing suitable class ratios in the training subsets, UnderBagging and Balanced Random Forests can significantly improve profits brought by the churn prediction model.  The demonstrated results provide some guidelines for both academic and industrial practitioners.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/zhu17a.html
+  PDF: http://proceedings.mlr.press/v74/zhu17a/zhu17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-zhu17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Bing
+    family: Zhu
+  - given: Seppe
+    family: Broucke
+  - given: Bart
+    family: Baesens
+  - given: Sebastián
+    family: Maldonado
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 79-91
+  id: zhu17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 79
+  lastpage: 91
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Predicting Defective Engines using Convolutional Neural Networks on Temporal Vibration Signals'
+  abstract: 'This paper addresses for the first time the problem of engines’ damage prediction using huge amounts of imbalanced data from  "structure borne noise" signals related to the internal engine excitation. We propose the usage of a convolutional neural network on our temporal input signals, subsequently combined with additional static features. Using informative mini batches during training we take the imbalance of the data into account. The experimental results indicate good performance in detecting the minority class on our large real-world use case.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/g%C3%BCnnemann17a.html
+  PDF: http://proceedings.mlr.press/v74/günnemann17a/günnemann17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-günnemann17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nikou
+    family: Günnemann
+  - given: Jürgen
+    family: Pfeffer
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 92-102
+  id: günnemann17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 92
+  lastpage: 102
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Effect of Data Imbalance on Unsupervised Domain Adaptation of Part-of-Speech Tagging and Pivot Selection Strategies'
+  abstract: 'Domain adaptation is the task of transforming a model trained using data from a source domain to a different target domain. In Unsupervised Domain Adaptation (UDA), we do not assume any labelled training data from the target domain. In this paper, we consider the problem of UDA in the contact of Part-of-Speech (POS).  Specifically, we study the effect of data imbalance on UDA of POS, and compare different pivot selection strategies for accurately adapting a POS tagger trained using some source domain data to a target domain. We propose the use of F-score to select pivots using available labelled data in the source domain.  Our experimental results on using benchmark dataset for cross-domain POS tagging, show that using frequency combined with F-scores for selecting pivots in the source labelled data produces the best results.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/cui17a.html
+  PDF: http://proceedings.mlr.press/v74/cui17a/cui17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-cui17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Xia
+    family: Cui
+  - given: Frans
+    family: Coenen
+  - given: Danushka
+    family: Bollegala
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 103-115
+  id: cui17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 103
+  lastpage: 115
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Tunable Plug-In Rules with Reduced Posterior Certainty Loss in Imbalanced Datasets'
+  abstract: 'Classifiers have difficulty recognizing under-represented minorities in imbalanced datasets, due to their focus on minimizing the overall misclassification error. This introduces predictive biases against minority classes. Post-processing plug-in rules are popular for tackling class imbalance, but they often affect the certainty of base classifier posteriors, when the latter already perform correct classification. This shortcoming makes them ill-suited to scoring tasks, where informative posterior scores are required for human interpretation. To this end, we propose the $ILoss$ metric to measure the impact of imbalance-aware classifiers on the certainty of posterior distributions. We then generalize post-processing plug-in rules in an easily tunable framework and theoretically show that this framework tends to improve performance balance. Finally, we experimentally assert that appropriate usage of our framework can reduce $ILoss$ while yielding similar performance, with respect to common imbalance-aware measures, to existing plug-in rules for binary problems.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/krasanakis17a.html
+  PDF: http://proceedings.mlr.press/v74/krasanakis17a/krasanakis17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-krasanakis17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Emmanouil
+    family: Krasanakis
+  - given: Eleftherios
+    family: Spyromitros-Xioufis
+  - given: Symeon
+    family: Papadopoulos
+  - given: Yiannis
+    family: Kompatsiaris
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 116-128
+  id: krasanakis17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 116
+  lastpage: 128
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Evaluation of Ensemble Methods in Imbalanced Regression Tasks'
+  abstract: 'Ensemble methods are well known for providing an advantage over single models in a large range of data mining and machine learning tasks. Their benefits are commonly associated to the ability of reducing the bias and/or variance in learning tasks. Ensembles have been studied both for classification and regression tasks with uniform domain preferences. However, only for imbalanced classification these methods were thoroughly studied. In this paper we present an empirical study concerning the predictive ability of ensemble methods bagging and boosting in regression tasks, using 20 data sets with imbalanced distributions, and assuming non-uniform domain preferences. Results show that ensemble methods are capable of providing improvements in predictive ability towards under-represented values, and that this improvement influences the predictive ability of models concerning the average behaviour of the data. Results also show that the smaller data sets are prone to larger improvements in predictive accuracy and that no conclusion could be drawn when considering the percentage of rare cases alone.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/moniz17a.html
+  PDF: http://proceedings.mlr.press/v74/moniz17a/moniz17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-moniz17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 129-140
+  id: moniz17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 129
+  lastpage: 140
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Controlling Imbalanced Error in Deep Learning with the Log Bilinear Loss'
+  abstract: 'Deep learning has become the method of choice for many machine learning tasks in recent years, and especially for multi-class classification. The most common loss function used in this context is the cross-entropy loss. While this function is insensitive to the identity of the assigned class in the case of misclassification, in practice it very common to have imbalanced sensitivity to error, meaning some wrong assignments are much worse than others. Here we present the bilinear-loss (and related log-bilinear-loss) which differentially penalizes the different wrong assignments of the model. We thoroughly test the proposed method using standard models and benchmark image datasets.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/resheff17a.html
+  PDF: http://proceedings.mlr.press/v74/resheff17a/resheff17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-resheff17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Yehezkel S.
+    family: Resheff
+  - given: Amit
+    family: Mandelbom
+  - given: Daphna
+    family: Weinshall
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 141-151
+  id: resheff17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 141
+  lastpage: 151
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Unsupervised Classification of Speaker Profiles as a Point Anomaly Detection Task'
+  abstract: 'This paper presents an evaluation of three different anomaly detector methods over different feature sets.  The three anomaly detectors are based respectively on Gaussian Mixture Model (GMM), One-Class SVM and isolation Forest. The considered feature sets are built from personality evaluation and audio signal. Personality evaluations are extracted from the BFI-10 Questionnaire, which allows to manually evaluate five personality traits (Openness, Conscientiousness, Extroversion, Agreeableness, Neuroticism).  From the audio signal, we automatically extract a prosodic feature set, which performs well in affective computing. The different combinations of models and feature sets are evaluated on the SSPNET-Personality corpus which has already been used in several experiments, including a previous work on separating two types of personality profiles in a supervised way. In this work, we propose an evaluation of the three anomaly detectors with consideration to the features used. Results show that, regardless of the feature set, GMM based method is the most efficient one (it obtains 0.96 ROC-AUC score with the best feature set). The prosodic feature set seems to be a good compromise between performance (0.91 ROC-AUC score with GMM based method) and ease of extraction.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/fayet17a.html
+  PDF: http://proceedings.mlr.press/v74/fayet17a/fayet17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-fayet17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Cedric
+    family: Fayet
+  - given: Arnaud
+    family: Delhay
+  - given: Damien
+    family: Lolive
+  - given: Pierre-François
+    family: Marteau
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 152-163
+  id: fayet17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 152
+  lastpage: 163
+  published: 2017-10-11 00:00:00 +0000
+- title: 'Dealing with the task of imbalanced, multidimensional data classification using ensembles of exposers'
+  abstract: 'Recently, the problem of imbalanced data is the focus of intense research of machine learning community. Following work tries to utilize an approach of transforming the data space into another where classification task may become easier. Paper contains a proposition of a tool, based on a photographic metaphor to build a classifier ensemble, combined with a random subspace approach. Developed solution is insensitive to a sample size and robust to dimension increase, which allows a regularization of feature space, reducing the impact of biased classes. The proposed approach was evaluated on the basis of the computer experiments carried out on the benchmark and synthetic datasets.'
+  volume: 74
+  URL: https://proceedings.mlr.press/v74/ksieniewicz17a.html
+  PDF: http://proceedings.mlr.press/v74/ksieniewicz17a/ksieniewicz17a.pdf
+  edit: https://github.com/mlresearch//v74/edit/gh-pages/_posts/2017-10-11-ksieniewicz17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paweł
+    family: Ksieniewicz
+  - given: Michał
+    family: Woźniak
+  editor: 
+  - given: Luís
+    family: Torgo
+  - given: Bartosz
+    family: Krawczyk
+  - given: Paula
+    family: Branco
+  - given: Nuno
+    family: Moniz
+  page: 164-175
+  id: ksieniewicz17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 11
+  firstpage: 164
+  lastpage: 175
+  published: 2017-10-11 00:00:00 +0000

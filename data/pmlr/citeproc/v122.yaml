@@ -1,0 +1,170 @@
+
+- title: 'Sequential Dependence and Non-linearity in Affective Responses: a Skin Conductance Example'
+  abstract: 'Individual affective responses frequently vary from the mean and often exhibit non-linear and time and sequence dependent properties.  This paper examines the extent to which commonly made assumptions of linearity and sequential independence are valid using skin conductance responses to an acoustic stimulus as an example.  We present 19 sessions of skin conductance traces where participants respond to five 50 millisecond acoustic bursts designed to elicit a startle.  We show the data from the perspective of an online algorithm: individual responses, non-linear and dependent on prior events.  We show that the coefficient of variation depends on sequence position and that these are large at 65%, 97%, 110%, and 100%.  We discuss the risk of making inferences on single impressions.'
+  volume: 122
+  URL: https://proceedings.mlr.press/v122/healey20a.html
+  PDF: http://proceedings.mlr.press/v122/healey20a/healey20a.pdf
+  edit: https://github.com/mlresearch//v122/edit/gh-pages/_posts/2020-11-09-healey20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2019 3rd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Jennifer
+    family: Healey
+  editor: 
+  - given: William
+    family: Hsu
+  page: 1-8
+  id: healey20a
+  issued:
+    date-parts: 
+      - 2020
+      - 11
+      - 9
+  firstpage: 1
+  lastpage: 8
+  published: 2020-11-09 00:00:00 +0000
+- title: 'Fast Adaptation of Deep Models for Facial Action Unit Detection Using Model-Agnostic Meta-Learning'
+  abstract: 'Detecting facial action unit (AU) activations is one of the key
+steps in automatic recognition of facial expressions of human
+emotion and cognitive states.  While there are different approaches
+proposed for this task, most of these are trained only for a
+specific (sub)set of AUs. As such, they cannot easily adapt to the
+task of detection of new AUs which are not initially used to train
+the target models.  In this paper, we propose a deep learning
+approach for facial AU detection that can adapt to a new AU and/or
+target subject by leveraging only a few labeled samples from the new
+task (either an AU or subject). We use the notion of the
+model-agnostic meta-learning, originally proposed for the general
+image recognition/detection tasks, to design our deep learning
+models for AU detection. Specifically, each subject and/or AU is
+treated as a new learning task and the model learns to adapt based
+on the knowledge of the previously seen tasks. We show on two
+benchmark datasets (BP4D and DISFA) for facial AU detection that the
+proposed approach can easily be adapted to new tasks. By using as
+few as one or five labeled examples from the target task, our
+approach achieves large improvements over the baseline (non-adapted)
+deep models.
+'
+  volume: 122
+  URL: https://proceedings.mlr.press/v122/lee20a.html
+  PDF: http://proceedings.mlr.press/v122/lee20a/lee20a.pdf
+  edit: https://github.com/mlresearch//v122/edit/gh-pages/_posts/2020-11-09-lee20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2019 3rd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Mihee
+    family: Lee
+  - given: Ognjen
+    family: Rudovic
+  - given: Vladimir
+    family: Pavlovic
+  - given: Maja
+    family: Pantic
+  editor: 
+  - given: William
+    family: Hsu
+  page: 9-27
+  id: lee20a
+  issued:
+    date-parts: 
+      - 2020
+      - 11
+      - 9
+  firstpage: 9
+  lastpage: 27
+  published: 2020-11-09 00:00:00 +0000
+- title: 'Measuring Two-People Communication from Omnidirectional Video'
+  abstract: 'In this paper we propose a method of measuring the communication between two people by analyzing their heads’ information: head pose, gaze vectors and facial action units. Assuming two people are sitting around a table, an omnidirectional camera is used to observe the two people simultaneously.Next, the visual cues of the heads of the two people, including head pose, gaze vectors and facial action units, are extracted using a popular facial behavior analysis toolkit, OpenFace. Then,  a LSTM (Long Short Term Memory) neural network is used to learn measuring the communication between the two people from the temporal sequence of the extracted head information. The preliminary experimental results show the effectiveness of the proposed method.'
+  volume: 122
+  URL: https://proceedings.mlr.press/v122/niibori20a.html
+  PDF: http://proceedings.mlr.press/v122/niibori20a/niibori20a.pdf
+  edit: https://github.com/mlresearch//v122/edit/gh-pages/_posts/2020-11-09-niibori20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2019 3rd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Yui
+    family: Niibori
+  - given: Shigang
+    family: Li
+  editor: 
+  - given: William
+    family: Hsu
+  page: 28-35
+  id: niibori20a
+  issued:
+    date-parts: 
+      - 2020
+      - 11
+      - 9
+  firstpage: 28
+  lastpage: 35
+  published: 2020-11-09 00:00:00 +0000
+- title: 'Persuasion: What Jane Austin Would Have Written'
+  abstract: 'This paper presents preliminary results for developing an online "persuasion score" that will enable digital marketing content authors to compose and edit materials with better persuasive capability.  Inspired by initial insights with digital marketing professionals and research on the foundations of persuasion: pathos, ethos and logos, we extracted features from a data set of over three million consumer reactions to email marketing campaigns covering a three month period.  We report on the most significant features of the content, including image position and text readability as well as the most salient customer features such as time since registration and time since last opened email from the same marketing brand.'
+  volume: 122
+  URL: https://proceedings.mlr.press/v122/sinha20a.html
+  PDF: http://proceedings.mlr.press/v122/sinha20a/sinha20a.pdf
+  edit: https://github.com/mlresearch//v122/edit/gh-pages/_posts/2020-11-09-sinha20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2019 3rd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Moumita
+    family: Sinha
+  - given: Jennifer
+    family: Healey
+  - given: Faran
+    family: Ahmad
+  - given: Varun
+    family: Gupta
+  - given: Niloy
+    family: Ganguly
+  editor: 
+  - given: William
+    family: Hsu
+  page: 36-43
+  id: sinha20a
+  issued:
+    date-parts: 
+      - 2020
+      - 11
+      - 9
+  firstpage: 36
+  lastpage: 43
+  published: 2020-11-09 00:00:00 +0000
+- title: 'Learning Discriminative Features using Center Loss and Reconstruction as Regularizer for Speech Emotion Recognition'
+  abstract: 'This paper proposes a Convolutional Neural Network (CNN) inspired by Multitask Learning (MTL) and based on speech features trained under the joint supervision of softmax loss and center loss, a powerful metric learning strategy, for the recognition of emotion in speech. Speech features such as Spectrograms and Mel-frequency Cepstral Coefficients (MFCCs) help retain emotion related low-level characteristics in speech. We experimented with several Deep Neural Network (DNN) architectures that take in speech features as input and trained them under both softmax and center loss, which resulted in highly discriminative features ideal for Speech Emotion Recognition (SER). Our networks also employ a regularizing effect by simultaneously performing the auxiliary task of reconstructing the input speech features. This sharing of representations among related tasks enables our network to better generalize the original task of SER. Some of our proposed networks contain far fewer parameters when compared to state-of-the-art architectures. We used the University of Southern California’s Interactive Emotional Motion Capture (USC-IEMOCAP) database in this work. Our best performing model achieves a 3.1% improvement in overall accuracy and a 5.3% improvement in class accuracy when compared to existing state-of-the-art methods.'
+  volume: 122
+  URL: https://proceedings.mlr.press/v122/tripathi20a.html
+  PDF: http://proceedings.mlr.press/v122/tripathi20a/tripathi20a.pdf
+  edit: https://github.com/mlresearch//v122/edit/gh-pages/_posts/2020-11-09-tripathi20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2019 3rd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Suraj
+    family: Tripathi
+  - given: Abhiram
+    family: Ramesh
+  - given: Abhay
+    family: Kumar
+  - given: Chirag
+    family: Singh
+  - given: Promod
+    family: Yenigalla
+  editor: 
+  - given: William
+    family: Hsu
+  page: 44-53
+  id: tripathi20a
+  issued:
+    date-parts: 
+      - 2020
+      - 11
+      - 9
+  firstpage: 44
+  lastpage: 53
+  published: 2020-11-09 00:00:00 +0000

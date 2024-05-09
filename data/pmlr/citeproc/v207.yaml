@@ -1,0 +1,342 @@
+
+- title: 'Developing Open Source Educational Resources for Machine Learning and Data Science'
+  abstract: 'Education should not be a privilege but a common good. It should be openly accessible to everyone, with as few barriers as possible; even more so for key technologies such as Machine Learning (ML) and Data Science (DS). Open Educational Resources (OER) are a crucial factor for greater educational equity. In this paper, we describe the specific requirements for OER in ML and DS and argue that it is especially important for these fields to make source files publicly available, leading to Open Source Educational Resources (OSER). We present our view on the collaborative development of OSER, the challenges this poses, and first steps towards their solutions. We outline how OSER can be used for blended learning scenarios and share our experiences in university education. Finally, we discuss additional challenges such as credit assignment or granting certificates.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/bothmann23a.html
+  PDF: https://proceedings.mlr.press/v207/bothmann23a/bothmann23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-bothmann23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Ludwig
+    family: Bothmann
+  - given: Sven
+    family: Strickroth
+  - given: Giuseppe
+    family: Casalicchio
+  - given: David
+    family: Rügamer
+  - given: Marius
+    family: Lindauer
+  - given: Fabian
+    family: Scheipl
+  - given: Bernd
+    family: Bischl
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 1-6
+  id: bothmann23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 1
+  lastpage: 6
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Introduction to AI and its medical applications: Crash Course for an audience with diverse scientific backgrounds'
+  abstract: 'Artificial intelligence (AI) and Machine Learning (ML) techniques have been developing more and more rapidly over the past few decades and teaching these methods can be very complicated even when students have good math and programming skills. Moreover, the background of the target group may be very diverse in terms of technical and coding skills, especially for a single introductory lecture. We describe here our experience in a three-hour crash course on introduction to AI and its medical applications, in which we alternated theoretical and practical sessions that could be engaging for students with different abilities and knowledge. The goals of the lecture were to demystify AI, introduce the challenges and current limitations of Deep Learning (DL), and present applications to the medical domain. The modularity of the course and choice of examples and tasks applied to the medical field interested the students who considered them authentic and relevant. The lesson has been positively evaluated by the students and their feedback identifies an NPS of 27 and an average of 8.2 over 10 when asked how likely they are to recommend the course to colleagues or friends.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/cea23a.html
+  PDF: https://proceedings.mlr.press/v207/cea23a/cea23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-cea23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Donatella
+    family: Cea
+  - given: Helene
+    family: Hoffmann
+  - given: Marie
+    family: Piraud
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 7-11
+  id: cea23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 7
+  lastpage: 11
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Teaching Machine Learning with Applied Interdisciplinary Real World Projects'
+  abstract: 'One of the challenges in teaching machine learning to computer science students consists in finding the right hands-on projects that students can work on. Most of the popular Machine Learning projects such as Titanic Survival Prediction and Housing Prices Prediction have many solutions available online. Students working on these problems do not get challenged enough to improve their experimental skills. Moreover, they might follow the methodology in the existing solutions which can discourage them from designing a novel ML solution. Real-world applied projects without online solutions in which students can use their creative problem-solving skills are needed to teach ML courses effectively. Otherwise, students fall into an overfitting problem in which they become ML coders reusing existing codes without ever writing their code. Consequently, we present an approach for creating course project material to achieve this goal. This approach is supported as an applied learning curriculum design methodology with an internal grant at our institution. It is validated experimentally for two semesters in a course taught to both graduate and undergraduate computer science students.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/dogan23a.html
+  PDF: https://proceedings.mlr.press/v207/dogan23a/dogan23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-dogan23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Gulustan
+    family: Dogan
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 12-15
+  id: dogan23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 12
+  lastpage: 15
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Hearts Gym: Learning Reinforcement Learning as a Team Event'
+  abstract: 'Amidst the COVID-19 pandemic, the authors of this paper organized a Reinforcement Learning (RL) course for a graduate school in the field of data science. We describe the strategy and materials for creating an exciting learning experience despite the ubiquitous Zoom fatigue and evaluate the course qualitatively. The key organizational features are a focus on a competitive hands-on setting in teams supported by a minimum of lectures providing the essential background on RL. The practical part of the course revolved around Hearts Gym, an RL environment for the card game Hearts that we developed as an entry-level tutorial to RL. Participants were tasked with training agents to explore reward shaping and other RL hyperparameters. For a final evaluation, the agents of the participants competed against each other.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/ebert23a.html
+  PDF: https://proceedings.mlr.press/v207/ebert23a/ebert23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-ebert23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Jan
+    family: Ebert
+  - given: Danimir T.
+    family: Doncevic
+  - given: Ramona
+    family: Kloß
+  - given: Stefan
+    family: Kesselheim
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 16-21
+  id: ebert23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 16
+  lastpage: 21
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Stimulating student engagement with an AI board game tournament'
+  abstract: 'Strong foundations in basic AI techniques are key to understanding more advanced concepts. We believe that introducing AI techniques, such as search methods, early in higher education helps create a deeper understanding of the concepts seen later in more advanced AI and algorithms courses. We present a project-based and competition-based bachelor course that gives second-year students an introduction to search methods applied to board games. In groups of two, students have to use network programming and AI methods to build an AI agent to compete in a board game tournament—othello was this year’s game. Students are evaluated based on the quality of their projects and on their performance during the final tournament. We believe that the introduction of gamification, in the form of competition-based learning, allows for a better learning experience for the students.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/hasselmann23a.html
+  PDF: https://proceedings.mlr.press/v207/hasselmann23a/hasselmann23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-hasselmann23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Ken
+    family: Hasselmann
+  - given: Quentin
+    family: Lurkin
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 22-26
+  id: hasselmann23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 22
+  lastpage: 26
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Will the sun shine? - An accessible dataset for teaching machine learning and deep learning'
+  abstract: 'Hands-on teaching of modern machine learning and deep learning techniques heavily relies on the use of well-suited datasets. We present a novel tabular dataset that was specifically created for teaching machine learning and deep learning to an academic audience. The dataset contains intuitively accessible weather observations from 18 locations in Europe. It was designed to be suitable for a large variety of different training goals, and to avoid reaching unrealistically high prediction accuracy. Teachers or instructors thus can choose the difficulty of the training goals and thereby match it with the respective learner audience or lesson objective.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/huber23a.html
+  PDF: https://proceedings.mlr.press/v207/huber23a/huber23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-huber23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Florian
+    family: Huber
+  - given: Erica Dafne
+    prefix: van
+    family: Kuppevelt
+  - given: Peter
+    family: Steinbach
+  - given: Colin
+    family: Sauze
+  - given: Yang
+    family: Liu
+  - given: Berend
+    family: Weel
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 27-31
+  id: huber23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 27
+  lastpage: 31
+  published: 2023-12-02 00:00:00 +0000
+- title: 'A Deep Learning Bootcamp for Engineering & Management Students'
+  abstract: 'Students from engineering & management with a focus on vocational activities such as machining or accounting tend to lack the necessary computer science foundations to build, appreciate, and evaluate machine learning solutions. However, they are likely going to have to identify and judge potential use cases in their careers in industrial practice. Therefore, we propose a guided three-day curriculum that goes all the way from manual data inspection to the implementation of several models in Python, including several evaluation metrics. We focus on a computer vision task identifying traffic signs due to its conceptual simplicity and similarity to tasks in vision-based quality assurance. In this paper, we share our material as OER as well as experiences we’ve made throughout three offerings of the bootcamp.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/lodes23a.html
+  PDF: https://proceedings.mlr.press/v207/lodes23a/lodes23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-lodes23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Lukas
+    family: Lodes
+  - given: Alexander
+    family: Schiendorfer
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 32-36
+  id: lodes23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 32
+  lastpage: 36
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Data, Trees, and Forests - Decision Tree Learning in K-12 Education'
+  abstract: 'As a consequence of the increasing influence of machine learning on our lives, everyone needs competencies to understand corresponding phenomena, but also to get involved in shaping our world and making informed decisions regarding the influences on our society. Therefore, in K-12 education, students need to learn about core ideas and principles of machine learning. However, for this target group, achieving all of the aforementioned goals presents an enormous challenge. To this end, we present a teaching concept that combines a playful and accessible unplugged approach focusing on conceptual understanding with empowering students to actively apply machine learning methods and reflect their influence on society, building upon decision tree learning.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/michaeli23a.html
+  PDF: https://proceedings.mlr.press/v207/michaeli23a/michaeli23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-michaeli23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Tilman
+    family: Michaeli
+  - given: Stefan
+    family: Seegerer
+  - given: Lennard
+    family: Kerber
+  - given: Ralf
+    family: Romeike
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 37-41
+  id: michaeli23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 37
+  lastpage: 41
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Teaching Machine Learning with mlr3 using Shiny'
+  abstract: 'The command-line use of R and Python can be a barrier for novice learners in the field of machine learning. Lowering this bar for nontechnical students may help them to understand important core principles of machine learning like training and evaluation of models. Shiny applications can provide an user friendly graphical interface to the machine learning workflow. mlr3shiny uses the functionalities of the R-package mlr3 and provides teachers and learners of machine learning the opportunity to explore the machine learning workflow without the need to learn R programming first.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/szepannel23a.html
+  PDF: https://proceedings.mlr.press/v207/szepannel23a/szepannel23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-szepannel23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Gero
+    family: Szepannel
+  - given: Laurens
+    family: Tetzlaff
+  - given: Alexander
+    family: Frahm
+  - given: Karsten
+    family: Lübke
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 42-45
+  id: szepannel23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 42
+  lastpage: 45
+  published: 2023-12-02 00:00:00 +0000
+- title: 'Machine Learning Students Overfit to Overfitting'
+  abstract: 'Overfitting and generalization is an important concept in Machine Learning as only models that generalize are interesting for general applications. Yet some students have trouble learning this important concept through lectures and exercises. In this paper we describe common examples of students misunderstanding overfitting, and provide recommendations for possible solutions. We cover student misconceptions about overfitting, about solutions to overfitting, and implementation mistakes that are commonly confused with overfitting issues. We expect that our paper can contribute to improving student understanding and lectures about this important topic.'
+  volume: 207
+  URL: https://proceedings.mlr.press/v207/valdenegro-toro23a.html
+  PDF: https://proceedings.mlr.press/v207/valdenegro-toro23a/valdenegro-toro23a.pdf
+  edit: https://github.com/mlresearch//v207/edit/gh-pages/_posts/2023-12-02-valdenegro-toro23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Third Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Matias
+    family: Valdenegro-Toro
+  - given: Matthia
+    family: Sabatelli
+  editor: 
+  - given: Katherine M.
+    family: Kinnaird
+  - given: Peter
+    family: Steinbach
+  - given: Oliver
+    family: Guhr
+  page: 46-51
+  id: valdenegro-toro23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 2
+  firstpage: 46
+  lastpage: 51
+  published: 2023-12-02 00:00:00 +0000

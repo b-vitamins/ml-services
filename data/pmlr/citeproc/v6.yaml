@@ -1,0 +1,697 @@
+
+- title: 'Causality: Objectives and Assessment'
+  abstract: 'The NIPS 2008 workshop on causality provided a forum for researchers from different horizons to share their view on causal modeling and address the difficult question of assessing causal models. There has been a vivid debate on properly separating the notion of causality from particular models such as graphical models, which have been dominating the field in the past few years. Part of the workshop was dedicated to discussing the results of a challenge, which offered a wide variety of applications of causal modeling. We have regrouped in these proceedings the best papers presented. Most lectures were videotaped or recorded. All information regarding the challenge and the lectures are found at <a href=http://www.clopinet.com/isabelle/Projects/NIPS2008/>http://www.clopinet.com/isabelle/Projects/NIPS2008/</a>. This introduction provides a synthesis of the findings and a gentle introduction to causality topics, which are the object of active research.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/guyon10a.html
+  PDF: http://proceedings.mlr.press/v6/guyon10a/guyon10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-guyon10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 1-42
+  id: guyon10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 1
+  lastpage: 42
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Causal Inference'
+  abstract: 'This paper reviews a theory of causal inference based on the Structural Causal Model (SCM) described in Pearl (2000a). The theory unifies the graphical, potential-outcome (Neyman-Rubin), decision analytical, and structural equation approaches to causation, and provides both a mathematical foundation and a friendly calculus for the analysis of causes and counterfactuals. In particular, the paper establishes a methodology for inferring (from a combination of data and assumptions) the answers to three types of causal queries: (1) queries about the effect of potential interventions, (2) queries about counterfactuals, and (3) queries about the direct (or indirect) effect of one event on another.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/pearl10a.html
+  PDF: http://proceedings.mlr.press/v6/pearl10a/pearl10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-pearl10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Judea
+    family: Pearl
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 39-58
+  id: pearl10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 39
+  lastpage: 58
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Beware of the DAG!'
+  abstract: 'Directed acyclic graph (DAG) models are popular tools for describing causal relationships and for guiding attempts to learn them from data.  They appear to supply a means of extracting causal conclusions from probabilistic conditional independence properties inferred from purely observational data.  I take a critical look at  this enterprise, and suggest that it is in need of more, and more explicit, methodological and philosophical justification than it typically receives. In particular, I argue for the value of a clean separation between formal causal language and intuitive causal assumptions.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/dawid10a.html
+  PDF: http://proceedings.mlr.press/v6/dawid10a/dawid10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-dawid10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: A. Philip
+    family: Dawid
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 59-86
+  id: dawid10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 59
+  lastpage: 86
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Causal Discovery as a Game'
+  abstract: 'This paper presents a game theoretic approach to causal discovery. The problem of causal discovery is framed as a game of the Scientist against Nature, in which Nature attempts to hide its secrets for as long as possible, and the Scientist makes her best effort at discovery while minimizing cost. This approach provides a very general framework for the assessment of different search procedures and a principled way of modeling the effect of choices between different experiments.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/eberhardt10a.html
+  PDF: http://proceedings.mlr.press/v6/eberhardt10a/eberhardt10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-eberhardt10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Frederick
+    family: Eberhardt
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 87-96
+  id: eberhardt10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 87
+  lastpage: 96
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Sparse Causal Discovery in Multivariate Time Series'
+  abstract: 'Our goal is to estimate causal interactions in multivariate time series. Using vector autoregressive (VAR) models, these can be defined based on non-vanishing coefficients belonging to respective time-lagged instances. As in most cases a parsimonious causality structure is assumed, a promising approach to causal discovery consists in fitting VAR models with an additional sparsity-promoting regularization. Along this line we here propose that sparsity should be enforced for the subgroups of coefficients that belong to each pair of time series, as the absence of a causal relation requires the coefficients for all time-lags to become jointly zero. Such behavior can be achieved by means of $\ell_{1,2}$-norm regularized regression, for which an efficient active set solver has been proposed recently. Our method is shown to outperform standard methods in recovering simulated causality graphs. The results are on par with a second novel approach which uses multiple statistical testing.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/haufe10a.html
+  PDF: http://proceedings.mlr.press/v6/haufe10a/haufe10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-haufe10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Stefan
+    family: Haufe
+  - given: Klaus-Robert
+    family: Müller
+  - given: Guido
+    family: Nolte
+  - given: Nicole
+    family: Krämer
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 97-106
+  id: haufe10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 97
+  lastpage: 106
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Inference of Graphical Causal Models: Representing the Meaningful Information of Probability Distributions'
+  abstract: 'This paper studies the feasibility and interpretation of learning the causal structure from observational data with the principles behind the Kolmogorov Minimal Sufficient Statistic (KMSS). The KMSS provides a generic solution to inductive inference. It states that we should seek for the minimal model that captures all regularities of the data. The conditional independencies following from the system’s causal structure are the regularities incorporated in a graphical causal model. The meaningful information provided by a Bayesian network corresponds to the decomposition of the description of the system into Conditional Probability Distributions (CPDs). The decomposition is described by the Directed Acyclic Graph (DAG). For a causal interpretation of the DAG, the decomposition should imply modularity of the CPDs. The CPDs should match up with independent parts of reality that can be changed independently. We argue that if the shortest description of the joint distribution is given by separate descriptions of the conditional distributions for each variable given its effects, the decomposition given by the DAG should be considered as the top-ranked causal hypothesis. Even when the causal interpretation is faulty, it serves as a reference model. Modularity becomes, however, implausible if the concatenation of the description of some CPDs is compressible. Then there might be a kind of meta-mechanism governing some of the mechanisms or either a single mechanism responsible for setting the state of multiple variables.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/lemeire10a.html
+  PDF: http://proceedings.mlr.press/v6/lemeire10a/lemeire10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-lemeire10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Jan
+    family: Lemeire
+  - given: Kris
+    family: Steenhaut
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 107-120
+  id: lemeire10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 107
+  lastpage: 120
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Bayesian Algorithms for Causal Data Mining'
+  abstract: 'We present two Bayesian algorithms CD-B and CD-H for discovering unconfounded cause and effect relationships from observational data without assuming causal sufficiency which precludes hidden common causes for the observed variables. The CD-B algorithm first estimates the Markov blanket of a node $X$ using a Bayesian greedy search method and then applies Bayesian scoring methods to discriminate the parents and children of $X$. Using the set of parents and set of children CD-B constructs a global Bayesian network and outputs the causal effects of a node $X$ based on the identification of $Y$ arcs. Recall that if a node $X$ has two parent nodes $A, B$ and a child node $C$ such that there is no arc between $A, B$ and $A, B$ are not parents of $C$, then the arc from $X$ to $C$ is called a $Y$ arc. The CD-H algorithm uses the MMPC algorithm to estimate the union of parents and children of a target node $X$. The subsequent steps are similar to those of CD-B. We evaluated the CD-B and CD-H algorithms empirically based on simulated data from four different Bayesian networks. We also present comparative results based on the identification of $Y$ structures and $Y$ arcs from the output of the PC, MMHC and FCI algorithms. The results appear promising for mining causal relationships that are unconfounded by hidden variables from observational data.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/mani10a.html
+  PDF: http://proceedings.mlr.press/v6/mani10a/mani10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-mani10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Subramani
+    family: Mani
+  - given: Constantin F.
+    family: Aliferis
+  - given: Alexander
+    family: Statnikov
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 121-136
+  id: mani10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 121
+  lastpage: 136
+  published: 2010-02-18 00:00:00 +0000
+- title: 'When causality matters for prediction: investigating the practical tradeoffs'
+  abstract: 'Recent evaluations have indicated that in practice, general methods for prediction which do not account for changes in the conditional distribution of a target variable given feature values in some cases outperform causal discovery based methods for prediction which can account for such changes. We investigate some possibilities which may explain these findings. We give theoretical conditions, which are confirmed experimentally, for when particular manipulations of variables should not affect predictions for a target. We then consider the tradeoff between errors related to causality, i.e. not accounting for changes in a distribution after variables are manipulated, and errors resulting from sample bias, overfitting, and assuming specific parametric forms that do not fit the data, which most existing causal discovery based methods are particularly prone to making.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/tillman10a.html
+  PDF: http://proceedings.mlr.press/v6/tillman10a/tillman10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-tillman10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Robert E.
+    family: Tillman
+  - given: Peter
+    family: Spirtes
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 137-146
+  id: tillman10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 137
+  lastpage: 146
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Distinguishing between cause and effect'
+  abstract: 'We describe eight data sets that together formed the CauseEffectPairs task in the Causality Challenge #2: Pot-Luck competition. Each set consists of a sample of a pair of statistically dependent random variables. One variable is known to cause the other one, but this information was hidden from the participants; the task was to identify which of the two variables was the cause and which one the effect, based upon the observed sample. The data sets were chosen such that we expect common agreement on the ground truth. Even though part of the statistical dependences may also be due to hidden common causes, common sense tells us that there is a significant cause-effect relation between the two variables in each pair. We also present baseline results using three different causal inference methods.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/mooij10a.html
+  PDF: http://proceedings.mlr.press/v6/mooij10a/mooij10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-mooij10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Joris
+    family: Mooij
+  - given: Dominik
+    family: Janzing
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 147-156
+  id: mooij10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 147
+  lastpage: 156
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Distinguishing Causes from Effects using Nonlinear Acyclic Causal Models'
+  abstract: 'Distinguishing causes from effects is an important problem in many areas.  In this paper, we propose a very general but well defined nonlinear acyclic causal model, namely, post-nonlinear acyclic causal model with inner additive noise, to tackle this problem. In this model, each observed variable is generated by a nonlinear function of its parents,  with additive noise, followed by a nonlinear distortion. The nonlinearity in the second stage takes into account the effect of sensor distortions, which are usually encountered in practice. In the two-variable case, if all the nonlinearities involved in the model are invertible, by relating the proposed model to the post-nonlinear independent component analysis (ICA) problem, we give the conditions under which the causal relation can be uniquely found. We present a two-step method, which is constrained nonlinear ICA followed by statistical independence tests, to distinguish the cause from the effect in the two-variable case. We apply this method to solve the problem “CauseEffectPairs” in the Pot-luck challenge, and successfully identify causes from effects.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/zhang10a.html
+  PDF: http://proceedings.mlr.press/v6/zhang10a/zhang10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-zhang10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Kun
+    family: Zhang
+  - given: Aapo
+    family: Hyvärinen
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 157-164
+  id: zhang10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 157
+  lastpage: 164
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Structure Learning in Causal Cyclic Networks'
+  abstract: 'Cyclic graphical models are unnecessary for accurate representation of joint probability distributions, but are often indispensable when a causal representation of variable relationships is desired. For variables with a cyclic causal dependence structure, DAGs are guaranteed not to recover the correct causal structure, and therefore may yield false predictions about the outcomes of perturbations (and even inference.) In this paper, we introduce an approach to generalize Bayesian Network structure learning to structures with cyclic dependence. We introduce a structure learning algorithm, prove its performance given reasonable assumptions, and use simulated data to compare its results to the results of standard Bayesian network structure learning. We then propose a modified, heuristic algorithm with more modest data requirements, and test its performance on a real-life dataset from molecular biology, containing causal, cyclic dependencies.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/itani10a.html
+  PDF: http://proceedings.mlr.press/v6/itani10a/itani10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-itani10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Sleiman
+    family: Itani
+  - given: Mesrob
+    family: Ohannessian
+  - given: Karen
+    family: Sachs
+  - given: Garry P.
+    family: Nolan
+  - given: Munther A.
+    family: Dahleh
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 165-176
+  id: itani10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 165
+  lastpage: 176
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Causal learning without DAGs'
+  abstract: 'Causal learning methods are often evaluated in terms of their ability to discover a true underlying directed acyclic graph (DAG) structure. However, in general the true structure is unknown and may not be a DAG structure.  We therefore consider evaluating causal learning methods in terms of predicting the effects of interventions on unseen test data.  Given this task, we show that there exist a variety of approaches to modeling causality, generalizing DAG-based methods.  Our experiments on synthetic and biological data indicate that some non-DAG models perform as well or better than DAG-based methods at causal prediction tasks.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/duvenaud10a.html
+  PDF: http://proceedings.mlr.press/v6/duvenaud10a/duvenaud10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-duvenaud10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Duvenaud
+  - given: Daniel
+    family: Eaton
+  - given: Kevin
+    family: Murphy
+  - given: Mark
+    family: Schmidt
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 177-190
+  id: duvenaud10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 177
+  lastpage: 190
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Discover Local Causal Network around a Target to a Given Depth'
+  abstract: 'For a given target node $T$ and a given depth $k \geq 1$, we propose an algorithm for discovering a local causal network around the target $T$ to depth $k$. In our algorithm, we find parents, children and some descendants (PCD) of nodes stepwise away from the target $T$ until all edges within the depth $k$ local network cannot be oriented further. Our algorithm extends the PCD-by-PCD algorithm for prediction with intervention presented in Yin et al. (2008). Our algorithm can construct a local network to depth $k$, has a more efficient stop rule and finds PCDs along some but not all paths starting from the target.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/zhou10a.html
+  PDF: http://proceedings.mlr.press/v6/zhou10a/zhou10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-zhou10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: You
+    family: Zhou
+  - given: Changzhang
+    family: Wang
+  - given: Jianxin
+    family: Yin
+  - given: Zhi
+    family: Geng
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 191-202
+  id: zhou10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 191
+  lastpage: 202
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Fast Committee-Based Structure Learning'
+  abstract: 'Current methods for causal structure learning tend to be computationally intensive or intractable for large datasets. Some recent approaches have speeded up the process by first making hard decisions about the set of parents and children for each variable, in order to  break large-scale problems into sets of tractable local neighbourhoods. We use this principle in order to apply a structure learning committee for orientating edges between variables. We find that a combination of weak structure learners can be effective in recovering causal dependencies. Though such a formulation would be intractable for large problems at the global level, we show that it can run quickly when processing local neighbourhoods in turn. Experimental results show that this localized, committee-based approach has advantages over standard causal discovery algorithms both in terms of speed and accuracy.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/mwebaze10a.html
+  PDF: http://proceedings.mlr.press/v6/mwebaze10a/mwebaze10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-mwebaze10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Ernest
+    family: Mwebaze
+  - given: John A.
+    family: Quinn
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 203-214
+  id: mwebaze10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 203
+  lastpage: 214
+  published: 2010-02-18 00:00:00 +0000
+- title: 'SIGNET:  Boolean Rule Determination for Abscisic Acid Signaling'
+  abstract: 'This paper describes the SIGNET dataset generated for the Causality Challenge. Cellular signaling pathways are most elusive types of networks to access experimentally due to the lack of methods for determining the state of a signaling network in an intact living cell. Boolean network models are currently being used for the modeling of signaling networks due to their compact formulation and ability to adequately represent network dynamics without the need for chemical kinetics. The problem posed in the SIGNET challenge is to determine the set of Boolean rules that describe the interactions of nodes within a plant signaling network, given a set of 300 Boolean pseudodynamic simulations of the true rules. The two solution methods that were presented revealed that the problem can be solved to greater than 99% accuracy.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/jenkins10a.html
+  PDF: http://proceedings.mlr.press/v6/jenkins10a/jenkins10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-jenkins10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Jerry
+    family: Jenkins
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 215-224
+  id: jenkins10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 215
+  lastpage: 224
+  published: 2010-02-18 00:00:00 +0000
+- title: 'The Use of Bernoulli Mixture Models for Identifying Corners of a Hypercube and Extracting Boolean Rules From Data'
+  abstract: 'This paper describes the use of Bernoulli mixture models for extracting boolean rules from data. Bernoulli mixtures identify high data density areas on the corners of a hypercube. One corner represents a conjunction of literals in a boolean clause and the set of all identified corners, of the hypercube, indicates disjuncts of clauses to form a rule. Further class labels can be used to select features or variables, in the individual conjuncts, that are relevant to the target variable. This method was applied to the SIGNET dataset of the causality workbench challenge. The dataset is derived from a biological signaling network with 21 time steps and 43 random boolean variables. Results indicate that Bernoulli mixtures are quite effective at extracting boolean rules from data.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/saeed10a.html
+  PDF: http://proceedings.mlr.press/v6/saeed10a/saeed10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-saeed10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Mehreen
+    family: Saeed
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 225-236
+  id: saeed10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 225
+  lastpage: 236
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Reverse Engineering of Asynchronous Boolean Networks via Minimum Explanatory Set and Maximum Likelihood'
+  abstract: 'In this paper, we propose an approach for reconstructing asynchronous Boolean networks from observed data. We find the causal relationships in Boolean networks using an asynchronous evolution approach. In our approach, we first find a minimum explanatory set for a node to reduce complexity of candidate Boolean functions, and then we choose a Boolean function for the node based on the maximum likelihood. This approach is stimulated by the task SIGNET of the causal challenge #2 pot-luck (Jenkins, 2009). Besides the data set SIGNET, we also applied our approach to two other datasets to evaluate our approach: one is generated by Professor Isabelle Guyon and the other generated ourselves from the signal transduction network of Abscisic acid in guard cell.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/zheng10a.html
+  PDF: http://proceedings.mlr.press/v6/zheng10a/zheng10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-zheng10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Cheng
+    family: Zheng
+  - given: Zhi
+    family: Geng
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 237-248
+  id: zheng10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 237
+  lastpage: 248
+  published: 2010-02-18 00:00:00 +0000
+- title: 'TIED: An Artificially Simulated Dataset with Multiple Markov Boundaries'
+  abstract: 'We present an artificially simulated dataset (TIED) constructed so that there are many minimal sets of variables with maximal predictivity (i.e., Markov boundaries) and likewise many sets of variables that are statistically indistinguishable from the set of direct causes and direct effects of the response variable. This dataset was used in the Potluck Causality Challenge to determine all statistically indistinguishable sets of direct causes and direct effects and all Markov boundaries of the response variable and also to predict the response variable in the independent test data. We also present baseline results of application of several algorithms to this dataset.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/statnikov10a.html
+  PDF: http://proceedings.mlr.press/v6/statnikov10a/statnikov10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-statnikov10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Statnikov
+  - given: Constantin F.
+    family: Aliferis
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 249-256
+  id: statnikov10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 249
+  lastpage: 256
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Learning Causal Models That Make Correct Manipulation Predictions With Time Series Data'
+  abstract: 'One of the fundamental purposes of causal models is using them to predict the effects of manipulating various components of a system. It has been argued by Dash (2005, 2003) that the Do operator will fail when applied to an equilibrium model, unless the underlying dynamic system obeys what he calls Equilibration-Manipulation Commutability. Unfortunately, this fact renders most existing causal discovery algorithms unreliable for reasoning about manipulations. Motivated by this caveat, in this paper we present a novel approach to causal discovery of dynamic models from time series. The approach uses a representation of dynamic causal models motivated by Iwasaki and Simon (1994), which asserts that all “causation across time” occurs because a variable’s derivative has been affected instantaneously. We present an algorithm that exploits this representation within a constraint-based learning framework by numerically calculating derivatives and learning instantaneous relationships. We argue that due to numerical errors in higher order derivatives, care must be taken when learning causal structure, but we show that the Iwasaki-Simon representation reduces the search space considerably, allowing us to forego calculating many high-order derivatives. In order for our algorithm to discover the dynamic model, it is necessary that the time-scale of the data is much finer than any temporal process of the system. Finally, we show that our approach can correctly recover the structure of a fairly complex dynamic system, and can predict the effect of manipulations accurately when a manipulation does not cause an instability. To our knowledge, this is the first causal discovery algorithm that has demonstrated that it can correctly predict the effects of manipulations for a system that does not obey the EMC condition.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/voortman10a.html
+  PDF: http://proceedings.mlr.press/v6/voortman10a/voortman10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-voortman10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Mark
+    family: Voortman
+  - given: Denver
+    family: Dash
+  - given: Marek J.
+    family: Druzdzel
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 257-266
+  id: voortman10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 257
+  lastpage: 266
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Comparison of Granger Causality and Phase Slope Index'
+  abstract: 'We recently proposed a new measure, termed Phase Slope Index (PSI), It estimates the causal direction of interactions robustly with respect to instantaneous mixtures of independent sources with arbitrary spectral content. We compared this method to Granger Causality for linear systems containing spatially and temporarily mixed noise and found that, in contrast to PSI, the latter was not able to properly distinguish truly interacting systems from mixed noise. Here, we extent this analysis with respect to two aspects: a) we analyze Granger causality and PSI also for non-mixed noise, and b) we analyze PSI for nonlinear interactions. We found a) that Granger causality, in contrast to PSI, fails also for non-mixed noise if the memory-time of the sender of information is long compared to the transmission time of the information, and b) that PSI, being a linear method, eventually misses nonlinear interactions but is unlikely to give false positive results.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/nolte10a.html
+  PDF: http://proceedings.mlr.press/v6/nolte10a/nolte10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-nolte10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Guido
+    family: Nolte
+  - given: Andreas
+    family: Ziehe
+  - given: Nicole
+    family: Krämer
+  - given: Florin
+    family: Popescu
+  - given: Klaus-Robert
+    family: Müller
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 267-276
+  id: nolte10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 267
+  lastpage: 276
+  published: 2010-02-18 00:00:00 +0000
+- title: 'Causality Challenge: Benchmarking relevant signal components for effective monitoring and process control'
+  abstract: 'A complex modern manufacturing process is normally under consistent surveillance via the monitoring of signals/variables collected from sensors. However, not all of these signals are equally valuable in a specific monitoring system. The measured signals contain a combination of useful information, irrelevant information as well as noise. It is often the case that useful information is buried in the latter two. Engineers typically have a much larger number of signals than are actually required. If we consider each type of signal as a feature, then feature selection may be used to identify the most predictive signals. Once these signals have been identified causal relevance may then be investigated to try and identify the causal features. The Process Engineers may then use these signals to ensure a small scrap rate further downstream in the process, increase the throughput and reduce the per unit production costs. Working in partnership with industry we aim to address this complex problem as part of their process control engineering in the context of wafer fabrication production and enhance current business improvement techniques with the application of causal feature selection as an intelligent systems technique.'
+  volume: 6
+  URL: https://proceedings.mlr.press/v6/mccann10a.html
+  PDF: http://proceedings.mlr.press/v6/mccann10a/mccann10a.pdf
+  edit: https://github.com/mlresearch//v6/edit/gh-pages/_posts/2010-02-18-mccann10a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Workshop on Causality: Objectives and Assessment at NIPS 2008'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: McCann
+  - given: Yuhua
+    family: Li
+  - given: Liam
+    family: Maguire
+  - given: Adrian
+    family: Johnston
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  address: Whistler, Canada
+  page: 277-288
+  id: mccann10a
+  issued:
+    date-parts: 
+      - 2010
+      - 2
+      - 18
+  firstpage: 277
+  lastpage: 288
+  published: 2010-02-18 00:00:00 +0000

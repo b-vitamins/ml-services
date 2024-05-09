@@ -1,0 +1,159 @@
+
+- title: 'Linking Granger Causality and the Pearl Causal Model with Settable Systems'
+  abstract: 'The causal notions embodied in the concept of Granger causality have been argued to belong to a different category than those of Judea Pearl’s Causal Model, and so far their relation has remained obscure. Here, we demonstrate that these concepts are in fact closely linked by showing how each relates to straightforward notions of direct causality embodied in settable systems, an extension and refinement of the Pearl Causal Model designed to accommodate optimization, equilibrium, and learning. We then provide straightforward practical methods to test for direct causality using tests for Granger causality.'
+  volume: 12
+  URL: https://proceedings.mlr.press/v12/white11.html
+  PDF: http://proceedings.mlr.press/v12/white11/white11.pdf
+  edit: https://github.com/mlresearch//v12/edit/gh-pages/_posts/2011-03-03-white11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Neural Information Processing Systems Mini-Symposium on Causality in Time Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Halbert
+    family: White
+  - given: Karim
+    family: Chalak
+  - given: Xun
+    family: Lu
+  editor: 
+  - given: Florin
+    family: Popescu
+  - given: Isabelle
+    family: Guyon
+  address: Vancouver, Canada
+  page: 1-29
+  id: white11
+  issued:
+    date-parts: 
+      - 2011
+      - 3
+      - 3
+  firstpage: 1
+  lastpage: 29
+  published: 2011-03-03 00:00:00 +0000
+- title: 'Robust Statistics for Describing Causality in Multivariate Time Series.'
+  abstract: 'A widely agreed upon definition of time series causality inference, established in the seminal 1969 article of Clive Granger (1969), is based on the relative ability of the history of one time series to predict the current state of another, conditional on all other past information. While the Granger Causality (GC) principle remains uncontested, its literal application is challenged by practical and physical limitations of the process of discretely sampling continuous dynamic systems. Advances in methodology for time-series causality subsequently evolved mainly in econometrics and brain imaging: while each domain has specific data and noise characteristics the basic aims and challenges are similar. Dynamic interactions may occur at higher temporal or spatial resolution than our ability to measure them, which leads to the potentially false inference of causation where only correlation is present.   Causality assignment can be seen as the principled partition of spectral coherence among interacting signals using both auto-regressive (AR) modeling and spectral decomposition. While both approaches are theoretically equivalent, interchangeably describing linear dynamic processes, the purely spectral approach currently differs in its somewhat higher ability to accurately deal with mixed additive noise. Two new methods are introduced 1) a purely auto-regressive method named Causal Structural Information is introduced which unlike current AR-based  methods is robust to mixed additive noise and 2) a novel means of calculating multivariate spectra for unevenly sampled data based on cardinal trigonometric functions is  incorporated into the recently introduced phase slope index (PSI) spectral causal inference method (Nolte et al. 2008). In addition to these, PSI,  partial coherence-based PSI and existing AR-based causality measures were tested on a specially constructed data-set simulating possible confounding effects of mixed noise and another additionally testing the influence of common, background driving signals. Tabulated statistics are provided in which true causality influence is subjected to an acceptable level of false inference probability.'
+  volume: 12
+  URL: https://proceedings.mlr.press/v12/popescu11.html
+  PDF: http://proceedings.mlr.press/v12/popescu11/popescu11.pdf
+  edit: https://github.com/mlresearch//v12/edit/gh-pages/_posts/2011-03-03-popescu11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Neural Information Processing Systems Mini-Symposium on Causality in Time Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Florin
+    family: Popescu
+  editor: 
+  - given: Florin
+    family: Popescu
+  - given: Isabelle
+    family: Guyon
+  address: Vancouver, Canada
+  page: 30-64
+  id: popescu11
+  issued:
+    date-parts: 
+      - 2011
+      - 3
+      - 3
+  firstpage: 30
+  lastpage: 64
+  published: 2011-03-03 00:00:00 +0000
+- title: 'Causal Time Series Analysis of Functional Magnetic Resonance Imaging Data.'
+  abstract: 'This review focuses on dynamic causal analysis of functional magnetic resonance (fMRI) data to infer brain connectivity from a time series analysis and dynamical systems perspective. Causal influence is expressed in the Wiener-Akaike-Granger-Schweder (WAGS) tradition and dynamical systems are treated in a state space modeling framework. The nature of the fMRI signal is reviewed with emphasis on the involved neuronal, physiological and physical processes and their modeling as dynamical systems. In this context, two streams of development in modeling causal brain connectivity using fMRI are discussed: time series approaches to causality in a discrete time tradition and dynamic systems and control theory approaches in a continuous time tradition. This review closes with discussion of ongoing work and future perspectives on the integration of the two approaches.'
+  volume: 12
+  URL: https://proceedings.mlr.press/v12/roebroeck11.html
+  PDF: http://proceedings.mlr.press/v12/roebroeck11/roebroeck11.pdf
+  edit: https://github.com/mlresearch//v12/edit/gh-pages/_posts/2011-03-03-roebroeck11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Neural Information Processing Systems Mini-Symposium on Causality in Time Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Alard
+    family: Roebroeck
+  - given: Anil K.
+    family: Seth
+  - given: Pedro
+    family: Valdes-Sosa
+  editor: 
+  - given: Florin
+    family: Popescu
+  - given: Isabelle
+    family: Guyon
+  address: Vancouver, Canada
+  page: 65-94
+  id: roebroeck11
+  issued:
+    date-parts: 
+      - 2011
+      - 3
+      - 3
+  firstpage: 65
+  lastpage: 94
+  published: 2011-03-03 00:00:00 +0000
+- title: 'Causal Search in Structural Vector Autoregressive Models'
+  abstract: 'This paper reviews a class of methods to perform causal inference in the framework of a structural vector autoregressive model. We consider three different settings. In the first setting the underlying system is linear with normal disturbances and the structural model is identified by exploiting the information incorporated in the partial correlations of the estimated residuals. Zero partial correlations are used as input of a search algorithm formalized via graphical causal models. In the second, semi-parametric, setting the underlying system is linear with non-Gaussian disturbances. In this case the structural vector autoregressive model is identified through a search procedure based on independent component analysis. Finally, we explore the possibility of causal search in a nonparametric setting by studying the performance of conditional independence tests based on kernel density estimations.'
+  volume: 12
+  URL: https://proceedings.mlr.press/v12/moneta11.html
+  PDF: http://proceedings.mlr.press/v12/moneta11/moneta11.pdf
+  edit: https://github.com/mlresearch//v12/edit/gh-pages/_posts/2011-03-03-moneta11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Neural Information Processing Systems Mini-Symposium on Causality in Time Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessio
+    family: Moneta
+  - given: Nadine
+    family: Chlass
+  - given: Doris
+    family: Entner
+  - given: Patrik
+    family: Hoyer
+  editor: 
+  - given: Florin
+    family: Popescu
+  - given: Isabelle
+    family: Guyon
+  address: Vancouver, Canada
+  page: 95-114
+  id: moneta11
+  issued:
+    date-parts: 
+      - 2011
+      - 3
+      - 3
+  firstpage: 95
+  lastpage: 114
+  published: 2011-03-03 00:00:00 +0000
+- title: 'Time Series Analysis with the Causality Workbench'
+  abstract: 'The Causality Workbench project is an environment to test causal discovery algorithms. Via a web portal <a href="http://clopinet.com/causality">http://clopinet.com/causality</a>, it provides a number of resources, including a repository of datasets, models, and software packages, and a virtual laboratory allowing users to benchmark causal discovery algorithms by performing virtual experiments to study artificial causal systems. We regularly organize competitions. In this paper, we describe what the platform offers for the analysis of causality in time series analysis.'
+  volume: 12
+  URL: https://proceedings.mlr.press/v12/guyon11.html
+  PDF: http://proceedings.mlr.press/v12/guyon11/guyon11.pdf
+  edit: https://github.com/mlresearch//v12/edit/gh-pages/_posts/2011-03-03-guyon11.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Neural Information Processing Systems Mini-Symposium on Causality in Time Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Isabelle
+    family: Guyon
+  - given: Alexander
+    family: Satnikov
+  - given: Constantin
+    family: Aliferis
+  editor: 
+  - given: Florin
+    family: Popescu
+  - given: Isabelle
+    family: Guyon
+  address: Vancouver, Canada
+  page: 115-139
+  id: guyon11
+  issued:
+    date-parts: 
+      - 2011
+      - 3
+      - 3
+  firstpage: 115
+  lastpage: 139
+  published: 2011-03-03 00:00:00 +0000

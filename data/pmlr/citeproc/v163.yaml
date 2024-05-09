@@ -1,0 +1,507 @@
+
+- title: 'Understanding Out-of-distribution: A Perspective of Data Dynamics'
+  abstract: 'Despite machine learning models’ success in Natural Language Processing (NLP) tasks, predictions from these models frequently fail on out-of-distribution (OOD) samples. Prior works have focused on developing state-of-the-art methods for detecting OOD. The fundamental question of how OOD samples differ from in-distribution samples remains unanswered. This paper explores how data dynamics in training models can be used to understand the fundamental differences between OOD and in-distribution samples in extensive detail. We found that syntactic characteristics of the data samples that the model consistently predicts incorrectly in both OOD and in-distribution cases directly contradict each other. In addition, we observed preliminary evidence supporting the hypothesis that models are more likely to latch on trivial syntactic heuristics (e.g., overlap of words between two sentences) when making predictions on OOD samples. We hope our preliminary study accelerates the data-centric analysis on various machine learning phenomena.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/adila22a.html
+  PDF: https://proceedings.mlr.press/v163/adila22a/adila22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-adila22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Dyah
+    family: Adila
+  - given: Dongyeop
+    family: Kang
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 1-8
+  id: adila22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 1
+  lastpage: 8
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Challenges of Adversarial Image Augmentations'
+  abstract: 'Image augmentations applied during training are crucial for the generalization performance of image classifiers. Therefore, a large body of research has focused on finding the optimal augmentation policy for a given task. Yet, RandAugment [2], a simple random augmentation policy, has recently been shown to outperform existing sophisticated policies. Only Adversarial AutoAugment (AdvAA) [11], an approach based on the idea of adversarial training, has shown to be better than RandAugment. In this paper, we show that random augmentations are still competitive compared to an optimal adversarial approach, as well as to simple curricula, and conjecture that the success of AdvAA is due to the stochasticity of the policy controller network, which introduces a mild form of curriculum.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/blaas22a.html
+  PDF: https://proceedings.mlr.press/v163/blaas22a/blaas22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-blaas22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Arno
+    family: Blaas
+  - given: Xavier
+    family: Suau
+  - given: Jason
+    family: Ramapuram
+  - given: Nicholas
+    family: Apostoloff
+  - given: Luca
+    family: Zappella
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 9-14
+  id: blaas22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 9
+  lastpage: 14
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Shape Defense'
+  abstract: 'Humans rely heavily on shape information to recognize objects. Conversely, convolutional neural networks (CNNs) are biased more towards texture. This fact is perhaps the main reason why CNNs are susceptible to adversarial examples. Here, we explore how shape bias can be incorporated into CNNs to improve their robustness. Two algorithms are proposed, based on the observation that edges are invariant to moderate imperceptible perturbations. In the first one, a classifier is adversarially trained on images with the edge map as an additional channel. At inference time, the edge map is recomputed and concatenated to the image. In the second algorithm, a conditional GAN is trained to translate the edge maps, from clean and/or perturbed images, into clean images. The inference is done over the generated image corresponding to the input’s edge map. A large number of experiments with more than 10 data sets demonstrate the effectiveness of the proposed algorithms against FGSM, $\ell_{\infty}$ PGD, Carlini-Wagner, Boundary, and adaptive attacks. Further, we show that edge information can a) benefit other adversarial training methods, b) be even more effective in conjunction with background subtraction, c) be used to defend against poisoning attacks, and d) make CNNs more robust against natural image corruptions such as motion blur, impulse noise, and JPEG compression, than CNNs trained solely on RGB images. From a broader perspective, our study suggests that CNNs do not adequately account for image structures and operations that are crucial for robustness. The code is available at: https://github.com/aliborji/ShapeDefense.git'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/borji22a.html
+  PDF: https://proceedings.mlr.press/v163/borji22a/borji22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-borji22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Ali
+    family: Borji
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 15-20
+  id: borji22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 15
+  lastpage: 20
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Entropic Issues in Likelihood-Based OOD Detection'
+  abstract: 'Deep generative models trained by maximum likelihood remain very popular methods for reasoning about data probabilistically. However, it has been observed that they can assign higher likelihoods to out-of-distribution (OOD) data than in- distribution data, thus calling into question the meaning of these likelihood values. In this work we provide a novel perspective on this phenomenon, decomposing the average likelihood into a KL divergence term and an entropy term. We argue that the latter can explain the curious OOD behaviour mentioned above, suppressing likelihood values on datasets with higher entropy. Although our idea is simple, we have not seen it explored yet in the literature. This analysis provides further explanation for the success of OOD detection methods based on likelihood ratios, as the problematic entropy term cancels out in expectation. Finally, we discuss how this observation relates to recent success in OOD detection with manifold-supported models, for which the above decomposition does not hold.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/caterini22a.html
+  PDF: https://proceedings.mlr.press/v163/caterini22a/caterini22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-caterini22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Anthony L.
+    family: Caterini
+  - given: Gabriel
+    family: Loaiza-Ganem
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 21-26
+  id: caterini22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 21
+  lastpage: 26
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Is the Number of Trainable Parameters All That Actually Matters?'
+  abstract: 'Recent work has identified simple empirical scaling laws for language models, linking compute budget, dataset size, model size, and autoregressive modeling loss. The validity of these simple power laws across orders of magnitude in model scale provides compelling evidence that larger models are also more capable models. However, scaling up models under the constraints of hardware and infrastructure is no easy feat, and rapidly becomes a hard and expensive engineering problem. We investigate ways to tentatively cheat scaling laws, and train larger models for cheaper. We emulate an increase in effective parameters, using efficient approximations: either by doping the models with frozen random parameters, or by using fast structured transforms in place of dense linear layers. We find that the scaling relationship between test loss and compute depends only on the actual number of trainable parameters; scaling laws cannot be deceived by spurious parameters.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/chatelain22a.html
+  PDF: https://proceedings.mlr.press/v163/chatelain22a/chatelain22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-chatelain22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Amélie
+    family: Chatelain
+  - given: Amine
+    family: Djeghri
+  - given: Daniel
+    family: Hesslow
+  - given: Julien
+    family: Launay
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 27-32
+  id: chatelain22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 27
+  lastpage: 32
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Unit-level surprise in neural networks'
+  abstract: 'To adapt to changes in real-world data distributions, neural networks must update their parameters. We argue that unit-level surprise should be useful for: (i) determining which few parameters should update to adapt quickly; and (ii) learning a modularization such that few modules need be adapted to transfer. We empirically validate (i) in simple settings and reflect on the challenges and opportunities of realizing both (i) and (ii) in more general settings.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/eastwood22a.html
+  PDF: https://proceedings.mlr.press/v163/eastwood22a/eastwood22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-eastwood22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Cian
+    family: Eastwood
+  - given: Ian
+    family: Mason
+  - given: Christopher K. I.
+    family: Williams
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 33-40
+  id: eastwood22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 33
+  lastpage: 40
+  published: 2022-02-11 00:00:00 +0000
+- title: 'The Curse of Depth in Kernel Regime'
+  abstract: 'Recent work by Jacot et al. (2018) has shown that training a neural network of any kind with gradient descent is strongly related to kernel gradient descent in function space with respect to the Neural Tangent Kernel (NTK). Empirical results in (Lee et al., 2019) demonstrated high performance of a linearized version of training using the so-called NTK regime. In this paper, we show that the large depth limit of this regime is unexpectedly trivial, and we fully characterize the convergence rate to this trivial regime.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/hayou22a.html
+  PDF: https://proceedings.mlr.press/v163/hayou22a/hayou22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-hayou22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Soufiane
+    family: Hayou
+  - given: Arnaud
+    family: Doucet
+  - given: Judith
+    family: Rousseau
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 41-47
+  id: hayou22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 41
+  lastpage: 47
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Text Ranking and Classification using Data Compression'
+  abstract: 'A well-known but rarely used approach to text categorization uses conditional entropy estimates computed using data compression tools. Text affinity scores derived from compressed sizes can be used for classification and ranking tasks, but their success depends on the compression tools used. We use the Zstandard compressor and strengthen these ideas in several ways, calling the resulting language-agnostic technique Zest. In applications, this approach simplifies configuration, avoiding careful feature extraction and large ML models. Our ablation studies confirm the value of individual enhancements we introduce. We show that Zest complements and can compete with language-specific multidimensional content embeddings in production, but cannot outperform other counting methods on public datasets.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/kasturi22a.html
+  PDF: https://proceedings.mlr.press/v163/kasturi22a/kasturi22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-kasturi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Nitya
+    family: Kasturi
+  - given: Igor L.
+    family: Markov
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 48-53
+  id: kasturi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 48
+  lastpage: 53
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Nonlinear Denoising, Linear Demixing'
+  abstract: 'We cast the combinatorial problem of polyphonic piano transcription as a two stage process. A nonlinear denoising stage maps spectrogram representations of arbitrary piano music with unknown timbral characteristics onto a canonical spectrogram representation with known timbral characteristics. A subsequent linear demixing stage aims to exploit the knowledge about the canonical timbral characteristics. The idea behind this two stage process is to try to elegantly sidestep any musical bias inherent in the training dataset that is easily picked up by a single stage, nonlinear (neural) transcription system (with large capacity). The two stage process tries not to force the nonlinear system to solve a combinatorial problem, which is more amenable to being solved by a linear decomposition method that has the superposition property. Using the simplest setup we could think of, we obtain (rather mixed (pun intended)) results on a standard polyphonic piano transcription dataset - the two stage process still suffers from generalization problems after the first stage, which the second stage is unable to compensate.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/kelz22a.html
+  PDF: https://proceedings.mlr.press/v163/kelz22a/kelz22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-kelz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Rainer
+    family: Kelz
+  - given: Gerhard
+    family: Widmer
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 54-58
+  id: kelz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 54
+  lastpage: 58
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Addressing Bias in Active Learning with Depth Uncertainty Networks... or Not'
+  abstract: 'Farquhar et al. [2021] show that correcting for active learning bias with underparameterised models leads to improved downstream performance. For overparameterised models such as NNs, however, correction leads either to decreased or unchanged performance. They suggest that this is due to an “overfitting bias” which offsets the active learning bias. We show that depth uncertainty networks operate in a low overfitting regime, much like underparameterised models. They should therefore see an increase in performance with bias correction. Surprisingly, they do not. We propose that this negative result, as well as the results Farquhar et al. [2021], can be explained via the lens of the bias-variance decomposition of generalisation error.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/murray22a.html
+  PDF: https://proceedings.mlr.press/v163/murray22a/murray22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-murray22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Chelsea
+    family: Murray
+  - given: James U.
+    family: Allingham
+  - given: Javier
+    family: Antorán
+  - given: José Miguel
+    family: Hernández-Lobato
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 59-63
+  id: murray22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 59
+  lastpage: 63
+  published: 2022-02-11 00:00:00 +0000
+- title: 'CDF Normalization for Controlling the Distribution of Hidden Nodes'
+  abstract: 'Batch Normalizaiton (BN) is a normalization method for deep neural networks that has been shown to accelerate training. While the effectiveness of BN is undisputed, the explanation of its effectiveness is still being studied. The original BN paper attributes the success of BN to reducing internal covariate shift, so we take this a step further and explicitly enforce a Gaussian distribution on hidden layer activations. This approach proves to be ineffective, demonstrating further that reducing internal covariate shift is not important for successful layer normalization.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/ness22a.html
+  PDF: https://proceedings.mlr.press/v163/ness22a/ness22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-ness22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Mike Van
+    family: Ness
+  - given: Madeleine
+    family: Udell
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 64-68
+  id: ness22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 64
+  lastpage: 68
+  published: 2022-02-11 00:00:00 +0000
+- title: 'The Beauty Everywhere: How Aesthetic Criteria Contribute to the Development of AI'
+  abstract: '“Beauty” is a highly disputed word in philosophy and art. It also appears frequently in scientific debates. But what is the role of beauty in science, and how can it be useful to AI? In this paper, we argue that scientific progress depends on the diversity of the judgment of scientists, something that is only possible because multiple aspects are involved in the evaluation of theories. Particularly important within these criteria are those related to aesthetic considerations, such as simplicity, consistency, broadness, and fertility. We claim that AI should be less focused on accuracy and related metrics, and instead should aim at integrating epistemic measures related to these aesthetic concepts.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/pirozelli22a.html
+  PDF: https://proceedings.mlr.press/v163/pirozelli22a/pirozelli22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-pirozelli22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Paulo
+    family: Pirozelli
+  - given: João F. N.
+    family: Cortese
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 69-74
+  id: pirozelli22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 69
+  lastpage: 74
+  published: 2022-02-11 00:00:00 +0000
+- title: 'Causal Inference, is just Inference: A beautifully simple idea that not everyone accepts'
+  abstract: 'It is often argued that causal inference is a step that follows probabilistic estimation in a two step procedure, with a separate statistical estimation and causal inference step and each step is governed by its own principles. We have argued to the contrary that Bayesian decision theory is perfectly adequate to do causal inference in a single step using nothing more than Bayesian conditioning. If true this formulation greatly simplifies causal inference. We outline this beautifully simple idea and discuss why some object to it.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/rohde22a.html
+  PDF: https://proceedings.mlr.press/v163/rohde22a/rohde22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-rohde22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Rohde
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 75-79
+  id: rohde22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 75
+  lastpage: 79
+  published: 2022-02-11 00:00:00 +0000
+- title: 'GOPHER: Categorical probabilistic forecasting with graph structure via local continuous-time dynamics'
+  abstract: 'We consider the problem of probabilistic forecasting over categories with graph structure, where the dynamics at a vertex depends on its local connectivity structure. We present GOPHER, a method that combines the inductive bias of graph neural networks with neural ODEs to capture the intrinsic local continuous-time dynamics of our probabilistic forecasts. We study the benefits of these two inductive biases by comparing against baseline models that help disentangle the benefits of each. We find that capturing the graph structure is crucial for accurate in-domain probabilistic predictions and more sample efficient models. Surprisingly, our experiments demonstrate that the continuous time evolution inductive bias brings little to no benefit despite reflecting the true probability dynamics.'
+  volume: 163
+  URL: https://proceedings.mlr.press/v163/wang22a.html
+  PDF: https://proceedings.mlr.press/v163/wang22a/wang22a.pdf
+  edit: https://github.com/mlresearch//v163/edit/gh-pages/_posts/2022-02-11-wang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings on "I (Still) Can''t Believe It''s Not Better!" at NeurIPS 2021 Workshops'
+  publisher: 'PMLR'
+  author: 
+  - given: Ke A.
+    family: Wang
+  - given: Danielle
+    family: Maddix
+  - given: Yuyang
+    family: Wang
+  editor: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Aaron
+    family: Schein
+  - given: Stephanie
+    family: Hyland
+  - given: Francisco J. R.
+    family: Ruiz
+  - given: Jessica Z.
+    family: Forde
+  page: 80-85
+  id: wang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 2
+      - 11
+  firstpage: 80
+  lastpage: 85
+  published: 2022-02-11 00:00:00 +0000

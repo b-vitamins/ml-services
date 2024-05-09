@@ -1,0 +1,2185 @@
+
+- title: 'A Meta-Evaluation of Faithfulness Metrics for Long-Form Hospital-Course Summarization'
+  abstract: 'Long-form clinical summarization of hospital admissions has real-world significance because of its potential to help both clinicians and patients. The factual consistency of summaries– their faithfulness–is critical to their safe usage in clinical settings. To better understand the limitations of state-of-the-art natural language processing (NLP) systems, as well as the suitability of existing evaluation metrics, we benchmark faithfulness metrics against fine-grained human annotations for model-generated summaries of a patient’s Brief Hospi tal Course. We create a corpus of patient hospital admissions and summaries for a cohort of HIV patients, each with complex medical histories. Annotators are presented with summaries and source notes, and asked to categorize manually highlighted summary elements (clinical entities like conditions and medications as well as actions like ”following up”) into one of three categories: “Incorrect,” “Missing,” and “Not in Notes.” We meta-evaluate a broad set of faithfulness metrics–proposed for the general NLP domain–by measuring the correlation of metric scores to clinician ratings. Across metrics, we explore the importance of domain adaptation (e.g. the impact of in-domain pre-training and metric fine-tuning), the use of source-summary alignments, and the effects of distilling a single metric from an ensemble. We find that off-the-shelf metrics with no exposure to clinical text correlate well to clinician ratings yet overly rely on copy-and-pasted text. As a practical guide, we observe that most metrics correlate best to clinicians when provided with one summary sentence at a time and a minimal set of supporting sentences from the notes before discharge.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/adams23a.html
+  PDF: https://proceedings.mlr.press/v219/adams23a/adams23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-adams23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Griffin
+    family: Adams
+  - given: Jason
+    family: Zuckerg
+  - given: Nóemie
+    family: Elhadad
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 2-30
+  id: adams23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 2
+  lastpage: 30
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Which Explanation Makes Sense? A Critical Evaluation of Local Explanations for Assessing Cervical Cancer Risk'
+  abstract: 'Cervical cancer is a life-threatening disease and one of the most prevalent types of cancer affecting women worldwide. Being able to adequately identify and assess factors that elevate risk of cervical cancer is crucial for early detection and treatment. Advances in machine learning have produced new methods for predicting cervical cancer risk, however their complex black-box behaviour remains a key barrier to their adoption in clinical practice. Recently, there has been substantial rise in the development of local explainability techniques aimed at breaking down a model’s predictions for particular instances in terms of, for example, meaningful concepts, important features, decision tree or rule-based logic, among others. While these techniques can help users better understand key factors driving a model’s decisions in some situations, they may not always be consistent or provide faithful predictions, particularly in applications with heterogeneous outcomes. In this paper, we present a critical analysis of several existing local interpretability methods for explaining risk factors associated with cervical cancer. Our goal is to help clinicians who use AI to better understand which types of explanations to use in particular contexts. We present a framework for studying the quality of different explanations for cervical cancer risk and contextualise how different explanations might be appropriate for different patient scenarios through an empirical analysis. Finally, we provide practical advice for practitioners as to how to use different types of explanations for assessing and determining key factors driving cervical cancer risk.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ayad23a.html
+  PDF: https://proceedings.mlr.press/v219/ayad23a/ayad23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ayad23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Celia Wafa
+    family: Ayad
+  - given: Thomas
+    family: Bonnier
+  - given: Benjamin
+    family: Bosch
+  - given: Jesse
+    family: Read
+  - given: Sonali
+    family: Parbhoo
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 31-49
+  id: ayad23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 31
+  lastpage: 49
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Anomaly Detection in Human Brain via Inductive Learning on Temporal Multiplex Networks'
+  abstract: 'The human brain is at the center of complex neurobiological systems, and understanding its structural and functional mechanisms remains an intriguing goal for neuroscience research. While magnetic resonance imaging (MRI) is one of the most widespread and important sources of neurological data, it poses daunting analysis challenges. Due to recent advances in graph theory and machine learning on graphs, representing the connections of the human brain as a network has become one of the most pervasive analytical paradigms. However, most existing graph machine learning-based methods suffer from a subset of four critical limitations: They are 1) designed for one type of data (e.g., fMRI or sMRI) and one individual subject, limiting their ability to use complementary information provided by different images. 2) designed in supervised or transductive settings, limiting their generalizability to unseen patterns. 3) designed for classifying brain networks, limiting their ability to reveal underlying patterns that might cause the symptoms of a disease or disorder. 4) frequently unable to scale to large numbers of samples. To address the first limitation, we suggest using multiplex networks–networks with different types of connections– to model the network of different data samples. We present ADMire, an inductive and unsupervised anomaly detection method for multiplex brain networks that can detect anomalous patterns in the brains of people living with a disease or disorder. It uses two different casual multiplex walks, inter-view and intra-view, to automatically extract and learn temporal network motifs. It then uses an anonymization strategy to hide node identity, keeping the model inductive. We then propose a novel negative sample generator strategy for multiplex networks that lets our model learn anomalous patterns in an unsupervised manner. Our experiments on Parkinson’s Disease, Attention Deficit Hyperactivity Disorder, and Autism Spectrum Disorder show the efficiency and effectiveness of our approach in detecting anomalous brain activity in people living with these diseases or disorders.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/behrouz23a.html
+  PDF: https://proceedings.mlr.press/v219/behrouz23a/behrouz23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-behrouz23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ali
+    family: Behrouz
+  - given: Margo
+    family: Seltzer
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 50-75
+  id: behrouz23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 50
+  lastpage: 75
+  published: 2023-12-22 00:00:00 +0000
+- title: 'EEG to fMRI Synthesis Benefits from Attentional Graphs of Electrode Relationships'
+  abstract: 'Topographical structures represent connections between entities and provide a comprehensive design of complex systems. Currently these structures are used to discover correlates of neuronal and haemodynamical activity. In this work, we incorporate them with neural processing techniques to perform regression, using electrophysiological activity to retrieve haemodynamics. To this end, we use Fourier features, attention mechanisms, shared space between modalities and incorporation of style in the latent representation. By combining these techniques, we propose several models that significantly outperform current state-of-the-art of this task in resting state and task-based recording settings. Additionally, we show how the developed mapping functions are able to extrapolate to a diagnostic setting. We report which EEG electrodes are the most relevant for the regression task and which relations impacted it the most. Complementary, we observe that haemodynamic activity at the scalp, in contrast with sub-cortical regions, is relevant to the learned shared space. Overall, these results suggest that EEG electrode relationships are pivotal to retain information necessary for haemodynamical activity retrieval.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/calhas23a.html
+  PDF: https://proceedings.mlr.press/v219/calhas23a/calhas23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-calhas23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Calhas
+  - given: Rui
+    family: Henriques
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 76-93
+  id: calhas23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 76
+  lastpage: 93
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Typed Markers and Context for Clinical Temporal Relation Extraction'
+  abstract: 'Reliable extraction of temporal relations from clinical notes is a growing need in many clinical research domains. Our work introduces typed markers to the task of clinical temporal relation extraction. We demonstrate that the addition of medical entity information to clinical text as tags with context sentences then input to a transformer-based architecture can outperform more complex systems requiring feature engineering and temporal reasoning. We propose several strategies of typed marker creation that incorporate entity type information at different granularities, with extensive experiments to test their effectiveness. Our system establishes the best result on I2B2, a clinical benchmark dataset for temporal relation extraction, with a F1 at 83.5% that provides a substantial 3.3% improvement over the previous best system.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/cheng23a.html
+  PDF: https://proceedings.mlr.press/v219/cheng23a/cheng23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-cheng23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Cheng
+    family: Cheng
+  - given: Jeremy C.
+    family: Weiss
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 94-109
+  id: cheng23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 94
+  lastpage: 109
+  published: 2023-12-22 00:00:00 +0000
+- title: 'When More is Less: Incorporating Additional Datasets Can Hurt Performance By Introducing Spurious Correlations'
+  abstract: 'In machine learning, incorporating more data is often seen as a reliable strategy for improving model performance; this work challenges that notion by demonstrating that the addition of external datasets in many cases can hurt the resulting model’s performance. In a large-scale empirical study across combinations of four different open-source chest x-ray datasets and 9 different labels, we demonstrate that in 43% of settings, a model trained on data from two hospitals has poorer worst group accuracy over both hospitals than a model trained on just a single hospital’s data. This surprising result occurs even though the added hospital makes the training distribution more similar to the test distribution. We explain that this phenomenon arises from the spurious correlation that emerges between the disease and hospital, due to hospital-specific image artifacts. We highlight the trade-off one encounters when training on multiple datasets, between the obvious benefit of additional data and insidious cost of the introduced spurious correlation. In some cases, balancing the dataset can remove the spurious correlation and improve performance, but it is not always an effective strategy. We contextualize our results within the literature on spurious correlations to help explain these outcomes. Our experiments underscore the importance of exercising caution when selecting training data for machine learning models, especially in settings where there is a risk of spurious correlations such as with medical imaging. The risks outlined highlight the need for careful data selection and model evaluation in future research and practice.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/compton23a.html
+  PDF: https://proceedings.mlr.press/v219/compton23a/compton23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-compton23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Rhys
+    family: Compton
+  - given: Lily
+    family: Zhang
+  - given: Aahlad
+    family: Puli
+  - given: Rajesh
+    family: Ranganath
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 110-127
+  id: compton23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 110
+  lastpage: 127
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Fair Survival Time Prediction via Mutual Information Minimization'
+  abstract: 'Survival analysis is a general framework for predicting the time until a specific event occurs, often in the presence of censoring. Although this framework is widely used in practice, few studies to date have considered fairness for time-to-event outcomes, despite recent significant advances in the algorithmic fairness literature more broadly. In this paper, we propose a framework to achieve demographic parity in survival analysis models by minimizing the mutual information between predicted time-to-event and sensitive attributes. We show that our approach effectively minimizes mutual information to encourage statistical independence of time-to-event predictions and sensitive attributes. Furthermore, we propose four types of disparity assessment metrics based on common survival analysis metrics. Through experiments on multiple benchmark datasets, we demonstrate that by minimizing the dependence between the prediction and the sensitive attributes, our method can systematically improve the fairness of survival predictions and is robust to censoring.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/do23a.html
+  PDF: https://proceedings.mlr.press/v219/do23a/do23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-do23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hyungrok
+    family: Do
+  - given: Yuxin
+    family: Chang
+  - given: Yoon Sang
+    family: Cho
+  - given: Padhraic
+    family: Smyth
+  - given: Judy
+    family: Zhong
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 128-149
+  id: do23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 128
+  lastpage: 149
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Privacy-preserving patient clustering for personalized federated learnings'
+  abstract: 'Federated Learning (FL) is a machine learning framework that enables multiple organizations to train a model without sharing their data with a central server. However, it experiences significant performance degradation if the data is non-identically independently distributed (non-IID). This is a problem in medical settings, where variations in the patient population contribute significantly to distribution differences across hospitals. Personalized FL addresses this issue by accounting for site-specific distribution differences. Clustered FL, a Personalized FL variant, was used to address this problem by clustering patients into groups across hospitals and training separate models on each group. However, privacy concerns remained as a challenge as the clustering process requires exchange of patient-level information. This was previously solved by forming clusters using aggregated data, which led to inaccurate groups and performance degradation. In this study, we propose Privacy-preserving Community-Based Federated machine Learning (PCBFL), a novel Clustered FL framework that can cluster patients using patient-level data while protecting privacy. PCBFL uses Secure Multiparty Computation, a cryptographic technique, to securely calculate patient-level similarity scores across hospitals. We then evaluate PCBFL by training a federated mortality prediction model using 20 sites from the eICU dataset. We compare the performance gain from PCBFL against traditional and existing Clustered FL frameworks. Our results show that PCBFL successfully forms clinically meaningful cohorts of low, medium, and high-risk patients. PCBFL outperforms traditional and existing Clustered FL frameworks with an average AUC improvement of 4.3% and AUPRC improvement of 7.8%.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/elhussein23a.html
+  PDF: https://proceedings.mlr.press/v219/elhussein23a/elhussein23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-elhussein23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ahmed
+    family: Elhussein
+  - given: Gamze
+    family: Gürsoy
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 150-166
+  id: elhussein23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 150
+  lastpage: 166
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Bringing At-home Pediatric Sleep Apnea Testing Closer to Reality: A Multi-modal Transformer Approach'
+  abstract: 'Sleep apnea in children is a major health problem affecting one to five percent of children (in the US). If not treated in a timely manner, it can also lead to other physical and mental health issues. Pediatric sleep apnea has different clinical causes and characteristics than adults. Despite a large group of studies dedicated to studying adult apnea, pediatric sleep apnea has been studied in a much less limited fashion. Relatedly, at-home sleep apnea testing tools and algorithmic methods for automatic detection of sleep apnea are widely present for adults, but not children. In this study, we target this gap by presenting a machine learning-based model for detecting apnea events from commonly collected sleep signals. We show that our method outperforms state-of-the-art methods across two public datasets, as determined by the F1-score and AUROC measures. Additionally, we show that using two of the signals that are easier to collect at home (ECG and SpO2) can also achieve very competitive results, potentially addressing the concerns about collecting various sleep signals from children outside the clinic. Therefore, our study can greatly inform ongoing progress toward increasing the accessibility of pediatric sleep apnea testing and improving the timeliness of the treatment interventions.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/fayyaz23a.html
+  PDF: https://proceedings.mlr.press/v219/fayyaz23a/fayyaz23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-fayyaz23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hamed
+    family: Fayyaz
+  - given: Abigail
+    family: Strang
+  - given: Rahmatollah
+    family: Beheshti
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 167-185
+  id: fayyaz23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 167
+  lastpage: 185
+  published: 2023-12-22 00:00:00 +0000
+- title: 'CDANs: Temporal Causal Discovery from Autocorrelated and Non-Stationary Time Series Data'
+  abstract: 'Time series data are found in many areas of healthcare such as medical time series, electronic health records (EHR), measurements of vitals, and wearable devices. Causal discovery, which involves estimating causal relationships from observational data, holds the potential to play a significant role in extracting actionable insights about human health. In this study, we present a novel constraint-based causal discovery approach for autocorrelated and non-stationary time series data (CDANs). Our proposed method addresses several limitations of existing causal discovery methods for autocorrelated and non-stationary time series data, such as high dimensionality, the inability to identify lagged causal relationships and overlooking changing modules. Our approach identifies lagged and instantaneous/contemporaneous causal relationships along with changing modules that vary over time. The method optimizes the conditioning sets in a constraint-based search by considering lagged parents instead of conditioning on the entire past that addresses high dimensionality. The changing modules are detected by considering both contemporaneous and lagged parents. The approach first detects the lagged adjacencies, then identifies the changing modules and contemporaneous adjacencies, and finally determines the causal direction. We extensively evaluated our proposed method on synthetic and real-world clinical datasets, and compared its performance with several baseline approaches. The experimental results demonstrate the effectiveness of the proposed method in detecting causal relationships and changing modules for autocorrelated and non-stationary time series data.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ferdous23a.html
+  PDF: https://proceedings.mlr.press/v219/ferdous23a/ferdous23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ferdous23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Muhammad Hasan
+    family: Ferdous
+  - given: Uzma
+    family: Hasan
+  - given: Md Osman
+    family: Gani
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 186-207
+  id: ferdous23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 186
+  lastpage: 207
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Composition Counts: A Machine Learning View on Immunothrombosis using Quantitative Phase Imaging'
+  abstract: 'Thrombotic complications are a leading cause of death worldwide, often triggered by inflammatory conditions such as sepsis and COVID-19, due to a close relationship between inflammation and hemostasis known as immunothrombosis. Platelet activation and leukocyte-platelet aggregation play key roles in microthrombotic events, yet there are no routine diagnostic predictive biomarkers based on these factors. This work presents a novel processing pipeline using label-free Quantitative Phase Imaging (QPI) for the detection and quantitative analysis of blood cell aggregates without sample preparation. For evaluation, we use different test scenarios and measure performance at different stages of the pipeline to gain a better understanding of the critical points. We show that, among other classical and machine learning techniques, the Mask R-CNN approach achieves the best results for detection, segmentation, and classification of cell aggregates. The method successfully identifies aggregate levels in whole blood samples and shows elevated levels in >90% of patients with COVID-19 or sepsis compared to healthy reference samples, indicating the potential of platelet and leukocyte-platelet aggregates as biomarkers for thrombotic diseases.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/fresacher23a.html
+  PDF: https://proceedings.mlr.press/v219/fresacher23a/fresacher23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-fresacher23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Fresacher
+  - given: Stefan
+    family: Röhrl
+  - given: Christian
+    family: Klenk
+  - given: Johanna
+    family: Erber
+  - given: Hedwig
+    family: Irl
+  - given: Dominik
+    family: Heim
+  - given: Manuel
+    family: Lengl
+  - given: Simon
+    family: Schumann
+  - given: Martin
+    family: Knopp
+  - given: Martin
+    family: Schlegel
+  - given: Sebastian
+    family: Rasch
+  - given: Oliver
+    family: Hayden
+  - given: Klaus
+    family: Diepold
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 208-229
+  id: fresacher23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 208
+  lastpage: 229
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Online Unsupervised Representation Learning of Waveforms in the Intensive Care Unit via a novel cooperative framework: Spatially Resolved Temporal Networks (SpaRTEn)'
+  abstract: 'Univariate high-frequency time series are dominant data sources for many medical, economic and environmental applications. In many of these domains, the time series are tied to real-time changes in state. In the intensive care unit, for example, changes and intracranial pressure waveforms can indicate whether a patient is developing decreased blood perfusion to the brain during a stroke, for example. However, most representation learning to resolve states is conducted in an offline, batch-dependent manner. In high frequency time-series, high intra-state and inter-sample variability makes offline, batch-dependent learning a relatively difficult task. Hence, we propose Spatial Resolved Temporal Networks (SpaRTeN), a novel composite deep learning model for online, unsupervised representation learning through a spatially constrained latent space. SpaRTeN maps waveforms to states, and learns time-dependent representations of each state. Our key contribution is that we generate clinically relevant representations of each state for intracranial pressure waveforms.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/gulamali23a.html
+  PDF: https://proceedings.mlr.press/v219/gulamali23a/gulamali23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-gulamali23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Faris
+    family: Gulamali
+  - given: Ashwin
+    family: Sawant
+  - given: Ira
+    family: Hofer
+  - given: Matthew
+    family: Levin
+  - given: Alexander
+    family: Charney
+  - given: Karandeep
+    family: Singh
+  - given: Benjamin
+    family: Glicksberg
+  - given: Girish
+    family: Nadkarni
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 230-247
+  id: gulamali23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 230
+  lastpage: 247
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Contactless Oxygen Monitoring with Radio Waves and Gated Transformer'
+  abstract: 'With the increasing popularity of telehealth, it is crucial to ensure accurate monitoring of basic physiological signals at home with minimal patient overhead. In this paper, we propose a contactless approach for monitoring blood oxygen levels simply by analyzing radio signals in a patient’s room, without the need for wearable devices. Our method extracts a patient’s respiration from radio signals that bounce off their body, and we use a novel neural network, called Gated BERT-UNet, to estimate blood oxygen saturation from the breathing signal. We designed our model to adapt to a patient’s medical indices, such as gender and sleep stages, to provide personalized inference. Specifically, it uses multiple predictive heads, controlled by a gate, to make predictions for different sub-populations. Our extensive empirical results demonstrate that our model achieves high accuracy on both medical and radio-frequency datasets. It outperforms past work on contactless oxygen monitoring, reducing the mean absolute error in oxygen saturation from 2.0% to 1.3%.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/he23a.html
+  PDF: https://proceedings.mlr.press/v219/he23a/he23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-he23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hao
+    family: He
+  - given: Yuan
+    family: Yuan
+  - given: Ying-Cong
+    family: Chen
+  - given: Peng
+    family: Cao
+  - given: Dina
+    family: Katabi
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 248-265
+  id: he23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 248
+  lastpage: 265
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Multi-view Modelling of Longitudinal Health Data for Improved Prognostication of Colorectal Cancer Recurrence'
+  abstract: 'Colorectal cancer (CRC) is a leading cause of cancer-related deaths worldwide, with a high incidence of recurrence following surgical resection. Accurate prognostication of recurrence risk is essential to identify patients who may benefit from adjuvant therapies and improve their health outcomes. In our study, we propose a novel approach to CRC recurrence prognostication using multi-view deep learning. Our proposed approach, Fusion with Multi-view Attention (FMA), integrates static and longitudinal data from heterogeneous healthcare records, and learns complex interactions between data views to predict recurrence and time-to-recurrence. Our model achieves an AUROC score of 0.97, and precision, sensitivity and specificity scores of 0.80, 0.90 and 0.95 respectively, outperforming all-known published results based on the commonly-used CEA prognostic marker, as well as state-of-the-art CRC recurrence prognostication models. We show through a sensitivity analysis that incorporating multiple data views improves model performance significantly compared to using only a single view. We also show that our model accurately stratifies patients into risk groups that are associated with the actual 5-year recurrence-free survival, paving the way towards better identification of high-risk patients who may benefit from adjuvant therapies. Our proposed approach demonstrates the potential of multi-view modelling to push state-of-the-art in CRC recurrence prognostication and could contribute towards more personalised patient management and follow-up in the clinic.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ho23a.html
+  PDF: https://proceedings.mlr.press/v219/ho23a/ho23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ho23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Danliang
+    family: Ho
+  - given: Mehul
+    family: Motani
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 265-284
+  id: ho23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 265
+  lastpage: 284
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning'
+  abstract: 'Aortic stenosis (AS) is a degenerative valve condition that causes substantial morbidity and mortality. This condition is under-diagnosed and under-treated. In clinical practice, AS is diagnosed with expert review of transthoracic echocardiography, which produces dozens of ultrasound images of the heart. Only some of these views show the aortic valve. To automate screening for AS, deep networks must learn to mimic a human expert’s ability to identify views of the aortic valve then aggregate across these relevant images to produce a study-level diagnosis. We find previous approaches to AS detection yield insufficient accuracy due to relying on inflexible averages across images. We further find that off-the-shelf attention-based multiple instance learning (MIL) performs poorly. We contribute a new end-to-end MIL approach with two key methodological innovations. First, a supervised attention technique guides the learned attention mechanism to favor relevant views. Second, a novel self-supervised pretraining strategy applies contrastive learning on the representation of the whole study instead of individual images as commonly done in prior literature. Experiments on an open-access dataset and a temporally-external heldout set show that our approach yields higher accuracy while reducing model size.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/huang23a.html
+  PDF: https://proceedings.mlr.press/v219/huang23a/huang23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-huang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhe
+    family: Huang
+  - given: Benjamin S.
+    family: Wessler
+  - given: Michael C.
+    family: Hughes
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 285-307
+  id: huang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 285
+  lastpage: 307
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Hawkes Process with Flexible Triggering Kernels'
+  abstract: 'Recently proposed encoder-decoder structures for modeling Hawkes processes use transformer-inspired architectures, which encode the history of events via embeddings and self-attention mechanisms. These models deliver better prediction and goodness-of-fit than their RNN-based counterparts. However, they often require high computational and memory complexity and fail to adequately capture the triggering function of the underlying process. So motivated, we introduce an efficient and general encoding of the historical event sequence by replacing the complex (multilayered) attention structures with triggering kernels of the observed data. Noting the similarity between the triggering kernels of a point process and the attention scores, we use a triggering kernel to replace the weights used to build history representations. Our estimator for the triggering function is equipped with a sigmoid gating mechanism that captures local-in-time triggering effects that are otherwise challenging with standard decaying-over-time kernels. Further, taking both event type representations and temporal embeddings as inputs, the model learns the underlying triggering type-time kernel parameters given pairs of event types. We present experiments on synthetic and real data sets widely used by competing models, and further include a COVID-19 dataset to illustrate the use of longitudinal covariates. Our results show the proposed model outperforms existing approaches, is more efficient in terms of computational complexity, and yields interpretable results via direct application of the newly introduced kernel.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/isik23a.html
+  PDF: https://proceedings.mlr.press/v219/isik23a/isik23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-isik23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yamac
+    family: Isik
+  - given: Paidamoyo
+    family: Chapfuwa
+  - given: Connor
+    family: Davis
+  - given: Ricardo
+    family: Henao
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 308-320
+  id: isik23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 308
+  lastpage: 320
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Deep Metric Learning for the Hemodynamics Inference with Electrocardiogram Signals'
+  abstract: 'Heart failure is a debilitating condition that affects millions of people worldwide and has a significant impact on their quality of life and mortality rates. An objective assessment of cardiac pressures remains an important method for the diagnosis and treatment prognostication for patients with heart failure. Although cardiac catheterization is the gold standard for estimating central hemodynamic pressures, it is an invasive procedure that carries inherent risks, making it a potentially dangerous procedure for some patients. Approaches that leverage non-invasive signals – such as the electrocardiogram (ECG) – have the promise to make the routine estimation of cardiac pressures feasible in both inpatient and outpatient settings. Prior models trained to estimate intracardiac pressures (e.g., mean pulmonary capillary wedge pressure (mPCWP)) in a supervised fashion have shown good discriminatory ability but have been limited to the labeled dataset from the heart failure cohort. Furthermore, obtaining large datasets for diverse patient cohorts with intracardiac pressure labels is challenging due to the invasive nature of the procedure. To address these issues and build a robust representation, we apply traditional deep metric learning (DML) and propose a novel self-supervised DML with distance-based mining that improves the performance of a model with limited labels. We use a dataset that contains over 5.4 million ECGs without concomitant central pressure labels to pre-train a self-supervised DML model which showed improved classification of elevated mPCWP compared to self-supervised contrastive baselines. Additionally, the supervised DML model that uses ECGs with access to 8,172 mPCWP labels demonstrated significantly better performance on the mPCWP regression task compared to the supervised baseline. Moreover, our data suggest that DML yields models that are performant across patient subgroups, even when some patient subgroups are under-represented in the dataset.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/jeong23a.html
+  PDF: https://proceedings.mlr.press/v219/jeong23a/jeong23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-jeong23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hyewon
+    family: Jeong
+  - given: Collin M.
+    family: Stultz
+  - given: Marzyeh
+    family: Ghassemi
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 321-342
+  id: jeong23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 321
+  lastpage: 342
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Conceptualizing Machine Learning for Dynamic Information Retrieval of Electronic Health Record Notes'
+  abstract: 'The large amount of time clinicians spend sifting through patient notes and documenting in electronic health records (EHRs) is a leading cause of clinician burnout. By proactively and dynamically retrieving relevant notes during the documentation process, we can reduce the effort required to find relevant patient history. In this work, we conceptualize the use of EHR audit logs for machine learning as a source of supervision of note relevance in a specific clinical context, at a particular point in time. Our evaluation focuses on the dynamic retrieval in the emergency department, a high acuity setting with unique patterns of information retrieval and note writing. We show that our methods can achieve an AUC of 0.963 for predicting which notes will be read in an individual note writing session. We additionally conduct a user study with several clinicians and find that our framework can help clinicians retrieve relevant information more efficiently. Demonstrating that our framework and methods can perform well in this demanding setting is a promising proof of concept that they will translate to other clinical settings and data modalities (e.g., labs, medications, imaging).'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/jiang23a.html
+  PDF: https://proceedings.mlr.press/v219/jiang23a/jiang23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-jiang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sharon
+    family: Jiang
+  - given: Shannon
+    family: Shen
+  - given: Monica
+    family: Agrawal
+  - given: Barbara
+    family: Lam
+  - given: Nicholas
+    family: Kurtzman
+  - given: Steven
+    family: Horng
+  - given: David R.
+    family: Karger
+  - given: David
+    family: Sontag
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 343-359
+  id: jiang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 343
+  lastpage: 359
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Maximum Likelihood Estimation of Flexible Survival Densities with Importance Sampling'
+  abstract: 'Survival analysis is a widely-used technique for analyzing time-to-event data in the presence of censoring. In recent years, numerous survival analysis methods have emerged which scale to large datasets and relax traditional assumptions such as proportional hazards. These models, while being performant, are very sensitive to model hyperparameters including: (1) number of bins and bin size for discrete models and (2) number of cluster assignments for mixture-based models. Each of these choices requires extensive tuning by practitioners to achieve optimal performance. In addition, we demonstrate in empirical studies that: (1) optimal bin size may drastically differ based on the metric of interest (e.g., concordance vs brier score), and (2) mixture models may suffer from mode collapse and numerical instability. We propose a survival analysis approach which eliminates the need to tune hyperparameters such as mixture assignments and bin sizes, reducing the burden on practitioners. We show that the proposed approach matches or outperforms baselines on several real-world datasets.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ketenci23a.html
+  PDF: https://proceedings.mlr.press/v219/ketenci23a/ketenci23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ketenci23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Mert
+    family: Ketenci
+  - given: Shreyas
+    family: Bhave
+  - given: Noemie
+    family: Elhadad
+  - given: Adler
+    family: Perotte
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 360-380
+  id: ketenci23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 360
+  lastpage: 380
+  published: 2023-12-22 00:00:00 +0000
+- title: 'RadGraph2: Modeling Disease Progression in Radiology Reports via Hierarchical Information Extraction'
+  abstract: 'We present RadGraph2, a novel dataset for extracting information from radiology reports that focuses on capturing changes in disease state and device placement over time. We introduce a hierarchical schema that organizes entities based on their relationships and show that using this hierarchy during training improves the performance of an information extraction model. Specifically, we propose a modification to the DyGIE++ framework, resulting in our model HGIE, which outperforms previous models in entity and relation extraction tasks. We demonstrate that RadGraph2 enables models to capture a wider variety of findings and perform better at relation extraction compared to those trained on the original RadGraph dataset. Our work provides the foundation for developing automated systems that can track disease progression over time and develop information extraction models that leverage the natural hierarchy of labels in the medical domain.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/khanna23a.html
+  PDF: https://proceedings.mlr.press/v219/khanna23a/khanna23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-khanna23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sameer
+    family: Khanna
+  - given: Adam
+    family: Dejl
+  - given: Kibo
+    family: Yoon
+  - given: Steven QH
+    family: Truong
+  - given: Hanh
+    family: Duong
+  - given: Agustina
+    family: Saenz
+  - given: Pranav
+    family: Rajpurkar
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 381-402
+  id: khanna23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 381
+  lastpage: 402
+  published: 2023-12-22 00:00:00 +0000
+- title: 'DuETT: Dual Event Time Transformer for Electronic Health Records'
+  abstract: 'Electronic health records (EHRs) recorded in hospital settings typically contain a wide range of numeric time series data that is characterized by high sparsity and irregular observations. Effective modelling for such data must exploit its time series nature, the semantic relationship between different types of observations, and information in the sparsity structure of the data. Self-supervised Transformers have shown outstanding performance in a variety of structured tasks in NLP and computer vision. But multivariate time series data contains structured relationships over two dimensions: time and recorded event type, and straightforward applications of Transformers to time series data do not leverage this distinct structure. The quadratic scaling of self-attention layers can also significantly limit the input sequence length without appropriate input engineering. We introduce the DuETT architecture, an extension of Transformers designed to attend over both time and event type dimensions, yielding robust representations from EHR data. DuETT uses an aggregated input where sparse time series are transformed into a regular sequence with fixed length; this lowers the computational complexity relative to previous EHR Transformer models and, more importantly, enables the use of larger and deeper neural networks. When trained with self-supervised prediction tasks, that provide rich and informative signals for model pre-training, our model outperforms state-of-the-art deep learning models on multiple downstream tasks from the MIMIC-IV and PhysioNet-2012 EHR datasets.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/labach23a.html
+  PDF: https://proceedings.mlr.press/v219/labach23a/labach23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-labach23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Alex
+    family: Labach
+  - given: Aslesha
+    family: Pokhrel
+  - given: Xiao Shi
+    family: Huang
+  - given: Saba
+    family: Zuberi
+  - given: Seung Eun
+    family: Yi
+  - given: Maksims
+    family: Volkovs
+  - given: Tomi
+    family: Poutanen
+  - given: Rahul G.
+    family: Krishnan
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 403-422
+  id: labach23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 403
+  lastpage: 422
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Learning Missing Modal Electronic Health Records with Unified Multi-modal Data Embedding and Modality-Aware Attention'
+  abstract: 'Electronic Health Record (EHR) provides abundant information through various modalities. However, learning multi-modal EHR is currently facing two major challenges, namely, 1) irregular and asynchronous sampling and 2) modality missing. Moreover, a lack of shared embedding function across modalities can discard the temporal relationship between different EHR modalities. On the other hand, most EHR studies are limited to relying only on EHR Times-series, and therefore, missing modality in EHR has not been well-explored. Therefore, in this study, we introduce a Unified Multi-modal Set Embedding (UMSE) and Modality-Aware Attention (MAA) with Skip Bottleneck (SB). UMSE treats all EHR modalities without a separate imputation module or error-prone carry-forward, whereas MAA with SB learns missing modal EHR with effective modality-aware attention. Our model outperforms other baseline models in mortality, vasopressor need, and intubation need prediction with the MIMIC-IV dataset.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/lee23a.html
+  PDF: https://proceedings.mlr.press/v219/lee23a/lee23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-lee23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Kwanhyung
+    family: Lee
+  - given: Soojeong
+    family: Lee
+  - given: Sangchul
+    family: Hahn
+  - given: Heejung
+    family: Hyun
+  - given: Edward
+    family: Choi
+  - given: Byungeun
+    family: Ahn
+  - given: Joohyung
+    family: Lee
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 423-442
+  id: lee23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 423
+  lastpage: 442
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Coarse race data conceals disparities in clinical risk score performance'
+  abstract: 'Healthcare data in the United States often records only a patient’s coarse race group: for example, both Indian and Chinese patients are typically coded as “Asian.” It is unknown, however, whether this coarse coding conceals meaningful disparities in the performance of clinical risk scores across granular race groups. Here we show that it does. Using data from 418K emergency department visits, we assess clinical risk score performance disparities across 26 granular groups for three outcomes, five risk scores, and four performance metrics. Across outcomes and metrics, we show that the risk scores exhibit significant granular performance disparities within coarse race groups. In fact, variation in performance within coarse groups often exceeds the variation between coarse groups. We explore why these disparities arise, finding that outcome rates, feature distributions, and relationships between features and outcomes all vary significantly across granular groups. Our results suggest that healthcare providers, hospital systems, and machine learning researchers should strive to collect, release, and use granular race data in place of coarse race data, and that existing analyses may significantly underestimate racial disparities in performance.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/movva23a.html
+  PDF: https://proceedings.mlr.press/v219/movva23a/movva23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-movva23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Rajiv
+    family: Movva
+  - given: Divya
+    family: Shanmugam
+  - given: Kaihua
+    family: Hou
+  - given: Priya
+    family: Pathak
+  - given: John
+    family: Guttag
+  - given: Nikhil
+    family: Garg
+  - given: Emma
+    family: Pierson
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 443-472
+  id: movva23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 443
+  lastpage: 472
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Reducing Contextual Bias in Cardiac Magnetic Resonance Imaging Deep Learning Using Contrastive Self-Supervision'
+  abstract: 'Applying deep learning to medical imaging tasks is not straightforward due to the variable quality and relatively low volume of healthcare data. There is often considerable risk that deep learning models may use contextual cues instead of physiologically relevant features to achieve the clinical task. Although these cues can provide shortcuts to high performance within a carefully crafted training set, they often lead to poor performance in real-world applications. Contrastive self-supervision (CSS) has recently been shown to boost performance of deep learning on downstream applications in several medical imaging tasks. However, it is unclear how much of these pre-trained representations are impacted by contextual cues, both known and unknown. In this work, we evaluate how CSS pre-training can produce not only more accurate but also more trustworthy and generalizable models for clinical imaging applications. Specifically, we evaluate the saliency and accuracy of deep learning models using CSS in contrast to end-to-end supervised training and conventional transfer learning from natural image datasets using an institutional specific and public cardiomyopathy cohorts. We find that CSS pre-training models not only improve downstream diagnostic performance in each cohort, but more importantly, also produced models with higher saliency in cardiac anatomy. Our code is available at https://github.com/makiya11/ssl_spur_cmr.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/nakashima23a.html
+  PDF: https://proceedings.mlr.press/v219/nakashima23a/nakashima23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-nakashima23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Makiya
+    family: Nakashima
+  - given: Donna
+    family: Salem
+  - given: HW Wilson
+    family: Tang
+  - given: Christopher
+    family: Nguyen
+  - given: Tae Hyun
+    family: Hwang
+  - given: Ding
+    family: Zhao
+  - given: Byung-Hak
+    family: Kim
+  - given: Deborah
+    family: Kwon
+  - given: David
+    family: Chen
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 473-488
+  id: nakashima23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 473
+  lastpage: 488
+  published: 2023-12-22 00:00:00 +0000
+- title: 'ScoEHR: Generating Synthetic Electronic Health Records using Continuous-time Diffusion Models'
+  abstract: 'Global access to statistically and clinically representative patient health data holds potential for advancing disease research, enhancing patient care, and accelerating drug development. However, acquisition of health data such as electronic health records (EHRs) comes with challenges characterised by high costs, time constraints, and concerns related to patient privacy. An approach to tackling these challenges is by using synthetic data. In this paper we introduce ScoEHR, a novel deep learning method for generating synthetic EHRs, which combines an autoencoder with a continuous-time diffusion model. ScoEHR is shown to outperform three baseline synthetic EHR generation frameworks (medGAN, medWGAN, and medBGAN) on two publicly available datasets, MIMIC-III and the Yale New Haven Health System Emergency Department dataset, based on four widely accepted metrics of data utility. Additionally, a blind clinician evaluation was carried out to assess the qualitative realism of the synthetic data generated by ScoEHR. In this evaluation, a patient’s data was labeled as ‘unrealistic’ if at least one clinician found it to be unrealistic. This evaluation showed that existing real EHR data and ScoEHR generated synthetic data were scored as equally realistic. Our code is available at https://github.com/aanaseer/ ScoEHR.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/naseer23a.html
+  PDF: https://proceedings.mlr.press/v219/naseer23a/naseer23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-naseer23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ahmed Ammar
+    family: Naseer
+  - given: Benjamin
+    family: Walker
+  - given: Christopher
+    family: Landon
+  - given: Andrew
+    family: Ambrosy
+  - given: Marat
+    family: Fudim
+  - given: Nicholas
+    family: Wysham
+  - given: Botros
+    family: Toro
+  - given: Sumanth
+    family: Swaminathan
+  - given: Terry
+    family: Lyons
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 489-508
+  id: naseer23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 489
+  lastpage: 508
+  published: 2023-12-22 00:00:00 +0000
+- title: 'PrivECG: generating private ECG for end-to-end anonymization'
+  abstract: 'The electrocardiogram (ECG) remains the cornerstone of diagnosis in cardiology where, pathologies uniquely impact its appearance, permitting the identification of underlying electrical or structural abnormalities. Notably, multiple deep learning approaches have demonstrated that disease prediction could be performed with high accuracy using ECG waveforms. However, this signal-rich modality has also demonstrated the potential to be predictive of a patient’s private attributes such as biological sex and age. More importantly, recent research has demonstrated that many medical data modalities could allow patient re-identification with only the modality of interest despite anonymization through current paradigms, raising important privacy concerns. In this paper, we propose a novel approach to anonymize the ECG waveforms themselves while maximizing the privacy-utility trade-off. We describe PrivECG1, a generative adversarial network (GAN) framework capable of privatizing 12-lead ECGs while conserving their disease-descriptive features. PrivECG significantly decreases patient validation performances by targeting sex-linked features. Our approach reduces sex prediction accuracy from 0.876 to near-random 0.529, by permitting greater variability of the ECG’s R-wave morphology, as well as bringing the equal error rate (EER) from 0.098 to 0.251 on individual validation tasks. Moreover, the regenerated ECGs maintain a majority of their disease-predicting potential, with an F1 score of 0.885 from the baseline’s 0.931 on a multilabel disease prediction task. We further demonstrate that reintroducing sex-linked information downstream in the network allows recuperating performances with an F1 score of 0.893 proving our loss of performance is due to the privatization of the sex-linked features, as well as serves as a disambiguation tool to evaluate the impact of sex information on prediction performances. Our results suggest that our approach could allow improved anonymization of a large ECG database in minutes without strongly impacting downstream clinically-relevant tasks in a task-independent manner.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/nolin-lapalme23a.html
+  PDF: https://proceedings.mlr.press/v219/nolin-lapalme23a/nolin-lapalme23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-nolin-lapalme23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexis
+    family: Nolin-Lapalme
+  - given: Robert
+    family: Avram
+  - given: Hussin
+    family: Julie
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 509-528
+  id: nolin-lapalme23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 509
+  lastpage: 528
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Updating Clinical Risk Stratification Models Using Rank-Based Compatibility: Approaches for Evaluating and Optimizing Clinician-Model Team Performance'
+  abstract: 'As data shift or new data become available, updating clinical machine learning models may be necessary to maintain or improve performance over time. However, updating a model can introduce compatibility issues when the behavior of the updated model does not align with user expectations, resulting in poor user-model team performance. Existing compatibility measures depend on model decision thresholds, limiting their applicability in settings where models are used to generate rankings based on estimated risk. To address this limitation, we propose a novel rank-based compatibility measure, CR, and a new loss function that aims to optimize discriminative performance while encouraging good compatibility. Applied to a case study in mortality risk stratification leveraging data from MIMIC, our approach yields more compatible models while maintaining discriminative performance compared to existing model selection techniques, with an increase in CR of 0.019 (95% confidence interval: 0.005, 0.035). This work provides new tools to analyze and update risk stratification models used in clinical care.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/otles23a.html
+  PDF: https://proceedings.mlr.press/v219/otles23a/otles23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-otles23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Erkin
+    family: Ötles
+  - given: Brian T.
+    family: Denton
+  - given: Jenna
+    family: Wiens
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 529-547
+  id: otles23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 529
+  lastpage: 547
+  published: 2023-12-22 00:00:00 +0000
+- title: 'TIER: Text-Image Entropy Regularization for Medical CLIP-style models'
+  abstract: 'In this paper, we introduce a novel regularization scheme on contrastive language-image pre-trained (CLIP) medical vision models. Our approach is based on the observation that, for many medical imaging tasks, text tokens should only describe a small number of image regions and, likewise, each image region should correspond to only a few text tokens. In CLIP-style models, this implies that text-token embeddings should have high similarity to only a small number of image-patch embeddings for a given image-text pair. We formalize this observation using a novel regularization scheme that penalizes the entropy of the text-token to image-patch similarity scores. We qualitatively and quantitatively demonstrate that the proposed regularization scheme improves localization by shrinking most of the pairwise text-token and image-patch similarity scores towards zero, thus achieving the desired effect. We demonstrate the promise of our approach in an important medical context, chest x-rays, where this underlying sparsity hypothesis naturally arises. Using our proposed approach, we achieve state of the art (SOTA) average zero-shot performance on the CheXpert and Padchest chest x-ray datasets, outperforming an unregularized version of the model and several recently published self-supervised models.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/palepu23a.html
+  PDF: https://proceedings.mlr.press/v219/palepu23a/palepu23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-palepu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Anil
+    family: Palepu
+  - given: Andrew
+    family: Beam
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 548-564
+  id: palepu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 548
+  lastpage: 564
+  published: 2023-12-22 00:00:00 +0000
+- title: 'A Deep Learning Based Framework for Joint Image Registration and Segmentation of Brain Metastases on Magnetic Resonance Imaging'
+  abstract: 'Manual segmentation of brain metastases (BM) is a laborious and time-consuming task for expert clinicians, especially in the setting of longitudinal patient imaging. Although automated deep learning (DL) approaches can segment larger lesions effectively, they suffer from poor sensitivity of lesion detection for micro-metastases. Moreover, these approaches segment all patient imaging independently of each other, ignoring relevant information from prior time-points. In order to utilize prior time-point information, we propose SPIRS, a joint image registration and segmentation method. Given a prior time-point image and segmentation mask (which are readily available in a routine clinical environment), we affinely and deformably register these to a new time-point image. This warped prior image and mask are then used to enhance and improve the segmentation of the new time-point. We apply SPIRS to a large retrospectively acquired single institution dataset and show that it outperforms current registration approaches on BM imaging and that it significantly improves segmentation performance for micro-metastatic lesions.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/patel23a.html
+  PDF: https://proceedings.mlr.press/v219/patel23a/patel23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-patel23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jay
+    family: Patel
+  - given: Syed Rakin
+    family: Ahmed
+  - given: Ken
+    family: Chang
+  - given: Praveer
+    family: Singh
+  - given: Mishka
+    family: Gidwani
+  - given: Katharina
+    family: Hoebel
+  - given: Albert
+    family: Kim
+  - given: Christopher
+    family: Bridge
+  - given: Chung-Jen
+    family: Teng
+  - given: Xiaomei
+    family: Li
+  - given: Gongwen
+    family: Xu
+  - given: Megan
+    family: McDonald
+  - given: Ayal
+    family: Aizer
+  - given: Wenya Linda
+    family: Bi
+  - given: Ina
+    family: Ly
+  - given: Bruce
+    family: Rosen
+  - given: Priscilla
+    family: Brastianos
+  - given: Raymond
+    family: Huang
+  - given: Elizabeth
+    family: Gerstner
+  - given: Jayashree
+    family: Kalpathy-Cramer
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 565-587
+  id: patel23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 565
+  lastpage: 587
+  published: 2023-12-22 00:00:00 +0000
+- title: 'AIRIVA: A Deep Generative Model of Adaptive Immune Repertoires'
+  abstract: 'Recent advances in immunomics have shown that T-cell receptor (TCR) signatures can accurately predict active or recent infection by leveraging the high specificity of TCR binding to disease antigens. However, the extreme diversity of the adaptive immune repertoire presents challenges in reliably identifying disease-specific TCRs. Population genetics and sequencing depth can also have strong systematic effects on repertoires, which requires careful consideration when developing diagnostic models. We present an Adaptive Immune Repertoire-Invariant Variational Autoencoder (AIRIVA), a generative model that learns a low-dimensional, interpretable, and compositional representation of TCR repertoires to disentangle such systematic effects in repertoires. We apply AIRIVA to two infectious disease case-studies: COVID-19 (natural infection and vaccination) and the Herpes Simplex Virus (HSV-1 and HSV-2), and empirically show that we can disentangle the individual disease signals. We further demonstrate AIRIVA’s capability to: learn from unlabelled samples; generate in-silico TCR repertoires by intervening on the latent factors; and identify disease-associated TCRs validated using TCR annotations from external assay data.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/pradier23a.html
+  PDF: https://proceedings.mlr.press/v219/pradier23a/pradier23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-pradier23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Melanie F.
+    family: Pradier
+  - given: Niranjani
+    family: Prasad
+  - given: Paidamoyo
+    family: Chapfuwa
+  - given: Sahra
+    family: Ghalebikesabi
+  - given: Maximilian
+    family: Ilse
+  - given: Steven
+    family: Woodhouse
+  - given: Rebecca
+    family: Elyanow
+  - given: Javier
+    family: Zazo
+  - given: Javier Gonzalez
+    family: Hernandez
+  - given: Julia
+    family: Greissl
+  - given: Edward
+    family: Meeds
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 588-611
+  id: pradier23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 588
+  lastpage: 611
+  published: 2023-12-22 00:00:00 +0000
+- title: 'EASL: A Framework for Designing, Implementing, and Evaluating ML Solutions in Clinical Healthcare Settings'
+  abstract: 'We introduce the Explainable Analytical Systems Lab (EASL) framework, an end-to-end solution designed to facilitate the development, implementation, and evaluation of clinical machine learning (ML) tools. EASL is highly versatile and applicable to a variety of contexts and includes resources for data management, ML model development, visualization and user interface development, service hosting, and usage analytics. To demonstrate its practical applications, we present the EASL framework in the context of a case study: designing and evaluating a deep learning classifier to predict diagnoses from medical imaging. The framework is composed of three modules, each with their own set of resources. The Workbench module stores data and develops initial ML models, the Canvas module contains a medical imaging viewer and web development framework, and the Studio module hosts the ML model and provides web analytics and support for conducting user studies. EASL encourages model developers to take a holistic view by integrating the model development, implementation, and evaluation into one framework, and thus ensures that models are both effective and reliable when used in a clinical setting. EASL contributes to our understanding of machine learning applied to healthcare by providing a comprehensive framework that makes it easier to develop and evaluate ML tools within a clinical setting.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/prince23a.html
+  PDF: https://proceedings.mlr.press/v219/prince23a/prince23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-prince23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Eric
+    family: Prince
+  - given: Todd C.
+    family: Hankinson
+  - given: Carsten
+    family: Görg
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 612-630
+  id: prince23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 612
+  lastpage: 630
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Generating more faithful and consistent SOAP notes using attribute-specific parameters'
+  abstract: 'The widespread adoption of SOAP notes for documenting diverse aspects of patient information in healthcare has been prevalent. However, the conventional process of manual note-taking is laborious and can distract healthcare providers from addressing patients’ needs. Prior work by Krishna et al. (2021a) has introduced an end-to-end pipeline for generating SOAP notes, but model-generated notes are susceptible to inaccuracies, irrelevant and missing information. In this work, we assess the performance of large language models (GPT-3.5) for SOAP note generation, compare them with fine-tuned models using automated metrics, and propose a solution to improve the consistency and faithfulness of notes by incorporating attribute-specific information via SOAP section information. To achieve this, we integrate an extra layer of unique section-specific cross-attention parameters to existing encoder-decoder architectures. Our approach is evaluated using a comprehensive suite of automated metrics and expert human evaluators, demonstrating that it leads to more accurate, relevant, and faithful information.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ramprasad23a.html
+  PDF: https://proceedings.mlr.press/v219/ramprasad23a/ramprasad23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ramprasad23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sanjana
+    family: Ramprasad
+  - given: Elisa
+    family: Ferracane
+  - given: Sai P.
+    family: Selvaraj
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 631-649
+  id: ramprasad23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 631
+  lastpage: 649
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Retrieval Augmented Chest X-Ray Report Generation using OpenAI GPT models'
+  abstract: 'We propose Retrieval Augmented Generation (RAG) as an approach for automated radiology report writing, using multimodally-aligned embeddings from a contrastively-pretrained vision language model to retrieve relevant radiology text for a given image, and then using a general domain generative model, such as OpenAI text-davinci-003, gpt-3.5-turbo and gpt-4, to generate a report based on the retrieved text. This approach keeps hallucinated generations under check and provides capabilities to generate report content in the format we desire, leveraging the instruction following capabilities of generative models. Our approach achieves better clinical metrics with a BERTScore of 0.2865 ($\Delta$+ 25.88 %) and Semb score of 0.4026 ($\Delta$+ 6.31 %). Our approach can be useful for different clinical settings, as it can augment the automated radiology report generation process with relevant content. It also allows to inject the user intents and requirements in the prompts, which can modulate the content and format of the generated reports according to the clinical setting.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/ranjit23a.html
+  PDF: https://proceedings.mlr.press/v219/ranjit23a/ranjit23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-ranjit23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Mercy
+    family: Ranjit
+  - given: Gopinath
+    family: Ganapathy
+  - given: Ranjit
+    family: Manuel
+  - given: Tanuja
+    family: Ganu
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 650-666
+  id: ranjit23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 650
+  lastpage: 666
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Neurological Prognostication of Post-Cardiac-Arrest Coma Patients Using EEG Data: A Dynamic Survival Analysis Framework with Competing Risks'
+  abstract: 'Patients resuscitated from cardiac arrest who enter a coma are at high risk of death. Forecasting neurological outcomes of these patients (i.e., the task of neurological prognostication) could help with treatment decisions: which patients are likely to awaken from their coma and should be kept on life-sustaining therapies, and which are so ill that they would unlikely benefit from treatment? In this paper, we propose, to the best of our knowledge, the first dynamic framework for neurological prognostication of post-cardiac-arrest comatose patients using EEG data: our framework makes predictions for a patient over time as more EEG data become available, and different training patients’ available EEG time series could vary in length. Predictions themselves are phrased in terms of either time-to-event outcomes (time-to-awakening or time-to-death) or as the patient’s probability of awakening or of dying across multiple time horizons (e.g., within the next 24, 48, or 72 hours). Our framework is based on using any dynamic survival analysis model that supports competing risks in the form of estimating patient-level cumulative incidence functions. We consider three competing risks as to what happens first to a patient: awakening, being withdrawn from life-sustaining therapies (and thus deterministically dying), or dying (by other causes). For some patients, we do not know which of these happened first since they were still in a coma when data collection stopped (i.e., their outcome is censored). Competing risks models readily accommodate such patients. We demonstrate our framework by benchmarking three existing dynamic survival analysis models that support competing risks on a real dataset of 922 post-cardiac-arrest coma patients. Our main experimental findings are that: (1) the classical Fine and Gray model which only uses a patient’s static features and summary statistics from the patient’s latest hour’s worth of EEG data is highly competitive, achieving accuracy scores as high as the recently developed Dynamic-DeepHit model that uses substantially more of the patient’s EEG data; and (2) in an ablation study, we show that our choice of modeling three competing risks results in a model that is at least as accurate while learning more information than simpler models (using two competing risks or a standard survival analysis setup with no competing risks).'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/shen23a.html
+  PDF: https://proceedings.mlr.press/v219/shen23a/shen23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-shen23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiaobin
+    family: Shen
+  - given: Jonathan
+    family: Elmer
+  - given: George H.
+    family: Chen
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 667-690
+  id: shen23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 667
+  lastpage: 690
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Efficient Representation Learning for Healthcare with Cross-Architectural Self-Supervision'
+  abstract: 'In healthcare and biomedical applications, extreme computational requirements pose a significant barrier to adopting representation learning. Representation learning can enhance the performance of deep learning architectures by learning useful priors from limited medical data. However, state-of-the-art self-supervised techniques suffer from reduced performance when using smaller batch sizes or shorter pretraining epochs, which are more practical in clinical settings. We present Cross Architectural - Self Supervision (CASS) in response to this challenge. This novel siamese self-supervised learning approach synergistically leverages Transformer and Convolutional Neural Networks (CNN) for efficient learning. Our empirical evaluation demonstrates that CASS-trained CNNs and Transformers outperform existing self-supervised learning methods across four diverse healthcare datasets. With only 1% labeled data for finetuning, CASS achieves a 3.8% average improvement; with 10% labeled data, it gains 5.9%; and with 100% labeled data, it reaches a remarkable 10.13% enhancement. Notably, CASS reduces pretraining time by 69% compared to state-of-the-art methods, making it more amenable to clinical implementation. We also demonstrate that CASS is considerably more robust to variations in batch size and pretraining epochs, making it a suitable candidate for machine learning in healthcare applications.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/singh23a.html
+  PDF: https://proceedings.mlr.press/v219/singh23a/singh23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-singh23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Pranav
+    family: Singh
+  - given: Jacopo
+    family: Cirrone
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 691-711
+  id: singh23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 691
+  lastpage: 711
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Region-based Saliency Explanations on the Recognition of Facial Genetic Syndromes'
+  abstract: 'Deep neural networks in computer vision have shown remarkable progress in recognizing facial genetic syndromes. Many genetic syndromes are difficult to detect, even for experienced clinicians, and computer-aided phenotyping can accelerate clinical diagnosis. High-stakes clinical tasks using deep learning, as in clinical genetics, require human understandable explanations for model decisions. Saliency methods are used to explain DNN predictions in various image analysis domains but have yet to be studied in facial genetics. The syndromic features of most genetic conditions are often localized to areas like the eyes, nose, and mouth. In this paper, to summarize the contribution of key facial regions to a specific disease prediction, we propose a face region relevance score that can be applied to any saliency method. We also investigate how prior knowledge, namely human phenotype ontology and DNN model explanations, align. Quantitative experiments are performed on a new database containing over 3,500 images of 11 rare facial syndromes, a healthy control group, and an additional test set of 171 facial images, whose respective facial phenotypes are labeled by clinicians. Current saliency methods are good at capturing dysmorphism in particular regions (parts of the face), but they may not completely capture all the relevant features in a given person or condition. Our study indicates which saliency explanations and face regions are more consistent with the phenotypes of specific genetic syndromes and could be used in large-scale clinical evaluations.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/sumer23a.html
+  PDF: https://proceedings.mlr.press/v219/sumer23a/sumer23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-sumer23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ömer
+    family: Sümer
+  - given: Rebekah L.
+    family: Waikel
+  - given: Suzanna E. Ledgister
+    family: Hanchard
+  - given: Dat
+    family: Duong
+  - given: Peter
+    family: Krawitz
+  - given: Cristina
+    family: Conati
+  - given: Benjamin D.
+    family: Solomon
+  - given: Elisabeth
+    family: André
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 712-736
+  id: sumer23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 712
+  lastpage: 736
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Robust Semi-supervised Detection of Hands in Diverse Open Surgery Environments'
+  abstract: 'Artificial intelligence has impacted many aspects of modern medical care but depends critically on data. Videos of medical procedures are a valuable resource for computer vision algorithms but labeling them can be costly and requires expert knowledge. This paper explores how to leverage low-quality, unlabeled videos scraped from the internet in addition to a limited amount of labeled images to improve object detection during surgical procedures. We establish the first benchmark for semi-supervised hand detection during open surgery and show that existing benchmarks in non-medical contexts are not indicative of performance differences on real-world medical applications, where data is noisy and poorly labeled. We propose a end-to-end trainable two-stage object detector that employs consistency loss to learn from unlabeled images. The model is robust to missing labels, variance in hand morphology, and extreme domain shifts such as those encountered in open-source videos of surgeries scraped from YouTube. Our method can predict surgeons’ hands in surgical videos even when only a fraction of hands are labeled in each frame of the labeled set. Adding unlabeled data, we can detect hands more accurately than existing end-to-end semi-supervised object detection algorithms.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/vaid23a.html
+  PDF: https://proceedings.mlr.press/v219/vaid23a/vaid23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-vaid23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Pranav
+    family: Vaid
+  - given: Serena
+    family: Yeung
+  - given: Anita
+    family: Rau
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 736-753
+  id: vaid23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 736
+  lastpage: 753
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Jointly Extracting Interventions, Outcomes, and Findings from RCT Reports with LLMs'
+  abstract: 'Results from Randomized Controlled Trials (RCTs) establish the comparative effectiveness of interventions, and are in turn critical inputs for evidence-based care. However, results from RCTs are presented in (often unstructured) natural language articles describing the design, execution, and outcomes of trials; clinicians must manually extract findings pertaining to interventions and outcomes of interest from such articles. This onerous manual process has motivated work on (semi-)automating extraction of structured evidence from trial reports. In this work we propose and evaluate a text-to-text model built on instruction-tuned Large Language Models (LLMs) to jointly extract Interventions, Outcomes, and Comparators (ICO elements) from clinical abstracts, and infer the associated results reported. Manual (expert) and automated evaluations indicate that framing evidence extraction as a conditional generation task and fine-tuning LLMs for this purpose realizes considerable (∼20 point absolute F1 score) gains over the previous SOTA. We perform ablations and error analyses to assess aspects that contribute to model performance, and to highlight potential directions for further improvements. We apply our model to a collection of published RCTs through mid-2022, and release a searchable database of structured findings: http://ico-relations.ebm-nlp.com.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wadhwa23a.html
+  PDF: https://proceedings.mlr.press/v219/wadhwa23a/wadhwa23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wadhwa23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Somin
+    family: Wadhwa
+  - given: Jay
+    family: DeYoung
+  - given: Benjamin
+    family: Nye
+  - given: Silvio
+    family: Amir
+  - given: Byron C.
+    family: Wallace
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 754-771
+  id: wadhwa23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 754
+  lastpage: 771
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Learning functional sections in medical conversations: iterative pseudo-labeling and human-in-the-loop approach'
+  abstract: 'Medical conversations between patients and medical professionals have implicit functional sections, such as “history taking”, “summarization”, “education”, and “care plan.” In this work, we are interested in learning to automatically extract these sections. A direct approach would require collecting large amounts of expert annotations for this task, which is inherently costly due to the contextual inter-and-intra variability between these sections. This paper presents an approach that tackles the problem of learning to classify medical dialogue into functional sections without requiring a large number of annotations. Our approach combines pseudo-labeling and human-in-the-loop. First, we bootstrap using weak supervision with pseudo-labeling to generate dialogue turn-level pseudo-labels and train a transformer-based model, which is then applied to individual sentences to create noisy sentence-level labels. Second, we iteratively refine sentence-level labels using a cluster-based human-in-the-loop approach. Each iteration requires only a few dozen annotator decisions. We evaluate the results on an expert-annotated dataset of 100 dialogues and find that while our models start with 69.5% accuracy, we can iteratively improve it to 82.5%. Code used to perform all experiments described in this paper can be found here: https://github.com/curai/curai-research/functional-sections.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wang23a.html
+  PDF: https://proceedings.mlr.press/v219/wang23a/wang23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Mengqian
+    family: Wang
+  - given: Ilya
+    family: Valmianski
+  - given: Xavier
+    family: Amatriain
+  - given: Anitha
+    family: Kannan
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 772-787
+  id: wang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 772
+  lastpage: 787
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Sample-Specific Debiasing for Better Image-Text Models'
+  abstract: 'Self-supervised representation learning on image-text data facilitates crucial medical applications, such as image classification, visual grounding, and cross-modal retrieval. One common approach involves contrasting semantically similar (positive) and dissimilar (negative) pairs of data points. Drawing negative samples uniformly from the training data set introduces false negatives, i.e., samples that are treated as dissimilar but belong to the same class. In healthcare data, the underlying class distribution is nonuniform, implying that false negatives occur at a highly variable rate. To improve the quality of learned representations, we develop a novel approach that corrects for false negatives. Our method can be viewed as a variant of debiased contrastive learning that uses estimated sample-specific class probabilities. We provide theoretical analysis of the objective function and demonstrate the proposed approach on both image and paired image-text data sets. Our experiments illustrate empirical advantages of sample-specific debiasing.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wang23b.html
+  PDF: https://proceedings.mlr.press/v219/wang23b/wang23b.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wang23b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Peiqi
+    family: Wang
+  - given: Yingcheng
+    family: Liu
+  - given: Ching-Yun
+    family: Ko
+  - given: William M.
+    family: Wells
+  - given: Seth
+    family: Berkowitz
+  - given: Steven
+    family: Horng
+  - given: Polina
+    family: Golland
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 788-803
+  id: wang23b
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 788
+  lastpage: 803
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Are Large Language Models Ready for Healthcare? A Comparative Study on Clinical Language Understanding'
+  abstract: 'Large language models (LLMs) have made significant progress in various domains, including healthcare. However, the specialized nature of clinical language understanding tasks presents unique challenges and limitations that warrant further investigation. In this study, we conduct a comprehensive evaluation of state-of-the-art LLMs, namely GPT-3.5, GPT-4, and Bard, within the realm of clinical language understanding tasks. These tasks span a diverse range, including named entity recognition, relation extraction, natural language inference, semantic textual similarity, document classification, and question-answering. We also introduce a novel prompting strategy, self-questioning prompting (SQP), tailored to enhance the performance of LLMs by eliciting informative questions and answers pertinent to the clinical scenarios at hand. Our evaluation highlights the importance of employing task-specific learning strategies and prompting techniques, such as SQP, to maximize the effectiveness of LLMs in healthcare-related tasks. Our study emphasizes the need for cautious implementation of LLMs in healthcare settings, ensuring a collaborative approach with domain experts and continuous verification by human experts to achieve responsible and effective use, ultimately contributing to improved patient care. Our code is available at https://github.com/EternityYW/LLM_healthcare.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wang23c.html
+  PDF: https://proceedings.mlr.press/v219/wang23c/wang23c.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wang23c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuqing
+    family: Wang
+  - given: Yun
+    family: Zhao
+  - given: Linda
+    family: Petzold
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 804-823
+  id: wang23c
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 804
+  lastpage: 823
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Characterizing personalized effects of family information on disease risk using graph representation learning'
+  abstract: 'Family history is considered a risk factor for many diseases because it implicitly captures shared genetic, environmental and lifestyle factors. Finland’s nationwide electronic health record (EHR) system spanning multiple generations presents new opportunities for studying a connected network of medical histories for entire families. In this work we present a graph-based deep learning approach for learning explainable, supervised representations of how each family member’s longitudinal medical history influences a patient’s disease risk. We demonstrate that this approach is beneficial for predicting 10-year disease onset for 5 complex disease phenotypes, compared to clinically-inspired and deep learning baselines for Finland’s nationwide EHR system comprising 7 million individuals with up to third-degree relatives. Through the use of graph explainability techniques, we illustrate that a graph-based approach enables more personalized modeling of family information and disease risk by identifying important relatives and features for prediction.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wharrie23a.html
+  PDF: https://proceedings.mlr.press/v219/wharrie23a/wharrie23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wharrie23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sophie
+    family: Wharrie
+  - given: Zhiyu
+    family: Yang
+  - given: Andrea
+    family: Ganna
+  - given: Samuel
+    family: Kaski
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 824-845
+  id: wharrie23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 824
+  lastpage: 845
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Scaling Clinical Trial Matching Using Large Language Models: A Case Study in Oncology'
+  abstract: 'Clinical trial matching is a key process in health delivery and discovery. In practice, it is plagued by overwhelming unstructured data and unscalable manual processing. In this paper, we conduct a systematic study on scaling clinical trial matching using large language models (LLMs), with oncology as the focus area. Our study is grounded in a clinical trial matching system currently in test deployment at a large U.S. health network. Initial findings are promising: out of box, cutting-edge LLMs, such as GPT-4, can already structure elaborate eligibility criteria of clinical trials and extract complex matching logic (e.g., nested AND/OR/NOT). While still far from perfect, LLMs substantially outperform prior strong baselines and may serve as a preliminary solution to help triage patient-trial candidates with humans in the loop. Our study also reveals a few significant growth areas for applying LLMs to end-to-end clinical trial matching, such as context limitation and accuracy, especially in structuring patient information from longitudinal medical records.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wong23a.html
+  PDF: https://proceedings.mlr.press/v219/wong23a/wong23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wong23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Cliff
+    family: Wong
+  - given: Sheng
+    family: Zhang
+  - given: Yu
+    family: Gu
+  - given: Christine
+    family: Moung
+  - given: Jacob
+    family: Abel
+  - given: Naoto
+    family: Usuyama
+  - given: Roshanthi
+    family: Weerasinghe
+  - given: Brian
+    family: Piening
+  - given: Tristan
+    family: Naumann
+  - given: Carlo
+    family: Bifulco
+  - given: Hoifung
+    family: Poon
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 846-862
+  id: wong23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 846
+  lastpage: 862
+  published: 2023-12-22 00:00:00 +0000
+- title: 'UDAMA: Unsupervised Domain Adaptation through Multi-discriminator Adversarial Training with Noisy Labels Improves Cardio-fitness Prediction'
+  abstract: 'Deep learning models have shown great promise in various healthcare monitoring applications. However, most healthcare datasets with high-quality (gold-standard) labels are small-scale, as directly collecting ground truth is often costly and time-consuming. As a result, models developed and validated on small-scale datasets often suffer from overfitting and do not generalize well to unseen scenarios. At the same time, large amounts of imprecise (silver-standard) labeled data, annotated by approximate methods with the help of modern wearables and in the absence of ground truth validation, are starting to emerge. However, due to measurement differences, this data displays significant label distribution shifts, which motivates the use of domain adaptation. To this end, we introduce UDAMA, a method with two key components: Unsupervised Domain Adaptation and Multi-discriminator Adversarial Training, where we pre-train on the silver-standard data and employ adversarial adaptation with the gold-standard data along with two domain discriminators. In particular, we showcase the practical potential of UDAMA by applying it to Cardio-respiratory fitness (CRF) prediction. CRF is a crucial determinant of metabolic disease and mortality, and it presents labels with various levels of noise (gold- and silver-standard), making it challenging to establish an accurate prediction model. Our results show promising performance by alleviating distribution shifts in various label shift settings. Additionally, by using data from two free-living cohort studies (Fenland and BBVS), we show that UDAMA consistently outperforms up to 12% compared to competitive transfer learning and state-of-the-art domain adaptation models, paving the way for leveraging noisy labeled data to improve fitness estimation at scale.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/wu23a.html
+  PDF: https://proceedings.mlr.press/v219/wu23a/wu23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-wu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yu
+    family: Wu
+  - given: Dimitris
+    family: Spathis
+  - given: Hong
+    family: Jia
+  - given: Ignacio
+    family: Perez-Pozuelo
+  - given: Tomas I.
+    family: Gonzales
+  - given: Soren
+    family: Brage
+  - given: Nicholas
+    family: Wareham
+  - given: Cecilia
+    family: Mascolo
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 863-883
+  id: wu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 863
+  lastpage: 883
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Interpretable (not just posthoc-explainable) heterogeneous survivors bias-corrected treatment effects for assignment of postdischarge interventions to prevent readmissions'
+  abstract: 'We used survival analysis to quantify the impact of postdischarge evaluation and management (E/M) services in preventing hospital readmission or death. Our approach avoids a common pitfall when applying machine learning to this problem: inflated treatment effect estimates due to survivors bias – where the magnitude of inflation may be conditional on heterogeneous confounders in the population. This bias arises simply because in order to receive an intervention after discharge, a person must not have been readmitted in the intervening period. After deriving an expression for the phantom effect due to survivors bias, we controlled for this and other biases within an inherently interpretable model that quilts together linear functions using Bayesian multilevel modeling. We identified case management services as being the most impactful for reducing readmissions overall.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/xia23a.html
+  PDF: https://proceedings.mlr.press/v219/xia23a/xia23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-xia23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hongjing
+    family: Xia
+  - given: Joshua C.
+    family: Chang
+  - given: Sarah
+    family: Nowak
+  - given: Sonya
+    family: Mahajan
+  - given: Rohit
+    family: Mahajan
+  - given: Ted L.
+    family: Chang
+  - given: Carson C.
+    family: Chow
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 884-905
+  id: xia23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 884
+  lastpage: 905
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Uncovering the Varied Impact of Behavioral Change Messages on Population Groups'
+  abstract: 'Individuals such as medical interns who work in high-stress environments often face mental health challenges including depression and anxiety. These challenges are exacerbated by the limited access to traditional mental health services due to demanding work schedules. In this context, mobile health interventions such as push notifications targeting behavioral modification to improve mental health outcomes could deliver much needed support. In this work, we study the effectiveness of these interventions on subgroups, by studying the conditional average causal effect of these interventions. We design a two step approach for estimating the conditional average causal effect of interventions and identifying specific subgroups of the population who respond positively or negatively to the interventions. The first step of our approach follows existing causal effect estimation approaches, while the second step involves a novel tree-based approach to identify subgroups who respond to the treatment. The novelty in the second step stems from a pruning approach that deploys hypothesis testing to identify subgroups experiencing a statistically significant positive or negative causal effect. Using a semi-simulated dataset, we show that our approach retrieves affected subpopulations with a higher precision than alternatives while maintaining the same recall and accuracy. Using a real dataset with randomized push interventions among the medical intern population at a large hospital, we show how our approach can be used to identify subgroups who might benefit the most from interventions.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/xu23a.html
+  PDF: https://proceedings.mlr.press/v219/xu23a/xu23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-xu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jiaai
+    family: Xu
+  - given: Rada
+    family: Mihalcea
+  - given: Elena
+    family: Frank
+  - given: Srijan
+    family: Sen
+  - given: Maggie
+    family: Makar
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 906-922
+  id: xu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 906
+  lastpage: 922
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Semi-supervised Meta-learning for Multi-source Heterogeneity in Time-series Data'
+  abstract: 'Real-world time-series data is riddled with heterogeneity that is often present across a number of dataset dimensions: features, labels, and time-varying factors. The heterogeneity in time-series data may be raised by introducing new features, missing data, and domain shifts in the feature dimension, and the difficulty of collecting promising ground truth results in label uncertainty. In addition, the variation on the time manner further aggravates the complexity of data heterogeneity, since the features and labels may change on the same sequence of data over time. Many machine learning techniques have been proposed to address the data heterogeneity, including transfer learning, meta-learning, semi-supervised learning, recurrent networks, etc. However, each of these techniques is limited to one type of heterogeneity. In this study, we seek to create adaptable models for the multi-source heterogeneity in time-series data. We propose a semi-supervised-based meta-learning (SSML) with an adversarial training mechanism simultaneously addressing the heterogeneous features and labeling uncertainty, a time domain variation (TDV) framework to apply SSML and transfer learning for the third level of data heterogeneity. We test our models on two medical datasets, PhysioNet Challenge 2012 and MIMIC-III ICU dataset, and improve over all benchmark models. Our code is available at https://github.com/lidazhang/ ssml-time-series-heterogeneity.git.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/zhang23a.html
+  PDF: https://proceedings.mlr.press/v219/zhang23a/zhang23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-zhang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Lida
+    family: Zhang
+  - given: Bobak J.
+    family: Mortazavi
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 923-941
+  id: zhang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 923
+  lastpage: 941
+  published: 2023-12-22 00:00:00 +0000
+- title: 'Dialogue-Contextualized Re-ranking for Medical History-Taking'
+  abstract: 'AI-driven medical history-taking is an important component in symptom checking, automated patient intake, triage, and other AI virtual care applications. As history-taking is extremely varied, machine learning models require a significant amount of data to train. To overcome this challenge, existing systems are developed using indirect data or expert knowledge. This leads to a training-inference gap as models are trained on different kinds of data than what they observe at inference time. In this work, we present a two-stage re-ranking approach that helps close the training-inference gap by re-ranking the first-stage question candidates using a dialogue-contextualized model. For this, we propose a new model, global re-ranker, which cross-encodes the dialogue with all questions simultaneously, and compare it with several existing neural baselines. We test both transformer and S4-based language model backbones. We find that relative to the expert system, the best performance is achieved by our proposed global re-ranker with a transformer backbone, resulting in a 30% higher normalized discount cumulative gain (nDCG) and a 77% higher mean average precision (mAP). As part of this work, we also release pre-trained checkpoints for bi-directional and autoregressive S4 models trained on Wikipedia and PubMed data.'
+  volume: 219
+  URL: https://proceedings.mlr.press/v219/zhu23a.html
+  PDF: https://proceedings.mlr.press/v219/zhu23a/zhu23a.pdf
+  edit: https://github.com/mlresearch//v219/edit/gh-pages/_posts/2023-12-22-zhu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 8th Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jian
+    family: Zhu
+  - given: Ilya
+    family: Valmianski
+  - given: Anitha
+    family: Kannan
+  editor: 
+  - given: Kaivalya
+    family: Deshpande
+  - given: Madalina
+    family: Fiterau
+  - given: Shalmali
+    family: Joshi
+  - given: Zachary
+    family: Lipton
+  - given: Rajesh
+    family: Ranganath
+  - given: Iñigo
+    family: Urteaga
+  - given: Serene
+    family: Yeung
+  page: 942-958
+  id: zhu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 12
+      - 22
+  firstpage: 942
+  lastpage: 958
+  published: 2023-12-22 00:00:00 +0000

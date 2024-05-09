@@ -1,0 +1,274 @@
+
+
+
+@Proceedings{EWRL 20122012,
+  title =     {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  booktitle = {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  editor =    {Marc Peter Deisenroth and Csaba SzepesvÃ¡ri and Jan Peters},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    24
+}
+
+
+
+
+@InProceedings{pmlr-v24-deisenroth12a,
+  title = 	 {Preface},
+  author = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {i--i},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/deisenroth12a/deisenroth12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/deisenroth12a.html},
+  abstract = 	 {Preface to the Proceedings of the Tenth European Workshop on Reinforcement Learning June, 2012, Edinburgh, Scotland.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-castronovo12a,
+  title = 	 {Learning Exploration/Exploitation Strategies for Single Trajectory Reinforcement Learning},
+  author = 	 {Castronovo, Michael and Maes, Francis and Fonteneau, Raphael and Ernst, Damien},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {1--10},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/castronovo12a/castronovo12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/castronovo12a.html},
+  abstract = 	 {We consider the problem of learning high-performance Exploration/Exploitation (E/E) strategies for finite Markov Decision Processes (MDPs) when the MDP to be controlled is supposed to be drawn from a known probability distribution $p_\mathcal{M}(\cdot)$. The performance criterion is the sum of discounted rewards collected by the E/E strategy over an infinite length trajectory. We propose an approach for solving this problem that works by considering a rich set of candidate E/E strategies and by looking for the one that gives the best average performances on MDPs drawn according to $p_\mathcal{M}(\cdot)$. As candidate E/E strategies, we consider index-based strategies parametrized by small formulas combining variables that include the estimated reward function, the number of times each transition has occurred and the optimal value functions and the optimal value functions $\hat{V}$ and $\hat{Q}$ of the estimated MDP (obtained through value iteration). The search for the best formula is formalized as a multi-armed bandit problem, each arm being associated with a formula. We experimentally compare the performances of the approach with R-max as well as with $\epsilon$-Greedy strategies and the results are promising.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-daswani12a,
+  title = 	 {Feature Reinforcement Learning using Looping Suffix Trees},
+  author = 	 {Daswani, Mayank and Sunehag, Peter and Hutter, Marcus},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {11--24},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/daswani12a/daswani12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/daswani12a.html},
+  abstract = 	 {There has recently been much interest in history-based methods using suffix trees to solve POMDPs. However, these suffix trees cannot efficiently represent environments that have long-term dependencies. We extend the recently introduced CTÃÂ¦MDP algorithm to the space of looping suffix trees which have previously only been used in solving deterministic POMDPs. The resulting algorithm replicates results from CTÃÂ¦MDP for environments with short term dependencies, while it outperforms LSTM-based methods on TMaze, a deep memory environment.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-goschin12a,
+  title = 	 {Planning in Reward-Rich Domains via PAC Bandits},
+  author = 	 {Goschin, Sergiu and Weinstein, Ari and Littman, Michael L. and Chastain, Erick},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {25--42},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/goschin12a/goschin12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/goschin12a.html},
+  abstract = 	 {In some decision-making environments, successful solutions are common. If the evaluation of candidate solutions is noisy, however, the challenge is knowing when a âgood enoughâ answer has been found. We formalize this problem as an infinite-armed bandit and provide upper and lower bounds on the number of evaluations or âpullsâ needed to identify a solution whose evaluation exceeds a given threshold r0 . We present several algorithms and use them to identify reliable strategies for solving screens from the video games \emphInfinite Mario and \emphPitfall! We show order of magnitude improvements in sample complexity over a natural approach that pulls each arm until a good estimate of its success probability is known.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-heess12a,
+  title = 	 {Actor-Critic Reinforcement Learning with Energy-Based Policies},
+  author = 	 {Heess, Nicolas and Silver, David and Teh, Yee Whye},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {45--58},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/heess12a/heess12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/heess12a.html},
+  abstract = 	 {We consider reinforcement learning in Markov decision processes with high dimensional state and action spaces. We parametrize policies using energy-based models (particularly restricted Boltzmann machines), and train them using policy gradient learning. Our approach builds upon Sallans and Hinton (2004), who parameterized value functions using energy-based models, trained using a non-linear variant of temporal-difference (TD) learning. Unfortunately, non-linear TD is known to diverge in theory and practice. We introduce the first sound and efficient algorithm for training energy-based policies, based on an actor-critic architecture. Our algorithm is computationally efficient, converges close to a local optimum, and outperforms Sallans and Hinton (2004) in several high dimensional domains.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-mann12a,
+  title = 	 {Directed Exploration in Reinforcement Learning with Transferred Knowledge},
+  author = 	 {Mann, Timothy A. and Choe, Yoonsuck},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {59--76},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/mann12a/mann12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/mann12a.html},
+  abstract = 	 {Experimental results suggest that transfer learning (TL), compared to learning from scratch, can decrease exploration by reinforcement learning (RL) algorithms. Most existing TL algorithms for RL are heuristic and may result in worse performance than learning from scratch (i.e., negative transfer). We introduce a theoretically grounded and flexible approach that transfers action-values via an intertask mapping and, based on those, explores the target task systematically. We characterize positive transfer as (1) decreasing sample complexity in the target task compared to the sample complexity of the base RL algorithm (without transferred action-values) and (2) guaranteeing that the algorithm converges to a near-optimal policy (i.e., negligible optimality loss). The sample complexity of our approach is no worse than the base algorithm's, and our analysis reveals that positive transfer can occur even with highly inaccurate and partial intertask mappings. Finally, we empirically test directed exploration with transfer in a multijoint reaching task, which highlights the value of our analysis and the robustness of our approach under imperfect conditions.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-metzen12a,
+  title = 	 {Online Skill Discovery using Graph-based Clustering},
+  author = 	 {Metzen, Jan Hendrik},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {77--88},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/metzen12a/metzen12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/metzen12a.html},
+  abstract = 	 {We introduce a new online skill discovery method for reinforcement learning in discrete domains. The method is based on the bottleneck principle and identifies skills using a bottom-up hierarchical clustering of the estimated transition graph. In contrast to prior clustering approaches, it can be used incrementally and thus several times during the learning process. Our empirical evaluation shows that âassuming dense local connectivity in the face of uncertaintyâ can prevent premature identification of skills. Furthermore, we show that the choice of the linkage criterion is crucial for dealing with non-random sampling policies and stochastic environments.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-paduraru12a,
+  title = 	 {An Empirical Analysis of Off-policy Learning in Discrete MDPs},
+  author = 	 {PÄduraru, Cosmin and Precup, Doina and Pineau, Joelle and ComÄnici, Gheorghe},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {89--102},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/paduraru12a/paduraru12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/paduraru12a.html},
+  abstract = 	 {Off-policy evaluation is the problem of evaluating a decision-making policy using data collected under a different behaviour policy. While several methods are available for addressing off-policy evaluation, little work has been done on identifying the best methods. In this paper, we conduct an in-depth comparative study of several off-policy evaluation methods in non-bandit, finite-horizon MDPs, using randomly generated MDPs, as well as a Mallard population dynamics model [Anderson, 1975] . We find that un-normalized importance sampling can exhibit prohibitively large variance in problems involving look-ahead longer than a few time steps, and that dynamic programming methods perform better than Monte-Carlo style methods.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-seldin12a,
+  title = 	 {Evaluation and Analysis of the Performance of the EXP3 Algorithm in Stochastic Environments},
+  author = 	 {Seldin, Yevgeny and SzepesvÃ¡ri, Csaba and Auer, Peter and Abbasi-Yadkori, Yasin},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {103--116},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/seldin12a/seldin12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/seldin12a.html},
+  abstract = 	 {EXP3 is a popular algorithm for adversarial multiarmed bandits, suggested and analyzed in this setting by Auer et al. [2002b]. Recently there was an increased interest in the performance of this algorithm in the stochastic setting, due to its new applications to stochastic multiarmed bandits with side information [Seldin et al., 2011] and to multiarmed bandits in the mixed stochastic-adversarial setting [Bubeck and Slivkins, 2012]. We present an empirical evaluation and improved analysis of the performance of the EXP3 algorithm in the stochastic setting, as well as a modification of the EXP3 algorithm capable of achieving âlogarithmicâ regret in stochastic environments.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-silver12a,
+  title = 	 {Gradient Temporal Difference Networks},
+  author = 	 {Silver, David},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {117--130},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/silver12a/silver12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/silver12a.html},
+  abstract = 	 {Temporal-difference (TD) networks (Sutton and Tanner, 2004) are a predictive represen- tation of state in which each node is an answer to a question about future observations or questions. Unfortunately, existing algorithms for learning TD networks are known to diverge, even in very simple problems. In this paper we present the first sound learning rule for TD networks. Our approach is to develop a true gradient descent algorithm that takes account of all three roles performed by each node in the network: as state, as an answer, and as a target for other questions. Our algorithm combines gradient temporal-difference learning (Maei et al., 2009) with real-time recurrent learning (Williams and Zipser, 1994). We provide a generalisation of the Bellman equation that corresponds to the semantics of the TD network, and prove that our algorithm converges to a fixed point of this equation.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-valko12a,
+  title = 	 {Semi-Supervised Apprenticeship Learning},
+  author = 	 {Valko, Michal and Ghavamzadeh, Mohammad and Lazaric, Alessandro},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {131--142},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/valko12a/valko12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/valko12a.html},
+  abstract = 	 {In apprenticeship learning we aim to learn a good policy by observing the behavior of an expert or a set of experts. In particular, we consider the case where the expert acts so as to maximize an unknown reward function defined as a linear combination of a set of state features. In this paper, we consider the setting where we observe many sample trajectories (i.e., sequences of states) but only one or a few of them are labeled as experts' trajectories. We investigate the conditions under which the remaining unlabeled trajectories can help in learning a policy with a good performance. In particular, we define an extension to the max-margin inverse reinforcement learning proposed by Abbeel and Ng [2004] where, at each iteration, the max-margin optimization step is replaced by a semi-supervised optimiza- tion problem which favors classifiers separating clusters of trajectories. Finally, we report empirical results on two grid-world domains showing that the semi-supervised algorithm is able to output a better policy in fewer iterations than the related algorithm that does not take the unlabeled trajectories into account.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-vlachos12a,
+  title = 	 {An investigation of imitation learning algorithms for structured prediction},
+  author = 	 {Vlachos, Andreas},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {143--154},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/vlachos12a/vlachos12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/vlachos12a.html},
+  abstract = 	 {In the imitation learning paradigm algorithms learn from expert demonstrations in order to become able to accomplish a particular task. DaumÃÂ© III et al. [2009] framed structured prediction in this paradigm and developed the search-based structured prediction algorithm (Searn) which has been applied successfully to various natural language processing tasks with state-of-the-art performance. Recently, Ross et al. [2011] proposed the dataset aggre- gation algorithm (DAgger) and compared it with Searn in sequential prediction tasks. In this paper, we compare these two algorithms in the context of a more complex structured prediction task, namely biomedical event extraction. We demonstrate that DAgger has more stable performance and faster learning than Searn, and that these advantages are more pronounced in the parameter-free versions of the algorithms.}
+}
+
+
+
+
+@InProceedings{pmlr-v24-weinstein12a,
+  title = 	 {Rollout-based Game-tree Search Outprunes Traditional Alpha-beta},
+  author = 	 {Weinstein, Ari and Littman, Michael L. and Goschin, Sergiu},
+  booktitle = 	 {Proceedings of the Tenth European Workshop on Reinforcement Learning},
+  pages = 	 {155--167},
+  year = 	 {2013},
+  editor = 	 {Deisenroth, Marc Peter and SzepesvÃ¡ri, Csaba and Peters, Jan},
+  volume = 	 {24},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Edinburgh, Scotland},
+  month = 	 {30 Jun--01 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v24/weinstein12a/weinstein12a.pdf},
+  url = 	 {https://proceedings.mlr.press/v24/weinstein12a.html},
+  abstract = 	 {Recently, rollout-based planning and search methods have emerged as an alternative to traditional tree-search methods. The fundamental operation in rollout-based tree search is the generation of trajectories in the search tree from root to leaf. Game-playing programs based on Monte-Carlo rollouts methods such as âUCTâ have proven remarkably effective at using information from trajectories to make state-of-the-art decisions at the root. In this paper, we show that trajectories can be used to prune more aggressively than classical alpha-beta search. We modify a rollout-based method, FSSS, to allow for use in game-tree search and show it outprunes alpha-beta both empirically and formally.}
+}
+
+
+

@@ -1,0 +1,241 @@
+
+- title: 'Yahoo! Learning to Rank Challenge Overview'
+  abstract: 'Learning to rank for information retrieval has gained a lot of interest in the recent years but there is a lack for large real-world datasets to benchmark algorithms. That led us to publicly release two datasets used internally at Yahoo! for learning the web search ranking function. To promote these datasets and foster the development of state-of-the-art learning to rank algorithms, we organized the Yahoo! Learning to Rank Challenge in spring 2010. This paper provides an overview and an analysis of this challenge, along with a detailed description of the released datasets.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/chapelle11a.html
+  PDF: http://proceedings.mlr.press/v14/chapelle11a/chapelle11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-chapelle11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 1-24
+  id: chapelle11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 1
+  lastpage: 24
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Learning to Rank Using an Ensemble of Lambda-Gradient Models'
+  abstract: 'We describe the system that won Track 1 of the Yahoo!Â Learning to Rank Challenge.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/burges11a.html
+  PDF: http://proceedings.mlr.press/v14/burges11a/burges11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-burges11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Christopher
+    family: Burges
+  - given: Krysta
+    family: Svore
+  - given: Paul
+    family: Bennett
+  - given: Andrzej
+    family: Pastusiak
+  - given: Qiang
+    family: Wu
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 25-35
+  id: burges11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 25
+  lastpage: 35
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Ranking by calibrated AdaBoost'
+  abstract: 'This paper describes the ideas and methodologies that we used in the Yahoo learning-to-rank challenge^1. Our technique is essentially pointwise with a listwise touch at the last combination step. The main ingredients of our approach are 1) preprocessing (querywise normalization) 2) multi-class AdaBoost.MH 3) regression calibration, and 4) an exponentially weighted forecaster for model combination. In post-challenge analysis we found that preprocessing and training AdaBoost with a wide variety of hyperparameters improved individual models significantly, the final listwise ensemble step was crucial, whereas calibration helped only in creating diversity.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/busa-fekete11a.html
+  PDF: http://proceedings.mlr.press/v14/busa-fekete11a/busa-fekete11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-busa-fekete11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Róbert
+    family: Busa-Fekete
+  - given: Balázs
+    family: Kégl
+  - given: Tamás
+    family: Éltető
+  - given: György
+    family: Szarvas
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 37-48
+  id: busa-fekete11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 37
+  lastpage: 48
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Learning to rank with extremely randomized trees'
+  abstract: 'In this paper, we report on our experiments on the Yahoo! Labs Learning to Rank challenge organized in the context of the 23rd International Conference of Machine Learning (ICML 2010). We competed in both the learning to rank and the transfer learning tracks of the challenge with several tree-based ensemble methods, including Tree Bagging (?), Random Forests (?), and Extremely Randomized Trees (?). Our methods ranked 10th in the first track and 4th in the second track. Although not at the very top of the ranking, our results show that ensembles of randomized trees are quite competitive for the “learning to rank” problem. The paper also analyzes computing times of our algorithms and presents some post-challenge experiments with transfer learning methods.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/geurts11a.html
+  PDF: http://proceedings.mlr.press/v14/geurts11a/geurts11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-geurts11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Pierre
+    family: Geurts
+  - given: Gilles
+    family: Louppe
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 49-61
+  id: geurts11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 49
+  lastpage: 61
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Winning The Transfer Learning Track of Yahoo!’s Learning To Rank Challenge with YetiRank'
+  abstract: 'The problem of ranking the documents according to their relevance to a given query is a hot topic in information retrieval. Most learning-to-rank methods are supervised and use human editor judgements for learning. In this paper, we introduce novel pairwise method called YetiRank that modifies Friedman’s gradient boosting method in part of gradient computation for optimization and takes uncertainty in human judgements into account. Proposed enhancements allowed YetiRank to outperform many state-of-the-art learning to rank methods in offline experiments as well as take the first place in the second track of the Yahoo! learning-to-rank contest. Even more remarkably, the first result in the learning to rank competition that consisted of a transfer learning task was achieved without ever relying on the bigger data from the “transfer-from” domain.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/gulin11a.html
+  PDF: http://proceedings.mlr.press/v14/gulin11a/gulin11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-gulin11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrey
+    family: Gulin
+  - given: Igor
+    family: Kuralenok
+  - given: Dimitry
+    family: Pavlov
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 63-76
+  id: gulin11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 63
+  lastpage: 76
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Web-Search Ranking with Initialized Gradient Boosted Regression Trees'
+  abstract: 'In May 2010 Yahoo! Inc. hosted the Learning to Rank Challenge. This paper summarizes the approach by the highly placed team Washington University in St. Louis. We investigate Random Forests (RF) as a low-cost alternative algorithm to Gradient Boosted Regression Trees (GBRT) (the de facto standard of web-search ranking). We demonstrate that it yields surprisingly accurate ranking results – comparable to or better than GBRT. We combine the two algorithms by first learning a ranking function with RF and using it as initialization for GBRT. We refer to this setting as iGBRT. Following a recent discussion byÂ ?, we show that the results of iGBRT can be improved upon even further when the web-search ranking task is cast as classification instead of regression. We provide an upper bound of the Expected Reciprocal RankÂ (?) in terms of classification error and demonstrate that iGBRT outperforms GBRT and RF on the Microsoft Learning to Rank and Yahoo Ranking Competition data sets with surprising consistency.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/mohan11a.html
+  PDF: http://proceedings.mlr.press/v14/mohan11a/mohan11a.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-mohan11a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Ananth
+    family: Mohan
+  - given: Zheng
+    family: Chen
+  - given: Kilian
+    family: Weinberger
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 77-89
+  id: mohan11a
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 77
+  lastpage: 89
+  published: 2011-01-26 00:00:00 +0000
+- title: 'Future directions in learning to rank'
+  abstract: 'The results of the learning to rank challenge showed that the quality of the predictions from the top competitors are very close from each other. This raises a question: is learning to rank a solved problem? On the on hand, it is likely that only small incremental progress can be made in the “core” and traditional problematics of learning to rank. The challenge was set in this standard learning to rank scenario: optimize a ranking measure on a test set. But on the other hand, there are a lot of related questions and settings in learning to rank that have not been yet fully explored. We review some of them in this paper and hope that researchers interested in learning to rank will try to answer these challenging and exciting research questions.'
+  volume: 14
+  URL: https://proceedings.mlr.press/v14/chapelle11b.html
+  PDF: http://proceedings.mlr.press/v14/chapelle11b/chapelle11b.pdf
+  edit: https://github.com/mlresearch//v14/edit/gh-pages/_posts/2011-01-26-chapelle11b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Learning to Rank Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  editor: 
+  - given: Olivier
+    family: Chapelle
+  - given: Yi
+    family: Chang
+  - given: Tie-Yan
+    family: Liu
+  address: Haifa, Israel
+  page: 91-100
+  id: chapelle11b
+  issued:
+    date-parts: 
+      - 2011
+      - 1
+      - 26
+  firstpage: 91
+  lastpage: 100
+  published: 2011-01-26 00:00:00 +0000

@@ -1,0 +1,540 @@
+
+- title: 'Preface'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/bekkers22a.html
+  PDF: https://proceedings.mlr.press/v194/bekkers22a/bekkers22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-bekkers22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica I.
+    family: Aviles-Rivero
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 1-2
+  id: bekkers22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 1
+  lastpage: 2
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Reconstructing 3D Cardiac Anatomies from Misaligned Multi-View Magnetic Resonance Images with Mesh Deformation U-Nets'
+  abstract: 'High-quality three-dimensional (3D) representations of cardiac anatomy and function are crucial for improving cardiac disease diagnosis beyond strictly volume-based biomarkers used in current clinical practice, as well as for the accurate simulation of cardiac electrophysiology and mechanics. However, current gold standard cardiac magnetic resonance imaging (MRI) protocols typically only acquire a set of 2D slices to approximate the true 3D morphology of the underlying heart. In this work, we propose a novel geometric deep learning method, the \emph{Mesh Deformation U-Net}, to reconstruct 3D cardiac surface meshes from 2D MRI slices as the key part of a fully automatic end-to-end pipeline. Its architecture combines spectral graph convolutions and mesh sampling operations in a hierarchical encoder-decoder structure to enable efficient multi-scale feature learning directly on mesh data. A targeted preprocessing step approximately fits a template mesh to the sparse MRI contours, before the Mesh Deformation U-Net corrects for motion-induced slice misalignment by simultaneously utilising information from multiple MRI views and the template-induced anatomical shape prior. We evaluate the Mesh Deformation U-Net on a large synthetic dataset of heart anatomies and outperform multiple benchmark approaches while achieving small reconstruction errors below the pixel size of the underlying image resolution for three different cardiac substructures. Furthermore, we apply the pre-trained Mesh Deformation U-Net as the key component of a 4-step reconstruction pipeline to cine magnetic resonance images of the UK Biobank and observe realistic heart reconstructions on both a local and global level. We calculate multiple widely used clinical metrics for the reconstructed meshes and obtain values in line with other large-scale population studies.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/beetz22a.html
+  PDF: https://proceedings.mlr.press/v194/beetz22a/beetz22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-beetz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Marcel
+    family: Beetz
+  - given: Abhirup
+    family: Banerjee
+  - given: Vicente
+    family: Grau
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 3-14
+  id: beetz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 3
+  lastpage: 14
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Graph Neural Networks Ameliorate Potential Impacts of Imprecise Large-Scale Autonomous Immunofluorescence Labeling of Immune Cells on Whole Slide Images'
+  abstract: 'The characteristics of tumor-infiltrating lymphocytes (TILs) are essential for cancer prognostication and treatment through the ability to indicate the tumor’s capacity to evade the immune system (e.g., as evidenced by nodal involvement). In general, presence of TILs indicates a favorable prognosis. Machine learning technologies have demonstrated remarkable success for localizing TILs, though these methods require extensive curation of manual annotations or restaining procedures that can degrade tissue quality, resulting in imprecise annotation. In this study, we co-registered tissue slides stained for both hematoxylin and eosin (H&E) and immunofluorescence (IF) as means to rapidly perform large-scale annotation of nuclei. We integrated the following approaches to improve the prediction of   TILs: 1) minimized tissue degradation on same-section tissue restaining, 2) developed a scoring algorithm to improve the selection of patches for machine learning modeling and 3) utilized a graph neural network deep learning approach to identify relevant contextual features for lymphocyte prediction. Our graph neural network approach accounts for surrounding contextual micro/macro-architecture tissue features to facilitate interpretation of registered IF. The graph neural network compares favorably (F1-score=0.9235, AUROC=0.9462) to two alternative modeling approaches. This study brings insight to the importance of contextual information leveraged from within and around neighboring cells in a nuclei classification workflow, as well as elucidate approaches which enable the rapid generation of large-scale annotations of lymphocytes for machine learning approaches for immune phenotyping. Such approaches can help further interrogate the spatial biology of colorectal cancer tumors and tumor metastasis. '
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/reddy22a.html
+  PDF: https://proceedings.mlr.press/v194/reddy22a/reddy22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-reddy22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Ramya
+    family: Reddy
+  - given: Ram
+    family: Reddy
+  - given: Cyril
+    family: Sharma
+  - given: Christopher
+    family: Jackson
+  - given: Scott
+    family: Palisoul
+  - given: Rachael
+    family: Barney
+  - given: Fred
+    family: Kolling
+  - given: Lucas
+    family: Salas
+  - given: Brock
+    family: Christensen
+  - given: Gabriel
+    family: Brooks
+  - given: Gregory
+    family: Tsongalis
+  - given: Louis
+    family: Vaickus
+  - given: Joshua
+    family: Levy
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 15-33
+  id: reddy22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 15
+  lastpage: 33
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Automated intracranial vessel labeling with learning boosted by vessel connectivity, radii and spatial context'
+  abstract: 'Cerebrovascular diseases are among the world’s top causes of death and their screening and diagnosis rely on angiographic imaging. We focused on automated anatomical labeling of cerebral arteries that enables their cross-sectional quantification and inter-subject comparisons and thereby identification of geometric risk factors correlated to the cerebrovascular diseases. We used 152 cerebral TOF-MRA angiograms from three publicly available datasets and manually created reference labeling using Slicer3D. We extracted centerlines from nnU-net based segmentations using VesselVio and labeled them according to the reference labeling. Vessel centerline coordinates, in combination with additional vessel connectivity, radius and spatial context features were used for training seven distinct PointNet++ models. Model trained solely on the vessel centerline coordinates resulted in ACC of 0.93 and across-labels average TPR was 0.88. Including vessel radius significantly improved ACC to 0.95, and average TPR to 0.91. Finally, focusing spatial context to the Circle of Willis are resulted in best ACC of 0.96 and best average TPR of 0.93. Hence, using vessel radius and spatial context greatly improved vessel labeling, with the attained perfomance opening the avenue for clinical applications of intracranial vessel labeling. '
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/sobisch22a.html
+  PDF: https://proceedings.mlr.press/v194/sobisch22a/sobisch22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-sobisch22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Jannik
+    family: Sobisch
+  - given: Žiga
+    family: Bizjak
+  - given: Aichi
+    family: Chien
+  - given: Žiga
+    family: Špiclin
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 34-44
+  id: sobisch22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 34
+  lastpage: 44
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Structured Knowledge Graphs for Classifying Unseen Patterns in Radiographs'
+  abstract: 'The presence of annotated datasets is crucial to the performance of modern machine learning algorithms. However, obtaining richly annotated datasets is not always possible, especially for novel or rare diseases. This becomes especially challenging in the realm of multi-label classification of chest radiographs, due to the presence of numerous unknown disease types and the limited information inherent to x-ray images. Ideally, we would like to develop models that can reliably label such unseen patterns (classes). In this work, we present a knowledge graph-based approach to predict such novel, unseen classes. Our method directly injects the semantic relationships between seen and unseen disease classes. Specifically, we propose a principled approach to parsing and processing a knowledge graph conditioned on the given task. We show that our method matches the labeling performance of the state-of-the-art while outperforming it on unseen classes by a  substantial \textbf{2}% gain on chest X-ray classification. Crucially, we demonstrate that embedding disease-specific knowledge as a graph provides inherent explainability. (The code is available at \url{https://github.com/chinmay5/ml-cxr-gzsl-kg})'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/prabhakar22a.html
+  PDF: https://proceedings.mlr.press/v194/prabhakar22a/prabhakar22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-prabhakar22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Chinmay
+    family: Prabhakar
+  - given: Anjany
+    family: Sekuboyina
+  - given: Hongwei Bran
+    family: Li
+  - given: Johannes C.
+    family: Paetzold
+  - given: Suprosanna
+    family: Shit
+  - given: Tamaz
+    family: Amiranashvili
+  - given: Jens
+    family: Kleesiek
+  - given: Bjoern
+    family: Menze
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 45-60
+  id: prabhakar22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 45
+  lastpage: 60
+  published: 2022-11-29 00:00:00 +0000
+- title: 'XEdgeConv: Leveraging graph convolutions for efficient, permutation- and rotation-invariant dense 3D medical image segmentation'
+  abstract: 'Deep learning-based 3D anatomical segmentation models that employ convolution kernels have become ubiquitous in medical imaging. Currently, there exist trade-offs between model capacity, the complexity of inference and accuracy. To cope with geometric invariances, reflections (axes flips) of input data in training and test-time augmentations are often used, but cause redundancies in computations. Group equivariance is one solution to enforce invariance w.r.t. rotation and reflection, but it comes at the cost of complicated inference. To address those issues, we first explore a simple yet effective method that directly learns symmetric kernels. To further boost performance and achieve full rotational and reflection equivariance, we propose a novel concept that extends the idea of EdgeConvs, that have so far been used in geometric point cloud learning, from graphs into voxelised grids and integrate this into the state-of-the-art framework for medical 3D segmentation, the nnUNet. Our XEdgeConv kernel reduces the parameter count by 93% and computational operations 20-fold while maintaining very high segmentation accuracies on two challenging 3D multi-organ segmentation tasks and it clearly outperforms alternative parameter reduction strategies. \url{https://github.com/multimodallearning/XEdgeConv}'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/weihsbach22a.html
+  PDF: https://proceedings.mlr.press/v194/weihsbach22a/weihsbach22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-weihsbach22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Christian
+    family: Weihsbach
+  - given: Lasse
+    family: Hansen
+  - given: Mattias
+    family: Heinrich
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 61-71
+  id: weihsbach22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 61
+  lastpage: 71
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Eigenvector Grouping for Point Cloud Vessel Labeling'
+  abstract: 'Segmentation of coronary arteries from Coronary Computed Tomography Angiography (CCTA) is an essential step in developing various noninvasive diagnostic methods. In this work, we tackle the task of vessel labeling on coronary artery voxel-based prediction by use of point cloud artificial neural network. We propose a novel point aggregation technique Eigenvector Grouping (EVG), tailored to the analysis of tubular-like structures.  We further utilize a specifically designed post-processing technique Component-Wise Majority Point Voting (CMPV), to refine point cloud segmentation by enforcing class consistency among connected components. We show that our solution outperforms previously proposed methods in the vessel labeling task on a CCTA dataset especially, in the presence of disrupted segmentations.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/rygiel22a.html
+  PDF: https://proceedings.mlr.press/v194/rygiel22a/rygiel22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-rygiel22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Patryk
+    family: Rygiel
+  - given: Maciej
+    family: Zieba
+  - given: Tomasz
+    family: Konopczynski
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 72-84
+  id: rygiel22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 72
+  lastpage: 84
+  published: 2022-11-29 00:00:00 +0000
+- title: 'A Soft-Correspondence Approach to Shape-based Disease Grading with Graph Convolutional Networks'
+  abstract: 'Shape analysis provides principled means for understanding anatomical structures from medical images. The underlying notions of shape spaces, however, come with strict assumptions prohibiting the analysis of incomplete and/or topologically varying shapes. This work aims to alleviate these limitations by adapting the concept of \textit{soft correspondences}. In particular, we present a graph-based learning approach for morphometric classification of disease states that is based on a generalized notion of shape correspondences in terms of functional maps. We demonstrate the performance of the derived classifier on the open-access ADNI database for differentiating normal controls and subjects with Alzheimer’s disease. Notably, our experiment shows that our approach can improve over state-of-the-art from geometric deep learning. '
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/mayer22a.html
+  PDF: https://proceedings.mlr.press/v194/mayer22a/mayer22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-mayer22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Julius
+    family: Mayer
+  - given: Daniel
+    family: Baum
+  - given: Felix
+    family: Ambellan
+  - given: Christoph von
+    prefix: von
+    family: Tycowicz
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 85-95
+  id: mayer22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 85
+  lastpage: 95
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Group Convolutional Neural Networks for DWI Segmentation'
+  abstract: 'We present a Group Convolutional Network for Segmentation of Diffusion Weighted Imaging data (DWI). The network incorporates group actions that are natural for this type of data, in the form of $SE(3)$ equivariant convolutions, i.e., roto-translation equivariant convolutions. The equivariance property provides an important inductive bias and may alleviate the need for data augmentation strategies. Instead of performing group equivariant convolutions via spectral (Fourier-based) approaches, as is common for $SE(3)$ equivariance, we implement direct and light-weight regular group convolutions. We study the effect of equivariance and weight sharing over $SE(3)$ on performances of the networks on DWI scans from the Human Connectome project. We show how that full $SE(3)$ equivariance improves segmentations, while limiting the number of learnable parameters.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/liu22a.html
+  PDF: https://proceedings.mlr.press/v194/liu22a/liu22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-liu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Renfei
+    family: Liu
+  - given: François
+    family: Lauze
+  - given: Erik
+    family: Bekkers
+  - given: Kenny
+    family: Erleben
+  - given: Sune
+    family: Darkner
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 96-106
+  id: liu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 96
+  lastpage: 106
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Self-supervised graph representations of WSIs'
+  abstract: 'In this manuscript we propose a framework for the analysis of whole slide images (WSI) on the cell entity space with self-supervised deep learning on graphs and explore its representation quality at different levels of application. It consists of a two step process in which the cell level analysis is performed locally, by clusters of nearby cells that can be seen as small regions of the image, in order to learn representations that capture the cell environment and distribution. In a second stage, a WSI graph is generated with these regions as nodes and the representations learned as initial node embeddings. The graph is leveraged for a downstream task, region of interest (ROI) detection addressed as a graph clustering. The representations outperform the evaluation baselines at both levels of application, which has been carried out predicting whether a cell, or region, is tumor or not based on its learned representations with a logistic regressor.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/pina22a.html
+  PDF: https://proceedings.mlr.press/v194/pina22a/pina22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-pina22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Oscar
+    family: Pina
+  - given: Verónica
+    family: Vilaplana
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 107-117
+  id: pina22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 107
+  lastpage: 117
+  published: 2022-11-29 00:00:00 +0000
+- title: 'GeoMorph: Geometric Deep Learning for Cortical Surface Registration'
+  abstract: 'We present GeoMorph, a geometric deep learning image registration framework that takes two cortical surfaces on the spherical space and learns a smooth displacement field that aligns the features on the moving surface to those on the target. GeoMorph starts with feature extraction: independently extracting low-dimensional feature representations for each input surface using graph convolutions. These learned features are then registered in a deep-discrete manner by learning the optimal displacement for a set of control points that optimizes the overlap between features across the two surfaces. To ensure a smooth deformation, we propose a regularization network that considers the input sphere structure based on a deep conditional random field (CRF), implemented using a recurrent neural network (RNN). Results show that GeoMorph improves over existing deep learning methods by improving alignment whilst generating smoother and more biologically plausible deformations. Performance is competitive with classical frameworks, generalizing well even for subjects with atypical folding patterns.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/suliman22a.html
+  PDF: https://proceedings.mlr.press/v194/suliman22a/suliman22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-suliman22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Mohamed A.
+    family: Suliman
+  - given: Logan Z. J.
+    family: Williams
+  - given: Abdullah
+    family: Fawaz
+  - given: Emma. C
+    family: Robinson
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 118-129
+  id: suliman22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 118
+  lastpage: 129
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Scale-Equivariant UNet for Histopathology Image Segmentation'
+  abstract: 'Digital histopathology slides are scanned and viewed under different magnifications and stored as images at different resolutions. Convolutional Neural Networks (CNNs) trained on such images at a given scale fail to generalise to those at different scales.  This inability is often addressed by augmenting training data with re-scaled images, allowing a model with sufficient capacity to learn the requisite patterns. Alternatively, designing CNN filters to be scale-equivariant frees up model capacity to learn discriminative features. In this paper, we propose the Scale-Equivariant UNet (SEUNet) for image segmentation by building on scale-space theory. The SEUNet contains groups of filters that are linear combinations of Gaussian basis filters, whose scale parameters are trainable but constrained to span disjoint scales through the layers of the network. Extensive experiments on a nuclei segmentation dataset and a tissue type segmentation dataset demonstrate that our method outperforms other approaches, with much fewer trainable parameters.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/yang22a.html
+  PDF: https://proceedings.mlr.press/v194/yang22a/yang22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-yang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Yilong
+    family: Yang
+  - given: Srinandan
+    family: Dasmahapatra
+  - given: Sasan
+    family: Mahmoodi
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 130-148
+  id: yang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 130
+  lastpage: 148
+  published: 2022-11-29 00:00:00 +0000
+- title: 'Detecting Large Vessel Occlusions using Graph Deep Learning'
+  abstract: 'Large vessel occlusions (LVO) typically lead to severe ischemia of brain parenchyma. Identifying such LVOs is thus a crucial objective in stroke diagnosis. As shortening the time to treatment is essential for a good outcome, fast automated detection can be a valuable tool in clinical routine. This can be achieved using deep learning approaches. In a CTA scan, an LVO can be detected as an unexpected interruption in the contrast-enhanced vessel tree. These cerebrovascular trees can be represented as graphs and analyzed using graph deep learning (GDL) methods. Representing the vasculature as a graph instead of a (very sparsely populated) Euclidean volume massively reduces the model input dimensionality, which promotes time and memory efficiency. In this study, we investigate the use of graph deep learning methods for classifying the presence of a large vessel occlusion compared to state-of-the-art image-based methods. Furthermore, the influence of vascular attributes and different graph topologies is investigated. The proposed model achieves performance comparable to the baseline with an accuracy of $0.95$ and an AUC of $0.89$. Compared to the image-based approach, the graph-based approach is ten times faster and requires 80% less memory.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/kassam22a.html
+  PDF: https://proceedings.mlr.press/v194/kassam22a/kassam22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-kassam22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Jad
+    family: Kassam
+  - given: Florian
+    family: Thamm
+  - given: Leonhard
+    family: Rist
+  - given: Oliver
+    family: Taubmann
+  - given: Andreas
+    family: Maier
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 149-159
+  id: kassam22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 149
+  lastpage: 159
+  published: 2022-11-29 00:00:00 +0000
+- title: 'A Comparative Study of Graph Neural Networks for Shape Classification in Neuroimaging'
+  abstract: 'Graph neural networks have emerged as a promising approach for the analysis of non-Euclidean data such as meshes. In medical imaging, mesh-like data plays an important role for modelling anatomical structures, and shape classification can be used in computer aided diagnosis and disease detection. However, with a plethora of options, the best architectural choices for medical shape analysis using GNNs remain unclear.\newline We conduct a comparative analysis to provide practitioners with an overview of the current state-of-the-art in geometric deep learning for shape classification in neuroimaging. Using biological sex classification as a proof-of-concept task, we find that using FPFH as node features substantially improves GNN performance and generalisation to out-of-distribution data; we compare the performance of three alternative convolutional layers; and we reinforce the importance of data augmentation for graph based learning. We then confirm these results hold for a clinically relevant task, using the classification of Alzheimer’s disease.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/shehata22a.html
+  PDF: https://proceedings.mlr.press/v194/shehata22a/shehata22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-shehata22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Nairouz
+    family: Shehata
+  - given: Wulfie
+    family: Bain
+  - given: Ben
+    family: Glocker
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 160-171
+  id: shehata22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 160
+  lastpage: 171
+  published: 2022-11-29 00:00:00 +0000
+- title: 'StreamNet: A WAE for White Matter Streamline Analysis'
+  abstract: 'We present StreamNet, an autoencoder architecture for the analysis of the highly heterogeneous geometry of large collections of white matter streamlines. This proposed framework takes advantage of geometry-preserving properties of the Wasserstein-1 metric in order to achieve direct encoding and reconstruction of entire bundles of streamlines. We show that the model not only accurately captures the distributive structures of streamlines in the population, but  is also able to achieve superior reconstruction performance between real and synthetic streamlines. Experimental  model performance is evaluated  on white matter streamlines resulting from $T1$-weighted diffusion imaging of $40$ healthy controls using recent state of the art bundle comparison metric that measures fiber-shape  similarities.'
+  volume: 194
+  URL: https://proceedings.mlr.press/v194/lizarraga22a.html
+  PDF: https://proceedings.mlr.press/v194/lizarraga22a/lizarraga22a.pdf
+  edit: https://github.com/mlresearch//v194/edit/gh-pages/_posts/2022-11-29-lizarraga22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First International Workshop on Geometric Deep Learning in Medical Image Analysis'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrew
+    family: Lizarraga
+  - given: Katherine L.
+    family: Narr
+  - given: Kirsten A.
+    family: Donals
+  - given: Shantanu H.
+    family: Joshi
+  editor: 
+  - given: Erik
+    family: Bekkers
+  - given: Jelmer M.
+    family: Wolterink
+  - given: Angelica
+    family: Aviles-Rivero
+  page: 172-182
+  id: lizarraga22a
+  issued:
+    date-parts: 
+      - 2022
+      - 11
+      - 29
+  firstpage: 172
+  lastpage: 182
+  published: 2022-11-29 00:00:00 +0000

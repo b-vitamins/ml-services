@@ -1,0 +1,168 @@
+
+- title: 'Learning via Social Awareness: Improving a Deep Generative Sketching Model with Facial Feedback'
+  abstract: 'A known deﬁcit of modern machine learning (ML) and deep learning (DL) methodology is that models must be carefully ﬁne-tuned in order to solve a particular task. Most algorithms cannot generalize well to even highly similar tasks, let alone exhibit signs of artiﬁcial general intelligence (AGI). To address this problem, researchers have explored developing loss functions that act as intrinsic motivators that could drive an ML or DL agent to learn across a number of domains. This paper argues that an important and useful intrinsic motivator is that of social interaction. We posit that making an AI agent aware of implicit social feedback from humans can allow for faster learning of more generalizable and useful representations, and could potentially impact AI safety. We collect social feedback in the form of facial expression reactions to samples from Sketch RNN, an LSTM-based variational autoencoder (VAE) designed to produce sketch drawings. We use a Latent Constraints GAN (LC-GAN) to learn from the facial feedback of a small group of viewers, by optimizing the model to produce sketches that it predicts will lead to more positive facial expressions. We show in multiple independent evaluations that the model trained with facial feedback produced sketches that are more highly rated, and induce signiﬁcantly more positive facial expressions. Thus, we establish that implicit social feedback can improve the output of a deep learning model.'
+  volume: 86
+  URL: http://proceedings.mlr.press/v86/jaques20a.html
+  PDF: http://proceedings.mlr.press/v86/jaques20a/jaques20a.pdf
+  edit: https://github.com/mlresearch//v86/edit/gh-pages/_posts/2020-04-27-jaques20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2018 2nd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Natasha
+    family: Jaques
+  - given: Jennifer
+    family: McCleary
+  - given: Jesse
+    family: Engel
+  - given: David
+    family: Ha
+  - given: Fred
+    family: Bertsch
+  - given: Douglas
+    family: Eck
+  - given: Rosalind
+    family: Picard
+  editor: 
+  - given: William
+    family: Hsu
+  - given: Heath
+    family: Yates
+  page: 1-9
+  id: jaques20a
+  issued:
+    date-parts: 
+      - 2020
+      - 4
+      - 27
+  firstpage: 1
+  lastpage: 9
+  published: 2020-04-27 00:00:00 +0000
+- title: 'Facial Expression and Peripheral Physiology Fusion to Decode Individualized Affective Experience'
+  abstract: 'Affective experience prediction using different data modalities measured from an individual such as their facial expression or physiological signals has received substantial research attention in recent years. However, most studies ignore the fact that people besides having different responses under affective stimuli, may also have different resting dynamics (embedded in both facial and physiological patterns) to begin with. In this paper, we present a multimodal approach to simultaneously analyze facial movements and several peripheral physiological signals to decode individualized affective experiences under positive and negative emotional contexts, while considering their personalized resting dynamics. We propose a person-speciﬁc recurrence network to quantify the dynamics present in the person’s facial movements and physiological data. Facial movement is represented using a robust head vs. 3D face landmark localization and tracking approach, and physiological data are processed by extracting known attributes related to the underlying affective experience. The dynamical coupling between different input modalities is then assessed through the extraction of several complex recurrent network metrics. Inference models are then trained using these metrics as features to predict individual’s affective experience in a given context, after their resting dynamics are excluded from their response. We validated our approach using a multimodal dataset consists of (i) facial videos and (ii) several peripheral physiological signals, synchronously recorded from 12 participants while watching 4 emotion-eliciting video-based stimuli. The affective experience prediction results signiﬁed that our multimodal fusion method improves the prediction accuracy up to 19% when compared to the prediction using only one or a subset of the input modalities. Furthermore, we gained prediction improvement for affective experience by considering the effect of individualized resting dynamics.'
+  volume: 86
+  URL: http://proceedings.mlr.press/v86/yin20a.html
+  PDF: http://proceedings.mlr.press/v86/yin20a/yin20a.pdf
+  edit: https://github.com/mlresearch//v86/edit/gh-pages/_posts/2020-04-27-yin20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2018 2nd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Yu
+    family: Yin
+  - given: Mohsen
+    family: Nabian
+  - given: Sarah
+    family: Ostadabbas
+  editor: 
+  - given: William
+    family: Hsu
+  - given: Heath
+    family: Yates
+  page: 10-26
+  id: yin20a
+  issued:
+    date-parts: 
+      - 2020
+      - 4
+      - 27
+  firstpage: 10
+  lastpage: 26
+  published: 2020-04-27 00:00:00 +0000
+- title: 'A Study on Affect Model Validity: Nominal vs Ordinal Labels'
+  abstract: 'The question of representing emotion computationally remains largely unanswered: popular approaches require annotators to assign a magnitude (or a class) of some emotional dimension, while an alternative is to focus on the relationship between two or more options. Recent evidence in aﬀective computing suggests that following a methodology of ordinal annotations and processing leads to better reliability and validity of the model. This paper compares the generality of classiﬁcation methods versus preference learning methods in predicting the levels of arousal in two widely used aﬀective datasets. Findings of this initial study further validate the hypothesis that approaching aﬀect labels as ordinal data and building models via preference learning yields models of better validity.'
+  volume: 86
+  URL: http://proceedings.mlr.press/v86/melhart20a.html
+  PDF: http://proceedings.mlr.press/v86/melhart20a/melhart20a.pdf
+  edit: https://github.com/mlresearch//v86/edit/gh-pages/_posts/2020-04-27-melhart20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2018 2nd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Melhart
+  - given: Konstantinos
+    family: Sfikas
+  - given: Giorgos
+    family: Giannakakis
+  - given: Georgios Yannakakis Antonios
+    family: Liapis
+  editor: 
+  - given: William
+    family: Hsu
+  - given: Heath
+    family: Yates
+  page: 27-34
+  id: melhart20a
+  issued:
+    date-parts: 
+      - 2020
+      - 4
+      - 27
+  firstpage: 27
+  lastpage: 34
+  published: 2020-04-27 00:00:00 +0000
+- title: 'Binary Classification of Arousal in Built Environments using Machine Learning'
+  abstract: 'The goal of this paper is to develop a methodology and model to classify and characterize the arousal state of participants in a built environment. Demonstrating this showcases the potential of developing an intelligent system capable of both classifying and predicting biometric arousal state. This classiﬁcation process is traditionally performed by human experts. Our approach can be leveraged to take advantage of the diversity of real-time sensor data to inform the development of smart(er) environments to improve human health.'
+  volume: 86
+  URL: http://proceedings.mlr.press/v86/yates20a.html
+  PDF: http://proceedings.mlr.press/v86/yates20a/yates20a.pdf
+  edit: https://github.com/mlresearch//v86/edit/gh-pages/_posts/2020-04-27-yates20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2018 2nd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Heath
+    family: Yates
+  - given: Brent
+    family: Chamberlain
+  - given: William
+    family: Hsu
+  editor: 
+  - given: William
+    family: Hsu
+  - given: Heath
+    family: Yates
+  page: 35-51
+  id: yates20a
+  issued:
+    date-parts: 
+      - 2020
+      - 4
+      - 27
+  firstpage: 35
+  lastpage: 51
+  published: 2020-04-27 00:00:00 +0000
+- title: 'Deep Ensembles for Inter-Domain Arousal Recognition'
+  abstract: 'The computer science field Affective Computing, which studies and develops emotional intelligent systems, has been active for almost two decades now with limited results. Arousal as the dimension that represents the intensity of the emotions, represents similar recognition problems. This is the ﬁrst study that analyzes six publicly available datasets for arousal recognition from physiological signals and proposes a method capable of combining them. The novel method, an inter-domain Deep Neural Network (DNN) ensemble, is compared to classical machine learning (ML). For both methods, the raw data from Galvanic Skin Response (GSR), Electrocardiography ECG, and Blood Volume Pulse (BVP) sensors is processed and transformed into a common spectro-temporal space of R-R intervals and GSR data. For the classical ML algorithms, features are extracted, and for the DNN algorithms, two diﬀerent approaches were taken: a fully connected DNN trained with the same features as the classical ML algorithms (DNN-Features) and a Convolutional Neural Network (CNN) trained with the temporal representation of the GSR signal (CNN-GSR). Finally, a fully connected DNN meta learner is trained to utilize the knowledge from the two different DNNs and to tune the DNN models for the target dataset. The experimental results showed that the novel DNN ensemble method outperforms the classical ML methods and the non-ensemble DNN methods. Additionally, the CNN-GSR model learned that the peaks of the GSR signal contain the most information regarding the arousal, thus the network developed filters to emphasize those parts.'
+  volume: 86
+  URL: http://proceedings.mlr.press/v86/gjoreski20a.html
+  PDF: http://proceedings.mlr.press/v86/gjoreski20a/gjoreski20a.pdf
+  edit: https://github.com/mlresearch//v86/edit/gh-pages/_posts/2020-04-27-gjoreski20a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of IJCAI 2018 2nd Workshop on Artificial Intelligence in Affective Computing'
+  publisher: 'PMLR'
+  author: 
+  - given: Martin
+    family: Gjoreski
+  - given: Hristijian
+    family: Gjoreski
+  - given: Mitja
+    family: Lustrek
+  - given: Matjaz
+    family: Gams
+  editor: 
+  - given: William
+    family: Hsu
+  - given: Heath
+    family: Yates
+  page: 52-64
+  id: gjoreski20a
+  issued:
+    date-parts: 
+      - 2020
+      - 4
+      - 27
+  firstpage: 52
+  lastpage: 64
+  published: 2020-04-27 00:00:00 +0000

@@ -1,0 +1,191 @@
+
+- title: 'Algorithmic Fairness through the Lens of Causality and Robustness (AFCR) 2021'
+  volume: 171
+  URL: https://proceedings.mlr.press/v171/schrouff22a.html
+  PDF: https://proceedings.mlr.press/v171/schrouff22a/schrouff22a.pdf
+  edit: https://github.com/mlresearch//v171/edit/gh-pages/_posts/2022-03-01-schrouff22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The Algorithmic Fairness through the Lens of Causality and Robustness'
+  publisher: 'PMLR'
+  author: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  editor: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  page: 1-5
+  id: schrouff22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 1
+  firstpage: 1
+  lastpage: 5
+  published: 2022-03-01 00:00:00 +0000
+- title: 'Detecting Bias in the Presence of Spatial Autocorrelation'
+  abstract: 'In spite of considerable practical importance, current algorithmic fairness literature lacks technical methods to account for underlying geographic dependency while evaluating or mitigating bias issues for spatial data. We initiate the study of bias in spatial applications in this paper, taking the first step towards formalizing this line of quantitative methods. Bias in spatial data applications often gets confounded by underlying spatial autocorrelation. We propose hypothesis testing methodology to detect the presence and strength of this effect, then account for it by using a spatial filtering-based approach—in order to enable application of existing bias detection metrics. We evaluate our proposed methodology through numerical experiments on real and synthetic datasets, demonstrating that in the presence of several types of confounding effects due to the underlying spatial structure our testing methods perform well in maintaining low type-II errors and nominal type-I errors.'
+  volume: 171
+  URL: https://proceedings.mlr.press/v171/majumdar22a.html
+  PDF: https://proceedings.mlr.press/v171/majumdar22a/majumdar22a.pdf
+  edit: https://github.com/mlresearch//v171/edit/gh-pages/_posts/2022-03-01-majumdar22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The Algorithmic Fairness through the Lens of Causality and Robustness'
+  publisher: 'PMLR'
+  author: 
+  - given: Subhabrata
+    family: Majumdar
+  - given: Cheryl
+    family: Flynn
+  - given: Ritwik
+    family: Mitra
+  editor: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  page: 6-18
+  id: majumdar22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 1
+  firstpage: 6
+  lastpage: 18
+  published: 2022-03-01 00:00:00 +0000
+- title: 'Fair Clustering Using Antidote Data'
+  abstract: 'Clustering algorithms are widely utilized for many modern data science applications. This motivates the need to make outputs of clustering algorithms fair. Traditionally, new fair algorithmic variants to clustering algorithms are developed for specific notions of fairness. However, depending on the application context, different definitions of fairness might need to be employed. As a result, new algorithms and analysis need to be proposed for each combination of clustering algorithm and fairness definition. Additionally, each new algorithm would need to be reimplemented for deployment in a real-world system. Hence, we propose an alternate approach to group-level fairness in center-based clustering inspired by research on data poisoning attacks. We seek to augment the original dataset with a small number of data points, called antidote data. When clustering is undertaken on this new dataset, the output is fair, for the chosen clustering algorithm and fairness definition. We formulate this as a general bi-level optimization problem which can accommodate any center-based clustering algorithms and fairness notions. We then categorize approaches for solving this bi-level optimization for two different problem settings. Extensive experiments on different clustering algorithms and fairness notions show that our algorithms can achieve desired levels of fairness on many real-world datasets with a very small percentage of antidote data added. We also find that our algorithms achieve lower fairness costs and competitive clustering performance compared to other state-of-the-art fair clustering algorithms.'
+  volume: 171
+  URL: https://proceedings.mlr.press/v171/chhabra22a.html
+  PDF: https://proceedings.mlr.press/v171/chhabra22a/chhabra22a.pdf
+  edit: https://github.com/mlresearch//v171/edit/gh-pages/_posts/2022-03-01-chhabra22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The Algorithmic Fairness through the Lens of Causality and Robustness'
+  publisher: 'PMLR'
+  author: 
+  - given: Anshuman
+    family: Chhabra
+  - given: Adish
+    family: Singla
+  - given: Prasant
+    family: Mohapatra
+  editor: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  page: 19-39
+  id: chhabra22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 1
+  firstpage: 19
+  lastpage: 39
+  published: 2022-03-01 00:00:00 +0000
+- title: 'Fair SA: Sensitivity Analysis for Fairness in Face Recognition'
+  abstract: 'As the use of deep learning in high impact domains becomes ubiquitous, it is increasingly important to assess the resilience of models. One such high impact domain is that of face recognition, with real world applications involving images affected by various degradations, such as motion blur or high exposure. Moreover, images captured across different attributes, such as gender and race, can also challenge the robustness of a face recognition algorithm. While traditional summary statistics suggest that the aggregate performance of face recognition models has continued to improve, these metrics do not directly measure the robustness or fairness of the models. Visual Psychophysics Sensitivity Analysis (VPSA) (19) provides a way to pinpoint the individual causes of failure by way of introducing incremental perturbations in the data. However, perturbations may affect subgroups differently. In this paper, we propose a new fairness evaluation based on robustness in the form of a generic framework that extends VPSA. With this framework, we can analyze the ability of a model to perform fairly for different subgroups of a population affected by perturbations, and pinpoint the exact failure modes for a subgroup by measuring targeted robustness. With the increasing focus on the fairness of models, we use face recognition as an example application of our framework and propose to compactly visualize the fairness analysis of a model via AUC matrices. We analyze the performance of common face recognition models and empirically show that certain subgroups are at a disadvantage when images are perturbed, thereby uncovering trends that were not visible using the model’s performance on subgroups without perturbations.'
+  volume: 171
+  URL: https://proceedings.mlr.press/v171/joshi22a.html
+  PDF: https://proceedings.mlr.press/v171/joshi22a/joshi22a.pdf
+  edit: https://github.com/mlresearch//v171/edit/gh-pages/_posts/2022-03-01-joshi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The Algorithmic Fairness through the Lens of Causality and Robustness'
+  publisher: 'PMLR'
+  author: 
+  - given: Aparna R.
+    family: Joshi
+  - given: Xavier
+    family: Suau Cuadros
+  - given: Nivedha
+    family: Sivakumar
+  - given: Luca
+    family: Zappella
+  - given: Nicholas
+    family: Apostoloff
+  editor: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  page: 40-58
+  id: joshi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 1
+  firstpage: 40
+  lastpage: 58
+  published: 2022-03-01 00:00:00 +0000
+- title: 'On the Impossibility of Fairness-Aware Learning from Corrupted Data'
+  abstract: 'Addressing fairness concerns about machine learning models is a crucial step towards their long-term adoption in real-world automated systems. Many approaches for training fair models from data have been developed and an implicit assumption about such algorithms is that they are able to recover a fair model, despite potential historical biases in the data. In this work we show a number of impossibility results that indicate that there is no learning algorithm that can recover a fair model when a proportion of the dataset is subject to arbitrary manipulations. Specifically, we prove that there are situations in which an adversary can force any learner to return a biased classifier, with or without degrading accuracy, and that the strength of this bias increases for learning problems with underrepresented protected groups in the data. Our results emphasize on the importance of studying further data corruption models of various strength and of establishing stricter data collection practices for fairness-aware learning.'
+  volume: 171
+  URL: https://proceedings.mlr.press/v171/konstantinov22a.html
+  PDF: https://proceedings.mlr.press/v171/konstantinov22a/konstantinov22a.pdf
+  edit: https://github.com/mlresearch//v171/edit/gh-pages/_posts/2022-03-01-konstantinov22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The Algorithmic Fairness through the Lens of Causality and Robustness'
+  publisher: 'PMLR'
+  author: 
+  - given: Nikola
+    family: Konstantinov
+  - given: Christoph H.
+    family: Lampert
+  editor: 
+  - given: Jessica
+    family: Schrouff
+  - given: Awa
+    family: Dieng
+  - given: Miriam
+    family: Rateike
+  - given: Kweku
+    family: Kwegyir-Aggrey
+  - given: Golnoosh
+    family: Farnadi
+  page: 59-83
+  id: konstantinov22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 1
+  firstpage: 59
+  lastpage: 83
+  published: 2022-03-01 00:00:00 +0000

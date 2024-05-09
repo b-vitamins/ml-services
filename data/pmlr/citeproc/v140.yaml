@@ -1,0 +1,500 @@
+
+- title: 'Advances in MetaDL: AAAI 2021 Challenge and Workshop'
+  abstract: 'To stimulate advances in meta-learning using deep learning techniques (MetaDL), we organized in 2021 a challenge and an associated workshop. This paper presents the design of the challenge and its results, and summarizes presentations made at the workshop. The challenge focused on few-shot learning classification tasks of small images.  Participants’ code submissions were run in a uniform manner, under tight computational constraints. This put pressure on solution designs to use existing architecture backbones and/or pre-trained networks. Winning methods featured various classifiers trained on top of the second last layer of popular CNN backbones, fined-tuned on the meta-training data (not necessarily in an episodic manner), then trained on the labeled support and tested on the unlabeled query sets of the meta-test data.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/el-baz21a.html
+  PDF: http://proceedings.mlr.press/v140/el-baz21a/el-baz21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-el-baz21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Adrian
+    family: El Baz
+  - given: Isabelle
+    family: Guyon
+  - given: Zhengying
+    family: Liu
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sebastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 1-16
+  id: el-baz21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 1
+  lastpage: 16
+  published: 2021-08-18 00:00:00 +0000
+- title: 'MetaDelta: A Meta-Learning System for Few-shot Image Classification'
+  abstract: 'Meta-learning aims at learning quickly on novel tasks with limited data by transferring generic experience learned from previous tasks. Naturally, few-shot learning has been one of the most popular applications for meta-learning. However, existing meta-learning algorithms rarely consider the time and resource efficiency or the generalization capacity for unknown datasets, which limits their applicability in real-world scenarios. In this paper, we propose MetaDelta, a novel practical meta-learning system for the few-shot image classification. MetaDelta consists of two core components: i) multiple meta-learners supervised by a central controller to ensure efficiency, and ii) a meta-ensemble module in charge of integrated inference and better generalization. In particular, each meta-learner in MetaDelta is composed of a unique pre-trained encoder fine-tuned by batch training and parameter-free decoder used for prediction. MetaDelta ranks first in the final phase in the AAAI 2021 MetaDL Challenge. '
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/chen21a.html
+  PDF: http://proceedings.mlr.press/v140/chen21a/chen21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-chen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Yudong
+    family: Chen
+  - given: Chaoyu
+    family: Guan
+  - given: Zhikun
+    family: Wei
+  - given: Xin
+    family: Wang
+  - given: Wenwu
+    family: Zhu
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 17-28
+  id: chen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 17
+  lastpage: 28
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Transfer learning based few-shot classification using optimal transport mapping from preprocessed latent space of backbone neural network'
+  abstract: 'The MetaDL Challenge 2020 focused on image classification tasks in few-shot settings. This paper describes second best submission in the competition. Our meta learning approach modifies the distribution of classes in a latent space produced by a backbone network for each class in order to better follow the Gaussian distribution. After this operation which we call Latent Space Transform algorithm, centers of classes are further aligned in an iterative fashion of the Expectation Maximisation algorithm to utilize information in unlabeled data that are often provided on top of few labelled instances. For this task, we utilize optimal transport mapping using the Sinkhorn algorithm. Our experiments show that this approach outperforms previous works as well as other variants of the algorithm, using K-Nearest Neighbour algorithm, Gaussian Mixture Models, etc.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/chobola21a.html
+  PDF: http://proceedings.mlr.press/v140/chobola21a/chobola21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-chobola21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Tomáš
+    family: Chobola
+  - given: Daniel
+    family: Vašata
+  - given: Pavel
+    family: Kordík
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 29-37
+  id: chobola21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 29
+  lastpage: 37
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Stress Testing of Meta-learning Approaches for Few-shot Learning'
+  abstract: 'Meta-learning (ML) has emerged as a promising learning method under resource constraints such as few-shot learning. ML approaches typically propose a methodology to learn generalizable models. In this work-in-progress paper, we put the recent ML approaches to a stress test to discover their limitations. Precisely, we measure the performance of ML approaches for few-shot learning against increasing task complexity. Our results show a quick degradation in the performance of initialization strategies for ML (MAML, TAML, and MetaSGD), while surprisingly, approaches that use an optimization strategy (MetaLSTM) perform significantly better. We further demonstrate the effectiveness of an optimization strategy for ML (MetaLSTM++) trained in a MAML manner over a pure optimization strategy. Our experiments also show that the optimization strategies for ML achieve higher transferability from simple to complex tasks.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/aimen21a.html
+  PDF: http://proceedings.mlr.press/v140/aimen21a/aimen21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-aimen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Aroof
+    family: Aimen
+  - given: Sahil
+    family: Sidheekh
+  - given: Vineet
+    family: Madan
+  - given: Narayanan C.
+    family: Krishnan
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 38-44
+  id: aimen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 38
+  lastpage: 44
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Semi-Supervised Few-Shot Learning with Prototypical Random Walks'
+  abstract: 'Recent progress has shown that few-shot learning can be improved with access to unlabelled data,  known as semi-supervised few-shot learning(SS-FSL). We introduce an SS-FSL approach, dubbed as Prototypical Random Walk Networks(PRWN), built on top of Prototypical Networks (PN). We develop a random walk semi-supervised loss that enables the network to learn representations that are compact and well-separated. Our work is related to the very recent development of graph-based approaches for few-shot learning. However, we show that compact and well-separated class representations can be achieved by modeling our prototypical random walk notion without needing additional graph-NN parameters or requiring a transductive setting where a collective test set is provided. Our model outperforms baselines in most benchmarks with significant improvements in some cases. Our model, trained with 40$%$ of the data as labeled, compares competitively against fully supervised prototypical networks, trained on 100$%$ of the labels, even outperforming it in the 1-shot mini-Imagenet case with 50.89$%$ to 49.4$%$ accuracy. We also show that our loss is resistant to distractors, unlabeled data that does not belong to any of the training classes, and hence reflecting robustness to labeled/unlabeled class distribution mismatch.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/ayyad21a.html
+  PDF: http://proceedings.mlr.press/v140/ayyad21a/ayyad21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-ayyad21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Ahmed
+    family: Ayyad
+  - given: Yuchen
+    family: Li
+  - given: Raden
+    family: Muaz
+  - given: Shadi
+    family: Albarqouni
+  - given: Mohamed
+    family: Elhoseiny
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 45-57
+  id: ayyad21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 45
+  lastpage: 57
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Is Algorithm Selection Worth It? Comparing Selecting Single Algorithms and Parallel Execution'
+  abstract: 'For many practical problems, there is more than one algorithm or approach to solve them. Such algorithms often have complementary performance – where one fails, another performs well, and vice versa. Per-instance algorithm selection leverages this by employing portfolios of complementary algorithms to solve sets of difficult problems, choosing the most appropriate algorithm for each problem instance. However, this requires complex models to effect this selection and introduces overhead to compute the data needed for those models. On the other hand, even basic hardware is more than capable of running several algorithms in parallel. We investigate the tradeoff between selecting a single algorithm and running multiple in parallel and incurring a slowdown because of contention for shared resources. Our results indicate that algorithm selection is worth it, especially for large portfolios.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/kashgarani21a.html
+  PDF: http://proceedings.mlr.press/v140/kashgarani21a/kashgarani21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-kashgarani21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Haniye
+    family: Kashgarani
+  - given: Lars
+    family: Kotthoff
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 58-64
+  id: kashgarani21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 58
+  lastpage: 64
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Learning to Continually Learn Rapidly from Few and Noisy Data'
+  abstract: 'Neural networks suffer from catastrophic forgetting and are unable to sequentially learn new tasks without guaranteed stationarity in data distribution. Continual learning could be achieved via replay – by concurrently training externally stored old data while learning a new task. However, replay becomes less effective when each past task is allocated with less memory. To overcome this difficulty, we supplemented replay mechanics with meta-learning for rapid knowledge acquisition. By employing a meta-learner, which learns a learning rate per parameter per past task, we found that base learners produced strong results when less memory was available. Additionally, our approach inherited several meta-learning advantages for continual learning: it demonstrated strong robustness to continually learn under the presence of noises and yielded base learners to higher accuracy in less updates.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/kuo21a.html
+  PDF: http://proceedings.mlr.press/v140/kuo21a/kuo21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-kuo21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Nicholas I-Hsien
+    family: Kuo
+  - given: Mehrtash
+    family: Harandi
+  - given: Nicolas
+    family: Fourrier
+  - given: Christian
+    family: Walder
+  - given: Gabriela
+    family: Ferraro
+  - given: Hanna
+    family: Suominen
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 65-76
+  id: kuo21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 65
+  lastpage: 76
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Fuzzy Simplicial Networks: A Topology-Inspired Model to Improve Task Generalization in Few-shot Learning'
+  abstract: 'Deep learning has shown great success in settings with massive amounts of data but has struggled when data is limited. Few-shot learning algorithms, which seek to address this limitation, are designed to generalize well to new tasks with limited data. Typically, models are evaluated on unseen classes and datasets that are defined by the same fundamental task as they are trained for (e.g. category membership). One can also ask how well a model can generalize to fundamentally different tasks within a fixed dataset (for example: moving from category membership to tasks that involve detecting object orientation or quantity). To formalize this kind of shift we define a notion of “independence of tasks” and identify three new sets of labels for established computer vision datasets that test a model’s ability to generalize to tasks which draw on orthogonal attributes in the data. We use these datasets to investigate the failure modes of metric-based few-shot models. Based on our findings, we introduce a new few-shot model called Fuzzy Simplicial Networks (FSN) which leverages a construction from topology to more flexibly represent each class from limited data. In particular, FSN models can not only form multiple representations for a given class but can also begin to capture the low-dimensional structure which characterizes class manifolds in the encoded space of deep networks. We show that FSN outperforms state-of-the-art models on the challenging tasks we introduce in this paper while remaining competitive on standard few-shot benchmarks.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/kvinge21a.html
+  PDF: http://proceedings.mlr.press/v140/kvinge21a/kvinge21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-kvinge21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Henry
+    family: Kvinge
+  - given: Zachary
+    family: New
+  - given: Nico
+    family: Courts
+  - given: Jung H.
+    family: Lee
+  - given: Lauren A.
+    family: Phillips
+  - given: Courtney D.
+    family: Corley
+  - given: Aaron
+    family: Tuor
+  - given: Andrew
+    family: Avila
+  - given: Nathan O.
+    family: Hodas
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 77-89
+  id: kvinge21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 77
+  lastpage: 89
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Exploiting Performance-based Similarity between Datasets in Metalearning'
+  abstract: 'This paper describes an improved algorithm selection method of a previous method called active testing. This method seeks a workflow (or its particular configuration) that would lead to the highest gain in performance (e.g., accuracy). The new version uses a particular performance-based characterization of each dataset, which is in the form of a vector of performance values of different algorithms. Dataset similarity is then assessed by comparing these performance vectors. One useful measure for this comparison is Spearman’s correlation. The advantage of this measure is that it can be easily recalculated as more information is gathered. Consequently, as the tests proceed, the recommendations of the system get adjusted to the characteristics of the target dataset. We show that this new strategy leads to improved results of the active testing approach.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/leite21a.html
+  PDF: http://proceedings.mlr.press/v140/leite21a/leite21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-leite21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Rui
+    family: Leite
+  - given: Pavel
+    family: Brazdil
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 90-99
+  id: leite21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 90
+  lastpage: 99
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Asymptotic Analysis of Meta-learning as a Recommendation Problem'
+  abstract: 'Meta-learning tackles various means of learning from past tasks to perform new tasks better. In this paper, we focus on one particular statement of meta-learning: learning to recommend algorithms. We focus on a finite number of algorithms, which can be executed on tasks drawn i.i.d. according to a “meta-distribution”. We are interested in generalization performance of meta-predict strategies, i.e., the expected algorithm performances on new tasks drawn from the same meta-distribution. Assuming the perfect knowledge of the meta-distribution (i.e., in the limit of a very large number of training tasks), we ask ourselves under which conditions algorithm recommendation can benefit from meta-learning, and thus, in some sense, “defeat” the No-Free-Lunch theorem. We analyze four meta-predict strategies: Random, Mean, Greedy and Optimal. We identify optimality conditions for such strategies. We also define a notion of meta-learning complexity as the cardinal of the minimal clique of complementary algorithms. We illustrate our findings on experiments conducted on artificial and real data.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/liu21a.html
+  PDF: http://proceedings.mlr.press/v140/liu21a/liu21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-liu21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhengying
+    family: Liu
+  - given: Isabelle
+    family: Guyon
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 100-114
+  id: liu21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 100
+  lastpage: 114
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Few-Shot Learning for Road Object Detection'
+  abstract: 'Few-shot learning is a problem of high interest in the evolution of deep learning. In this work, we consider the problem of few-shot object detection (FSOD) in a real-world, class-imbalanced scenario. For our experiments, we utilize the India Driving Dataset (IDD), as it includes a class of less-occurring road objects in the image dataset and hence provides a setup suitable for few-shot learning. We evaluate both metric-learning and meta- learning based FSOD methods, in two experimental settings: (i) representative (same-domain) splits from IDD, that evaluates the ability of a model to learn in the context of road images, and (ii) object classes with less-occurring object samples, similar to the open-set setting in real-world. From our experiments, we demonstrate that the metric-learning method outperforms meta- learning on the novel classes by (i) 11.2 mAP points on the same domain, and (ii) 1.0 mAP point on the open-set. We also show that our extension of object classes in a real-world open dataset offers a rich ground for few-shot learning studies.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/majee21a.html
+  PDF: http://proceedings.mlr.press/v140/majee21a/majee21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-majee21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Anay
+    family: Majee
+  - given: Kshitij
+    family: Agrawal
+  - given: Anbumani
+    family: Subramanian
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 115-126
+  id: majee21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 115
+  lastpage: 126
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Learning Abstract Task Representations'
+  abstract: 'A proper form of data characterization can guide the process of learning-algorithm selection and model-performance estimation. The field of meta-learning has provided a rich body of work describing effective forms of data characterization using different families of meta-features (statistical, model-based, information-theoretic, topological, etc.). In this paper, we start with the abundant set of existing meta-features and propose a method to induce new abstract meta-features as latent variables in a deep neural network. We discuss the pitfalls of using traditional meta-features directly and argue for the importance of learning high-level task properties. We demonstrate our methodology using a deep neural network as a feature extractor. We demonstrate that 1) induced meta-models mapping abstract meta-features to generalization metrics outperform other methods by $\~ 18%$ on average, and 2) abstract meta-features attain high feature-relevance scores.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/meskhi21a.html
+  PDF: http://proceedings.mlr.press/v140/meskhi21a/meskhi21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-meskhi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Mikhail M.
+    family: Meskhi
+  - given: Adriano
+    family: Rivolli
+  - given: Rafael G.
+    family: Mantovani
+  - given: Ricardo
+    family: Vilalta
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 127-137
+  id: meskhi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 127
+  lastpage: 137
+  published: 2021-08-18 00:00:00 +0000
+- title: 'Challenges of Acquiring Compositional Inductive Biases via Meta-Learning'
+  abstract: 'Meta-learning is typically applied to settings where, given a distribution over related training tasks, the goal is to learn inductive biases that aid in generalization to new tasks from this distribution. Alternatively, we might consider a scenario where, given an inductive bias, we must construct a family of tasks that will inject the given inductive bias into a parametric model (e.g. a neural network) if meta-training is performed on the constructed task family. Inspired by recent work showing that such an algorithm can leverage meta-learning to improve generalization on a single-task learning problem, we consider various approaches to both a) the construction of the family of tasks and b) the procedure for selecting support sets for a particular single-task problem, the SCAN compositional generalization benchmark. We perform ablation experiments aimed at identifying when a meta-learning algorithm and family of tasks can impart the compositional inductive bias needed to solve SCAN. We conclude that existing meta-learning approaches to injecting compositional inductive biases are brittle and difficult to interpret, showing high sensitivity to both the family of meta-training tasks and the procedure for selecting support sets.'
+  volume: 140
+  URL: https://proceedings.mlr.press/v140/mitchell21a.html
+  PDF: http://proceedings.mlr.press/v140/mitchell21a/mitchell21a.pdf
+  edit: https://github.com/mlresearch//v140/edit/gh-pages/_posts/2021-08-18-mitchell21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'AAAI Workshop on Meta-Learning and MetaDL Challenge'
+  publisher: 'PMLR'
+  author: 
+  - given: Eric
+    family: Mitchell
+  - given: Chelsea
+    family: Finn
+  - given: Chris
+    family: Manning
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Jan N.
+    prefix: van
+    family: Rijn
+  - given: Sébastien
+    family: Treguer
+  - given: Joaquin
+    family: Vanschoren
+  page: 138-148
+  id: mitchell21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 18
+  firstpage: 138
+  lastpage: 148
+  published: 2021-08-18 00:00:00 +0000

@@ -1,0 +1,376 @@
+
+- title: 'This joke is [MASK]: Recognizing Humor and Offense with Prompting'
+  abstract: 'Humor is a magnetic component in everyday human interactions and communications. Computationally modeling humor enables NLP systems to entertain and engage with users. We investigate the effectiveness of prompting, a new transfer learning paradigm for NLP, for humor recognition. We show that prompting performs similarly to finetuning when numerous annotations are available, but gives stellar performance in low-resource humor recognition. The relationship between humor and offense is also inspected by applying influence functions to prompting; we show that models could rely on offense to determine humor during transfer.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/li23a.html
+  PDF: https://proceedings.mlr.press/v203/li23a/li23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-li23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Junze
+    family: Li
+  - given: Mengjie
+    family: Zhao
+  - given: Yubo
+    family: Xie
+  - given: Antonis
+    family: Maronikolakis
+  - given: Pearl
+    family: Pu
+  - given: Hinrich
+    family: Schuetze
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 1-9
+  id: li23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 1
+  lastpage: 9
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Zero-shot Video Moment Retrieval With Off-the-Shelf Models'
+  abstract: 'For the majority of the machine learning community, the expensive nature of collecting high-quality human-annotated data and the inability to efficiently finetune very large state-of-the-art pretrained models on limited compute are major bottlenecks for building models for new tasks. We propose a zero-shot simple approach for one such task, Video Moment Retrieval (VMR), that does not perform any additional finetuning and simply repurposes off-the-shelf models trained on other tasks. Our three-step approach consists of moment proposal, moment-query matching and postprocessing, all using only off-the-shelf models. On the QVHighlights benchmark for VMR, we vastly improve performance of previous zero-shot approaches by at least 2.5x on all metrics and reduce the gap between zero-shot and state-of-the-art supervised by over 74%. Further, we also show that our zero-shot approach beats non-pretrained supervised models on the Recall metrics and comes very close on mAP metrics; and that it also performs better than the best pretrained supervised model on shorter moments. Finally, we ablate and analyze our results and propose interesting future directions.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/diwan23a.html
+  PDF: https://proceedings.mlr.press/v203/diwan23a/diwan23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-diwan23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Anuj
+    family: Diwan
+  - given: Puyuan
+    family: Peng
+  - given: Ray
+    family: Mooney
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 10-21
+  id: diwan23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 10
+  lastpage: 21
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Can You Label Less by Using Out-of-Domain Data? Active & Transfer Learning with Few-shot Instructions'
+  abstract: 'Labeling social-media data for custom dimensions of toxicity and social bias is challenging and labor-intensive. Existing transfer and active learning approaches meant to reduce annotation effort require fine-tuning, which suffers from over-fitting to noise and can cause domain shift with small sample sizes. In this work, we propose a novel Active Transfer Few-shot Instructions (ATF) approach which requires no fine-tuning. ATF leverages the internal linguistic knowledge of pre-trained language models (PLMs) to facilitate the transfer of information from existing pre-labeled datasets (source-domain task) with minimum labeling effort on unlabeled target data (target-domain task). Our strategy can yield positive transfer achieving a mean AUC gain of 10.5% compared to no transfer with a large 22b parameter PLM. We further show that annotation of just a few target-domain samples via active learning can be beneficial for transfer, but the impact diminishes with more annotation effort (26% drop in gain between 100 and 2000 annotated examples). Finally, we find that not all transfer scenarios yield a positive gain, which seems related to the PLMs initial performance on the target-domain task. '
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/kocielnik23a.html
+  PDF: https://proceedings.mlr.press/v203/kocielnik23a/kocielnik23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-kocielnik23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Rafal
+    family: Kocielnik
+  - given: Sara
+    family: Kangaslahti
+  - given: Shrimai
+    family: Prabhumoye
+  - given: Meena
+    family: Hari
+  - given: Michael
+    family: Alvarez
+  - given: Anima
+    family: Anandkumar
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 22-32
+  id: kocielnik23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 22
+  lastpage: 32
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Multi-Task Learning Framework for Extracting Emotion Cause Span and Entailment in Conversations'
+  abstract: 'Predicting emotions expressed in text is a well-studied problem in the NLP community. Recently there has been active research in extracting the cause of an emotion expressed in text. Most of the previous work has done causal emotion entailment in documents. In this work, we propose neural models to extract emotion cause span and entailment in conversations. For learning such models, we use RECCON dataset, which is annotated with cause spans at the utterance level. In particular, we propose MuTEC, an end-to-end Multi-Task learning framework for extracting emotions, emotion cause, and entailment in conversations. This is in contrast to existing baseline models that use ground truth emotions to extract the cause. MuTEC performs better than the baselines for most of the data folds provided in the dataset.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/bhat23a.html
+  PDF: https://proceedings.mlr.press/v203/bhat23a/bhat23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-bhat23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Ashwani
+    family: Bhat
+  - given: Ashutosh
+    family: Modi
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 33-51
+  id: bhat23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 33
+  lastpage: 51
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Can Large Language Models Truly Understand Prompts? A Case Study with Negated Prompts'
+  abstract: 'Previous work has shown that there exists a scaling law between the size of Language Models (LMs) and their zero-shot performance on different downstream NLP tasks. In this work, we show that this phenomenon does not hold when evaluating large LMs on tasks with \textit{negated} prompts, but instead shows an \textit{inverse} scaling law. We evaluate 9 different tasks with negated prompts on (1) pretrained LMs (OPT & GPT-3) of varying sizes (125M - 175B), (2) LMs further pretrained to generalize to novel prompts (InstructGPT), (3) LMs provided with few-shot examples, and (4) LMs fine-tuned specifically on negated prompts; all LM types perform worse on negated prompts as they scale and show a huge performance gap between the human performance when comparing the average score on both original and negated prompts. By highlighting a critical limitation of existing LMs and methods, we urge the community to develop new approaches of developing LMs that actually follow the given instructions. We provide the code and the datasets to explore negated prompts at https://github.com/joeljang/negated-prompts-for-llms.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/jang23a.html
+  PDF: https://proceedings.mlr.press/v203/jang23a/jang23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-jang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Joel
+    family: Jang
+  - given: Seonghyeon
+    family: Ye
+  - given: Minjoon
+    family: Seo
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 52-62
+  id: jang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 52
+  lastpage: 62
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Evaluating the Robustness of Biomedical Concept Normalization'
+  abstract: 'Biomedical concept normalization involves linking entity mentions in text to standard concepts in knowledge bases. It aids in resolving challenges to standardising ambiguous, variable terms in text or handling missing links. Therefore, it is one of the essential tasks of text mining that helps in effective information access and finds its utility in biomedical decision-making. Pre-trained language models (e.g., BERT) achieve impressive performance on this task. It has been observed that such models are insensitive to word order permutations and vulnerable to adversarial attacks on tasks like Text Classification, Natural Language Inference. However, the effect of such attacks is unknown for the task of Normalization, especially in the biomedical domain. In this paper, we propose heuristics-based Input Transformations (word level modifications and word order variations) and Adversarial Attacks to study the robustness of BERT-based normalization models across various datasets consisting of different biomedical entity types. We conduct experiments across three datasets: NCBI disease, BC5CDR Disease, and BC5CDR Chemical. We observe that for input transformations, pre-trained models often fail to detect invalid input. On the other hand, our proposed adversarial attacks that add imperceptible perturbations, result in affecting the ranking of a concept list for a given mention (or vice versa). We also generate natural adversarial examples that lead to performance degradation of  30% in the F1-score. Additionally, we explore existing mitigation strategies to help a model recognize invalid inputs.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/chakraborty23a.html
+  PDF: https://proceedings.mlr.press/v203/chakraborty23a/chakraborty23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-chakraborty23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Sinchani
+    family: Chakraborty
+  - given: Harsh
+    family: Raj
+  - given: Srishti
+    family: Gureja
+  - given: Tanmay
+    family: Jain
+  - given: Atif
+    family: Hassan
+  - given: Sayantan
+    family: Basu
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 63-73
+  id: chakraborty23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 63
+  lastpage: 73
+  published: 2023-01-19 00:00:00 +0000
+- title: 'MetaXCR: Reinforcement-Based Meta-Transfer Learning for Cross-Lingual Commonsense Reasoning'
+  abstract: 'Commonsense reasoning (CR) has been studied in many pieces of domain and has achieved great progress with the aid of large datasets. Unfortunately, most existing CR datasets are built in English, so most previous work focus on English. Furthermore, as the annotation of commonsense reasoning is costly, it is impossible to build a large dataset for every novel task. Therefore, there are growing appeals for Cross-lingual Low-Resource  Commonsense Reasoning, which aims to leverage diverse existed English datasets to help the model adapt to new cross-lingual target datasets with limited labeled data. In this paper, we propose a multi-source adapter for cross-lingual low-resource Commonsense Reasoning (MetaXCR). In this framework, we first extend meta learning by incorporating multiple training datasets to learn a generalized task adapters across different tasks. Then, we further introduce a reinforcement-based sampling strategy to help the model sample the source task that is the most helpful to the target task. Finally, we introduce two types of cross-lingual meta-adaption methods to enhance the  performance of models on target languages. Extensive experiments demonstrate MetaXCR is superior over state-of-the-arts, while being trained with fewer parameters than other work.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/he23a.html
+  PDF: https://proceedings.mlr.press/v203/he23a/he23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-he23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Jie
+    family: He
+  - given: Yu
+    family: Fu
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 74-87
+  id: he23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 74
+  lastpage: 87
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Languages You Know Influence Those You Learn: Impact of Language Characteristics on Multi-Lingual Text-to-Text Transfer'
+  abstract: 'In this work, we analyze a pre-trained mT5 to discover the attributes of cross-lingual connections learned by this model. Through a statistical interpretation framework over 90 language pairs across three tasks, we show that transfer performance can be modeled by a few linguistic and data-derived features. These observations enable us to interpret cross-lingual understanding of the mT5 model. Through these observations, one can favorably choose the best source language for a task, and can anticipate its training data demands. A key finding of this work is that similarity of syntax, morphology and phonology are good predictors of cross-lingual transfer, significantly more than just the lexical similarity of languages. For a given language, we are able to predict zero-shot performance, that increases on a logarithmic scale with the number of few-shot target language data points.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/muller23a.html
+  PDF: https://proceedings.mlr.press/v203/muller23a/muller23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-muller23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Benjamin
+    family: Muller
+  - given: Deepanshu
+    family: Gupta
+  - given: Jean-Philippe
+    family: Fauconnier
+  - given: Siddharth
+    family: Patwardhan
+  - given: David
+    family: Vandyke
+  - given: Sachin
+    family: Agarwal
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 88-102
+  id: muller23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 88
+  lastpage: 102
+  published: 2023-01-19 00:00:00 +0000
+- title: 'Exploring Dimensions of Generalizability and Few-shot Transfer for Text-to-SQL Semantic Parsing'
+  abstract: 'Existing work on generalization in Text-to-SQL semantic parsing has been restricted to a zero-shot cross-domain setting. In this paper, we introduce Spider-Gen: a Text-to-SQL benchmark to develop a paradigm of transfer learning across distinct dimensions of generalization in Text-to-SQL semantic parsing. The Spider-Gen benchmark focuses on few-shot adaption for Cross-domain, Lexical, and Structural generalization of Text-to-SQL models. Through our experiments with the Spider-Gen dataset, we show that Seq2Seq language models struggle to generalize against change in data distribution, lexical changes in database schema, and changes in SQL query complexity. Our experiments also reveal that performing few-shot fine-tuning helps Text-to-SQL models to generalize across these changes. However, such few-shot adaptation comes with a negative effect on the knowledge learnt during training. Hence, we also explore Parameter-efficient Fine-tuning methods to overcome the limitations of Seq2Seq Text-to-SQL models. We release the Spider-Gen dataset publicly to facilitate further research in generalization and transfer learning across various dimensions in Text-to-SQL semantic parsing.'
+  volume: 203
+  URL: https://proceedings.mlr.press/v203/patil23a.html
+  PDF: https://proceedings.mlr.press/v203/patil23a/patil23a.pdf
+  edit: https://github.com/mlresearch//v203/edit/gh-pages/_posts/2023-01-19-patil23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 1st Transfer Learning for Natural Language Processing Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Rajaswa
+    family: Patil
+  - given: Manasi
+    family: Patwardhan
+  - given: Shirish
+    family: Karande
+  - given: Lovekesh
+    family: Vig
+  - given: Gautam
+    family: Shroff
+  editor: 
+  - given: Alon
+    family: Albalak
+  - given: Chunting
+    family: Zhou
+  - given: Colin
+    family: Raffel
+  - given: Deepak
+    family: Ramachandran
+  - given: Sebastian
+    family: Ruder
+  - given: Xuezhe
+    family: Ma
+  page: 103-114
+  id: patil23a
+  issued:
+    date-parts: 
+      - 2023
+      - 1
+      - 19
+  firstpage: 103
+  lastpage: 114
+  published: 2023-01-19 00:00:00 +0000

@@ -1,0 +1,264 @@
+
+- title: 'A pragmatic and industry-aware approach toward the design of on-line recommender systems'
+  abstract: 'On-line recommender systems are designed to address a number of different recommendation scenarios in which traditional systems fail primarily, but not only, due to scalability issues. The goal of this talk is to give participants an overview on the design requirements for on-line recommender systems, with a focus on their quality evaluation, and to provide pragmatic guidelines to perform these activities more effectively avoiding commons pitfalls. The talk is structured into two parts. In the first part, after a general overview of on-line recommender systems, we will analyze different application scenarios. In the second part we will analyze possible functional and non-functional evaluation problems. We will present some of our works on evaluating presentation biases, problems which affect click-based on-line recommender systems. We will later present some of our recent work towards comparing the scalability of different Top-N recommender systems, understanding their fundamental limitations and characteristics for some of the application scenarios identified in the first part.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/cremonesi19a.html
+  PDF: http://proceedings.mlr.press/v109/cremonesi19a/cremonesi19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-cremonesi19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Paolo
+    family: Cremonesi
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 1-1
+  id: cremonesi19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 1
+  lastpage: 1
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Fuzzy D’Hondt’s Algorithm for On-line Recommendations Aggregation'
+  abstract: 'In this paper, we present Fuzzy D’Hondt’s algorithm suitable to aggregate lists of recommended objects originating from various base recommending methods. The algorithm is inspired by D’Hondt’s election method used to a proportional conversion of votes to mandates in public elections. We enhance the original approach to enable fuzzy candidate-party membership, propose a gradient learning of per-party votes assignments and utilize it for iterative on-line aggregation of recommendations. Main features of the proposed algorithm are ability to iteratively learn relevance of individual base recommenders (parties), ability to account for multiple item’s memberships and capability to provide proportional representation of base recommenders w.r.t. their results as well as fair ordering of the final list of recommended items. Fuzzy D’Hondt’s aggregation method was evaluated in on-line A/B testing against state-of-the-art approach based on multi-armed bandits with Thompson sampling and achieved competitive results.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/peska19a.html
+  PDF: http://proceedings.mlr.press/v109/peska19a/peska19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-peska19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Ladislav
+    family: Peška
+  - given: Štep̌án
+    family: Balkar
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 2-11
+  id: peska19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 2
+  lastpage: 11
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Search-Based Serving Architecture of Embeddings-Based Recommendations'
+  abstract: 'Over the past 10 years, many recommendation techniques have been based on embedding users and items in latent vector spaces, where the inner product of a (user,item) pair of vectors represents the predicted affinity of the user to the item. A wealth of literature has focused on the various modeling approaches that result in embeddings, and has compared their quality metrics, learning complexity, etc. However, much less attention has been devoted to the issues surrounding productization of an embeddings-based high throughput, low latency recommender system. In particular, how the system might keep up with the changing embeddings as new models are learnt. This paper describes a reference architecture of a high-throughput, large scale recommendation service which leverages a search engine as its runtime core. We describe how the search index and the query builder adapt to changes in the embeddings, which often happen at a different cadence than index builds. We provide solutions for both id-based and feature-based embeddings, as well as for batch indexing and incremental indexing setups. The described system is at the core of a Web content discovery service that serves tens of billions recommendations per day in response to billions of user requests'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/liberman19a.html
+  PDF: http://proceedings.mlr.press/v109/liberman19a/liberman19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-liberman19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Sonya
+    family: Liberman
+  - given: Shaked
+    family: Bar
+  - given: Raphael
+    family: Vannerom
+  - given: Danny
+    family: Rosenstein
+  - given: Ronny
+    family: Lempel
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 12-20
+  id: liberman19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 12
+  lastpage: 20
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Incremental Multi-Dimensional Recommender Systems: Co-Factorization vs Tensors'
+  abstract: 'The present paper sets a milestone on incremental recommender systems approaches by comparing several state-of-the-art algorithms with two different mathematical foundations - matrix and tensor factorization. Traditional Pairwise Interaction Tensor Factorization is revisited and converted into a scalable and incremental option that yields the best predictive power. A novel tensor inspired approach is described. Finally, experiments compare contextless vs context-aware scenarios, the impact of noise on the algorithms, discrepancies between time complexity and execution times, and are run on five different datasets from three different recommendation areas - music, gross retail and garment. Relevant conclusions are drawn that aim to help choosing the most appropriate algorithm to use when faced with a novel recommender tasks.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/ramalho19a.html
+  PDF: http://proceedings.mlr.press/v109/ramalho19a/ramalho19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-ramalho19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Miguel Sozinho
+    family: Ramalho
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Rafaela
+    family: Bastos
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 21-35
+  id: ramalho19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 21
+  lastpage: 35
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Personalized Push Notifications for News Recommendation'
+  abstract: 'Push notifications on mobile devices are an important way for users to stay up to date with news. Push notifications can also be a major source of annoyance for users: being interrupted at the wrong time for something you do not care about is frustrating. It is crucial to ensure the right push is sent to the right user at the right moment. In this paper we address this problem of personalized push notifications. We introduce our streaming push personalization pipeline, describe how we personalize pushes, discuss challenges, and end with open questions.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/loni19a.html
+  PDF: http://proceedings.mlr.press/v109/loni19a/loni19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-loni19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Babak
+    family: Loni
+  - given: Anne
+    family: Schuth
+  - given: Lucas
+    prefix: van de
+    family: Haas
+  - given: Jeroen
+    family: Jansze
+  - given: Vasco
+    family: Visser
+  - given: Marlies
+    prefix: van der
+    family: Wees
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 36-45
+  id: loni19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 36
+  lastpage: 45
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Optimal Delivery with Budget Constraint in E-Commerce Advertising'
+  abstract: 'Online advertising in E-commerce platforms provides sellers an opportunity to achieve potential audiences with different target goals. Ad serving systems (like display and search advertising systems) that assign ads to pages should satisfy objectives such as plenty of audience for branding advertisers, clicks or conversions for performance-based advertisers, at the same time try to maximize overall revenue of the platform. In this paper, we propose an approach based on linear programming subjects to constraints in order to optimize the revenue and improve different performance goals simultaneously. We have validated our algorithm by implementing an offline simulation system in Alibaba E-commerce platform and running the auctions from online requests which takes system performance, ranking and pricing schemas into account. We have also compared our algorithm with related work, and the results show that our algorithm can effectively improve campaign performance and revenue of the platform.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/wei19a.html
+  PDF: http://proceedings.mlr.press/v109/wei19a/wei19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-wei19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Chao
+    family: Wei
+  - given: Weiru
+    family: Zhang
+  - given: Shengjie
+    family: Sun
+  - given: Fei
+    family: Li
+  - given: Xiaonan
+    family: Meng
+  - given: Yi
+    family: Hu
+  - given: Kuang-chih
+    family: Lee
+  - given: Hao
+    family: Wang
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 46-58
+  id: wei19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 46
+  lastpage: 58
+  published: 2019-10-14 00:00:00 +0000
+- title: 'Practical Lessons from Predicting New User Demographics for Ad Targeting'
+  abstract: 'Programmatic ad buying, the use of technology to automate and optimize the ad buying process in real-time, has been emerging to be the major form of online advertising. For each online campaign, advertisers generally want to specify a certain group of audience that they want to target at. Among these, demographics (user age and gender) is the fundamental and most common targeting option. On the other side, due to the huge volume of bid-requests flowing into the exchange, majority of those users (i.e. cookies) are either completely new to the ad platform or has too little historical behavior information to determine their demographics. In this paper, we present and discuss the methods, system and practical lessons in tackling this problem at massive scale.'
+  volume: 109
+  URL: https://proceedings.mlr.press/v109/wen19a.html
+  PDF: http://proceedings.mlr.press/v109/wen19a/wen19a.pdf
+  edit: https://github.com/mlresearch//v109/edit/gh-pages/_posts/2019-10-14-wen19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Workshop on Online Recommder Systems and User Modeling'
+  publisher: 'PMLR'
+  author: 
+  - given: Musen
+    family: Wen
+  - given: Zhen
+    family: Xia
+  - given: Deepak Kumar
+    family: Vasthimal
+  editor: 
+  - given: João
+    family: Vinagre
+  - given: Alípio Mário
+    family: Jorge
+  - given: Albert
+    family: Bifet
+  - given: Marie
+    family: Al-Ghossein
+  page: 59-67
+  id: wen19a
+  issued:
+    date-parts: 
+      - 2019
+      - 10
+      - 14
+  firstpage: 59
+  lastpage: 67
+  published: 2019-10-14 00:00:00 +0000

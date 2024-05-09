@@ -1,0 +1,236 @@
+
+- title: 'Teaching Machine Learning in 2020'
+  abstract: 'Faced by the abundant use of machine learning in industry and academia, the effective and efficient teaching of core concepts in this field becomes of high importance. For this, we organized a workshop on teaching methods in the field of machine learning. In this document, we summarize the current standing of the community as by our workshop and their methods. We touch on existing working concepts in machine learning didactics, what methods present initiatives use and cover open teaching resources available to date. With this, we hope to provide a starting point for future collaborations on this central topic given the expanding use of machine learning in science, industry and our daily lives.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/steinbach21a.html
+  PDF: http://proceedings.mlr.press/v141/steinbach21a/steinbach21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-steinbach21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Peter
+    family: Steinbach
+  - given: Heidi
+    family: Seibold
+  - given: Oliver
+    family: Guhr
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 1-6
+  id: steinbach21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 1
+  lastpage: 6
+  published: 2021-03-29 00:00:00 +0000
+- title: 'Introductory Machine Learning for non STEM students'
+  abstract: 'Data Science in general, and Machine Learning in particular, is a powerful tool for decision-makers across non-STEM fields like Human Resources Management, Law or Marketing.  Introductory Machine  Learning,  for  non-majors  that  lack  a strong background in Statistics and Computer Science, is a challenge for both teacher and students. The use of similes and games is a soft way to deal with definitions of concepts and procedures that are essential for further advanced courses on these subjects.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/garcia-algarra21a.html
+  PDF: http://proceedings.mlr.press/v141/garcia-algarra21a/garcia-algarra21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-garcia-algarra21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Javier
+    family: Garcia-Algarra
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 7-10
+  id: garcia-algarra21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 7
+  lastpage: 10
+  published: 2021-03-29 00:00:00 +0000
+- title: 'An Interactive Web Application for Decision Tree Learning'
+  abstract: 'Decision tree learning offers an intuitive and straightforward introduction to machine learning techniques, especially when students are used to program imperative code. Most commonly, trees are trained using a greedy algorithm based on information-theoretic criteria. While there are many static resources such as slides or animations out there, interactive visualizations tend to be based on somewhat outdated UI technology and dense in information. We propose a clean and simple web application for decision tree learning that is extensible and open source.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/elia21a.html
+  PDF: http://proceedings.mlr.press/v141/elia21a/elia21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-elia21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Miriam
+    family: Elia
+  - given: Carola
+    family: Gajek
+  - given: Alexander
+    family: Schiendorfer
+  - given: Wolfgang
+    family: Reif
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 11-16
+  id: elia21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 11
+  lastpage: 16
+  published: 2021-03-29 00:00:00 +0000
+- title: 'Teaching Computational Machine Learning (without Statistics)'
+  abstract: 'This paper presents an undergraduate machine learning course that emphasizes algorithmic understanding and programming skills while assuming no statistical training. Emphasizing the development of good habits of mind, this course trains students to be independent machine learning practitioners through an iterative, cyclical framework for teaching concepts while adding increasing depth and nuance. Beginning with unsupervised learning, this course is sequenced as a series of machine learning ideas and concepts with specific algorithms acting as concrete examples. This paper also details course organization including evaluation practices and logistics.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/kinnaird21a.html
+  PDF: http://proceedings.mlr.press/v141/kinnaird21a/kinnaird21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-kinnaird21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Katherine M.
+    family: Kinnaird
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 17-22
+  id: kinnaird21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 17
+  lastpage: 22
+  published: 2021-03-29 00:00:00 +0000
+- title: 'AI is not Just a Technology'
+  abstract: 'Reporting on our experiences introducing a broad range of staff of academic libraries to AI, we suggest that training in practical applications of AI requires more than learning the technology. AI projects in libraries require contributions by computing specialists, subject specialists, metadata librarians, conservators, and others; each bringing different expertise and competencies to the project. We offer an integrated approach to knowledge building in AI that considers the processes and roles involved. This approach takes a comprehensive view of the entire AI project from understanding the need, translating that need into tasks, identifying and preparing the data, applying methods, and evaluating the results.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/engel21a.html
+  PDF: http://proceedings.mlr.press/v141/engel21a/engel21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-engel21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Claudia
+    family: Engel
+  - given: Nicole
+    family: Coleman
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 23-28
+  id: engel21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 23
+  lastpage: 28
+  published: 2021-03-29 00:00:00 +0000
+- title: 'Teaching the Foundations of Machine Learning with Candy'
+  abstract: 'Machine learning is ubiquitous in decision-making processes across society. The presence and development of ML drives a need for improved education in key concepts at the secondary and tertiary levels that not only trains people to become informed citizens but also trains future researchers to be both principled and ethical practitioners. In this vein, we present a structured classroom activity that simultaneously teaches both supervised classification and critically thinking about ML applications and ethics. We use an active, object-based learning approach to teach supervised classification using a variety of candies, and a problem-based scenario to encourage critical questions about ethics in ML applications.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/huppenkothen21a.html
+  PDF: http://proceedings.mlr.press/v141/huppenkothen21a/huppenkothen21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-huppenkothen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Daniela
+    family: Huppenkothen
+  - given: Gwendolyn
+    family: Eadie
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 29-35
+  id: huppenkothen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 29
+  lastpage: 35
+  published: 2021-03-29 00:00:00 +0000
+- title: 'Turning Software Engineers into Machine Learning Engineers'
+  abstract: 'A first challenge in teaching machine learning to software engineering and computer science students consists of changing the methodology from a constructive design-first perspective to an empirical one, focusing on proper experimental work. On the other hand, students nowadays can make significant progress using existing scripts and powerful (deep) learning frameworks – focusing on established use cases such as vision tasks. To tackle problems in novel application domains, a clean methodological style is indispensable. Additionally, for deep learning, familiarity with gradient dynamics is crucial to understand deeper models. Consequently, we present three exercises that build upon each other to achieve these goals. These exercises are validated experimentally in a master’s level course for software engineers.'
+  volume: 141
+  URL: https://proceedings.mlr.press/v141/schiendorfer21a.html
+  PDF: http://proceedings.mlr.press/v141/schiendorfer21a/schiendorfer21a.pdf
+  edit: https://github.com/mlresearch//v141/edit/gh-pages/_posts/2021-03-29-schiendorfer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Teaching Machine Learning and Artificial Intelligence Workshop'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Schiendorfer
+  - given: Carola
+    family: Gajek
+  - given: Wolfgang
+    family: Reif
+  editor: 
+  - given: Bernd
+    family: Bischl
+  - given: Oliver
+    family: Guhr
+  - given: Heidi
+    family: Seibold
+  - given: Peter
+    family: Steinbach
+  page: 36-41
+  id: schiendorfer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 3
+      - 29
+  firstpage: 36
+  lastpage: 41
+  published: 2021-03-29 00:00:00 +0000

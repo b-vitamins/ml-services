@@ -1,0 +1,139 @@
+
+- title: 'Linkages among the Foreign Exchange, Stock, and Bond Markets in Japan and the United States'
+  abstract: 'While economic theory explains the linkages among the financial markets of different countries, empirical studies mainly verify the linkages through Granger causality, without considering latent variables or instantaneous effects. Their findings are inconsistent regarding the existence of causal linkages among financial markets, which might be attributed to differences in the focused markets, data periods, and methods applied. Our study adopts causal discovery methods including VAR-LiNGAM and LPCMCI with domain knowledge to explore the linkages among financial markets in Japan and the United States (US) for the post Covid-19 pandemic period under divergent monetary policy directions. The VAR-LiNGAM results reveal that the previous day’s US market influences the following day’s Japanese market for both stocks and bonds, and the bond markets of the previous day impact the following day’s foreign exchange (FX) market directly and the following day’s Japanese stock market indirectly. The LPCMCI results indicate the existence of potential latent confounders. Our results demonstrate that VAR-LiNGAM uniquely identifies the directed acyclic graph (DAG), and thus provides informative insight into the causal relationship when the assumptions are considered valid. Our study contributes to a better understanding of the linkages among financial markets in the analyzed data period by supporting the existence of linkages between Japan and the US for the same financial markets and among FX, stock, and bond markets, thus highlighting the importance of leveraging causal discovery methods in the financial domain.'
+  volume: 223
+  URL: https://proceedings.mlr.press/v223/jiang23a.html
+  PDF: https://proceedings.mlr.press/v223/jiang23a/jiang23a.pdf
+  edit: https://github.com/mlresearch//v223/edit/gh-pages/_posts/2023-11-20-jiang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2023 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Yi
+    family: Jiang
+  - given: Shohei
+    family: Shimizu
+  editor: 
+  - given: Erich
+    family: Kummerfeld
+  - given: Sisi
+    family: Ma
+  - given: Eric
+    family: Rawls
+  - given: Bryan
+    family: Andrews
+  page: 1-19
+  id: jiang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 11
+      - 20
+  firstpage: 1
+  lastpage: 19
+  published: 2023-11-20 00:00:00 +0000
+- title: 'Structure Learning for Groups of Variables in Nonlinear Time-Series Data with Location-Scale Noise'
+  abstract: 'Learning causal structures from observational data has recently attracted considerable attention.Although many studies have focused on uncovering the connections between scalar random variables,estimation algorithms for groups of variables—particularly for multiple groups of variables—remain scarce.This paper proposes a novel differentiable algebraic constraint that can be used along with existing continuous optimization-based structure-learning algorithms to learn the causal relationships among groups of variables.Considering the complex functional relationships among variables in real-world scenarios, we propose a structure-learning algorithm for nonlinear time-series data with location-scale noise.Experimental results for synthetic and real-world data indicate that the proposed group acyclicity constraint significantly increases the estimation accuracy for the causal relationship among the groups of variables and verify the effectiveness of the proposed structure-learning algorithm.'
+  volume: 223
+  URL: https://proceedings.mlr.press/v223/kikuchi23a.html
+  PDF: https://proceedings.mlr.press/v223/kikuchi23a/kikuchi23a.pdf
+  edit: https://github.com/mlresearch//v223/edit/gh-pages/_posts/2023-11-20-kikuchi23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2023 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Genta
+    family: Kikuchi
+  - given: Shohei
+    family: Shimizu
+  editor: 
+  - given: Erich
+    family: Kummerfeld
+  - given: Sisi
+    family: Ma
+  - given: Eric
+    family: Rawls
+  - given: Bryan
+    family: Andrews
+  page: 20-39
+  id: kikuchi23a
+  issued:
+    date-parts: 
+      - 2023
+      - 11
+      - 20
+  firstpage: 20
+  lastpage: 39
+  published: 2023-11-20 00:00:00 +0000
+- title: 'A Computational Framework for EEG Causal Oscillatory Connectivity'
+  abstract: 'Here we advance a new approach for measuring EEG causal oscillatory connectivity, capitalizing on recent advances in causal discovery analysis for skewed time series data and in spectral parameterization of time-frequency (TF) data. We first parameterize EEG TF data into separate oscillatory and aperiodic components. We then measure causal interactions between separated oscillatory data with the recently proposed causal connectivity method Greedy Adjacencies and Non-Gaussian Orientations (GANGO). We apply GANGO to contemporaneous time series, then we extend the GANGO method to lagged data that control for temporal autocorrelation. We apply this approach to EEG data acquired in the context of a clinical trial investigating noninvasive transcranial direct current stimulation to treat executive dysfunction following mild Traumatic Brain Injury (mTBI). First, we analyze whole-scalp oscillatory connectivity patterns using community detection. Then we demonstrate that tDCS increases the effect size of causal theta-band oscillatory connections between prefrontal sensors and the rest of the scalp, while simultaneously decreasing causal alpha-band oscillatory connections between prefrontal sensors and the rest of the scalp. Improved executive functioning following tDCS could result from increased prefrontal causal theta oscillatory influence, and decreased prefrontal alpha-band causal oscillatory influence.'
+  volume: 223
+  URL: https://proceedings.mlr.press/v223/rawls23a.html
+  PDF: https://proceedings.mlr.press/v223/rawls23a/rawls23a.pdf
+  edit: https://github.com/mlresearch//v223/edit/gh-pages/_posts/2023-11-20-rawls23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2023 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Eric
+    family: Rawls
+  - given: Casey
+    family: Gilmore
+  - given: Erich
+    family: Kummerfeld
+  - given: Kelvin
+    family: Lim
+  - given: Tasha
+    family: Nienow
+  editor: 
+  - given: Erich
+    family: Kummerfeld
+  - given: Sisi
+    family: Ma
+  - given: Eric
+    family: Rawls
+  - given: Bryan
+    family: Andrews
+  page: 40-51
+  id: rawls23a
+  issued:
+    date-parts: 
+      - 2023
+      - 11
+      - 20
+  firstpage: 40
+  lastpage: 51
+  published: 2023-11-20 00:00:00 +0000
+- title: 'Py-Tetrad and RPy-Tetrad: A New Python Interface with R Support for Tetrad Causal Search'
+  abstract: 'We give novel Python and R interfaces for the (Java) Tetrad project for causal modeling, search, and estimation. The Tetrad project is a mainstay in the literature, having been under consistent development for over 30 years. Some of its algorithms are now classics, like PC and FCI; others are recent developments. It is increasingly the case, however, that researchers need to access the underlying Java code from Python or R. Existing methods for doing this are inadequate. We provide new, up-to-date methods using the JPype Python-Java interface and the Reticulate Python-R interface, directly solving these issues. With the addition of some simple tools and the provision of working examples for both Python and R, using JPype and Reticulate to interface Python and R with Tetrad is straightforward and intuitive.'
+  volume: 223
+  URL: https://proceedings.mlr.press/v223/ramsey23a.html
+  PDF: https://proceedings.mlr.press/v223/ramsey23a/ramsey23a.pdf
+  edit: https://github.com/mlresearch//v223/edit/gh-pages/_posts/2023-11-20-ramsey23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2023 Causal Analysis Workshop Series'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph
+    family: Ramsey
+  - given: Bryan
+    family: Andrews
+  editor: 
+  - given: Erich
+    family: Kummerfeld
+  - given: Sisi
+    family: Ma
+  - given: Eric
+    family: Rawls
+  - given: Bryan
+    family: Andrews
+  page: 40-51
+  id: ramsey23a
+  issued:
+    date-parts: 
+      - 2023
+      - 11
+      - 20
+  firstpage: 40
+  lastpage: 51
+  published: 2023-11-20 00:00:00 +0000

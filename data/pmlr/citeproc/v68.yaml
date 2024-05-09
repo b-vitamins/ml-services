@@ -1,0 +1,1114 @@
+
+- title: 'Piecewise-constant parametric approximations for survival learning'
+  abstract: 'Logged events occur both regularly and irregularly over time. In electronic health records, these events represent mixtures of scheduled and urgent or emergent encounters. Whereas most survival models use baseline events to estimate the rate function for an outcome, e.g., Cox processes using the proportional-hazards assumption, our framework uses logged events over time to predict survival outcomes with piecewise approximations of arbitrary hazard functions. We develop a procedure to learn forests as combinations of piecewise-constant and parameterized distributions to compactly model survival distributions from data. Under this construction, the model provides a “now-time” risk that incorporates irregularly-repeated data and for health outcomes serves as a surrogate for patient disposition. We illustrate the advantages of our method in simulations and in longitudinal, intensive care unit data of individuals with diabetes admitted for ketoacidosis.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/weiss17a.html
+  PDF: http://proceedings.mlr.press/v68/weiss17a/weiss17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-weiss17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jeremy C.
+    family: Weiss
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 1-12
+  id: weiss17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 1
+  lastpage: 12
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Spatially-Continuous Plantar Pressure Reconstruction Using Compressive Sensing'
+  abstract: 'Wearable technologies can benefit from compressive sensing (CS) as an efficient signal transformation, compression, and reconstruction technique. Among such technologies, in-shoe pressure monitoring systems are designed to continuously record plantar pressure distribution for various applications ranging from medical research to product development in sports and healthcare. To gather adequate information from plantar area, a high resolution spatial pressure reading is required. However, to achieve a practical wearable monitoring system with long battery life at a reasonable price, the number of sensors in the shoe must be very limited. In this paper, we employed CS principles to reconstruct spatially-continuous plantar pressure distribution from a small number of sensors (i.e. K < 10) based on a supervised dictionary learning approach. The learned dictionary transforms the high-resolution pressure distribution to a sparse representation which is accurately reconstructable using either orthogonal matching pursuit (OMP) or least absolute shrinkage and selection operator (LASSO) algorithm. Using plantar pressure data from 5 participants, we demonstrated that our method outperforms grid-based and non-gridded interpolation techniques even at K = 4 sensors such that the best interpolation needs more than K = 170 sensors to give the same reconstruction accuracy. With K = 4 sensors, we achieved a root mean squares (RMS) reconstruction error of 6.7 kPa per sensing cell while the error remained below 16 kPa for pressure values up to 160 kPa. Our algorithm is also shown to be robust in presence of measurement error and limited training data, therefore efficiently addresses the challenges encountered in production of commercial in-shoe monitoring systems.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/farnoosh17a.html
+  PDF: http://proceedings.mlr.press/v68/farnoosh17a/farnoosh17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-farnoosh17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Amirreza
+    family: Farnoosh
+  - given: Sarah
+    family: Ostadabbas
+  - given: Mehrdad
+    family: Nourani
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 13-24
+  id: farnoosh17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 13
+  lastpage: 24
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Classifying Lung Cancer Severity with Ensemble Machine Learning in Health Care Claims Data'
+  abstract: 'Research in oncology quality of care and health outcomes has been limited by the difficulty of identifying cancer stage in health care claims data. Using linked cancer registry and Medicare claims data, we develop a tool for classifying lung cancer patients receiving chemotherapy into early vs. late stage cancer by (i) deploying ensemble machine learning for prediction, (ii) establishing a set of classification rules for the predicted probabilities, and (iii) considering an augmented set of administrative claims data. We find our ensemble machine learning algorithm with a classification rule defined by the median substantially outperforms an existing clinical decision tree for this problem, yielding full sample performance of 93% sensitivity, 92% specificity, and 93% accuracy. This work has the potential for broad applicability as provider organizations, payers, and policy makers seek to measure quality and outcomes of cancer care and improve on risk adjustment methods.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/bergquist17a.html
+  PDF: http://proceedings.mlr.press/v68/bergquist17a/bergquist17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-bergquist17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Savannah L.
+    family: Bergquist
+  - given: Gabriel A.
+    family: Brooks
+  - given: Nancy L.
+    family: Keating
+  - given: Mary Beth
+    family: Landrum
+  - given: Sherri
+    family: Rose
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 25-38
+  id: bergquist17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 25
+  lastpage: 38
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Predicting long-term mortality with first week post-operative data after Coronary Artery Bypass Grafting using Machine Learning models'
+  abstract: 'Coronary Artery Bypass Graft (CABG) surgery is the most common cardiac operation and its complications are associated with increased long-term mortality rates. Although many factors are known to be linked to this, much remains to be understood about their exact influence on outcome. In this study we used Machine Learning (ML) algorithms to predict long-term mortality in CABG patients using data from routinely measured clinical parameters from a large cohort of CABG patients (n=5868). We compared the accuracy of 5 different ML models with traditional Cox and Logistic Regression, and report the most important variables in the best performing models. In the validation dataset, the Gradient Boosted Machine (GBM) algorithm was the most accurate (AUROC curve [95%CI] of 0.767 [0.739-0.796]), proving to be superior to traditional Cox and logistic regression (p <0.01) for long-term mortality prediction. Measures of variable importance for outcome prediction extracted from the GBM and Random Forest models partly reflected what is known in the literature, but interestingly also highlighted other unexpectedly relevant parameters. In conclusion, we found ML algorithm-based models to be more accurate than traditional Logistic Regression in predicting long-term mortality after CABG. Finally, these models may provide essential input to assist the development of intelligent decision support systems for clinical use.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/forte17a.html
+  PDF: http://proceedings.mlr.press/v68/forte17a/forte17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-forte17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jose Castela
+    family: Forte
+  - given: Marco A.
+    family: Wiering
+  - given: Hjalmar R.
+    family: Bouma
+  - given: Fred
+    family: Geus
+  - given: Anne H.
+    family: Epema
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 39-58
+  id: forte17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 39
+  lastpage: 58
+  published: 2017-11-06 00:00:00 +0000
+- title: 'ShortFuse: Biomedical Time Series Representations in the Presence of Structured Information'
+  abstract: 'In healthcare applications, temporal variables that encode movement, health status, and longitudinal patient evolution are often accompanied by rich structured information such as demographics, diagnostics and medical exam data. However, current methods do not jointly optimize over structured covariates and time series in the feature extraction process. We present ShortFuse, a method that boosts the accuracy of deep learning models for time series by explicitly modeling temporal interactions and dependencies with structured covariates. ShortFuse introduces hybrid convolutional and LSTM cells that incorporate the covariates via weights that are shared across the temporal domain. ShortFuse outperforms competing models by 3% on two biomedical applications, forecasting osteoarthritis-related cartilage degeneration and predicting surgical outcomes for cerebral palsy patients.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/fiterau17a.html
+  PDF: http://proceedings.mlr.press/v68/fiterau17a/fiterau17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-fiterau17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Madalina
+    family: Fiterau
+  - given: Suvrat
+    family: Bhooshan
+  - given: Jason
+    family: Fries
+  - given: Charles
+    family: Bournhonesque
+  - given: Jennifer
+    family: Hicks
+  - given: Eni
+    family: Halilaj
+  - given: Christopher
+    family: Re
+  - given: Scott
+    family: Delp
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 59-74
+  id: fiterau17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 59
+  lastpage: 74
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Towards Vision-Based Smart Hospitals: A System for Tracking and Monitoring Hand Hygiene Compliance'
+  abstract: 'One in twenty-five patients admitted to a hospital will suffer from a hospital acquired infection. If we can intelligently track healthcare staff, patients, and visitors, we can better understand the sources of such infections. We envision a smart hospital capable of increasing operational efficiency and improving patient care with less spending. In this paper, we propose a non-intrusive vision-based system for tracking people’s activity in hospitals. We evaluate our method for the problem of measuring hand hygiene compliance. Empirically, our method outperforms existing solutions such as proximity-based techniques and covert in-person observational studies. We present intuitive, qualitative results that analyze human movement patterns and conduct spatial analytics which convey our method’s interpretability. This work is a first step towards a computer-vision based smart hospital and demonstrates promising results for reducing hospital acquired infections.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/haque17a.html
+  PDF: http://proceedings.mlr.press/v68/haque17a/haque17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-haque17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Albert
+    family: Haque
+  - given: Michelle
+    family: Guo
+  - given: Alexandre
+    family: Alahi
+  - given: Serena
+    family: Yeung
+  - given: Zelun
+    family: Luo
+  - given: Alisha
+    family: Rege
+  - given: Jeffrey
+    family: Jopling
+  - given: Lance
+    family: Downing
+  - given: William
+    family: Beninati
+  - given: Amit
+    family: Singh
+  - given: Terry
+    family: Platchek
+  - given: Arnold
+    family: Milstein
+  - given: Li
+    family: Fei-Fei
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 75-87
+  id: haque17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 75
+  lastpage: 87
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Surgeon Technical Skill Assessment using Computer Vision based Analysis'
+  abstract: 'In this paper, we propose a computer vision based method to assess the technical skill level of surgeons by analyzing the movement of robotic instruments in robotic surgical videos. First, our method leverages the power of crowd workers on the internet to obtain high quality data in a scalable and cost-efficient way. Second, we utilize the high quality data to train an accurate and efficient robotic instrument tracker based on the state-of-the-art Hourglass Networks. Third, we assess the movement of the robotic instruments and automatically classify the technical level of a surgeon with a linear classifier, using peer evaluations of skill as the reference standard. Since the proposed method relies only on video data, this method has the potential to be transferred to other minimally invasive surgical procedures.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/law17a.html
+  PDF: http://proceedings.mlr.press/v68/law17a/law17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-law17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hei
+    family: Law
+  - given: Khurshid
+    family: Ghani
+  - given: Jia
+    family: Deng
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 88-99
+  id: law17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 88
+  lastpage: 99
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Predicting Surgery Duration with Neural Heteroscedastic Regression'
+  abstract: 'Scheduling surgeries is a challenging task due to the fundamental uncertainty of the clinical environment, as well as the risks and costs associated with under- and over-booking. We investigate neural regression algorithms to estimate the parameters of surgery case durations, focusing on the issue of heteroscedasticity. We seek to simultaneously estimate the duration of each surgery, as well as a surgery-specific notion of our uncertainty about its duration. Estimating this uncertainty can lead to more nuanced and effective scheduling strategies, as we are able to schedule surgeries more efficiently while allowing an informed and case-specific margin of error. Using surgery records from a large United States health system we demonstrate potential improvements on the order of 20% (in terms of minutes overbooked) compared to current scheduling techniques. Moreover, we demonstrate that surgery durations are indeed heteroscedastic. We show that models that estimate case-specific uncertainty better fit the data (log likelihood). Additionally, we show that the heteroscedastic predictions can more optimally trade off between over and under-booking minutes, especially when idle minutes and scheduling collisions confer disparate costs.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/ng17a.html
+  PDF: http://proceedings.mlr.press/v68/ng17a/ng17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-ng17a.md
+  issue: 26
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Nathan H
+    family: Ng
+  - given: Rodney A
+    family: Gabriel
+  - given: Julian
+    family: McAuley
+  - given: Charles
+    family: Elkan
+  - given: Zachary C
+    family: Lipton
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 100-111
+  id: ng17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 100
+  lastpage: 111
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Temporal prediction of multiple sclerosis evolution from patient-centered outcomes'
+  abstract: 'Multiple Sclerosis is a degenerative condition of the central nervous system that affects nearly 2.5 million of individuals in terms of their physical, cognitive, psychological and social capabilities. Despite the high variability of its clinical presentation, relapsing and progressive multiple sclerosis are considered the two main disease types, with the former possibly evolving into the latter. Recently, the attention of the medical community toward the use of patient-centered outcomes in multiple sclerosis has significantly increased. Such patient-friendly measures are devoted to the assessment of the impact of the disease on several domains of the patient life. In this work, we investigate on use of patient-centered outcomes to predict the evolution of the disease and to assess its impact on patients’ lives. To this aim, we build a novel temporal model based on gradient boosting classification and multiple-output elastic-net regression. The model provides clinically interpretable results along with accurate predictions of the disease course evolution.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/fiorini17a.html
+  PDF: http://proceedings.mlr.press/v68/fiorini17a/fiorini17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-fiorini17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Samuele
+    family: Fiorini
+  - given: Alessandro
+    family: Verri
+  - given: Annalisa
+    family: Barla
+  - given: Andrea
+    family: Tacchino
+  - given: Giampaolo
+    family: Brichetto
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 112-125
+  id: fiorini17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 112
+  lastpage: 125
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Clustering Patients with Tensor Decomposition'
+  abstract: 'In this paper we present a method for the unsupervised clustering of high-dimensional binary data, with a special focus on electronic healthcare records. We present a robust and efficient heuristic to face this problem using tensor decomposition. We present the reasons why this approach is preferable for tasks such as clustering patient records, to more commonly used distance-based methods. We run the algorithm on two datasets of healthcare records, obtaining clinically meaningful results.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/ruffini17a.html
+  PDF: http://proceedings.mlr.press/v68/ruffini17a/ruffini17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-ruffini17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Matteo
+    family: Ruffini
+  - given: Ricard
+    family: Gavalda
+  - given: Esther
+    family: Limon
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 126-146
+  id: ruffini17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 126
+  lastpage: 146
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Continuous State-Space Models for Optimal Sepsis Treatment: a Deep Reinforcement Learning Approach'
+  abstract: 'Sepsis is a leading cause of mortality in intensive care units (ICUs) and costs hospitals billions annually. Treating a septic patient is highly challenging, because individual patients respond very differently to medical interventions and there is no universally agreed-upon treatment for sepsis. Understanding more about a patient’s physiological state at a given time could hold the key to effective treatment policies. In this work, we propose a new approach to deduce optimal treatment policies for septic patients by using continuous state-space models and deep reinforcement learning. Learning treatment policies over continuous state-spaces is important, because doing so allows us to retain more of the patient’s physiological information. Our model is able to learn clinically interpretable treatment policies, similar in important aspects to the treatment policies of physicians. Evaluating our algorithm on past ICU patient data, we find that our model could reduce absolute patient mortality in the hospital by up to 3.6% over observed clinical policies. The learned treatment policies could be used to aid intensive care clinicians in medical decision making and improve the likelihood of patient survival.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/raghu17a.html
+  PDF: http://proceedings.mlr.press/v68/raghu17a/raghu17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-raghu17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Aniruddh
+    family: Raghu
+  - given: Matthieu
+    family: Komorowski
+  - given: Leo Anthony
+    family: Celi
+  - given: Peter
+    family: Szolovits
+  - given: Marzyeh
+    family: Ghassemi
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 147-163
+  id: raghu17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 147
+  lastpage: 163
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Modeling Progression Free Survival in Breast Cancer with Tensorized Recurrent Neural Networks and Accelerated Failure Time Models'
+  abstract: 'In this work we attempt to predict the progression-free survival time of metastatic breast cancer patients by combining state-of-the-art deep learning approaches with traditional survival analysis models. In order to tackle the challenge of sequential clinical records being both high-dimensional and sparse, we propose to apply a tensorized recurrent neural network architecture to extract a latent representation from the entire patient history. We use this as the input to an Accelerated Failure Time model that predicts the survival time. Our experiments, conducted on a large real-world clinical dataset, demonstrate that the tensorized recurrent neural network largely reduces the number of weight parameters and the training time. It also achieves modest improvements in prediction, in comparison with state-of-the-art recurrent neural network models enhanced with event embeddings.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/yang17a.html
+  PDF: http://proceedings.mlr.press/v68/yang17a/yang17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-yang17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yinchong
+    family: Yang
+  - given: Peter A.
+    family: Fasching
+  - given: Volker
+    family: Tresp
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 164-176
+  id: yang17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 164
+  lastpage: 176
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Hawkes Process Modeling of Adverse Drug Reactions with Longitudinal Observational Data'
+  abstract: 'Adverse drug reaction (ADR) discovery is the task of identifying unexpected and negative events caused by pharmaceutical products. This paper describes a log-linear Hawkes process model for ADR discovery from longitudinal observational data such as electronic health records (EHRs). The proposed method leverages the irregular time-stamped events in EHRs to represent the time-varying effect of various drugs on the occurrence rate of adverse events. Experimental results on a large-scale cohort of real-world EHRs demonstrate that the proposed method outperforms a leading approach, multiple self-controlled case series (Simpson et al., 2013), in identifying benchmark ADRs defined by the Observational Medical Outcomes Partnership.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/bao17a.html
+  PDF: http://proceedings.mlr.press/v68/bao17a/bao17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-bao17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yujia
+    family: Bao
+  - given: Zhaobin
+    family: Kuang
+  - given: Peggy
+    family: Peissig
+  - given: David
+    family: Page
+  - given: Rebecca
+    family: Willett
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 177-190
+  id: bao17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 177
+  lastpage: 190
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Patient Similarity Using Population Statistics and Multiple Kernel Learning'
+  abstract: 'We present a multiple kernel learning framework to learn similarity functions that compare physiological state between patients. A powerful ensemble kernel is learned from many base kernels evaluated on individual features. Our proposed framework captures two aspects of patient similarity: that patient similarity should be dependent on clinical context and that similarity should be modulated by the frequency and specificity of individual feature values. We validate our model on ICU data to predict hemodynamic instability and present analyses on using the patient similarity function to construct personalized cohorts. Our experiments show that the statistical properties learned by the kernels functions based on feature population distributions are significantly more predictive than naive stationary kernels (e.g. RBFs). Population-based kernels outperform RBF’s in identifying patient cohorts based on abnormality of their vitals and lab measurements and at predicting mortality.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/conroy17a.html
+  PDF: http://proceedings.mlr.press/v68/conroy17a/conroy17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-conroy17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Bryan
+    family: Conroy
+  - given: Minnan
+    family: Xu-Wilson
+  - given: Asif
+    family: Rahman
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 191-203
+  id: conroy17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 191
+  lastpage: 203
+  published: 2017-11-06 00:00:00 +0000
+- title: 'A Video-Based Method for Automatically Rating Ataxia'
+  abstract: 'For many movement disorders, such as Parkinson’s disease and ataxia, disease progression is visually assessed by a clinician using a numerical disease rating scale. These tests are subjective, time-consuming, and must be administered by a professional. This can be problematic where specialists are not available, or when a patient is not consistently evaluated by the same clinician. We present an automated method for quantifying the severity of motion impairment in patients with ataxia, using only video recordings. We consider videos of the finger-to-nose test, a common movement task used as part of the assessment of ataxia progression during the course of routine clinical checkups. Our method uses neural network-based pose estimation and optical flow techniques to track the motion of the patient’s hand in a video recording. We extract features that describe qualities of the motion such as speed and variation in performance. Using labels provided by an expert clinician, we train a supervised learning model that predicts severity according to the Brief Ataxia Rating Scale (BARS). The performance of our system is comparable to that of a group of ataxia specialists in terms of mean error and correlation, and our system’s predictions were consistently within the range of inter-rater variability. This work demonstrates the feasibility of using computer vision and machine learning to produce consistent and clinically useful measures of motor impairment.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/jaroensri17a.html
+  PDF: http://proceedings.mlr.press/v68/jaroensri17a/jaroensri17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-jaroensri17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ronnachai
+    family: Jaroensri
+  - given: Amy
+    family: Zhao
+  - given: Guha
+    family: Balakrishnan
+  - given: Derek
+    family: Lo
+  - given: Jeremy D.
+    family: Schmahmann
+  - given: Fredo
+    family: Durand
+  - given: John
+    family: Guttag
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 204-216
+  id: jaroensri17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 204
+  lastpage: 216
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Visualizing Clinical Significance with Prediction and Tolerance Regions'
+  abstract: 'The goal of this work is to better convey the evidence for or against clinically significant differences in patient outcomes induced by different treatment policies. In pursuit of this goal, we present a framework for computing and presenting prediction regions and tolerance regions for the outcomes of a treatment policy operating within a multi-objective Markov decision process (MOMDP). Our framework draws on two bodies of existing work, one in computer science for learning in MOMDPs, and one in statistics for uncertainty quantification. We review the relevant methods from each body of work, present our framework, and illustrate its use using data from the Clinical Antipsychotic Trials of Intervention Effectiveness (Schizophrenia). Finally, we discuss potential future directions of this work for supporting sequential decision-making.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/jahja17a.html
+  PDF: http://proceedings.mlr.press/v68/jahja17a/jahja17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-jahja17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Maria
+    family: Jahja
+  - given: Daniel J.
+    family: Lizotte
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 217-230
+  id: jahja17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 217
+  lastpage: 230
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Predictive Hierarchical Clustering: Learning clusters of CPT codes for improving surgical outcomes'
+  abstract: 'We develop a novel algorithm, Predictive Hierarchical Clustering (PHC), for agglomerative hierarchical clustering of current procedural terminology (CPT) codes. Our predictive hierarchical clustering aims to cluster subgroups, not individual observations, found within our data, such that the clusters discovered result in optimal performance of a classification model. Therefore, merges are chosen based on a Bayesian hypothesis test, which chooses pairings of the subgroups that result in the best model fit, as measured by held out predictive likelihoods. We place a Dirichlet prior on the probability of merging clusters, allowing us to adjust the size and sparsity of clusters. The motivation is to predict patient-specific surgical outcomes using data from ACS NSQIP (American College of Surgeon’s National Surgical Quality Improvement Program). An important predictor of surgical outcomes is the actual surgical procedure performed as described by a CPT code. We use PHC to cluster CPT codes, represented as subgroups, together in a way that enables us to better predict patient-specific outcomes compared to currently used clusters based on clinical judgment.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/lorenzi17a.html
+  PDF: http://proceedings.mlr.press/v68/lorenzi17a/lorenzi17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-lorenzi17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Elizabeth C.
+    family: Lorenzi
+  - given: Stephanie L.
+    family: Brown
+  - given: Zhifei
+    family: Sun
+  - given: Katherine
+    family: Heller
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 231-242
+  id: lorenzi17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 231
+  lastpage: 242
+  published: 2017-11-06 00:00:00 +0000
+- title: 'An Improved Multi-Output Gaussian Process RNN with Real-Time Validation for Early Sepsis Detection'
+  abstract: 'Sepsis is a poorly understood and potentially life-threatening complication that can occur as a result of infection. Early detection and treatmenz improves patient outcomes, and as such it poses an important challenge in medicine. In this work, we develop a flexible classifier that leverages streaming lab results, vitals, and medications to predict sepsis before it occurs. We model patient clinical time series with multi-output Gaussian processes, maintaining uncertainty about the physiological state of a patient while also imputing missing values. The mean function takes into account the effects of medications administered on the trajectories of the physiological variables. Latent function values from the Gaussian process are then fed into a deep recurrent neural network to classify patient encounters as septic or not, and the overall model is trained end-to-end using back-propagation. We train and validate our model on a large dataset of 18 months of heterogeneous inpatient stays from the Duke University Health System, and develop a new “real-time” validation scheme for simulat-ing the performance of our model as it will actually be used. Our proposed method substantially outperforms clinical baselines, and improves on a previous related model for detecting sepsis. Our model’s predictions will be displayed in a real-time analytics dashboard to be used by a sepsis rapid response team to help detect and improve treatment of sepsis.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/futoma17a.html
+  PDF: http://proceedings.mlr.press/v68/futoma17a/futoma17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-futoma17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph
+    family: Futoma
+  - given: Sanjay
+    family: Hariharan
+  - given: Katherine
+    family: Heller
+  - given: Mark
+    family: Sendak
+  - given: Nathan
+    family: Brajer
+  - given: Meredith
+    family: Clement
+  - given: Armando
+    family: Bedoya
+  - given: Cara
+    family: O’Brien
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 243-254
+  id: futoma17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 243
+  lastpage: 254
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Marked Point Process for Severity of Illness Assessment'
+  abstract: 'Electronic Health Records (EHRs) consist of sparse, noisy, incomplete, heterogeneous and unevenly sampled clinical data of patients. They include physiological signals, lab test results, procedural events, clinical notes. Such data can be treated as a temporal stream of events of varied types occurring at irregularly spaced time points. We focus on modeling the temporal dependencies that arise due to the types, timings, and values of different events in such data. We model the event streams, including vital signs, laboratory results contained in two different datasets (MIMIC III — Medical Information Mart for Intensive Care clinical database — and data extracted from EHRs of patients in a tertiary pediatric intensive care unit) using a piecewise-constant conditional intensity model (PCIM), a type of marked point process. Our experiments capture meaningful temporal dependencies and show improvement in hospital mortality prediction over traditional ICU scoring systems.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/islam17a.html
+  PDF: http://proceedings.mlr.press/v68/islam17a/islam17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-islam17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Kazi T.
+    family: Islam
+  - given: Christian R.
+    family: Shelton
+  - given: Juan I.
+    family: Casse
+  - given: Randall
+    family: Wetzel
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 255-270
+  id: islam17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 255
+  lastpage: 270
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Diagnostic Inferencing via Improving Clinical Concept Extraction with Deep Reinforcement Learning: A Preliminary Study'
+  abstract: 'Clinical diagnostic inferencing is a complex task, which often requires significant medical research and investigation based on an underlying clinical scenario. This paper proposes a novel approach by formulating the task as a reinforcement learning problem such that the system can infer the most probable diagnoses by optimizing clinical concept extraction from a free text case narrative via leveraging relevant external evidence. Such a formulation is deemed to be suitable due to the inherent complexity of the task and unavailability of sufficient annotated data. During training, the agent tries to learn the optimal policy through iterative search and consolidation of the most relevant clinical concepts that best describe a correct diagnosis. A deep Q-network architecture is trained to optimize a reward function that measures the accuracy of the candidate diagnoses and clinical concepts. Our preliminary experiments on the TREC CDS dataset demonstrate the effectiveness of our system over non-reinforcement learning-based strong baselines.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/ling17a.html
+  PDF: http://proceedings.mlr.press/v68/ling17a/ling17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-ling17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuan
+    family: Ling
+  - given: Sadid A.
+    family: Hasan
+  - given: Vivek
+    family: Datla
+  - given: Ashequl
+    family: Qadir
+  - given: Kathy
+    family: Lee
+  - given: Joey
+    family: Liu
+  - given: Oladimeji
+    family: Farri
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 271-285
+  id: ling17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 271
+  lastpage: 285
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Generating Multi-label Discrete Patient Records using Generative Adversarial Networks'
+  abstract: 'Access to electronic health record (EHR) data has motivated computational advances in medical research. However, various concerns, particularly over privacy, can limit access to and collaborative use of EHR data. Sharing synthetic EHR data could mitigate risk. In this paper, we propose a new approach, medical Generative Adversarial Network (medGAN), to generate realistic synthetic patient records. Based on input real patient records, medGAN can generate high-dimensional discrete variables (e.g., binary and count features) via a combination of an autoencoder and generative adversarial networks. We also propose minibatch averaging to efficiently avoid mode collapse, and increase the learning efficiency with batch normalization and shortcut connections. To demonstrate feasibility, we showed that medGAN generates synthetic patient records that achieve comparable performance to real data on many experiments including distribution statistics, predictive modeling tasks and a medical expert review. We also empirically observe a limited privacy risk in both identity and attribute disclosure using medGAN.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/choi17a.html
+  PDF: http://proceedings.mlr.press/v68/choi17a/choi17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-choi17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Edward
+    family: Choi
+  - given: Siddharth
+    family: Biswal
+  - given: Bradley
+    family: Malin
+  - given: Jon
+    family: Duke
+  - given: Walter F.
+    family: Stewart
+  - given: Jimeng
+    family: Sun
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 286-305
+  id: choi17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 286
+  lastpage: 305
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Quantifying Mental Health from Social Media with Neural User Embeddings'
+  abstract: 'Mental illnesses adversely affect a significant proportion of the population worldwide. However, the typical methods to estimate and characterize the prevalence of mental health conditions are time-consuming and expensive. Consequently, best-available estimates concerning the prevalence of these conditions are often years out of date. Automated approaches that supplement traditional methods with broad, aggregated information derived from social media provide a potential means of furnishing near real-time estimates at scale. These may in turn provide grist for supporting, evaluating and iteratively improving public health programs and interventions. We propose a novel approach for mental health quantification that leverages user em-beddings induced from social media post histories. Recent work showed that learned user representations capture latent aspects of individuals (e.g., political leanings). This paper investigates whether these representations also correlate with mental health statuses. To this end, we induced embeddings for a set of users known to be affected by depression and post-traumatic stress disorder, and for a set of demographically matched ‘control’ users. We then evaluated the induced user representations with respect to: (i) their ability to capture homophilic relations with respect to mental health statuses; and (ii) their predictive performance in downstream mental health models. Our experimental results demonstrate that learned user embeddings capture relevant signals for mental health quantification.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/amir17a.html
+  PDF: http://proceedings.mlr.press/v68/amir17a/amir17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-amir17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Silvio
+    family: Amir
+  - given: Glen
+    family: Coppersmith
+  - given: Paula
+    family: Carvalho
+  - given: Mario J.
+    family: Silva
+  - given: Bryon C.
+    family: Wallace
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 306-321
+  id: amir17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 306
+  lastpage: 321
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Clinical Intervention Prediction and Understanding with Deep Neural Networks'
+  abstract: 'Real-time prediction of clinical interventions remains a challenge within intensive care units (ICUs). This task is complicated by data sources that are sparse, noisy, heterogeneous and outcomes that are imbalanced. In this work, we integrate data across many ICU sources — vitals, labs, notes, demographics — and focus on learning rich representations of this data to predict onset and weaning of multiple invasive interventions. In particular, we compare both long short-term memory networks (LSTM) and convolutional neural networks (CNN) for prediction of five intervention tasks: invasive ventilation, non-invasive ventilation, vasopressors, colloid boluses, and crystalloid boluses. Our predictions are done in a forward-facing manner after a six hour gap time to support clinically actionable planning. We achieve state-of-the-art results on these predictive tasks using deep architectures. Further, we explore the use of feature occlusion to interpret LSTM models, and compare this to the interpretability gained from examining inputs that maximally activate CNN outputs. We show that our models are able to significantly outperform baselines for intervention prediction, and provide insight into model learning.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/suresh17a.html
+  PDF: http://proceedings.mlr.press/v68/suresh17a/suresh17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-suresh17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Harini
+    family: Suresh
+  - given: Nathan
+    family: Hunt
+  - given: Alistair
+    family: Johnson
+  - given: Leo Anthony
+    family: Celi
+  - given: Peter
+    family: Szolovits
+  - given: Marzyeh
+    family: Ghassemi
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 322-337
+  id: suresh17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 322
+  lastpage: 337
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Understanding Coagulopathy using Multi-view Data in the Presence of Sub-Cohorts: A Hierarchical Subspace Approach'
+  abstract: 'Death from trauma is most often the result of uncontrollable bleeding as a result of Acute Traumatic Coagulopathy (ATC), a disease that manifests itself differently in different sub-cohorts of trauma patients. Understanding the mechanisms of ATC and how existing patient tests can inform us about these mechanisms is key to treating the disease. We introduce a hierarchical Canonical Correlation Analysis (CCA) model that captures a lower dimensional representation of the coagulation system based on blood protein and other tests. The hierarchial nature of the model is ideal in the setting where multiple sub-cohorts are present, but statistical strength can reasonably be borrowed from similar groups. We illustrate how the model may be useful in understanding and treating ATC.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/pourzanjani17a.html
+  PDF: http://proceedings.mlr.press/v68/pourzanjani17a/pourzanjani17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-pourzanjani17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Arya A.
+    family: Pourzanjani
+  - given: Tie Bo
+    family: Wu
+  - given: Richard M.
+    family: Jiang
+  - given: Mitchell J.
+    family: Cohen
+  - given: Linda R.
+    family: Petzold
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 338-351
+  id: pourzanjani17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 338
+  lastpage: 351
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Towards a Directory of Rare Disease Specialists: Identifying Experts from Publication History'
+  abstract: 'Accurate referral to a medical specialist is a challenging part of medical care, especially for patients with rare diseases. Because of the diversity of rare diseases, finding a specialist that has experience with the particular rare disease is important. This burden often falls on the patients and families, but they do not necessarily have the time or scientific expertise to evaluate the medical literature to identify experts. To help patients, families, and general practitioners find specialists in a particular rare disease, we trained machine learning models to predict the expertise of researchers in every rare disease based on their publication record. We compile a dataset of 209,110 disease-author associations from the literature and evaluate the performance of six machine learning methods, classifying known rare disease experts with 79.4% accuracy and predicting 41,129 disease-expert associations.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/wang17a.html
+  PDF: http://proceedings.mlr.press/v68/wang17a/wang17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-wang17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zihan
+    family: Wang
+  - given: Michael
+    family: Brudno
+  - given: Orion
+    family: Buske
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 352-360
+  id: wang17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 352
+  lastpage: 360
+  published: 2017-11-06 00:00:00 +0000
+- title: 'Reproducibility in critical care: a mortality prediction case study'
+  abstract: 'Mortality prediction of intensive care unit (ICU) patients facilitates hospital benchmarking and has the opportunity to provide caregivers with useful summaries of patient health at the bedside. The development of novel models for mortality prediction is a popular task in machine learning, with researchers typically seeking to maximize measures such as the area under the receiver operator characteristic curve (AUROC). The number of ’researcher degrees of freedom’ that contribute to the performance of a model, however, presents a challenge when seeking to compare reported performance of such models. In this study, we review publications that have reported performance of mortality prediction models based on the Medical Information Mart for Intensive Care (MIMIC) database and attempt to reproduce the cohorts used in their studies. We then compare the performance reported in the studies against gradient boosting and logistic regression models using a simple set of features extracted from MIMIC. We demonstrate the large heterogeneity in studies that purport to conduct the single task of ’mortality prediction’, highlighting the need for improvements in the way that prediction tasks are reported to enable fairer comparison between models. We reproduced datasets for 38 experiments corresponding to 28 published studies using MIMIC. In half of the experiments, the sample size we acquired was 25% greater or smaller than the sample size reported. The highest discrepancy was 11,767 patients. While accurate reproduction of each study cannot be guaranteed, we believe that these results highlight the need for more consistent reporting of model design and methodology to allow performance improvements to be compared. We discuss the challenges in reproducing the cohorts used in the studies, highlighting the importance of clearly reported methods (e.g. data cleansing, variable selection, cohort selection) and the need for open code and publicly available benchmarks.'
+  volume: 68
+  URL: https://proceedings.mlr.press/v68/johnson17a.html
+  PDF: http://proceedings.mlr.press/v68/johnson17a/johnson17a.pdf
+  edit: https://github.com/mlresearch//v68/edit/gh-pages/_posts/2017-11-06-johnson17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the 2nd Machine Learning for Healthcare Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Alistair E. W.
+    family: Johnson
+  - given: Tom J.
+    family: Pollard
+  - given: Roger G.
+    family: Mark
+  editor: 
+  - given: Finale
+    family: Doshi-Velez
+  - given: Jim
+    family: Fackler
+  - given: David
+    family: Kale
+  - given: Rajesh
+    family: Ranganath
+  - given: Byron
+    family: Wallace
+  - given: Jenna
+    family: Wiens
+  page: 361-376
+  id: johnson17a
+  issued:
+    date-parts: 
+      - 2017
+      - 11
+      - 6
+  firstpage: 361
+  lastpage: 376
+  published: 2017-11-06 00:00:00 +0000

@@ -1,0 +1,755 @@
+
+- title: 'Preface'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/coste23a.html
+  PDF: https://proceedings.mlr.press/v217/coste23a/coste23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-coste23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 1-3
+  id: coste23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 1
+  lastpage: 3
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Learning of Regular Languages by Recurrent Neural Networks? (Mainly Questions)'
+  abstract: 'Recurrent neural network architectures were introduced over 30 years ago. From the start attention focused on their performance at learning regular languages using some variant of gradient descent. This talk reviews some of the history of that research, includes some empirical observations, and emphasizes questions to which we still seek answers.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/angluin23a.html
+  PDF: https://proceedings.mlr.press/v217/angluin23a/angluin23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-angluin23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Dana
+    family: Angluin
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 4-4
+  id: angluin23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 4
+  lastpage: 4
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Formal languages and neural models for learning on sequences'
+  abstract: 'The empirical success of deep learning in NLP and related fields motivates understanding the model of grammar implicit within neural networks on a theoretical level. In this tutorial, I will overview recent empirical and theoretical insights on the power of neural networks as formal language recognizers. We will cover the classical proof that infinite-precision RNNs are Turing-complete, formal analysis and experiments comparing the relative power of different finite-precision RNN architectures, and recent work characterizing transformers as language recognizers using circuits and logic. We may also cover applications of this work, including the extraction of discrete models from neural networks. Hopefully, the tutorial will synthesize different analysis frameworks and findings about neural networks into a coherent narrative, and provide a call to action for the ICGI community to engage with exciting open questions.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/merrill23a.html
+  PDF: https://proceedings.mlr.press/v217/merrill23a/merrill23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-merrill23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: William
+    family: Merrill
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 5-5
+  id: merrill23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 5
+  lastpage: 5
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Weighted Finite Automata with Failure Transitions: Algorithms and Applications'
+  abstract: 'Weighted finite automata (WFA) are used in many applications including speech recognition, speech synthesis, machine translation, computational biology, image processing, and optical character recognition. Such applications often have strict time and memory requirements, so efficient representations and algorithms are paramount. We examine one useful technique, the use of failure transitions, to represent automata compactly. A failure transition is taken only when no immediate match to the input is possible at a given state. Automata with failure transitions, initially introduced for string matching problems, have found wider use including compactly representing language, pronunciation, transliteration and semantic models. In this talk, we will address the extension of several weighted finite automata algorithms to automata with failure transitions ($\Phi$-WFAs). Efficient algorithms to intersect two $\Phi$-WFAs, to remove failure transitions, to trim, and to compute the shortest distance in a $\Phi$-WFA will be presented. We will demonstrate the application of some of these algorithms on two language modeling tasks: the distillation of arbitrary probabilistic models as weighted finite automata with failure transitions and the federated learning of n-gram language models. We will show the relevance of these methods to the privacy-preserving training of language models for virtual keyboard applications for mobile devices. This talk covers work in collaboration with Michael Riley, Ananda Theertha Suresh, Brian Roark, Vlad Schogol, Mingqing Chen, Rajiv Mathews, Adeline Wong, and Françoise Beaufays.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/allauzen23a.html
+  PDF: https://proceedings.mlr.press/v217/allauzen23a/allauzen23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-allauzen23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Cyril
+    family: Allauzen
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 6-6
+  id: allauzen23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 6
+  lastpage: 6
+  published: 2023-07-05 00:00:00 +0000
+- title: 'A journey into the Generative AI and large language models: From NLP to BioInformatics'
+  abstract: 'In the last year, the generative AI field has seen a remarkable breakthrough, specifically the generative ai models and their applications in the natural language processing domain. It has achieved new state-of-the-art results on all public datasets and super human-level chatting capabilities. The backbone of this breakthrough is the large language models, including OpenAI GPT and Google Palm. The advantages of these large language models are that they can effectively capture the semantic, syntactic, grammar, and meaning of characters, words, and sentences from large unlabelled datasets using self-supervised learning. Later it can be used to represent sentences and documents better through embedding or as a zero/multi-shot learning method for many NLP tasks. Fortunately, these models have started to be leveraged in other fields like bioinformatics and biochemistry. This talk will give an overview of the large language models and how it was applied in the Bioinformatics field to boost the performance on many use cases. Furthermore, it will show how high-performance computing and optimized deep-learning software and libraries allowed these models to be faster and more efficient during training and inference.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/elnaggar23a.html
+  PDF: https://proceedings.mlr.press/v217/elnaggar23a/elnaggar23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-elnaggar23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ahmed
+    family: Elnaggar
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 7-7
+  id: elnaggar23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 7
+  lastpage: 7
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Extending Distributional Learning from Positive Data and Membership Queries'
+  abstract: 'We consider an extension of distributional learning of context-free languages (from positive data and membership queries), where nonterminals are represented by extended regular expressions (allowing all Boolean operations) augmented by atoms corresponding to membership queries. These nonterminals classify a string based not just on its distribution, but also on the distributions of its substrings. The learning algorithm for this extension works in essentially the same way as in previous works on distributional learning, while targeting a significantly larger class of context-free languages.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/kanazawa23a.html
+  PDF: https://proceedings.mlr.press/v217/kanazawa23a/kanazawa23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-kanazawa23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 8-22
+  id: kanazawa23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 8
+  lastpage: 22
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Identification of Substitutable Context-Free Languages over Infinite Alphabets from Positive Data'
+  abstract: 'This paper is concerned with the identification in the limit from positive data of substitutable context-free languages \textsc{cfl}s) over infinite alphabets. citet{ClarkE07} showed that substitutable \textsc{cfl}s over finite alphabets are learnable in this learning paradigm. We show that substitutable \textsc{cfl}s generated by grammars whose production rules may have \emph{predicates} that represent sets of potentially infinitely many terminal symbols in a compact manner are learnable if the terminal symbol sets represented by those predicates are learnable, under a certain condition. This can be seen as a result parallel to citeauthor{ArgyrosDA2018}’s work (2018) that amplifies the query learnability of predicate classes to that of symbolic automata classes. Our result is the first that shows such amplification is possible for identifying some \textsc{cfl}s in the limit from positive data.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/numaya23a.html
+  PDF: https://proceedings.mlr.press/v217/numaya23a/numaya23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-numaya23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yutaro
+    family: Numaya
+  - given: Diptarama
+    family: Hendrian
+  - given: Ryo
+    family: Yoshinaka
+  - given: Ayumi
+    family: Shinohara
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 23-34
+  id: numaya23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 23
+  lastpage: 34
+  published: 2023-07-05 00:00:00 +0000
+- title: 'A Procedure for Inferring a Minimalist Lexicon from an SMT Model of a Language Acquisition Device '
+  abstract: 'We introduce a constraint-based procedure for inferring a Minimalist Grammar (MG) that falls within the “Logic Grammar” framework. The procedure, implemented as a working computer program, takes as input an MG lexicon and a sequence of sentences paired with their semantic representation, and outputs an MG lexicon that is a superset of the input lexicon and that yields for each input sentence a syntatic structure encoding the associated semantic representation. The procedure operates by first constructing an SMT model of a language acquisition device that is constrained by the input lexicon and the (sentence, semantic-representation) pairs, and then using an SMT-solver to identify a model-solution in which the lexicon is optimized for parsimony. We show how the procedure can be used to form a computational model of a child language learner, presenting two experiments in which the procedure is used for instantaneous and incremental acquisition of an MG lexicon, and find that the optimal MG lexicons inferred by the procedure yield derivations that agree with the prescriptions of contemporary theories of minimalist syntax.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/indurkhya23a.html
+  PDF: https://proceedings.mlr.press/v217/indurkhya23a/indurkhya23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-indurkhya23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sagar
+    family: Indurkhya
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 35-58
+  id: indurkhya23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 35
+  lastpage: 58
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Learning Syntactic Monoids from Samples by extending known Algorithms for learning State Machines'
+  abstract: 'For the inference of regular languages, most current methods learn a version of deterministic finite automata. Syntactic monoids are an alternative representation of regular languages, which have some advantages over automata. For example, traces can be parsed starting from any index and the star-freeness of the language they represent can be checked in polynomial time. But, to date, there existed no passive learning algorithm for syntactic monoids. In this paper, we prove that known state-merging algorithms for learning deterministic finite automata can be instrumented to learn syntactic monoids instead, by using as the input a special structure proposed in this paper: the interfix-graph. Further, we introduce a method to encode frequencies on the interfix-graph, such that models can also be learned from only positive traces. We implemented this structure and performed experiments with both traditional data and data containing only positive traces. As such this work answers basic theoretical and experimental questions regarding a novel passive learning algorithm for syntactic monoids.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/dieck23a.html
+  PDF: https://proceedings.mlr.press/v217/dieck23a/dieck23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-dieck23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Simon
+    family: Dieck
+  - given: Sicco
+    family: Verwer
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 59-79
+  id: dieck23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 59
+  lastpage: 79
+  published: 2023-07-05 00:00:00 +0000
+- title: 'String Extension Learning Despite Noisy Intrusions'
+  abstract: 'We examine the conditions in which string extension learning algorithms are able to identify classes of formal languages in the limit from noisy data presentations in polynomial time.  A data presentation for a formal language $L$ is noisy if it contains words belonging to the complement of $L$. In the general case, string extensions learners cannot distinguish noise from true examples and are led astray. The main result is that relative frequencies can be used to distinguish noisy examples from true examples provided the data presentations are constrained to those in which relative frequencies are uniformly present and exceed the rate at which noise is introduced.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/wu23a.html
+  PDF: https://proceedings.mlr.press/v217/wu23a/wu23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-wu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Katherine
+    family: Wu
+  - given: Jeffrey
+    family: Heinz
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 80-95
+  id: wu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 80
+  lastpage: 95
+  published: 2023-07-05 00:00:00 +0000
+- title: 'fAST: regular expression inference from positive examples using Abstract Syntax Trees'
+  abstract: 'Our paper presents a new algorithm that infers a regular expression matching a given set of strings known as \emph{positive examples}\footnote{Positive (resp. negative) examples are strings that do (resp. do not) belong to the target language.}.  This algorithm has practical applications in automating file parsing for files with an unknown template.  In practice, prior works hardly apply because they require negative examples and hardly scale. By restricting to positive examples, the problem becomes especially challenging: many regular expressions can match the set of positive examples, but only a few are useful in practice.  To assess the quality of a regular expression, we introduce two performance metrics, called accuracy and conciseness.  The contributions of the paper are threefold. First, we introduce an algorithm that infers a regular expression from positive examples only while optimizing accuracy and conciseness. Second, we adapt this algorithm to generate a regular expression based on a set of predefined patterns. Third, we demonstrate the tractability and the usefulness of our solution by performing experiments on synthesized and real-world datasets.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/raynal23a.html
+  PDF: https://proceedings.mlr.press/v217/raynal23a/raynal23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-raynal23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Maxime
+    family: Raynal
+  - given: Marc-Olivier
+    family: Buob
+  - given: Georges
+    family: Quénot
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 96-116
+  id: raynal23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 96
+  lastpage: 116
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Learning state machines from data streams: A generic strategy and an improved heuristic'
+  abstract: 'State machines models are models that simulate the behavior of discrete event systems, capable of representing systems such as software systems, network interactions, and control systems, and have been researched extensively. The nature of most learning algorithms however is the assumption that all data be available at the begining of the algorithm, and little research has been done in learning state machines from streaming data. In this paper, we want to close this gap further by presenting a generic method for learning state machines from data streams, as well as a merge heuristic that uses sketches to account for incomplete prefix trees. We implement our approach in an open-source state merging library and compare it with existing methods. We show the effectiveness of our approach with respect to run-time, memory consumption, and quality of results on a well known open dataset.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/baumgartner23a.html
+  PDF: https://proceedings.mlr.press/v217/baumgartner23a/baumgartner23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-baumgartner23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Robert
+    family: Baumgartner
+  - given: Sicco
+    family: Verwer
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 117-141
+  id: baumgartner23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 117
+  lastpage: 141
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Detecting Changes in Loop Behavior for Active Learning'
+  abstract: 'Active automaton learning is a popular approach for building models of software systems. The approach forms a hypothesis model from observations and then performs a heuristic equivalence query to check if the learned model is equal to the model under test. The current methods for equivalence queries, however often fail to find counterexamples when encountering loops, one of the most common control structures in software. We introduce two novel equivalence checkers that better handle loops. One extends the well-known W-Method, and the other uses symbolic execution. Both methods are tested on RERS challenge problems. We show that our approaches find more counterexamples on suitable problems and thus learn more accurate models. We further test our symbolic execution approach outside active learning and show that it finds more errors than the state-of-the-art method Klee on several problems.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/verboom23a.html
+  PDF: https://proceedings.mlr.press/v217/verboom23a/verboom23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-verboom23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Bram
+    family: Verboom
+  - given: Simon
+    family: Dieck
+  - given: Sicco
+    family: Verwer
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 142-156
+  id: verboom23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 142
+  lastpage: 156
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Lower Bounds for Active Automata Learning'
+  abstract: 'We study lower bounds for the number of output and equivalence queries required for active learning of finite state machines, with a focus on $L^{#}$, a new learning algorithm that requires fewer queries for learning than other state-of-the-art algorithms on a large collection of benchmarks.  We improve the lower bound of cite{BalcazarDG97} on the combined number of output and equivalence queries required by any learning algorithm, and give a simpler proof. We prove that in the worst case $L^{#}$ needs $n-1$ equivalence queries to learn an FSM with $n$ states, and establish lower bounds on the number of output queries needed by $L^{#}$ in the worst case. In practical applications, the maximum length of the shortest separating sequence for all pairs of inequivalent states (MS3) is often just $1$ or $2$. We present $L^{#}_h$, a version of $L^{#}$ with bounded lookahead $h$, which learns FSMs with an MS3 of at most $h$ without requiring any equivalence queries, and give lower and upper bounds on its complexity.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/kruger23a.html
+  PDF: https://proceedings.mlr.press/v217/kruger23a/kruger23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-kruger23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Loes
+    family: Kruger
+  - given: Bharat
+    family: Garhewal
+  - given: Frits
+    family: Vaandrager
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 157-180
+  id: kruger23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 157
+  lastpage: 180
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Benchmarking State-Merging Algorithms for Learning Regular Languages'
+  abstract: 'The state-merging algorithms RPNI, EDSM, and ALERGIA are tested on MLRegTest, a benchmark for the learning of regular languages citep{heinz-etal-2022-mlregtest}. MLRegTest contains training, development, and test data for 1,800 regular languages, which themselves are from several well-studied subregular classes. The results show that there is large variation in the performance of these algorithms on the benchmark with EDSM performing the best overall. Furthermore, the mean accuracies on the test data for all three state-merging algorithms are less than the mean accuracies obtained by the neural networks citet{heinz-etal-2022-mlregtest} studied. A further experiment augments the training data in MLRegtest with shorter strings and shows they dramatically improve the performance of the state-merging algorithms.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/soubki23a.html
+  PDF: https://proceedings.mlr.press/v217/soubki23a/soubki23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-soubki23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Adil
+    family: Soubki
+  - given: Jeffrey
+    family: Heinz
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 181-198
+  id: soubki23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 181
+  lastpage: 198
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Formal and Empirical Studies of Counting Behaviour in ReLU RNNs'
+  abstract: 'In recent years, the discussion about systematicity of neural network learning has gained renewed interest, in particular the formal analysis of neural network behaviour.  In this paper, we investigate the capability of single-cell ReLU RNN models to demonstrate precise counting behaviour.  Formally, we start by characterising the semi-Dyck-1 language and semi-Dyck-1 counter machine that can be implemented by a single Rectified Linear Unit (ReLU) cell. We define three Counter Indicator Conditions (CICs) on the weights of a ReLU cell and show that fulfilling these conditions is equivalent to accepting the semi-Dyck-1 language, i.e. to perform exact counting.  Empirically, we study the ability of single-cell ReLU RNNs to learn to count by training and testing them on different datasets of Dyck-1 and semi-Dyck-1 strings.  While networks that satisfy the CICs count exactly and thus correctly even on very long strings, the trained networks exhibit a wide range of results and never satisfy the CICs exactly.  We investigate the effect of deviating from the CICs and find that configurations that fulfil the CICs are not at a minimum of the loss function in the most common setups.  This is consistent with observations in previous research indicating that training ReLU networks for counting tasks often leads to poor results.  We finally discuss implications of these results and possible avenues for improving network behaviour.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/el-naggar23a.html
+  PDF: https://proceedings.mlr.press/v217/el-naggar23a/el-naggar23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-el-naggar23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Nadine
+    family: El-Naggar
+  - given: Andrew
+    family: Ryzhikov
+  - given: Laure
+    family: Daviaud
+  - given: Pranava
+    family: Madhyastha
+  - given: Tillman
+    family: Weyde
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 199-222
+  id: el-naggar23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 199
+  lastpage: 222
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Learning Transductions and Alignments with RNN Seq2seq Models'
+  abstract: 'The paper studies the capabilities of Recurrent-Neural-Network sequence to sequence (RNN seq2seq) models in learning four transduction tasks: identity, reversal, total reduplication, and quadratic copying. These transductions are traditionally well studied under finite state transducers and attributed with increasing complexity. We find that RNN seq2seq models are only able to approximate a mapping that fits the training or in-distribution data, instead of learning the underlying functions. Although attention makes learning more efficient and robust, it does not overcome the out-of-distribution generalization limitation. We establish a novel complexity hierarchy for learning the four tasks for attention-less RNN seq2seq models, which may be understood in terms of the complexity hierarchy of formal languages, instead of string transductions. RNN variants also play a role in the results. In particular, we show that Simple RNN seq2seq models cannot count the input length.  \\'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/wang23a.html
+  PDF: https://proceedings.mlr.press/v217/wang23a/wang23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-wang23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhengxiang
+    family: Wang
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 223-249
+  id: wang23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 223
+  lastpage: 249
+  published: 2023-07-05 00:00:00 +0000
+- title: 'A Congruence-based Approach to Active Automata Learning from Neural Language Models'
+  abstract: 'The paper proposes an approach for probably approximately correct active learning of probabilistic automata (PDFA) from neural language models. It is based on a congruence over strings which is parameterized by an equivalence relation over probability distributions. The learning algorithm is implemented using a tree data structure of arbitrary (possibly unbounded) degree. The implementation is evaluated with several equivalences on LSTM and Transformer-based neural language models from different application domains.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/mayr23a.html
+  PDF: https://proceedings.mlr.press/v217/mayr23a/mayr23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-mayr23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Franz
+    family: Mayr
+  - given: Sergio
+    family: Yovine
+  - given: Matías
+    family: Carrasco
+  - given: Federico
+    family: Pan
+  - given: Federico
+    family: Vilensky
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 250-264
+  id: mayr23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 250
+  lastpage: 264
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Active Inference of Extended Finite State Models of Software Systems'
+  abstract: 'Extended finite state machines (EFSMs) model stateful systems with internal data variables, and have many software engineering applications. It is possible to infer such models  by observing system behaviour. Still, existing approaches are either limited to classical FSM models with no internal data state, or implicitly require the ability to reset the system under inference, which may not always be possible. We present an extension to the hW-inference algorithm that can infer EFSM models, with input and output parameters as well as guards and internal registers and their data update functions, from systems without a reliable reset. For the problem to be tractable, we require some assumptions on the observability and determinism of the system. The main restriction is that the control flow of the system must be finite, although data types could be infinite.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/groz23a.html
+  PDF: https://proceedings.mlr.press/v217/groz23a/groz23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-groz23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Roland
+    family: Groz
+  - given: Catherine
+    family: Oriat
+  - given: Germán
+    family: Vega
+  - given: Adenilso
+    family: Simao
+  - given: Michael
+    family: Foster
+  - given: Neil
+    family: Walkinshaw
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 265-269
+  id: groz23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 265
+  lastpage: 269
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Empirical and Theoretical Arguments for Using Properties of Letters for the Learning of Sequential Functions'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/markowska23a.html
+  PDF: https://proceedings.mlr.press/v217/markowska23a/markowska23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-markowska23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Magdalena
+    family: Markowska
+  - given: Jeffrey
+    family: Heinz
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 270-274
+  id: markowska23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 270
+  lastpage: 274
+  published: 2023-07-05 00:00:00 +0000
+- title: 'TAYSIR Competition: Transformer+\textscrnn: Algorithms to Yield Simple and Interpretable Representations'
+  abstract: 'This article presents the content of the competition Transformers+\textsc{rnn}: Algorithms to Yield Simple and Interpretable Representations (TAYSIR, the Arabic word for ‘simple’), which was an on-line challenge on extracting simpler models from already trained neural networks held in Spring 2023. These neural nets were trained on sequential categorial/symbolic data. Some of these data were artificial, some came from real world problems (such as Natural Language Processing, Bioinformatics, and Software Engineering). The trained models covered a large spectrum of architectures, from Simple Recurrent Neural Network (SRN) to Transformers, including Gated Recurrent Unit (GRU) and Long Short Term Memory (LSTM). No constraint was given on the surrogate models submitted by the participants: any model working on sequential data was accepted. Two tracks were proposed: neural networks trained on Binary Classification tasks, and on Language Modeling tasks. The evaluation of the surrogate models took into account both the simplicity of the extracted model and the quality of the approximation of the original model.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/eyraud23a.html
+  PDF: https://proceedings.mlr.press/v217/eyraud23a/eyraud23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-eyraud23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Rémi
+    family: Eyraud
+  - given: Dakotah
+    family: Lambert
+  - given: Badr
+    family: Tahri Joutei
+  - given: Aidar
+    family: Gaffarov
+  - given: Mathias
+    family: Cabanne
+  - given: Jeffrey
+    family: Heinz
+  - given: Chihiro
+    family: Shibata
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 275-290
+  id: eyraud23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 275
+  lastpage: 290
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Testing-based Black-box Extraction of Simple Models from RNNs and Transformers'
+  abstract: 'In this technical report, we outline the testing-based black-box method used to extract simple and interpretable models from RNNs and transformers. Our work was done in the scope of the TAYSIR competition, in which it won the first place.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/muskardin23a.html
+  PDF: https://proceedings.mlr.press/v217/muskardin23a/muskardin23a.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-muskardin23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Edi
+    family: Muškardin
+  - given: Martin
+    family: Tappler
+  - given: Bernhard
+    family: K. Aichernig
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 291-294
+  id: muskardin23a
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 291
+  lastpage: 294
+  published: 2023-07-05 00:00:00 +0000
+- title: 'Results of Neural-Checker Toolbox in Taysir 2023 Competition'
+  abstract: 'This paper presents the results obtained with the {\sf Neural-Checker} toolbox in the Taysir 2023 challenge. It briefly describes the two tracks of the competition and the specific techniques that yielded the best results with respect to the corresponding scoring metrics.'
+  volume: 217
+  URL: https://proceedings.mlr.press/v217/mayr23b.html
+  PDF: https://proceedings.mlr.press/v217/mayr23b/mayr23b.pdf
+  edit: https://github.com/mlresearch//v217/edit/gh-pages/_posts/2023-07-05-mayr23b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of 16th edition of the International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Franz
+    family: Mayr
+  - given: Sergio
+    family: Yovine
+  - given: Matías
+    family: Carrasco
+  - given: Alejo
+    family: Garat
+  - given: Martín
+    family: Iturbide
+  - given: Juan
+    prefix: da
+    family: Silva
+  - given: Federico
+    family: Vilensky
+  editor: 
+  - given: François
+    family: Coste
+  - given: Faissal
+    family: Ouardi
+  - given: Guillaume
+    family: Rabusseau
+  page: 295-298
+  id: mayr23b
+  issued:
+    date-parts: 
+      - 2023
+      - 7
+      - 5
+  firstpage: 295
+  lastpage: 298
+  published: 2023-07-05 00:00:00 +0000

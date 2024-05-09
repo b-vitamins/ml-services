@@ -1,0 +1,561 @@
+
+- title: 'Preface'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/gammerman19a.html
+  PDF: http://proceedings.mlr.press/v105/gammerman19a/gammerman19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-gammerman19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 1-2
+  id: gammerman19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 1
+  lastpage: 2
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Interpretable and specialized conformal predictors'
+  abstract: 'In real-world scenarios, interpretable models are often required to explain predictions, and to allow for inspection and analysis of the model. The overall purpose of oracle coaching is to produce highly accurate, but interpretable, models optimized for a specific test set. Oracle coaching is applicable to the very common scenario where explanations and insights are needed for a specific batch of predictions, and the input vectors for this test set are available when building the predictive model. In this paper, oracle coaching is used for generating underlying classifiers for conformal prediction. The resulting conformal classifiers output valid label sets, i.e., the error rate on the test data is bounded by a preset significance level, as long as the labeled data used for calibration is exchangeable with the test set. Since validity is guaranteed for all conformal predictors, the key performance metric is efficiency, i.e., the size of the label sets, where smaller sets are more informative. The main contribution of this paper is the design of setups making sure that when oracle-coached decision trees, that per definition utilize knowledge about test data, are used as underlying models for conformal classifiers, the exchangeability between calibration and test data is maintained. Consequently, the resulting conformal classifiers retain the validity guarantees. In the experimentation, using a large number of publicly available data sets, the validity of the suggested setups is empirically demonstrated. Furthermore, the results show that the more accurate underlying models produced by oracle coaching also improved the efficiency of the corresponding conformal classifiers.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/johansson19a.html
+  PDF: http://proceedings.mlr.press/v105/johansson19a/johansson19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-johansson19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ulf
+    family: Johansson
+  - given: Tuwe
+    family: Löfström
+  - given: Henrik
+    family: Boström
+  - given: Cecilia
+    family: Sönströd
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 3-22
+  id: johansson19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 3
+  lastpage: 22
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Ensembles based on conformal instance transfer'
+  abstract: 'In this paper we propose a new ensemble method based on conformal instance transfer. The method combines feature selection and source-instance selection to avoid negative transfer in a model-independent way. It was tested experimentally for different types of classifiers on several benchmark data sets. The experiment results demonstrate that the new method is capable of outperforming significantly standard instance transfer methods.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/zhou19a.html
+  PDF: http://proceedings.mlr.press/v105/zhou19a/zhou19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-zhou19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Shuang
+    family: Zhou
+  - given: Evgueni
+    family: Smirnov
+  - given: Gijs
+    family: Schoenmakers
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 23-42
+  id: zhou19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 23
+  lastpage: 42
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Split knowledge transfer in learning under privileged information framework'
+  abstract: 'Learning Under Privileged Information (LUPI) enables the inclusion of additional (privileged) information when training machine learning models, data that is not available when making predictions. The methodology has been successfully applied to a diverse set of problems from various fields. SVM+ was the first realization of the LUPI paradigm which showed fast convergence but did not scale well. To address the scalability issue, knowledge transfer approaches were proposed to estimate privileged information from standard features in order to construct improved decision rules. Most available knowledge transfer methods use regression techniques and the same data for approximating the privileged features as for learning the transfer function. Inspired by the cross-validation approach, we propose to partition the training data into $K$ folds and use each fold for learning a transfer function and the remaining folds for approximations of privileged features—we refer to this as split knowledge transfer. We evaluate the method using four different experimental setups comprising one synthetic and three real datasets. The results indicate that our approach leads to improved accuracy as compared to LUPI with standard knowledge transfer.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/gauraha19a.html
+  PDF: http://proceedings.mlr.press/v105/gauraha19a/gauraha19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-gauraha19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Niharika
+    family: Gauraha
+  - given: Fabian
+    family: Söderdahl
+  - given: Ola
+    family: Spjuth
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 43-52
+  id: gauraha19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 43
+  lastpage: 52
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Combining Prediction Intervals on Multi-Source Non-Disclosed Regression Datasets'
+  abstract: 'Conformal Prediction is a framework that produces prediction intervals based on the output from a machine learning algorithm. In this paper we explore the case when training data is made up of multiple parts available in different sources that cannot be pooled. We here consider the regression case and propose a method where a conformal predictor is trained on each data source independently, and where the prediction intervals are then combined into a single interval. We call the approach Non-Disclosed Conformal Prediction (NDCP), and we evaluate it on a regression dataset from the UCI machine learning repository using support vector regression as the underlying machine learning algorithm, with varying number of data sources and sizes. The results show that the proposed method produces conservatively valid prediction intervals, and while we cannot retain the same efficiency as when all data is used, efficiency is improved through the proposed approach as compared to predicting using a single arbitrarily chosen source.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/spjuth19a.html
+  PDF: http://proceedings.mlr.press/v105/spjuth19a/spjuth19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-spjuth19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ola
+    family: Spjuth
+  - given: Robin Carrión
+    family: Brännström
+  - given: Lars
+    family: Carlsson
+  - given: Niharika
+    family: Gauraha
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 53-65
+  id: spjuth19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 53
+  lastpage: 65
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Conformal predictor combination using Neyman–Pearson Lemma'
+  abstract: 'The problem of how to combine advantageously Conformal Predictors (CP) has attracted the interest of many researchers in recent years. The challenge is to retain validity, while improving efficiency. In this article a very generic method is proposed which takes advantage of a well-established result in Classical Statistical Hypothesis Testing, the Neyman–Pearson Lemma, to combine CP with maximum efficiency. The merits and the limits of the method are explored on synthetic data sets under different levels of correlation between NonConformity Measures (NCM). CP Combination via Neyman–Pearson Lemma generally outperforms other combination methods when an accurate and robust density ratio estimation method, such as the V-Matrix method, is used.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/toccaceli19a.html
+  PDF: http://proceedings.mlr.press/v105/toccaceli19a/toccaceli19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-toccaceli19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paolo
+    family: Toccaceli
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 66-88
+  id: toccaceli19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 66
+  lastpage: 88
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Test statistics and p-values'
+  abstract: 'We point out that the traditional notion of test statistic is too narrow, even for the purpose of conformal prediction. The most natural generalization of the traditional notion happens to be too wide. We propose another natural generalization which is arguably the widest reasonable generalization. The study is restricted to simple statistical hypotheses.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/gurevich19a.html
+  PDF: http://proceedings.mlr.press/v105/gurevich19a/gurevich19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-gurevich19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuri
+    family: Gurevich
+  - given: Vladimir
+    family: Vovk
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 89-104
+  id: gurevich19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 89
+  lastpage: 104
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Universally Consistent Conformal Predictive Distributions'
+  abstract: 'This paper describes conformal predictive systems that are universally consistent in the sense of being consistent under any data-generating distribution, assuming that the observations are produced independently in the IID fashion. Being conformal, these predictive systems satisfy a natural property of small-sample validity, namely they are automatically calibrated in probability.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/vovk19a.html
+  PDF: http://proceedings.mlr.press/v105/vovk19a/vovk19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-vovk19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Vladimir
+    family: Vovk
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 105-122
+  id: vovk19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 105
+  lastpage: 122
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Predicting with Confidence from Survival Data'
+  abstract: 'Survival modeling concerns predicting whether or not an event will occur before or on a given point in time. In a recent study, the conformal prediction framework was applied to this task, and so-called conformal random survival forest was proposed. It was empirically shown that the error level of this model indeed is very close to the provided confidence level, and also that the error for predicting each outcome, i.e., event or no-event, can be controlled separately by employing a Mondrian approach. The addressed task concerned making predictions for time points as provided by the underlying distribution. However, if one instead is interested in making predictions with respect to some specific time point, the guarantee of the conformal prediction framework no longer holds, as one is effectively considering a sample from another distribution than from which the calibration instances have been drawn. In this study, we propose a modification of the approach for specific time points, which transforms the problem into a binary classification task, thereby allowing the error level to be controlled. The latter is demonstrated by an empirical investigation using both a collection of publicly available datasets and two in-house datasets from a truck manufacturing company.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/bostrom19a.html
+  PDF: http://proceedings.mlr.press/v105/bostrom19a/bostrom19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-bostrom19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Henrik
+    family: Boström
+  - given: Ulf
+    family: Johansson
+  - given: Anders
+    family: Vesterberg
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 123-141
+  id: bostrom19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 123
+  lastpage: 141
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Coreset-based Conformal Prediction for Large-scale Learning'
+  abstract: 'As the volume of data increase rapidly, most traditional machine learning algorithms become computationally prohibitive. Furthermore, the available data can be so big that a single machine’s memory can easily be overflown. We propose Coreset-Based Conformal Prediction, a strategy for dealing with big data by applying conformal predictors to a weighted summary of data—namely the coreset. We compare our approach against standalone inductive conformal predictors over three large competition-grade datasets to demonstrate that our coreset-based strategy may not only significantly improve the learning speed, but also retains predictions validity and the predictors’ efficiency.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/riquelme-granada19a.html
+  PDF: http://proceedings.mlr.press/v105/riquelme-granada19a/riquelme-granada19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-riquelme-granada19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nery
+    family: Riquelme-Granada
+  - given: Khuong
+    family: Nguyen
+  - given: Zhiyuan
+    family: Luo
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 142-162
+  id: riquelme-granada19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 142
+  lastpage: 162
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Online Learning with Continuous Ranked Probability Score'
+  abstract: 'Probabilistic forecasts in the form of probability distributions over future events have become popular in several fields of statistical science. The dissimilarity between a probability forecast and an outcome is measured by a loss function (scoring rule). Popular example of scoring rule for continuous outcomes is the continuous ranked probability score (CRPS). We consider the case where several competing methods produce online predictions in the form of probability distribution functions. In this paper, the problem of combining probabilistic forecasts is considered in the prediction with expert advice framework. We show that CRPS is a mixable loss function and then the time-independent upper bound for the regret of the Vovk’s Aggregating Algorithm using CRPS as a loss function can be obtained. We present the results of numerical experiments illustrating the proposed methods.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/v-yugin19a.html
+  PDF: http://proceedings.mlr.press/v105/v-yugin19a/v-yugin19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-v-yugin19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Vladimir V.
+    family: V’yugin
+  - given: Vladimir G.
+    family: Trunov
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 163-177
+  id: v-yugin19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 163
+  lastpage: 177
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Competitive Online Regression under Continuous Ranked Probability Score'
+  abstract: 'We consider the framework of competitive prediction when one provides guarantees compared to other predictive models that are called experts. We propose the algorithm that combines point predictions of an infinite pool of linear experts and outputs probability forecasts in the form of cumulative distribution functions. We evaluate the quality of probabilistic prediction by the continuous ranked probability score (CRPS), which is a widely used proper scoring rule. We provide a strategy that allows us to “track the best expert” and derive the theoretical bound on the discounted loss of the strategy. Experimental results on synthetic data and solar power data show that the theoretical bounds of our algorithm are not violated. Also the algorithm performs close to and sometimes outperforms the retrospectively best quantile regression.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/dzhamtyrova19a.html
+  PDF: http://proceedings.mlr.press/v105/dzhamtyrova19a/dzhamtyrova19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-dzhamtyrova19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Raisa
+    family: Dzhamtyrova
+  - given: Yuri
+    family: Kalnishkan
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 178-195
+  id: dzhamtyrova19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 178
+  lastpage: 195
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Conformal Prediction for Students’ Grades in a Course Recommender System'
+  abstract: 'Course selection can be challenging for students of Liberal Arts programs. In particular, due to the highly personalized curricula of these students, it is often difficult to assess whether or not a particular course is too advanced given their academic background. To assist students of the liberal arts program of the University College Maastricht, Morsomme and Vazquez (2019) developed a course recommender system that suggests courses whose content matches the student’s academic interests, and issues warnings for courses that it deems too advanced. To issue warnings, the system produces point predictions for the grades that a student will receive in the courses that she/he is considering for the following term. Point predictions are estimated with regression models specific to each course which take into account the academic performance of the student along with the knowledge that she/he has acquired in previous courses. A warning is issued if the predicted grade is a fail. In this paper, we complement the system’s point predictions for grades with prediction intervals constructed using the conformal prediction framework (Vovk et al., 2005). We use the Inductive Confidence Machine (ICM) (Papadopoulos et al., 2002) with normalized nonconformity scores to construct prediction intervals that are tailored to each student. We find that the prediction intervals constructed with the ICM are valid and that their widths are related to the accuracy of the underlying regression model.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/morsomme19a.html
+  PDF: http://proceedings.mlr.press/v105/morsomme19a/morsomme19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-morsomme19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Raphaël
+    family: Morsomme
+  - given: Evgueni
+    family: Smirnov
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 196-213
+  id: morsomme19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 196
+  lastpage: 213
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Applying Conformal Prediction to Control an Exoskeleton'
+  abstract: 'This paper investigates the use of the Conformal Prediction (CP) framework for providing confidence measures to assist a Brain Machine Interface (BMI) in the task of controlling an exoskeleton using electroencephalogram (EEG) and electrooculogram (EOG) clips. Reliable and accurate control of assistive robotics is still an important challenge because of the noisy nature of EEG’s and EOG’s and the fact that any misclassification can lead to unwanted actions and serious safety risks. Therefore a technique that will compliment predictions with a well-calibrated indication of how correct they are, should be very beneficial for the particular application as it can significantly enhance safety. Our approach consists of an Inductive Conformal Predictor (ICP) built on top of a Bidirectional Long Short Term Memory (BiLSTM) Neural Network. We conduct experiments on a dataset consisting of EEG and EOG data collected from one subject with a high spinal cord lesion.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/eliades19a.html
+  PDF: http://proceedings.mlr.press/v105/eliades19a/eliades19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-eliades19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Charalambos
+    family: Eliades
+  - given: Harris
+    family: Papadopoulos
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 214-227
+  id: eliades19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 214
+  lastpage: 227
+  published: 2019-08-29 00:00:00 +0000
+- title: 'A Deep Neural Network Conformal Predictor for Multi-label Text Classification'
+  abstract: 'We investigate the use of inductive conformal prediction (ICP) for the task of multi-label text classification and present preliminary experimental results for a subset of the original Reuters-21578 data-set. Our underlying classification model is a deep neural network configuration which consists of a trainable embedding layer, a convolutional layer and two dense feed-forward layers, arranged sequentially, with sigmoid outputs representing the individual unique labels of the selected subset. Following the power-set approach, we assign nonconformity scores to label-sets from which the corresponding p-values and prediction-sets are determined and we experiment with a number of different versions of a nonconformity measure. Our results indicate a good performance for the underlying model which is carried on to the ICP without any significant accuracy loss and with the added benefits of prediction-specific confidence information. Prediction-sets are tight enough to be practically useful even though the multi-label subset contains tens of thousands of possible label combinations and empirical error-rates confirm that our outputs are well-calibrated.'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/paisios19a.html
+  PDF: http://proceedings.mlr.press/v105/paisios19a/paisios19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-paisios19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Andreas
+    family: Paisios
+  - given: Ladislav
+    family: Lenc
+  - given: Jiřı́
+    family: Martı́nek
+  - given: Pavel
+    family: Král
+  - given: Harris
+    family: Papadopoulos
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 228-245
+  id: paisios19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 228
+  lastpage: 245
+  published: 2019-08-29 00:00:00 +0000
+- title: 'Abstracts of invited talks and posters'
+  volume: 105
+  URL: https://proceedings.mlr.press/v105/balinsky19a.html
+  PDF: http://proceedings.mlr.press/v105/balinsky19a/balinsky19a.pdf
+  edit: https://github.com/mlresearch//v105/edit/gh-pages/_posts/2019-08-29-balinsky19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Eighth Symposium on Conformal and Probabilistic Prediction and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Balinsky
+  - given: Peter
+    family: McCullagh
+  - given: Ilia
+    family: Nouretdinov
+  - given: Matteo
+    family: Fontana
+  - given: James
+    family: Gammerman
+  - given: Laura
+    family: Shelmit
+  - given: Daljit
+    family: Rehal
+  - given: Patrizio
+    family: Giovannotti
+  editor: 
+  - given: Alex
+    family: Gammerman
+  - given: Vladimir
+    family: Vovk
+  - given: Zhiyuan
+    family: Luo
+  - given: Evgueni
+    family: Smirnov
+  page: 246-247
+  id: balinsky19a
+  issued:
+    date-parts: 
+      - 2019
+      - 8
+      - 29
+  firstpage: 246
+  lastpage: 247
+  published: 2019-08-29 00:00:00 +0000

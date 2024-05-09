@@ -1,0 +1,305 @@
+
+- title: 'Preface: The 2019 ACM SIGKDD Workshop on Causal Discovery '
+  abstract: 'Preface to the 2019 KDD Workshop on Causal Discovery (CD19)'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/le19a.html
+  PDF: http://proceedings.mlr.press/v104/le19a/le19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-le19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre
+    family: Kıcıman
+  - given: Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 1-3
+  id: le19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 1
+  lastpage: 3
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Learning High-dimensional Directed Acyclic Graphs with Mixed Data-types'
+  abstract: 'In recent years, great strides have been made for causal structure learning in the high- dimensional setting and in the mixed data-type setting when there are both discrete and continuous variables. However, due to the complications involved with modeling continuous-discrete variable interactions, the intersection of these two settings has been relatively understudied. The current paper explores the problem of efficiently extending causal structure learning algorithms to high-dimensional data with mixed data-types. First, we characterize a model over continuous and discrete variables. Second, we derive a de- generate Gaussian (DG) score for mixed data-types and discuss its asymptotic properties. Lastly, we demonstrate the practicality of the DG score on learning causal structures from simulated data sets.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/andrews19a.html
+  PDF: http://proceedings.mlr.press/v104/andrews19a/andrews19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-andrews19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Bryan
+    family: Andrews
+  - given: Joseph
+    family: Ramsey
+  - given: Gregory F.
+    family: Cooper
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 4-21
+  id: andrews19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 4
+  lastpage: 21
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Scaling Causal Inference in Additive Noise Models'
+  abstract: 'The discovery of causal relationships from observations is a fundamental and difficult problem. We address it in the context of Additive Noise Models, and show, through both consistency analysis and experiments, that the state-of-art causal inference procedure on such models can be made simpler and faster, without loss of performance. Indeed, the method we propose uses one regressor instead of two in the bivariate case and 2(d − 1) regressors instead of (d^2 − 1) in the multivariate case with d random variables. In addition, we show how one can, from the regressors we use, accelerate the computation of the Hilbert-Schmidt Independence Criterion, a standard independence measure used in several causal inference procedures.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/assaad19a.html
+  PDF: http://proceedings.mlr.press/v104/assaad19a/assaad19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-assaad19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Charles Karim
+    family: Assaad
+  - given: Emilie
+    family: Devijver
+  - given: Eric
+    family: Gaussier
+  - given: Ali
+    family: Ait-Bachir
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 22-33
+  id: assaad19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 22
+  lastpage: 33
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Improve User Retention with Causal Learning'
+  abstract: 'User retention is a key focus for consumer based internet companies and promotions are an effective lever to improve retention. However, companies rely either on non-causal churn prediction to capture heterogeneity or on regular A/B testing to capture average treatment effect. In this paper, we propose a heterogeneous treatment effect optimization framework to capture both heterogeneity and causal effect. We propose two algorithms to maximize heterogeneous treatment effect: 1) Ranking based on point estimates of heterogeneous treatment effects obtained using existing esti- mation methods with training labels adjusted based on Lagrangian Subgradient method. 2) A novel ranking algorithm which combines estimation and optimization in one stage and directly optimizes for the aggregated targeted treatment effect. We also develop an evaluation metric that captures the real-world business value of different methods and use this to evaluate various approaches on our large-scale experiment data set both offline and online. Our algorithm (approach 2) performs significantly better than random explore benchmark and existing estimators (approach 1) in both offline and online tests. This method has been deployed to production and is currently live in multiple cities all over the world.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/du19a.html
+  PDF: http://proceedings.mlr.press/v104/du19a/du19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-du19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Shuyang
+    family: Du
+  - given: James
+    family: Lee
+  - given: Farzin
+    family: Ghaffarizadeh
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 34-49
+  id: du19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 34
+  lastpage: 49
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Universal Causal Evaluation Engine: An API for empirically evaluating causal inference models'
+  abstract: 'A major driver in the success of predictive machine learning has been the “common task framework,” where community-wide benchmarks are shared for evaluating new algorithms. This pattern, however, is difficult to implement for causal learning tasks because the ground truth in these tasks is in general unobservable. Instead, causal inference methods are often evaluated on synthetic or semi-synthetic datasets that incorporate idiosyncratic assump- tions about the underlying data-generating process. These evaluations are often proposed in conjunction with new causal inference methods—as a result, many methods are eval- uated on incomparable benchmarks. To address this issue, we establish an API for gen- eralized causal inference model assessment, with the goal of developing a platform that lets researchers deploy and evaluate new model classes in instances where treatments are explicitly known. The API uses a common interface for each of its components, and it allows for new methods and datasets to be evaluated and saved for future benchmarking.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/lin19a.html
+  PDF: http://proceedings.mlr.press/v104/lin19a/lin19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-lin19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Lin
+  - given: Amil
+    family: Merchant
+  - given: Suproteem K.
+    family: Sarkar
+  - given: Alexander
+    family: D’Amour
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 50-58
+  id: lin19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 50
+  lastpage: 58
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Load-Balanced Parallel Constraint-Based Causal Structure Learning on Multi-Core Systems for High-Dimensional Data'
+  abstract: 'In the context of high-dimensional data state-of-the-art methods for constraint-based causal structure learning, such as the PC algorithm, are limited in their application through their worst case exponential computational complexity. To address the resulting long execution time, several parallel extensions have been developed to exploit modern multi-core systems. These extensions apply a static distribution of tasks to the execution units to achieve paral- lelism, which introduces the problem of load imbalance. In our work, we propose a parallel implementation that follows a dynamic task distribution in order to avoid situations of load imbalance and improve the execution time. On the basis of an experimental evaluation on real-world high dimensional datasets, we show that our implementation has a better load balancing compared to an existing parallel implementation in the context of multivariate normal distributed data. For datasets that introduce load imbalance, our dynamic task distribution approach outperforms existing static approaches by factors up to 2.4. Overall, we increase the speed up from factors of up to 27, for the static approach, to factors of up to 39 for the dynamic approach, when scaling to 80 cores compared to a non-parallel execution.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/schmidt19a.html
+  PDF: http://proceedings.mlr.press/v104/schmidt19a/schmidt19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-schmidt19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Christopher
+    family: Schmidt
+  - given: Johannes
+    family: Huegle
+  - given: Philipp
+    family: Bode
+  - given: Matthias
+    family: Uflacker
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 59-77
+  id: schmidt19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 59
+  lastpage: 77
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Detecting Social Influence in Event Cascades by Comparing Discriminative Rankers'
+  abstract: 'The global dynamics of event cascades are often governed by the local dynamics of peer influence. However, detecting social influence from observational data is challenging due to confounds like homophily and practical issues like missing data. We propose a simple discriminative method to detect influence from observational data. The core of the approach is to train a ranking algorithm to predict the source of the next event in a cascade, and compare its out-of-sample accuracy against a competitive baseline which lacks access to features corresponding to social influence. We analyze synthetically generated data to show that this method correctly identifies influence in the presence of confounds, and is robust to both missing data and misspecification — unlike well-known alternatives. We apply the method to two real-world datasets: (1) the co-sponsorship of legislation in the U.S. House of Representatives on a social network of shared campaign donors; (2) rumors about the Higgs boson discovery on a follower network of 105 Twitter accounts. Our model identifies the role of social influence in these scenarios and uses it to make more accurate predictions about the future trajectory of cascades.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/soni19a.html
+  PDF: http://proceedings.mlr.press/v104/soni19a/soni19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-soni19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Sandeep
+    family: Soni
+  - given: Shawn Ling
+    family: Ramirez
+  - given: Jacob Joseph
+    family: Eisenstein
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 78-99
+  id: soni19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 78
+  lastpage: 99
+  published: 2019-07-26 00:00:00 +0000
+- title: 'Improved Causal Discovery from Longitudinal Data Using a Mixture of DAGs'
+  abstract: 'Many causal processes in biomedicine contain cycles and evolve. However, most causal discovery algorithms assume that the underlying causal process follows a single directed acyclic graph (DAG) that does not change over time. The algorithms can therefore infer erroneous causal relations with high confidence when run on real biomedical data. In this paper, I relax the single DAG assumption by modeling causal processes using a mixture of DAGs so that the graph can change over time. I then describe a causal discovery algorithm called Causal Inference over Mixtures (CIM) to infer causal structure from a mixture of DAGs using longitudinal data. CIM improves the accuracy of causal discovery on both real and synthetic clinical datasets even when cycles, non-stationarity, non-linearity, latent variables and selection bias exist simultaneously. Code is available at https://github.com/ericstrobl/CIM.'
+  volume: 104
+  URL: https://proceedings.mlr.press/v104/strobl19a.html
+  PDF: http://proceedings.mlr.press/v104/strobl19a/strobl19a.pdf
+  edit: https://github.com/mlresearch//v104/edit/gh-pages/_posts/2019-07-26-strobl19a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of Machine Learning Research'
+  publisher: 'PMLR'
+  author: 
+  - given: Eric V.
+    family: Strobl
+  editor: 
+  - given: Thuc Duy
+    family: Le
+  - given: Jiuyong
+    family: Li
+  - given: Kun
+    family: Zhang
+  - given: Emre Kıcıman Peng
+    family: Cui
+  - given: Aapo
+    family: Hyvärinen
+  page: 100-133
+  id: strobl19a
+  issued:
+    date-parts: 
+      - 2019
+      - 7
+      - 26
+  firstpage: 100
+  lastpage: 133
+  published: 2019-07-26 00:00:00 +0000

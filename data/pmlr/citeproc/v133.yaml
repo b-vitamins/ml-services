@@ -1,0 +1,1059 @@
+
+- title: 'NeurIPS 2020 Competition and Demonstration Track: Revised selected papers'
+  abstract: 'This volume compiles a selection of papers associated with the fourth edition of the Demonstration and Competition Track at NeurIPS 2020. The track comprised  16 competitions and 20 demonstrations. Competition and demonstration proposals were subject to a strict reviewing process to ensure the quality of the accepted events. After a selective process, the accepted  competitions and demonstrations were featured at the NeurIPS 2020 main conference. A wide diversity of machine learning topics were covered with competitions and demonstrations. The latter included innovative ways of interacting with participants due to the virtual format of NeurIPS2020. '
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/escalante21a.html
+  PDF: http://proceedings.mlr.press/v133/escalante21a/escalante21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-escalante21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 1-2
+  id: escalante21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 1
+  lastpage: 2
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Bayesian Optimization is Superior to Random Search for Machine Learning Hyperparameter Tuning: Analysis of the Black-Box Optimization Challenge 2020'
+  abstract: 'This paper presents the results and insights from the black-box optimization (BBO) challenge at NeurIPS2020 which ran from July–October, 2020. The challenge emphasized the importance of evaluating derivative-free optimizers for tuning the hyperparameters of machine learning models. This was the first black-box optimization challenge with a machine learning emphasis. It was based on tuning (validation set) performance of standard machine learning models on real datasets. This competition has widespread impact as black-box optimization (e.g., Bayesian optimization) is relevant for hyperparameter tuning in almost every machine learning project as well as many applications outside of machine learning. The final leaderboard was determined using the optimization performance on held-out (hidden) objective functions, where the optimizers ran without human intervention. Baselines were set using the default settings of several open source black-box optimization packages as well as random search.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/turner21a.html
+  PDF: http://proceedings.mlr.press/v133/turner21a/turner21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-turner21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Ryan
+    family: Turner
+  - given: David
+    family: Eriksson
+  - given: Michael
+    family: McCourt
+  - given: Juha
+    family: Kiili
+  - given: Eero
+    family: Laaksonen
+  - given: Zhen
+    family: Xu
+  - given: Isabelle
+    family: Guyon
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 3-26
+  id: turner21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 3
+  lastpage: 26
+  published: 2021-08-07 00:00:00 +0000
+- title: 'tspDB: Time Series Predict DB'
+  abstract: 'A major bottleneck of the current Machine Learning (ML) workflow is the time consuming, error prone engineering required to get data from a datastore or a database (DB) to the point an ML algorithm can be applied to it.  This is further exacerbated since ML algorithms are now trained on large volumes of data, yet we need predictions in real-time, especially in a variety of time-series applications such as finance and real-time control systems.  Hence, we explore the feasibility of directly integrating prediction functionality on top of a data store or DB.  Such a system ideally:  (i) provides an intuitive prediction query interface which alleviates the unwieldy data engineering;  (ii) provides state-of-the-art statistical accuracy while ensuring incremental model update, low model training time  and low latency for making predictions.  As the main contribution we explicitly instantiate a proof-of-concept, tspDB which directly integrates with PostgreSQL.  We rigorously test tspDB’s statistical and computational performance against the state-of-the-art time series algorithms, including a Long-Short-Term-Memory (LSTM) neural network and DeepAR (industry standard deep learning library by Amazon).  Statistically, on standard time series benchmarks, tspDB outperforms LSTM and DeepAR with 1.1-1.3x higher relative accuracy.  Computationally, tspDB is 59-62x and 94-95x faster compared to LSTM and DeepAR in terms of median ML model training time and prediction query latency, respectively.  Further, compared to PostgreSQL’s bulk insert time and its SELECT query latency, tspDB is slower only by 1.3x and 2.6x respectively.  That is, tspDB is a real-time prediction system in that its model training / prediction query time is similar to just inserting, reading data from a DB. As an algorithmic contribution, we introduce an incremental multivariate matrix factorization based time series method, which tspDB is built off. We show this method also allows one to produce reliable prediction intervals by accurately estimating the time-varying variance of a time series, thereby addressing an important problem in time series analysis.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/agarwal21a.html
+  PDF: http://proceedings.mlr.press/v133/agarwal21a/agarwal21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-agarwal21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Anish
+    family: Agarwal
+  - given: Abdullah
+    family: Alomar
+  - given: Devavrat
+    family: Shah
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 27-56
+  id: agarwal21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 27
+  lastpage: 56
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Learning Cloth Dynamics: 3D+Texture Garment Reconstruction Benchmark'
+  abstract: 'Human avatars are important targets in many computer applications. Accurately tracking, capturing, reconstructing and animating the human body, face and garments in 3D are critical for human-computer interaction, gaming, special effects and virtual reality. In the past, this has required extensive manual animation. Regardless of the advances in human body and face reconstruction, still modeling, learning and analyzing human dynamics need further attention. In this paper we plan to push the research in this direction, e.g. understanding human dynamics in 2D and 3D, with special attention to garments. We provide a large-scale dataset (more than 2M frames) of animated garments with variable topology and type, calledCLOTH3D++. The dataset contains RGBA video sequences paired with its corresponding 3D data. We pay special care to garment dynamics and realistic rendering of RGB data, including lighting, fabric type and texture. With this dataset, we hold a competition at NeurIPS2020. We design three tracks so participants can compete to develop the best method to perform 3D garment reconstruction in a sequence from (1) 3D-to-3D garments, (2) RGB-to-3D garments, and (3) RGB-to-3D garments plus texture. We also provide a baseline method, based on graph convolutional networks, for each track. Baseline results show that there is a lot of room for improvements. However, due to the challenging nature of the problem, no participant could outperform the baselines.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/madadi21a.html
+  PDF: http://proceedings.mlr.press/v133/madadi21a/madadi21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-madadi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Meysam
+    family: Madadi
+  - given: Hugo
+    family: Bertiche
+  - given: Wafa
+    family: Bouzouita
+  - given: Isabelle
+    family: Guyon
+  - given: Sergio
+    family: Escalera
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 57-76
+  id: madadi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 57
+  lastpage: 76
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Solving Black-Box Optimization Challenge via Learning Search Space Partition for Local Bayesian Optimization'
+  abstract: 'Black-box optimization is one of the vital tasks in machine learning, since it approximates real-world conditions, in that we do not always know all the properties of a given system, up to knowing almost nothing but the results. This paper describes our approach to solving the black-box optimization challenge at NeurIPS 2020 through learning search space partition for local Bayesian optimization. We describe the task of the challenge as well as our algorithm for low budget optimization that we named SPBOpt. We optimize the hyper-parameters of our algorithm for the competition finals using multi-task Bayesian optimization on results from the first two evaluation settings. Our approach has ranked third in the competition finals.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/sazanovich21a.html
+  PDF: http://proceedings.mlr.press/v133/sazanovich21a/sazanovich21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-sazanovich21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Mikita
+    family: Sazanovich
+  - given: Anastasiya
+    family: Nikolskaya
+  - given: Yury
+    family: Belousov
+  - given: Aleksei
+    family: Shpilman
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 77-85
+  id: sazanovich21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 77
+  lastpage: 85
+  published: 2021-08-07 00:00:00 +0000
+- title: 'NeurIPS 2020 EfficientQA Competition: Systems, Analyses and Lessons Learned'
+  abstract: 'We review the EfficientQA competition from NeurIPS 2020. The competition focused on open-domain question answering (QA), where systems take natural language questions as input and return natural language answers.  The aim of the competition was to build systems that can predict correct answers while also satisfying strict on-disk memory budgets. These memory budgets were designed to encourage contestants to  explore  the  trade-off between storing retrieval corpora or the parameters of learned models. In this report, we describe the motivation and organization of the competition, review the best submissions, and analyze system predictions to inform a discussion of evaluation for open-domain QA. '
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/min21a.html
+  PDF: http://proceedings.mlr.press/v133/min21a/min21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-min21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Sewon
+    family: Min
+  - given: Jordan
+    family: Boyd-Graber
+  - given: Chris
+    family: Alberti
+  - given: Danqi
+    family: Chen
+  - given: Eunsol
+    family: Choi
+  - given: Michael
+    family: Collins
+  - given: Kelvin
+    family: Guu
+  - given: Hannaneh
+    family: Hajishirzi
+  - given: Kenton
+    family: Lee
+  - given: Jennimaria
+    family: Palomaki
+  - given: Colin
+    family: Raffel
+  - given: Adam
+    family: Roberts
+  - given: Tom
+    family: Kwiatkowski
+  - given: Patrick
+    family: Lewis
+  - given: Yuxiang
+    family: Wu
+  - given: Heinrich
+    family: Küttler
+  - given: Linqing
+    family: Liu
+  - given: Pasquale
+    family: Minervini
+  - given: Pontus
+    family: Stenetorp
+  - given: Sebastian
+    family: Riedel
+  - given: Sohee
+    family: Yang
+  - given: Minjoon
+    family: Seo
+  - given: Gautier
+    family: Izacard
+  - given: Fabio
+    family: Petroni
+  - given: Lucas
+    family: Hosseini
+  - given: Nicola De
+    family: Cao
+  - given: Edouard
+    family: Grave
+  - given: Ikuya
+    family: Yamada
+  - given: Sonse
+    family: Shimaoka
+  - given: Masatoshi
+    family: Suzuki
+  - given: Shumpei
+    family: Miyawaki
+  - given: Shun
+    family: Sato
+  - given: Ryo
+    family: Takahashi
+  - given: Jun
+    family: Suzuki
+  - given: Martin
+    family: Fajcik
+  - given: Martin
+    family: Docekal
+  - given: Karel
+    family: Ondrej
+  - given: Pavel
+    family: Smrz
+  - given: Hao
+    family: Cheng
+  - given: Yelong
+    family: Shen
+  - given: Xiaodong
+    family: Liu
+  - given: Pengcheng
+    family: He
+  - given: Weizhu
+    family: Chen
+  - given: Jianfeng
+    family: Gao
+  - given: Barlas
+    family: Oguz
+  - given: Xilun
+    family: Chen
+  - given: Vladimir
+    family: Karpukhin
+  - given: Stan
+    family: Peshterliev
+  - given: Dmytro
+    family: Okhonko
+  - given: Michael
+    family: Schlichtkrull
+  - given: Sonal
+    family: Gupta
+  - given: Yashar
+    family: Mehdad
+  - given: Wen-tau
+    family: Yih
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 86-111
+  id: min21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 86
+  lastpage: 111
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Learning to run a Power Network Challenge: a Retrospective Analysis'
+  abstract: 'Power networks, responsible for transporting electricity across large geographical regions, are complex infrastructures on which modern life critically depend. Variations in demand and production profiles, with increasing renewable energy integration, as well as the high voltage network technology, constitute a real challenge for human operators when optimizing electricity transportation while avoiding blackouts. Motivated to  investigate the potential of Artificial Intelligence methods in enabling adaptability in power network operation, we have designed a L2RPN challenge to encourage the development of reinforcement learning solutions to key problems present in the next-generation power networks. The NeurIPS 2020 competition was well received by the international community attracting over 300 participants worldwide.   The main contribution of this challenge is our proposed comprehensive ’Grid2Op’ framework, and associated benchmark, which plays realistic sequential network operations scenarios. The Grid2Op framework, which is open-source and easily re-usable, allows users  to define new environments with its companion GridAlive ecosystem. Grid2Op relies on existing non-linear physical power network simulators and let users create a series of perturbations and challenges that are representative of two important problems: a) the uncertainty resulting from the increased use of unpredictable renewable energy sources, and b) the robustness required with contingent line disconnections.  In this paper, we give the highlights of the NeurIPS 2020 competition. We present the benchmark suite and analyse the winning solutions, including one super-human performance demonstration. We propose our organizational insights for a successful competition and conclude on open research avenues. Given the challenge success, we expect our work will foster research to create more sustainable solutions for power network operations. '
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/marot21a.html
+  PDF: http://proceedings.mlr.press/v133/marot21a/marot21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-marot21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Antoine
+    family: Marot
+  - given: Benjamin
+    family: Donnot
+  - given: Gabriel
+    family: Dulac-Arnold
+  - given: Adrian
+    family: Kelly
+  - given: Aidan
+    family: O’Sullivan
+  - given: Jan
+    family: Viebahn
+  - given: Mariette
+    family: Awad
+  - given: Isabelle
+    family: Guyon
+  - given: Patrick
+    family: Panciatici
+  - given: Camilo
+    family: Romero
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 112-132
+  id: marot21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 112
+  lastpage: 132
+  published: 2021-08-07 00:00:00 +0000
+- title: 'MosAIc: Finding Artistic Connections across Culture with Conditional Image Retrieval'
+  abstract: 'We introduce MosAIc, an interactive web app that allows users to find pairs of semantically related artworks that span different cultures, media, and millennia. To create this application, we introduce Conditional Image Retrieval (CIR) which combines visual similarity search with user supplied filters or “conditions”. This technique allows one to find pairs of similar images that span distinct subsets of the image corpus. We provide a generic way to adapt existing image retrieval data-structures to this new domain and provide theoretical bounds on our approach’s efficiency. To quantify the performance of CIR systems, we introduce new datasets for evaluating CIR methods and show that CIR performs non-parametric style transfer. Finally, we demonstrate that our CIR data-structures can identify “blind spots” in Generative Adversarial Networks (GAN) where they fail to properly model the true data distribution.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/hamilton21a.html
+  PDF: http://proceedings.mlr.press/v133/hamilton21a/hamilton21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-hamilton21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Mark
+    family: Hamilton
+  - given: Stephanie
+    family: Fu
+  - given: Mindren
+    family: Lu
+  - given: Johnny
+    family: Bui
+  - given: Darius
+    family: Bopp
+  - given: Zhenbang
+    family: Chen
+  - given: Felix
+    family: Tran
+  - given: Margaret
+    family: Wang
+  - given: Marina
+    family: Rogers
+  - given: Lei
+    family: Zhang
+  - given: Chris
+    family: Hoder
+  - given: William T.
+    family: Freeman
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 133-155
+  id: hamilton21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 133
+  lastpage: 155
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Semi-Automated Data Labeling'
+  abstract: 'Labeling data is often a tedious and error-prone activity. However, organizing the labeling experience as a human-machine collaboration has the potential to improve label quality and reduce human effort. In this paper we describe a semi-automated data labeling system which employs a predictive model to guide and assist the human labeler. The model learns by observing labeling decisions, and is used to recommend labels and automate basic functions in the labeling interface. Agreement between the labeler and the model is tracked and presented via a system of checkpoints. At each checkpoint the labeler has the opportunity to delegate the remainder of the labeling task to the model. '
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/desmond21a.html
+  PDF: http://proceedings.mlr.press/v133/desmond21a/desmond21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-desmond21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Desmond
+  - given: Evelyn
+    family: Duesterwald
+  - given: Kristina
+    family: Brimijoin
+  - given: Michelle
+    family: Brachman
+  - given: Qian
+    family: Pan
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 156-169
+  id: desmond21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 156
+  lastpage: 169
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Methods and Analysis of The First Competition in Predicting Generalization of Deep Learning'
+  abstract: 'Deep learning has been recently successfully applied to an ever larger number of problems, ranging from pattern recognition to complex decision making. However, several concerns have been raised, including guarantees of good generalization, which is of foremost importance. Despite numerous attempts, conventional statistical learning approaches fall short of providing a satisfactory explanation on why deep learning works. In a competition hosted at the Thirty-Fourth Conference on Neural Information Processing Systems (NeurIPS 2020), we invited the community to design robust and general complexity measures that can accurately predict the generalization of models. In this paper, we describe the competition design, the protocols, and the solutions of the top-three teams at the competition in details. In addition, we discuss the outcomes, common failure modes, and potential future directions for the competition.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/jiang21a.html
+  PDF: http://proceedings.mlr.press/v133/jiang21a/jiang21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-jiang21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Yiding
+    family: Jiang
+  - given: Parth
+    family: Natekar
+  - given: Manik
+    family: Sharma
+  - given: Sumukh K.
+    family: Aithal
+  - given: Dhruva
+    family: Kashyap
+  - given: Natarajan
+    family: Subramanyam
+  - given: Carlos
+    family: Lassance
+  - given: Daniel M.
+    family: Roy
+  - given: Gintare Karolina
+    family: Dziugaite
+  - given: Suriya
+    family: Gunasekar
+  - given: Isabelle
+    family: Guyon
+  - given: Pierre
+    family: Foret
+  - given: Scott
+    family: Yak
+  - given: Hossein
+    family: Mobahi
+  - given: Behnam
+    family: Neyshabur
+  - given: Samy
+    family: Bengio
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 170-190
+  id: jiang21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 170
+  lastpage: 190
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Results and Insights from Diagnostic Questions: The NeurIPS 2020 Education Challenge'
+  abstract: 'This competition concerns educational diagnostic questions, which are pedagogically effective, multiple-choice questions (MCQs) whose distractors embody misconceptions. With a large and ever-increasing number of such questions, it becomes overwhelming for teachers to know which questions are the best ones to use for their students. We thus seek to answer the following question: how can we use data on hundreds of millions of answers to MCQs to drive automatic personalized learning in large-scale learning scenarios where manual personalization is infeasible?  Success in using MCQ data at scale helps build more intelligent, personalized learning platforms that ultimately improve the quality of education en masse. To this end, we introduce a new, large-scale, real-world dataset and formulate 4 data mining tasks on MCQs that mimic real learning scenarios and target various aspects of the above question in a competition setting at NeurIPS 2020. We report on our NeurIPS competition in which nearly 400 teams submitted approximately 4000 submissions, with encouragingly diverse and effective approaches to each of our tasks.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/wang21a.html
+  PDF: http://proceedings.mlr.press/v133/wang21a/wang21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-wang21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Zichao
+    family: Wang
+  - given: Angus
+    family: Lamb
+  - given: Evgeny
+    family: Saveliev
+  - given: Pashmina
+    family: Cameron
+  - given: Jordan
+    family: Zaykov
+  - given: Jose Miguel
+    family: Hernandez-Lobato
+  - given: Richard E.
+    family: Turner
+  - given: Richard G.
+    family: Baraniuk
+  - given: Craig
+    family: Barton
+  - given: Simon
+    family: Peyton Jones
+  - given: Simon
+    family: Woodhead
+  - given: Cheng
+    prefix: Zhang
+    family: 
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 191-205
+  id: wang21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 191
+  lastpage: 205
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Hide-and-Seek Privacy Challenge: Synthetic Data Generation vs. Patient Re-identification'
+  abstract: 'The clinical  time-series setting  poses  a  unique  combination  of  challenges  to  data  modelling  and  sharing.   Due  to  the  high  dimensionality  of  clinical  time  series,  adequate  de-identification to preserve privacy while retaining data utility is difficult to achieve using common de-identification techniques.  An innovative approach to this problem is synthetic data  generation.   From  a  technical  perspective,  a  good  generative  model  for  time-series data should preserve temporal dynamics; new sequences should respect the original relationships between high-dimensional variables across time.  From the privacy perspective, the model should prevent patient re-identification.  The NeurIPS 2020 Hide-and-Seek Privacy Challenge was a novel two-tracked competition to simultaneously accelerate progress in tackling both problems.  In our head-to-head format, participants in the generation track (?hiders?) and the patient re-identification track (?seekers?) were directly pitted against each other by way of a new, high-quality intensive care time-series dataset:  the AmsterdamUMCdb dataset.  In this paper we present an overview of the competition design, as well as highlighting areas we feel should be changed for future iterations of this competition.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/jordon21a.html
+  PDF: http://proceedings.mlr.press/v133/jordon21a/jordon21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-jordon21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: James
+    family: Jordon
+  - given: Daniel
+    family: Jarrett
+  - given: Evgeny
+    family: Saveliev
+  - given: Jinsung
+    family: Yoon
+  - given: Paul
+    family: Elbers
+  - given: Patrick
+    family: Thoral
+  - given: Ari
+    family: Ercole
+  - given: Cheng
+    family: Zhang
+  - given: Danielle
+    family: Belgrave
+  - given: Mihaela
+    prefix: van der
+    family: Schaar
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 206-215
+  id: jordon21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 206
+  lastpage: 215
+  published: 2021-08-07 00:00:00 +0000
+- title: 'The SpaceNet Multi-Temporal Urban Development Challenge'
+  abstract: 'Building footprints provide a useful proxy for a great many humanitarian applications.  For example, building footprints are useful for high fidelity population estimates, and quantifying population statistics is fundamental to  1/4 of the United Nations Sustainable Development Goals Indicators.  In this paper we (the SpaceNet Partners) discuss efforts to develop techniques for precise building footprint localization, tracking, and change detection via the SpaceNet Multi-Temporal Urban Development Challenge (also known as SpaceNet 7).  In this NeurIPS 2020 competition, participants were asked identify and track buildings in satellite imagery time series collected over rapidly urbanizing areas. The competition centered around a brand new open source dataset of Planet Labs satellite imagery mosaics at 4m resolution, which includes 24 images (one per month) covering  100 unique geographies. Tracking individual buildings at this resolution is quite challenging, yet the winning participants demonstrated impressive performance with the newly developed SpaceNet Change and Object Tracking (SCOT) metric.  This paper details the top-5 winning approaches, as well as analysis of results that yielded a handful of interesting anecdotes such as decreasing performance with latitude.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/etten21a.html
+  PDF: http://proceedings.mlr.press/v133/etten21a/etten21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-etten21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Adam Van
+    family: Etten
+  - given: Daniel
+    family: Hogan
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 216-232
+  id: etten21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 216
+  lastpage: 232
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Towards robust and domain agnostic reinforcement learning competitions: MineRL 2020'
+  abstract: 'Reinforcement learning competitions have formed the basis for standard research benchmarks, galvanized advances in the state-of-the-art, and shaped the direction of the field. Despite this, a majority of challenges suffer from the same fundamental problems: participant solutions to the posed challenge are usually domain-specific, biased to maximally exploit compute resources, and not guaranteed to be reproducible. In this paper, we present a new framework of competition design that promotes the development of algorithms that overcome these barriers. We propose four central mechanisms for achieving this end: submission retraining, domain randomization, desemantization through domain obfuscation, and the limitation of competition compute and environment-sample budget. To demonstrate the efficacy of this design, we proposed, organized, and ran the MineRL 2020 Competition on Sample-Efficient Reinforcement Learning. In this work, we describe the organizational outcomes of the competition and show that the resulting participant submissions are reproducible, non-specific to the competition environment, and sample/resource efficient, despite the difficult competition task.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/guss21a.html
+  PDF: http://proceedings.mlr.press/v133/guss21a/guss21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-guss21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: William Hebgen
+    family: Guss
+  - given: Stephanie
+    family: Milani
+  - given: Nicholay
+    family: Topin
+  - given: Brandon
+    family: Houghton
+  - given: Sharada
+    family: Mohanty
+  - given: Andrew
+    family: Melnik
+  - given: Augustin
+    family: Harter
+  - given: Benoit
+    family: Buschmaas
+  - given: Bjarne
+    family: Jaster
+  - given: Christoph
+    family: Berganski
+  - given: Dennis
+    family: Heitkamp
+  - given: Marko
+    family: Henning
+  - given: Helge
+    family: Ritter
+  - given: Chengjie
+    family: Wu
+  - given: Xiaotian
+    family: Hao
+  - given: Yiming
+    family: Lu
+  - given: Hangyu
+    family: Mao
+  - given: Yihuan
+    family: Mao
+  - given: Chao
+    family: Wang
+  - given: Michal
+    family: Opanowicz
+  - given: Anssi
+    family: Kanervisto
+  - given: Yanick
+    family: Schraner
+  - given: Christian
+    family: Scheller
+  - given: Xiren
+    family: Zhou
+  - given: Lu
+    family: Liu
+  - given: Daichi
+    family: Nishio
+  - given: Toi
+    family: Tsuneda
+  - given: Karolis
+    family: Ramanauskas
+  - given: Gabija
+    family: Juceviciute
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 233-252
+  id: guss21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 233
+  lastpage: 252
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Musical Speech: A Transformer-based Composition Tool'
+  abstract: 'In this paper, we propose a new compositional tool that will generate a musical outline of speech recorded/provided by the user for use as a musical building block in their compositions. The tool allows any user to use their own speech to generate musical material, while still being able to hear the direct connection between their recorded speech and the resulting music. The tool is built on our proposed pipeline. This pipeline begins with speech-based signal processing, after which some simple musical heuristics are applied, and finally these pre-processed signals are passed through Transformer models trained on new musical tasks. We illustrate the effectiveness of our pipeline – which does not require a paired dataset for training – through examples of music created by musicians making use of our tool.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/d-eon21a.html
+  PDF: http://proceedings.mlr.press/v133/d-eon21a/d-eon21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-d-eon21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Jason
+    family: d’Eon
+  - given: Sri Harsha
+    family: Dumpla
+  - given: Chandramouli Shama
+    family: Sastry
+  - given: Daniel
+    family: Oore
+  - given: Sageev
+    family: Oore
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 253-274
+  id: d-eon21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 253
+  lastpage: 274
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Flatland Competition 2020: MAPF and MARL for Efficient Train Coordination on a Grid World'
+  abstract: 'The Flatland competition aimed at finding novel approaches to solve the vehicle re-scheduling problem (VRSP). The VRSP is concerned with scheduling trips in traffic networks and the re-scheduling of vehicles when disruptions occur, for example the breakdown of a vehicle. While solving the VRSP in various settings has been an active area in operations research (OR) for decades, the ever-growing complexity of modern railway networks makes dynamic real-time scheduling of traffic virtually impossible. Recently, multi-agent reinforcement learning (MARL) has successfully tackled challenging tasks where many agents need to be coordinated, such as multiplayer video games. However, the coordination of hundreds of agents in a real-life setting like a railway network remains challenging and the Flatland environment used for the competition models these real-world properties in a simplified manner. Submissions had to bring as many trains (agents) to their target stations in as little time as possible. While the best submissions were in the OR category, participants found many promising MARL approaches. Using both centralized and decentralized learning based approaches, top submissions used graph representations of the environment to construct tree-based observations. Further, different coordination mechanisms were implemented, such as communication and prioritization between agents. This paper presents the competition setup, four outstanding solutions to the competition, and a cross-comparison between them.	'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/laurent21a.html
+  PDF: http://proceedings.mlr.press/v133/laurent21a/laurent21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-laurent21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Florian
+    family: Laurent
+  - given: Manuel
+    family: Schneider
+  - given: Christian
+    family: Scheller
+  - given: Jeremy
+    family: Watson
+  - given: Jiaoyang
+    family: Li
+  - given: Zhe
+    family: Chen
+  - given: Yi
+    family: Zheng
+  - given: Shao-Hung
+    family: Chan
+  - given: Konstantin
+    family: Makhnev
+  - given: Oleg
+    family: Svidchenko
+  - given: Vladimir
+    family: Egorov
+  - given: Dmitry
+    family: Ivanov
+  - given: Aleksei
+    family: Shpilman
+  - given: Evgenija
+    family: Spirovska
+  - given: Oliver
+    family: Tanevski
+  - given: Aleksandar
+    family: Nikov
+  - given: Ramon
+    family: Grunder
+  - given: David
+    family: Galevski
+  - given: Jakov
+    family: Mitrovski
+  - given: Guillaume
+    family: Sartoretti
+  - given: Zhiyao
+    family: Luo
+  - given: Mehul
+    family: Damani
+  - given: Nilabha
+    family: Bhattacharya
+  - given: Shivam
+    family: Agarwal
+  - given: Adrian
+    family: Egli
+  - given: Erik
+    family: Nygren
+  - given: Sharada
+    family: Mohanty
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 275-301
+  id: laurent21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 275
+  lastpage: 301
+  published: 2021-08-07 00:00:00 +0000
+- title: 'NeurIPS 2020 NLC2CMD Competition: Translating Natural Language to Bash Commands'
+  abstract: 'The NLC2CMD Competition hosted at NeurIPS 2020 aimed to bring the power of natural language processing to the command line. Participants were tasked with building models that can transform descriptions of command line tasks in English to their Bash syntax. This is a report on the competition with details of the task, metrics, data, attempted solutions, and lessons learned.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/agarwal21b.html
+  PDF: http://proceedings.mlr.press/v133/agarwal21b/agarwal21b.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-agarwal21b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Mayank
+    family: Agarwal
+  - given: Tathagata
+    family: Chakraborti
+  - given: Quchen
+    family: Fu
+  - given: David
+    family: Gros
+  - given: Xi Victoria
+    family: Lin
+  - given: Jaron
+    family: Maene
+  - given: Kartik
+    family: Talamadupula
+  - given: Zhongwei
+    family: Teng
+  - given: Jules
+    family: White
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 302-324
+  id: agarwal21b
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 302
+  lastpage: 324
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Traffic4cast at NeurIPS 2020 - yet more on the unreasonable effectiveness of gridded geo-spatial processes'
+  abstract: 'The IARAI Traffic4cast competition at NeurIPS 2019 showed that neural networks can successfully predict future traffic conditions 15 minutes into the future on simply aggregated GPS probe data  in time and space bins, thus interpreting the challenge of forecasting traffic conditions as a movie completion task. U-nets proved to be the winning architecture then, demonstrating an ability  to extract relevant features in the complex, real-world, geo-spatial process that is traffic derived from a large data set. The IARAI Traffic4cast challenge at NeurIPS 2020 build on the insights of the previous year and sought to both challenge some assumptions inherent in our 2019 competition design and explore how far this neural network technique can be pushed. We found that the  prediction horizon can be extended successfully to 60 minutes into the future, that there is further evidence that traffic depends more on recent dynamics than on the additional static or dynamic location specific data provided and that a reasonable starting point when exploring a general aggregated geo-spatial process in time and space is a U-net architecture.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/kopp21a.html
+  PDF: http://proceedings.mlr.press/v133/kopp21a/kopp21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-kopp21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Kopp
+  - given: David
+    family: Kreil
+  - given: Moritz
+    family: Neun
+  - given: David
+    family: Jonietz
+  - given: Henry
+    family: Martin
+  - given: Pedro
+    family: Herruzo
+  - given: Aleksandra
+    family: Gruca
+  - given: Ali
+    family: Soleymani
+  - given: Fanyou
+    family: Wu
+  - given: Yang
+    family: Liu
+  - given: Jingwei
+    family: Xu
+  - given: Jianjin
+    family: Zhang
+  - given: Jay
+    family: Santokhi
+  - given: Alabi
+    family: Bojesomo
+  - given: Hasan Al
+    family: Marzouqi
+  - given: Panos
+    family: Liatsis
+  - given: Pak Hay
+    family: Kwok
+  - given: Qi
+    family: Qi
+  - given: Sepp
+    family: Hochreiter
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 325-343
+  id: kopp21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 325
+  lastpage: 343
+  published: 2021-08-07 00:00:00 +0000
+- title: 'The Hateful Memes Challenge: Competition Report'
+  abstract: 'Machine learning and artificial intelligence play an ever more crucial role in mitigating important societal problems, such as the prevalence of hate speech. We describe the Hateful Memes Challenge competition, held at NeurIPS 2020, focusing on multimodal hate speech. The aim of the challenge is to facilitate further research into multimodal reasoning and understanding.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/kiela21a.html
+  PDF: http://proceedings.mlr.press/v133/kiela21a/kiela21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-kiela21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Douwe
+    family: Kiela
+  - given: Hamed
+    family: Firooz
+  - given: Aravind
+    family: Mohan
+  - given: Vedanuj
+    family: Goswami
+  - given: Amanpreet
+    family: Singh
+  - given: Casey A.
+    family: Fitzpatrick
+  - given: Peter
+    family: Bull
+  - given: Greg
+    family: Lipstein
+  - given: Tony
+    family: Nelli
+  - given: Ron
+    family: Zhu
+  - given: Niklas
+    family: Muennighoff
+  - given: Riza
+    family: Velioglu
+  - given: Jewgeni
+    family: Rose
+  - given: Phillip
+    family: Lippe
+  - given: Nithin
+    family: Holla
+  - given: Shantanu
+    family: Chandra
+  - given: Santhosh
+    family: Rajamanickam
+  - given: Georgios
+    family: Antoniou
+  - given: Ekaterina
+    family: Shutova
+  - given: Helen
+    family: Yannakoudakis
+  - given: Vlad
+    family: Sandulescu
+  - given: Umut
+    family: Ozertem
+  - given: Patrick
+    family: Pantel
+  - given: Lucia
+    family: Specia
+  - given: Devi
+    family: Parikh
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 344-360
+  id: kiela21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 344
+  lastpage: 360
+  published: 2021-08-07 00:00:00 +0000
+- title: 'Measuring Sample Efficiency and Generalization in Reinforcement Learning Benchmarks: NeurIPS 2020 Procgen Benchmark'
+  abstract: 'The NeurIPS 2020 Procgen Competition was designed as a centralized benchmark with clearly defined tasks for measuring Sample Efficiency and Generalization in Reinforcement Learning. Generalization remains one of the most fundamental challenges in deep reinforcement learning, and yet we do not have enough benchmarks to measure the progress of the community on Generalization in Reinforcement Learning. We present the design of a centralized benchmark for Reinforcement Learning which can help measure Sample Efficiency and Generalization in Reinforcement Learning by doing end to end evaluation of the training and rollout phases of thousands of user submitted code bases in a scalable way. We designed the benchmark on top of the already existing Procgen Benchmark by defining clear tasks and standardizing the end to end evaluation setups. The design aims to maximize the flexibility available for researchers who wish to design future iterations of such benchmarks, and yet imposes necessary practical constraints to allow for a system like this to scale. This paper presents the competition setup and the details and analysis of the top solutions identified through this setup in context of 2020 iteration of the competition at NeurIPS.'
+  volume: 133
+  URL: https://proceedings.mlr.press/v133/mohanty21a.html
+  PDF: http://proceedings.mlr.press/v133/mohanty21a/mohanty21a.pdf
+  edit: https://github.com/mlresearch//v133/edit/gh-pages/_posts/2021-08-07-mohanty21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the NeurIPS 2020 Competition and Demonstration Track'
+  publisher: 'PMLR'
+  author: 
+  - given: Sharada
+    family: Mohanty
+  - given: Jyotish
+    family: Poonganam
+  - given: Adrien
+    family: Gaidon
+  - given: Andrey
+    family: Kolobov
+  - given: Blake
+    family: Wulfe
+  - given: Dipam
+    family: Chakraborty
+  - given: Graz̆vydas
+    family: S̆emetulskis
+  - given: João
+    family: Schapke
+  - given: Jonas
+    family: Kubilius
+  - given: Jurgis
+    family: Paükonis
+  - given: Linas
+    family: Klimas
+  - given: Matthew
+    family: Hausknecht
+  - given: Patrick
+    family: MacAlpine
+  - given: Quang Nhat
+    family: Tran
+  - given: Thomas
+    family: Tumiel
+  - given: Xiaocheng
+    family: Tang
+  - given: Xinwei
+    family: Chen
+  - given: Christopher
+    family: Hesse
+  - given: Jacob
+    family: Hilton
+  - given: William Hebgen
+    family: Guss
+  - given: Sahika
+    family: Genc
+  - given: John
+    family: Schulman
+  - given: Karl
+    family: Cobbe
+  editor: 
+  - given: Hugo Jair
+    family: Escalante
+  - given: Katja
+    family: Hofmann
+  page: 361-395
+  id: mohanty21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 7
+  firstpage: 361
+  lastpage: 395
+  published: 2021-08-07 00:00:00 +0000

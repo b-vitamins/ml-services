@@ -1,0 +1,564 @@
+
+- title: 'Understanding Social Behavior in Dyadic and Small Group Interactions: Preface'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/palmero22a.html
+  PDF: https://proceedings.mlr.press/v173/palmero22a/palmero22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-palmero22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 1-3
+  id: palmero22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 1
+  lastpage: 3
+  published: 2022-03-29 00:00:00 +0000
+- title: 'ChaLearn LAP Challenges on Self-Reported Personality Recognition and Non-Verbal Behavior Forecasting During Social Dyadic Interactions: Dataset, Design, and Results'
+  abstract: 'This paper summarizes the 2021 ChaLearn Looking at People Challenge on Understanding Social Behavior in Dyadic and Small Group Interactions (DYAD), which featured two tracks, self-reported personality recognition and behavior forecasting, both on the UDIVA v0.5 dataset. We review important aspects of this multimodal and multiview dataset consisting of 145 interaction sessions where 134 participants converse, collaborate, and compete in a series of dyadic tasks. We also detail the transcripts and body landmark annotations for UDIVA v0.5 that are newly introduced for this occasion. We briefly comment on organizational aspects of the challenge before describing each track and presenting the proposed baselines. The results obtained by the participants are extensively analyzed to bring interesting insights about the tracks tasks and the nature of the dataset. We wrap up with a discussion on challenge outcomes, and pose several questions that we expect will motivate further scientific research to better understand social cues in human-human and human-machine interaction scenarios and help build future AI applications for good.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/palmero22b.html
+  PDF: https://proceedings.mlr.press/v173/palmero22b/palmero22b.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-palmero22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Cristina
+    family: Palmero
+  - given: German
+    family: Barquero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Johnny
+    family: Núñez
+  - given: David
+    family: Curto
+  - given: Sorina
+    family: Smeureanu
+  - given: Javier
+    family: Selva
+  - given: Zejian
+    family: Zhang
+  - given: David
+    family: Saeteros
+  - given: David
+    family: Gallardo-Pujol
+  - given: Georgina
+    family: Guilera
+  - given: David
+    family: Leiva
+  - given: Feng
+    family: Han
+  - given: Xiaoxue
+    family: Feng
+  - given: Jennifer
+    family: He
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Isabelle
+    family: Guyon
+  - given: Sergio
+    family: Escalera
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 4-52
+  id: palmero22b
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 4
+  lastpage: 52
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Learning Personalised Models for Automatic Self-Reported Personality Recognition'
+  abstract: 'Previous research has revealed differences in personality traits among different genders, age groups, and even cultures. However, existing methods have focused on one-fits-all approaches only and performed personality recognition without taking into consideration the user’s profiles. In this paper, we propose to learn personalised models of self-reported big five personality traits. Our proposed approach automatically learns deep learning architectures for different user profiles using Neural Architecture Search (NAS) for predicting the Big Five personality traits from multimodal behavioural features. We experiment with two different user profiling criteria, namely, gender and age, and compare the results of our approach with the state-of-the-art methods. Overall, our results show that personalised models improve the performance as compared to the generic model. Particularly, gender-based user profiling combined with bimodal features reduces the prediction error by 0.128, achieving the state-of-the-art performance on the UDIVA dataset.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/salam22a.html
+  PDF: https://proceedings.mlr.press/v173/salam22a/salam22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-salam22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Hanan
+    family: Salam
+  - given: Viswonathan
+    family: Manoranjan
+  - given: Jian
+    family: Jiang
+  - given: Oya
+    family: Celiktutan
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 53-73
+  id: salam22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 53
+  lastpage: 73
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Skeleton-based Personality Recognition using Laban Movement Analysis'
+  abstract: 'Personality is expressed through multiple behavioral elements, including body movement. Using a feature transformation based on Laban Movement Analysis, we present a model for estimating individuals’ Big Five personality traits. Our approach achieves higher performance than other methods without exposing image-level information to the network, which otherwise can leave the system susceptible to bias and result in ethical issues. With the ever-increasing role of computers in our daily lives, human-computer interaction and human understanding have become significant. Our system enables better human understanding for intelligent agents and personal assistants through personality estimation. We utilize Graph Convolutional Networks, commonly used for action recognition for this task.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/erkoc22a.html
+  PDF: https://proceedings.mlr.press/v173/erkoc22a/erkoc22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-erkoc22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Ziya
+    family: Erkoç
+  - given: Serkan
+    family: Demirci
+  - given: Sinan
+    family: Sonlu
+  - given: Uğur
+    family: Güdükbay
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 74-87
+  id: erkoc22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 74
+  lastpage: 87
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Context-Aware Human Behaviour Forecasting in Dyadic Interactions'
+  abstract: 'Non-verbal behaviours play an indispensable role in social interaction. People tend to use a wide range of non-verbal channels, including eye gaze, body, and facial gestures, to communicate their intentions and emotions to their interacting partners. Such social signals encourage verbal messages of the communicator can be transmitted to other interlocutors in a facile and transparent manner. On the other hand, an essential aspect of communication behaviours is the dynamic exchange of non-verbal signals among interlocutors for adapting current social norms and building a common ground. This factor suggests that data observed from the interacting partners should be considered when modeling the target individual’s behaviours. Our paper introduces a generative framework with context awareness that captures the influence of the interacting partner’s non-verbal signals on the target individual. The model consists of three components, namely, Context Encoder, Generator, and Discriminator. Context Encoder is employed to extract social signals observed from the interacting partner while Generator and Discriminator are utilized to generate and optimize the target person’s gestures. We verify the efficiency of the framework on two different dyadic interaction datasets. The experimental results demonstrate that compared to baselines, our solution can produce human-like gestures better supporting interaction contexts. Undoubtedly, in dyadic interaction, the influence of the interacting partner’s social signals on the target individual is observable, and the proposed approach can efficiently capture those effects. The source code of our framework can be found at https://github.com/sairlab/Context-Aware-Human-Behavior-Forecasting.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/tuyen22a.html
+  PDF: https://proceedings.mlr.press/v173/tuyen22a/tuyen22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-tuyen22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Nguyen Tan Viet
+    family: Tuyen
+  - given: Oya
+    family: Celiktutan
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 88-106
+  id: tuyen22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 88
+  lastpage: 106
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Comparison of Spatio-Temporal Models for Human Motion and Pose Forecasting in Face-to-Face Interaction Scenarios'
+  abstract: 'Human behavior forecasting during human-human interactions is of utmost importance to provide robotic or virtual agents with social intelligence. This problem is especially challenging for scenarios that are highly driven by interpersonal dynamics. In this work, we present the first systematic comparison of state-of-the-art approaches for behavior forecasting. To do so, we leverage whole-body annotations (face, body, and hands) from the very recently released UDIVA v0.5, which features face-to-face dyadic interactions. Our best attention-based approaches achieve state-of-the-art performance in UDIVA v0.5. We show that by autoregressively predicting the future with methods trained for the short-term future (<400ms), we outperform the baselines even for a considerably longer-term future (up to 2s). We also show that this finding holds when highly noisy annotations are used, which opens new horizons towards the use of weakly-supervised learning. Combined with large-scale datasets, this may help boost the advances in this field.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/barquero22a.html
+  PDF: https://proceedings.mlr.press/v173/barquero22a/barquero22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-barquero22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: German
+    family: Barquero
+  - given: Johnny
+    family: Núñez
+  - given: Zhen
+    family: Xu
+  - given: Sergio
+    family: Escalera
+  - given: Wei-Wei
+    family: Tu
+  - given: Isabelle
+    family: Guyon
+  - given: Cristina
+    family: Palmero
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 107-138
+  id: barquero22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 107
+  lastpage: 138
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Didn’t see that coming: a survey on non-verbal social human behavior forecasting'
+  abstract: 'Non-verbal social human behavior forecasting has increasingly attracted the interest of the research community in recent years. Its direct applications to human-robot interaction and socially-aware human motion generation make it a very attractive field. In this survey, we define the behavior forecasting problem for multiple interactive agents in a generic way that aims at unifying the fields of social signals prediction and human motion forecasting, traditionally separated. We hold that both problem formulations refer to the same conceptual problem, and identify many shared fundamental challenges: future stochasticity, context awareness, history exploitation, etc. We also propose a taxonomy that comprises methods published in the last 5 years in a very informative way and describes the current main concerns of the community with regard to this problem. In order to promote further research on this field, we also provide a summarised and friendly overview of audiovisual datasets featuring non-acted social interactions. Finally, we describe the most common metrics used in this task and their particular issues.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/barquero22b.html
+  PDF: https://proceedings.mlr.press/v173/barquero22b/barquero22b.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-barquero22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: German
+    family: Barquero
+  - given: Johnny
+    family: Núñez
+  - given: Sergio
+    family: Escalera
+  - given: Zhen
+    family: Xu
+  - given: Wei-Wei
+    family: Tu
+  - given: Isabelle
+    family: Guyon
+  - given: Cristina
+    family: Palmero
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 139-178
+  id: barquero22b
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 139
+  lastpage: 178
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Head and Body Orientation Estimation with Sparse Weak Labels in Free Standing Conversational Settings'
+  abstract: 'We focus on estimating human head and body orientations which are crucial social cues in free-standing conversational settings. Automatic estimations of head and body orientations enable downstream research about conversation involvement, influence, and other social concepts. However, in-the-wild human behavior and long interaction datasets are difficult to collect and expensive to annotate. Our approach mitigates the need for large number of training labels by casting the task into a transductive low-rank matrix-completion problem using sparsely labelled data. We differentiate our learning setting from the typical data-intensive setting required for existing supervised deep learning methods. In situations of low labelled data availability, our method takes advantage of the inherent properties and dynamics of the social scenarios by leveraging different sources of information and physical priors. Our method is (1) data efficient and uses a small number of annotated labels, (2) ensures temporal smoothness in predictions, (3) adheres to human anatomical constraints of head and body orientation differences, and (4) exploits weak labels from multimodal wearable sensors. We benchmark this method on the challenging multimodal SALSA dataset, the only large scale dataset that contains video, proximity sensors and microphone audio data. When only using 5% of all the labels as training samples, we report 65% and 76% averaged classification accuracy for head and body orientations, which is an 8% and 16% respective increase compared to previous state-of-the-art performance under the same transductive setting.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/tan22a.html
+  PDF: https://proceedings.mlr.press/v173/tan22a/tan22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-tan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Stephanie
+    family: Tan
+  - given: David M.J.
+    family: Tax
+  - given: Hayley
+    family: Hung
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 179-203
+  id: tan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 179
+  lastpage: 203
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Automated Methods to Examine Nonverbal Synchrony in Dyads'
+  abstract: 'Interpersonal synchrony is when two parties in an interaction engage similarly due to the rhythmic coordination of their behavioral patterns. The study of synchrony in communication and psychology dates back to the 1960s but has evolved over time. Historically, studying synchrony has involved the manual coding of nonverbal cues by trained human coders, such as counting the occurrence of a specific behavior or making subjective ratings about a speaker. However, its time-consuming nature has been a serious barrier to the development of the field and has made it difficult for new scholars to adopt the technique. Recent advances in automated coding techniques allow researchers to collect nonverbal behavioral data effectively and objectively, and in a much more efficient manner than laborious manual coding methods historically relied upon. This chapter will review some of the theoretical and methodological challenges in studying interpersonal synchrony and propose alternatives using automated computer vision techniques.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/dunbar22a.html
+  PDF: https://proceedings.mlr.press/v173/dunbar22a/dunbar22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-dunbar22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Norah E.
+    family: Dunbar
+  - given: Judee K.
+    family: Burgoon
+  - given: Ken
+    family: Fujiwara
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 204-217
+  id: dunbar22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 204
+  lastpage: 217
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Multimodal Sentiment and Personality Perception Under Speech: A Comparison of Transformer-based Architectures'
+  abstract: 'Human-machine, human-robot interaction, and collaboration appear in diverse fields, from homecare to Cyber-Physical Systems. Technological development is fast, whereas real-time methods for social communication analysis that can measure small changes in sentiment and personality states, including visual, acoustic and language modalities are lagging, particularly when the goal is to build robust, appearance invariant, and fair methods. We study and compare methods capable of fusing modalities while satisfying real-time and invariant appearance conditions. We compare state-of-the-art transformer architectures in sentiment estimation and introduce them in the much less explored field of personality perception. We show that the architectures perform differently on automatic sentiment and personality perception, suggesting that each task may be better captured/modeled by a particular method. Our work calls attention to the attractive properties of the linear versions of the transformer architectures. In particular, we show that the best results are achieved by fusing the different architectures{’} preprocessing methods. However, they pose extreme conditions in computation power and energy consumption for real-time computations for quadratic transformers due to their memory requirements. In turn, linear transformers pave the way for quantifying small changes in sentiment estimation and personality perception for real-time social communications for machines and robots.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/fodor22a.html
+  PDF: https://proceedings.mlr.press/v173/fodor22a/fodor22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-fodor22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Ádám
+    family: Fodor
+  - given: Rachid R.
+    family: Saboundji
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Sergio
+    family: Escalera
+  - given: David
+    family: Gallardo-Pujol
+  - given: András
+    family: Lőrincz
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 218-241
+  id: fodor22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 218
+  lastpage: 241
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Cracking the Code of Live Human Social Interactions in Autism: A Review of the Eye-Tracking Literature'
+  abstract: 'Human social interaction involves a complex, dynamic exchange of verbal and non-verbal information. Over the last decade, eye-tracking technology has afforded unique insight into the way eye gaze information, including both holding gaze and shifting gaze, organizes live human interactions. For example, while playing a social game together, speakers end their turn by directing gaze at the listener, who begins to speak with averted gaze (Ho et al., 2015). These findings reflect how eye gaze can be used to signal important turn-taking transitions in social interactions. Deficits in conversational turn-taking is a core feature of autism spectrum disorders. Individuals on the autism spectrum also have notable difficulties processing eye gaze information (Griffin {&} Scherf, 2020). A central hypothesis in the literature is that the difficulties in processing eye gaze information are foundational to the social communication deficits that make social interactions so challenging for individuals on the autism spectrum. Although eye-tracking technology has been used extensively to assess the way individuals on the spectrum attend to stimuli presented on computer screens (for review see Papagiannopoulou et al., 2014), it has rarely been used to evaluate the critical question regarding whether and how autistic individuals process non-verbal social cues from their partners during live social interactions. Here, we review this emerging literature with a focus on characterizing the experimental paradigms and eye-tracking procedures to understand the scope (and limitations) of research questions and findings. We discuss the theoretical implications of the findings from this review and provide recommendations for future work that will be essential to understand whether and how fundamental difficulties in perceiving and processing information about eye gaze cues interfere with social communication skills in autism.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/laskowitz22a.html
+  PDF: https://proceedings.mlr.press/v173/laskowitz22a/laskowitz22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-laskowitz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Sarah
+    family: Laskowitz
+  - given: Jason W.
+    family: Griffin
+  - given: Charles F.
+    family: Geier
+  - given: K. Suzanne
+    family: Scherf
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 242-264
+  id: laskowitz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 242
+  lastpage: 264
+  published: 2022-03-29 00:00:00 +0000
+- title: 'Covfee: an extensible web framework for continuous-time annotation of human behavior'
+  abstract: 'Continuous-time annotation, where subjects annotate data while watching the continuous media (video, audio, or time series in general) has traditionally been applied to the annotation of continuous-value variables like arousal and valence in Affective Computing. On the other hand, machine perception tasks are most often annotated using frame-wise techniques. For actions, annotators find the start and end frame of the action of interest using a graphical interface. However, given the duration of the videos that are generally annotated in social interaction datasets, this can be a slow and frustrating process. It usually involves pausing the video at the onset or offset of the action and scrolling back and forth to identify the precise moment. A continuous annotation system, where annotators are asked to press a key when they perceive the target action to be occurring, can improve the time to do such annotations, especially in situations where single subjects are annotated for long periods of time. Keypoint annotations, where the task is to follow a particular point of interest in a video (e.g., a body joint) can also be done continuously. In this paper we present the Covfee web framework, a software package designed to support online continuous annotation tasks, with crowd-sourcing capabilities. We present results from case studies of continuous annotation of body poses (keypoints) and speaking (action) on an in-the-wild social interaction dataset. In the case of keypoints, we present a new technique allowing an easy way to follow a keypoint in a video using the mouse cursor. We found the technique to significantly reduce annotation times with no adverse effect on inter-annotator agreement. For action annotation, we used continuous annotation techniques to obtain binary speaking status labels and annotator ratings of confidence on those labels. Covfee is free software, available as a Python package documented at josedvq.github.io/covfee.'
+  volume: 173
+  URL: https://proceedings.mlr.press/v173/vargas-quiros22a.html
+  PDF: https://proceedings.mlr.press/v173/vargas-quiros22a/vargas-quiros22a.pdf
+  edit: https://github.com/mlresearch//v173/edit/gh-pages/_posts/2022-03-29-vargas-quiros22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Understanding Social Behavior in Dyadic and Small Group Interactions'
+  publisher: 'PMLR'
+  author: 
+  - given: Jose
+    family: Vargas Quiros
+  - given: Stephanie
+    family: Tan
+  - given: Chirag
+    family: Raman
+  - given: Laura
+    family: Cabrera-Quiros
+  - given: Hayley
+    family: Hung
+  editor: 
+  - given: Cristina
+    family: Palmero
+  - given: Julio C. S.
+    family: Jacques Junior
+  - given: Albert
+    family: Clapés
+  - given: Isabelle
+    family: Guyon
+  - given: Wei-Wei
+    family: Tu
+  - given: Thomas B.
+    family: Moeslund
+  - given: Sergio
+    family: Escalera
+  page: 265-293
+  id: vargas-quiros22a
+  issued:
+    date-parts: 
+      - 2022
+      - 3
+      - 29
+  firstpage: 265
+  lastpage: 293
+  published: 2022-03-29 00:00:00 +0000

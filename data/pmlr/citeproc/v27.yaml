@@ -1,0 +1,677 @@
+
+- title: 'ICML2011 Unsupervised and Transfer Learning Workshop'
+  abstract: 'We organized a data mining challenge in “unsupervised and transfer learning” (the UTL challenge) followed by a workshop of the same name at the ICML 2011 conference in Bellevue, Washington. This introduction presents the highlights of the outstanding contributions that were made, which are regrouped in this issue of JMLR W&CP. Novel methodologies emerged to capitalize on large volumes of unlabeled data from tasks related (but different) from a target task, including a method to learn data kernels (similarity measures) and new deep architectures for feature learning.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/silver12a.html
+  PDF: http://proceedings.mlr.press/v27/silver12a/silver12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-silver12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: David L.
+    family: Silver
+  - given: Isabelle
+    family: Guyon
+  - given: Graham
+    family: Taylor
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 1-15
+  id: silver12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 1
+  lastpage: 15
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Deep Learning of Representations for Unsupervised and Transfer Learning'
+  abstract: 'Deep learning algorithms seek to exploit the unknown structure in the input distribution in order to discover good representations, often at multiple levels, with higher-level learned features defined in terms of lower-level features. The objective is to make these higher-level representations more abstract, with their individual features more invariant to most of the variations that are typically present in the training distribution, while collectively preserving as much as possible of the information in the input. Ideally, we would like these representations to disentangle the unknown factors of variation that underlie the training distribution. Such unsupervised learning of representations can be exploited usefully under the hypothesis that the input distribution $P(x)$ is structurally related to some task of interest, say predicting $P(y|x)$. This paper focuses on the context of the Unsupervised and Transfer Learning Challenge, on why unsupervised pre-training of representations can be useful, and how it can be exploited in the transfer learning scenario, where we care about predictions on examples that are not from the same distribution as the training distribution.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/bengio12a.html
+  PDF: http://proceedings.mlr.press/v27/bengio12a/bengio12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-bengio12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yoshua
+    family: Bengio
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 17-36
+  id: bengio12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 17
+  lastpage: 36
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Autoencoders, Unsupervised Learning, and Deep Architectures'
+  abstract: 'Autoencoders play a fundamental role in unsupervised learning and in deep architectures for transfer learning and other tasks. In spite of their fundamental role, only linear autoencoders over the real numbers have been solved analytically. Here we present a general mathematical framework for the study of both linear and non-linear autoencoders. The framework allows one to derive an analytical treatment for the most non-linear autoencoder, the Boolean autoencoder. Learning in the Boolean autoencoder is equivalent to a clustering problem that can be solved in polynomial time when the number of clusters is small and becomes NP complete when the number of clusters is large. The framework sheds light on the different kinds of autoencoders, their learning complexity, their horizontal and vertical composability in deep architectures, their critical points, and their fundamental connections to clustering, Hebbian learning, and information theory.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/baldi12a.html
+  PDF: http://proceedings.mlr.press/v27/baldi12a/baldi12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-baldi12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Pierre
+    family: Baldi
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 37-49
+  id: baldi12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 37
+  lastpage: 49
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Information Theoretic Model Selection for Pattern Analysis'
+  abstract: 'Exploratory data analysis requires (i) to define a set of patterns hypothesized to exist in the data, (ii) to specify a suitable quantification principle or cost function to rank these patterns and (iii) to validate the inferred patterns. For data clustering, the patterns are object partitionings into k groups; for PCA or truncated SVD, the patterns are orthogonal transformations with projections to a low-dimensional space. We propose an information theoretic principle for model selection and model-order selection. Our principle ranks competing pattern cost functions according to their ability to extract context sensitive information from noisy data with respect to the chosen hypothesis class. Sets of approximative solutions serve as a basis for a communication protocol. Analogous to ?, inferred models maximize the so-called approximation capacity that is the mutual information between coarsened training data patterns and coarsened test data patterns. We demonstrate how to apply our validation framework by the well-known Gaussian mixture model and by a multi-label clustering approach for role mining in binary user privilege assignments.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/buhmann12a.html
+  PDF: http://proceedings.mlr.press/v27/buhmann12a/buhmann12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-buhmann12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Joachim M.
+    family: Buhmann
+  - given: Morteza H.
+    family: Chehreghani
+  - given: Mario
+    family: Frank
+  - given: Andreas P.
+    family: Streich
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 51-64
+  id: buhmann12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 51
+  lastpage: 64
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Clustering: Science or Art?'
+  abstract: 'We examine whether the quality of different clustering algorithms
+can be compared by a general, scientifically sound procedure which
+is independent of particular clustering algorithms. We argue that
+the major obstacle is the difficulty in evaluating a clustering
+algorithm without taking into account the context: why does the user
+cluster his data in the first place, and what does he want to do
+with the clustering afterwards? We argue that clustering should not
+be treated as an application-independent mathematical problem, but
+should always be studied in the context of its end-use.  Different
+techniques to evaluate clustering algorithms have to be developed
+for different uses of clustering. To simplify this procedure we
+argue that it will be useful to build a “taxonomy of clustering
+problems” to identify clustering applications which can be treated
+in a unified way and that such an effort will be more fruitful than
+attempting the impossible – developing “optimal” domain-independent
+clustering algorithms or even classifying clustering algorithms in
+terms of how they work.
+'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/luxburg12a.html
+  PDF: http://proceedings.mlr.press/v27/luxburg12a/luxburg12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-luxburg12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ulrike
+    prefix: von
+    family: Luxburg
+  - given: Robert C.
+    family: Williamson
+  - given: Isabelle
+    family: Guyon
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 65-79
+  id: luxburg12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 65
+  lastpage: 79
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Transfer Learning by Kernel Meta-Learning'
+  abstract: 'A crucial issue in machine learning is how to learn appropriate representations for data. Recently, much work has been devoted to kernel learning, that is, the problem of finding a good kernel matrix for a given task. This can be done in a semi-supervised learning setting by using a large set of unlabeled data and a (typically small) set of i.i.d. labeled data. Another, even more challenging problem, is how one can exploit partially labeled data of a source task to learn good representations for a different, but related, target task. This is the main subject of transfer learning. In this paper, we present a novel approach to transfer learning based on kernel learning. Specifically, we propose a kernel meta-learning algorithm which, starting from a basic kernel, tries to learn chains of kernel transforms that are able to produce good kernel matrices for the source tasks. The same sequence of transformations can be then applied to compute the kernel matrix for new related target tasks. We report on the application of this method to the five datasets of the Unsupervised and Transfer Learning (UTL) challenge benchmark, where we won the first phase of the competition.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/aiolli12a.html
+  PDF: http://proceedings.mlr.press/v27/aiolli12a/aiolli12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-aiolli12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Fabio
+    family: Aiolli
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 81-95
+  id: aiolli12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 81
+  lastpage: 95
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Unsupervised and Transfer Learning Challenge: a Deep Learning Approach'
+  abstract: 'Learning good representations from a large set of unlabeled data is a particularly challenging task. Recent work (see Bengio (2009) for a review) shows that training deep architectures is a good way to extract such representations, by extracting and disentangling gradually higher-level factors of variation characterizing the input distribution. In this paper, we describe different kinds of layers we trained for learning representations in the setting of the Unsupervised and Transfer Learning Challenge. The strategy of our team won the final phase of the challenge. It combined and stacked different one-layer unsupervised learning algorithms, adapted to each of the five datasets of the competition. This paper describes that strategy and the particular one-layer learning algorithms feeding a simple linear classifier with a tiny number of labeled training samples (1 to 64 per class).'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/mesnil12a.html
+  PDF: http://proceedings.mlr.press/v27/mesnil12a/mesnil12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-mesnil12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Grégoire
+    family: Mesnil
+  - given: Yann
+    family: Dauphin
+  - given: Xavier
+    family: Glorot
+  - given: Salah
+    family: Rifai
+  - given: Yoshua
+    family: Bengio
+  - given: Ian
+    family: Goodfellow
+  - given: Erick
+    family: Lavoie
+  - given: Xavier
+    family: Muller
+  - given: Guillaume
+    family: Desjardins
+  - given: David
+    family: Warde-Farley
+  - given: Pascal
+    family: Vincent
+  - given: Aaron
+    family: Courville
+  - given: James
+    family: Bergstra
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 97-110
+  id: mesnil12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 97
+  lastpage: 110
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Stochastic Unsupervised Learning on Unlabeled Data'
+  abstract: 'In this paper, we introduce a stochastic unsupervised learning method that was used in the 2011 Unsupervised and Transfer Learning (UTL) challenge. This method is developed to preprocess the data that will be used in the subsequent classification problems. Specifically, it performs K-means clustering on principal components instead of raw data to remove the impact of noisy/irrelevant/less-relevant features and improve the robustness of the results. To alleviate the overfitting problem, we also utilize a stochastic process to combine multiple clustering assignments on each data point. Finally, promising results were observed on all the test data sets. Indeed, this proposed method won us the second place in the overall performance of the challenge.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/liu12a.html
+  PDF: http://proceedings.mlr.press/v27/liu12a/liu12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-liu12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chuanren
+    family: Liu
+  - given: Jianjun
+    family: Xie
+  - given: Yong
+    family: Ge
+  - given: Hui
+    family: Xiong
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 111-122
+  id: liu12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 111
+  lastpage: 122
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Transfer Learning with Cluster Ensembles'
+  abstract: 'Traditional supervised learning algorithms typically assume that the training data and test data come from a common underlying distribution. Therefore, they are challenged by the mismatch between training and test distributions encountered in transfer learning situations. The problem is further exacerbated when the test data actually comes from a different domain and contains no labeled example. This paper describes an optimization framework that takes as input one or more classifiers learned on the source domain as well as the results of a cluster ensemble operating solely on the target domain, and yields a consensus labeling of the data in the target domain. This framework is fairly general in that it admits a wide range of loss functions and classification/clustering methods. Empirical results on both text and hyperspectral data indicate that the proposed method can yield superior classification results compared to applying certain other transductive and transfer learning techniques or naı̈vely applying the classifier (ensemble) learnt on the source domain to the target domain.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/acharya12a.html
+  PDF: http://proceedings.mlr.press/v27/acharya12a/acharya12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-acharya12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ayan
+    family: Acharya
+  - given: Eduardo R.
+    family: Hruschka
+  - given: Joydeep
+    family: Ghosh
+  - given: Sreangsu
+    family: Acharyya
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 123-132
+  id: acharya12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 123
+  lastpage: 132
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Divide and Transfer: an Exploration of Segmented Transfer to Detect Wikipedia Vandalism'
+  abstract: 'The paper applies knowledge transfer methods to the problem of detecting Wikipedia vandalism detection, defined as malicious editing intended to compromise the integrity of the content of articles. A major challenge of detecting Wikipedia vandalism is the lack of a large amount of labeled training data. Knowledge transfer addresses this challenge by leveraging previously acquired knowledge from a source task. However, the characteristics of Wikipedia vandalism are heterogeneous, ranging from a small replacement of a letter to a massive deletion of text. Selecting an informative subset from the source task to avoid potential negative transfer becomes a primary concern given this heterogeneous nature. The paper explores knowledge transfer methods to generalize learned models from a heterogeneous dataset to a more uniform dataset while avoiding negative transfer. The two novel segmented transfer (ST) approaches map unlabeled data from the target task to the most related cluster from the source task, classifying the unlabeled data using the most relevant learned models.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/chin12a.html
+  PDF: http://proceedings.mlr.press/v27/chin12a/chin12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-chin12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Si-Chi
+    family: Chin
+  - given: W. Nick
+    family: Street
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 133-144
+  id: chin12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 133
+  lastpage: 144
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Self-measuring Similarity for Multi-task Gaussian Process'
+  abstract: 'Multi-task learning aims at transferring knowledge between similar tasks. The multi-task Gaussian process framework of Bonilla <i>et al.</i> models (incomplete) responses of $C$ data points for $R$ tasks (e.g., the responses are given by an $R \times C$ matrix) by using a Gaussian process; the covariance function takes its form as the product of a covariance function defined on input-specific features and an inter-task covariance matrix (which is empirically estimated as a model parameter). We extend this framework by incorporating a novel similarity measurement, which allows for the representation of much more complex data structures. The proposed framework also enables us to exploit additional information (e.g., the input-specific features) when constructing the covariance matrices by combining additional information with the covariance function. We also derive an efficient learning algorithm which uses an iterative method to make predictions. Finally, we apply our model to a real data set of recommender systems and show that the proposed method achieves the best prediction accuracy on the data set.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/hayashi12a.html
+  PDF: http://proceedings.mlr.press/v27/hayashi12a/hayashi12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-hayashi12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kohei
+    family: Hayashi
+  - given: Takashi
+    family: Takenouchi
+  - given: Ryota
+    family: Tomioka
+  - given: Hisashi
+    family: Kashima
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 145-153
+  id: hayashi12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 145
+  lastpage: 153
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Transfer Learning for Auto-gating of Flow Cytometry Data'
+  abstract: 'Flow cytometry is a technique for rapidly quantifying physical and chemical properties of large numbers of cells. In clinical applications, flow cytometry data must be manually “gated” to identify cell populations of interest. While several researchers have investigated statistical methods for automating this process, most of them falls under the framework of unsupervised learning and mixture model fitting. We view the problem as one of transfer learning, which can leverage existing datasets previously gated by experts to automatically gate a new flow cytometry dataset while accounting for biological variation. We illustrate our proposed method by automatically gating lymphocytes from peripheral blood samples.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/lee12a.html
+  PDF: http://proceedings.mlr.press/v27/lee12a/lee12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-lee12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Gyemin
+    family: Lee
+  - given: Lloyd
+    family: Stoolman
+  - given: Clayton
+    family: Scott
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 155-165
+  id: lee12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 155
+  lastpage: 165
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Inductive Transfer for Bayesian Network Structure Learning'
+  abstract: 'We study the multi-task Bayesian Network structure learning problem: given data for multiple related problems, learn a Bayesian Network structure for each of them, sharing information among the problems to boost performance. We learn the structures for all the problems simultaneously using a score and search approach that encourages the learned Bayes Net structures to be similar. Encouraging similarity promotes information sharing and prioritizes learning structural features that explain the data from all problems over features that only seem relevant to a single one. This leads to a significant increase in the accuracy of the learned structures, especially when training data is scarce.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/niculescu12a.html
+  PDF: http://proceedings.mlr.press/v27/niculescu12a/niculescu12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-niculescu12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexandru
+    family: Niculescu-Mizil
+  - given: Rich
+    family: Caruana
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 167-180
+  id: niculescu12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 167
+  lastpage: 180
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Unsupervised dimensionality reduction via gradient-based matrix factorization with two adaptive learning rates'
+  abstract: 'The high dimensionality of the data, the expressions of thousands of features in a much smaller number of samples, presents challenges that affect applicability of the analytical results. In principle, it would be better to describe the data in terms of a small number of meta-features, derived as a result of matrix factorization, which could reduce noise while still capturing the essential features of the data. Three novel and mutually relevant methods are presented in this paper: 1) gradient-based matrix factorization with two adaptive learning rates (in accordance with the number of factor matrices) and their automatic updates; 2) nonparametric criterion for the selection of the number of factors; and 3) nonnegative version of the gradient-based matrix factorization which doesn''t require any extra computational costs in difference to the existing methods. We demonstrate effectiveness of the proposed methods to the supervised classification of gene expression data.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/nikulin12a.html
+  PDF: http://proceedings.mlr.press/v27/nikulin12a/nikulin12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-nikulin12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Vladimir
+    family: Nikulin
+  - given: Tian-Hsiang
+    family: Huang
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 181-194
+  id: nikulin12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 181
+  lastpage: 194
+  published: 2012-06-27 00:00:00 +0000
+- title: 'One-Shot Learning with a Hierarchical Nonparametric Bayesian Model'
+  abstract: 'We develop a hierarchical Bayesian model that learns categories from single training examples. The model transfers acquired knowledge from previously learned categories to a novel category, in the form of a prior over category means and variances. The model discovers how to group categories into meaningful super-categories that express different priors for new classes. Given a single example of a novel category, we can efficiently infer which super-category the novel category belongs to, and thereby estimate not only the new categories mean but also an appropriate similarity metric based on parameters inherited from the super-category. On MNIST and MSR Cambridge image datasets the model learns useful representations of novel categories based on just a single training example, and performs significantly better than simpler hierarchical Bayesian approaches. It can also discover new categories in a completely unsupervised fashion, given just one or a few examples.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/salakhutdinov12a.html
+  PDF: http://proceedings.mlr.press/v27/salakhutdinov12a/salakhutdinov12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-salakhutdinov12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ruslan
+    family: Salakhutdinov
+  - given: Joshua
+    family: Tenenbaum
+  - given: Antonio
+    family: Torralba
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 195-206
+  id: salakhutdinov12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 195
+  lastpage: 206
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Multitask Learning in Computational Biology'
+  abstract: 'Computational Biology provides a wide range of applications for Multitask Learning (MTL) methods. As the generation of labels often is very costly in the biomedical domain, combining data from different related problems or tasks is a promising strategy to reduce label cost. In this paper, we present two problems from sequence biology, where MTL was successfully applied. For this, we use regularization-based MTL methods, with a special focus on the case of a hierarchical relationship between tasks. Furthermore, we propose strategies to refine the measure of task relatedness, which is of central importance in MTL and finally give some practical guidelines, when MTL strategies are likely to pay off.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/widmer12a.html
+  PDF: http://proceedings.mlr.press/v27/widmer12a/widmer12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-widmer12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Christian
+    family: Widmer
+  - given: Gunnar
+    family: Rätsch
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 207-216
+  id: widmer12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 207
+  lastpage: 216
+  published: 2012-06-27 00:00:00 +0000
+- title: 'Transfer Learning in Sequential Decision Problems:  A Hierarchical Bayesian Approach'
+  abstract: 'Transfer learning is one way to close the gap between the apparent speed of human learning and the relatively slow pace of learning by machines. Transfer is doubly beneficial in reinforcement learning where the agent not only needs to generalize from sparse experience, but also needs to efficiently explore. In this paper, we show that the hierarchical Bayesian framework can be readily adapted to sequential decision problems and provides a natural formalization of transfer learning. Using our framework, we produce empirical results in a simple colored maze domain and a complex real-time strategy game. The results show that our Hierarchical Bayesian Transfer framework significantly improves learning speed when tasks are hierarchically related.'
+  volume: 27
+  URL: https://proceedings.mlr.press/v27/wilson12a.html
+  PDF: http://proceedings.mlr.press/v27/wilson12a/wilson12a.pdf
+  edit: https://github.com/mlresearch//v27/edit/gh-pages/_posts/2012-06-27-wilson12a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of ICML Workshop on Unsupervised and Transfer Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Aaron
+    family: Wilson
+  - given: Alan
+    family: Fern
+  - given: Prasad
+    family: Tadepalli
+  editor: 
+  - given: Isabelle
+    family: Guyon
+  - given: Gideon
+    family: Dror
+  - given: Vincent
+    family: Lemaire
+  - given: Graham
+    family: Taylor
+  - given: Daniel
+    family: Silver
+  address: Bellevue, Washington, USA
+  page: 217-227
+  id: wilson12a
+  issued:
+    date-parts: 
+      - 2012
+      - 6
+      - 27
+  firstpage: 217
+  lastpage: 227
+  published: 2012-06-27 00:00:00 +0000

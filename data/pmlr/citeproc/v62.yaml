@@ -1,0 +1,1087 @@
+
+- title: 'Differences of Opinion'
+  abstract: 'This paper considers the resolution of ambiguity according to the scientific ideal of direct observation when there is a practical necessity for social learning. An agent faces ambiguity when she directly observes low-quality data yielding set-identified signals. I suppose the agent’s objective is to choose the single belief replicating what would occur with high-quality data yielding point-identified signals. I allow the agent to solve this missing data problem using signals observed through her network in combination with a model of social learning. In some cases the agent’s belief formation reduces to DeGroot updating and beliefs in a network reach a consensus. In other cases the agent’s updating can generate polarization and sustain clustered disagreement, even on a connected network where everyone observes the same data and processes that data with the same model.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/aliprantis17a.html
+  PDF: http://proceedings.mlr.press/v62/aliprantis17a/aliprantis17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-aliprantis17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Dionissi
+    family: Aliprantis
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 1-12
+  id: aliprantis17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 1
+  lastpage: 12
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Kurt Weichselberger’s Contribution to Imprecise Probabilities'
+  abstract: 'Kurt Weichselberger, one of the influential senior members of the imprecise probability community, passed away on February 7, 2016. Almost throughout his entire academic life the major focus of his research interest has been on the foundations of probability and statistics. The present article is a first attempt to trace back chronologically the development of Weichselberger’s work on interval probability and his symmetric theory of logical probability based on it. We also try to work out the intellectual background of his different projects together with some close links between them.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/augustin17a.html
+  PDF: http://proceedings.mlr.press/v62/augustin17a/augustin17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-augustin17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Augustin
+  - given: Rudolf
+    family: Seising
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 13-24
+  id: augustin17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 13
+  lastpage: 24
+  published: 2017-06-20 00:00:00 +0000
+- title: 'SOS for Bounded Rationality'
+  abstract: 'In the gambling foundation of probability theory, rationality requires that a subject should always (never) find desirable all nonnegative (negative) gambles, because no matter the result of the experiment the subject never (always) decreases her money. Evaluating the nonnegativity of a gamble in infinite spaces is a difficult task. In fact, even if we restrict the gambles to be polynomials in $R^n$, the problem of determining nonnegativity is NP-hard. The aim of this paper is to develop a computable theory of desirable gambles. Instead of requiring the subject to accept all nonnegative gambles, we only require her to accept gambles for which she can efficiently determine the nonnegativity (in particular SOS polynomials). We call this new criterion bounded rationality.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/benavoli17a.html
+  PDF: http://proceedings.mlr.press/v62/benavoli17a/benavoli17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-benavoli17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessio
+    family: Benavoli
+  - given: Alessandro
+    family: Facchini
+  - given: Dario
+    family: Piga
+  - given: Marco
+    family: Zaffalon
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 25-36
+  id: benavoli17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 25
+  lastpage: 36
+  published: 2017-06-20 00:00:00 +0000
+- title: 'A Polarity Theory for Sets of Desirable Gambles'
+  abstract: 'Coherent sets of almost desirable gambles and credal sets are known to be equivalent models. That is, there exists a bijection between the two collections of sets preserving the usual operations, e.g. conditioning. Such a correspondence is based on the polarity theory for closed convex cones. Learning from this simple observation, in this paper we introduce a new (lexicographic) polarity theory for general convex cones and then we apply it in order to establish an analogous correspondence between coherent sets of desirable gambles and convex sets of lexicographic probabilities.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/benavoli17b.html
+  PDF: http://proceedings.mlr.press/v62/benavoli17b/benavoli17b.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-benavoli17b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessio
+    family: Benavoli
+  - given: Alessandro
+    family: Facchini
+  - given: Marco
+    family: Zaffalon
+  - given: José
+    family: Vicente-Pérez
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 37-48
+  id: benavoli17b
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 37
+  lastpage: 48
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Modeling Markov Decision Processes with Imprecise Probabilities Using Probabilistic Logic Programming'
+  abstract: 'We study languages that specify Markov Decision Processes with Imprecise Probabilities (MDPIPs) by mixing probabilities and logic programming. We propose a novel language that can capture MDPIPs and Markov Decision Processes with Set-valued Transitions (MDPSTs) we then obtain the complexity of one-step inference for the resulting MDPIPs and MDPSTs. We also present results of independent interest on the complexity of inference with probabilistic logic programs containing interval-valued probabilistic assessments. Finally, we also discuss policy generation techniques.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/bueno17a.html
+  PDF: http://proceedings.mlr.press/v62/bueno17a/bueno17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-bueno17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thiago P.
+    family: Bueno
+  - given: Denis D.
+    family: Mauá
+  - given: Leliane N.
+    family: Barros
+  - given: Fabio G.
+    family: Cozman
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 49-60
+  id: bueno17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 49
+  lastpage: 60
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Empirical Interpretation of Imprecise Probabilities'
+  abstract: 'This paper investigates the possibility of a frequentist interpretation of imprecise probabilities, by generalizing the approach of Bernoulli’s Ars Conjectandi. That is, by studying, in the case of games of chance, under which assumptions imprecise probabilities can be satisfactorily estimated from data. In fact, estimability on the basis of finite amounts of data is a necessary condition for imprecise probabilities in order to have a clear empirical meaning. Unfortunately, imprecise probabilities can be estimated arbitrarily well from data only in very limited settings.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/cattaneo17a.html
+  PDF: http://proceedings.mlr.press/v62/cattaneo17a/cattaneo17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-cattaneo17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Marco E. G. V.
+    family: Cattaneo
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 61-72
+  id: cattaneo17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 61
+  lastpage: 72
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Bayesian Inference under Ambiguity: Conditional Prior Belief Functions'
+  abstract: 'Bayesian inference under imprecise prior information is studied: the starting point is a precise strategy $σ$ and a full B-conditional prior belief function $Bel_B$, conveying ambiguity in probabilistic prior information. In finite spaces, we give a closed form expression for the lower envelope $\underline{P}$ of the class of full conditional probabilities dominating $(Bel_B,σ)$ and, in particular, for the related “posterior probabilities”. The assessment $(Bel_B,σ)$ is a coherent lower conditional probability in the sense of Williams and the characterized lower envelope $\underline{P}$ coincides with its natural extension.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/coletti17a.html
+  PDF: http://proceedings.mlr.press/v62/coletti17a/coletti17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-coletti17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Giulianella
+    family: Coletti
+  - given: Davide
+    family: Petturiti
+  - given: Barbara
+    family: Vantaggi
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 73-84
+  id: coletti17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 73
+  lastpage: 84
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Weak Dutch Books versus Strict Consistency with Lower Previsions'
+  abstract: 'Several consistency notions for lower previsions (coherence, convexity, others) require that the suprema of certain gambles, having the meaning of gains, are non-negative. The limit situation that a gain supremum is zero is termed Weak Dutch Book (WDB). In the literature, the special case of WDBs with precise probabilities has mostly been analysed, and strict coherence has been proposed as a radical alternative. In this paper the focus is on WDBs and generalised strict coherence, termed strict consistency, with imprecise previsions. We discuss properties of lower previsions incurring WDBs and conditions for strict consistency, showing in both cases how they are differentiated by the degree of consistency of the given uncertainty assessment.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/corsato17a.html
+  PDF: http://proceedings.mlr.press/v62/corsato17a/corsato17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-corsato17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Chiara
+    family: Corsato
+  - given: Renato
+    family: Pelessoni
+  - given: Paolo
+    family: Vicig
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 85-96
+  id: corsato17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 85
+  lastpage: 96
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Reconciling Bayesian and Frequentist Tests: the Imprecise Counterpart'
+  abstract: 'Imprecise Dirichlet Process-based tests (IDP-tests, for short) have been recently introduced in the literature. They overcome the problem of deciding how to select a single prior in Bayesian hypothesis testing, in the absence of prior information. They make use of a “near-ignorance” model, that behaves a priori as a vacuous model for some basic inferences, but it provides non-vacuous posterior inferences. We perform empirical studies regarding the behavior of IDP-tests for the particular case of Wilcoxon rank sum test. We show that the upper and lower posterior probabilities can be expressed as tail probabilities based on the value of the $U$ statistic. We construct an imprecise frequentist-based test that reproduces the same decision rule as the the IDP test. It considers a neighbourhood around the $U$-statistic value. If all the values in the neighbourhood belong to the rejection zone (resp. to the acceptance region), the null hypothesis is rejected (resp. accepted). Otherwise, the judgement is suspended.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/couso17a.html
+  PDF: http://proceedings.mlr.press/v62/couso17a/couso17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-couso17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Inés
+    family: Couso
+  - given: Antonio
+    family: Álvarez-Caballero
+  - given: Luciano
+    family: Sánchez
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 97-108
+  id: couso17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 97
+  lastpage: 108
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Evenly Convex Credal Sets'
+  abstract: 'An evenly convex credal set is a set of probability measures that is evenly convex that is, a set that is an intersection of open halfspaces. An evenly convex credal set can for instance encode preference judgments through strict and non-strict inequalities such as $P(A) > 1/2$ and $P(A) ≤2/3$. This paper presents an axiomatization of evenly convex sets from preferences, where we introduce a new (and very weak) Archimedean condition.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/cozman17a.html
+  PDF: http://proceedings.mlr.press/v62/cozman17a/cozman17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-cozman17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Fabio G.
+    family: Cozman
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 109-120
+  id: cozman17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 109
+  lastpage: 120
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Independent Natural Extension for Infinite Spaces: Williams-Coherence to the Rescue'
+  abstract: 'We define the independent natural extension of two local models for the general case of infinite spaces, using both sets of desirable gambles and conditional lower previsions. In contrast to Miranda and Zaffalon (2015), we adopt Williams-coherence instead of Walley-coherence. We show that our notion of independent natural extension always exists—whereas theirs does not—and that it satisfies various convenient properties, including factorisation and external additivity.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/de-bock17a.html
+  PDF: http://proceedings.mlr.press/v62/de bock17a/de bock17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-de bock17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 121-132
+  id: de bock17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 121
+  lastpage: 132
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Computable Randomness is Inherently Imprecise'
+  abstract: 'We use the martingale-theoretic approach of game-theoretic probability to incorporate imprecision into the study of randomness. In particular, we define a notion of computable randomness associated with interval, rather than precise, forecasting systems, and study its properties. The richer mathematical structure that thus arises lets us better understand and place existing results for the precise limit. When we focus on constant interval forecasts, we find that every infinite sequence of zeroes and ones has an associated filter of intervals with respect to which it is computably random. It may happen that none of these intervals is precise, which justifies the title of this paper. We illustrate this by showing that computable randomness associated with non-stationary precise forecasting systems can be captured by a stationary interval forecast, which must then be less precise: a gain in model simplicity is thus paid for by a loss in precision.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/cooman17a.html
+  PDF: http://proceedings.mlr.press/v62/cooman17a/cooman17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-cooman17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Gert
+    family: Cooman
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 133-144
+  id: cooman17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 133
+  lastpage: 144
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Imprecise Continuous-Time Markov Chains: Efficient Computational Methods with Guaranteed Error Bounds'
+  abstract: 'Imprecise continuous-time Markov chains are a robust type of continuous-time Markov chains that allow for partially specified time-dependent parameters. Computing inferences for them requires the solution of a non-linear differential equation. As there is no general analytical expression for this solution, efficient numerical approximation methods are essential to the applicability of this model. We here improve the uniform approximation method of Krak et al. (2016) in two ways and propose a novel and more efficient adaptive approximation method. For ergodic chains, we also provide a method that allows us to approximate stationary distributions up to any desired maximal error.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/erreygers17a.html
+  PDF: http://proceedings.mlr.press/v62/erreygers17a/erreygers17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-erreygers17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Erreygers
+  - given: Jasper
+    family: De Bock
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 145-156
+  id: erreygers17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 145
+  lastpage: 156
+  published: 2017-06-20 00:00:00 +0000
+- title: '(Generalized) Linear Regression on Microaggregated Data – From Nuisance Parameter Optimization to Partial Identification'
+  abstract: 'Protecting sensitive micro data prior to publishing or passing the data itself on is a crucial aspect: A trade-off between sufficient disclosure control and analyzability needs to be found. This paper presents a starting point to evaluate the effect of $k$-anonymity microaggregated data in (generalized) linear regression. Taking a rigorous imprecision perspective, microaggregated data are understood inducing a set $X$ of potentially true data. Based on this representation two conceptually different approaches deriving estimations from the ideal likelihood are discussed. The first one picks a single element of $X$, for instance by naively treating the microaggregated data as true ones or by introducing a maximax approach taking the elements of $X$ as nuisance parameters to be optimized. The second one seeks, in the spirit of Partial Identification, the set of all maximum likelihood estimators compatible with the elements of $X$, thus creating cautious estimators. As the simulation study corroborates, the obtained sets of estimators of the latter approach are still precise enough to be practically relevant.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/fink17a.html
+  PDF: http://proceedings.mlr.press/v62/fink17a/fink17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-fink17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Paul
+    family: Fink
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 157-168
+  id: fink17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 157
+  lastpage: 168
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Maximum Likelihood with Coarse Data based on Robust Optimisation'
+  abstract: 'This paper deals with the problem of probability estimation in the context of coarse data. Probabilities are estimated using the maximum likelihood principle. Our approach presupposes that each imprecise observation underlies a precise one, and that the uncertainty that pervades its observation is epistemic, rather than representing noise. As a consequence, the likelihood function of the ill-observed sample is set-valued. In this paper, we apply a robust optimization method to find a safe plausible estimate of the probabilities of elementary events on finite state spaces. More precisely we use a maximin criterion on the imprecise likelihood function. We show that there is a close connection between the robust maximum likelihood strategy and the maximization of entropy among empirical distributions compatible with the incomplete data. A mathematical model in terms of maximal flow on graphs, based on duality theory, is proposed. It results in a linear objective function and convex constraints. This result is somewhat surprizing since maximum entropy problems are known to be complex due to the maximization of a concave function on a convex set.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/guillaume17a.html
+  PDF: http://proceedings.mlr.press/v62/guillaume17a/guillaume17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-guillaume17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Romain
+    family: Guillaume
+  - given: Inés
+    family: Couso
+  - given: Didier
+    family: Dubois
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 169-180
+  id: guillaume17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 169
+  lastpage: 180
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Concepts for Decision Making under Severe Uncertainty with Partial Ordinal and Partial Cardinal Preferences'
+  abstract: 'We introduce three different approaches for decision making under uncertainty, if (I) there is only partial (both cardinal and ordinal) information on an agent’s preferences and (II) the uncertainty about the states of nature is described by a credal set. Particularly, (I) is modeled by a pair of relations, one specifying the partial rank order of the alternatives and the other modeling partial information on the strength of preference. Our first approach relies on criteria that construct complete rankings of the acts based on generalized expectation intervals. Subsequently, we introduce different concepts of global admissibility that construct partial orders by comparing all acts simultaneously. Finally, we define criteria induced by suitable binary relations on the set of acts and, therefore, can be understood as concepts of local admissibility. Whenever suitable, we provide linear programming based algorithms for checking optimality/admissibility of acts.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/jansen17a.html
+  PDF: http://proceedings.mlr.press/v62/jansen17a/jansen17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-jansen17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Christoph
+    family: Jansen
+  - given: Georg
+    family: Schollmeyer
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 181-192
+  id: jansen17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 181
+  lastpage: 192
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Efficient Computation of Updated Lower Expectations for Imprecise Continuous-Time Hidden Markov Chains'
+  abstract: 'We consider the problem of performing inference with imprecise continuous-time hidden Markov chains, that is, imprecise continuous-time Markov chains that are augmented with random output variables whose distribution depends on the hidden state of the chain. The prefix ‘imprecise’ refers to the fact that we do not consider a classical continuous-time Markov chain, but replace it with a robust extension that allows us to represent various types of model uncertainty, using the theory of imprecise probabilities. The inference problem amounts to computing lower expectations of functions on the state-space of the chain, given observations of the output variables. We develop and investigate this problem with very few assumptions on the output variables in particular, they can be chosen to be either discrete or continuous random variables. Our main result is a polynomial runtime algorithm to compute the lower expectation of functions on the state-space at any given time-point, given a collection of observations of the output variables.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/krak17a.html
+  PDF: http://proceedings.mlr.press/v62/krak17a/krak17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-krak17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Krak
+  - given: Jasper
+    family: De Bock
+  - given: Arno
+    family: Siebes
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 193-204
+  id: krak17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 193
+  lastpage: 204
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Credal Sum-Product Networks'
+  abstract: 'Sum-product networks are a relatively new and increasingly popular class of (precise) probabilistic graphical models that allow for marginal inference with polynomial effort. As with other probabilistic models, sum-product networks are often learned from data and used to perform classification. Hence, their results are prone to be unreliable and overconfident. In this work, we develop credal sum-product networks, an imprecise extension of sum-product networks. We present algorithms and complexity results for common inference tasks. We apply our algorithms on realistic classification task using images of digits and show that credal sum-product networks obtained by a perturbation of the parameters of learned sum-product networks are able to distinguish between reliable and unreliable classifications with high accuracy.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/mau%C3%A117a.html
+  PDF: http://proceedings.mlr.press/v62/mauá17a/mauá17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-mauá17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Denis D.
+    family: Mauá
+  - given: Fabio G.
+    family: Cozman
+  - given: Diarmaid
+    family: Conaty
+  - given: Cassio P.
+    family: Campos
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 205-216
+  id: mauá17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 205
+  lastpage: 216
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Game Solutions, Probability Transformations and the Core'
+  abstract: 'We investigate the role of some game solutions, such the Shapley and the Banzhaf values, as probability transformations of lower probabilities. The first one coincides with the pignistic transformation proposed in the Transferable Belief Model the second one is not efficient in general, leading us to propose a normalized version. We consider a number of particular cases of lower probabilities: minitive measures, coherent lower probabilities, as well as the lower probabilities induced by comparative or distorsion models. For them, we provide some alternative expressions of the transformations and study when they belong to the core of the lower probability.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/miranda17a.html
+  PDF: http://proceedings.mlr.press/v62/miranda17a/miranda17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-miranda17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Enrique
+    family: Miranda
+  - given: Ignacio
+    family: Montes
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 217-228
+  id: miranda17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 217
+  lastpage: 228
+  published: 2017-06-20 00:00:00 +0000
+- title: 'A Study of the Pari-Mutuel Model from the Point of View of Imprecise Probabilities'
+  abstract: 'The Pari-Mutuel model is a distortion model that has its origin in horse racing. Since then, it has been applied in many different fields, such as finance or risk analysis. In this paper we investigate the properties of the Pari-Mutuel model within the framework of Imprecise Probabilities. Since a Pari-Mutuel model induces (2-monotone) coherent lower and upper probabilities, we investigate its connections with other relevant models within this theory, such as probability intervals and belief functions. We also determine the number of extreme points of the credal set induced by the Pari-Mutuel model and study how to combine the information given by multiple Pari-Mutuel models.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/montes17a.html
+  PDF: http://proceedings.mlr.press/v62/montes17a/montes17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-montes17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ignacio
+    family: Montes
+  - given: Enrique
+    family: Miranda
+  - given: Sébastien
+    family: Destercke
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 229-240
+  id: montes17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 229
+  lastpage: 240
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Efficient Algorithms for Checking Avoiding Sure Loss'
+  abstract: 'Sets of desirable gambles provide a general representation of uncertainty which can handle partial information in a more robust way than precise probabilities. Here we study the effectiveness of linear programming algorithms for determining whether or not a given set of desirable gambles avoids sure loss (i.e. is consistent). We also suggest improvements to these algorithms specifically for checking avoiding sure loss. By exploiting the structure of the problem, (i) we slightly reduce its dimension, (ii) we propose an extra stopping criterion based on its degenerate structure, and (iii) we show that one can directly calculate feasible starting points in various cases, therefore reducing the effort required in the presolve phase of some of these algorithms. To assess our results, we compare the impact of these improvements on the simplex method and two interior point methods (affine scaling and primal-dual) on randomly generated sets of desirable gambles that either avoid or do not avoid sure loss. We find that the simplex method is outperformed by the primal-dual and affine scaling methods, except for very small problems. We also find that using our starting feasible point and extra stopping criterion considerably improves the performance of the primal-dual and affine scaling methods.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/nakharutai17a.html
+  PDF: http://proceedings.mlr.press/v62/nakharutai17a/nakharutai17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-nakharutai17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nawapon
+    family: Nakharutai
+  - given: Matthias C. M.
+    family: Troffaes
+  - given: Camila C. S.
+    family: Caiado
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 241-252
+  id: nakharutai17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 241
+  lastpage: 252
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Towards a Cautious Modelling of Missing Data in Small Area Estimation'
+  abstract: 'In official statistics, the problem of sampling error is rushed to extremes when not only results on sub-population level are required, which is the focus of Small Area Estimation (SAE), but also missing data arise. When the nonresponse is wrongly assumed to occur at random, the situation becomes even more dramatic, since this potentially leads to a substantial bias. Even though there are some treatments jointly considering both problems, they are all reliant upon the guarantee of strong assumptions on the missingness. For that reason, we aim at developing cautious versions of well known estimators from SAE by exploiting the results from a recently suggested likelihood approach, capable of including tenable partial knowledge about the nonresponse behaviour in an adequate way. We generalize the synthetic estimator and propose a cautious version of the so-called LGREG-synthetic estimator in the context of design-based estimators. Then, we elaborate why the approach above does not directly extend to model-based estimators and proceed with some first studies investigating different missingness scenarios. All results are illustrated through the German General Social Survey 2014, also including area-specific auxiliary information from the German Federal Statistical Office’s data report.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/plass17a.html
+  PDF: http://proceedings.mlr.press/v62/plass17a/plass17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-plass17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Julia
+    family: Plass
+  - given: Aziz
+    family: Omar
+  - given: Thomas
+    family: Augustin
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 253-264
+  id: plass17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 253
+  lastpage: 264
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Efficient Computation of Belief Theoretic Conditionals'
+  abstract: 'Dempster-Shafer (DS) belief theory is a powerful general framework for dealing with a wider variety of uncertainties in data. As in Bayesian probability theory, the conditional operation plays a critical role in DS theoretic strategies for evidence updating and fusion. A major limitation associated with the application of DS theoretic techniques for reasoning under uncertainty is the absence of a feasible computational framework to overcome the prohibitive computational burden this conditional operation entails. This paper addresses this critical challenge via a novel generalized conditional computational model — DS-Conditional-One — which allows the conditional to be computed in significantly less computational and space complexity. This computational model also provides valuable insight into the DS theoretic conditional itself and can be utilized as a tool for visualizing the conditional computation. We provide a thorough analysis and experimental validation of the utility, efficiency, and implementation of the proposed data structures and algorithms for carrying out both the Dempster’s conditional and Fagin-Halpern conditional, the two most widely utilized DS theoretic conditional strategies.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/polpitiya17a.html
+  PDF: http://proceedings.mlr.press/v62/polpitiya17a/polpitiya17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-polpitiya17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Lalintha G.
+    family: Polpitiya
+  - given: Kamal
+    family: Premaratne
+  - given: Manohar N.
+    family: Murthi
+  - given: Dilip
+    family: Sarkar
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 265-276
+  id: polpitiya17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 265
+  lastpage: 276
+  published: 2017-06-20 00:00:00 +0000
+- title: 'The CWI World Cup Competition: Eliciting Sets of Acceptable Gambles'
+  abstract: 'We present an interface for eliciting sets of acceptable gambles on a three-outcome possibility space, discuss an experiment conducted for testing this interface, and present the results of this experiment. Sets of acceptable gambles form a representation for imprecise probabilities that is close to human behavior and eliciting them directly may improve the quality of the resulting uncertainty model. The experiment consisted of a betting competition for the 2014 FIFA World Cup: For each match bets were assigned based on the sets of acceptable gambles elicited from the participants. A new algorithm was designed for generating fair bets for assignment. Participant feedback indicated that improving the usability and transparency of the interface would ease the elicitation procedure. The experiment’s results underlined that imprecision is an essential aspect of real-life uncertainty modeling.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/quaeghebeur17a.html
+  PDF: http://proceedings.mlr.press/v62/quaeghebeur17a/quaeghebeur17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-quaeghebeur17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Erik
+    family: Quaeghebeur
+  - given: Chris
+    family: Wesseling
+  - given: Emma
+    family: Beauxis-Aussalet
+  - given: Teresa
+    family: Piovesan
+  - given: Tom
+    family: Sterkenburg
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 277-288
+  id: quaeghebeur17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 277
+  lastpage: 288
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Errors Bounds for Finite Approximations of Coherent Lower Previsions'
+  abstract: 'Coherent lower previsions are general probabilistic models allowing incompletely specified probability distributions. However, for complete description of a coherent lower prevision – even on finite underlying sample spaces – an infinite number of assessments is needed in general. Therefore, they are often only described approximately by some less general models, such as coherent lower probabilities or in terms of some other finite set of constraints. The magnitude of error induced by the approximations has often been neglected in the literature, despite the fact that it can be significant with substantial impact on consequent decisions. An apparent reason is that no widely used general method for estimating the error seems to be available at the moment. The goal of this paper is to provide such a method. The proposed method allows calculating an upper bound for the error of a finite approximation of coherent lower prevision on a finite underlying sample space. An estimate of the maximal error is especially useful in the cases where calculating assessments is computationally demanding. Our method is based on convex analysis applied to credal sets, which in the case of finite sample spaces correspond to convex polyhedra.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/%C5%A0kulj17a.html
+  PDF: http://proceedings.mlr.press/v62/Škulj17a/Škulj17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-Škulj17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Damjan
+    family: Škulj
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 289-300
+  id: Škulj17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 289
+  lastpage: 300
+  published: 2017-06-20 00:00:00 +0000
+- title: 'New Distributions for Modeling Subjective Lower and Upper Probabilities'
+  abstract: 'This paper presents an investigation of approaches to modeling lower and upper subjective probabilities. A relatively unexplored approach is introduced, based on the fact that every cumulative distribution function (CDF) with support (0,1) has a “dual” CDF that obeys the conjugacy relation between coherent lower and upper probabilities. A new 2-parameter family of “CDF-Quantile” distributions with support (0,1) is extended via a third parameter for the purpose of modeling lower-upper probabilities. The extension exploits certain properties of the CDF-Quantile family, and the fact that continuous CDFs on (0,1) random variables form an algebraic group that is closed under composition. This extension also yields models for testing specific models of lower-upper probability assignments. Finally, the new models are applied to a real data-set, and compared with the alternative approaches for their relative advantages and drawbacks.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/smithson17a.html
+  PDF: http://proceedings.mlr.press/v62/smithson17a/smithson17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-smithson17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Michael
+    family: Smithson
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 301-312
+  id: smithson17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 301
+  lastpage: 312
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Linear Core-Based Criterion for Testing Extreme Exact Games'
+  abstract: 'The notion of a (discrete) coherent lower probability corresponds to a game-theoretical concept of an exact (cooperative) game. The collection of (standardized) exact games forms a pointed polyhedral cone and the paper is devoted to the extreme rays of that cone, known as extreme exact games. A criterion is introduced for testing whether an exact game is extreme. The criterion leads to solving simple linear equation systems determined by (the vertices of) the core polytope (of the game), which concept corresponds to the notion of an induced credal set in the context of imprecise probabilities. The criterion extends and modifies a former necessary and sufficient condition for the extremity of a supermodular game, which concept corresponds to the notion of a 2-monotone lower probability. The linear condition we give in this paper is shown to be necessary for an exact game to be extreme. We also know that the condition is sufficient for the extremity of an exact game in an important special case. The criterion has been implemented on a computer and we have made a few observations on basis of our computational experiments.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/studen%C3%BD17a.html
+  PDF: http://proceedings.mlr.press/v62/studený17a/studený17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-studený17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Milan
+    family: Studený
+  - given: Václav
+    family: Kratochvı́l
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 313-324
+  id: studený17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 313
+  lastpage: 324
+  published: 2017-06-20 00:00:00 +0000
+- title: 'A Note on Imprecise Monte Carlo over Credal Sets via Importance Sampling'
+  abstract: 'This brief paper is an exploratory investigation of how we can apply sensitivity analysis over importance sampling weights in order to obtain sampling estimates of lower previsions described by a parametric family of distributions. We demonstrate our results on the imprecise Dirichlet model, where we can compare with the analytically exact solution. We discuss the computational limitations of the approach, and propose a simple iterative importance sampling method in order to overcome these limitations. We find that the proposed method works pretty well, at least in the example studied, and we discuss some further possible extensions.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/troffaes17a.html
+  PDF: http://proceedings.mlr.press/v62/troffaes17a/troffaes17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-troffaes17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthias C. M.
+    family: Troffaes
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 325-332
+  id: troffaes17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 325
+  lastpage: 332
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Imprecise Swing Weighting for Multi-Attribute Utility Elicitation Based on Partial Preferences'
+  abstract: 'We describe a novel approach to multi-attribute utility elicitation which is both general enough to cover a wide range of problems, whilst at the same time simple enough to admit reasonably straightforward calculations. We allow both utilities and probabilities to be only partially specified, through bounding. We still assume marginal utilities to be precise. We derive necessary and sufficient conditions under which our elicitation procedure is consistent. As a special case, we obtain an imprecise generalization of the well known swing weighting method for eliciting multi-attribute utility functions. An example from ecological risk assessment demonstrates our method.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/troffaes17b.html
+  PDF: http://proceedings.mlr.press/v62/troffaes17b/troffaes17b.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-troffaes17b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthias C. M.
+    family: Troffaes
+  - given: Ullrika
+    family: Sahlin
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 333-345
+  id: troffaes17b
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 333
+  lastpage: 345
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Exchangeable Choice Functions'
+  abstract: 'We investigate how to model exchangeability with choice functions. Exchangeability is a structural assessment on a sequence of uncertain variables. We show how such assessments constitute a special kind of indifference assessment, and how this idea leads to a counterpart of de Finetti’s Representation Theorem, both in a finite and a countable context.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/van-camp17a.html
+  PDF: http://proceedings.mlr.press/v62/van camp17a/van camp17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-van camp17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Arthur
+    family: Van Camp
+  - given: Gert
+    family: Cooman
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 346-357
+  id: van camp17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 346
+  lastpage: 357
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Computing Minimax Decisions with Incomplete Observations'
+  abstract: 'Decision makers must often base their decisions on incomplete (coarse) data. Recent research has shown that in a wide variety of coarse data problems, minimax optimal strategies can be recognized using a simple probabilistic condition. This paper develops a computational method to find such strategies in special cases, and shows what difficulties may arise in more general cases.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/van-ommen17a.html
+  PDF: http://proceedings.mlr.press/v62/van ommen17a/van ommen17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-van ommen17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thijs
+    family: van Ommen
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 358-369
+  id: van ommen17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 358
+  lastpage: 369
+  published: 2017-06-20 00:00:00 +0000
+- title: 'Agreeing to Disagree and Dilation'
+  abstract: 'We consider Geanakoplos and Polemarchakis’s generalization of Aumman’s famous result on “agreeing to disagree", in the context of imprecise probability. The main purpose is to reveal a connection between the possibility of agreeing to disagree and the interesting and anomalous phenomenon known as dilation. We show that for two agents who share the same set of priors and update by conditioning on every prior, it is impossible to agree to disagree on the lower or upper probability of a hypothesis unless a certain dilation occurs. With some common topological assumptions, the result entails that it is impossible to agree not to have the same set of posterior probabilities unless dilation is present. This result may be used to generate sufficient conditions for guaranteed full agreement in the generalized Aumman-setting for some important models of imprecise priors, and we illustrate the potential with an agreement result involving the density ratio classes. We also provide a formulation of our results in terms of “dilation-averse” agents who ignore information about the value of a dilating partition but otherwise update by full Bayesian conditioning.'
+  volume: 62
+  URL: https://proceedings.mlr.press/v62/zhang17a.html
+  PDF: http://proceedings.mlr.press/v62/zhang17a/zhang17a.pdf
+  edit: https://github.com/mlresearch//v62/edit/gh-pages/_posts/2017-06-20-zhang17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Tenth International Symposium on Imprecise Probability: Theories and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jiji
+    family: Zhang
+  - given: Hailin
+    family: Liu
+  - given: Teddy
+    family: Seidenfeld
+  editor: 
+  - given: Alessandro
+    family: Antonucci
+  - given: Giorgio
+    family: Corani
+  - given: Inés
+    family: Couso
+  - given: Sébastien
+    family: Destercke
+  page: 370-381
+  id: zhang17a
+  issued:
+    date-parts: 
+      - 2017
+      - 6
+      - 20
+  firstpage: 370
+  lastpage: 381
+  published: 2017-06-20 00:00:00 +0000

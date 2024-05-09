@@ -1,0 +1,1659 @@
+
+- title: 'Relational Causal Models with Cycles: Representation and Reasoning'
+  abstract: 'Causal reasoning in relational domains is fundamental to studying real-world social phenomena in which individual units can influence each other’s traits and behavior. Dynamics between interconnected units can be represented as an instantiation of a relational causal model; however, causal reasoning over such instantiation requires additional templating assumptions that capture feedback loops of influence. Previous research has developed lifted representations to address the relational nature of such dynamics but has strictly required that the representation has no cycles. To facilitate cycles in relational representation and learning, we introduce relational $\sigma$-separation, a new criterion for understanding relational systems with feedback loops. We also introduce a new lifted representation, $\sigma$-\textit{abstract ground graph} which helps with abstracting statistical independence relations in all possible instantiations of the cyclic relational model. We show the necessary and sufficient conditions for the completeness of $\sigma$-AGG and that relational $\sigma$-separation is sound and complete in the presence of one or more cycles with arbitrary length. To the best of our knowledge, this is the first work on representation of and reasoning with cyclic relational causal models.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/ahsan22a.html
+  PDF: https://proceedings.mlr.press/v177/ahsan22a/ahsan22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-ahsan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ragib
+    family: Ahsan
+  - given: David
+    family: Arbour
+  - given: Elena
+    family: Zheleva
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 1-18
+  id: ahsan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 1
+  lastpage: 18
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Towards efficient representation identification in supervised learning'
+  abstract: 'Humans have a remarkable ability to disentangle complex sensory inputs (e.g., image, text) into simple factors of variation (e.g., shape, color) without much supervision. This ability has inspired many works that attempt to solve the following question: how do we invert the data generation process to extract those factors with minimal or no supervision? Several works in the literature on non-linear independent component analysis have established this negative result; without some knowledge of the data generation process or appropriate inductive biases, it is impossible to perform this inversion. In recent years, a lot of progress has been made on disentanglement under structural assumptions, e.g., when we have access to auxiliary information that makes the factors of variation conditionally independent. However, existing work requires a lot of auxiliary information, e.g., in supervised classification, it prescribes that the number of label classes should be at least equal to the total dimension of all factors of variation. In this work, we depart from these assumptions and ask: a) How can we get disentanglement when the auxiliary information does not provide conditional independence over the factors of variation? b) Can we reduce the amount of auxiliary information required for disentanglement? For a class of models where auxiliary information does not ensure conditional independence, we show theoretically and experimentally that disentanglement (to a large extent) is possible even when the auxiliary information dimension is much less than the dimension of the true latent representation.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/ahuja22a.html
+  PDF: https://proceedings.mlr.press/v177/ahuja22a/ahuja22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-ahuja22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kartik
+    family: Ahuja
+  - given: Divyat
+    family: Mahajan
+  - given: Vasilis
+    family: Syrgkanis
+  - given: Ioannis
+    family: Mitliagkas
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 19-43
+  id: ahuja22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 19
+  lastpage: 43
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Weakly Supervised Discovery of Semantic Attributes'
+  abstract: 'We consider the problem of extracting semantic attributes, using only classification labels for supervision. For example, when learning to classify images of birds into species, we would like to observe the emergence of features used by zoologists to classify birds. To tackle this problem, we propose training a neural network with discrete features in the last layer, followed by two heads: a multi-layered perceptron (MLP) and a decision tree. The decision tree utilizes simple binary decision stumps, thus encouraging features to have semantic meaning. We present theoretical analysis, as well as a practical method for learning in the intersection of two hypothesis classes. Compared with various benchmarks, our results show an improved ability to extract a set of features highly correlated with a ground truth set of unseen attributes.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/ali22a.html
+  PDF: https://proceedings.mlr.press/v177/ali22a/ali22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-ali22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ameen Ali
+    family: Ali
+  - given: Tomer
+    family: Galanti
+  - given: Evgenii
+    family: Zheltonozhskii
+  - given: Chaim
+    family: Baskin
+  - given: Lior
+    family: Wolf
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 44-69
+  id: ali22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 44
+  lastpage: 69
+  published: 2022-06-28 00:00:00 +0000
+- title: 'VIM: Variational Independent Modules for Video Prediction'
+  abstract: 'We introduce a variational inference model called VIM, for Variational Independent Modules, for sequential data that learns and infers latent representations as a set of objects and discovers modular causal mechanisms over these objects. These mechanisms - which we call modules - are independently parametrized, define the stochastic transitions of entities and are shared across entities.  At each time step, our model infers from a low-level input sequence a high-level sequence of categorical latent variables to select which transition modules to apply to which high-level object. We evaluate this model in video prediction tasks where the goal is to predict multi-modal future events given previous observations. We demonstrate empirically that VIM can model 2D visual sequences in an interpretable way and is able to identify the underlying dynamically instantiated mechanisms of the generation process.  We additionally show that the learnt modules can be composed at test time to generalize to out-of-distribution observations.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/assouel22a.html
+  PDF: https://proceedings.mlr.press/v177/assouel22a/assouel22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-assouel22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Rim
+    family: Assouel
+  - given: Lluis
+    family: Castrejon
+  - given: Aaron
+    family: Courville
+  - given: Nicolas
+    family: Ballas
+  - given: Yoshua
+    family: Bengio
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 70-89
+  id: assouel22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 70
+  lastpage: 89
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Explanations and XAI'
+  abstract: 'Although standard Machine Learning models are optimized for making predictions about observations, more and more they are used for making predictions about the results of actions. An important goal of Explainable Artificial Intelligence (XAI) is to compensate for this mismatch by offering explanations about the predictions of an ML-model which ensure that they are reliably action-guiding. As action-guiding explanations are causal explanations, the literature on this topic is starting to embrace insights from the literature on causal models. Here I take a step further down this path by formally defining the causal notions of sufficient explanations and counterfactual explanations. I show how these notions relate to (and improve upon) existing work, and motivate their adequacy by illustrating how different explanations are action-guiding under different circumstances. Moreover, this work is the first to offer a formal definition of actual causation that is founded entirely in action-guiding explanations. Although the definitions are motivated by a focus on XAI, the analysis of causal explanation and actual causation applies in general. I also touch upon the significance of this work for fairness in AI by showing how actual causation can be used to improve the idea of path-specific counterfactual fairness. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/beckers22a.html
+  PDF: https://proceedings.mlr.press/v177/beckers22a/beckers22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-beckers22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sander
+    family: Beckers
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 90-109
+  id: beckers22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 90
+  lastpage: 109
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Cause-effect inference through spectral independence in linear dynamical systems: theoretical foundations'
+  abstract: 'Distinguishing between cause and effect using time series observational data is a major challenge in many scientific fields. A new perspective has been provided based on the principle of Independence of Causal Mechanisms (ICM), leading to the Spectral Independence Criterion (SIC) for time series causally unidirectionally linked by a linear time-invariant relation. SIC postulates that the power spectral density (PSD) of the cause time series is {\it uncorrelated} with the squared modulus of the frequency response of the filter generating the effect.  Since SIC rests on methods and assumptions in stark contrast with most causal discovery methods for time series, it raises questions regarding what theoretical grounds justify its use.  In this paper, we provide answers covering several key aspects. After providing an information theoretic interpretation of SIC, we present an identifiability result that sheds light on the context for which this approach is expected to perform well. We further demonstrate the robustness of SIC to downsampling – an obstacle that can spoil Granger-based inference.  Finally, an invariance perspective allows to explore the limitations of the spectral independence assumption and how to generalize it. Overall, these results provide insights on how the ICM principle can be assessed mathematically to infer direction of causation in empirical time series.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/besserve22a.html
+  PDF: https://proceedings.mlr.press/v177/besserve22a/besserve22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-besserve22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Michel
+    family: Besserve
+  - given: Naji
+    family: Shajarisales
+  - given: Dominik
+    family: Janzing
+  - given: Bernhard
+    family: Schölkopf
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 110-143
+  id: besserve22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 110
+  lastpage: 143
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Process Independence Testing in Proximal Graphical Event Models'
+  abstract: 'Datasets involving irregular occurrences of different types of events over the timeline are increasingly commonly available. Proximal graphical event models (PGEMs) are a recent graphical representation for modeling relationships between different event types in such datasets. Existing algorithms for learning PGEMs from event datasets perform poorly on the task of structure discovery, which is particularly important for causal inference since the underlying graph determines the effect of interventions. In this paper, we explore causal semantics in PGEMs and study process independencies implied by the graphical structure of the model. We introduce (conditional) process independence tests for causal PGEMs, deploying them using  variations of constraint-based structure discovery algorithms for Bayesian networks. Through experiments with synthetic and real datasets, we show that the proposed approaches are better at balancing precision and recall, demonstrating  improved F1 scores over state-of-the-art baselines.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/bhattacharjya22a.html
+  PDF: https://proceedings.mlr.press/v177/bhattacharjya22a/bhattacharjya22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-bhattacharjya22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Debarun
+    family: Bhattacharjya
+  - given: Karthikeyan
+    family: Shanmugam
+  - given: Tian
+    family: Gao
+  - given: Dharmashankar
+    family: Subramanian
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 144-161
+  id: bhattacharjya22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 144
+  lastpage: 161
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Typing assumptions improve identification in causal discovery'
+  abstract: 'Causal discovery from observational data is a challenging task that can only be solved up to a set of equivalent solutions, called an equivalence class. Such classes, which are often large in size, encode uncertainties about the orientation of some edges in the causal graph. In this work, we propose a new set of assumptions that constrain possible causal relationships based on the nature of variables, thus circumscribing the equivalence class. Namely, we introduce typed directed acyclic graphs, in which variable types are used to determine the validity of causal relationships. We demonstrate, both theoretically and empirically, that the proposed assumptions can result in significant gains in the identification of the causal graph. We also propose causal discovery algorithms that make use of these assumptions and demonstrate their benefits on simulated and pseudo-real data.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/brouillard22a.html
+  PDF: https://proceedings.mlr.press/v177/brouillard22a/brouillard22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-brouillard22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: PHILIPPE
+    family: BROUILLARD
+  - given: Perouz
+    family: Taslakian
+  - given: Alexandre
+    family: Lacoste
+  - given: Sebastien
+    family: Lachapelle
+  - given: Alexandre
+    family: Drouin
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 162-177
+  id: brouillard22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 162
+  lastpage: 177
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Disentangling Controlled Effects for Hierarchical Reinforcement Learning'
+  abstract: 'Exploration and credit assignment are still challenging problems for RL agents under sparse rewards. We argue that these challenges arise partly due to the intrinsic rigidity of operating at the level of actions. Actions can precisely define how to perform an activity but are ill-suited to describe what activity to perform. Instead, controlled effects describe transformations in the environment caused by the agent. These transformations are inherently composable and temporally abstract, making them ideal for descriptive tasks. This work introduces CEHRL, a hierarchical method leveraging the compositional nature of controlled effects to expedite the learning of task-specific behavior and aid exploration. Borrowing counterfactual and normality measures from causal literature, CEHRL learns an implicit hierarchy of transformations an agent can perform on the environment. This hierarchy allows a high-level policy to set temporally abstract goals and, by doing so, long-horizon credit assignment. Experimental results show that using effects instead of actions provides a more efficient exploration mechanism. Moreover, by leveraging prior knowledge in the hierarchy, CEHRL assigns credit to few effects instead of many actions and consequently learns tasks more rapidly.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/corcoll22a.html
+  PDF: https://proceedings.mlr.press/v177/corcoll22a/corcoll22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-corcoll22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Oriol
+    family: Corcoll
+  - given: Raul
+    family: Vicente
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 178-200
+  id: corcoll22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 178
+  lastpage: 200
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Interactive rank testing by betting'
+  abstract: 'In order to test if a treatment is perceptibly different from a placebo in a randomized experiment with covariates, classical nonparametric tests based on ranks of observations/residuals have been employed (eg: by Rosenbaum), with finite-sample valid inference enabled via permutations. This paper proposes a different principle on which to base inference: if — with access to all covariates and outcomes, but without access to any treatment assignments — one can form a ranking of the subjects that is sufficiently nonrandom (eg: mostly treated followed by mostly control), then we can confidently conclude that there must be a treatment effect. Based on a more nuanced, quantifiable, version of this principle, we design an interactive test called i-bet: the analyst forms a single permutation of the subjects one element at a time, and at each step the analyst bets toy money on whether that subject was actually treated or not, and learns the truth immediately after. The wealth process forms a real-valued measure of evidence against the global causal null, and we may reject the null at level $\alpha$ if the wealth ever crosses $1/\alpha$. Apart from providing a fresh "game-theoretic" principle on which to base the causal conclusion, the i-bet has other statistical and computational benefits, for example (A) allowing a human to adaptively design the test statistic based on increasing amounts of data being revealed (along with any working causal models and prior knowledge), and (B) not requiring permutation resampling, instead noting that under the null, the wealth forms a nonnegative martingale, and the type-1 error control of the aforementioned decision rule follows from a tight inequality by Ville. Further, if the null is not rejected, new subjects can later be added and the test can be simply continued, without any corrections (unlike with permutation p-values). Numerical experiments demonstrate good power under various heterogeneous treatment effects. We first describe the i-bet test for two-sample comparisons with unpaired data, and then adapt it to paired data, multi-sample comparison, and sequential settings; these may be viewed as interactive martingale variants of the Wilcoxon, Kruskal-Wallis, and Friedman tests.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/duan22a.html
+  PDF: https://proceedings.mlr.press/v177/duan22a/duan22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-duan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Boyan
+    family: Duan
+  - given: Aaditya
+    family: Ramdas
+  - given: Larry
+    family: Wasserman
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 201-235
+  id: duan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 201
+  lastpage: 235
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Bivariate Causal Discovery via Conditional Divergence'
+  abstract: 'Telling apart cause and effect is a fundamental problem across many science disciplines. However, the randomized controlled trial, which is the golden-standard solution for this, is not always physically feasible or ethical. Therefore, we can only rely on passively observational data in such cases, making the problem highly challenging. Inspired by the observation that the conditional distribution of effect given cause, also known as the causal mechanism, is typically invariant in shape, we aim to capture the mechanism through estimating the stability of the conditional distribution. In particular, based on the inverse of stability – the divergence – we propose Conditional Divergence based Causal Inference (CDCI), a novel algorithm for detecting causal direction in purely observational data. By doing this, we can relax multiple strict assumptions commonly adopted in the causal discovery literature, including functional form and noise model. The proposed approach is generic and applicable to arbitrary measures of distribution divergence. The effectiveness of our method is demonstrated on a variety of both synthetic and real data sets, which compares favorably with existing state-of-the-art methods.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/duong22a.html
+  PDF: https://proceedings.mlr.press/v177/duong22a/duong22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-duong22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Bao
+    family: Duong
+  - given: Thin
+    family: Nguyen
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 236-252
+  id: duong22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 236
+  lastpage: 252
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Differentiable Causal Discovery Under Latent Interventions'
+  abstract: 'Recent work has shown promising results in causal discovery by leveraging interventional data with gradient-based methods, even when the intervened variables are unknown. However, previous work assumes that the correspondence between samples and interventions is known, which is often unrealistic. We envision a scenario with an extensive dataset sampled from multiple intervention distributions and one observation distribution, but where we do not know which distribution originated each sample and how the intervention affected the system, \textit{i.e.}, interventions are entirely latent. We propose a method based on neural networks and variational inference that addresses this scenario by framing it as learning a shared causal graph among a infinite mixture (under a Dirichlet process prior) of intervention structural causal models . Experiments with synthetic and real data show that our approach and its semi-supervised variant are able to discover causal relations in this challenging scenario. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/faria22a.html
+  PDF: https://proceedings.mlr.press/v177/faria22a/faria22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-faria22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Gonçalo Rui Alves
+    family: Faria
+  - given: Andre
+    family: Martins
+  - given: Mario A. T.
+    family: Figueiredo
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 253-274
+  id: faria22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 253
+  lastpage: 274
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Selection, Ignorability and Challenges With Causal Fairness '
+  abstract: 'In this paper we look at popular fairness methods that use causal counterfactuals. These methods capture the intuitive notion that a prediction is fair if it coincides with the prediction that would have been made if someone’s race, gender or religion were counterfactually different. In order to achieve this, we must have causal models that are able to capture what someone would be like if we were to counterfactually change these traits. However, we argue that any model that can do this must lie outside the particularly well behaved class that is commonly considered in the fairness literature. This is because in fairness settings, models in this class entail a particularly strong causal assumption, normally only seen in a randomised controlled trial. We argue that in general this is unlikely to hold. Furthermore, we show in many cases it can be explicitly rejected due to the fact that samples are selected from a wider population. We show this creates difficulties for counterfactual fairness as well as for the application of more general causal fairness methods.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/fawkes22a.html
+  PDF: https://proceedings.mlr.press/v177/fawkes22a/fawkes22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-fawkes22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jake
+    family: Fawkes
+  - given: Robin
+    family: Evans
+  - given: Dino
+    family: Sejdinovic
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 275-289
+  id: fawkes22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 275
+  lastpage: 289
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Learning Invariant Representations with Missing Data'
+  abstract: 'Spurious correlations, or *shortcuts*, allow flexible models to predict well during training but poorly on related test populations. Recent work has shown that models that satisfy particular independencies involving the correlation-inducing *nuisance* variable have guarantees on their test performance. However, enforcing such independencies requires nuisances to be observed during training.  But nuisances such as demographics or image background labels are often missing. Enforcing independence on just the observed data does not imply independence on the entire population. In this work, we derive the missing-mmd estimator used for invariance objectives under missing nuisances. On simulations and clinical data, missing-mmds enable improvements in test performance similar to those achieved by using fully-observed data.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/goldstein22a.html
+  PDF: https://proceedings.mlr.press/v177/goldstein22a/goldstein22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-goldstein22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mark
+    family: Goldstein
+  - given: Joern-Henrik
+    family: Jacobsen
+  - given: Olina
+    family: Chau
+  - given: Adriel
+    family: Saporta
+  - given: Aahlad Manas
+    family: Puli
+  - given: Rajesh
+    family: Ranganath
+  - given: Andrew
+    family: Miller
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 290-301
+  id: goldstein22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 290
+  lastpage: 301
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Info Intervention and its Causal Calculus'
+  abstract: 'The potential outcome framework and structural causal model are two main frameworks for causal modeling, and there are efforts to combine the merits of each framework, such single world intervention graph (SWIG) and its potential outcome calculus.  In this paper, we propose the info intervention inspired by understanding as information transfer, and the corresponding causal calculus. On one hand, We explain its connection with do calculus; On the other hand, our info calculus has the same convenience of checking conditional independence as SWIG , and moreover owns a operator σ(·) for formalizing causal queries.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/gong22a.html
+  PDF: https://proceedings.mlr.press/v177/gong22a/gong22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-gong22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Heyang
+    family: Gong
+  - given: ke
+    family: zhu
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 302-317
+  id: gong22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 302
+  lastpage: 317
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Partial Identification with Noisy Covariates: A Robust Optimization Approach'
+  abstract: 'Causal inference from observational datasets often relies on measuring and adjusting for covariates. In practice, measurements of the covariates can often be noisy and/or biased, or only measurements of their proxies may be available. Directly adjusting for these imperfect measurements of the covariates can lead to biased causal estimates. Moreover, without additional assumptions, the causal effects are not point-identifiable due to the noise in these measurements. To this end, we study the partial identification of causal effects given noisy covariates, under a user-specified assumption on the noise level. The key observation is that we can formulate the identification of the average treatment effects (ATE) as a robust optimization problem. This formulation leads to an efficient robust optimization algorithm that bounds the ATE with noisy covariates. We show that this robust optimization approach can extend a wide range of causal adjustment methods to perform partial identification, including backdoor adjustment, inverse propensity score weighting, double machine learning, and front door adjustment. Across synthetic and real datasets, we find that this approach provides ATE bounds with a higher coverage probability than existing methods.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/guo22a.html
+  PDF: https://proceedings.mlr.press/v177/guo22a/guo22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-guo22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Wenshuo
+    family: Guo
+  - given: Mingzhang
+    family: Yin
+  - given: Yixin
+    family: Wang
+  - given: Michael
+    family: Jordan
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 318-335
+  id: guo22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 318
+  lastpage: 335
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Simple data balancing achieves competitive worst-group-accuracy'
+  abstract: 'We study the problem of learning classifiers that perform well across (known or unknown) groups of data. After observing that common worst-group-accuracy datasets suffer from substantial imbalances, we set out to compare state-of-the-art methods to simple balancing of classes and groups by either subsampling or reweighting data. Our results show that these data balancing baselines achieve state-of-the-art-accuracy, while being faster to train and requiring no additional hyper-parameters. Finally, we highlight that access to group information is most critical for model selection purposes, and not so much during training. All in all, our findings beg closer examination of both benchmarks and methods for future research in worst-group-accuracy optimization.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/idrissi22a.html
+  PDF: https://proceedings.mlr.press/v177/idrissi22a/idrissi22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-idrissi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Badr Youbi
+    family: Idrissi
+  - given: Martin
+    family: Arjovsky
+  - given: Mohammad
+    family: Pezeshki
+  - given: David
+    family: Lopez-Paz
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 336-351
+  id: idrissi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 336
+  lastpage: 351
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Predictive State Propensity Subclassification (PSPS): A causal inference algorithm for data-driven propensity score stratification'
+  abstract: 'We introduce Predictive State Propensity Subclassification (PSPS), a novel learning algorithm for causal inference from observational data. PSPS combines propensity and outcome models into one encompassing probabilistic framework, which can be jointly estimated using maximum likelihood or Bayesian inference. The methodology applies to both discrete and continuous treatments and can estimate unit-level and population-level average treatment effects. We describe the neural network architecture and its TensorFlow implementation for likelihood optimization. Finally we demonstrate via large-scale simulations that PSPS outperforms state-of-the-art algorithms – both on bias for average treatment effects (ATEs) and RMSE for unit-level treatment effects (UTEs).'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/kelly22a.html
+  PDF: https://proceedings.mlr.press/v177/kelly22a/kelly22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-kelly22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph
+    family: Kelly
+  - given: Jing
+    family: Kong
+  - given: Georg M.
+    family: Goerg
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 352-372
+  id: kelly22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 352
+  lastpage: 372
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Non-parametric Inference Adaptive to Intrinsic Dimension'
+  abstract: 'We consider non-parametric estimation and inference of conditional moment models in high dimensions. We show that even when the dimension $D$ of the conditioning variable is larger than the sample size $n$, estimation and inference is feasible as long as the distribution of the conditioning variable has small intrinsic dimension $d$, as measured by locally low doubling measures. Our estimation is based on a sub-sampled ensemble of the $k$-nearest neighbors ($k$-NN) $Z$-estimator. We show that if the intrinsic dimension of the covariate distribution is equal to $d$, then the finite sample estimation error of our estimator is of order $n^{-1/(d+2)}$ and our estimate is $n^{1/(d+2)}$-asymptotically normal, irrespective of $D$. The sub-sampling size required for achieving these results depends on the unknown intrinsic dimension $d$. We propose an adaptive data-driven approach for choosing this parameter and prove that it achieves the desired rates. We discuss extensions and applications to heterogeneous treatment effect estimation.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/khosravi22a.html
+  PDF: https://proceedings.mlr.press/v177/khosravi22a/khosravi22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-khosravi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Khashayar
+    family: Khosravi
+  - given: Greg
+    family: Lewis
+  - given: Vasilis
+    family: Syrgkanis
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 373-389
+  id: khosravi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 373
+  lastpage: 389
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Learning Causal Overhypotheses through Exploration in Children and Computational Models'
+  abstract: 'Despite recent progress in reinforcement learning (RL), RL algorithms for exploration still remain an active area of research. Existing methods often focus on state-based metrics, which do not con-sider the underlying causal structures of the environment, and while recent research has begun to explore RL environments for causal learning, these environments primarily leverage causal information through causal inference or induction rather than exploration. In contrast, human children—some of the most proficient explorers—have been shown to use causal information to great benefit.In this work, we introduce a novel RL environment designed with a controllable causal structure, which allows us to evaluate exploration strategies used by both agents and children in a unified environment.  In addition, through experimentation on both computation models and children, we demonstrate that there are significant differences between information-gain optimal RL exploration in causal environments and the exploration of children in the same environments. We leverage this new insight to lay the groundwork for future research into efficient exploration and disambiguation of causal structures for RL algorithms.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/kosoy22a.html
+  PDF: https://proceedings.mlr.press/v177/kosoy22a/kosoy22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-kosoy22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Eliza
+    family: Kosoy
+  - given: Adrian
+    family: Liu
+  - given: Jasmine L
+    family: Collins
+  - given: David
+    family: Chan
+  - given: Jessica B
+    family: Hamrick
+  - given: Nan Rosemary
+    family: Ke
+  - given: Sandy
+    family: Huang
+  - given: Bryanna
+    family: Kaufmann
+  - given: John
+    family: Canny
+  - given: Alison
+    family: Gopnik
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 390-406
+  id: kosoy22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 390
+  lastpage: 406
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Bandits without prior knowledge using separating sets'
+  abstract: 'The Causal Bandit is a variant of the classic Bandit problem where an agent must identify the best action in a sequential decision-making process, where the reward distribution of the actions displays a non-trivial dependence structure that is governed by a causal model. All methods proposed for this problem thus far in the literature rely on exact prior knowledge of the full causal. We formulate new causal bandit algorithms that no longer necessarily rely on prior causal knowledge. Instead, they utilize an estimator based on separating sets, which we can find using simple conditional independence tests or causal discovery methods. We show that, for discrete i.i.d. data, this estimator is unbiased, and has variance which is upper bounded by that of the sample mean. We develop algorithms based on Thompson Sampling and UCB for discrete and Gaussian models respectively and show increased performance on simulation data as well as on a bandit drawing from real-world protein signaling data.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/kroon22a.html
+  PDF: https://proceedings.mlr.press/v177/kroon22a/kroon22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-kroon22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Arnoud De
+    family: Kroon
+  - given: Joris
+    family: Mooij
+  - given: Danielle
+    family: Belgrave
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 407-427
+  id: kroon22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 407
+  lastpage: 427
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Disentanglement via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA'
+  abstract: 'This work introduces a novel principle we call disentanglement via mechanism sparsity regularization, which can be applied when the latent factors of interest depend sparsely on past latent factors and/or observed auxiliary variables. We propose a representation learning method that induces disentanglement by simultaneously learning the latent factors and the sparse causal graphical model that relates them. We develop a rigorous identifiability theory, building on recent nonlinear independent component analysis (ICA) results, that formalizes this principle and shows how the latent variables can be recovered up to permutation if one regularizes the latent mechanisms to be sparse and if some graph connectivity criterion is satisfied by the data generating process. As a special case of our framework, we show how one can leverage unknown-target interventions on the latent factors to disentangle them, thereby drawing further connections between ICA and causality. We propose a VAE-based method in which the latent mechanisms are learned and regularized via binary masks, and validate our theory by showing it learns disentangled representations in simulations.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/lachapelle22a.html
+  PDF: https://proceedings.mlr.press/v177/lachapelle22a/lachapelle22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-lachapelle22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sebastien
+    family: Lachapelle
+  - given: Pau
+    family: Rodriguez
+  - given: Yash
+    family: Sharma
+  - given: Katie E
+    family: Everett
+  - given: Rémi LE
+    family: PRIOL
+  - given: Alexandre
+    family: Lacoste
+  - given: Simon
+    family: Lacoste-Julien
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 428-484
+  id: lachapelle22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 428
+  lastpage: 484
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Data-driven exclusion criteria for instrumental variable studies'
+  abstract: ' When using instrumental variables for causal inference, it is common practice to apply specific exclusion criteria to the data prior to estimation. This exclusion, critical for study design, is often done in an ad hoc manner, informed by a priori hypotheses and domain knowledge. In this study, we frame exclusion as a data-driven estimation problem, and apply flexible machine learning methods to estimate the probability of a unit complying with the instrument. We demonstrate how excluding likely noncompliers can increase power while maintaining valid treatment effect estimates. We show the utility of our approach with a fuzzy regression discontinuity analysis of the effect of initial diabetes diagnosis on follow-up blood sugar levels. Data-driven exclusion criterion can help improve both power and external validity for various quasi-experimental settings.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/liu22a.html
+  PDF: https://proceedings.mlr.press/v177/liu22a/liu22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-liu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tony
+    family: Liu
+  - given: Patrick
+    family: Lawlor
+  - given: Lyle
+    family: Ungar
+  - given: Konrad
+    family: Kording
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 485-508
+  id: liu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 485
+  lastpage: 508
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Amortized Causal Discovery: Learning to Infer Causal Graphs from Time-Series Data'
+  abstract: 'On time-series data, most causal discovery methods fit a new model whenever they encounter samples from a new underlying causal graph. However, these samples often share relevant information which is lost when following this approach. Specifically, different samples may share the dynamics which describe the effects of their causal relations. We propose Amortized Causal Discovery, a novel framework that leverages such shared dynamics to learn to infer causal relations from time-series data. This enables us to train a single, amortized model that infers causal relations across samples with different underlying causal graphs, and thus leverages the shared dynamics information. We demonstrate experimentally that this approach, implemented as a variational model, leads to significant improvements in causal discovery performance, and show how it can be extended to perform well under added noise and hidden confounding.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/lowe22a.html
+  PDF: https://proceedings.mlr.press/v177/lowe22a/lowe22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-lowe22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sindy
+    family: Löwe
+  - given: David
+    family: Madras
+  - given: Richard
+    family: Zemel
+  - given: Max
+    family: Welling
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 509-525
+  id: lowe22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 509
+  lastpage: 525
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Efficient Reinforcement Learning with Prior Causal Knowledge'
+  abstract: 'We introduce causal Markov Decision Processes (C-MDPs), a new formalism for sequential decision making which combines the standard MDP formulation with causal structures over state transition and reward functions. Many contemporary and emerging application areas such as digital healthcare and digital marketing can benefit from modeling with C-MDPs due to the causal mechanisms underlying the relationship between interventions and states/rewards. We propose the causal upper confidence bound value iteration (C-UCBVI) algorithm that exploits the causal structure in C-MDPs and improves the performance of standard reinforcement learning algorithms that do not take causal knowledge into account. We prove that C-UCBVI satisfies an $\tilde{O}(HS\sqrt{ZT})$ regret bound, where $T$ is the the total time steps,  $H$ is  the episodic horizon, and $S$ is the cardinality of the state space. Notably, our regret bound does not scale with the size of actions/interventions ($A$), but only scales with a causal graph dependent quantity $Z$ which can be exponentially smaller than $A$. By extending C-UCBVI to the factored MDP setting, we propose the causal factored UCBVI (CF-UCBVI) algorithm, which further reduces the regret exponentially in terms of $S$. Furthermore, we show that RL algorithms for linear MDP problems can also be incorporated in C-MDPs. We empirically show the benefit of our causal approaches in various settings to validate our algorithms and theoretical results.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/lu22a.html
+  PDF: https://proceedings.mlr.press/v177/lu22a/lu22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-lu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yangyi
+    family: Lu
+  - given: Amirhossein
+    family: Meisami
+  - given: Ambuj
+    family: Tewari
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 526-541
+  id: lu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 526
+  lastpage: 541
+  published: 2022-06-28 00:00:00 +0000
+- title: 'A Distance Covariance-based Kernel for Nonlinear Causal Clustering in Heterogeneous Populations'
+  abstract: 'We consider the problem of causal structure learning in the setting of heterogeneous populations, i.e., populations in which a single causal structure does not adequately represent all population members, as is common in biological and social sciences.  To this end, we introduce a distance covariance-based kernel designed specifically to measure the similarity between the underlying nonlinear causal structures of different samples.  Indeed, we prove that the corresponding feature map is a statistically consistent estimator of nonlinear independence structure, rendering the kernel itself a statistical test for the hypothesis that sets of samples come from different generating causal structures.  Even stronger, we prove that the kernel space is isometric to the space of causal ancestral graphs, so that distance between samples in the kernel space is guaranteed to correspond to distance between their generating causal structures.  This kernel thus enables us to perform clustering to identify the homogeneous subpopulations, for which we can then learn causal structures using existing methods.  Though we focus on the theoretical aspects of the kernel, we also evaluate its performance on synthetic data and demonstrate its use on a real gene expression data set.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/markham22a.html
+  PDF: https://proceedings.mlr.press/v177/markham22a/markham22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-markham22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Alex
+    family: Markham
+  - given: Richeek
+    family: Das
+  - given: Moritz
+    family: Grosse-Wentrup
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 542-558
+  id: markham22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 542
+  lastpage: 558
+  published: 2022-06-28 00:00:00 +0000
+- title: 'CausalCity: Complex Simulations with Agency for Causal Discovery and Reasoning'
+  abstract: 'The ability to perform causal and counterfactual reasoning are central properties of human intelligence. Decision-making systems that can perform these types of reasoning have the potential to be more generalizable and interpretable. Simulations have helped advance the state-of-the-art in this domain, by providing the ability to systematically vary parameters (e.g., confounders) and generate examples of the outcomes in the case of counterfactual scenarios. However, simulating complex temporal causal events in multi-agent scenarios, such as those that exist in driving and vehicle navigation, is challenging. To help address this, we present a high-fidelity simulation environment that is designed for developing algorithms for causal discovery and counterfactual reasoning in the safety-critical context. A core component of our work is to introduce agency, such that it is simple to define and create complex scenarios using high-level definitions. The vehicles then operate with agency to complete these objectives, meaning low-level behaviors need only be controlled if necessary. We perform experiments with three state-of-the-art methods to create baselines and highlight the affordances of this environment. Finally, we highlight challenges and opportunities for future work.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/mcduff22a.html
+  PDF: https://proceedings.mlr.press/v177/mcduff22a/mcduff22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-mcduff22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Daniel
+    family: McDuff
+  - given: Yale
+    family: Song
+  - given: Jiyoung
+    family: Lee
+  - given: Vibhav
+    family: Vineet
+  - given: Sai
+    family: Vemprala
+  - given: Nicholas Alexander
+    family: Gyde
+  - given: Hadi
+    family: Salman
+  - given: Shuang
+    family: Ma
+  - given: Kwanghoon
+    family: Sohn
+  - given: Ashish
+    family: Kapoor
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 559-575
+  id: mcduff22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 559
+  lastpage: 575
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Equality Constraints in Linear Hawkes Processes'
+  abstract: 'Conditional independence is often used as a testable implication of causal models of random variables. In addition, equality constraints have been proposed to distinguish between data-generating mechanisms. We show that one can also find equality constraints in linear Hawkes processes, extending this theory to a class of continuous-time stochastic processes. This is done by proving that Hawkes process models in a certain sense satisfy the equality constraints of linear structural equation models. These results allow more refined constraint-based structure learning in this class of processes. Arguing the existence of equality constraints leads us to new identification results for Hawkes processes. We also describe a causal interpretation of the linear Hawkes process which is closely related to its so-called cluster representation.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/mogensen22a.html
+  PDF: https://proceedings.mlr.press/v177/mogensen22a/mogensen22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-mogensen22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Søren Wengel
+    family: Mogensen
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 576-593
+  id: mogensen22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 576
+  lastpage: 593
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Optimal Training of Fair Predictive Models'
+  abstract: 'Recently there has been sustained interest in modifying prediction algorithms to satisfy fairness constraints. These constraints are typically complex nonlinear functionals of the observed data distribution. Focusing on the path-specific causal constraints, we introduce new theoretical results and optimization techniques to make model training easier and more accurate. Specifically, we show how to reparameterize the observed data likelihood such that fairness constraints correspond directly to parameters that appear in the likelihood, transforming a complex constrained optimization objective into a simple optimization problem with box constraints. We also exploit methods from empirical likelihood theory in statistics to improve predictive performance by constraining baseline covariates, without requiring parametric models. We combine the merits of both proposals to optimize a hybrid reparameterized likelihood. The techniques presented here should be applicable more broadly to fair prediction proposals that impose constraints on predictive models. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/nabi22a.html
+  PDF: https://proceedings.mlr.press/v177/nabi22a/nabi22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-nabi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Razieh
+    family: Nabi
+  - given: Daniel
+    family: Malinsky
+  - given: Ilya
+    family: Shpitser
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 594-617
+  id: nabi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 594
+  lastpage: 617
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Differentially Private Estimation of Heterogeneous Causal Effects'
+  abstract: 'Estimating heterogeneous treatment effects in domains such as healthcare or social science often involves sensitive data where protecting privacy is important. We introduce a general meta-algorithm for estimating conditional average treatment effects (CATE) with differential privacy guarantees. Our meta-algorithm can work with simple, single-stage CATE estimators such as S-learner and more complex multi-stage estimators such as DR and R-learner. We perform a tight privacy analysis by taking advantage of sample splitting in our meta-algorithm and the parallel composition property of differential privacy. In this paper, we implement our approach using DP-EBMs as the base learner. DP-EBMs are interpretable, high-accuracy models with privacy guarantees, which allow us to directly observe the impact of DP noise on the learned causal model. Our experiments show that multi-stage CATE estimators incur larger accuracy loss than single-stage CATE or ATE estimators and that most of the accuracy loss from differential privacy is due to an increase in variance, not biased estimates of treatment effects.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/niu22a.html
+  PDF: https://proceedings.mlr.press/v177/niu22a/niu22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-niu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Fengshi
+    family: Niu
+  - given: Harsha
+    family: Nori
+  - given: Brian
+    family: Quistorff
+  - given: Rich
+    family: Caruana
+  - given: Donald
+    family: Ngwe
+  - given: Aadharsh
+    family: Kannan
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 618-633
+  id: niu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 618
+  lastpage: 633
+  published: 2022-06-28 00:00:00 +0000
+- title: 'On the Equivalence of Causal Models: A Category-Theoretic Approach'
+  abstract: 'We develop a category-theoretic criterion for determining the equivalence of causal models having different but homomorphic directed acyclic graphs over discrete variables. Following Jacobs et al. (2019), we define a causal model as a probabilistic interpretation of a causal string diagram, i.e., a functor from the “syntactic” category Syn_G of graph $G$ to the category Stoch of finite sets and stochastic matrices. The equivalence of causal models is then defined in terms of a natural transformation or isomorphism between two such functors, which we call a $\Phi$-abstraction and $\Phi$-equivalence, respectively. It is shown that when one model is a $\Phi$-abstraction of another, the intervention calculus of the former can be consistently translated into that of the latter. We also identify the condition under which a model accommodates a $\Phi$-abstraction, when transformations are deterministic.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/otsuka22a.html
+  PDF: https://proceedings.mlr.press/v177/otsuka22a/otsuka22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-otsuka22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jun
+    family: Otsuka
+  - given: Hayato
+    family: Saigo
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 634-646
+  id: otsuka22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 634
+  lastpage: 646
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Diffusion Causal Models for Counterfactual Estimation'
+  abstract: 'We consider the task of counterfactual estimation from observational imaging data given a known causal structure. In particular, quantifying the causal effect of interventions for high-dimensional data with neural networks remains an open challenge. Herein we propose Diff-SCM, a deep structural causal model that builds on recent advances of generative energy-based models. In our setting, inference is performed by iteratively sampling gradients of the marginal and conditional distributions entailed by the causal model. Counterfactual estimation is achieved by firstly inferring latent variables with deterministic forward diffusion, then intervening on a reverse diffusion process using the gradients of an anti-causal predictor w.r.t the input. Furthermore, we propose a metric for evaluating the generated counterfactuals. We find that Diff-SCM produces more realistic and minimal counterfactuals than baselines on MNIST data and can also be applied to ImageNet data. Code is available https://github.com/vios-s/Diff-SCM.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/sanchez22a.html
+  PDF: https://proceedings.mlr.press/v177/sanchez22a/sanchez22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-sanchez22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Pedro
+    family: Sanchez
+  - given: Sotirios A.
+    family: Tsaftaris
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 647-668
+  id: sanchez22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 647
+  lastpage: 668
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Structure Discovery between Clusters of Nodes Induced by Latent Factors'
+  abstract: 'We consider the problem of learning the structure of a causal directed acyclic graph (DAG) model in the presence of latent variables. We define "latent factor causal models" (LFCMs) as a restriction on causal DAG models with latent variables, which are composed of clusters of observed variables that share the same latent parent and connections between these clusters given by edges pointing from the observed variables to latent variables. LFCMs are motivated by gene regulatory networks, where regulatory edges, corresponding to transcription factors, connect spatially clustered genes. We show identifiability results on this model and design a consistent three-stage algorithm that discovers clusters of observed nodes, a partial ordering over clusters, and finally, the entire structure over both observed and latent nodes. We evaluate our method in a synthetic setting, demonstrating its ability to almost perfectly recover the ground truth clustering even at relatively low sample sizes, as well as the ability to recover a significant number of the edges from observed variables to latent factors. Finally, we apply our method in a semi-synthetic setting to protein mass spectrometry data with a known ground truth network, and achieve almost perfect recovery of the ground truth variable clusters.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/squires22a.html
+  PDF: https://proceedings.mlr.press/v177/squires22a/squires22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-squires22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chandler
+    family: Squires
+  - given: Annie
+    family: Yun
+  - given: Eshaan
+    family: Nichani
+  - given: Raj
+    family: Agrawal
+  - given: Caroline
+    family: Uhler
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 669-687
+  id: squires22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 669
+  lastpage: 687
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Imputation via Synthetic Interventions'
+  abstract: 'Consider the problem of determining the effect of a compound on a specific cell type. To answer this question, researchers traditionally need to run an experiment applying the drug of interest to that cell type. This approach is not scalable: given a large number of different actions (compounds) and a large number of different contexts (cell types), it is infeasible to run an experiment for every action-context pair. In such cases, one would ideally like to predict the outcome for every pair while only needing outcome data for a small _subset_ of pairs. This task, which we label "causal imputation", is a generalization of the causal transportability problem. To address this challenge, we extend the recently introduced _synthetic interventions_ (SI) estimator to handle more general data sparsity patterns. We prove that, under a latent factor model, our estimator provides valid estimates for the causal imputation task. We motivate this model by establishing a connection to the linear structural causal model literature. Finally, we consider the prominent CMAP dataset in predicting the effects of compounds on gene expression across cell types. We find that our estimator outperforms standard baselines, thus confirming its utility in biological applications. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/squires22b.html
+  PDF: https://proceedings.mlr.press/v177/squires22b/squires22b.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-squires22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chandler
+    family: Squires
+  - given: Dennis
+    family: Shen
+  - given: Anish
+    family: Agarwal
+  - given: Devavrat
+    family: Shah
+  - given: Caroline
+    family: Uhler
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 688-711
+  id: squires22b
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 688
+  lastpage: 711
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Estimating Social Influence from Observational Data'
+  abstract: 'We consider the problem of estimating social influence, the effect that a person’s behavior has on the future behavior of their peers. The key challenge is that shared behavior between friends could be equally explained by influence or by two other confounding factors: 1) latent traits that caused people to both become friends and engage in the behavior, and 2) latent preferences for the behavior.  This paper addresses the challenges of estimating social influence with three contributions.  First, we formalize social influence as a causal effect, one which requires inferences about hypothetical interventions.  Second, we develop Poisson Influence Factorization (PIF), a method for estimating social influence from observational data.  PIF fits probabilistic factor models to networks and behavior data to infer variables that serve as substitutes for the confounding latent traits.  Third, we develop assumptions under which PIF recovers estimates of social influence.  We empirically study PIF with semi-synthetic and real data from Last.fm, and conduct a sensitivity analysis.  We find that PIF estimates social influence most accurately compared to related methods and remains robust under some violations of its assumptions.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/sridhar22a.html
+  PDF: https://proceedings.mlr.press/v177/sridhar22a/sridhar22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-sridhar22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Dhanya
+    family: Sridhar
+  - given: Caterina De
+    family: Bacco
+  - given: David
+    family: Blei
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 712-733
+  id: sridhar22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 712
+  lastpage: 733
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Identifying Principal Stratum Causal Effects Conditional on a Post-treatment Intermediate Response'
+  abstract: 'In neoadjuvant trials on early-stage breast cancer, patients are usually randomized into a control group and a treatment group with an additional target therapy. Early efficacy of the new regimen is assessed via the binary pathological complete response (pCR) and the eventual efficacy is assessed via long-term clinical outcomes such as survival. Although pCR is strongly associated with survival, it has not been confirmed as a surrogate endpoint. To fully understand its clinical implication, it is important to establish causal estimands such as the causal effect in survival for patients who would achieve pCR under the new regimen. Under the principal stratification framework, previous studies focus on sensitivity analyses by varying model parameters in an imposed model on counterfactual outcomes. Under mild assumptions, we propose an approach to estimate those model parameters using empirical data and subsequently the causal estimand of interest. We also extend our approach to address censored outcome data. The proposed method is applied to a recent clinical trial and its performance is evaluated via simulation studies. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/tan22a.html
+  PDF: https://proceedings.mlr.press/v177/tan22a/tan22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-tan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiaoqing
+    family: Tan
+  - given: Judah
+    family: Abberbock
+  - given: Priya
+    family: Rastogi
+  - given: Gong
+    family: Tang
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 734-753
+  id: tan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 734
+  lastpage: 753
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Attainability and Optimality: The Equalized Odds Fairness Revisited'
+  abstract: 'Fairness of machine learning algorithms has been of increasing interest. In order to suppress or eliminate discrimination in prediction, various notions as well as approaches have been proposed to impose fairness. Given a notion of fairness, an essential problem is then whether or not it can always be attained, even if with an unlimited amount of data. This issue is, however, not well addressed yet. In this paper, focusing on the Equalized Odds notion of fairness, we consider the attainability of this criterion and, furthermore, if it is attainable, the optimality of the prediction performance under various settings. In particular, for prediction performed by a deterministic function of input features, we give conditions under which Equalized Odds can hold true; if the stochastic prediction is acceptable, we show that under mild assumptions, fair predictors can always be derived. For classification, we further prove that compared to enforcing fairness by post-processing, one can always benefit from exploiting all available features during training and get potentially better prediction performance while remaining fair. Moreover, while stochastic prediction can attain Equalized Odds with theoretical guarantees, we also discuss its limitation and potential negative social impacts.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/tang22a.html
+  PDF: https://proceedings.mlr.press/v177/tang22a/tang22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-tang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Zeyu
+    family: Tang
+  - given: Kun
+    family: Zhang
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 754-786
+  id: tang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 754
+  lastpage: 786
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Same Cause; Different Effects in the Brain'
+  abstract: 'To study information processing in the brain, neuroscientists manipulate experimental stimuli while recording participant brain activity. They can then use encoding models to find out which brain "zone" (e.g. which region of interest, volume pixel or electrophysiology sensor) is predicted from the stimulus properties. Given the assumptions underlying this setup, when stimulus properties are predictive of the activity in a zone, these properties are understood to cause activity in that zone.  In recent years, researchers have used neural networks to construct representations that capture the diverse properties of complex stimuli, such as natural language or natural images. Encoding models built using these high-dimensional representations are often able to significantly predict the activity in large swathes of cortex, suggesting that the activity in all these brain zones is caused by stimulus properties captured in the representation. It is then natural to ask: "Is the activity in these different brain zones caused by the stimulus properties in the same way?" In neuroscientific terms, this corresponds to asking if these different zones process the stimulus properties in the same way.  Here, we propose a new framework that enables researchers to ask if the properties of a stimulus affect two brain zones in the same way. We use simulated data and two real fMRI datasets with complex naturalistic stimuli to show that our framework enables us to make such inferences. Our inferences are strikingly consistent between the two datasets, indicating that the proposed framework is a promising new tool for neuroscientists to understand how information is processed in the brain. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/toneva22a.html
+  PDF: https://proceedings.mlr.press/v177/toneva22a/toneva22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-toneva22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mariya
+    family: Toneva
+  - given: Jennifer
+    family: Williams
+  - given: Anand
+    family: Bollu
+  - given: Christoph
+    family: Dann
+  - given: Leila
+    family: Wehbe
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 787-825
+  id: toneva22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 787
+  lastpage: 825
+  published: 2022-06-28 00:00:00 +0000
+- title: 'A Multivariate Causal Discovery based on Post-Nonlinear Model'
+  abstract: 'Understanding causal relations of systems is a fundamental problem in science. The study of causal discovery aims to infer the underlying causal structure from uncontrolled observational samples. One major approach is to assume that causal structures follow structural equation models (SEMs), such as the additive noise model (ANM) and the post-nonlinear (PNL) model, and to identify these causal structures by estimating the SEMs. Although the PNL model is the most general SEM for causal discovery, its estimation method has not been well-developed except for the bivariate case. In this paper, we propose a new causal discovery method based on the multivariate PNL model. We extend the bivariate method to estimate multi-cause PNL models and combine it with the iterative sink search scheme used for the ANM. We apply the proposed method to synthetic and real-world causal discovery problems and show its effectiveness. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/uemura22a.html
+  PDF: https://proceedings.mlr.press/v177/uemura22a/uemura22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-uemura22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kento
+    family: Uemura
+  - given: Takuya
+    family: Takagi
+  - given: Kambayashi
+    family: Takayuki
+  - given: Hiroyuki
+    family: Yoshida
+  - given: Shohei
+    family: Shimizu
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 826-839
+  id: uemura22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 826
+  lastpage: 839
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Local Constraint-Based Causal Discovery under Selection Bias'
+  abstract: 'We consider the problem of discovering causal relations from independence constraints selection bias in addition to confounding is present. While the seminal FCI algorithm is sound and complete in this setup, no criterion for the causal interpretation of its output under selection bias is presently known. We focus instead on local patterns of independence relations, where we find no sound method for only three variable that can include background knowledge. Y-Structure patterns are shown to be sound in predicting causal relations from data under selection bias, where cycles may be present. We introduce a finite-sample scoring rule for Y-Structures that is shown to successfully predict causal relations in simulation experiments that include selection mechanisms. On real-world microarray data, we show that a Y-Structure variant performs well across different datasets, potentially circumventing spurious correlations due to selection bias. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/versteeg22a.html
+  PDF: https://proceedings.mlr.press/v177/versteeg22a/versteeg22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-versteeg22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Philip
+    family: Versteeg
+  - given: Joris
+    family: Mooij
+  - given: Cheng
+    family: Zhang
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 840-860
+  id: versteeg22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 840
+  lastpage: 860
+  published: 2022-06-28 00:00:00 +0000
+- title: 'A Uniformly Consistent Estimator of non-Gaussian Causal Effects Under the $k$-Triangle-Faithfulness Assumption'
+  abstract: 'Kalisch and Bühlmann (2007) showed that for linear Gaussian models, under the Causal Markov Assumption, the Strong Causal Faithfulness Assumption, and the assumption of causal sufficiency, the PC algorithm is a uniformly consistent estimator of the Markov Equivalence Class of the true causal DAG for linear Gaussian models; it follows from this that for the identifiable causal effects in the Markov Equivalence Class, there are uniformly consistent estimators of causal effects as well. The $k$-Triangle-Faithfulness Assumption is a strictly weaker assumption that avoids some implausible implications of the Strong Causal Faithfulness Assumption and also allows for uniformly consistent estimates of Markov Equivalence Classes (in a weakened sense), and of identifiable causal effects. However, both of these assumptions are restricted to linear Gaussian models. We propose the Generalized $k$-Triangle Faithfulness, which can be applied to any smooth distribution. In addition, under the Generalized $k$-Triangle Faithfulness Assumption, we describe the Edge Estimation Algorithm that provides uniformly consistent estimators of causal effects in some cases (and otherwise outputs “can’t tell"), and the \textit{Very Conservative }$SGS$ Algorithm that (in a slightly weaker sense) is a uniformly consistent estimator of the Markov equivalence class of the true DAG.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/wang22a.html
+  PDF: https://proceedings.mlr.press/v177/wang22a/wang22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-wang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Shuyan
+    family: Wang
+  - given: Peter
+    family: Spirtes
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 861-876
+  id: wang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 861
+  lastpage: 876
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Identifying Coarse-grained Independent Causal Mechanisms with Self-supervision'
+  abstract: 'Among the most effective methods for uncovering high dimensional unstructured data’s generating mechanisms are techniques based on disentangling and learning independent causal mechanisms. However, to identify the disentangled model, previous methods need additional observable variables or do not provide identifiability results. In contrast, this work aims to design an identifiable generative model that approximates the underlying mechanisms from observational data using only self-supervision. Specifically, the generative model uses a degenerate mixture prior to learn mechanisms that generate or transform data. We outline sufficient conditions for an identifiable generative model up to three types of transformations that preserve a coarse-grained disentanglement. Moreover, we propose a self-supervised training method based on these identifiability conditions. We validate our approach on MNIST, FashionMNIST, and Sprites datasets, showing that the proposed method identifies disentangled models – by visualization and evaluating the downstream predictive model’s accuracy under environment shifts.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/wang22b.html
+  PDF: https://proceedings.mlr.press/v177/wang22b/wang22b.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-wang22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiaoyang
+    family: Wang
+  - given: Klara
+    family: Nahrstedt
+  - given: Oluwasanmi O
+    family: Koyejo
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 877-903
+  id: wang22b
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 877
+  lastpage: 903
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Integrative $R$-learner of heterogeneous treatment effects combining experimental and observational studies'
+  abstract: 'The gold-standard approach to estimating heterogeneous treatment effects (HTEs) is randomized controlled trials (RCTs)/controlled experimental studies, where treatment randomization mitigates confounding biases. However, experimental data are usually small in sample size and limited in subjects’ diversity due to expensive costs. On the other hand, large observational studies (OSs) are becoming increasingly popular and accessible. However, OSs might be subject to hidden confounding whose existence is not testable. We develop an integrative $R$-learner for the HTE and confounding function by leveraging experimental data for identification and observational data for boosting efficiency. We form a regularized loss function for the HTE and confounding function that bears the Neyman orthogonality property, allowing flexible models for the nuisance function estimation. The key novelty of the proposed integrative $R$-learner is to impose different regularization terms for the HTE and confounding function so that the possible smoothness or sparsity of the confounding function can be leveraged to improve the HTE estimation. Our integrative $R$-learner has two benefits: first, it provides a general framework that can accommodate various HTE models for loss minimization; second, without any prior knowledge of hidden confounding in the OS, the proposed integrative $R$-learner is consistent and asymptotically at least as efficient as the estimator using only the RCT. The experiments based on extensive simulation and a real-data application adapted from an educational experiment show that the proposed integrative $R$-learner outperforms alternative approaches. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/wu22a.html
+  PDF: https://proceedings.mlr.press/v177/wu22a/wu22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-wu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Lili
+    family: Wu
+  - given: Shu
+    family: Yang
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 904-926
+  id: wu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 904
+  lastpage: 926
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Fair Classification with Instance-dependent Label Noise'
+  abstract: 'With the widespread use of machine learning systems in our daily lives, it is important to consider fairness as a basic requirement when designing these systems, especially when the systems make life-changing decisions, e.g., \textit{COMPAS} algorithm helps judges decide whether to release an offender. For another thing, due to the cheap but imperfect data collection methods, such as crowdsourcing and web crawling, label noise is ubiquitous, which unfortunately makes fairness-aware algorithms even more prejudiced than fairness-unaware ones, and thereby harmful. To tackle these problems, we provide general frameworks for learning fair classifiers with \textit{instance-dependent label noise}. For statistical fairness notions, we rewrite the classification risk and the fairness metric in terms of noisy data and thereby build robust classifiers. For the causality-based fairness notion, we exploit the internal causal structure of data to model the label noise and \textit{counterfactual fairness} simultaneously. Experimental results demonstrate the effectiveness of the proposed methods on real-world datasets with controllable synthetic label noise.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/wu22b.html
+  PDF: https://proceedings.mlr.press/v177/wu22b/wu22b.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-wu22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Songhua
+    family: Wu
+  - given: Mingming
+    family: Gong
+  - given: Bo
+    family: Han
+  - given: Yang
+    family: Liu
+  - given: Tongliang
+    family: Liu
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 927-943
+  id: wu22b
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 927
+  lastpage: 943
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Discovery in Linear Structural Causal Models with Deterministic Relations'
+  abstract: 'Linear structural causal models (SCMs)– in which each observed variable is generated by a subset of the other observed variables as well as a subset of the exogenous sources– are pervasive in causal inference and casual discovery. However, for the task of causal discovery, existing work almost exclusively focus on the submodel where each observed variable is associated with a distinct source with non-zero variance. This results in the restriction that no observed variable can deterministically depend on other observed variables or latent confounders. In this paper, we extend the results on structure learning by focusing on a subclass of linear SCMs which do not have this property, i.e., models in which observed variables can be causally affected by any subset of the sources, and are allowed to be a deterministic function of other observed variables or latent confounders. This allows for a more realistic modeling of influence or information propagation in systems. We focus on the task of causal discovery form observational data generated from a member of this subclass. We derive a set of necessary and sufficient conditions for unique identifiability of the causal structure. To the best of our knowledge, this is the first work that gives identifiability results for causal discovery under both latent confounding and deterministic relationships. Further, we propose an algorithm for recovering the underlying causal structure when the aforementioned conditions are satisfied. We validate our theoretical results both on synthetic and real datasets.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/yang22a.html
+  PDF: https://proceedings.mlr.press/v177/yang22a/yang22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-yang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuqin
+    family: Yang
+  - given: Mohamed S
+    family: Nafea
+  - given: AmirEmad
+    family: Ghassami
+  - given: Negar
+    family: Kiyavash
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 944-993
+  id: yang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 944
+  lastpage: 993
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Causal Discovery for Linear Mixed Data'
+  abstract: 'Discovery of causal relationships from observational data, especially from mixed data that consist of both continuous and discrete variables, is a fundamental yet challenging problem. Traditional methods focus on polishing the data type processing policy, which may lose data information. Compared with such methods, the constraint-based and score-based methods for mixed data derive certain conditional independence tests or score functions from the data’s characteristics. However, they may return the Markov equivalence class due to the lack of identifiability guarantees, which may limit their applicability or hinder their interpretability of causal graphs. Thus, in this paper, based on the structural causal models of continuous and discrete variables, we provide sufficient identifiability conditions in bivariate as well as multivariate cases. We show that if the data follow our proposed restricted Linear Mixed causal model (LiM), such a model is identifiable. In addition, we proposed a two-step hybrid method to discover the causal structure for mixed data. Experiments on both synthetic and real-world data empirically demonstrate the identifiability and efficacy of our proposed LiM model. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/zeng22a.html
+  PDF: https://proceedings.mlr.press/v177/zeng22a/zeng22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-zeng22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yan
+    family: Zeng
+  - given: Shohei
+    family: Shimizu
+  - given: Hidetoshi
+    family: Matsui
+  - given: Fuchun
+    family: Sun
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 994-1009
+  id: zeng22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 994
+  lastpage: 1009
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Can Humans Be out of the Loop?'
+  abstract: 'Recent advances in Reinforcement Learning have allowed automated agents (for short, agents) to achieve a high level of performance across a wide range of tasks, which when supplemented with human feedback has led to faster and more robust decision-making. The current literature, in large part, focuses on the human’s role during the learning phase:  human trainers possess a priori knowledge that could help an agent to accelerate its learning when the environment is not fully known. In this paper, we study an interactive reinforcement learning setting where the agent and the human have different sensory capabilities, disagreeing, therefore, on how they perceive the world (observed states) while sharing the same reward and transition functions. We show that agents are bound to learn sub-optimal policies if they do not take into account human advice, perhaps surprisingly, even when human’s decisions are less accurate than their own. We propose the counterfactual agent who proactively considers the intended actions of the human operator, and proves that this strategy dominates standard approaches regarding performance. Finally, we formulate a novel reinforcement learning task maximizing the performance of an autonomous system subject to a budget constraint over the available amount of human advice. '
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/zhang22a.html
+  PDF: https://proceedings.mlr.press/v177/zhang22a/zhang22a.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-zhang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Junzhe
+    family: Zhang
+  - given: Elias
+    family: Bareinboim
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 1010-1025
+  id: zhang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 1010
+  lastpage: 1025
+  published: 2022-06-28 00:00:00 +0000
+- title: 'Some Reflections on Drawing Causal Inference using Textual Data: Parallels Between Human Subjects and Organized Texts'
+  abstract: 'We examine the role of textual data as study units when conducting causal inference by drawing parallels between human subjects and organized texts. We elaborate on key causal concepts and principles, and expose some ambiguity and sometimes fallacies. To facilitate better framing a causal query, we discuss two strategies: (i) shifting from immutable traits to perceptions of them, and (ii) shifting from some abstract concept/property to its constituent parts, i.e., a constructivist perspective of an abstract concept. We hope this article would raise the awareness of the importance of articulating and clarifying fundamental concepts before delving into developing methodologies when drawing causal inference using textual data.'
+  volume: 177
+  URL: https://proceedings.mlr.press/v177/zhang22b.html
+  PDF: https://proceedings.mlr.press/v177/zhang22b/zhang22b.pdf
+  edit: https://github.com/mlresearch//v177/edit/gh-pages/_posts/2022-06-28-zhang22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Conference on Causal Learning and Reasoning'
+  publisher: 'PMLR'
+  author: 
+  - given: Bo
+    family: Zhang
+  - given: Jiayao
+    family: Zhang
+  editor: 
+  - given: Bernhard
+    family: Schölkopf
+  - given: Caroline
+    family: Uhler
+  - given: Kun
+    family: Zhang
+  page: 1026-1036
+  id: zhang22b
+  issued:
+    date-parts: 
+      - 2022
+      - 6
+      - 28
+  firstpage: 1026
+  lastpage: 1036
+  published: 2022-06-28 00:00:00 +0000

@@ -1,0 +1,521 @@
+
+- title: 'Preface'
+  abstract: 'Preface for the 12th International Conference on Grammatical Inference.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/clark14a.html
+  PDF: http://proceedings.mlr.press/v34/clark14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-clark14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 1-2
+  id: clark14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 1
+  lastpage: 2
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Grammar Compression: Grammatical Inference by Compression and Its Application to Real Data '
+  abstract: 'A grammatical inference algorithm tries to find as a small grammar as possible representing  a potentially infinite sequence of strings. Here, let us consider a simple restriction: the input is a finite sequence or it might be a singleton set. Then the restricted problem is called the \em grammar compression to find the smallest CFG generating just the input. In the last decade many researchers have tackled this problem because of its scalable applications, e.g., expansion of data storage capacity, speeding-up information retrieval, DNA sequencing, frequent pattern mining,  and similarity search. We would review the history of grammar compression and its wide applications together with an important future work. The study of grammar compression has begun with the bad news: the smallest CFG problem is NP-hard. Hence, the first question is: Can we get a near-optimal solution in a polynomial time?  (Is there a reasonable approximation algorithm?) And the next question is: Can we minimize the costs of time and space? (Does a linear time algorithm exist within an optimal working space?) The recent results produced by the research community answer affirmatively the questions. We introduce several important results and typical applications to a huge text collection. On the other hand, the shrinkage of the advantage of grammar compression is caused by the data explosion, since there is no working space for storing the whole data supplied from data stream. The last question is: How can we handle the stream data? For this question, we propose the framework of \em stream grammar compression for the next generation and its attractive application to fast data transmission.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/sakamoto14a.html
+  PDF: http://proceedings.mlr.press/v34/sakamoto14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-sakamoto14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Hiroshi
+    family: Sakamoto
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 3-20
+  id: sakamoto14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 3
+  lastpage: 20
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Towards a rationalist theory of language acquisition'
+  abstract: 'Recent computational, mathematical work on learnability extends to classes of languages that plausibly include the human languages, but there is nevertheless a gulf between this work and linguistic theory. The languages of the two fields seem almost completely disjoint and incommensurable. This paper shows that this has happened, at least in part, because the recent advances in learnability have been misdescribed in two important respects. First, they have been described as resting on ‘empiricist’ conceptions of language, when actually, in fundamental respects that are made precise here, they are equally compatible with the ‘rationalist’, ‘nativist’ traditions in linguistic theory. Second, the recent mathematical proposals have sometimes been presented as if they not only advance but complete the account of human language acquisition, taking the rather dramatic difference between what current mathematical models can achieve and what current linguistic theories tell us as an indication that current linguistic theories are quite generally mistaken. This paper compares the two perspectives and takes some first steps toward a unified theory, aiming to identify some common ground where ‘rationalist’ linguistic hypotheses  could directly address weaknesses in the current mathematical proposals.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/stabler14a.html
+  PDF: http://proceedings.mlr.press/v34/stabler14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-stabler14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Edward
+    family: Stabler
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 21-32
+  id: stabler14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 21
+  lastpage: 32
+  published: 2014-08-30 00:00:00 +0000
+- title: 'A Canonical Semi-Deterministic Transducer'
+  abstract: 'We prove the existence of a canonical form for semi-deterministic transducers with sets of pairwise incomparable output strings.  Based on this, we develop an algorithm which learns semi-deterministic transducers given access to translation queries.  We also prove that there is no learning algorithm for semi-deterministic transducers that uses only domain knowledge.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/beros14a.html
+  PDF: http://proceedings.mlr.press/v34/beros14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-beros14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Achilles
+    family: Beros
+  - given: Colin
+    family: Higuera
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 33-48
+  id: beros14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 33
+  lastpage: 48
+  published: 2014-08-30 00:00:00 +0000
+- title: 'A bottom-up efficient algorithm learning substitutable languages from positive examples'
+  abstract: 'Based on Harris’s substitutability criterion, the recent definitions of classes of substitutable languages have led to interesting polynomial learnability results for expressive formal languages. These classes are also promising for practical applications: in natural language analysis, because definitions have strong linguisitic support, but also in biology for modeling protein families, as suggested in our previous study introducing the class of local substitutable languages. But turning recent theoretical advances into practice badly needs truly practical algorithms. We present here an efficient learning algorithm, motivated by intelligibility and parsing efficiency of the result, which directly reduces the positive sample into a small non-redundant canonical grammar of the target substitutable language.  Thanks to this new algorithm, we have been able to extend our experimentation to a complete protein dataset confirming that it is possible to learn grammars on proteins with high specificity and good sensitivity by a generalization based on local substitutability.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/coste14a.html
+  PDF: http://proceedings.mlr.press/v34/coste14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-coste14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: François
+    family: Coste
+  - given: Gaëlle
+    family: Garet
+  - given: Jacques
+    family: Nicolas
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 49-63
+  id: coste14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 49
+  lastpage: 63
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Some improvements of the spectral learning approach for probabilistic grammatical inference'
+  abstract: 'Spectral methods propose new and elegant solutions in probabilistic grammatical inference. We propose two ways to improve them. We show how a linear representation, or equivalently a weighted automata, output by the spectral learning algorithm can be taken as an initial point for the Baum Welch algorithm, in order to increase the likelihood of the observation data. Secondly, we show how the inference problem can naturally be expressed in the framework of Structured Low-Rank Approximation. Both ideas are tested on a benchmark extracted from the PAutomaC challenge.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/gybels14a.html
+  PDF: http://proceedings.mlr.press/v34/gybels14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-gybels14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Mattias
+    family: Gybels
+  - given: François
+    family: Denis
+  - given: Amaury
+    family: Habrard
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 64-78
+  id: gybels14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 64
+  lastpage: 78
+  published: 2014-08-30 00:00:00 +0000
+- title: 'An Abstract Framework for Counterexample Analysis in Active Automata Learning'
+  abstract: 'Counterexample analysis has emerged as one of the key challenges in Angluin-style active automata learning.  Rivest and Schapire (1993) showed for the \mathrmL^* algorithm that a single suffix of the counterexample was sufficient to ensure progress.  This suffix can be obtained in a binary search fashion, requiring Θ(\log m) membership queries for a counterexample of length m. Correctly implementing this algorithm can be quite tricky, and its correctness sometimes even has been disputed. In this paper, we establish an abstract framework for counterexample analysis, which basically reduces the problem of finding a suffix to finding distinct neighboring elements in a 0/1 sequence, where the first element is 0 and the last element is 1. We demonstrate the conciseness and simplicity of our framework by using it to present new counterexample analysis algorithms, which, while maintaining the worst-case complexity of O(\log m), perform significantly better in practice. Furthermore, we contribute—in a second instantiation of our framework, highlighting its generality—the first sublinear counterexample analysis procedures for the algorithm due to Kearns and Vazirani (1994).'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/isberner14a.html
+  PDF: http://proceedings.mlr.press/v34/isberner14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-isberner14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Malte
+    family: Isberner
+  - given: Bernhard
+    family: Steffen
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 79-93
+  id: isberner14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 79
+  lastpage: 93
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Very efficient learning of structured classes of subsequential functions from positive data'
+  abstract: 'In this paper, we present a new algorithm that can identify in polynomial time and data using positive examples any class of subsequential functions that share a particular finite-state structure. While this structure is given to the learner \textita priori, it allows for the exact learning of partial functions, and both the time and data complexity of the algorithm are linear.   We demonstrate the algorithm on examples from natural language phonology and morphology in which the needed structure has been argued to be plausibly known in advance. A procedure for making any subsequential transducer onward without changing its structure is also presented.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/jardine14a.html
+  PDF: http://proceedings.mlr.press/v34/jardine14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-jardine14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Adam
+    family: Jardine
+  - given: Jane
+    family: Chandlee
+  - given: Rémi
+    family: Eyraud
+  - given: Jeffrey
+    family: Heinz
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 94-108
+  id: jardine14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 94
+  lastpage: 108
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Learning Nondeterministic Mealy Machines'
+  abstract: 'In applications where abstract models of reactive systems are to be inferred, one important challenge is that the behavior of such systems can be inherently nondeterministic. To cope with this challenge, we developed an algorithm to infer nondeterministic computation models in the form of Mealy machines.  We introduce our approach and provide extensive experimental results to assess its potential in the identification of black-box reactive systems. The experiments involve both artificially-generated abstract Mealy machines, and the identification of a TFTP server model starting from a publicly-available implementation.  '
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/khalili14a.html
+  PDF: http://proceedings.mlr.press/v34/khalili14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-khalili14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ali
+    family: Khalili
+  - given: Armando
+    family: Tacchella
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 109-123
+  id: khalili14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 109
+  lastpage: 123
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Maximizing a Tree Series in the Representation Space'
+  abstract: 'This paper investigates the use of linear representations of trees (i.e. mappings from the set of trees into a finite dimensional vector space which are induced by rational series on trees) in the context of structured data learning. We argue that this representation space can be more appealing than the space of trees to handle machine learning problems involving trees. Focusing on a tree series maximization problem, we first analyze its complexity to motivate the use of approximation techniques. We then show how a tree series can be extended to the continuous representation space, we propose an adaptive Metropolis-Hastings algorithm to solve the maximization problem in this space, and we establish convergence guarantees. Finally, we provide some experiments comparing our algorithm with an implementation of the Metropolis-Hastings algorithm in the space of trees.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/rabusseau14a.html
+  PDF: http://proceedings.mlr.press/v34/rabusseau14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-rabusseau14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Guillaume
+    family: Rabusseau
+  - given: François
+    family: Denis
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 124-138
+  id: rabusseau14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 124
+  lastpage: 138
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Grammatical Inference of some Probabilistic Context-Free Grammars from Positive Data using Minimum Satisfiability'
+  abstract: 'Recently, different theoretical learning results have been found for a variety of context-free grammar subclasses through the use of distributional learning (Clark, 2010b). However, these results are still not extended to probabilistic grammars. In this work, we give a practical algorithm, with some proven properties, that learns a subclass of probabilistic grammars from positive data. A minimum satisfiability solver is used to direct the search towards small grammars. Experiments on typical context-free languages and artificial natural language grammars give positive results.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/scicluna14a.html
+  PDF: http://proceedings.mlr.press/v34/scicluna14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-scicluna14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: James
+    family: Scicluna
+  - given: Colin
+    family: de la Higuera
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 139-152
+  id: scicluna14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 139
+  lastpage: 152
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Inferring (k,l)-context-sensitive probabilistic context-free grammars using hierarchical Pitman-Yor processes'
+  abstract: 'Motivated by the idea of applying nonparametric Bayesian models to dual approaches for distributional learning, we define (k,l)-context-sensitive probabilistic context-free grammars (PCFGs) using hierarchical Pitman-Yor processes (PYPs). The data sparseness problem that occurs when inferring context-sensitive probabilities for rules is handled by the smoothing effect of hierarchical PYPs. Many possible definitions or constructions of PYP hierarchies can be used to represent the context sensitivity of derivations of CFGs in Chomsky normal form. In this study, we use a definition that is considered to be the most natural as an extension of infinite PCFGs defined in previous studies. A Markov Chain Monte Carlo method called blocked Metropolis-Hastings (MH) sampling is known to be effective for inferring PCFGs from unsupervised sentences. Blocked MH sampling is applicable to (k,l)-context-sensitive PCFGs by modifying their so-called inside probabilities. We show that the computational cost of blocked MH sampling for (k,l)-context-sensitive PCFGs is O(|V|^l+3|s|^3) for each sentence s, where V is a set of nonterminals. This cost is too high to iterate sufficient sampling times, especially when l ≠0, thus we propose an alternative sampling method that separates the sampling procedure into pointwise sampling for nonterminals and blocked sampling for rules. The computational cost of this sampling method is O(\min{|s|^l,|V|^l} (|V||s|^2+|s|^3) ). '
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/shibata14a.html
+  PDF: http://proceedings.mlr.press/v34/shibata14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-shibata14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Chihiro
+    family: Shibata
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 153-166
+  id: shibata14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 153
+  lastpage: 166
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Bigger is Not Always Better: on the Quality of Hypotheses in Active Automata Learning'
+  abstract: 'In Angluin’s L^∗ algorithm a learner constructs a sequence of hypotheses in order to learn a regular language. Each hypothesis is consistent with a larger set of observations and is described by a bigger model. From a behavioral perspective, however, a hypothesis is not always better than the previous one, in the sense that the minimal length of a counterexample that distinguishes a hypothesis from the target language may decrease.  We present a simple modification of the L^∗ algorithm that ensures that for subsequent hypotheses the minimal length of a counterexample never decreases, which implies that the distance to the target language never increases in a corresponding ultrametric.  Preliminary experimental evidence suggests that our algorithm speeds up learning in practical applications by reducing the number of equivalence queries.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/smetsers14a.html
+  PDF: http://proceedings.mlr.press/v34/smetsers14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-smetsers14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Rick
+    family: Smetsers
+  - given: Michele
+    family: Volpato
+  - given: Frits
+    family: Vaandrager
+  - given: Sicco
+    family: Verwer
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 167-181
+  id: smetsers14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 167
+  lastpage: 181
+  published: 2014-08-30 00:00:00 +0000
+- title: 'An example distribution for probabilistic query learning of simple deterministic languages'
+  abstract: 'In this paper, we show a special example distribution on which the learner can guess a correct simple deterministic grammar in polynomial time from membership queries and random examples. At first, we show a learning algorithm of simple deterministic languages from membership and equivalence queries. This algorithm is not a polynomial time algorithm but, assuming a special example distribution, we can modify it to the polynomial time probabilistic learning algorithm.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/tajima14a.html
+  PDF: http://proceedings.mlr.press/v34/tajima14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-tajima14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yasuhiro
+    family: Tajima
+  - given: Genichiro
+    family: Kikui
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 182-192
+  id: tajima14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 182
+  lastpage: 192
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Evaluation of selection in context-free grammar learning systems'
+  abstract: 'Grammatical inference deals with learning of grammars describing languages.  Formal grammatical inference aims at identifying families of languages that have a shared property, which can be used to prove efficient learnability of the families formally.  In contrast, in empirical grammatical inference research, practical systems are developed that are applied to languages.  The effectiveness of these systems is measured by comparing the learned grammar against a Gold standard which indicates the ground truth. From successful empirical learnability results, either shared properties may be identified, leading to further formal learnability results, or modifications to the systems may be made, improving practical results.  Proper evaluation of empirical systems is, therefore, essential.  Here, we evaluate and compare existing state-of-the-art context-free grammar learning systems (and novel systems based on combinations of existing phases) in a standardized evaluation environment (on a corpus of plain natural language sentences), illustrating future directions for empirical grammatical inference research.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/vanzaanen14a.html
+  PDF: http://proceedings.mlr.press/v34/vanzaanen14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-vanzaanen14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Menno
+    family: Zaanen
+  - given: Nanne
+    family: Noord
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 193-206
+  id: vanzaanen14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 193
+  lastpage: 206
+  published: 2014-08-30 00:00:00 +0000
+- title: 'Induction of Directed Acyclic Word Graph in a Bioinformatics Task'
+  abstract: 'In this paper a new algorithm for the induction of a Directed Acyclic Word Graph (DAWG) is proposed.  A DAWG can serve as a very efficient data structure for lexicon representation and fast string matching, and have a variety of applications. Similar structures are being investigated in the theory of formal languages and grammatical inference, namely deterministic and nondeterministic finite automata (DFA and NFA, respectively). Since a DAWG is acyclic the proposed method is suited for problems where the target language does not necessarily have to be infinite. The experiments have been performed for a dataset from the domain of bioinformatics, and our results are compared with those obtained using the current state-of-the-art methods in heuristic DFA induction.'
+  volume: 34
+  URL: https://proceedings.mlr.press/v34/wieczorek14a.html
+  PDF: http://proceedings.mlr.press/v34/wieczorek14a.pdf
+  edit: https://github.com/mlresearch//v34/edit/gh-pages/_posts/2014-08-30-wieczorek14a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'The 12th International Conference on Grammatical Inference'
+  publisher: 'PMLR'
+  author: 
+  - given: Wojciech
+    family: Wieczorek
+  - given: Olgierd
+    family: Unold
+  editor: 
+  - given: Alexander
+    family: Clark
+  - given: Makoto
+    family: Kanazawa
+  - given: Ryo
+    family: Yoshinaka
+  address: Kyoto, Japan
+  page: 207-217
+  id: wieczorek14a
+  issued:
+    date-parts: 
+      - 2014
+      - 8
+      - 30
+  firstpage: 207
+  lastpage: 217
+  published: 2014-08-30 00:00:00 +0000

@@ -1,0 +1,201 @@
+
+- title: 'Leveraging Twitter to better identify suicide risk'
+  abstract: 'While many studies have explored the use of social media and behavioral changes of individuals, few examined the utility of using social media for suicide detection and prevention. The study by Jashinsky et al, in particular, identified specific language patterns associated with a set of twelve suicide risk factors. We utilized their findings to assess the significance of the language used on Twitter for suicide detection. We quantified the use of Twitter to express suicide related language and its potential to detect users at high risk of suicide. First, we evaluated the presence of language related to twelve different suicide risk factors on Twitter using a list of terms/statements published by Jashinsky et al and searched Twitter for tweets indicative of 12 suicide risk factors. Using network analysis, for each suicide risk factor we established a subnetwork of users and their tweets related to that suicide risk factor. We computed the density of each subnetwork to estimate the presence of the language of that suicide risk factor. Second, we investigated relationships between suicide risk factors, using associated language patterns, In two groups “high risk” and “at risk”. We divided Twitter users into “high risk” and “at risk” based on two of the risk factors (“self-harm” and “prior suicide attempts”) and examined language patterns by computing co-occurrences of terms in tweets. We identified relationships between suicide risk factors in both groups using co-occurrences. We found that users within a subnetwork used similar language to express their feeling/thoughts. Stratifying users into “high-risk” and “at-risk”, we found stronger relationships between pairs of risk factors such as (“depressive feelings”, “drug abuse”), (“suicide around individual”, “self-harm”), and (“suicide ideation”, “drug abuse”) in the “high-risk” group relative to the “at-risk” group. In addition, the presence of social-related suicide risk factors including “gun ownership”, “suicide around individual”, “family violence”, and “prior suicide attempts” was more pronounced in the “high-risk” group.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/fodeh17a.html
+  PDF: http://proceedings.mlr.press/v69/fodeh17a/fodeh17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-fodeh17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Samah
+    family: Fodeh
+  - given: Joseph
+    family: Goulet
+  - given: Cynthia
+    family: Brandt
+  - given: Al-Talib
+    family: Hamada
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 1-7
+  id: fodeh17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 1
+  lastpage: 7
+  published: 2017-10-18 00:00:00 +0000
+- title: 'An Integrated Database and Smart Search Tool for Medical Knowledge Extraction from Radiology Teaching Files'
+  abstract: 'Accurate and timely diagnosis is crucial for an effective medical treatment. Teaching files are widely used by radiologists as a resource in the diagnostic process and to teach students of radiology. Teaching files contain images, recorded discussion and notes, external references, augmenting annotations, and patient history. Most hospitals maintain an active collection of teaching files for their internal purposes, but many publically available teaching files are available through online sources that typically provide a basic keyword search interface but little else that can help physicians find the most relevant examples. Other secondary sources (e.g., journals or radiology textbooks) might also be referenced from a teaching file or provide an independent source of information; however, journal and textbook search capabilities, if available, can be very ad hoc and even more limited than for public teaching file repositories. Therefore, in order to access multiple resources, radiologists need to manually navigate each particular source and aggregate the search results into a full answer. In this paper, we describe our integration of multiple public data sources into a unified medical resource repository and the design of advanced search features that make it easier to find relevant teaching files as well as journals or textbooks. Our approach supports incorporating diverse public data that can be further combined with a hospital’s in-house teaching files to provide an integrated radiological knowledge repository. We tested our Integrated Radiological Image Search (IRIS) engine using a set of representative queries. Our search engine finds more accurate and relevant results compared to search engines available for public data sources. The IRIS engine is tailored to facilitate understanding of natural language queries, including negation statements, synonym terms, adjectives, and different sources of text. In addition, the search engine is designed to allow further integration of a module for image-based search to allow finding of visually similar cases.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/deshpande17a.html
+  PDF: http://proceedings.mlr.press/v69/deshpande17a/deshpande17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-deshpande17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Priya
+    family: Deshpande
+  - given: Alexander
+    family: Rasin
+  - given: Eli
+    family: Brown
+  - given: Jacob
+    family: Furst
+  - given: Daniela
+    family: Raicu
+  - given: Steven
+    family: Montner
+  - given: Samuel
+    family: Armato III
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 10-18
+  id: deshpande17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 10
+  lastpage: 18
+  published: 2017-10-18 00:00:00 +0000
+- title: 'Towards a reliable prediction of conversion from Mild Cognitive Impairment to Alzheimer’s Disease: stepwise learning using time windows'
+  abstract: 'Predicting progression from a stage of Mild Cognitive Impairment to Alzheimer’s disease is a major pursuit in current dementia research. As a result, many prognostic models have emerged with the goal of supporting clinical decisions. Despite the efforts, the clinical application of such models has been hampered by: 1) the lack of a reliable assessment of the uncertainty of each prediction, and 2) not knowing the time to conversion. It is paramount for clinicians to know how much they can rely on the prediction made for a given patient (conversion or no conversion), and the time windows in case of conversion, in order to timely adjust the treatments. We propose a supervised learning approach using Conformal Prediction and a stepwise learning approach, where the learning model first predicts whether a patient converts to dementia, or remains stable, and then predicts the more likely progression window (short-term or long-term conversion). We used data from ADNI to test the approach and predict conversion within time windows of up to 2 years (short-term converter) and 2 to 4 years (long-term converter). The exploratory results are promising but compromised by the small number of examples for the long-term converting patients, available for training.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/pereira17a.html
+  PDF: http://proceedings.mlr.press/v69/pereira17a/pereira17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-pereira17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Telma
+    family: Pereira
+  - given: Alexandre
+    family: Mendon\ca
+  - given: Francisco
+    family: Ferreira
+  - given: Sara
+    family: Madeira
+  - given: Manuela
+    family: Guerreiro
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 19-26
+  id: pereira17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 19
+  lastpage: 26
+  published: 2017-10-18 00:00:00 +0000
+- title: 'Predicting Annual Length-Of-Stay and its Impact on Health'
+  abstract: 'Avoidable hospitalizations are a source of increased health expenditures in many health systems. Prolonged length of stay is costly for providers, insurers, and patients to the extent it is associated to higher health service consumption and to the development of endangering states during the hospital stay. In this article we use machine learning techniques to predict annual patient length-of-stay in Colombia’s statutory health care system and measure its impact on health costs by estimating the potential cost savings of a hospitalization prevention program. Results from the predictive modeling show tree-based methods outperform linear approximations and achieve lower out-of-sample error rates compared to the winning model of the Heritage Health Prize. We also show that a prevention program where patient intervention is decided upon the predictions of the model can achieve significant cost savings relative to the best uniform policy (i.e, intervene all patients or no intervention). This holds for program efficacies greater than 40% and intervention costs per patient ranging between 100,000 and 700,000 Colombian pesos.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/riascos17a.html
+  PDF: http://proceedings.mlr.press/v69/riascos17a/riascos17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-riascos17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Alvaro
+    family: Riascos
+  - given: Natalia
+    family: Serna
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 27-34
+  id: riascos17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 27
+  lastpage: 34
+  published: 2017-10-18 00:00:00 +0000
+- title: 'Automatic Classification of Critical Findings in Radiology Reports'
+  abstract: 'Communication of “actionable” findings in radiology reports is an important part of high quality medical care. Distinguishing radiology reports with “actionable” findings from other reports is currently a function of the radiologist and largely a manual process. This paper describes a system for automatic classification of patient’s radiology reports as it relates to the degree of severity of “actionable” findings provided by the radiology department at University of Massachusetts Medical School. This is done by using machine learning classifier on text based features. Several machine learning classification algorithms are evaluated and compared. Random forest classifier performed the best in this case while other classification methods also performed decently.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/tiwari17a.html
+  PDF: http://proceedings.mlr.press/v69/tiwari17a/tiwari17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-tiwari17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Aditya
+    family: Tiwari
+  - given: Samah
+    family: Fodeh
+  - given: Steven
+    family: Baccei
+  - given: Max
+    family: Rosen
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 35-39
+  id: tiwari17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 35
+  lastpage: 39
+  published: 2017-10-18 00:00:00 +0000
+- title: 'Visualizing Deep Learning Activations for Improved Malaria Cell Classification'
+  abstract: 'Malaria is a life-threatening disease caused by the parasites transmitted through the bite of the female Anopheles mosquito. Thick and thin film microscopic examinations of blood smears are the most commonly used and reliable methods for diagnosis, however, its accuracy depends on the smear quality and human expertise in classifying the normal and parasitemic cells. Manual examination can be burdensome for large-scale diagnoses in endemic regions resulting in poor quality, unnecessary medication, leading to severe economic impact to the individual health program. Automated malaria screening using machine learning techniques, such as deep learning, offers the promise of serving as an effective diagnostic aid. In this study, we propose the advantages offered through visualizing the features and activations in a simple, customized deep learning model. We apply it to the challenge of malaria cell classification, and as a result the model achieves 98.61% classification accuracy with lower model complexity and computation time. It is found to considerably outperform the state of the art including other pre-trained deep learning models.'
+  volume: 69
+  URL: https://proceedings.mlr.press/v69/sivaramakrishnan17a.html
+  PDF: http://proceedings.mlr.press/v69/sivaramakrishnan17a/sivaramakrishnan17a.pdf
+  edit: https://github.com/mlresearch//v69/edit/gh-pages/_posts/2017-10-18-sivaramakrishnan17a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First Workshop Medical Informatics and Healthcare held with the 23rd SIGKDD Conference on Knowledge Discovery and Data Mining'
+  publisher: 'PMLR'
+  author: 
+  - given: Rajaraman
+    family: Sivaramakrishnan
+  - given: Sameer
+    family: Antani
+  - given: Stefan
+    family: Jaeger
+  editor: 
+  - given: Samah
+    family: Fodeh
+  - given: Daniela Stan
+    family: Raicu
+  page: 40-47
+  id: sivaramakrishnan17a
+  issued:
+    date-parts: 
+      - 2017
+      - 10
+      - 18
+  firstpage: 40
+  lastpage: 47
+  published: 2017-10-18 00:00:00 +0000

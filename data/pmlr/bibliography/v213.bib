@@ -1,0 +1,755 @@
+
+
+
+@Proceedings{CLeaR2023,
+  title =     {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  booktitle = {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  editor =    {Mihaela Schaar and Cheng Zhang and Dominik Janzing},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    213
+}
+
+
+
+
+@InProceedings{pmlr-v213-huang23a,
+  title = 	 {An Algorithm and Complexity Results for Causal Unit Selection},
+  author =       {Huang, Haiying and Darwiche, Adnan},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {1--26},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/huang23a/huang23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/huang23a.html},
+  abstract = 	 {The unit selection problem aims to identify objects, called units, that are most likely to exhibit a desired mode of behavior when subjected to stimuli (e.g., customers who are about to churn but would change their mind if encouraged). Unit selection with counterfactual objective functions was introduced relatively recently with existing work focusing on bounding a specific class of objective functions, called the benefit functions, based on observational and interventional dataâassuming a fully specified model is not available to evaluate these functions. We complement this line of work by proposing the first exact algorithm for finding optimal units given a broad class of causal objective functions and a fully specified structural causal model (SCM). We show that unit selection under this class of objective functions is $\mbox{NP}^{\mbox{PP}}$-complete but is NP-complete when unit variables correspond to all exogenous variables in the SCM. We also provide treewidth-based complexity bounds on our proposed algorithm while relating it to a well-known algorithm for Maximum a Posteriori (MAP) inference.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-yu23a,
+  title = 	 {Directed Graphical Models and Causal Discovery for Zero-Inflated Data},
+  author =       {Yu, Shiqing and Drton, Mathias and Shojaie, Ali},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {27--67},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/yu23a/yu23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/yu23a.html},
+  abstract = 	 {With advances in technology, gene expression measurements from single cells can be used to gain refined insights into regulatory relationships among genes. Directed graphical models are well-suited to explore such (cause-effect) relationships. However, statistical analyses of single cell data are complicated by the fact that the data often show zero-inflated expression patterns. To address this challenge, we propose directed graphical models that are based on Hurdle conditional distributions parametrized in terms of polynomials in parent variables and their $0/1$ indicators of being zero or nonzero. While directed graphs for Gaussian models are only identifiable up to an equivalence class in general, we show that, under a natural and weak assumption, the exact directed acyclic graph of our zero-inflated models can be identified. We propose methods for graph recovery, apply our model to real single-cell gene expression data on T helper cells, and show simulated experiments that validate the identifiability and graph estimation methods in practice.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-massidda23a,
+  title = 	 {Causal Abstraction with Soft Interventions},
+  author =       {Massidda, Riccardo and Geiger, Atticus and Icard, Thomas and Bacciu, Davide},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {68--87},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/massidda23a/massidda23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/massidda23a.html},
+  abstract = 	 {Causal abstraction provides a theory describing how several causal models can represent the same system at different levels of detail. Existing theoretical proposals limit the analysis of abstract models to "hard" interventions fixing causal variables to be constant values. In this work, we extend causal abstraction to "soft" interventions, which assign possibly non-constant functions to variables without adding new causal connections. Specifically, (i) we generalize $\tau$-abstraction from Beckers and Halpern (2019) to soft interventions, (ii) we propose a further definition of soft abstraction to ensure a unique map $\omega$ between soft interventions, and (iii) we prove that our constructive definition of soft abstraction guarantees the intervention map $\omega$ has a specific and necessary explicit form.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-zennaro23a,
+  title = 	 {Jointly Learning Consistent Causal Abstractions Over Multiple Interventional Distributions},
+  author =       {Zennaro, Fabio Massimo and Dr\'avucz, M\'at\'e and Apachitei, Geanina and Widanage, W. Dhammika and Damoulas, Theodoros},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {88--121},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/zennaro23a/zennaro23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/zennaro23a.html},
+  abstract = 	 {An abstraction can be used to relate two structural causal models representing the same system at different levels of resolution. Learning abstractions which guarantee consistency with respect to interventional distributions would allow one to jointly reason about evidence across multiple levels of granularity while respecting the underlying cause-effect relationships. In this paper, we introduce a first framework for causal abstraction learning between SCMs based on the formalization of abstraction recently proposed by Rischel (2020). Based on that, we propose a differentiable programming solution that jointly solves a number of combinatorial sub-problems, and we study its performance and benefits against independent and sequential approaches on synthetic settings and on a challenging real-world problem related to electric vehicle battery manufacturing.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-figueiredo23a,
+  title = 	 {Distinguishing Cause from Effect on Categorical Data: The Uniform Channel Model},
+  author =       {Figueiredo, Mario A. T. and Oliveira, Catarina},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {122--141},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/figueiredo23a/figueiredo23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/figueiredo23a.html},
+  abstract = 	 {Distinguishing cause from effect using observations of a pair of random variables is a core problem in causal discovery. Most approaches proposed for this task, namely additive noise models (ANM), are only adequate for quantitative data. We propose a criterion to address the cause-effect problem with categorical variables (living in sets with no meaningful order), inspired by seeing a conditional probability mass function (pmf) as a discrete memoryless channel. We select as the most likely causal direction the one in which the conditional pmf is closer to a uniform channel (UC). The rationale is that, in a UC, as in an ANM, the conditional entropy (of the effect given the cause) is independent of the cause distribution, in agreement with the principle of independence of cause and mechanism. Our approach, which we call the uniform channel model (UCM), thus extends the ANM rationale to categorical variables. To assess how close a conditional pmf (estimated from data) is to a UC, we use statistical testing, supported by a closed-form estimate of a UC channel. On the theoretical front, we prove identifiability of the UCM and show its equivalence with a structural causal model with a low-cardinality exogenous variable. Finally, the proposed method compares favorably with recent state-of-the-art alternatives in experiments on synthetic, benchmark, and real data.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-padh23a,
+  title = 	 {Stochastic Causal Programming for Bounding Treatment Effects},
+  author =       {Padh, Kirtan and Zeitler, Jakob and Watson, David and Kusner, Matt and Silva, Ricardo and Kilbertus, Niki},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {142--176},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/padh23a/padh23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/padh23a.html},
+  abstract = 	 {Causal effect estimation is important for many tasks in the natural and social sciences. We design algorithms for the continuous partial identification problem: bounding the effects of multivariate, continuous treatments when unmeasured confounding makes identification impossible. Specifically, we cast causal effects as objective functions within a constrained optimization problem, and minimize/maximize these functions to obtain bounds. We combine flexible learning algorithms with Monte Carlo methods to implement a family of solutions under the name of stochastic causal programming. In particular, we show how the generic framework can be efficiently formulated in settings where auxiliary variables are clustered into pre-treatment and post-treatment sets, where no fine-grained causal graph can be easily specified. In these settings, we can avoid the need for fully specifying the distribution family of hidden common causes. Monte Carlo computation is also much simplified, leading to algorithms which are more computationally stable against alternatives.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-kugelgen23a,
+  title = 	 {Backtracking Counterfactuals},
+  author =       {K\"ugelgen, Julius Von and Mohamed, Abdirisak and Beckers, Sander},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {177--196},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/kugelgen23a/kugelgen23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/kugelgen23a.html},
+  abstract = 	 {Counterfactual reasoningâenvisioning hypothetical scenarios, or possible worlds, where some circumstances are different from what (f)actually occurred (counter-to-fact)âis ubiquitous in human cognition. Conventionally, counterfactually-altered circumstances have been treated as âsmall miraclesâ that locally violate the laws of nature while sharing the same initial conditions. In Pearlâs structural causal model (SCM) framework this is made mathematically rigorous via interventions that modify the causal laws while the values of exogenous variables are shared. In recent years, however, this purely interventionist account of counterfactuals has increasingly come under scrutiny from both philosophers and psychologists. Instead, they suggest a backtracking account of counterfactuals, according to which the causal laws remain unchanged in the counterfactual world; differences to the factual world are instead âbacktrackedâ to altered initial conditions (exogenous variables). In the present work, we explore and formalise this alternative mode of counterfactual reasoning within the SCM framework. Despite ample evidence that humans backtrack, the present work constitutes, to the best of our knowledge, the first general account and algorithmisation of backtracking counterfactuals. We discuss our backtracking semantics in the context of related literature and draw connections to recent developments in explainable artificial intelligence (XAI).}
+}
+
+
+
+
+@InProceedings{pmlr-v213-strobl23a,
+  title = 	 {Generalizing Clinical Trials with Convex Hulls},
+  author =       {Strobl, Eric and Lasko, Thomas A},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {197--221},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/strobl23a/strobl23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/strobl23a.html},
+  abstract = 	 {Randomized clinical trials eliminate confounding but impose strict exclusion criteria that limit recruitment to a subset of the population. Observational datasets are more inclusive but suffer from confounding â often providing overly optimistic estimates of treatment response over time due to partially optimized physician prescribing patterns. We therefore assume that the unconfounded treatment response lies somewhere in between the observational estimate before and the observational estimate after treatment assignment. This assumption allows us to extrapolate results from exclusive trials to the broader population by analyzing observational and trial data simultaneously using an algorithm called Optimum in Convex Hulls (OCH). OCH represents the treatment effect either in terms of convex hulls of conditional expectations or convex hulls (also known as mixtures) of conditional densities. The algorithm first learns the component expectations or densities using the observational data and then learns the linear mixing coefficients using trial data in order to approximate the true treatment effect; theory importantly explains why this linear combination should hold. OCH estimates the treatment effect in terms both expectations and densities with state of the art accuracy.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-umrawal23a,
+  title = 	 {Leveraging Causal Graphs for Blocking in Randomized Experiments},
+  author =       {Umrawal, Abhishek Kumar},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {222--242},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/umrawal23a/umrawal23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/umrawal23a.html},
+  abstract = 	 {Randomized experiments are often performed to study the causal effects of interest. Blocking is a technique to precisely estimate the causal effects when the experimental material is not homogeneous. It involves stratifying the available experimental material based on the covariates causing non-homogeneity and then randomizing the treatment within those strata (known as blocks). This eliminates the unwanted effect of the covariates on the causal effects of interest. We investigate the problem of finding a stable set of covariates to be used to form blocks, that minimizes the variance of the causal effect estimates. Using the underlying causal graph, we provide an efficient algorithm to obtain such a set for a general semi-Markovian causal model.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-castri23a,
+  title = 	 {Enhancing Causal Discovery from Robot Sensor Data in Dynamic Scenarios},
+  author =       {Castri, Luca and Mghames, Sariah and Hanheide, Marc and Bellotto, Nicola},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {243--258},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/castri23a/castri23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/castri23a.html},
+  abstract = 	 {Identifying the main features and learning the causal relationships of a dynamic system from time-series of sensor data are key problems in many real-world robot applications. In this paper, we propose an extension of a state-of-the-art causal discovery method, PCMCI, embedding an additional feature-selection module based on transfer entropy. Starting from a prefixed set of variables, the new algorithm reconstructs the causal model of the observed system by considering only its main features and neglecting those deemed unnecessary for understanding the evolution of the system. We first validate the method on a toy problem and on synthetic data of brain network, for which the ground-truth models are available, and then on a real-world robotics scenario using a large-scale time-series dataset of human trajectories. The experiments demonstrate that our solution outperforms the previous state-of-the-art technique in terms of accuracy and computational efficiency, allowing better and faster causal discovery of meaningful models from robot sensor data.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-luttermann23a,
+  title = 	 {Practical Algorithms for Orientations of Partially Directed Graphical Models},
+  author =       {Luttermann, Malte and Wien\"obst, Marcel and Liskiewicz, Maciej},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {259--280},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/luttermann23a/luttermann23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/luttermann23a.html},
+  abstract = 	 {In observational studies, the true causal model is typically unknown and needs to be estimated from available observational and limited experimental data. In such cases, the learned causal model is commonly represented as a partially directed acyclic graph (PDAG), which contains both directed and undirected edges indicating uncertainty of causal relations between random variables. The main focus of this paper is on the maximal orientation task, which, for a given PDAG, aims to orient the undirected edges maximally such that the resulting graph represents the same Markov equivalent DAGs as the input PDAG. This task is a subroutine used frequently in causal discovery, e.g., as the final step of the celebrated PC algorithm. Utilizing connections to the problem of finding a consistent DAG extension of a PDAG, we derive faster algorithms for computing the maximal orientation by proposing two novel approaches for extending PDAGs, both constructed with an emphasis on simplicity and practical effectiveness.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-tangemann23a,
+  title = 	 {Unsupervised Object Learning via Common Fate},
+  author =       {Tangemann, Matthias and Schneider, Steffen and K\"ugelgen, Julius Von and Locatello, Francesco and Gehler, Peter Vincent and Brox, Thomas and Kuemmerer, Matthias and Bethge, Matthias and Sch\"olkopf, Bernhard},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {281--327},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/tangemann23a/tangemann23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/tangemann23a.html},
+  abstract = 	 {Learning generative object models from unlabelled videos is a long standing problem and required for causal scene modeling. We decompose this problem into three easier subtasks, and provide candidate solutions for each of them. Inspired by the Common Fate Principle of Gestalt Psychology, we first extract (noisy) masks of moving objects via unsupervised motion segmentation. Second, generative models are trained on the masks of the background and the moving objects, respectively. Third, background and foreground models are combined in a conditional âdead leavesâ scene model to sample novel scene configurations where occlusions and depth layering arise naturally. To evaluate the individual stages, we introduce the FISHBOWL dataset positioned between complex real-world scenes and common object-centric benchmarks of simplistic objects. We show that our approach learns generative models that generalize beyond occlusions present in the input videos and represents scenes in a modular fashion, allowing generation of plausible scenes outside the training distribution by permitting, for instance, object numbers or densities not observed during training.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-wildberger23a,
+  title = 	 {On the Interventional Kullback-Leibler Divergence},
+  author =       {Wildberger, Jonas Bernhard and Guo, Siyuan and Bhattacharyya, Arnab and Sch\"olkopf, Bernhard},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {328--349},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/wildberger23a/wildberger23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/wildberger23a.html},
+  abstract = 	 {Modern machine learning approaches excel in static settings where a large amount of i.i.d. training data are available for a given task. In a dynamic environment though, an intelligent agent needs to be able to transfer knowledge and re-use learned components across domains. It has been argued that this may be possible through causal models, aiming to mirror the modularity of the real world in terms of independent causal mechanisms. However, the true causal structure underlying a given set of data is generally not identifiable, so it is desirable to have means to quantify differences between models (e.g., between the ground truth and an estimate), on both the observational and interventional level. In the present work, we introduce the Interventional Kullback-Leibler (IKL) divergence to quantify both structural and distributional differences between models based on a finite set of multi-environment distributions generated by interventions from the ground truth.  Since we generally cannot quantify all differences between causal models for every finite set of interventional distributions, we propose a sufficient condition on the intervention targets to identify subsets of observed variables on which the models provably agree or disagree.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-zou23a,
+  title = 	 {Factual Observation Based Heterogeneity Learning for Counterfactual Prediction},
+  author =       {Zou, Hao and Wang, Haotian and Xu, Renzhe and Li, Bo and Pei, Jian and Jian, Ye Jun and Cui, Peng},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {350--370},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/zou23a/zou23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/zou23a.html},
+  abstract = 	 {Extant causal methods exclusively exploit the heterogeneity based on the observed covariates for heterogeneous outcome prediction. Even with nowadays big data, the collected covariates may not contain complete confounders. When some confounders are absent, the methods can suffer from confounding bias and missing heterogeneity. To address these two issues, we propose to leverage the factual observation in the observational data to recover the latent confounders. Since the learned confounder representation exploits the heterogeneity of latent confounders, it leads to finer granular heterogeneous outcome prediction, which is closer to the individual-level than prediction conditional on only covariates. Specifically, we propose a novel Factual Observation based Heterogeneity Learning (FOHL) algorithm with an encoder for confounder representation learning and a decoder for outcome prediction. Theoretical analysis reveals the validity of recovering confounders from factual observations to make the heterogeneous prediction closer to the individual-level. Furthermore, experimental results demonstrate that our FOHL method can outperform the existing baselines.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-zhang23a,
+  title = 	 {Causal Inference under Interference and Model Uncertainty},
+  author =       {Zhang, Chi and Mohan, Karthika and Pearl, Judea},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {371--385},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/zhang23a/zhang23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/zhang23a.html},
+  abstract = 	 {Algorithms that take data as input commonly assume that variables in the input dataset are Independent and Identically Distributed (IID). However, IID may be violated in many real world datasets that are generated by processes in which units/samples interact with one another. Typical examples include contagion that may be related to infectious diseases in public health, economic crisis in finance and risky behavior in social science. Handling non-IID data (without making additional assumptions) requires access to the true data generating process and the exact interaction patterns among units/samples, which may not be easily available. This work focuses on a specific type of interaction among samples, namely interference (i.e. some unitsâ treatments affect other unitsâ outcomes), in situations where there exists uncertainty regarding interaction patterns. The main contributions include modeling uncertain interaction using linear graphical causal models, quantifying bias when IID is incorrectly assumed, presenting a procedure to remove such bias and deriving bounds for average causal effects.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-gupta23a,
+  title = 	 {Can Active Sampling Reduce Causal Confusion in Offline Reinforcement Learning?},
+  author =       {Gupta, Gunshi and Rudner, Tim G. J. and McAllister, Rowan Thomas and Gaidon, Adrien and Gal, Yarin},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {386--407},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/gupta23a/gupta23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/gupta23a.html},
+  abstract = 	 {Causal confusion is a phenomenon where an agent learns a policy that reflects imperfect spurious correlations in the data. Such a policy may falsely appear to be optimal during training if most of the training data contain such spurious correlations. This phenomenon is particularly pronounced in domains such as robotics, with potentially large gaps between the open- and closed-loop performance of an agent. In such settings, causally confused models may appear to perform well according to open-loop metrics during training but fail catastrophically when deployed in the real world. In this paper, we study causal confusion in offline reinforcement learning. We investigate whether selectively sampling appropriate points from a dataset of demonstrations may enable offline reinforcement learning agents to disambiguate the underlying causal mechanisms of the environment, alleviate causal confusion in offline reinforcement learning, and produce a safer model for deployment. To answer this question, we consider a set of tailored offline reinforcement learning datasets that exhibit causal ambiguity and assess the ability of active sampling techniques to reduce causal confusion at evaluation. We provide empirical evidence that uniform and active sampling techniques are able to consistently reduce causal confusion as training progresses and that active sampling is able to do so significantly more efficiently than uniform sampling.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-gupta23b,
+  title = 	 {Local Causal Discovery for Estimating Causal Effects},
+  author =       {Gupta, Shantanu and Childers, David and Lipton, Zachary Chase},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {408--447},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/gupta23b/gupta23b.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/gupta23b.html},
+  abstract = 	 {Even when the causal graph underlying our data is unknown, we can use observational data to narrow down the possible values that an average treatment effect (ATE) can take by (1) identifying the graph up to a Markov equivalence class; and (2) estimating that ATE for each graph in the class. While the PC algorithm can identify this class under strong faithfulness assumptions, it can be computationally prohibitive. Fortunately, only the local graph structure around the treatment is required to identify the set of possible ATE values, a fact exploited by local discovery algorithms to improve computational efficiency. In this paper, we introduce Local Discovery using Eager Collider Checks (LDECC), a new local causal discovery algorithm that leverages unshielded colliders to orient the treatmentâs parents differently from existing methods. We show that there exist graphs where LDECC exponentially outperforms existing local discovery algorithms and vice versa. Moreover, we show that LDECC and existing algorithms rely on different faithfulness assumptions, leveraging this insight to weaken the assumptions for identifying the set of possible ATE values.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-hwang23a,
+  title = 	 {On Discovery of Local Independence over Continuous Variables via Neural Contextual Decomposition},
+  author =       {Hwang, Inwoo and Kwak, Yunhyeok and Song, Yeon-Ji and Zhang, Byoung-Tak and Lee, Sanghack},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {448--472},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/hwang23a/hwang23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/hwang23a.html},
+  abstract = 	 {Conditional independence provides a way to understand causal relationships among the variables of interest. An underlying system may exhibit more fine-grained causal relationships especially between a variable and its parents, which will be called the local independence relationships. One of the most widely studied local relationships is Context-Specific Independence (CSI), which holds in a specific assignment of conditioned variables. However, its applicability is often limited since it does not allow continuous variables: data conditioned to the specific value of a continuous variable contains few instances, if not none, making it infeasible to test independence. In this work, we define and characterize the local independence relationship that holds in a specific set of joint assignments of parental variables, which we call context-set specific independence (CSSI). We then provide a canonical representation of CSSI and prove its fundamental properties. Based on our theoretical findings, we cast the problem of discovering multiple CSSI relationships in a system as finding a partition of the joint outcome space. Finally, we propose a novel method, coined neural contextual decomposition (NCD), which learns such partition by imposing each set to induce CSSI via modeling a conditional distribution. We empirically demonstrate that the proposed method successfully discovers the ground truth local independence relationships in both synthetic dataset and complex system reflecting the real-world physical dynamics.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-howard23a,
+  title = 	 {Evaluating Temporal Observation-Based Causal Discovery Techniques Applied to Road Driver Behaviour},
+  author =       {Howard, Rhys Peter Matthew and Kunze, Lars},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {473--498},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/howard23a/howard23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/howard23a.html},
+  abstract = 	 {Autonomous robots are required to reason about the behaviour of dynamic agents in their environment. The creation of models to describe these relationships is typically accomplished through the application of causal discovery techniques. However, as it stands observational causal discovery techniques struggle to adequately cope with conditions such as causal sparsity and non-stationarity typically seen during online usage in autonomous agent domains. Meanwhile, interventional techniques are not always feasible due to domain restrictions. In order to better explore the issues facing observational techniques and promote further discussion of these topics we carry out a benchmark across 10 contemporary observational temporal causal discovery methods in the domain of autonomous driving. By evaluating these methods upon causal scenes drawn from real world datasets in addition to those generated synthetically we highlight where improvements need to be made in order to facilitate the application of causal discovery techniques to the aforementioned use-cases. Finally, we discuss potential directions for future work that could help better tackle the difficulties currently experienced by state of the art techniques.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-shou23a,
+  title = 	 {Influence-Aware Attention for Multivariate Temporal Point Processes},
+  author =       {Shou, Xiao and Gao, Tian and Subramanian, Dharmashankar and Bhattacharjya, Debarun and Bennett, Kristin},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {499--517},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/shou23a/shou23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/shou23a.html},
+  abstract = 	 {Identifying the subset of events that influence events of interest from continuous time datasets is of great interest in various applications. Existing methods however often fail to produce accurate and interpretable results in a time-efficient manner. In this paper, we propose a neural model â Influence-Aware Attention for Multivariate Temporal Point Processes (IAA-MTPPs) â which leverages the powerful attention mechanism in transformers to capture temporal dynamics between event types, which is different from existing instance-to-instance attentions, using variational inference while maintaining interpretability. Given event sequences and a prior influence matrix, IAA-MTPP efficiently learns an approximate posterior by an Attention-to-Influence mechanism, and subsequently models the conditional likelihood of the sequences given a sampled influence through an Influence-to-Attention formulation. Both steps are completed efficiently inside a B-block multi-head self-attention layer, thus our end-to-end training with parallelizable transformer architecture enables faster training compared to sequential models such as RNNs. We demonstrate strong empirical performance compared to existing baselines on multiple synthetic and real benchmarks, including qualitative analysis for an application in decentralized finance.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-solovyeva23a,
+  title = 	 {Causal Learning through Deliberate Undersampling},
+  author =       {Solovyeva, Kseniya and Danks, David and Abavisani, Mohammadsajad and Plis, Sergey},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {518--530},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/solovyeva23a/solovyeva23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/solovyeva23a.html},
+  abstract = 	 {Domain scientists interested in causal mechanisms are usually limited by the frequency at which they can collect the measurements of social, physical, or biological systems. A common and plausible assumption is that higher measurement frequencies are the only way to gain more informative data about  the underlying dynamical causal structure. This assumption is a strong driver for designing new, faster instruments, but such instruments might not be feasible or even possible. In this paper, we show that this assumption is incorrect: there are situations in which we can gain additional information about the causal structure by measuring more <em>slowly</em> than our current instruments. We present an algorithm that uses graphs at multiple measurement timescales to infer underlying causal structure, and show that inclusion of structures at slower timescales can nonetheless reduce the size of the equivalence class of possible causal structures. We provide simulation data about the probability of cases in which deliberate undersampling yields a gain, as well as the size of this gain. }
+}
+
+
+
+
+@InProceedings{pmlr-v213-jerzak23a,
+  title = 	 {Image-based Treatment Effect Heterogeneity},
+  author =       {Jerzak, Connor Thomas and Johansson, Fredrik Daniel and Daoud, Adel},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {531--552},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/jerzak23a/jerzak23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/jerzak23a.html},
+  abstract = 	 {Randomized controlled trials (RCTs) are considered the gold standard for estimating the Average Treatment Effect (ATE) of interventions. One important use of RCTs is to study the causes of global poverty â a subject explicitly cited in the 2019 Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel awarded to Duflo, Banerjee, and Kremer âfor their experimental approach to alleviating global poverty.â Because the ATE is a population summary, researchers often want to better understand how the treatment effect varies across different populations by conditioning on tabular variables such as age and ethnicity that were measured during the RCT data collection. Although such variables carry substantive importance, they are often only observed only near the time of the experiment: exclusive use of such variables may fail to capture historical, geographical, or neighborhood-specific contributors to effect variation. In global poverty research, when the geographical location of the experiment units is approximately known, satellite imagery can provide a window into such historical and geographical factors important for understanding heterogeneity. However, there is no causal inference method that specifically enables applied researchers to analyze Conditional Average Treatment Effects (CATEs) from images. In this paper, we develop a deep probabilistic modeling framework that identifies clusters of images with similar treatment effect distributions, enabling researchers to analyze treatment effect variation by image. Our interpretable image CATE model also emphasizes an image sensitivity factor that quantifies the importance of image segments in contributing to the mean effect cluster prediction. We compare the proposed methods against alternatives in simulation; additionally, we show how the model works in an actual RCT, estimating the effects of an anti-poverty intervention in northern Uganda and obtaining a posterior predictive distribution over treatment effects for the rest of the country where no experimental data was collected. We make code for all modeling strategies available in an open-source software package and discuss their applicability in other domains (such as the biomedical sciences) where image data are also prevalent.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-liu23a,
+  title = 	 {Causal Triplet: An Open Challenge for Intervention-centric Causal Representation Learning},
+  author =       {Liu, Yuejiang and Alahi, Alexandre and Russell, Chris and Horn, Max and Zietlow, Dominik and Sch\"olkopf, Bernhard and Locatello, Francesco},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {553--573},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/liu23a/liu23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/liu23a.html},
+  abstract = 	 {Recent years have seen a surge of interest in learning high-level causal representations from low-level image pairs under interventions. Yet, existing efforts are largely limited to simple synthetic settings that are far away from real-world problems. In this paper, we present CausalTriplet, a causal representation learning benchmark featuring not only visually more complex scenes, but also two crucial desiderata commonly overlooked in previous works: (i) an actionable counterfactual setting, where only certain (object-level) variables allow for counterfactual observations whereas others do not; (ii) an interventional downstream task with an emphasis on out-of-distribution robustness from the independent causal mechanisms principle. Through extensive experiments, we find that models built with the knowledge of disentangled or object-centric representations significantly outperform their distributed counterparts. However, recent causal representation learning methods still struggle to identify such latent structures, indicating substantial challenges and opportunities in CausalTriplet. Our code and datasets will be available at https://sites.google.com/view/causaltriplet.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-gordon23a,
+  title = 	 {Causal Inference Despite Limited Global Confounding via Mixture Models},
+  author =       {Gordon, Spencer L. and Mazaheri, Bijan and Rabani, Yuval and Schulman, Leonard},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {574--601},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/gordon23a/gordon23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/gordon23a.html},
+  abstract = 	 {A Bayesian Network is a directed acyclic graph (DAG) on a set of $n$ random variables (the vertices); a Bayesian Network Distribution (BND) is a probability distribution on the random variables that is Markovian on the graph. A finite $k$-mixture of such models is graphically represented by a larger graph which has an additional âhiddenâ (or âlatentâ) random variable $U$, ranging in $\{1,\ldots,k\}$, and a directed edge from $U$ to every other vertex. Models of this type are fundamental to causal inference, where $U$ models an unobserved confounding effect of multiple populations, obscuring the causal relationships in the observable DAG. By solving the mixture problem and recovering the joint probability distribution with $U$, traditionally unidentifiable causal relationships become identifiable. Using a reduction to the more well-studied âproductâ case on empty graphs, we give the first algorithm to learn mixtures of non-empty DAGs. }
+}
+
+
+
+
+@InProceedings{pmlr-v213-sauter23a,
+  title = 	 {A Meta-Reinforcement Learning Algorithm for Causal Discovery},
+  author =       {Sauter, Andreas W.M. and Acar, Erman and Francois-Lavet, Vincent},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {602--619},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/sauter23a/sauter23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/sauter23a.html},
+  abstract = 	 {Uncovering the underlying causal structure of a phenomenon, domain or environment is of great scientific interest, not least because of the inferences that can be derived from such structures. Unfortunately though, given an environment, identifying its causal structure poses significant challenges. Amongst those are the need for costly interventions and the size of the space of possible structures that has to be searched. In this work, we propose a meta-reinforcement learning setup that addresses these challenges by learning a causal discovery algorithm, called Meta-Causal Discovery, or MCD. We model this algorithm as a policy that is trained on a set of environments with known causal structures to perform budgeted interventions. Simultaneously, the policy learns to maintain an estimate of the environmentâs causal structure. The learned policy can then be used as a causal discovery algorithm to estimate the structure of environments in a matter of milliseconds. At test time, our algorithm performs well even in environments that induce previously unseen causal structures. We empirically show that MCD estimates good graphs compared to SOTA approaches on toy environments and thus constitutes a proof-of-concept of learning causal discovery algorithms.  }
+}
+
+
+
+
+@InProceedings{pmlr-v213-mogensen23a,
+  title = 	 {Instrumental Processes Using Integrated Covariances},
+  author =       {Mogensen, S{\o}ren Wengel},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {620--641},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/mogensen23a/mogensen23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/mogensen23a.html},
+  abstract = 	 {Instrumental variable methods are often used for parameter estimation in the presence of confounding. They can also be applied in stochastic processes. Instrumental variable analysis exploits moment equations to obtain estimators for causal parameters. We show that in stochastic processes one can find such moment equations using an integrated covariance matrix. This provides new instrumental variable methods, instrumental variable methods in a class of continuous-time processes as well as a unified treatment of discrete- and continuous-time processes.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-cussens23a,
+  title = 	 {Branch-Price-and-Cut for Causal Discovery},
+  author =       {Cussens, James},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {642--661},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/cussens23a/cussens23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/cussens23a.html},
+  abstract = 	 { We show how to extend the integer programming (IP) approach to score-based causal discovery by including pricing. Pricing allows the addition of new IP variables during solving, rather than requiring them all to be present initially. The dual values of acyclicity constraints allow this addition to be done in a principled way. We have extended the GOBNILP algorithm to effect a branch-price-and-cut method for DAG learning. Empirical results show that implementing a delayed pricing approach can be beneficial. The current pricing algorithm in GOBNILP is slow, so further work on fast pricing is required.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-lopez23a,
+  title = 	 {Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling},
+  author =       {Lopez, Romain and Tagasovska, Natasa and Ra, Stephen and Cho, Kyunghyun and Pritchard, Jonathan and Regev, Aviv},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {662--691},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/lopez23a/lopez23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/lopez23a.html},
+  abstract = 	 {Latent variable models such as the Variational Auto-Encoder (VAE) have become a go-to tool for analyzing biological data, especially in the field of single-cell genomics. One remaining challenge is the interpretability of latent variables as biological processes that define a cellâs identity. Outside of biological applications, this problem is commonly referred to as learning disentangled representations. Although several disentanglement-promoting variants of the VAE were introduced, and applied to single-cell genomics data, this task has been shown to be infeasible from independent and identically distributed measurements, without additional structure. Instead, recent methods propose to leverage non-stationary data, as well as the sparse mechanism shift assumption in order to learn disentangled representations with a causal semantic. Here, we extend the application of these methodological advances to the analysis of single-cell genomics data with genetic or chemical perturbations. More precisely, we propose a deep generative model of single-cell gene expression data for which each perturbation is treated as a stochastic intervention targeting an unknown, but sparse, subset of latent variables. We benchmark these methods on simulated single-cell data to evaluate their performance at latent units recovery, causal target identification and out-of-domain generalization. Finally, we apply those approaches to two real-world large-scale gene perturbation data sets and find that models that exploit the sparse mechanism shift hypothesis surpass contemporary methods on a transfer learning task. We implement our new model and benchmarks using the scvi-tools library, and release it as open-source software at \url{https://github.com/Genentech/sVAE}.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-balashankar23a,
+  title = 	 {Learning Conditional Granger Causal Temporal Networks},
+  author =       {Balashankar, Ananth and Jagabathula, Srikanth and Subramanian, Lakshmi},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {692--706},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/balashankar23a/balashankar23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/balashankar23a.html},
+  abstract = 	 {Granger-causality derived from observational time series data is used in many real-world applications where timely interventions are infeasible. However, discovering Granger-causal links in large temporal networks with a large number of nodes and time-lags can lead to <em>millions</em> of time-lagged model parameters, which requires us to make sparsity and overlap assumptions. In this paper, we propose to learn time-lagged model parameters with the objective of improving recall of links, while learning to defer predictions when the overlap assumption is violated over observed time series. By learning such conditional time-lagged models, we demonstrate a 25% increase in the area under the precision-recall curve for discovering Granger-causal links combined with a 18-25% improvement in forecasting accuracy across three popular and diverse datasets from different disciplines (DREAM3 gene expression, MoCAP human motion recognition and New York Times news-based stock price prediction) with correspondingly large temporal networks, over several baseline models including Multivariate Autoregression, Neural Granger Causality, Graph Neural Networks and Graph Attention models. The observed improvement in Granger-causal link discovery is significant and can potentially further improve prediction accuracy and modeling efficiency in downstream real-world applications leveraging these popular datasets. }
+}
+
+
+
+
+@InProceedings{pmlr-v213-diepen23a,
+  title = 	 {Beyond the Markov Equivalence Class: Extending Causal Discovery under Latent Confounding},
+  author =       {Diepen, Mirthe Maria Van and Bucur, Ioan Gabriel and Heskes, Tom and Claassen, Tom},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {707--725},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/diepen23a/diepen23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/diepen23a.html},
+  abstract = 	 {In this work, we show how to combine two popular paradigms for causal discovery from observational data in the presence of latent confounders in order to arrive at a much more informative causal model. Building on the seminal constraint-based causal discovery algorithm, FCI, we exploit the power of direct cause-effect pair identification to uncover new relationships, which can subsequently be propagated to find even more causal links in the rest of the model. This idea has been explored before, but until now always under the assumption of no latent confounders. Using our new causal direction criterion (CDC), we can finally drop this limitation. We derive inference rules for orienting additional cause-effect relations and show how to minimize the number of tests during the CDC search. In our experimental evaluations over a range of simulated data sets, the resulting FCI-CDC algorithm increases recall by between 5%-10% compared to vanilla FCI, without loss in precision.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-montagna23a,
+  title = 	 {Causal Discovery with Score Matching on Additive Models with Arbitrary Noise},
+  author =       {Montagna, Francesco and Noceti, Nicoletta and Rosasco, Lorenzo and Zhang, Kun and Locatello, Francesco},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {726--751},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/montagna23a/montagna23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/montagna23a.html},
+  abstract = 	 {Causal discovery methods are intrinsically constrained by the set of assumptions needed to ensure structure identifiability. Moreover additional restrictions are often imposed in order to simplify the inference task: this is the case for the Gaussian noise assumption on additive non-linear models, which is common to many causal discovery approaches. In this paper we show the shortcomings of inference under this hypothesis, analyzing the risk of edge inversion under violation of Gaussianity of the noise terms. Then, we propose a novel method for inferring the topological ordering of the variables in the causal graph, from data generated according to an additive non-linear model with a generic noise distribution. This leads to NoGAM (Not only Gaussian Additive noise Models), a causal discovery algorithm with a minimal set of assumptions and state of the art performance, experimentally benchmarked on synthetic data.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-montagna23b,
+  title = 	 {Scalable Causal Discovery with Score Matching},
+  author =       {Montagna, Francesco and Noceti, Nicoletta and Rosasco, Lorenzo and Zhang, Kun and Locatello, Francesco},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {752--771},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/montagna23b/montagna23b.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/montagna23b.html},
+  abstract = 	 {This paper demonstrates how to discover the whole causal graph from the second derivative of the log-likelihood in observational non-linear additive Gaussian noise models. Leveraging scalable machine learning approaches to approximate the score function $\nabla \operatorname{log}p(\mathbf{X})$, we extend the work of Rolland et al. (2022) that only recovers the topological order from the score and requires an expensive pruning step removing spurious edges among those admitted by the ordering. Our analysis leads to DAS (acronym for Discovery At Scale), a practical algorithm that reduces the complexity of the pruning by a factor proportional to the graph size. In practice, DAS achieves competitive accuracy with current state-of-the-art while being over an order of magnitude faster. Overall, our approach enables principled and scalable causal discovery, significantly lowering the compute bar. }
+}
+
+
+
+
+@InProceedings{pmlr-v213-niemiro23a,
+  title = 	 {Local Dependence Graphs for Discrete Time Processes},
+  author =       {Niemiro, Wojciech and Rajkowski, {\L}ukasz},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {772--790},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/niemiro23a/niemiro23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/niemiro23a.html},
+  abstract = 	 {Local dependence graphs for discrete time processes encapsulate information concerning the dependence relationships between the past of the multidimensional process and its present state and as such can represent feedback loops.  Even in the discrete time setting some natural questions relating the conditional (in)dependence statements in the stochastic process to separation properties of the underlying local dependence graph are scattered throughout the literature. We provide an unifying view and fill in certain gaps. In this paper we examine graphical characteristics for two kinds of conditional independences: those occurring in Markov chains under the stationary regime and independences between the past of one subprocess and the future of another given the past of the third subprocess. }
+}
+
+
+
+
+@InProceedings{pmlr-v213-goffrier23a,
+  title = 	 {Estimating long-term causal effects from short-term experiments and long-term observational data with unobserved confounding},
+  author =       {Goffrier, Graham Van and Maystre, Lucas and Gilligan-Lee, Ciar\'an Mark},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {791--813},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/goffrier23a/goffrier23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/goffrier23a.html},
+  abstract = 	 {Understanding and quantifying cause and effect relationships is an important problem in many domains. The generally-agreed standard solution to this problem is to perform a randomised controlled trial. However, even when randomised controlled trials can be performed, they usually have relatively short durationâs due to cost considerations. This makes learning long-term causal effects a very challenging task in practice, since the long-term outcome is only observed after a long delay. In this paper, we study the identification and estimation of long-term treatment effects when both experimental and observational data are available. Previous work provided an estimation strategy to determine long-term causal effects from such data regimes. However, this strategy only works if one assumes there are no unobserved confounders in the observational data. In this paper, we specifically address the challenging case where unmeasured confounders are present in the observational data. Our long-term causal effect estimator is obtained by combining regression residuals with short-term experimental outcomes in a specific manner to create an instrumental variable, which is then used to quantify the long-term causal effect through instrumental variable regression. We prove this estimator is unbiased, and analytically study its variance. Finally, we empirically test our approach on synthetic data, as well as real-data from the International Stroke Trial. Relevant source code and documentation has been made freely available in our \href{https://github.com/vangoffrier/UnConfounding}{online repository}.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-pena23a,
+  title = 	 {Factorization of the Partial Covariance in Singly-Connected Path Diagrams},
+  author =       {Pe\~na, Jose},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {814--849},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/pena23a/pena23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/pena23a.html},
+  abstract = 	 {We extend path analysis by showing that, for a singly-connected path diagram, the partial covariance of two random variables factorizes over the nodes and edges in the path between the variables. This result allows us to determine the contribution of each node and edge to the partial covariance. It also allows us to show that Simpsonâs paradox cannot occur in singly-connected path diagrams.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-zeitler23a,
+  title = 	 {Non-parametric identifiability and sensitivity analysis of synthetic control models},
+  author =       {Zeitler, Jakob and Vlontzos, Athanasios and Gilligan-Lee, Ciar\'an Mark},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {850--865},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/zeitler23a/zeitler23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/zeitler23a.html},
+  abstract = 	 {Quantifying cause and effect relationships is an important problem in many domains, from medicine to economics. The gold standard solution to this problem is to conduct a randomised controlled trial. However, in many situations such trials cannot be performed. In the absence of such trials, many methods have been devised to quantify the causal impact of an intervention from observational data given certain assumptions. One widely used method are synthetic control models. While identifiability of the causal estimand in such models has been obtained from a range of assumptions, it is widely and implicitly assumed that the underlying assumptions are satisfied for all time periods both pre- and post-intervention. This is a strong assumption, as synthetic control models can only be learned in pre-intervention period. In this paper we address this challenge, and prove identifiability can be obtained without the need for this assumption, by showing it follows from the principle of invariant causal mechanisms. Moreover, for the first time, we formulate and study synthetic control models in Pearlâs structural causal model framework. Importantly, we provide a general framework for sensitivity analysis of synthetic control causal inference to violations of the assumptions underlying non-parametric identifiability. We end by providing an empirical demonstration of our sensitivity analysis framework on simulated and real data.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-beckers23a,
+  title = 	 {Causal Models with Constraints},
+  author =       {Beckers, Sander and Halpern, Joseph and Hitchcock, Christopher},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {866--879},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/beckers23a/beckers23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/beckers23a.html},
+  abstract = 	 {Causal models have proven extremely useful in offering formal representations of causal relationships between a set of variables. Yet in many situations, there are non-causal relationships among variables. For example, we may want variables $LDL$, $HDL$, and $TOT$ that represent the level of low-density lipoprotein cholesterol, the level of high-density lipoprotein cholesterol, and total cholesterol level, with the relation $LDL+HDL = TOT$. This cannot be done in standard causal models, because we can intervene simultaneously on all three variables. The goal of this paper is to extend standard causal models to allow for constraints on settings of variables. Although the extension is relatively straightforward, to make it useful we have to define a new intervention operation that disconnects a variable from a causal equation. We give examples showing the usefulness of this extension, and provide a sound and complete axiomatization for causal models with constraints.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-fujiwara23a,
+  title = 	 {Causal Discovery for Non-stationary Non-linear Time Series Data Using Just-In-Time Modeling},
+  author =       {Fujiwara, Daigo and Koyama, Kazuki and Kiritoshi, Keisuke and Okawachi, Tomomi and Izumitani, Tomonori and Shimizu, Shohei},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {880--894},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/fujiwara23a/fujiwara23a.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/fujiwara23a.html},
+  abstract = 	 {Causal discovery from multivariate continuous time-series data is becoming more important as the amount of IoT data to analyze increases. However, it is not easy to identify the causal structure from such data using conventional linear causal discovery methods due to their non-stationary characteristics such as distribution shifts, and non-linearity of the system dynamics. The application of non-linear causal discovery methods is also generally limited, and there are still some problems such as their computational complexity, interpretability, and robustness for non-stationarity. To address these challenges, we propose a new causal discovery method JIT-LiNGAM, based on the Linear Non-Gaussian Acyclic Model (LiNGAM) and the Just-In-Time (JIT) framework, which is also called Lazy-Learning or Model-On-Demand. Our method estimates a local linear structural causal model from neighboring samples of the past data every time a new input sample is given. Approximating an inherently globally non-linear model with local linear models, we can benefit from high detection performance of causal relationship for non-linear and non-stationary data, improvements of interpretability of causal effects by linear expression, and reduced computational complexity. We formulate this algorithm based on Taylorâs theorem, and show effective neighbor selection algorithms by a simple experiment. The results of numerical experiments using artificial data with non-linearity and non-stationarity demonstrate the effectiveness of our method compared to representative methods for such data, under some general evaluation metrics.}
+}
+
+
+
+
+@InProceedings{pmlr-v213-strobl23b,
+  title = 	 {Sample-Specific Root Causal Inference with Latent Variables},
+  author =       {Strobl, Eric and Lasko, Thomas A},
+  booktitle = 	 {Proceedings of the Second Conference on Causal Learning and Reasoning},
+  pages = 	 {895--915},
+  year = 	 {2023},
+  editor = 	 {van der Schaar, Mihaela and Zhang, Cheng and Janzing, Dominik},
+  volume = 	 {213},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {11--14 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v213/strobl23b/strobl23b.pdf},
+  url = 	 {https://proceedings.mlr.press/v213/strobl23b.html},
+  abstract = 	 {Root causal analysis seeks to identify the set of initial perturbations that induce an unwanted outcome. In prior work, we defined sample-specific root causes of disease using exogenous error terms that predict a diagnosis in a structural equation model. We rigorously quantified predictivity using Shapley values. However, the associated algorithms for inferring root causes assume no latent confounding. We relax this assumption by permitting confounding among the predictors. We then introduce a corresponding procedure called Extract Errors with Latents (EEL) for recovering the error terms up to contamination by other error terms lying on certain paths under the linear non-Gaussian acyclic model. EEL also identifies the smallest sets of dependent errors for fast computation of the Shapley values. The algorithm bypasses the hard problem of estimating the underlying causal graph in both cases. Experiments highlight the superior accuracy and robustness of EEL relative to its predecessors.}
+}
+
+
+

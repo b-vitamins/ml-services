@@ -1,0 +1,603 @@
+
+
+
+@Proceedings{MLHC2021,
+  title =     {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  booktitle = {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  editor =    {Ken Jung and Serena Yeung and Mark Sendak and Michael Sjoding and Rajesh Ranganath},
+  publisher = {PMLR},
+  series =    {Proceedings of Machine Learning Research},
+  volume =    149
+}
+
+
+
+
+@InProceedings{pmlr-v149-tang21a,
+  title = 	 {Model Selection for Offline Reinforcement Learning: Practical Considerations for Healthcare Settings},
+  author =       {Tang, Shengpu and Wiens, Jenna},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {2--35},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/tang21a/tang21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/tang21a.html},
+  abstract = 	 {Reinforcement learning (RL) can be used to learn treatment policies and aid decision making in healthcare. However, given the need for generalization over complex state/action spaces, the incorporation of function approximators (e.g., deep neural networks) requires model selection to reduce overfitting and improve policy performance at deployment. Yet a standard validation pipeline for model selection requires running a learned policy in the actual environment, which is often infeasible in a healthcare setting. In this work, we investigate a model selection pipeline for offline RL that relies on off-policy evaluation (OPE) as a proxy for validation performance. We present an in-depth analysis of popular OPE methods, highlighting the additional hyperparameters and computational requirements (fitting/inference of auxiliary models) when used to rank a set of candidate policies. We compare the utility of different OPE methods as part of the model selection pipeline in the context of learning to treat patients with sepsis. Among all the OPE methods we considered, fitted Q evaluation (FQE) consistently leads to the best validation ranking, but at a high computational cost. To balance this trade-off between accuracy of ranking and computational efficiency, we propose a simple two-stage approach to accelerate model selection by avoiding potentially unnecessary computation. Our work serves as a practical guide for offline RL model selection and can help RL practitioners select policies using real-world datasets. To facilitate reproducibility and future extensions, the code accompanying this paper is available online}
+}
+
+
+
+
+@InProceedings{pmlr-v149-park21a,
+  title = 	 {Knowledge Graph-based Question Answering with Electronic Health Records},
+  author =       {Park, Junwoo and Cho, Youngwoo and Lee, Haneol and Choo, Jaegul and Choi, Edward},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {36--53},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/park21a/park21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/park21a.html},
+  abstract = 	 {Question Answering (QA) is a widely-used framework for developing and evaluating an intelligent machine. In this light, QA on Electronic Health Records (EHR), namely EHR QA, can work as a crucial milestone towards developing an intelligent agent in healthcare. EHR data are typically stored in a relational database, which can also be converted to a directed acyclic graph, allowing two approaches for EHR QA: Table-based QA and Knowledge Graph-based QA. We hypothesize that the graph-based approach is more suitable for EHR QA as graphs can represent relations between entities and values more naturally compared to tables, which essentially require JOIN operations. In this paper, we propose a graph-based EHR QA where natural language queries are converted to SPARQL instead of SQL. To validate our hypothesis, we create four EHR QA datasets (graph- based VS table-based, and simplified database schema VS original database schema), based on a table-based dataset MIMICSQL. We test both a simple Seq2Seq model and a state-of-the-art EHR QA model on all datasets where the graph-based datasets facilitated up to 34% higher accuracy than the table-based dataset without any modification to the model architectures. Finally, all datasets are open-sourced to encourage further EHR QA research in both directions}
+}
+
+
+
+
+@InProceedings{pmlr-v149-wu21a,
+  title = 	 {Uncertainty-Aware Time-to-Event Prediction using Deep Kernel Accelerated Failure Time Models},
+  author =       {Wu, Zhiliang and Yang, Yinchong and Fashing, Peter A. and Tresp, Volker},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {54--79},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/wu21a/wu21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/wu21a.html},
+  abstract = 	 {Recurrent neural network based solutions are increasingly being used in the analysis of longitudinal Electronic Health Record data. However, most works focus on prediction accuracy and neglect prediction uncertainty. We propose Deep Kernel Accelerated Failure Time models for the time-to-event prediction task, enabling uncertainty-awareness of the prediction by a pipeline of a recurrent neural network and a sparse Gaussian Process. Furthermore, a deep metric learning based pre-training step is adapted to enhance the proposed model. Our model shows better point estimate performance than recurrent neural network based baselines in experiments on two real-world datasets. More importantly, the predictive variance from our model can be used to quantify the uncertainty estimates of the time-to-event prediction: Our model delivers better performance when it is more confident in its prediction. Compared to related methods, such as Monte Carlo Dropout, our model offers better uncertainty estimates by leveraging an analytical solution and is more computationally efficient.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-zhao21a,
+  title = 	 {Directing Human Attention in Event Localization for Clinical Timeline Creation},
+  author =       {Zhao, Jason and Agrawal, Monica and Razavi, Pedram and Sontag, David},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {80--102},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/zhao21a/zhao21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/zhao21a.html},
+  abstract = 	 {Many variables useful for clinical research (e.g. patient disease state, treatment regimens) are trapped in free-text clinical notes. Structuring such variables for downstream use typically involves a tedious process in which domain experts manually search through long clinical timelines. Natural language processing systems present an opportunity for automating this workflow, but algorithms still have trouble accurately parsing the most complex patient cases, which may be best deferred to experts. In this work, we present a framework that automatically structures simple patient cases, but when required, iteratively requests human input, specifically a label for a single note in the patientâs timeline that would decrease uncertainty in model output. Our method provides a lightweight way to leverage domain experts. We test our system on two tasks from a cohort of oncology patients: identification of the date of (i) metastasis onset and (ii) oral therapy start. Compared to standard search heuristics, we show we can reduce 80% of model errors with less than 15% of the manual annotation effort that may otherwise be required.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-chen21a,
+  title = 	 {CheXbreak: Misclassification Identification for Deep Learning Models Interpreting Chest X-rays},
+  author =       {Chen, Emma and Kim, Andy and Krishnan, Rayan and Long, Jin and Ng, Andrew Y. and Rajpurkar, Pranav},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {103--125},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/chen21a/chen21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/chen21a.html},
+  abstract = 	 {A major obstacle to the integration of deep learning models for chest x-ray interpretation into clinical settings is the lack of understanding of their failure modes. In this work, we first investigate whether there are patient subgroups that chest x-ray models are likely to misclassify. We find that patient age and the radiographic finding of lung lesion, pneumothorax or support devices are statistically relevant features for predicting misclassification for some chest x-ray models. Second, we develop misclassification predictors on chest x-ray models using their outputs and clinical features. We find that our best performing misclassification identifier achieves an AUROC close to 0.9 for most diseases. Third, employing our misclassification identifiers, we develop a corrective algorithm to selectively flip model predictions that have high likelihood of misclassification at inference time. We observe F1 improvement on the prediction of Consolidation (0.008 [95% CI 0.005, 0.010]) and Edema (0.003, [95% CI 0.001, 0.006]). By carrying out our investigation on ten distinct and high- performing chest x-ray models, we are able to derive insights across model architectures and offer a generalizable framework applicable to other medical imaging tasks.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-caldas21a,
+  title = 	 {Understanding Clinical Collaborations Through Federated Classifier Selection},
+  author =       {Caldas, Sebastian and Yoon, Joo Heung and Pinsky, Michael R. and Clermont, Gilles and Dubrawski, Artur},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {126--145},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/caldas21a/caldas21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/caldas21a.html},
+  abstract = 	 {Deriving true clinical utility from models trained on multiple hospitalsâ data is a key challenge in the adoption of Federated Learning (FL) systems in support of clinical collaborations. When utility is equated to predictive power, population heterogeneity between centers becomes a key bottleneck in training performant models. Nevertheless, there are other aspects to clinical utility that have frequently been overlooked in this context. Among them, we argue for the importance of understanding how a collaboration may be affecting the quality of a centerâs predictions. Insights into how and when external knowledge is being useful can lead to strategic decisions by stakeholders, such as better allocation of local resources or even identifying best practices outside of the current organization. We take a step towards deriving such utility through FedeRated CLassifier Selection (FRCLS, pronounced âfrecklesâ): an algorithm that reuses classifiers trained in outside institutions. It identifies regions of the feature space where the collaboratorsâ models will outperform the local centerâs classifier, and can provide interpretable rules to describe these regions of beneficial expertise. We apply FRCLS to a sepsis prediction task in two different hospital systems, demonstrating its benefits in terms of understanding the types of patients for which the collaboration is useful and reasoning about the strategic decisions that may stem out of these analyses.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-albuquerque21a,
+  title = 	 {Deep Generative Analysis for Task-Based Functional MRI Experiments},
+  author =       {de Albuquerque, Daniela and Goffinet, Jack and Wright, Rachael and Pearson, John},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {146--175},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/albuquerque21a/albuquerque21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/albuquerque21a.html},
+  abstract = 	 {While functional magnetic resonance imaging (fMRI) remains one of the most widespread and important methods in basic and clinical neuroscience, the data it producesâtime series of brain volumesâcontinue to pose daunting analysis challenges. The current standard (âmass univariateâ) approach involves constructing a matrix of task regressors, fitting a separate general linear model at each volume pixel (âvoxelâ), computing test statistics for each model, and correcting for false positives post hoc using bootstrap or other resampling methods. Despite its simplicity, this approach has enjoyed great success over the last two decades due to: 1) its ability to produce effect maps highlighting brain regions whose activity significantly correlates with a given variable of interest; and 2) its modeling of experimental effects as separable and thus easily interpretable. However, this approach suffers from several well-known drawbacks, namely: inaccurate assumptions of linearity and noise Gaussianity; a limited ability to capture individual effects and variability; and difficulties in performing proper statistical testing secondary to independently fitting voxels. In this work, we adopt a different approach, modeling entire volumes directly in a manner that increases model flexibility while preserving interpretability. Specifically, we use a generalized additive model (GAM) in which the effects of each regressor remain separable, the product of a spatial map produced by a variational autoencoder and a (potentially nonlinear) gain modeled by a covariate-specific Gaussian Process. The result is a model that yields group-level effect maps comparable or superior to the ones obtained with standard fMRI analysis software while also producing single-subject effect maps capturing individual differences. This suggests that generative models with a decomposable structure might offer a more flexible alternative for the analysis of task-based fMRI data.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-chen21b,
+  title = 	 {Detecting Atrial Fibrillation in ICU Telemetry data with Weak Labels},
+  author =       {Chen, Brian and Javadi, Golara and Jamzad, Amoon and Hamilton, Alexander and Sibley, Stephanie and Abolmaesumi, Purang and Maslove, David and Mousavi, Parvin},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {176--195},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/chen21b/chen21b.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/chen21b.html},
+  abstract = 	 {State of the art techniques for creating ML models in healthcare often require large quantities of clean, labelled data. However, many healthcare organizations lack the capacity to generate the large-scale annotations required to create and validate reliable labels. In this paper, we demonstrate how raw data from an information-rich area of care can be exploited without the need for mass manual annotation via the use of weak labels. We evaluate the AF Detection with Weak Labels proposed framework on telemetry data from the intensive care unit for application of atrial fibrillation (AF) detection. We generate an in-house dataset of over 60,000 ECG segments with weak labels, derived from a model trained on publicly available data. We then show that building a deep learning model based on these weakly generated labels can significantly improve (more than 30%) the performance of AF detection in comparison with only using limited expert-annotated ground truth labels. We further demonstrate how weakly supervised learning techniques can be used to augment and control the level of noise in these weak labels. Lastly, we explore how supervised fine-tuning effects the performance of these models and discuss the viability of leveraging weak labels for large-scale atrial fibrillation detection and identification.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-kim21a,
+  title = 	 {Read, Attend, and Code: Pushing the Limits of Medical Codes Prediction from Clinical Notes by Machines},
+  author =       {Kim, Byung-Hak and Ganapathi, Varun},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {196--208},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/kim21a/kim21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/kim21a.html},
+  abstract = 	 {Prediction of medical codes from clinical notes is both a practical and essential need for every healthcare delivery organization within current medical systems. Automating annotation will save significant time and excessive effort spent by human coders today. However, the biggest challenge is directly identifying appropriate medical codes out of several thou- sands of high-dimensional codes from unstructured free-text clinical notes. In the past three years, with Convolutional Neural Networks (CNN) and Long Short-Term Memory (LTSM) networks, there have been vast improvements in tackling the most challenging benchmark of the MIMIC-III-full-label inpatient clinical notes dataset. This progress raises the fundamental question of how far automated machine learning (ML) systems are from human codersâ working performance. We assessed the baseline of human codersâ performance on the same subsampled testing set. We also present our Read, Attend, and Code (RAC) model for learning the medical code assignment mappings. By connecting convolved embeddings with self-attention and code-title guided attention modules, combined with sentence permutation-based data augmentations and stochastic weight averaging training, RAC establishes a new state of the art (SOTA), considerably outperforming the current best Macro-F1 by 18.7%, and reaches past the human-level coding baseline. This new milestone marks a meaningful step toward fully autonomous medical coding (AMC) in machines reaching parity with human codersâ performance in medical code prediction.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-yao21a,
+  title = 	 {Power Constrained Bandits},
+  author =       {Yao, Jiayu and Brunskill, Emma and Pan, Weiwei and Murphy, Susan and Doshi-Velez, Finale},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {209--259},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/yao21a/yao21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/yao21a.html},
+  abstract = 	 {Contextual bandits often provide simple and effective personalization in decision making problems, making them popular tools to deliver personalized interventions in mobile health as well as other health applications. However, when bandits are deployed in the context of a scientific studyâe.g. a clinical trial to test if a mobile health intervention is effectiveâthe aim is not only to personalize for an individual, but also to determine, with sufficient statistical power, whether or not the systemâs intervention is effective. It is essential to assess the effectiveness of the intervention before broader deployment for better resource allocation. The two objectives are often deployed under different model assumptions, making it hard to determine how achieving the personalization and statistical power affect each other. In this work, we develop general meta-algorithms to modify existing algorithms such that sufficient power is guaranteed while still improving each userâs well-being. We also demonstrate that our meta-algorithms are robust to various model mis-specifications possibly appearing in statistical studies, thus providing a valuable tool to study designers.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-biswal21a,
+  title = 	 {EVA: Generating Longitudinal Electronic Health Records Using Conditional Variational Autoencoders},
+  author =       {Biswal, Siddharth and Ghosh, Soumya and Duke, Jon and Malin, Bradley and Stewart, Walter and Xiao, Cao and Sun, Jimeng},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {260--282},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/biswal21a/biswal21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/biswal21a.html},
+  abstract = 	 {Researchers require timely access to real-world longitudinal electronic health records (EHR) to develop, test, validate, and implement machine learning solutions that improve the quality and efficiency of healthcare. In contrast, health systems value deeply patient privacy and data security. De-identified EHRs do not adequately address the needs of health systems, as de-identified data are susceptible to re-identification and its volume is also limited. Synthetic EHRs offer a potential solution. In this paper, we propose EHR Variational Autoencoder (EVA) for synthesizing sequences of discrete EHR encounters (e.g., clinical visits) and encounter features (e.g., diagnoses, medications, procedures). We illustrate that EVA can produce realistic EHR sequences, account for individual differences among patients, and can be conditioned on specific disease conditions, thus enabling disease-specific studies. We design efficient, accurate inference algorithms by combining stochastic gradient Markov Chain Monte Carlo with amortized variational inference. We assess the utility of the methods on large real-world EHR repositories containing over 250, 000 patients. Our experiments, which include user studies with knowledgeable clinicians, indicate the generated EHR sequences are realistic. We confirmed the performance of predictive models trained on the synthetic data are similar with those trained on real EHRs. Additionally, our findings indicate that augmenting real data with synthetic EHRs results in the best predictive performance - improving the best baseline by as much as 8% in top-20 recall.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-wei21a,
+  title = 	 {Intraoperative Adverse Event Detection in Laparoscopic Surgery: Stabilized Multi-Stage Temporal Convolutional Network with Focal-Uncertainty Loss},
+  author =       {Wei, Haiqi and Rudzicz, Frank and Fleet, David and Grantcharov, Teodor and Taati, Babak},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {283--307},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/wei21a/wei21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/wei21a.html},
+  abstract = 	 {Intraoperative adverse events (iAEs) increase rates of postoperative mortality and morbidity. Identifying iAEs is important to quality assurance and postoperative care, but requires expertise, is time consuming, and expensive. Automated or partially-automated techniques are, therefore, desirable. Previous work showed that conventional image processing has not worked well with real-world laparoscopic videos. We present a novel modular deep learning system that can partially automate the process of iAE screening using videos of laparoscopic procedures. The system consists of a stabilizer to reduce camera motion, a spatiotemporal feature extractor, and a multi-stage temporal convolutional neural network to detect adverse events. We apply a novel focal-uncertainty smoothing loss to handle class imbalance and to address multi-task uncertainty. The system is evaluated using 5-fold cross-validation on a large (228 hours) dataset of laparoscopic videos, and we perform ablation studies to investigate the effects of stabilization and focal-uncertainty loss. Our system achieves an AUROC of 0.952, an average precision (AP) of 0.626 in thermal injury detection, and an AUROC of 0.823 and an AP of 0.336 in bleeding detection. Our novel modular deep learning system outperforms conventional deep learning baselines. The model can be used as a screening tool to search for high risk events and to provide feedback for operation quality improvements and postoperative care. Source code available on GitHub: https://github.com/ICSSresearch/IAE-video.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-miller21a,
+  title = 	 {Model-based metrics: Sample-efficient estimates of predictive model subpopulation performance},
+  author =       {Miller, Andrew C. and Gatys, Leon A. and Futoma, Joseph and Fox, Emily},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {308--336},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/miller21a/miller21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/miller21a.html},
+  abstract = 	 {Machine learning models â now commonly developed to screen, diagnose, or predict health conditions â are evaluated with a variety of performance metrics. An important first step in assessing the practical utility of a model is to evaluate its average performance over a population of interest. In many settings, it is also critical that the model makes good predictions within predefined subpopulations. For instance, showing that a model is fair or equitable requires evaluating the modelâs performance in different demographic subgroups. However, subpopulation performance metrics are typically computed using only data from that subgroup, resulting in higher variance estimates for smaller groups. We devise a procedure to measure subpopulation performance that can be more sample-efficient than the typical estimator. We propose using an evaluation model â a model that describes the conditional distribution of the predictive model score â to form model-based metric (MBM) estimates. Our procedure incorporates model checking and validation, and we propose a computationally efficient approximation of the traditional nonparametric bootstrap to form confidence intervals. We evaluate MBMs on two tasks: a semi-synthetic setting where ground truth metrics are available and a real-world hospital readmission prediction task. We find that MBMs consistently produce more accurate and lower variance estimates of model performance, particularly for small subpopulations.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-kim21b,
+  title = 	 {An Interpretable Framework for Drug-Target Interaction with Gated Cross Attention},
+  author =       {Kim, Yeachan and Shin, Bonggun},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {337--353},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/kim21b/kim21b.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/kim21b.html},
+  abstract = 	 {In silico prediction of drug-target interactions (DTI) is significant for drug discovery be-cause it can largely reduce timelines and costs in the drug development process. Specifically, deep learning-based DTI approaches have been shown promising results in terms of accuracy and low cost for the prediction. However, they pay little attention to the interpretability of their prediction results and feature-level interactions between a drug and a target. In this study, we propose a novel interpretable framework that can provide reasonable cues for the interaction sites. To this end, we elaborately design a gated cross-attention mechanism that crossly attends drug and target features by constructing explicit interactions between these features. The gating function in the method enables neural models to focus on salient regions over entire sequences of drugs and proteins, and the byproduct from the function, which is the attention map, could serve as interpretable factors. The experimental results show the efficacy of the proposed method in two DTI datasets. Additionally, we show that gated cross-attention can sensitively react to the mutation, and this result could provide insights into the identification of novel drugs targeting mutant proteins.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-chintagunta21a,
+  title = 	 {Medically Aware GPT-3 as a Data Generator for Medical Dialogue Summarization},
+  author =       {Chintagunta, Bharath and Katariya, Namit and Amatriain, Xavier and Kannan, Anitha},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {354--372},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/chintagunta21a/chintagunta21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/chintagunta21a.html},
+  abstract = 	 {In medical dialogue summarization, summaries must be coherent and must capture all the medically relevant information in the dialogue. However, learning effective models for summarization require large amounts of labeled data which is especially hard to obtain. We present an algorithm to create synthetic training data with an explicit focus on capturing medically relevant information. We utilize GPT-3 as the backbone of our algorithm and scale 210 human labeled examples to yield results comparable to using 6400 human labeled examples (â¼30x) leveraging low-shot learning and an ensemble method. In detailed experiments, we show that this approach produces high quality training data that can further be combined with human labeled data to get summaries that are strongly preferable to those produced by models trained on human data alone both in terms of medical accuracy and coherency.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-murphy21a,
+  title = 	 {Risk score learning for COVID-19 contact tracing apps},
+  author =       {Murphy, Kevin and Kumar, Abhishek and Serghiou, Stylianos},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {373--390},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/murphy21a/murphy21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/murphy21a.html},
+  abstract = 	 {Digital contact tracing apps for COVID-19, such as the one developed by Google and Apple, need to estimate the risk that a user was infected during a particular exposure, in order to decide whether to notify the user to take precautions, such as entering into quarantine, or requesting a test. Such risk score models contain numerous parameters that must be set by the public health authority. In this paper, we show how to automatically learn these parameters from data. Our method needs access to exposure and outcome data. Although this data is already being collected (in an aggregated, privacy-preserving way) by several health authorities, in this paper we limit ourselves to simulated data, so that we can systematically study the different factors that affect the feasibility of the approach. In particular, we show that the parameters become harder to estimate when there is more missing data (e.g., due to infections which were not recorded by the app), and when there is model misspecification. Nevertheless, the learning approach outperforms a strong manually designed baseline. Furthermore, the learning approach can adapt even when the risk factors of the disease change, e.g., due to the evolution of new variants, or the adoption of vaccines.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-ahsan21a,
+  title = 	 {MIMIC-SBDH: A Dataset for Social and Behavioral Determinants of Health},
+  author =       {Ahsan, Hiba and Ohnuki, Emmie and Mitra, Avijit and You, Hong},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {391--413},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/ahsan21a/ahsan21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/ahsan21a.html},
+  abstract = 	 {Social and Behavioral Determinants of Health (SBDHs) are environmental and behavioral factors that have a profound impact on health and related outcomes. Given their importance, physicians document SBDHs of their patients in Electronic Health Records (EHRs). However, SBDHs are mostly documented in unstructured EHR notes. Determining the status of the SBDHs requires manually reviewing the notes which can be a tedious process. Therefore, there is a need to automate identifying the patientsâ SBDH status in EHR notes. In this work, we created MIMIC-SBDH, the first publicly available dataset of EHR notes annotated for patientsâ SBDH status. Specifically, we annotated 7, 025 discharge summary notes for the status of 7 SBDHs as well as marked SBDH-related keywords. Using this annotated data for training and evaluation, we evaluated the performance of three machine learning models (Random Forest, XGBoost, and Bio-ClinicalBERT) on the task of identifying SBDH status in EHR notes. The performance ranged from the lowest 0.69 F1 score for Drug Use to the highest 0.96 F1 score for Community-Present. In addition to standard evaluation metrics such as the F1 score, we evaluated four capabilities that a model must possess to perform well on the task using the CheckList tool (Ribeiro et al., 2020). The results revealed several shortcomings of the models. Our results highlighted the need to perform more capability-centric evaluations in addition to standard metric comparisons.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-nonaka21a,
+  title = 	 {In-depth Benchmarking of Deep Neural Network Architectures for ECG Diagnosis},
+  author =       {Nonaka, Naoki and Seita, Jun},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {414--439},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/nonaka21a/nonaka21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/nonaka21a.html},
+  abstract = 	 {The electrocardiogram (ECG) is a widely used device to monitor the electrical activity of the heart. To diagnose various heart abnormalities, ECG diagnosis algorithms have been developed and deep neural networks (DNN) have been shown to achieve significant performance. Most of the DNN architectures used for ECG diagnosis models are adopted from architectures developed for image or natural language domain, and their performances have improved year by year in the original domains. In this work, we conduct in-depth benchmarking of DNN architectures for ECG diagnosis. Using three datasets, we compared nine DNN architectures for both multi-label classification settings evaluated with ROC- AUC score and multi-class classification settings evaluated with F1 scores. The results showed that one of classical architectures, ResNet-18, performed consistently better over most of architectures, suggesting there is room for developing DNN architecture tailored for ECG domain.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-mirtchouk21a,
+  title = 	 {Hierarchical Information Criterion for Variable Abstraction},
+  author =       {Mirtchouk, Mark and Srikishan, Bharat and Kleinberg, Samantha},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {440--460},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/mirtchouk21a/mirtchouk21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/mirtchouk21a.html},
+  abstract = 	 {Large biomedical datasets can contain thousands of variables, creating challenges for machine learn-ing tasks such as causal inference and prediction. Feature selection and ranking methods have been developed to reduce the number of variables and determine which are most important. However in many cases, such as in classification from diagnosis codes, ontologies, and controlled vocabularies, we must choose not only which variables to include but also at what level of granularity. ICD-9 codes, for example, are arranged in a hierarchy, and a user must decide at what level codes should be analyzed. Thus it is currently up to a researcher to decide whether to use any diagnosis of diabetes or whether to distinguish between specific forms, such as Type 2 diabetes with renal complications versus without mention of complications. Currently, there is no existing method that can automatically make this determination and methods for feature selection do not exploit this hierarchical information, which is found in other areas including nutrition (hierarchies of foods), and bioinformatics (hierarchical relationship of genes). To address this, we propose a novel Hierarchical Information Criterion (HIC) that builds on mutual information and allows fully automated abstraction of variables. Using HIC allows us to rank hierarchical features and select the ones with the highest score. We show that this significantly improves performance by an average AUROC of 0.053 over traditional feature selection methods and hand crafted features on two mortality prediction tasks using MIMIC-III ICU data. Our method also improves on the state of the art (Fu et al., 2019) with an AUROC increase from 0.819 to 0.887}
+}
+
+
+
+
+@InProceedings{pmlr-v149-hayat21a,
+  title = 	 {Multi-Label Generalized Zero Shot Learning for the Classification of Disease in Chest Radiographs},
+  author =       {Hayat, Nasir and Lashen, Hazem and Shamout, Farah E.},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {461--477},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/hayat21a/hayat21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/hayat21a.html},
+  abstract = 	 {Despite the success of deep neural networks in chest X-ray (CXR) diagnosis, supervised learning only allows the prediction of disease classes that were seen during training. At inference, these networks cannot predict an unseen disease class. Incorporating a new class requires the collection of labeled data, which is not a trivial task, especially for less frequently-occurring diseases. As a result, it becomes inconceivable to build a model that can diagnose all possible disease classes. Here, we propose a multi-label generalized zero shot learning (CXR-ML-GZSL) network that can simultaneously predict multiple seen and unseen diseases in CXR images. Given an input image, CXR-ML-GZSL learns a visual representation guided by the inputâs corresponding semantics extracted from a rich medical text corpus. Towards this ambitious goal, we propose to map both visual and semantic modalities to a latent feature space using a novel learning objective. The objective ensures that (i) the most relevant labels for the query image are ranked higher than irrelevant labels, (ii) the network learns a visual representation that is aligned with its semantics in the latent feature space, and (iii) the mapped semantics preserve their original inter-class representation. The network is end-to-end trainable and requires no independent pre-training for the offline feature extractor. Experiments on the NIH Chest X-ray dataset show that our network outperforms two strong baselines in terms of recall, precision, f1 score, and area under the receiver operating characteristic curve. Our code is publicly available at: https://github.com/nyuad-cai/CXR-ML-GZSL.git}
+}
+
+
+
+
+@InProceedings{pmlr-v149-saeedi21a,
+  title = 	 {Incorporating External Information in Tissue Subtyping: A Topic Modeling Approach},
+  author =       {Saeedi, Ardvan and Yadollahpour, Payman and Singla, Sumedha and Pollack, Brian and Wells, William and Sciurba, Frank and Batmanghelich, Kayhan},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {478--505},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/saeedi21a/saeedi21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/saeedi21a.html},
+  abstract = 	 {Probabilistic topic models, have been widely deployed for various applications such as learning disease or tissue subtypes. Yet, learning the parameters of such models is usually an ill-posed problem and may result in losing valuable information about disease severity. A common approach is to add a discriminative loss term to the generative modelâs loss in order to learn a representation that is also predictive of disease severity. However, finding a balance between these two losses is not straightforward. We propose an alternative way in this paper. We develop a framework which allows for incorporating external covariates into the generative modelâs approximate posterior. These covariates can have more discriminative power for disease severity compared to the representation that we extract from the posterior distribution. For instance, they can be features extracted from a neural network which predicts disease severity from CT images. Effectively, we enforce the generative modelâs approximate posterior to reside in the subspace of these discriminative covariates. We illustrate our methodâs application on a large-scale lung CT study of Chronic Obstructive Pulmonary Disease (COPD), a highly heterogeneous disease. We aim at identifying tissue subtypes by using a variant of topic model as a generative model. We quantitatively evaluate the predictive performance of the inferred subtypes and demonstrate that our method outperforms or performs on par with some reasonable baselines. We also show that some of the discovered subtypes are correlated with genetic measurements, suggesting that the identified subtypes may characterize the diseaseâs underlying etiology.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-otles21a,
+  title = 	 {Mind the Performance Gap: Examining Dataset Shift During Prospective Validation},
+  author =       {Otles, Erkin and Oh, Jeeheh and Li, Benjamin and Bochinski, Michelle and Joo, Hyeon and Ortwine, Justin and Shenoy, Erica and Washer, Laraine and Young, Vincent B. and Rao, Krishna and Wiens, Jenna},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {506--534},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/otles21a/otles21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/otles21a.html},
+  abstract = 	 {Once integrated into clinical care, patient risk stratification models may perform worse compared to their retrospective performance. To date, it is widely accepted that performance will degrade over time due to changes in care processes and patient populations. However, the extent to which this occurs is poorly understood, in part because few researchers re- port prospective validation performance. In this study, we compare the 2020-2021 (â20-â21) prospective performance of a patient risk stratification model for predicting healthcare- associated infections to a 2019-2020 (â19-â20) retrospective validation of the same model. We define the difference in retrospective and prospective performance as the performance gap. We estimate how i) âtemporal shiftâ, i.e., changes in clinical workflows and patient populations, and ii) âinfrastructure shiftâ, i.e., changes in access, extraction and transformation of data, both contribute to the performance gap. Applied prospectively to 26,864 hospital encounters during a twelve-month period from July 2020 to June 2021, the model achieved an area under the receiver operating characteristic curve (AUROC) of 0.767 (95% confidence interval (CI): 0.737, 0.801) and a Brier score of 0.189 (95% CI: 0.186, 0.191). Prospective performance decreased slightly compared to â19-â20 retrospective performance, in which the model achieved an AUROC of 0.778 (95% CI: 0.744, 0.815) and a Brier score of 0.163 (95% CI: 0.161, 0.165). The resulting performance gap was primarily due to infrastructure shift and not temporal shift. So long as we continue to develop and validate models using data stored in large research data warehouses, we must consider differences in how and when data are accessed, measure how these differences may negatively affect prospective performance, and work to mitigate those differences.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-urteaga21a,
+  title = 	 {A Generative Modeling Approach to Calibrated Predictions: A Use Case on Menstrual Cycle Length Prediction},
+  author =       {Urteaga, Inigo and Li, Kathy and Shea, Amanda and Vitzthum, Virginia J. and Wiggins, Chris H. and Elhadad, Noemie},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {535--566},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/urteaga21a/urteaga21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/urteaga21a.html},
+  abstract = 	 {We explore how to quantify uncertainty when designing predictive models for healthcare to provide well-calibrated results. Uncertainty quantification and calibration are critical in medicine, as one must not only accommodate the variability of the underlying physiology, but adjust to the uncertain data collection and reporting process. This occurs not only on the context of electronic health records (i.e., the clinical documentation process), but on mobile health as well (i.e., user specific self-tracking patterns must be accounted for). In this work, we show that accurate uncertainty estimation is directly relevant to an important health application: the prediction of menstrual cycle length, based on self-tracked information. We take advantage of a flexible generative model that accommodates under-dispersed distributions via two degrees of freedom to fit the mean and variance of the observed cycle lengths. From a machine learning perspective, our work showcases how flexible generative models can not only provide state-of-the art predictive accuracy, but enable well-calibrated predictions. From a healthcare perspective, we demonstrate that with flexible generative models, not only can we accommodate the idiosyncrasies of mobile health data, but we can also adjust the predictive uncertainty to per-user cycle length patterns. We evaluate the proposed model in real-world cycle length data collected by one of the most popular menstrual trackers worldwide, and demonstrate how the proposed generative model provides accurate and well-calibrated cycle length predictions. Providing meaningful, less uncertain cycle length predictions is beneficial for menstrual health researchers, mobile health users and developers, as it may help design more usable mobile health solutions.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-visani21a,
+  title = 	 {Approximate Bayesian Computation for an Explicit-Duration Hidden Markov Model of COVID-19 Hospital Trajectories},
+  author =       {Visani, Gian Marco and Lee, Alexandra Hope and Nguyen, Cuong and Kent, David M. and Wong, John B. and Cohen, Joshua T. and Hughes, Michael C.},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {567--613},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/visani21a/visani21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/visani21a.html},
+  abstract = 	 {We address the problem of modeling constrained hospital resources in the midst of the COVID-19 pandemic in order to inform decision-makers of future demand and assess the societal value of possible interventions. For broad applicability, we focus on the common yet challenging scenario where patient-level data for a region of interest are not available. Instead, given daily admissions counts, we model aggregated counts of observed resource use, such as the number of patients in the general ward, in the intensive care unit, or on a ventilator. In order to explain how individual patient trajectories produce these counts, we propose an aggregate count explicit-duration hidden Markov model, nicknamed the ACED-HMM, with an interpretable, compact parameterization. We develop an Approximate Bayesian Computation approach that draws samples from the posterior distribution over the modelâs transition and duration parameters given aggregate counts from a specific location, thus adapting the model to a region or individual hospital site of interest. Samples from this posterior can then be used to produce future forecasts of any counts of interest. Using data from the United States and the United Kingdom, we show our mechanistic approach provides competitive probabilistic forecasts for the future even as the dynamics of the pandemic shift. Furthermore, we show how our model provides insight about recovery probabilities or length of stay distributions, and we suggest its potential to answer challenging what-if questions about the societal value of possible interventions.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-huang21a,
+  title = 	 {A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms},
+  author =       {Huang, Zhe and Long, Gary and Wessler, Benjamin and Hughes, Michael C.},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {614--647},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/huang21a/huang21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/huang21a.html},
+  abstract = 	 {Semi-supervised image classification has shown substantial progress in learning from limited labeled data, but recent advances remain largely untested for clinical applications. Motivated by the urgent need to improve timely diagnosis of life-threatening heart conditions, especially aortic stenosis, we develop a benchmark dataset to assess semi-supervised approaches to two tasks relevant to cardiac ultrasound (echocardiogram) interpretation: view classification and disease severity classification. We find that a state-of-the-art method called MixMatch achieves promising gains in heldout accuracy on both tasks, learning from a large volume of truly unlabeled images as well as a labeled set collected at great expense to achieve better performance than is possible with the labeled set alone. We further pursue patient-level diagnosis prediction, which requires aggregating across hundreds of images of diverse view types, most of which are irrelevant, to make a coherent prediction. The best patient-level performance is achieved by new methods that prioritize diagnosis predictions from images that are predicted to be clinically-relevant views and transfer knowledge from the view task to the diagnosis task. We hope our released dataset and evaluation framework inspire further improvements in multi-task semi-supervised learning for clinical applications.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-putzel21a,
+  title = 	 {Dynamic Survival Analysis for EHR Data with Personalized Parametric Distributions},
+  author =       {Putzel, Preston and Do, Hyungrok and Boyd, Alex and Zhong, Hua and Smyth, Padhraic},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {648--673},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/putzel21a/putzel21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/putzel21a.html},
+  abstract = 	 {The widespread availability of high-dimensional electronic healthcare record (EHR) datasets has led to significant interest in using such data to derive clinical insights and make risk pre- dictions. More specifically, techniques from machine learning are being increasingly applied to the problem of dynamic survival analysis, where updated time-to-event risk predictions are learned as a function of the full covariate trajectory from EHR datasets. EHR data presents unique challenges in the context of dynamic survival analysis, involving a variety of decisions about data representation, modeling, interpretability, and clinically meaningful evaluation. In this paper we propose a new approach to dynamic survival analysis which addresses some of these challenges. Our modeling approach is based on learning a global parametric distribution to represent population characteristics and then dynamically locating individuals on the time-axis of this distribution conditioned on their histories. For evaluation we also propose a new version of the dynamic C-Index for clinically meaningful evaluation of dynamic survival models. To validate our approach we conduct dynamic risk prediction on three real-world datasets, involving COVID-19 severe outcomes, cardiovascular disease (CVD) onset, and primary biliary cirrhosis (PBC) time-to-transplant. We find that our proposed modeling approach is competitive with other well-known statistical and machine learning approaches for dynamic risk prediction, while offering potential advantages in terms of interepretability of predictions at the individual level.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-nagpal21a,
+  title = 	 {Deep Cox Mixtures for Survival Regression},
+  author =       {Nagpal, Chirag and Yadlowsky, Steve and Rostamzadeh, Negar and Heller, Katherine},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {674--708},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/nagpal21a/nagpal21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/nagpal21a.html},
+  abstract = 	 {Survival analysis is a challenging variation of regression modeling because of the presence of censoring, where the outcome measurement is only partially known, due to, for example, loss to follow up. Such problems come up frequently in medical applications, making survival analysis a key endeavor in biostatistics and machine learning for healthcare, with Cox regression models being amongst the most commonly employed models. We describe a new approach for survival analysis regression models, based on learning mixtures of Cox regressions to model individual survival distributions. We propose an approximation to the Expectation Maximization algorithm for this model that does hard assignments to mixture groups to make optimization efficient. In each group assignment, we fit the hazard ratios within each group using deep neural networks, and the baseline hazard for each mixture component non-parametrically. We perform experiments on multiple real world datasets, and look at the mortality rates of patients across ethnicity and gender. We emphasize the importance of calibration in healthcare settings and demonstrate that our approach outperforms classical and modern survival analysis baselines, both in terms of discriminative performance and calibration, with large gains in performance on the minority demographics.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-zhou21a,
+  title = 	 {Stool Image Analysis for Precision Health Monitoring by Smart Toilets},
+  author =       {Zhou, Jin and DeCapite, Nick and McNabb, Jackson and Ruiz, Jose R. and Fisher, Deborah A. and Grego, Sonia and Chakrabarty, Krishnendu},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {709--729},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/zhou21a/zhou21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/zhou21a.html},
+  abstract = 	 {Precision health monitoring is facilitated by long-term data collection that establishes a health baseline and enables the detection of deviations from it. With the advent of the Internet of Things, monitoring of daily excreta from a toilet is emerging as a promising tool to achieve the long-term collection of physiological data. This paper describes a stool image analysis approach that accurately and efficiently tracks stool form and visible blood content using a Smart Toilet. The Smart Toilet, can discreetly image stools in toilet plumbing outside the purview of the user. We constructed a stool image dataset with 3,275 images, spanning all seven types of the Bristol Stool Form Scale, a widely used metric for stool classification. We used ground-truth data obtained through the labeling of our dataset by two gastroenterologists. We addressed three limitations associated with the application of computer-vision techniques to a smart toilet system: (i) uneven separability between different stool form categories; (i) class imbalance in the dataset; (ii) limited computational resources in the microcontroller integrated with the Smart Toilet. We present results on the use of class-balanced loss, and hierarchical and compact convolutional neural network (CNN) architectures for training a stool-form classifier. We also present results obtained using perceptual color quantization coupled with mutual information to optimize the color- feature space for the detection of stool images with gross (visible) blood content. For the classification of stool-form, we achieve a balanced accuracy of 81.66% using a hierarchical CNN based on MobileNetV2. For gross blood detection, the decision tree (DT) classifier provides 74.64% balanced accuracy.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-bruningk21a,
+  title = 	 {Back to the basics with inclusion of clinical domain knowledge - A simple, scalable and effective model of Alzheimerâs Disease classification},
+  author =       {Br\"uningk, Sarah C. and Hensel, Felix and Lukas, Louis P. and Kuijs, Merel and Jutzeler, Catherine R. and Rieck, Bastian},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {730--754},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/bruningk21a/bruningk21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/bruningk21a.html},
+  abstract = 	 {On high-resolution structural magnetic resonance (MR) images Alzheimerâs disease (AD) is pathologically characterised by brain atrophy and an overall loss of brain tissue connectivity. In this study, we harness such prior clinical domain knowledge to evaluate MR image-based classification of AD patients from healthy controls using deliberately simple convolutional neural network (CNN) architectures. In addition to evaluating CNN performance on high resolution structural MR imaging data, we consider topological feature representations thereof to evaluate structural connectivity. We perform an ablation study, combined with model interpretability analysis, to evaluate the relevance of the specific image region used for classification. Notably, we find that by choosing a meaningful data representation comprising the left hippocampus, we achieve competitive performance (accuracy 84 Â± 7%) comparable to far more complex, heavily parameterised machine learning architectures. This implies that clinical domain knowledge may overrule the importance of model architecture design in the case of AD classification. This opens up new possibilities for interpretable architectures and simplifies model training in terms of computational cost and hardware requirements.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-vu21a,
+  title = 	 {MedAug: Contrastive learning leveraging patient metadata improves representations for chest X-ray interpretation},
+  author =       {Vu, Yen Nhi Truong and Wang, Richard and Balachandar, Niranjan and Liu, Can and Ng, Andrew Y. and Rajpurkar, Pranav},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {755--769},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/vu21a/vu21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/vu21a.html},
+  abstract = 	 {Self-supervised contrastive learning between pairs of multiple views of the same image has been shown to successfully leverage unlabeled data to produce meaningful visual representations for both natural and medical images. However, there has been limited work on determining how to select pairs for medical images, where availability of patient metadata can be leveraged to improve representations. In this work, we develop a method to select positive pairs coming from views of possibly different images through the use of patient metadata. We compare strategies for selecting positive pairs for chest X-ray interpretation including requiring them to be from the same patient, imaging study or laterality. We evaluate downstream task performance by fine-tuning the linear layer on 1% of the labeled dataset for pleural effusion classification. Our best performing positive pair selection strategy, which involves using images from the same patient from the same study across all lateralities, achieves a performance increase of 14.4% in mean AUC from the ImageNet pretrained baseline. Our controlled experiments show that the keys to improving down- stream performance on disease classification are (1) using patient metadata to appropriately create positive pairs from different images with the same underlying pathologies, and (2) maximizing the number of different images used in query pairing. In addition, we explore leveraging patient metadata to select hard negative pairs for contrastive learning, but do not find improvement over baselines that do not use metadata. Our method is broadly applicable to medical image interpretation and allows flexibility for incorporating medical insights in choosing pairs for contrastive learning.}
+}
+
+
+
+
+@InProceedings{pmlr-v149-bhave21a,
+  title = 	 {Point Processes for Competing Observations with Recurrent Networks (POPCORN): A Generative Model of EHR Data},
+  author =       {Bhave, Shreyas and Perotte, Adler},
+  booktitle = 	 {Proceedings of the 6th Machine Learning for Healthcare Conference},
+  pages = 	 {770--789},
+  year = 	 {2021},
+  editor = 	 {Jung, Ken and Yeung, Serena and Sendak, Mark and Sjoding, Michael and Ranganath, Rajesh},
+  volume = 	 {149},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--07 Aug},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v149/bhave21a/bhave21a.pdf},
+  url = 	 {https://proceedings.mlr.press/v149/bhave21a.html},
+  abstract = 	 {Modeling EHR data is of significant interest in a broad range of applications including prediction of future conditions or building latent representations of patient history. This can be challenging because EHR data is multivariate and irregularly sampled. Traditional treatments of EHR data involve handling irregular sampling by imputation or discretization. In this work, we model the full longitudinal history of a patient using a generative multivariate point process that simultaneously: (1) Models irregularly sampled events probabilistically without discretization or interpolation (2) Has a closed-form likelihood, making training straightforward (3) Encodes dependence between times and events with an approach inspired by competing risk models (4) Allows for direct sampling. We show improved performance on next-event prediction compared to existing approaches. Our pro- posed framework could potentially be used in many different contexts including prediction, generation of synthetic data and building latent representations of patient history.}
+}
+
+
+

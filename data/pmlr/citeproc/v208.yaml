@@ -1,0 +1,597 @@
+
+- title: 'Continual Causality: A Retrospective of the Inaugural AAAI-23 Bridge Program'
+  abstract: 'Both of the fields of continual learning and causality investigate complementary aspects of human cognition and are fundamental components of artificial intelligence if it is to reason and generalize in complex environments. Despite the burgeoning interest in investigating the intersection of the two fields, it is currently unclear how causal models may describe continuous streams of data and vice versa, how continual learning may exploit learned causal structure.   We proposed to bridge this gap through the inaugural AAAI-23 “Continual Causality” bridge program, where our aim was to take the initial steps towards a unified treatment of these fields by providing a space for learning, discussions, and to build a diverse community to connect researchers. The activities ranged from traditional tutorials and software labs, invited vision talks, and contributed talks based on submitted position papers, as well as a panel and breakout discussions. Whereas materials are publicly disseminated as a foundation for the community: https://www.continualcausality.org, respectively discussed ideas, challenges, and prospects beyond the inaugural bridge are summarized in this retrospective paper.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/mundt23a.html
+  PDF: https://proceedings.mlr.press/v208/mundt23a/mundt23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-mundt23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 1-10
+  id: mundt23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 1
+  lastpage: 10
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Continual Treatment Effect Estimation: Challenges and Opportunities'
+  abstract: 'A further understanding of cause and effect within observational data is critical across many domains, such as economics, health care, public policy, web mining, online advertising, and marketing campaigns. Although significant advances have been made to overcome the challenges in causal effect estimation with observational data, such as missing counterfactual outcomes and selection bias between treatment and control groups, the existing methods mainly focus on source-specific and stationary observational data. Such learning strategies assume that all observational data are already available during the training phase and from only one source. This practical concern of accessibility is ubiquitous in various academic and industrial applications. That’s what it boiled down to: in the era of big data, we face new challenges in causal inference with observational data, i.e., the extensibility for incrementally available observational data, the adaptability for extra domain adaptation problem except for the imbalance between treatment and control groups, and the accessibility for an enormous amount of data. In this position paper, we formally define the problem of continual treatment effect estimation, describe its research challenges, and then present possible solutions to this problem. Moreover, we will discuss future research directions on this topic.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/chu23a.html
+  PDF: https://proceedings.mlr.press/v208/chu23a/chu23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-chu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhixuan
+    family: Chu
+  - given: Sheng
+    family: Li
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 11-17
+  id: chu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 11
+  lastpage: 17
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Prospects of Continual Causality for Industrial Applications'
+  abstract: 'We have been investigating the causal analysis of industrial plant process data and its various applications, such as material quantity optimization utilizing intervention effects. However, process data often comes with various problems such as non-stationary characteristics including distribution shifts, which make such applications difficult. When combined with the idea of continual learning, causal models may be able to solve these problems. We present the potential and prospects for industrial applications of continual causality, showing previous work. We also briefly introduce our causal discovery method utilizing a continual framework.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/fujiwara23a.html
+  PDF: https://proceedings.mlr.press/v208/fujiwara23a/fujiwara23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-fujiwara23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Daigo
+    family: Fujiwara
+  - given: Kazuki
+    family: Koyama
+  - given: Keisuke
+    family: Kiritoshi
+  - given: Tomomi
+    family: Okawachi
+  - given: Tomonori
+    family: Izumitani
+  - given: Shohei
+    family: Shimizu
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 18-24
+  id: fujiwara23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 18
+  lastpage: 24
+  published: 2023-06-04 00:00:00 +0000
+- title: 'From IID to the Independent Mechanisms assumption in continual learning'
+  abstract: 'Current machine learning algorithms are successful in learning clearly defined tasks from large i.i.d. data. Continual learning (CL) requires learning without iid-ness and developing algorithms capable of knowledge retention and transfer, the latter can be boosted through systematic generalization. Dropping the i.i.d. assumption requires replacing it with another hypothesis. While there are several candidates, here we advocate that the independent mechanism assumption (IM) (Scho ̈lkopf et al. 2012) is a useful hypothesis for representing knowledge in a form, that makes it easy to adapt to new tasks in CL. Specifically, we review several types of distribution shifts that are common in CL and point out in which way a system that represents knowledge in form of causal modules may outperform monolithic counterparts in CL. Intuitively, the efficacy of IM solution emerges since: (i) causal modules learn mechanisms invariant across domains; (ii) if causal mechanisms must be up- dated, modularity can enable efficient and sparse updates.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/ostapenko23a.html
+  PDF: https://proceedings.mlr.press/v208/ostapenko23a/ostapenko23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-ostapenko23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Oleksiy
+    family: Ostapenko
+  - given: Pau
+    family: Rodríguez
+  - given: Alexandre
+    family: Lacoste
+  - given: Laurent
+    family: Charlin
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 25-29
+  id: ostapenko23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 25
+  lastpage: 29
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Continually Updating Neural Causal Models'
+  abstract: 'A common assumption in causal modelling is that the relations between variables are fixed mechanisms. But in reality, these mechanisms often change over time and new data might not fit the original model as well. But is it reasonable to regularly train new models or can we update a single model continually instead? We propose utilizing the field of continual learning to help keep causal models updated over time.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/busch23a.html
+  PDF: https://proceedings.mlr.press/v208/busch23a/busch23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-busch23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Florian Peter
+    family: Busch
+  - given: Jonas
+    family: Seng
+  - given: Moritz
+    family: Willig
+  - given: Matej
+    family: Zečević
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 30-37
+  id: busch23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 30
+  lastpage: 37
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Treatment Effect Estimation to Guide Model Optimization in Continual Learning'
+  abstract: 'Continual Learning systems are faced with a potentially large numbers of tasks to be learned while the models employed have only limited capacity available, which makes it potentially impossible to learn all required tasks within a single model. In order to detect on when a model might break we propose to use treatment effect estimation techniques to estimate the effect of training a model on a new task w.r.t. some suitable performance measure.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/seng23a.html
+  PDF: https://proceedings.mlr.press/v208/seng23a/seng23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-seng23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Jonas
+    family: Seng
+  - given: Florian Peter
+    family: Busch
+  - given: Matej
+    family: Zečević
+  - given: Moritz
+    family: Willig
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 38-44
+  id: seng23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 38
+  lastpage: 44
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Continual Causal Abstractions'
+  abstract: 'This short paper discusses continually updated causal abstractions as a potential direction of future research. The key idea is to revise the existing level of causal abstraction to a different level of detail that is both consistent with the history of observed data and more effective in solving a given task.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/zecevic23a.html
+  PDF: https://proceedings.mlr.press/v208/zecevic23a/zecevic23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-zecevic23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Matej
+    family: Zečević
+  - given: Moritz
+    family: Willig
+  - given: Florian Peter
+    family: Busch
+  - given: Jonas
+    family: Seng
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 45-51
+  id: zecevic23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 45
+  lastpage: 51
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Causal Concept Identification in Open World Environments'
+  abstract: 'The ability to continually discover novel concepts is a core task in open world learning. For classical learning tasks new samples might be identified via manual labeling. Since this is a labor intensive task, this paper proposes to utilize causal information for doing so. Image data provides us with the ability to directly observe the physical, real-world appearance of concepts. However, the information presented in images is usually of noisy and unstructured nature. In this position paper we propose to leverage causal information to both structure and causally connect visual representations. Specifically, we discuss the possibilities of using causal models as a knowledge source for identifying novel concepts in the visual domain.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/willig23a.html
+  PDF: https://proceedings.mlr.press/v208/willig23a/willig23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-willig23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Moritz
+    family: Willig
+  - given: Matej
+    family: Zečević
+  - given: Jonas
+    family: Seng
+  - given: Florian Peter
+    family: Busch
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 52-58
+  id: willig23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 52
+  lastpage: 58
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Spurious Features in Continual Learning'
+  abstract: 'Continual Learning (CL) is the research field addressing training settings where the data distribution is not static. One of the core problems CL addresses is learning without forgetting. To solve problems, continual learning algorithms need to learn robust and stable representations based only on a subset of the data. Those representations are necessarily biased and should be revisited when new data becomes available. This paper studies spurious features’ influence on continual learning algorithms. We show that in continual learning, algorithms have to deal with local spurious features that correlate well with labels within a task only but which are not good representations for the concept to learn. One of the big challenges of continual learning algorithms is to discover causal relationships between features and labels under distribution shifts.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/lesort23a.html
+  PDF: https://proceedings.mlr.press/v208/lesort23a/lesort23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-lesort23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Timothée
+    family: Lesort
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 59-62
+  id: lesort23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 59
+  lastpage: 62
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Towards Causal Replay for Knowledge Rehearsal in Continual Learning'
+  abstract: 'Given the challenges associated with the real-world deployment of Machine Learning (ML) models, especially towards efficiently integrating novel information on-the-go, both Continual Learning (CL) and Causality have been proposed and investigated individually as potent solutions. Despite their complimentary nature, the bridge between them is still largely unexplored. In this work, we focus on causality to improve the learning and knowledge preservation capabilities of CL models. In particular, positing Causal Replay for knowledge rehearsal, we discuss how CL-based models can benefit from causal interventions towards improving their ability to replay past knowledge in order to mitigate forgetting.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/churamani23a.html
+  PDF: https://proceedings.mlr.press/v208/churamani23a/churamani23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-churamani23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Nikhil
+    family: Churamani
+  - given: Jiaee
+    family: Cheong
+  - given: Sinan
+    family: Kalkan
+  - given: Hatice
+    family: Gunes
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 63-70
+  id: churamani23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 63
+  lastpage: 70
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Never Ending Reasoning and Learning: Opportunities and Challenges'
+  abstract: 'Inspired by the motivation behind the Never-Ending Language Learner (NELL), a continual learning system that reads the web, we propose the never-ending reasoning and learning paradigm and one instance: the  Never-Ending Reasoner and Learner (NERL), which continuously learns and reasons with causal models by actively interacting with domain experts.  NERL necessitates tight synergistic interaction between different communities—continual learning, causal modeling, statistical relational AI, and human-allied AI communities. We motivate NERL using the real, high-impact problem of global mitigation of adverse pregnancy outcomes, present the challenges in this system, and  highlight the potential opportunities that provide for interdisciplinary collaborations.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/natarajan23a.html
+  PDF: https://proceedings.mlr.press/v208/natarajan23a/natarajan23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-natarajan23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Sriraam
+    family: Natarajan
+  - given: Kristian
+    family: Kersting
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 71-74
+  id: natarajan23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 71
+  lastpage: 74
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Modeling Uplift from Observational Time-Series in Continual Scenarios'
+  abstract: 'As the importance of causality in machine learning grows, we expect the model to learn the correct causal mechanism for robustness even under distribution shifts. Since most of the prior benchmarks focused on vision and language tasks, domain or temporal shifts in causal inference tasks have not been well explored. To this end, we introduce Backend-TS dataset for modeling uplift in continual learning scenarios. We build the dataset with CRUD data and propose continual learning tasks under temporal and domain shifts.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/kim23a.html
+  PDF: https://proceedings.mlr.press/v208/kim23a/kim23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-kim23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Sanghyun
+    family: Kim
+  - given: Jungwon
+    family: Choi
+  - given: NamHee
+    family: Kim
+  - given: Jaesung
+    family: Ryu
+  - given: Juho
+    family: Lee
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 75-84
+  id: kim23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 75
+  lastpage: 84
+  published: 2023-06-04 00:00:00 +0000
+- title: 'From Continual Learning to Causal Discovery in Robotics'
+  abstract: 'Reconstructing accurate causal models of dynamic systems from time-series of sensor data is a key problem in many real-world scenarios. In this paper, we present an overview based on our experience about practical challenges that the causal analysis encounters when applied to autonomous robots and how Continual Learning (CL) could help to overcome them. We propose a possible way to leverage the CL paradigm to make causal discovery feasible for robotics applications where the computational resources are limited, while at the same time exploiting the robot as an active agent that helps to increase the quality of the reconstructed causal models.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/castri23a.html
+  PDF: https://proceedings.mlr.press/v208/castri23a/castri23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-castri23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Luca
+    family: Castri
+  - given: Sariah
+    family: Mghames
+  - given: Nicola
+    family: Bellotto
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 85-91
+  id: castri23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 85
+  lastpage: 91
+  published: 2023-06-04 00:00:00 +0000
+- title: 'Issues for Continual Learning in the Presence of Dataset Bias'
+  abstract: 'While most continual learning algorithms have focused on tackling the stability-plasticity dilemma, they have overlooked the effects of the knowledge transfer when the dataset is biased — namely, when some unintended spurious correlations, not the true causal structures, of the tasks are learned from the biased dataset. In that case, how would they affect learning future tasks or the knowledge already learned from the past tasks? In this work, we design systematic experiments with a synthetic biased dataset and try to answer the above question from our empirical findings. Namely, we first show that standard continual learning methods that are unaware of dataset bias can transfer biases from one task to another, both forward and backward. In addition, we find that naively using existing debiasing methods after each continual learning step can lead to significant forgetting of past tasks and reduced overall continual learning performance. These findings highlight the need for a causality-aware design of continual learning algorithms to prevent both bias transfers and catastrophic forgetting.'
+  volume: 208
+  URL: https://proceedings.mlr.press/v208/lee23a.html
+  PDF: https://proceedings.mlr.press/v208/lee23a/lee23a.pdf
+  edit: https://github.com/mlresearch//v208/edit/gh-pages/_posts/2023-06-04-lee23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The First AAAI Bridge Program on Continual Causality'
+  publisher: 'PMLR'
+  author: 
+  - given: Donggyu
+    family: Lee
+  - given: Sangwon
+    family: Jung
+  - given: Taesup
+    family: Moon
+  editor: 
+  - given: Martin
+    family: Mundt
+  - given: Keiland W.
+    family: Cooper
+  - given: Devendra Singh
+    family: Dhami
+  - given: Adéle
+    family: Ribeiro
+  - given: James Seale
+    family: Smith
+  - given: Alexis
+    family: Bellot
+  - given: Tyler
+    family: Hayes
+  page: 92-99
+  id: lee23a
+  issued:
+    date-parts: 
+      - 2023
+      - 6
+      - 4
+  firstpage: 92
+  lastpage: 99
+  published: 2023-06-04 00:00:00 +0000

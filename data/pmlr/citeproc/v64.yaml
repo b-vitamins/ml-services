@@ -1,0 +1,329 @@
+
+- title: 'Effect of Incomplete Meta-dataset on Average Ranking Method'
+  abstract: 'One of the simplest metalearning methods is the average ranking method. This method uses metadata in the form of test results of a given algorithms on a given datasets and calculates an average rank for each algorithm. The average ranks are used to construct the average ranking. The work described here investigate the problem of how the process of generating the average ranking is affected by incomplete metadata. We are interested in this issue for the following reason. If we could show that incomplete metadata does not affect the final results much, we could explore it in future design. We could simply conduct fewer tests and save thus computation time. Our results show that our method is robust to omission in meta datasets.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/adbdulrahman_effect_2016.html
+  PDF: http://proceedings.mlr.press/v64/adbdulrahman_effect_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-adbdulrahman_effect_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Salisu Mamman
+    family: Abdulrahman
+  - given: Pavel
+    family: Brazdil
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 1-10
+  id: adbdulrahman_effect_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 1
+  lastpage: 10
+  published: 2016-12-04 00:00:00 +0000
+- title: 'A Strategy for Ranking Optimization Methods using Multiple Criteria'
+  abstract: 'Many methods for optimizing black-box functions exist, and many metrics exist for judging the performance of a specific optimization method. There is not, however, a generally agreed upon strategy for simultaneously comparing the performance of multiple optimization methods for multiple performance metrics across a range of optimization problems. This paper proposes such a methodology, which uses nonparametric statistical tests to convert the metrics recorded for each problem into a partial ranking of optimization methods; these partial rankings are then amalgamated through a voting mechanism to generate a final score for each optimization method. Mathematical analysis is provided to motivate decisions within this strategy, and numerical results are provided to demonstrate the potential insights afforded thereby.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/dewancker_strategy_2016.html
+  PDF: http://proceedings.mlr.press/v64/dewancker_strategy_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-dewancker_strategy_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Ian
+    family: Dewancker
+  - given: Michael
+    family: McCourt
+  - given: Scott
+    family: Clark
+  - given: Patrick
+    family: Hayes
+  - given: Alexandra
+    family: Johnson
+  - given: George
+    family: Ke
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 11-20
+  id: dewancker_strategy_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 11
+  lastpage: 20
+  published: 2016-12-04 00:00:00 +0000
+- title: 'A Brief Review of the ChaLearn AutoML Challenge: Any-time Any-dataset Learning Without Human Intervention'
+  abstract: 'The ChaLearn AutoML Challenge team conducted a large scale evaluation of fully automatic, black-box learning machines for feature-based classification and regression problems. The test bed was composed of 30 data sets from a wide variety of application domains and ranging across different types of complexity. Over five rounds, participants succeeded in delivering AutoML software capable of being trained and tested without human intervention. Although improvements can still be made to close the gap between human-tweaked and AutoML models, this challenge has been a leap forward in the field and its platform will remain available for post-challenge submissions at http://codalab.org/AutoML.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/guyon_review_2016.html
+  PDF: http://proceedings.mlr.press/v64/guyon_review_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-guyon_review_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Isabelle
+    family: Guyon
+  - given: Imad
+    family: Chaabane
+  - given: Hugo Jair
+    family: Escalante
+  - given: Sergio
+    family: Escalera
+  - given: Damir
+    family: Jajetic
+  - given: James Robert
+    family: Lloyd
+  - given: Núria
+    family: Macià
+  - given: Bisakha
+    family: Ray
+  - given: Lukasz
+    family: Romaszko
+  - given: Michèle
+    family: Sebag
+  - given: Alexander
+    family: Statnikov
+  - given: Sébastien
+    family: Treguer
+  - given: Evelyne
+    family: Viegas
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 21-30
+  id: guyon_review_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 21
+  lastpage: 30
+  published: 2016-12-04 00:00:00 +0000
+- title: 'Scalable Structure Discovery in Regression using Gaussian Processes'
+  abstract: 'Automatic Bayesian Covariance Discovery (ABCD) in Lloyd et. al (2014) provides a framework for automating statistical modelling as well as exploratory data analysis for regression problems. However ABCD does not scale due to its $O(N^3)$ running time. This is undesirable not only because the average size of data sets is growing fast, but also because there is potentially more information in bigger data, implying a greater need for more expressive models that can discover sophisticated structure. We propose a scalable version of ABCD, to encompass big data within the boundaries of automated statistical modelling.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/kim_scalable_2016.html
+  PDF: http://proceedings.mlr.press/v64/kim_scalable_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-kim_scalable_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hyunjik
+    family: Kim
+  - given: Yee Whye
+    family: Teh
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 31-40
+  id: kim_scalable_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 31
+  lastpage: 40
+  published: 2016-12-04 00:00:00 +0000
+- title: 'Bayesian optimization for automated model selection'
+  abstract: 'Despite the success of kernel-based nonparametric methods, kernel selection still requires considerable expertise, and is often described as a “black art.” We present a sophisticated method for automatically searching for an appropriate kernel from an infinite space of potential choices. Previous efforts in this direction have focused on traversing a kernel grammar, only examining the data via computation of marginal likelihood. Our proposed search method is based on Bayesian optimization in model space, where we reason about model evidence as a function to be maximized. We explicitly reason about the data distribution and how it induces similarity between potential model choices in terms of the explanations they can offer for observed data. In this light, we construct a novel kernel between models to explain a given dataset. Our method is capable of finding a model that explains a given dataset well without any human assistance, often with fewer computatio! ns of model evidence than previous approaches, a claim we demonstrate empirically.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/malkomes_bayesian_2016.html
+  PDF: http://proceedings.mlr.press/v64/malkomes_bayesian_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-malkomes_bayesian_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Gustavo
+    family: Malkomes
+  - given: Chip
+    family: Schaff
+  - given: Roman
+    family: Garnett
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 41-47
+  id: malkomes_bayesian_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 41
+  lastpage: 47
+  published: 2016-12-04 00:00:00 +0000
+- title: 'Adapting Multicomponent Predictive Systems using Hybrid Adaptation Strategies with Auto-WEKA in Process Industry'
+  abstract: 'Automation of composition and optimisation of multicomponent predictive systems (MCPSs) made of a number of preprocessing steps and predictive models is a challenging problem that has been addressed in recent works. However, one of the current challenges is how to adapt these systems in dynamic environments where data is changing over time. In this work we propose a hybrid approach combining different adaptation strategies with the Bayesian optimisation techniques for parametric, structural and hyperparameter optimisation of entire MCPSs. Experiments comparing different adaptation strategies have been performed on 7 datasets from real chemical production processes. Experimental analysis shows that optimisation of entire MCPSs as a method of adaptation to changing environments is feasible and that hybrid strategies perform better in most of the analysed cases.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/salvador_adapting_2016.html
+  PDF: http://proceedings.mlr.press/v64/salvador_adapting_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-salvador_adapting_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Manuel Martin
+    family: Salvador
+  - given: Marcin
+    family: Budka
+  - given: Bogdan
+    family: Gabrys
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 48-57
+  id: salvador_adapting_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 48
+  lastpage: 57
+  published: 2016-12-04 00:00:00 +0000
+- title: 'Towards Automatically-Tuned Neural Networks'
+  abstract: 'Recent advances in AutoML have led to automated tools that can compete with machine learning experts on supervised learning tasks. However, current AutoML tools do not yet support modern neural networks effectively. In this work, we present a first version of Auto-Net, which provides automatically-tuned feed-forward neural networks without any human intervention. We report results on datasets from the recent AutoML challenge showing that ensembling Auto-Net with Auto-sklearn often performs better than either alone, and report the first results on winning a competition dataset against human experts with automatically-tuned neural networks.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/mendoza_towards_2016.html
+  PDF: http://proceedings.mlr.press/v64/mendoza_towards_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-mendoza_towards_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hector
+    family: Mendoza
+  - given: Aaron
+    family: Klein
+  - given: Matthias
+    family: Feurer
+  - given: Jost Tobias
+    family: Springenberg
+  - given: Frank
+    family: Hutter
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 58-65
+  id: mendoza_towards_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 58
+  lastpage: 65
+  published: 2016-12-04 00:00:00 +0000
+- title: 'TPOT: A Tree-based Pipeline Optimization Tool for Automating Machine Learning'
+  abstract: 'As data science becomes more mainstream, there will be an ever-growing demand for data science tools that are more accessible, flexible, and scalable. In response to this demand, automated machine learning (autoML) researchers have begun building systems that automate the process of designing and optimizing machine learning pipelines. In this paper we present TPOT, an open source genetic programming-based autoML system that optimizes a series of feature preprocessors and machine learning models with the goal of maximizing classification accuracy on a supervised classification task. We benchmark TPOT on a series of 150 supervised classification tasks and find that it significantly outperforms a basic machine learning analysis in 22 of them, while experiencing minimal degradation in accuracy on 5 of the benchmarks—all without any domain knowledge nor human input. As such, GP-based autoML systems show considerable promise in the autoML domain.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/olson_tpot_2016.html
+  PDF: http://proceedings.mlr.press/v64/olson_tpot_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-olson_tpot_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Randal S.
+    family: Olson
+  - given: Jason H.
+    family: Moore
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 66-74
+  id: olson_tpot_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 66
+  lastpage: 74
+  published: 2016-12-04 00:00:00 +0000
+- title: 'Parameter-Free Convex Learning through Coin Betting'
+  abstract: 'We present a new parameter-free algorithm for online linear optimization over any Hilbert space. It is theoretically optimal, with regret guarantees as good as with the best possible learning rate. The algorithm is simple and easy to implement. The analysis is given via the adversarial coin-betting game, Kelly betting and the Krichevsky-Trofimov estimator. Applications to obtain parameter-free convex optimization and machine learning algorithms are shown.'
+  volume: 64
+  URL: https://proceedings.mlr.press/v64/orabona_parameter_2016.html
+  PDF: http://proceedings.mlr.press/v64/orabona_parameter_2016.pdf
+  edit: https://github.com/mlresearch//v64/edit/gh-pages/_posts/2016-12-04-orabona_parameter_2016.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Workshop on Automatic Machine Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Francesco
+    family: Orabona
+  - given: Dávid
+    family: Pál
+  editor: 
+  - given: Frank
+    family: Hutter
+  - given: Lars
+    family: Kotthoff
+  - given: Joaquin
+    family: Vanschoren
+  address: New York, New York, USA
+  page: 75-82
+  id: orabona_parameter_2016
+  issued:
+    date-parts: 
+      - 2016
+      - 12
+      - 4
+  firstpage: 75
+  lastpage: 82
+  published: 2016-12-04 00:00:00 +0000

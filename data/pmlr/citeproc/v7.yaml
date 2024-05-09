@@ -1,0 +1,453 @@
+
+- title: 'Analysis of the KDD Cup 2009: Fast Scoring on a Large Orange Customer Database'
+  abstract: 'We organized the KDD cup 2009 around a marketing problem with the goal of identifying data mining techniques capable of rapidly building predictive models and scoring new entries on a large database. Customer Relationship Management (CRM) is a key element of modern marketing strategies. The KDD Cup 2009 offered the opportunity to work on large marketing databases from the French Telecom company Orange to predict the propensity of customers to switch provider (churn), buy new products or services (appetency), or buy upgrades or add-ons proposed to them to make the sale more profitable (up-selling). The challenge started on March 10, 2009 and ended on May 11, 2009. This challenge attracted over 450 participants from 46 countries. We attribute the popularity of the challenge to several factors: (1) A generic problem relevant to the Industry (a classification problem), but presenting a number of scientific and technical challenges of real practical interest (many missing values, large number of features - 15000 - and large number of training examples - 50000, unbalanced class proportions - fewer than 10% of the examples of the positive class), noisy data, many missing values, presence of categorical variables with many different values. (2) Prizes - Orange offers 10000 Euros in prizes. (3) A well designed protocol and web site - we benefitted from past experience. (4) An effective advertising campaign using mailings and a teleconference to answer potential participants questions. The results of the challenge were discussed at the KDD conference (June 28, 2009). The principal conclusions are that ensemble methods are very effective and that ensemble of decision trees offer off-the-shelf solutions to problems with large numbers of samples and attributes, mixed types of variables, and lots of missing values. The data and the platform of the challenge remain available for research and educational purposes at \texttthttp://www.kddcup-orange.com/.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/guyon09.html
+  PDF: http://proceedings.mlr.press/v7/guyon09/guyon09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-guyon09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: Marc
+    family: Boullé
+  - given: Gideon
+    family: Dror
+  - given: David
+    family: Vogel
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 1-22
+  id: guyon09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 1
+  lastpage: 22
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Winning the KDD Cup Orange Challenge with Ensemble Selection'
+  abstract: 'We describe our wining solution for the KDD Cup Orange Challenge.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/niculescu09.html
+  PDF: http://proceedings.mlr.press/v7/niculescu09/niculescu09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-niculescu09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexandru
+    family: Niculescu-Mizil
+  - given: Claudia
+    family: Perlich
+  - given: Grzegorz
+    family: Swirszcz
+  - given: Vikas
+    family: Sindhwani
+  - given: Yan
+    family: Liu
+  - given: Prem
+    family: Melville
+  - given: Dong
+    family: Wang
+  - given: Jing
+    family: Xiao
+  - given: Jianying
+    family: Hu
+  - given: Moninder
+    family: Singh
+  - given: Wei Xiong
+    family: Shang
+  - given: Yan Feng
+    family: Zhu
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 23-34
+  id: niculescu09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 23
+  lastpage: 34
+  published: 2009-12-04 00:00:00 +0000
+- title: 'A Combination of Boosting and Bagging for KDD Cup 2009 - Fast Scoring on a Large Database'
+  abstract: 'We present the ideas and methodologies that we used to address the KDD Cup 2009 challenge on rank-ordering the probability of churn, appetency and up-selling of wireless customers. We choose stochastic gradient boosting tree (TreeNet ®) as our main classifier to handle this large unbalanced dataset. In order to further improve the robustness and accuracy of our results, we bag a series of boosted tree models together as our final submission. Through our exploration we conclude that the most critical factors to achieve our results are effective variable preprocessing and selection, proper imbalanced data handling as well as the combination of bagging and boosting techniques.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/xie09.html
+  PDF: http://proceedings.mlr.press/v7/xie09/xie09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-xie09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Jianjun
+    family: Xie
+  - given: Viktoria
+    family: Rojkova
+  - given: Siddharth
+    family: Pal
+  - given: Stephen
+    family: Coggeshall
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 35-43
+  id: xie09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 35
+  lastpage: 43
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Predicting customer behaviour: The University of Melbourne’s KDD Cup report'
+  abstract: 'We discuss the challenges of the 2009 KDD Cup along with our ideas and methodologies for modelling the problem. The main stages included aggressive nonparametric feature selection, careful treatment of categorical variables and tuning a gradient boosting machine under Bernoulli loss with trees.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/miller09.html
+  PDF: http://proceedings.mlr.press/v7/miller09/miller09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-miller09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Hugh
+    family: Miller
+  - given: Sandy
+    family: Clarke
+  - given: Stephen
+    family: Lane
+  - given: Andrew
+    family: Lonie
+  - given: David
+    family: Lazaridis
+  - given: Slave
+    family: Petrovski
+  - given: Owen
+    family: Jones
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 45-55
+  id: miller09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 45
+  lastpage: 55
+  published: 2009-12-04 00:00:00 +0000
+- title: 'An Ensemble of Three Classifiers for KDD Cup 2009: Expanded Linear Model, Heterogeneous Boosting, and Selective Naive Bayes'
+  abstract: 'This paper describes our ensemble of three classifiers for the KDD Cup 2009 challenge. First, we transform the three binary classification tasks into a joint multi-class classification problem, and solve an l1-regularized maximum entropy model under the LIBLINEAR framework. Second, we propose a heterogeneous base learner, which is capable of handling different types of features and missing values, and use AdaBoost to improve the base learner. Finally, we adopt a selective naïve Bayes classifier that automatically groups categorical features and discretizes numerical ones. The parameters are tuned using crossvalidation results rather than the 10% test results on the competition website. Based on the observation that the three positive labels are exclusive, we conduct a post-processing step using the linear SVM to jointly adjust the prediction scores of each classifier on the three tasks. Then, we average these prediction scores with careful validation to get the final outputs. Our final average AUC on the whole test set is 0.8461, which ranks third place in the slow track of KDD Cup 2009.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/lo09.html
+  PDF: http://proceedings.mlr.press/v7/lo09/lo09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-lo09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Hung-Yi
+    family: Lo
+  - given: Kai-Wei
+    family: Chang
+  - given: Shang-Tse
+    family: Chen
+  - given: Tsung-Hsien
+    family: Chiang
+  - given: Chun- Sung
+    family: Ferng
+  - given: Cho-Jui
+    family: Hsieh
+  - given: Yi-Kuang
+    family: Ko
+  - given: Tsung-Ting
+    family: Kuo
+  - given: Hung-Che
+    family: Lai
+  - given: Ken-Yi
+    family: Lin
+  - given: Chia-Hsuan
+    family: Wang
+  - given: Hsiang-Fu
+    family: Yu
+  - given: Chih-Jen
+    family: Lin
+  - given: Hsuan-Tien
+    family: Lin
+  - given: Shou-de
+    family: Lin
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 57-64
+  id: lo09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 57
+  lastpage: 64
+  published: 2009-12-04 00:00:00 +0000
+- title: 'KDD Cup 2009 @ Budapest: feature partitioning and boosting'
+  abstract: 'We describe the method used in our final submission to KDD Cup 2009 as well as a selection of promising directions that are generally believed to work well but did not justify our expectations. Our final method consists of a combination of a LogitBoost and an ADTree classifier with a feature selection method that, as shaped by the experiments we have conducted, have turned out to be very different from those described in some well-cited surveys. Some methods that failed include distance, information and dependence measures for feature selection as well as combination of classifiers over a partitioned feature set. As another main lesson learned, alternating decision trees and LogitBoost outperformed most classifiers for most feature subsets of the KDD Cup 2009 data.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/kurucz09.html
+  PDF: http://proceedings.mlr.press/v7/kurucz09/kurucz09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-kurucz09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Miklós
+    family: Kurucz
+  - given: Dávid
+    family: Siklósi
+  - given: István
+    family: Bíró
+  - given: Péter
+    family: Csizsek
+  - given: Zsolt
+    family: Fekete
+  - given: Róbert
+    family: Iwatt
+  - given: Tamás
+    family: Kiss
+  - given: Adrienn
+    family: Szabó
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 65-75
+  id: kurucz09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 65
+  lastpage: 75
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Logistic Model Trees with AUC Split Criterion for the KDD Cup 2009 Small Challenge'
+  abstract: 'In this work, we describe our approach to the “Small Challenge” of the KDD cup 2009, a classification task with incomplete data. Preprocessing, feature extraction and model selection are documented in detail. We suggest a criterion based on the number of missing values to select a suitable imputation method for each feature. Logistic Model Trees (LMT) are extended with a split criterion optimizing the Area under the ROC Curve (AUC), which was the requested evaluation criterion. By stacking boosted decision stumps and LMT we achieved the best result for the “Small Challenge” without making use of additional data from other feature sets, resulting in an AUC score of 0.8081. We also present results of an AUC optimizing model combination that scored only slightly worse with an AUC score of 0.8074.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/doetsch09.html
+  PDF: http://proceedings.mlr.press/v7/doetsch09/doetsch09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-doetsch09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Patrick
+    family: Doetsch
+  - given: Christian
+    family: Buck
+  - given: Pavlo
+    family: Golik
+  - given: Niklas
+    family: Hoppe
+  - given: Michael
+    family: Kramp
+  - given: Johannes
+    family: Laudenberg
+  - given: Christian
+    family: Oberdörfer
+  - given: Pascal
+    family: Steingrube
+  - given: Jens
+    family: Forster
+  - given: Arne
+    family: Mauser
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 77-88
+  id: doetsch09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 77
+  lastpage: 88
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Classification of Imbalanced Marketing Data with Balanced Random Sets'
+  abstract: 'With imbalanced data a classifier built using all of the data has the tendency to ignore the minority class. To overcome this problem, we propose to use an ensemble classifier constructed on the basis of a large number of relatively small and balanced subsets, where representatives from both patterns are to be selected randomly. As an outcome, the system produces the matrix of linear regression coefficients whose rows represent the random subsets and the columns represent the features. Based on this matrix, we make an assessment of how stable the influence of a particular feature is. It is proposed to keep in the model only features with stable influence. The final model represents an average of the base-learners, which is not necessarily a linear regression. Proper data pre-processing is very important for the effectiveness of the whole system, and it is proposed to reduce the original data to the most simple binary sparse format, which is particularly convenient for the construction of decision trees. As a result, any particular feature will be represented by several binary variables or bins, which are absolutely equivalent in terms of data structure. This property is very important and may be used for feature selection. The proposed method exploits not only contributions of particular variables to the base-learners, but also the diversity of such contributions. Test results against KDD-2009 competition datasets are presented.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/nikulin09.html
+  PDF: http://proceedings.mlr.press/v7/nikulin09/nikulin09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-nikulin09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Vladimir
+    family: Nikulin
+  - given: Geoffrey J.
+    family: McLachlan
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 89-100
+  id: nikulin09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 89
+  lastpage: 100
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Application of Additive Groves Ensemble with Multiple Counts Feature Evaluation to KDD Cup''09 Small Data Set'
+  abstract: 'This paper describes a field trial for a recently developed ensemble called Additive Groves on KDD Cup''09 competition. Additive Groves were applied to three tasks provided at the competition using the ''small'' data set. On one of the three tasks, appetency, we achieved the best result among participants who similarly worked with the small dataset only. Postcompetition analysis showed that less successfull result on another task, churn, was partially due to insufficient preprocessing of nominal attributes. Code for Additive Groves is publicly available as a part of TreeExtra package. Another part of this package provides an important preprocessing technique also used for this competition entry, feature evaluation through bagging with multiple counts.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/sorokina09.html
+  PDF: http://proceedings.mlr.press/v7/sorokina09/sorokina09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-sorokina09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Daria
+    family: Sorokina
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 101-109
+  id: sorokina09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 101
+  lastpage: 109
+  published: 2009-12-04 00:00:00 +0000
+- title: 'Accelerating AdaBoost using UCB'
+  abstract: 'This paper explores how multi-armed bandits (MABs) can be applied to accelerate AdaBoost. AdaBoost constructs a strong classifier in a stepwise fashion by adding simple base classifiers to a pool and using their weighted ''vote'' to determine the final classification. We model this stepwise base classifier selection as a sequential decision problem, and optimize it with MABs. Each arm represents a subset of the base classifier set. The MAB gradually learns the “utility” of the subsets, and selects one of the subsets in each iteration. ADABOOST then searches only this subset instead of optimizing the base classifier over the whole space. The reward is defined as a function of the accuracy of the base classifier. We investigate how the well-known UCB algorithm can be applied in the case of boosted stumps, trees, and products of base classifiers. The KDD Cup 2009 was a large-scale learning task with a limited training time, thus this challenge offered us a good opportunity to test the utility of our approach. During the challenge our best results came in the Up-selling task where our model was within 1% of the best AUC rate. After more thorough post-challenge validation the algorithm performed as well as the best challenge submission on the small data set in two of the three tasks.'
+  volume: 7
+  URL: https://proceedings.mlr.press/v7/busa09.html
+  PDF: http://proceedings.mlr.press/v7/busa09/busa09.pdf
+  edit: https://github.com/mlresearch//v7/edit/gh-pages/_posts/2009-12-04-busa09.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of KDD-Cup 2009 Competition'
+  publisher: 'PMLR'
+  author: 
+  - given: Róbert
+    family: Busa-Fekete
+  - given: Balázs
+    family: Kégl
+  editor: 
+  - given: Gideon
+    family: Dror
+  - given: Mar
+    family: Boullé
+  - given: Isabelle
+    family: Guyon
+  - given: Vincent
+    family: Lemaire
+  - given: David
+    family: Vogel
+  address: New York, New York, USA
+  page: 111-122
+  id: busa09
+  issued:
+    date-parts: 
+      - 2009
+      - 12
+      - 4
+  firstpage: 111
+  lastpage: 122
+  published: 2009-12-04 00:00:00 +0000

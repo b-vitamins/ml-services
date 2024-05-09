@@ -1,0 +1,2693 @@
+
+- title: 'Preface'
+  abstract: 'Introduction to the volume from the editors.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/heinrich21a.html
+  PDF: https://proceedings.mlr.press/v143/heinrich21a/heinrich21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-heinrich21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 1-4
+  id: heinrich21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 1
+  lastpage: 4
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping'
+  abstract: 'Supervised learning is conditioned by the availability of labeled data, which are especially expensive to acquire in the field of medical image analysis. Making use of open-source data for pre-training or using domain adaptation can be a way to overcome this issue. However, pre-trained networks often fail to generalize to new test domains that are not distributed identically due to variations in tissue stainings, types, and textures. Additionally, current domain adaptation methods mainly rely on fully-labeled source datasets. In this work, we propose Self-Rule to Adapt (SRA) which takes advantage of self-supervised learning to perform domain adaptation and removes the burden of fully-labeled source datasets. SRA can effectively transfer the discriminative knowledge obtained from a few labeled source domain to a new target domain without requiring additional tissue annotations. Our method harnesses both domains’ structures by capturing visual similarity with intra-domain and cross-domain self-supervision. We show that our proposed method outperforms baselines across diverse domain adaptation settings and further validate our approach to our in-house clinical cohort.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/abbet21a.html
+  PDF: https://proceedings.mlr.press/v143/abbet21a/abbet21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-abbet21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Christian
+    family: Abbet
+  - given: Linda
+    family: Studer
+  - given: Andreas
+    family: Fischer
+  - given: Heather
+    family: Dawson
+  - given: Inti
+    family: Zlobec
+  - given: Behzad
+    family: Bozorgtabar
+  - given: Jean-Philippe
+    family: Thiran
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 5-21
+  id: abbet21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 5
+  lastpage: 21
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks'
+  abstract: 'Acute ischemic stroke is caused by a blockage in the cerebral arteries, resulting in long-term disability and sometimes death. To determine the optimal treatment strategy, a patient-specific assessment is often based on advanced neuroimaging data, such as spatio-temporal (4D) CT Perfusion (CTP) imaging. To date, perfusion maps are typically calculated from 4D CTP data and then thresholded to localize and quantify the stroke lesion core and tissue-at-risk. A few studies have recently developed deep learning methods to predict stroke lesion outcomes from perfusion maps. The basic idea of these is to train a model, using perfusion maps acquired at baseline and their corresponding follow-up images acquired several days after treatment, to automatically estimate the final lesion location and volume in new patients. Nevertheless, model training based on the original 4D CTP scans might be desirable, as they could contain more valuable information not directly represented in perfusion maps. Therefore, we aimed to develop and evaluate a temporal convolutional neural network (TCN) to predict stroke lesion outcomes directly from 4D CTP datasets acquired at admission, without computing any perfusion maps. Using a total of 176 CTP scans, we investigated the impact of the time window size by training the proposed TCN on various numbers of CTP frames: 8, 16, and 32 time points. For comparison purposes, we also trained a convolutional neural network based on perfusion maps. The results show that the model trained on 32 time points yielded significantly higher Dice values (0.33$\pm$0.21) than the models trained on 8 time points (0.25$\pm$0.20; P$<$0.05), 16 time points (0.28$\pm$0.21; P$<$0.001), and perfusion maps (0.23$\pm$0.18; P$<$0.05). These experiments demonstrate that the proposed model effectively extracts spatio-temporal data from CTP scans to predict stroke lesion outcomes, which leads to better results than using perfusion maps.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/amador21a.html
+  PDF: https://proceedings.mlr.press/v143/amador21a/amador21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-amador21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kimberly
+    family: Amador
+  - given: Matthias
+    family: Wilms
+  - given: Anthony
+    family: Winder
+  - given: Jens
+    family: Fiehler
+  - given: Nils
+    family: Forkert
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 22-33
+  id: amador21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 22
+  lastpage: 33
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets'
+  abstract: 'Using intracoronary imaging modalities like intravascular ultrasound (IVUS) has a positive impact on the results of percutaneous coronary interventions. Efficient extraction of important vessel metrics like lumen diameter, vessel wall thickness or plaque burden via automatic segmentation of IVUS images can improve the clinical workflow. State-of-the-art segmentation results are usually achieved by data-driven methods like convolutional neural networks (CNNs). However, clinical data sets are often rather small leading to extraction of image features which are not very meaningful and thus decreasing performance. This is also the case for some applications which inherently allow for only small amounts of available data, e.g., detection of diseases with extremely small prevalence or online-adaptation of an existing algorithm to individual patients. In this work we investigate how integrating scattering transformations - as special forms of wavelet transformations - into CNNs could improve the extraction of meaningful features. To this end, we developed a novel network module which uses features of a scattering transform for an attention mechanism. We observed that this approach improves the results of calcium segmentation up to 8.2% (relatively) in terms of the Dice coefficient and 24.8% in terms of the modified Hausdorff distance. In the case of lumen and vessel wall segmentation, the improvements are up to 2.3% (relatively) in terms of the Dice coefficient and 30.8% in terms of the modified Hausdorff distance.Incorporating scattering transformations as a component of an attention block into CNNs improves the segmentation results on small IVUS segmentation data sets. In general, scattering transformations can help in situations where efficient feature extractors can not be learned via the training data. This makes our attention module an interesting candidate for applications like few-shot learning for patient adaptation or detection of rare diseases.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/bargsten21a.html
+  PDF: https://proceedings.mlr.press/v143/bargsten21a/bargsten21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-bargsten21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Lennart
+    family: Bargsten
+  - given: Katharina A.
+    family: Riedl
+  - given: Tobias
+    family: Wissel
+  - given: Fabian J.
+    family: Brunner
+  - given: Klaus
+    family: Schaefers
+  - given: Michael
+    family: Grass
+  - given: Stefan
+    family: Blankenberg
+  - given: Moritz
+    family: Seiffert
+  - given: Alexander
+    family: Schlaefer
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 34-47
+  id: bargsten21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 34
+  lastpage: 47
+  published: 2021-08-25 00:00:00 +0000
+- title: 'An MRF-UNet Product of Experts for Image Segmentation'
+  abstract: 'While convolutional neural networks (CNNs) trained by back-propagation have seen unprecedented success at semantic segmentation tasks, they are known to struggle on out-of-distribution data. Markov random fields (MRFs) on the other hand, encode simpler distributions over labels that, although less flexible than UNets, are less prone to over-fitting. In this paper, we propose to fuse both strategies by computing the product of distributions of a UNet and an MRF. As this product is intractable, we solve for an approximate distribution using an iterative mean-field approach. The resulting MRF-UNet is trained jointly by back-propagation. Compared to other works using conditional random fields (CRFs), the MRF has no dependency on the imaging data, which should allow for less over-fitting. We show on 3D neuroimaging data that this novel network improves generalisation to out-of-distribution samples. Furthermore, it allows the overall number of parameters to be reduced while preserving high accuracy. These results suggest that a classic MRF smoothness prior can allow for less over-fitting when principally integrated into a CNN model. Our implementation is available at https://github.com/balbasty/nitorch.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/brudfors21a.html
+  PDF: https://proceedings.mlr.press/v143/brudfors21a/brudfors21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-brudfors21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Mikael
+    family: Brudfors
+  - given: Yaël
+    family: Balbastre
+  - given: John
+    family: Ashburner
+  - given: Geraint
+    family: Rees
+  - given: Parashkev
+    family: Nachev
+  - given: Sebastien
+    family: Ourselin
+  - given: M. Jorge
+    family: Cardoso
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 48-59
+  id: brudfors21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 48
+  lastpage: 59
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning'
+  abstract: 'We introduce the concept of multi-task learning to weakly-supervised lesion segmentation, one of the most critical and challenging tasks in medical imaging. Due to the lesions’ heterogeneous nature, it is difficult for machine learning models to capture the corresponding variability. We propose to jointly train a lesion segmentation model and a lesion classifier in a multi-task learning fashion, where the supervision of the latter is obtained by clustering the RECIST measurements of the lesions. We evaluate our approach specifically on liver lesion segmentation and more generally on lesion segmentation in computed tomography (CT), as well as segmentation of skin lesions from dermatoscopic images. We show that the proposed joint training improves the quality of the lesion segmentation by 4% percent according to the Dice coefficient and 6% according to averaged Hausdorff distance (AVD), while reducing the training time required by up to 75%.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/chu21a.html
+  PDF: https://proceedings.mlr.press/v143/chu21a/chu21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-chu21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Tianshu
+    family: Chu
+  - given: Xinmeng
+    family: Li
+  - given: Huy V.
+    family: Vo
+  - given: Ronald M.
+    family: Summers
+  - given: Elena
+    family: Sizikova
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 60-73
+  id: chu21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 60
+  lastpage: 73
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays'
+  abstract: 'Motivation: Traditional image attribution methods struggle to satisfactorily explain predictions of neural networks. Prediction explanation is important, especially in medical imaging, for avoiding the unintended consequences of deploying AI systems when false positive predictions can impact patient care. Thus, there is a pressing need to develop improved models for model explainability and introspection.  Specific problem: A new approach is to transform input images to increase or decrease features which cause the prediction. However, current approaches are difficult to implement as they are monolithic or rely on GANs. These hurdles prevent wide adoption. Our approach: Given an arbitrary classifier, we propose a simple autoencoder and gradient update (Latent Shift) that can transform the latent representation of a specific input image to exaggerate or curtail the features used for prediction. We use this method to study chest X-ray classifiers and evaluate their performance. We conduct a reader study with two radiologists assessing 240 chest X-ray predictions to identify which ones are false positives (half are) using traditional attribution maps or our proposed method. Results: We found low overlap with ground truth pathology masks for models with reasonably high accuracy. However, the results from our reader study indicate that these models are generally looking at the correct features. We also found that the Latent Shift explanation allows a user to have more confidence in true positive predictions compared to traditional approaches (0.15$\pm$0.95 in a 5 point scale with p=0.01) with only a small increase in false positive predictions (0.04$\pm$1.06 with p=0.57). Accompanying webpage: https://mlmed.org/gifsplanation/ Source code: https://github.com/mlmed/gifsplanation'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/cohen21a.html
+  PDF: https://proceedings.mlr.press/v143/cohen21a/cohen21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-cohen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Joseph Paul
+    family: Cohen
+  - given: Rupert
+    family: Brooks
+  - given: Sovann
+    family: En
+  - given: Evan
+    family: Zucker
+  - given: Anuj
+    family: Pareek
+  - given: Matthew P.
+    family: Lungren
+  - given: Akshay
+    family: Chaudhari
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 74-104
+  id: cohen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 74
+  lastpage: 104
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Semantic similarity metrics for learned image registration'
+  abstract: 'We propose a semantic similarity metric for image registration. Existing metrics like euclidean distance or normalized cross-correlation focus on aligning intensity values, giving difficulties with low intensity contrast or noise. Our approach learns dataset-specific features that drive the optimization of a learning-based registration model. We train both an unsupervised approach using an auto-encoder, and a semi-supervised approach using supplemental segmentation data to extract semantic features for image registration. Comparing to existing methods across multiple image modalities and applications, we achieve consistently high registration accuracy. A learned invariance to noise gives smoother transformations on low-quality images.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/czolbe21a.html
+  PDF: https://proceedings.mlr.press/v143/czolbe21a/czolbe21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-czolbe21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Steffen
+    family: Czolbe
+  - given: Oswin
+    family: Krause
+  - given: Aasa
+    family: Feragen
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 105-118
+  id: czolbe21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 105
+  lastpage: 118
+  published: 2021-08-25 00:00:00 +0000
+- title: 'M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations'
+  abstract: 'We propose a multimodal graph convolutional network (M-GCN) that integrates resting-state fMRI connectivity and diffusion tensor imaging tractography to predict phenotypic measures. Our specialized M-GCN filters act topologically on the functional connectivity matrices, as guided by the subject-wise structural connectomes. The inclusion of structural information also acts as a regularizer and helps extract rich data embeddings that are predictive of clinical outcomes. We validate our framework on 275 healthy individuals from the Human Connectome Project and 57 individuals diagnosed with Autism Spectrum Disorder from an in-house data to predict cognitive measures and behavioral deficits respectively. We demonstrate that the M-GCN outperforms several state-of-the-art baselines in a five-fold cross validated setting and extracts predictive biomarkers from both healthy and autistic populations. Our framework thus provides the representational flexibility to exploit the complementary nature of structure and function and map this information to phenotypic measures in the presence of limited training data.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/dsouza21a.html
+  PDF: https://proceedings.mlr.press/v143/dsouza21a/dsouza21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-dsouza21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Niharika Shimona
+    family: Dsouza
+  - given: Mary Beth
+    family: Nebel
+  - given: Deana
+    family: Crocetti
+  - given: Joshua
+    family: Robinson
+  - given: Stewart
+    family: Mostofsky
+  - given: Archana
+    family: Venkataraman
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 119-130
+  id: dsouza21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 119
+  lastpage: 130
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details'
+  abstract: 'This paper presents MRPyrNet, a new convolutional neural network (CNN) architecture that improves the capabilities of CNN-based pipelines for knee injury detection via magnetic resonance imaging (MRI). Existing works showed that anomalies are localized in small-sized knee regions that appear in particular areas of MRI scans. Based on such facts, MRPyrNet exploits a Feature Pyramid Network to enhance small appearing features and Pyramidal Detail Pooling to capture such relevant information in a robust way. Experimental results on two publicly available datasets demonstrate that MRPyrNet improves the ACL tear and meniscal tear diagnosis capabilities of two state-of-the-art methodologies. Code is available at https://git.io/JtMPH.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/dunnhofer21a.html
+  PDF: https://proceedings.mlr.press/v143/dunnhofer21a/dunnhofer21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-dunnhofer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Matteo
+    family: Dunnhofer
+  - given: Niki
+    family: Martinel
+  - given: Christian
+    family: Micheloni
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 131-147
+  id: dunnhofer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 131
+  lastpage: 147
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Intensity Correction and Standardization for Electron Microscopy Data'
+  abstract: 'Intensity of acquired electron microscopy data is subjected to large variability due to the interplay of many different factors, such as microscope and camera settings used for data acquisition, sample thickness, specimen staining protocol and more. In this work, we developed an efficient method for performing intensity inhomogeneity correction on a single set of combined transmission electron microscopy (TEM) images and demonstrated its positive impact on training a neural network on these data. In addition, we investigated what impact different intensity standardization methods have on the training performance, both for data originating from a single source as well as from several different sources. As a concrete example, we considered the problem of segmenting mitochondria from EM data and demonstrated that we were able to obtain promising results when training our network on a large array of highly-variable in-house TEM data.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/dzyubachyk21a.html
+  PDF: https://proceedings.mlr.press/v143/dzyubachyk21a/dzyubachyk21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-dzyubachyk21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Oleh
+    family: Dzyubachyk
+  - given: Roman I
+    family: Koning
+  - given: Aat A
+    family: Mulder
+  - given: M. Christina
+    family: Avramut
+  - given: Frank GA
+    family: Faas
+  - given: Abraham J
+    family: Koster
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 148-157
+  id: dzyubachyk21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 148
+  lastpage: 157
+  published: 2021-08-25 00:00:00 +0000
+- title: 'A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation'
+  abstract: 'Deep convolutional networks recently made many breakthroughs in medical image segmentation. Still, some anatomical artefacts may be observed in the segmentation results, with holes or inaccuracies near the object boundaries. To address these issues, loss functions that incorporate constraints, such as spatial information or prior knowledge, have been introduced. An example of such prior losses are the contour-based losses, which exploit distance maps to conduct point-by-point optimization between ground-truth and predicted contours. However, such losses may be computationally expensive or susceptible to trivial local solutions and vanishing gradient problems. Moreover, they depend on distance maps which tend to underestimate the contour-to-contour distances. We propose a novel loss constraint that optimizes the perimeter length of the segmented object relative to the ground-truth segmentation. The novelty lies in computing the perimeter with a soft approximation of the contour of the probability map via specialized non-trainable layers in the network. Moreover, we optimize the mean squared error between the predicted perimeter length and ground-truth perimeter length. This soft optimization of contour boundaries allows the network to take into consideration border irregularities within organs while still being efficient. Our experiments on three public datasets (spleen, hippocampus and cardiac structures) show that the proposed method outperforms state-of-the-art boundary losses for both single and multi-organ segmentation.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/el-jurdi21a.html
+  PDF: https://proceedings.mlr.press/v143/el-jurdi21a/el-jurdi21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-el-jurdi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Rosana
+    family: EL Jurdi
+  - given: Caroline
+    family: Petitjean
+  - given: Paul
+    family: Honeine
+  - given: Veronika
+    family: Cheplygina
+  - given: Fahed
+    family: Abdallah
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 158-167
+  id: el-jurdi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 158
+  lastpage: 167
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Tailoring automated data augmentation to H&E-stained histopathology'
+  abstract: 'Convolutional neural networks (CNN) are sensitive to domain shifts, which can result in poor generalization. In medical imaging, data acquisition conditions differ among institutions, which leads to variations in image properties and thus domain shift. Stain variation in histopathological slides is a prominent example. Data augmentation is one way to make CNNs robust to varying forms of domain shift, but requires extensive hyperparameter tuning. Due to the large search space, this is cumbersome and often leads to sub-optimal generalization performance. In this work, we focus on automated and computationally efficient data augmentation policy selection for histopathological slides. Building upon the RandAugment framework, we introduce several domain-specific modifications relevant to histopathological images, increasing generalizability. We test these modifications on H&E-stained histopathology slides from Camelyon17 dataset. Our proposed framework outperforms the state-of-the-art manually engineered data augmentation strategy, achieving an area under the ROC curve of 0.964 compared to 0.958, respectively.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/faryna21a.html
+  PDF: https://proceedings.mlr.press/v143/faryna21a/faryna21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-faryna21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Khrystyna
+    family: Faryna
+  - given: Jeroen
+    prefix: van der
+    family: Laak
+  - given: Geert
+    family: Litjens
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 168-178
+  id: faryna21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 168
+  lastpage: 178
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss'
+  abstract: 'The tumor microenvironment is an area of intense interest in cancer research and may be a clinically actionable aspect of cancer care. One way to study the tumor microenvironment is to characterize the spatial interactions between various types of nuclei in cancer tissue from H&E whole slide images, which require nucleus segmentation and classification. Current methods of nucleus classification rely on extensive labeling from pathologists and are limited by the number of categories a nucleus can be classified into. In this work, leveraging existing nucleus segmentation and contrastive representation learning methods, we developed a method that learns vector embeddings of nuclei based on their morphology in histopathology images. We show that the embeddings learned by this model capture distinctive morphological features of nuclei and can be used to group them into meaningful subtypes. These embeddings can provide a much richer characterization of the statistics of the spatial distribution of nuclei in cancer and open new possibilities in the quantitative study of the tumor microenvironment.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/feng21a.html
+  PDF: https://proceedings.mlr.press/v143/feng21a/feng21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-feng21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chao
+    family: Feng
+  - given: Chad
+    family: Vanderbilt
+  - given: Thomas
+    family: Fuchs
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 179-189
+  id: feng21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 179
+  lastpage: 189
+  published: 2021-08-25 00:00:00 +0000
+- title: 'CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation'
+  abstract: 'Medical image segmentation models are typically supervised by expert annotations at the pixel-level, which can be expensive to acquire. In this work, we propose a method that combines the high quality of pixel-level expert annotations with the scale of coarse DNN-generated saliency maps for training multi-label semantic segmentation models. We demonstrate the application of our semi-supervised method, which we call CheXseg, on multi-label chest X-ray interpretation. We find that CheXseg improves upon the performance (mIoU) of fully-supervised methods that use only pixel-level expert annotations by 9.7% and weakly-supervised methods that use only DNN-generated saliency maps by 73.1%. Our best method is able to match radiologist agreement on three out of ten pathologies and reduces the overall performance gap by 57.2% as compared to weakly-supervised methods.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/gadgil21a.html
+  PDF: https://proceedings.mlr.press/v143/gadgil21a/gadgil21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-gadgil21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Soham Uday
+    family: Gadgil
+  - given: Mark
+    family: Endo
+  - given: Emily
+    family: Wen
+  - given: Andrew Y.
+    family: Ng
+  - given: Pranav
+    family: Rajpurkar
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 190-204
+  id: gadgil21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 190
+  lastpage: 204
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation'
+  abstract: 'The segmentation of cardiac structures in Cine Magnetic Resonance imaging (CMR) plays an important role in monitoring ventricular function, and many deep learning solutions have been introduced that successfully automate this task. Yet due to variabilities in the CMR acquisition process, images from different centers or acquisition protocols differ considerably. This causes deep learning models to fail silently. It is therefore crucial to identify out-of-distribution (OOD) samples for which the trained model is unsuitable. For models with a self-supervised proxy task, we propose a simple method to identify OOD samples that does not require adapting the model architecture or access to a separate OOD dataset during training. As the performance of self-supervised tasks can be assessed without ground truth information, it indicates during test time when a sample differs from the training distribution. The proposed method combines a voxel-wise uncertainty estimate with the self-supervision information. Our approach is validated across three CMR datasets and two different proxy tasks. We find that it is more effective at detecting OOD samples than state-of-the-art post-hoc OOD detection and uncertainty estimation approaches.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/gonzalez21a.html
+  PDF: https://proceedings.mlr.press/v143/gonzalez21a/gonzalez21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-gonzalez21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Camila
+    family: Gonzalez
+  - given: Anirban
+    family: Mukhopadhyay
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 205-218
+  id: gonzalez21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 205
+  lastpage: 218
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning'
+  abstract: 'With in-line holography, it is possible to record biological cells over time in a three-dimensional hydrogel without the need for staining, providing the capability of observing cell behavior in a minimally invasive manner. However, this setup currently requires computationally intensive image-reconstruction algorithms to determine the required cell statistics. In this work, we directly extract cell positions from the holographic data by using deep neural networks and thus avoid several reconstruction steps. We show that our method is capable of substantially decreasing the time needed to extract information from the raw data without loss in quality.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/gruening21a.html
+  PDF: https://proceedings.mlr.press/v143/gruening21a/gruening21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-gruening21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Philipp
+    family: Gruening
+  - given: Falk
+    family: Nette
+  - given: Noah
+    family: Heldt
+  - given: Ana Cristina Guerra
+    prefix: de
+    family: Souza
+  - given: Erhardt
+    family: Barth
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 219-227
+  id: gruening21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 219
+  lastpage: 227
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Membership Inference Attacks on Deep Regression Models for Neuroimaging'
+  abstract: 'Ensuring the privacy of research participants is vital, even more so in healthcare environments. Deep learning approaches to neuroimaging require large datasets, and this often necessitates sharing data between multiple sites, which is antithetical to the privacy objectives. Federated learning is a commonly proposed solution to this problem. It circumvents the need for data sharing by sharing parameters during the training process. However, we demonstrate that allowing access to parameters may leak private information even if data is never directly shared. In particular, we show that it is possible to infer if a sample was used to train the model given only access to the model prediction (black-box) or access to the model itself (white-box) and some leaked samples from the training data distribution. Such attacks are commonly referred to as \textit{Membership Inference attacks}. We show realistic Membership Inference attacks on deep learning models trained for 3D neuroimaging tasks in a centralized as well as decentralized setup. We demonstrate feasible attacks on brain age prediction models (deep learning models that predict a person’s age from their brain MRI scan). We correctly identified whether an MRI scan was used in model training with a 60% to over 80% success rate depending on model complexity and security assumptions.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/gupta21a.html
+  PDF: https://proceedings.mlr.press/v143/gupta21a/gupta21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-gupta21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Umang
+    family: Gupta
+  - given: Dimitris
+    family: Stripelis
+  - given: Pradeep K.
+    family: Lam
+  - given: Paul
+    family: Thompson
+  - given: Jose Luis
+    family: Ambite
+  - given: Greg Ver
+    family: Steeg
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 228-251
+  id: gupta21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 228
+  lastpage: 251
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/hagenah21a.html
+  PDF: https://proceedings.mlr.press/v143/hagenah21a/hagenah21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-hagenah21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jannis
+    family: Hagenah
+  - given: Floris
+    family: Ernst
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 252-267
+  id: hagenah21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 252
+  lastpage: 267
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model'
+  abstract: 'Weakly supervised segmentation is an important problem in medical image analysis due to the high cost of pixelwise annotation. Prior methods, while often focusing on weak labels of 2D images, exploit few structural cues of volumetric medical images. To address this, we propose a novel weakly-supervised segmentation strategy capable of better capturing 3D shape prior in both model prediction and learning. Our main idea is to extract a self-taught shape representation by leveraging weak labels, and then integrate this representation into segmentation prediction for shape refinement. To this end, we design a deep network consisting of a segmentation module and a shape denoising module, which are trained by an iterative learning strategy. Moreover, we introduce a weak annotation scheme with a hybrid label design for volumetric images, which improves model learning without increasing the overall annotation cost. The empirical experiments show that our approach outperforms existing SOTA strategies on three organ segmentation benchmarks with distinctive shape properties. Notably, we can achieve strong performance with even 10% labeled slices, which is significantly superior to other methods.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/he21a.html
+  PDF: https://proceedings.mlr.press/v143/he21a/he21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-he21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Qian
+    family: He
+  - given: Shuailin
+    family: Li
+  - given: Xuming
+    family: He
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 268-285
+  id: he21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 268
+  lastpage: 285
+  published: 2021-08-25 00:00:00 +0000
+- title: 'The OOD Blind Spot of Unsupervised Anomaly Detection'
+  abstract: 'Deep unsupervised generative models are regarded as a promising alternative to supervised counterparts in the field of MRI-based lesion detection. They denote a principled approach for detecting unseen types of anomalies without relying on large amounts of expensive ground truth annotations. To this end, deep generative models are trained exclusively on data from healthy patients and detect lesions as Out-of-Distribution (OOD) data at test time (i.e. low likelihood). While this is a promising way of bypassing the need for costly annotations, this work demonstrates that it also renders this widely used unsupervised anomaly detection approach particularly vulnerable to non-lesion-based OOD data (e.g. data from different sensors). Since models are likely to be exposed to such OOD data in production, it is crucial to employ safety mechanisms to filter for such samples and run inference only on input for which the model is able to provide reliable results. We first show extensively that conventional, unsupervised anomaly detection mechanisms fail when being presented with true OOD data. Secondly, we apply prior knowledge to disentangle lesion-based OOD from their non-lesion-based counterparts.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/heer21a.html
+  PDF: https://proceedings.mlr.press/v143/heer21a/heer21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-heer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Matthäus
+    family: Heer
+  - given: Janis
+    family: Postels
+  - given: Xiaoran
+    family: Chen
+  - given: Ender
+    family: Konukoglu
+  - given: Shadi
+    family: Albarqouni
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 286-300
+  id: heer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 286
+  lastpage: 300
+  published: 2021-08-25 00:00:00 +0000
+- title: 'CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning'
+  abstract: 'Digital pathology has enabled us to capture, store and analyze scanned biopsy samples as digital images. Recent advances in deep learning are contributing to computational pathology to improve diagnosis and treatment. However, considering challenges inherent to whole slide images (WSIs), it is not easy to employ deep learning in digital pathology. More importantly, computational bottlenecks induced by the gigapixel WSIs make it difficult to use deep learning for end-to-end image representation. To mitigate this challenge, many patch-based approaches have been proposed. Although patching WSIs enables us to use deep learning, we end up with a bag of patches or set representation which makes downstream tasks non-trivial. More importantly, considering set representation per WSI, it is not clear how one can obtain similarity between two WSIs (sets) for tasks like image search matching. To address this challenge, we propose a neural network based on Convolutions Neural Network (CNN) and Deep Sets to learn one permutation invariant vector representation per WSI in an end-to-end manner. Considering available labels at the WSI level - namely, primary site and cancer subtypes - we train the proposed network in a multi-label setting to encode both primary site and diagnosis. Having in mind that every primary site has its own specific cancer subtypes, we propose to use the predicted label for the primary site to recognize the cancer subtype. The proposed architecture is used for transfer learning of WSIs and validated two different tasks, i.e., search and classification. The results show that the proposed architecture can be used to obtain WSI representations that achieve better performance both in terms of retrieval performance and search time against \emph{Yottixel}, a recently developed search engine for pathology images. Further, the model achieved competitive performance against the state-of-art in lung cancer classification.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/hemati21a.html
+  PDF: https://proceedings.mlr.press/v143/hemati21a/hemati21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-hemati21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Sobhan
+    family: Hemati
+  - given: Shivam
+    family: Kalra
+  - given: Cameron
+    family: Meaney
+  - given: Morteza
+    family: Babaie
+  - given: Ali
+    family: Ghodsi
+  - given: Hamid
+    family: Tizhoosh
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 301-311
+  id: hemati21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 301
+  lastpage: 311
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies'
+  abstract: 'In follow-up CT examinations of cancer patients, therapy success is evaluated by estimating the change in tumor size. This process is time-consuming and error-prone. We present a pipeline that automates the segmentation and measurement of matching lesions, given a point annotation in the baseline lesion. First, a region around the point annotation is extracted, in which a deep-learning-based segmentation of the lesion is performed. Afterward, a registration algorithm finds the corresponding image region in the follow-up scan and the convolutional neural network segments lesions inside this region. In the final step, the corresponding lesion is selected. We evaluate our pipeline on clinical follow-up data comprising 125 soft-tissue lesions from 43 patients with metastatic melanoma. Our pipeline succeeded for $96%$ of the baseline and $80%$ of the follow-up lesions, showing that we have laid the foundation for an efficient quantitative follow-up assessment in clinical routine.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/hering21a.html
+  PDF: https://proceedings.mlr.press/v143/hering21a/hering21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-hering21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Alessa
+    family: Hering
+  - given: Felix
+    family: Peisen
+  - given: Teresa
+    family: Amaral
+  - given: Sergios
+    family: Gatidis
+  - given: Thomas
+    family: Eigentler
+  - given: Ahmed
+    family: Othman
+  - given: Jan Hendrik
+    family: Moltz
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 312-326
+  id: hering21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 312
+  lastpage: 326
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features'
+  abstract: 'Artifacts, blur, and noise are the common distortions degrading MRI images during the acquisition process, and deep neural networks have been demonstrated to help in improving image quality. To well exploit global structural information and self-similarity details, we propose a novel MR image enhancement network, named Feedback Graph Attention Convolutional Network (FB-GACN). As a key innovation, we consider the global structure of an image by building a graph network from image sub-regions that we consider to be node features, linking them non-locally according to their similarity. The proposed model consists of three main parts: 1) The parallel graph similarity branch and content branch, where the graph similarity branch aims at exploiting the similarity and symmetry across different image sub-regions in low-resolution feature space and provides additional priors for the content branch to enhance texture details. 2) A feedback mechanism with a recurrent structure to refine low-level representations with high-level information and generate powerful high-level texture details by handling the feedback connections.  3) A reconstruction to remove the artifacts and recover super-resolution images by using the estimated sub-region self-similarity priors obtained from the graph similarity branch. We evaluate our method on two image enhancement tasks: i) cross-protocol super resolution of diffusion MRI; ii) artifact removal of FLAIR MR images. Experimental results demonstrate that the proposed algorithm outperforms the state-of-the-art methods.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/hu21a.html
+  PDF: https://proceedings.mlr.press/v143/hu21a/hu21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-hu21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiaobin
+    family: Hu
+  - given: Yanyang
+    family: Yan
+  - given: Wenqi
+    family: Ren
+  - given: Hongwei
+    family: Li
+  - given: Amirhossein
+    family: Bayat
+  - given: Yu
+    family: Zhao
+  - given: Bjoern
+    family: Menze
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 327-337
+  id: hu21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 327
+  lastpage: 337
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning'
+  abstract: 'Transfer learning from ImageNet is the go-to approach when applying deep learning to medical images. The approach is either to fine-tune a pre-trained model or use it as a feature extractor. Most modern architecture contain batch normalisation layers, and fine-tuning a model with such layers requires taking a few precautions as they consist of trainable and non-trainable weights and have two operating modes: training and inference. Attention is primarily given to the non-trainable weights used during inference, as they are the primary source of unexpected behaviour or degradation in performance during transfer learning. It is typically recommended to fine-tune the model with the batch normalisation layers kept in inference mode during both training and inference. In this paper, we pay closer attention instead to the trainable weights of the batch normalisation layers, and we explore their expressive influence in the context of transfer learning.  We find that only fine-tuning the trainable weights (scale and centre) of the batch normalisation layers leads to similar performance as to fine-tuning all of the weights, with the added benefit of faster convergence. We demonstrate this on a variety of seven publicly available medical imaging datasets, using four different model architectures.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/kanavati21a.html
+  PDF: https://proceedings.mlr.press/v143/kanavati21a/kanavati21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-kanavati21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Fahdi
+    family: Kanavati
+  - given: Masayuki
+    family: Tsuneki
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 338-353
+  id: kanavati21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 338
+  lastpage: 353
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Beyond pixel-wise supervision for segmentation: A few global shape descriptors might be surprisingly good!'
+  abstract: 'Standard losses for training deep segmentation networks could be seen as individual classifications of pixels, instead of supervising the global shape of the predicted segmentations. While effective, they require exact knowledge of the label of each pixel in an image. This study investigates how effective global geometric shape descriptors could be, when used on their own as segmentation losses for training deep networks. Not only interesting theoretically, there exist deeper motivations to posing segmentation problems as a reconstruction of shape descriptors: First, annotations to obtain approximations of low-order shape moments could be much less cumbersome than their full-mask counterparts, and anatomical priors could be readily encoded into invariant shape descriptions, which might alleviate the annotation burden. Also, some shape descriptors could be readily used to “encode” biomarkers, leading to better interpretability. Finally, and most importantly, we hypothesize that, given a task, certain shape descriptions might be invariant across image acquisition protocols/modalities and subject populations, which might open interesting research avenues for generalization in medical image segmentation. We introduce and formulate a few shape descriptors in the context of deep segmentation, and evaluate their potential as stand-alone losses on two different, challenging tasks. Inspired by recent works in constrained optimization for deep networks, we propose a way to use those descriptors to supervise segmentation, without any pixel-level label. Very surprisingly, as little as 4 descriptors values per class can approach the performance of a segmentation mask with 65k individual discrete labels. We also found that shape descriptors can be a valid way to encode anatomical priors about the task, enabling to leverage expert knowledge without requiring additional annotations. Our implementation is publicly available and can be easily extended.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/kervadec21a.html
+  PDF: https://proceedings.mlr.press/v143/kervadec21a/kervadec21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-kervadec21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hoel
+    family: Kervadec
+  - given: Houda
+    family: Bahig
+  - given: Laurent
+    family: Letourneau-Guillon
+  - given: Jose
+    family: Dolz
+  - given: Ismail Ben
+    family: Ayed
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 354-368
+  id: kervadec21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 354
+  lastpage: 368
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Feature-based image registration in structured light endoscopy'
+  abstract: 'Images offer a two-dimensional (2D) representation of a three-dimensional (3D) environment. However, in many biomedical tasks, a 3D view is crucial for diagnosis. Projecting structured light, such as a regular laser grid, onto the surface of interest allows to reconstruct its 3D structure. For reconstruction, it is crucial to correctly identify and assign each laser ray to its respective position in the laser grid. Current methods for this task use semi-automatic, yet highly manual annotations. Hence, a fully automatic, reliable method is desired. Here, we show that this assignment can be approached as an image registration. We first separate the laser rays from the background using semantic segmentation. We found that registration of the extracted laser rays directly to the fixed laser grid image fails, when we use state-of-the-art intensity-based image registration techniques, such as ANTs. Using our feature-based custom loss and a deep neural network, we are able to use a U-Net-like architecture to compute deformation fields to successfully register the laser rays onto the fixed image accompanied with a custom post-processing sorting step. Using synthetic data, we show that the network is in general able to learn affine and non-linear transformations. Our method is also robust to missing or occluded rays. Using an ex vivo dataset, we achieved an registration accuracy of 91%. In summary, we provide a new platform to perform feature-based registration and showcase this on a biomedical dataset. In future, we will evaluate different architectural designs and more complex datasets.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/kist21a.html
+  PDF: https://proceedings.mlr.press/v143/kist21a/kist21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-kist21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Andreas M
+    family: Kist
+  - given: Julian
+    family: Zilker
+  - given: Michael
+    family: Döllinger
+  - given: Marion
+    family: Semmler
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 369-383
+  id: kist21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 369
+  lastpage: 383
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network'
+  abstract: 'Automated analyses of chest imaging in Coronavirus Disease 2019 (COVID-19) have largely focused on a single timepoint, usually at disease presentation, and have not explicitly taken into account temporal disease manifestations. We present a deep learning-based approach for prediction of imaging progression from serial chest radiographs (CXRs) of COVID-19 patients. Our method first utilizes convolutional neural networks (CNNs) for feature extraction from patches within the concerned lung zone, and also from neighboring areas to enhance the contextual phenotypic information. The framework further incorporates two distinct spatio-temporal Long Short Term Memory (LSTM) modules for effective predictions. The first LSTM module captures spatial dependencies between patches and the second exploits the temporal context of sequential CXR scans. The resulting network focuses on critical image regions that provide relevant information for learning the progression of lung infiltrates without the explicit need for infiltrate segmentation. The second LSTM provides an encoded context vector used as an input to a decoder module to predict future severity grades. Our novel multi-institutional dataset comprises sequential CXR scans from N=100 patients. Specifically, our framework predicts zone-wise disease severity for a patient on the last day by learning representations from the previous temporal CXRs. We design two baseline approaches - one using fine-tuned VGG-16 features and the other using radiomic descriptors. Experimental results demonstrate that our proposed approach outperforms both baselines in average accuracy by 10.33% and 12.16%, respectively, in predicting COVID-19 progression severity.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/konwer21a.html
+  PDF: https://proceedings.mlr.press/v143/konwer21a/konwer21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-konwer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Aishik
+    family: Konwer
+  - given: Joseph
+    family: Bae
+  - given: Gagandeep
+    family: Singh
+  - given: Rishabh
+    family: Gattu
+  - given: Syed
+    family: Ali
+  - given: Jeremy
+    family: Green
+  - given: Tej
+    family: Phatak
+  - given: Amit
+    family: Gupta
+  - given: Chao
+    family: Chen
+  - given: Joel
+    family: Saltz
+  - given: Prateek
+    family: Prasanna
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 384-398
+  id: konwer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 384
+  lastpage: 398
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Embedding-based Instance Segmentation in Microscopy'
+  abstract: 'Automatic detection and segmentation of objects in 2D and 3D microscopy data is important for countless biomedical applications. In the natural image domain, spatial embedding-based instance segmentation methods are known to yield high-quality results, but their utility for segmenting microscopy data is currently little researched. Here we introduce EmbedSeg, an embedding-based instance segmentation method which outperforms existing state-of-the-art baselines on 2D as well as 3D microscopy datasets. Additionally, we show that EmbedSeg has a GPU memory footprint small enough to train even on laptop GPUs, making it accessible to virtually everyone. Finally, we introduce four new 3D microscopy datasets, which we make publicly available alongside ground truth training labels. Our open-source implementation is available at https://github.com/juglab/EmbedSeg.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/lalit21a.html
+  PDF: https://proceedings.mlr.press/v143/lalit21a/lalit21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-lalit21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Manan
+    family: Lalit
+  - given: Pavel
+    family: Tomancak
+  - given: Florian
+    family: Jug
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 399-415
+  id: lalit21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 399
+  lastpage: 415
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Benefits of Linear Conditioning for Segmentation using Metadata'
+  abstract: 'Medical images are often accompanied by metadata describing the image (vendor, acquisition parameters) and the patient (disease type or severity, demographics, genomics). This metadata is usually disregarded by image segmentation methods. In this work, we adapt a linear conditioning method called FiLM (Feature-wise Linear Modulation) for image segmentation tasks. This FiLM adaptation enables integrating metadata into segmentation models for better performance. We observed an average Dice score increase of 5.1% on spinal cord tumor segmentation when incorporating the tumor type with FiLM. The metadata modulates the segmentation process through low-cost affine transformations applied on feature maps which can be included in any neural network’s architecture. Additionally, we assess the relevance of segmentation FiLM layers for tackling common challenges in medical imaging: training with limited or unbalanced number of annotated data, multi-class training with missing segmentations, and model adaptation to multiple tasks. Our results demonstrated the following benefits of FiLM for segmentation: FiLMed U-Net was robust to missing labels and reached higher Dice scores with few labels (up to 16.7%) compared to single-task U-Net. The code is open-source and available at www.ivadomed.org.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/lemay21a.html
+  PDF: https://proceedings.mlr.press/v143/lemay21a/lemay21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-lemay21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Andreanne
+    family: Lemay
+  - given: Charley
+    family: Gros
+  - given: Olivier
+    family: Vincent
+  - given: Yaou
+    family: Liu
+  - given: Joseph Paul
+    family: Cohen
+  - given: Julien
+    family: Cohen-Adad
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 416-430
+  id: lemay21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 416
+  lastpage: 430
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Improved model-based deep learning for quantitative susceptibility mapping'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/liu21a.html
+  PDF: https://proceedings.mlr.press/v143/liu21a/liu21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-liu21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Juan
+    family: Liu
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 431-450
+  id: liu21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 431
+  lastpage: 450
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis'
+  abstract: 'In the last few years, deep learning classifiers have shown promising results in image-based medical diagnosis. However, interpreting the outputs of these models remains a challenge. In cancer diagnosis, interpretability can be achieved by localizing the region of the input image responsible for the output, i.e. the location of a lesion. Alternatively, segmentation or detection models can be trained with pixel-wise annotations indicating the locations of malignant lesions. Unfortunately, acquiring such labels is labor-intensive and requires medical expertise. To overcome this difficulty, weakly-supervised localization can be utilized. These methods allow neural network classifiers to output saliency maps highlighting the regions of the input most relevant to the classification task (e.g. malignant lesions in mammograms) using only image-level labels (e.g. whether the patient has cancer or not) during training. When applied to high-resolution images, existing methods produce low-resolution saliency maps. This is problematic in applications in which suspicious lesions are small in relation to the image size. In this work, we introduce a novel neural network architecture to perform weakly-supervised segmentation of high-resolution images. The proposed model selects regions of interest via coarse-level localization, and then performs fine-grained segmentation of those regions. We apply this model to breast cancer diagnosis with screening mammography, and validate it on a large clinically-realistic dataset. Measured by Dice similarity score, our approach outperforms existing methods by a large margin in terms of localization performance of benign and malignant lesions, relatively improving the performance by 39.6% and 20.0%, respectively. Code and the weights of some of the models are available at https://github.com/nyukat/GLAM'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/liu21b.html
+  PDF: https://proceedings.mlr.press/v143/liu21b/liu21b.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-liu21b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Kangning
+    family: Liu
+  - given: Yiqiu
+    family: Shen
+  - given: Nan
+    family: Wu
+  - given: Jakub Piotr
+    family: Chłędowski
+  - given: Carlos
+    family: Fernandez-Granda
+  - given: Krzysztof J.
+    family: Geras
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 451-472
+  id: liu21b
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 451
+  lastpage: 472
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Distill DSM: Computationally efficient method for segmentation of medical imaging volumes'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/maheshwari21a.html
+  PDF: https://proceedings.mlr.press/v143/maheshwari21a/maheshwari21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-maheshwari21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Harsh
+    family: Maheshwari
+  - given: Vidit
+    family: Goel
+  - given: Ramanathan
+    family: Sethuraman
+  - given: Debdoot
+    family: Sheet
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 473-483
+  id: maheshwari21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 473
+  lastpage: 483
+  published: 2021-08-25 00:00:00 +0000
+- title: 'An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs'
+  abstract: 'The quality of radiographs is of major importance for diagnosis and treatment planning. While most research regarding automated radiograph quality assessment uses technical features such as noise or contrast, we propose to use anatomical structures as more appropriate features. We show that based on such anatomical features, a modular deep-learning framework can serve as a quality control mechanism for the diagnostic quality of ankle radiographs. For evaluation, a dataset consisting of 950 ankle radiographs was collected and their quality was labeled by radiologists. We obtain an average accuracy of 94.1%, which is better than the expert radiologists are on average.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/mairhofer21a.html
+  PDF: https://proceedings.mlr.press/v143/mairhofer21a/mairhofer21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-mairhofer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Dominik
+    family: Mairhöfer
+  - given: Manuel
+    family: Laufer
+  - given: Paul Martin
+    family: Simon
+  - given: Malte
+    family: Sieren
+  - given: Arpad
+    family: Bischof
+  - given: Thomas
+    family: Käster
+  - given: Erhardt
+    family: Barth
+  - given: Jörg
+    family: Barkhausen
+  - given: Thomas
+    family: Martinetz
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 484-496
+  id: mairhofer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 484
+  lastpage: 496
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder'
+  abstract: 'Age-related morphological brain changes are known to be different in healthy and disease-affected aging. Biological brain age estimation from MRI scans is a common way to quantify this effect whereas differences between biological and chronological age indicate degenerative processes. The ability to visualize and analyze the morphological age-related changes in the image space directly is essential to improve the understanding of brain aging. In this work, we propose a novel deep learning based approach to unify biological brain age estimation and age-conditioned template creation in a single, consistent model. We achieve this by developing a deterministic autoencoder that successfully disentangles age-related morphological changes and subject-specific variations. This allows its use as a brain age regressor as well as a generative brain aging model. The proposed approach demonstrates accurate biological brain age prediction, and realistic generation of age-conditioned brain templates and simulated age-specific brain images when applied to a database of more than 2000 subjects.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/mouches21a.html
+  PDF: https://proceedings.mlr.press/v143/mouches21a/mouches21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-mouches21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Pauline
+    family: Mouches
+  - given: Matthias
+    family: Wilms
+  - given: Deepthi
+    family: Rajashekar
+  - given: Sonke
+    family: Langner
+  - given: Nils
+    family: Forkert
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 497-506
+  id: mouches21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 497
+  lastpage: 506
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Learning Interclass Relations for Intravenous Contrast Phase Classification in CT'
+  abstract: 'In classification, categories are typically treated as independent of one-another. In many problems, however, this neglects the natural relations that exist between categories, which are often dictated by an underlying biological or physical process. In this work, we propose novel formulations of the classification problem, aimed at reintroducing class relations into the training process. We demonstrate the benefit of these approaches for the classification of intravenous contrast enhancement phase in CT images, an important task in the medical imaging domain. First, we propose manual ways reintroduce knowledge about problem-specific interclass relations into the training process. Second, we propose a general approach to jointly learn categorical label representations that can implicitly encode natural interclass relations, alleviating the need for strong prior assumptions or knowledge. We show that these improvements are most significant for smaller training sets, typical in the medical imaging domain where access to large amounts of labelled data is often not trivial.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/muhamedrahimov21a.html
+  PDF: https://proceedings.mlr.press/v143/muhamedrahimov21a/muhamedrahimov21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-muhamedrahimov21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Raouf
+    family: Muhamedrahimov
+  - given: Amir
+    family: Bar
+  - given: Ayelet
+    family: Akselrod-Ballin
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 507-519
+  id: muhamedrahimov21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 507
+  lastpage: 519
+  published: 2021-08-25 00:00:00 +0000
+- title: 'EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting'
+  abstract: 'Histopathology-based survival modelling has two major hurdles. Firstly, a well-performing survival model has minimal clinical application if it does not contribute to the stratification of a cancer patient cohort into different risk groups, preferably driven by histologic morphologies. In the clinical setting, individuals are not given specific prognostic predictions, but are rather predicted to lie within a risk group which has a general survival trend. Thus, It is imperative that a survival model produces well-stratified risk groups. Secondly, until now, survival modelling was done in a two-stage approach (encoding and aggregation). EPIC-Survival bridges encoding and aggregation into an end-to-end survival modelling approach, while introducing stratification boosting to encourage the model to not only optimize ranking, but also to discriminate between risk groups. In this study we show that EPIC-Survival performs better than other approaches in modelling intrahepatic cholangiocarcinoma (ICC), a historically difficult cancer to model. We found that stratification boosting further improves model performance and helps identify specific histologic differences, not commonly sought out in ICC.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/muhammad21a.html
+  PDF: https://proceedings.mlr.press/v143/muhammad21a/muhammad21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-muhammad21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hassan
+    family: Muhammad
+  - given: Chensu
+    family: Xie
+  - given: Carlie S
+    family: Sigel
+  - given: Michael
+    family: Doukas
+  - given: Lindsay
+    family: Alpert
+  - given: Amber Lea
+    family: Simpson
+  - given: Thomas J
+    family: Fuchs
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 520-531
+  id: muhammad21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 520
+  lastpage: 531
+  published: 2021-08-25 00:00:00 +0000
+- title: '“Train one, Classify one, Teach one” - Cross-surgery transfer learning for surgical step recognition'
+  abstract: 'Prior work demonstrated the ability of machine learning to automatically recognize surgical workflow steps from videos. However, these studies focused on only a single type of procedure. In this work, we analyze, for the first time, surgical step recognition on four different laparoscopic surgeries: Cholecystectomy, Right Hemicolectomy, Sleeve Gastrectomy, and Appendectomy. Inspired by the traditional apprenticeship model, in which surgical training is based on the Halstedian method, we paraphrase the “see one, do one, teach one” approach for the surgical intelligence domain as “train one, classify one, teach one”. In machine learning, this approach is often referred to as transfer learning. To analyze the impact of transfer learning across different laparoscopic procedures, we explore various time-series architectures and examine their performance on each target domain. We introduce a new architecture, the Time-Series Adaptation Network (TSAN), an architecture optimized for transfer learning of surgical step recognition, and we show how TSAN can be pre-trained using self-supervised learning on a Sequence Sorting task. Such pre-training enables TSAN to learn workflow steps of a new laparoscopic procedure type from only a small number of labeled samples from the target procedure. Our proposed architecture leads to better performance compared to other possible architectures, reaching over 90% accuracy when transferring from laparoscopic Cholecystectomy to the other three procedure types.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/neimark21a.html
+  PDF: https://proceedings.mlr.press/v143/neimark21a/neimark21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-neimark21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Daniel
+    family: Neimark
+  - given: Omri
+    family: Bar
+  - given: Maya
+    family: Zohar
+  - given: Gregory D.
+    family: Hager
+  - given: Dotan
+    family: Asselmann
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 532-544
+  id: neimark21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 532
+  lastpage: 544
+  published: 2021-08-25 00:00:00 +0000
+- title: 'GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation'
+  abstract: 'Deep learning in medical image analysis often requires an extensive amount of high-quality labeled data for training to achieve Human-level accuracy. We propose Gist-set Online Active Learning (GOAL), a novel solution for limited high-quality labeled data in medical imaging analysis. Our approach advances the existing active learning methods in three aspects. Firstly, we improve the classification performance with fewer manual annotations by presenting a sample selection strategy called gist set selection. Secondly, unlike traditional methods focusing only on random uncertain samples of low prediction confidence, we propose a new method in which only informative uncertain samples are selected for human annotation. Thirdly, we propose an application of online learning where high-confidence samples are automatically selected, iteratively assigned, and pseudo-labels are updated. We validated our approach on two private and one public dataset. The experimental results show that, by applying GOAL, we can reduce required labeled data up to 88% while maintaining the same F1 scores compared to the models trained on full datasets'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/nguyen21a.html
+  PDF: https://proceedings.mlr.press/v143/nguyen21a/nguyen21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-nguyen21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Chanh
+    family: Nguyen
+  - given: Minh Thanh
+    family: Huynh
+  - given: Minh Quan
+    family: Tran
+  - given: Ngoc Hoang
+    family: Nguyen
+  - given: Mudit
+    family: Jain
+  - given: Van Doan
+    family: Ngo
+  - given: Tan Duc
+    family: Vo
+  - given: Trung
+    family: Bui
+  - given: Steven Quoc Hung
+    family: Truong
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 545-553
+  id: nguyen21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 545
+  lastpage: 553
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Balanced sampling for an object detection problem - application to fetal anatomies detection'
+  abstract: 'In this paper, we propose a novel approach to overcome the problem of imbalanced datasets for object detection tasks, when the distribution is not uniform over all classes. The general idea is to compute a probability vector, encoding the probability for each image to be fed to the network during the training phase. This probability vector is computed by solving some quadratic optimization problem and ensures that all classes are seen with similar frequency. We apply this method to a fetal anatomies detection problem, and conduct a thorough statistical analysis of the resulting performance to show that it performs significantly better than two baseline models: one with images sampled uniformly and one implementing classical oversampling.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/olivier21a.html
+  PDF: https://proceedings.mlr.press/v143/olivier21a/olivier21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-olivier21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Antoine
+    family: Olivier
+  - given: Caroline
+    family: Raynaud
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 554-566
+  id: olivier21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 554
+  lastpage: 566
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Explainable Image Quality Analysis of Chest X-Rays'
+  abstract: 'Medical image quality assessment is an important aspect of image acquisition where poor-quality images may lead to misdiagnosis. In addition, manual labelling of image quality after the acquisition is often tedious and can lead to some misleading results. Despite much research on the automated analysis of image quality for tackling this problem, relatively little work has been done for the explanation of the methodologies. In this work, we propose an explainable image quality assessment system and validate our idea on foreign objects in a Chest X-Ray (Object-CXR) dataset. Our explainable pipeline relies on NormGrad, an algorithm, which can efficiently localize the image quality issues with saliency maps of the classifier. We compare our method with a range of saliency detection methods and illustrate the superior performance of NormGrad by obtaining a Pointing Game accuracy of 0.862 on the test dataset of the Object-CXR dataset. We also verify our findings through a qualitative analysis by visualizing attention maps for foreign objects on X-Ray images.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/ozer21a.html
+  PDF: https://proceedings.mlr.press/v143/ozer21a/ozer21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-ozer21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Caner
+    family: Ozer
+  - given: Ilkay
+    family: Oksuz
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 567-580
+  id: ozer21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 567
+  lastpage: 580
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Localizing Neurosurgical Instruments Across Domains and in the Wild'
+  abstract: 'Towards computer-assisted neurosurgery, robust methods for instrument localization on neurosurgical microscope video data are needed. Specifically for neurosurgical data, challenges arise from visual conditions such as strong blur and from an unknowingly large variety of instrument types. For neurosurgical domain, instrument localization methods must generalize across different sub-disciplines such as cranial tumor and aneurysm surgeries which exhibit different visual properties. We present and evaluate a methodology towards robust instrument tip localization for neurosurgical microscope data, formulated as coarse saliency prediction. For our analysis, we build a comprehensive dataset comprising in-the-wild data from several neurosurgical sub-disciplines as well as phantom surgeries. Comparing single stream networks using either image or optical flow information, we find complementary performance of both networks. Plain optical flow enables better cross-domain generalization, while the image-based network performs better on surgeries from the training domain. Based on these findings, we present a two-stream architecture that fuses image and optical flow information to utilize the complementary performance of both. Being trained on tumor surgeries, our architecture outperforms both single stream networks and shows improved robustness on data from different neurosurgical sub-disciplines. From our findings, future work must focus more on how to incorporate optical flow information into fusion architectures to further improve cross-domain generalization.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/philipp21a.html
+  PDF: https://proceedings.mlr.press/v143/philipp21a/philipp21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-philipp21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Markus
+    family: Philipp
+  - given: Anna
+    family: Alperovich
+  - given: Marielena
+    family: Gutt-Will
+  - given: Andrea
+    family: Mathis
+  - given: Stefan
+    family: Saur
+  - given: Andreas
+    family: Raabe
+  - given: Franziska
+    family: Mathis-Ullrich
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 581-595
+  id: philipp21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 581
+  lastpage: 595
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Unsupervised Brain Anomaly Detection and Segmentation with Transformers'
+  abstract: 'Pathological brain appearances may be so heterogeneous as to be intelligible only as anomalies, defined by their deviation from normality rather than any specific pathological characteristic. Amongst the hardest tasks in medical imaging, detecting such anomalies requires models of the normal brain that combine compactness with the expressivity of the complex, long-range interactions that characterise its structural organisation. These are requirements transformers have arguably greater potential to satisfy than other current candidate architectures, but their application has been inhibited by their demands on data and computational resource. Here we combine the latent representation of vector quantised variational autoencoders with an ensemble of autoregressive transformers to enable unsupervised anomaly detection and segmentation defined by deviation from healthy brain imaging data, achievable at low computational cost, within relative modest data regimes. We compare our method to current state-of-the-art approaches across a series of experiments involving synthetic and real pathological lesions. On real lesions, we train our models on 15,000 radiologically normal participants from UK Biobank, and evaluate performance on four different brain MR datasets with small vessel disease, demyelinating lesions, and tumours. We demonstrate superior anomaly detection performance both image-wise and pixel-wise, achievable without post-processing. These results draw attention to the potential of transformers in this most challenging of imaging tasks.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/pinaya21a.html
+  PDF: https://proceedings.mlr.press/v143/pinaya21a/pinaya21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-pinaya21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Walter Hugo Lopez
+    family: Pinaya
+  - given: Petru-Daniel
+    family: Tudosiu
+  - given: Robert
+    family: Gray
+  - given: Geraint
+    family: Rees
+  - given: Parashkev
+    family: Nachev
+  - given: Sébastien
+    family: Ourselin
+  - given: M. Jorge
+    family: Cardoso
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 596-617
+  id: pinaya21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 596
+  lastpage: 617
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping'
+  abstract: 'Subject motion is one of the major challenges in clinical routine MR imaging. Despite ongoing research, motion correction has remained a complex problem without a universal solution. In advanced quantitative MR techniques, such as MR Fingerprinting, motion does not only affect a single image, like in single-contrast MRI, but disrupts the entire temporal evolution of the magnetization and causes parameter quantification errors due to a mismatch between the acquired and simulated signals. In this work, we present a deep learning-empowered retrospective motion correction for rapid 3D whole-brain multiparametric MRI based on Quantitative Transient-state Imaging (QTI). We propose a patch-based 3D multiscale convolutional neural network (CNN) that learns the residual error, i.e. after initial navigator-based correction, between motion-affected quantitative T1, T2 and proton density maps and their motion-free counterparts. For efficient model training despite limited data availability, we propose a physics-informed simulation to apply continuous motion-patterns to motion-free data. We evaluate the performance of the residual CNN on 1.5T and 3T MRI data of ten healthy volunteers. We analyze the generalizability of the model when applied to real clinical cases, including pediatric and adult patients with large brain lesions. Our study demonstrates that image quality can be significantly improved after correcting for subject motion. This has important implications in clinical setups where large amounts of motion affected data must be discarded.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/pirkl21a.html
+  PDF: https://proceedings.mlr.press/v143/pirkl21a/pirkl21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-pirkl21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Carolin
+    family: Pirkl
+  - given: Matteo
+    family: Cencini
+  - given: Jan W.
+    family: Kurzawski
+  - given: Diana
+    family: Waldmannstetter
+  - given: Hongwei
+    family: Li
+  - given: Anjany
+    family: Sekuboyina
+  - given: Sebastian
+    family: Endt
+  - given: Luca
+    family: Peretti
+  - given: Graziella
+    family: Donatelli
+  - given: Rosa
+    family: Pasquariello
+  - given: Michela
+    family: Tosetti
+  - given: Mauro
+    family: Costagli
+  - given: Guido
+    family: Buonincontri
+  - given: Marion I.
+    family: Menzel
+  - given: Bjoern H.
+    family: Menze
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 618-632
+  id: pirkl21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 618
+  lastpage: 632
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification'
+  abstract: 'Chlamydia trachomatous is an infectious ocular condition that can cause the eyelid to turn inward so that one or more eyelashes touch the eyeball, a condition call trachomatous trichiasis (TT), which can lead to blindness. Community-based screeners are used in rural areas to identify patients with TT, who can then be referred for proper medical care. Having automatic methods to detect TT will reduce the amount of time required to train screeners and improve accuracy of detection. This paper proposes a method to automatically identify regions of an eye and identify TT, using photographs taken with smartphones in the field. The attention-based gated deep learning networks in combination with a regionidentification network can identify TT with an accuracy of 91%, sensitivity of 92% and specificity of 87%, showing that these methods have the potential to be deployed in the field.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/prieto21a.html
+  PDF: https://proceedings.mlr.press/v143/prieto21a/prieto21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-prieto21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Juan Carlos
+    family: Prieto
+  - given: Hina
+    family: Shah
+  - given: Kasey
+    family: Jones
+  - given: Robert F
+    family: Chew
+  - given: Hashiya M.
+    family: Kana
+  - given: Jerusha
+    family: Weaver
+  - given: Rebecca M.
+    family: Flueckiger
+  - given: Scott
+    family: McPherson
+  - given: Emily W.
+    family: Gower
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 633-644
+  id: prieto21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 633
+  lastpage: 644
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Learning Diffeomorphic and Modality-invariant Registration using B-splines'
+  abstract: 'We present a deep learning (DL) registration framework for fast mono-modal and multi-modal image registration using differentiable mutual information and diffeomorphic B-spline free-form deformation (FFD). Deep learning registration has been shown to achieve competitive accuracy and significant speedups from traditional iterative registration methods. In this paper, we propose to use a B-spline FFD parameterisation of Stationary Velocity Field (SVF) to in DL registration in order to achieve smooth diffeomorphic deformation while being computationally-efficient. In contrast to most DL registration methods which use intensity similarity metrics that assume linear intensity relationship, we apply a differentiable variant of a classic similarity metric, mutual information, to achieve robust mono-modal and multi-modal registration. We carefully evaluated our proposed framework on mono- and multi-modal registration using 3D brain MR images and 2D cardiac MR images.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/qiu21a.html
+  PDF: https://proceedings.mlr.press/v143/qiu21a/qiu21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-qiu21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Huaqi
+    family: Qiu
+  - given: Chen
+    family: Qin
+  - given: Andreas
+    family: Schuh
+  - given: Kerstin
+    family: Hammernik
+  - given: Daniel
+    family: Rueckert
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 645-664
+  id: qiu21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 645
+  lastpage: 664
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Understanding and Visualizing Generalization in UNets'
+  abstract: 'Fully-convolutional neural networks, such as the 2D or 3D UNet, are now pervasive in medical imaging for semantic segmentation, classification, image denoising, domain translation, and reconstruction. However, evaluation of UNet performance, as with most CNNs, has mostly been relegated to evaluation of a few performance metrics (e.g. accuracy, IoU, SSIM, etc.) using the network’s final predictions, which provides little insight into important issues such as dataset shift that occur in clinical application. In this paper, we propose techniques for understanding and visualizing the generalization performance of UNets in image classification and regression tasks, giving rise to metrics that are indicative of performance on a withheld test-set without the need for groundtruth annotations.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/rajagopal21a.html
+  PDF: https://proceedings.mlr.press/v143/rajagopal21a/rajagopal21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-rajagopal21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Abhejit
+    family: Rajagopal
+  - given: Vamshi Chowdary
+    family: Madala
+  - given: Thomas A
+    family: Hope
+  - given: Peder
+    family: Larson
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 665-681
+  id: rajagopal21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 665
+  lastpage: 681
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification'
+  abstract: 'In recent years, the availability of digitized Whole Slide Images (WSIs) has enabled the use of deep learning-based computer vision techniques for automated disease diagnosis. However, WSIs present unique computational and algorithmic challenges. WSIs are gigapixel-sized ($\sim$100K pixels), making them infeasible to be used directly for training deep neural networks. Also, often only slide-level labels are available for training as detailed annotations are tedious and can be time-consuming for experts. Approaches using multiple-instance learning (MIL) frameworks have been shown to overcome these challenges. Current state-of-the-art approaches divide the learning framework into two decoupled parts: a convolutional neural network (CNN) for encoding the patches followed by an independent aggregation approach for slide-level prediction. In this approach, the aggregation step has no bearing on the representations learned by the CNN encoder. We have proposed an end-to-end framework that clusters the patches from a WSI into ${k}$-groups, samples ${k}’$ patches from each group for training, and uses an adaptive attention mechanism for slide level prediction; Cluster-to-Conquer (C2C). We have demonstrated that dividing a WSI into clusters can improve the model training by exposing it to diverse discriminative features extracted from the patches. We regularized the clustering mechanism by introducing a KL-divergence loss between the attention weights of patches in a cluster and the uniform distribution. The framework is optimized end-to-end on slide-level cross-entropy, patch-level cross-entropy, and KL-divergence loss.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/sharma21a.html
+  PDF: https://proceedings.mlr.press/v143/sharma21a/sharma21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-sharma21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Yash
+    family: Sharma
+  - given: Aman
+    family: Shrivastava
+  - given: Lubaina
+    family: Ehsan
+  - given: Christopher A.
+    family: Moskaluk
+  - given: Sana
+    family: Syed
+  - given: Donald
+    family: Brown
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 682-698
+  id: sharma21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 682
+  lastpage: 698
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays'
+  abstract: 'We systematically evaluate the performance of deep learning models in the presence of diseases not labeled for or present during training. First, we evaluate whether deep learning models trained on a subset of diseases (seen diseases) can detect the presence of any one of a larger set of diseases. We find that models tend to falsely classify diseases outside of the subset (unseen diseases) as ‘no disease”. Second, we evaluate whether models trained on seen diseases can detect seen diseases when co-occurring with diseases outside the subset (unseen diseases). We find that models are still able to detect seen diseases even when co-occurring with unseen diseases. Third, we evaluate whether feature representations learned by models may be used to detect the presence of unseen diseases given a small labeled set of unseen diseases. We find that the penultimate layer provides useful features for unseen disease detection. Our results can inform the safe clinical deployment of deep learning models trained on a non-exhaustive set of disease classes.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/shi21a.html
+  PDF: https://proceedings.mlr.press/v143/shi21a/shi21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-shi21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Siyu
+    family: Shi
+  - given: Ishaan
+    family: Malhi
+  - given: Kevin
+    family: Tran
+  - given: Andrew Y.
+    family: Ng
+  - given: Pranav
+    family: Rajpurkar
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 699-712
+  id: shi21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 699
+  lastpage: 712
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning'
+  abstract: 'The contrast settings to select before acquiring magnetic resonance imaging (MRI) signal depend heavily on the subsequent tasks. As each contrast highlights different tissues, automated segmentation tools for example might be optimized for a certain contrast. While for radiotherapy, multiple scans of the same region with different contrasts can achieve a better accuracy for delineating tumours and organs at risk. Unfortunately, the optimal contrast for the subsequent automated methods might not be known during the time of signal acquisition, and performing multiple scans with different contrasts increases the total examination time and registering the sequences introduces extra work and potential errors. Building on the recent achievements of deep learning in medical applications, the presented work describes a novel approach for transferring any contrast to any other. The novel model architecture incorporates the signal equation for spin echo sequences, and hence the model inherently learns the unknown quantitative maps for proton density, $T1$ and $T2$ relaxation times ($PD$, $T1$ and $T2$, respectively). This grants the model the ability to retrospectively reconstruct spin echo sequences by changing the contrast settings Echo and Repetition Time ($TE$ and $TR$, respectively). The model learns to identify the contrast of pelvic MR images, therefore no paired data of the same anatomy from different contrasts is required for training. This means that the experiments are easily reproducible with other contrasts or other patient anatomies. Despite the contrast of the input image, the model achieves accurate results for reconstructing signal with contrasts available for evaluation. For the same anatomy, the quantitative maps are consistent for a range of contrasts of input images. Realized in practice, the proposed method would greatly simplify the modern radiotherapy pipeline. The trained model is made public together with a tool for testing the model on example images.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/simko21a.html
+  PDF: https://proceedings.mlr.press/v143/simko21a/simko21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-simko21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Attila Tibor
+    family: Simko
+  - given: Tommy
+    family: Löfstedt
+  - given: Anders
+    family: Garpebring
+  - given: Mikael
+    family: Bylund
+  - given: Tufve
+    family: Nyholm
+  - given: Joakim
+    family: Jonsson
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 713-727
+  id: simko21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 713
+  lastpage: 727
+  published: 2021-08-25 00:00:00 +0000
+- title: 'MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models'
+  abstract: 'Contrastive learning is a form of self-supervision that can leverage unlabeled data to produce pretrained models. While contrastive learning has demonstrated promising results on natural image classification tasks, its application to medical imaging tasks like chest X-ray interpretation has been limited. In this work, we propose MoCo-CXR, which is an adaptation of the contrastive learning method Momentum Contrast (MoCo), to produce models with better representations and initializations for the detection of pathologies in chest X-rays. In detecting pleural effusion, we find that linear models trained on MoCo-CXR-pretrained representations outperform those without MoCo-CXR-pretrained representations, indicating that MoCo-CXR-pretrained representations are of higher-quality. End-to-end fine-tuning experiments reveal that a model initialized via MoCo-CXR-pretraining outperforms its non-MoCo-CXR-pretrained counterpart. We find that MoCo-CXR-pretraining provides the most benefit with limited labeled training data. Finally, we demonstrate similar results on a target Tuberculosis dataset unseen during pretraining, indicating that MoCo-CXR-pretraining endows models with representations and transferability that can be applied across chest X-ray datasets and tasks.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/sowrirajan21a.html
+  PDF: https://proceedings.mlr.press/v143/sowrirajan21a/sowrirajan21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-sowrirajan21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hari
+    family: Sowrirajan
+  - given: Jingbo
+    family: Yang
+  - given: Andrew Y.
+    family: Ng
+  - given: Pranav
+    family: Rajpurkar
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 728-744
+  id: sowrirajan21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 728
+  lastpage: 744
+  published: 2021-08-25 00:00:00 +0000
+- title: 'A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging'
+  abstract: 'Exploiting the deep image prior property of convolutional auto-encoder networks is especially interesting for medical image processing as it avoids hallucinations by omitting supervised learning. Its spectral bias towards lower frequencies makes it suitable for inverse image problems such as denoising and super-resolution, but manual early stopping has to be applied to act as a low-pass filter. In this paper, we present a novel Bayesian approach to deep image prior using mean-field variational inference. This allows for uncertainty quantification on a per-pixel level and, given the right prior distribution on the network weights, omits the need for early stopping. We optimize the parameters of the weight prior towards reconstruction accuracy using Bayesian optimization with Gaussian Process regression. We evaluate our approach on different inverse tasks on a variety of modalities and demonstrate that an optimized weight prior outperforms former state-of-the-art Bayesian deep image prior approaches. We show that a badly selected prior leads to worse accuracy and calibration and that it is sufficient to optimize the weight prior parameter per task domain.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/tolle21a.html
+  PDF: https://proceedings.mlr.press/v143/tolle21a/tolle21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-tolle21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Malte
+    family: Tölle
+  - given: Max-Heinrich
+    family: Laves
+  - given: Alexander
+    family: Schlaefer
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 745-760
+  id: tolle21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 745
+  lastpage: 760
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\beta$-Amyloid Data'
+  abstract: 'The excessive deposition of misfolded proteins such as amyloid-$\beta$ (A$\beta$) protein is an aging event underlying several neurodegenerative diseases. Mounting evidence shows that the spreading of neuropathological burden has a strong association to the white matter tracts in the brain which can be measured using diffusion-weighted imaging and tractography technologies. Most of the previous studies analyze the dynamic progression of amyloid using cross-sectional data which is not robust to the heterogeneous A$\beta$ dynamics across the population. In this regard, we propose a graph neural network-based learning framework to capture the disease-related dynamics by tracking the spreading of amyloid across brain networks from the subject-specific longitudinal PET images. To learn from limited (2 – 3 timestamps) and noisy longitudinal data, we restrict the space of amyloid propagation patterns to a latent heat diffusion model which is constrained by the anatomical connectivity of the brain. Our experiments show that restricting the dynamics to be a heat diffusion mechanism helps to train a robust deep neural network for predicting future time points and classifying Alzheimer’s disease brain.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/turja21a.html
+  PDF: https://proceedings.mlr.press/v143/turja21a/turja21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-turja21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Md Asadullah
+    family: Turja
+  - given: Guorong
+    family: Wu
+  - given: Defu
+    family: Yang
+  - given: Martin Andreas
+    family: Styner
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 761-773
+  id: turja21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 761
+  lastpage: 773
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders'
+  abstract: 'Diffeomorphic and deforming autoencoders have been recently explored in the field of medical imaging for appearance and shape disentanglement. Both models are based on the deformable template paradigm, however they show different weaknesses for the representation of medical images. Diffeomorphic autoencoders only consider spatial deformations, whereas deforming autoencoders also regard changes in the appearance, however no uniform template is generated for the whole training dataset, and the appearance is modeled depending on a very few parameters. In this work, we propose a method that represents images based on a global template, where next to the spatial displacement, the appearance is modeled as the pixel-wise intensity difference to the unified template. To however ensure that the generated appearance offsets adhere to the template shape, a guided filter smoothing of the appearance map is integrated into an end-to-end training process. This regularization significantly improves the disentanglement of shape and appearance and thus enables multi-modal image modeling. Furthermore, the generated templates are crisper and the registration accuracy improves. Our experiments also show applications of the proposed approach in the field of automatic population analysis.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/uzunova21a.html
+  PDF: https://proceedings.mlr.press/v143/uzunova21a/uzunova21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-uzunova21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hristina
+    family: Uzunova
+  - given: Heinz
+    family: Handels
+  - given: Jan
+    family: Ehrhardt
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 774-786
+  id: uzunova21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 774
+  lastpage: 786
+  published: 2021-08-25 00:00:00 +0000
+- title: 'HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images'
+  abstract: 'Segmentation of enhancing tumours or lesions from MRI is important for detecting new disease activity in many clinical contexts. However, accurate segmentation requires the inclusion of medical images (e.g., T1 post-contrast MRI) acquired after injecting patients with a contrast agent (e.g., Gadolinium), a process no longer thought to be safe. Although a number of modality-agnostic segmentation networks have been developed over the past few years, they have been met with limited success in the context of enhancing pathology segmentation. In this work, we present HAD-Net, a novel offline adversarial knowledge distillation (KD) technique, whereby a pre-trained teacher segmentation network, with access to all MRI sequences, teaches a student network, via hierarchical adversarial training, to better overcome the large domain shift presented when crucial images are absent during inference. In particular, we apply HAD-Net to the challenging task of enhancing tumour segmentation when access to post-contrast imaging is not available. The proposed network is trained and tested on the BraTS 2019 brain tumour segmentation challenge dataset, where it achieves performance improvements in the ranges of 16% - 26% over (a) recent modality-agnostic segmentation methods (U-HeMIS, U-HVED), (b) KD-Net adapted to this problem, (c) the pre-trained student network and (d) a non-hierarchical version of the network (AD-Net), in terms of Dice scores for enhancing tumour (ET). The network also shows improvements in tumour core (TC) Dice scores. Finally, the network outperforms both the baseline student network and AD-Net in terms of uncertainty quantification for enhancing tumour segmentation based on the BraTS 2019 uncertainty challenge metrics. Our code is publicly available at: https://github.com/SaverioVad/HAD_Net'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/vadacchino21a.html
+  PDF: https://proceedings.mlr.press/v143/vadacchino21a/vadacchino21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-vadacchino21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Saverio
+    family: Vadacchino
+  - given: Raghav
+    family: Mehta
+  - given: Nazanin Mohammadi
+    family: Sepahvand
+  - given: Brennan
+    family: Nichyporuk
+  - given: James J.
+    family: Clark
+  - given: Tal
+    family: Arbel
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 787-801
+  id: vadacchino21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 787
+  lastpage: 801
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking'
+  abstract: 'Motility of the small intestine is a valuable metric in the evaluation of gastrointestinal disorders. Cine-MRI of the abdomen is a non-invasive imaging technique allowing evaluation of this motility. While 2D cine-MR imaging is increasingly used for this purpose in both clinical practice and in research settings, the potential of 3D cine-MR imaging has been largely underexplored. In the absence of image analysis tools enabling investigation of the intestines as 3D structures, the assessment of motility in 3D cine-images is generally limited to the evaluation of movement in separate 2D slices. Hence, to obtain an untangled representation of the small intestine in 3D cine-MRI, we propose a method to extract a centerline of the intestine, thereby allowing easier (visual) assessment by human observers, as well as providing a possible starting point for automatic analysis methods quantifying peristaltic bowel movement along intestinal segments. The proposed method automatically tracks individual sections of the small intestine in 3D space, using a stochastic tracker built on top of a CNN-based orientation classifier. We show that the proposed method outperforms a non-stochastic iterative tracking approach.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/harten21a.html
+  PDF: https://proceedings.mlr.press/v143/harten21a/harten21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-harten21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Louis
+    prefix: van
+    family: Harten
+  - given: Catharina
+    prefix: de
+    family: Jonge
+  - given: Jaap
+    family: Stoker
+  - given: Ivana
+    family: Isgum
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 802-812
+  id: harten21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 802
+  lastpage: 812
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Automated triaging of head MRI examinations using convolutional neural networks'
+  abstract: 'The growing demand for head magnetic resonance imaging (MRI) examinations, along with a global shortage of radiologists, has led to an increase in the time taken to report head MRI scans around the world.  For many neurological conditions, this delay can result in increased morbidity and mortality.  An automated triaging tool could reduce reporting times for abnormal examinations by identifying abnormalities at the time of imaging and prioritizing the reporting of these scans.  In this work, we present a convolutional neural network (CNN) for detecting clinically-relevant abnormalities in T2-weighted head MRI scans. Using a validated neuroradiology report classifier, we generated a labelled dataset of 43,754 scans from two large UK hospitals for model training, and demonstrate accurate classification (area under the receiver operating curve (AUC) = 0.943) on a test set of 800 scans labelled by a team of neuroradiologists.  Importantly, when trained on scans from only a single hospital the model generalized to scans from the other hospital (delta AUC <= 0.02).  A simulation study demonstrated that our model would reduce the mean reporting time for abnormal scans from 28 days to 14 days and from 9 days to 5 days at the two hospitals, demonstrating feasibility for use in a clinical triage environment.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/wood21a.html
+  PDF: https://proceedings.mlr.press/v143/wood21a/wood21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-wood21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: David A.
+    family: Wood
+  - given: Sina
+    family: Kafiabadi
+  - given: Aisha
+    family: Al Busaidi
+  - given: Emily
+    family: Guilhem
+  - given: Antanas
+    family: Montvila
+  - given: Siddarth
+    family: Agarwal
+  - given: Jeremy
+    family: Lynch
+  - given: Matthew
+    family: Townend
+  - given: Gareth
+    family: Barker
+  - given: Sebastian
+    family: Ourselin
+  - given: James H.
+    family: Cole
+  - given: Thomas C.
+    family: Booth
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 813-841
+  id: wood21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 813
+  lastpage: 841
+  published: 2021-08-25 00:00:00 +0000
+- title: 'A regularization term for slide correlation reduction in whole slide image analysis with deep learning'
+  abstract: 'To develop deep learning-based models for automatic analysis of histopathology whole slide images (WSIs), the atomic entities to be directly processed are often the smaller patches cropped from WSIs as it is not always possible to feed a whole WSI to a model given its enormous size. However, a trained model tends to relate the slide-specific characteristics to diagnosis results because a large number of patches cropped from the same WSI will share common slide features and thus have strong correlations between them, resulting in deteriorated generalization capability of the trained model. Current approaches to alleviate this issue include data pre-processing (stain normalization or color augmentation) and adversarial learning, both of which introduce extra complications in computations. Alternatively, we propose to reduce the impact of this issue by introducing a new regularization term to the standard loss function to reduce the correlation of the patches from the same WSI. It is intuitive and easy-to-implement and introduces comparably smaller computation overhead compared to existing approaches. Experimental results prove that the proposed regularization term is able to enhance the generalization capability of learning models and consequently to achieve better performance. The code is available in: \url{https://github.com/hrzhang1123/SlideCorrelationReduction}.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/zhang21a.html
+  PDF: https://proceedings.mlr.press/v143/zhang21a/zhang21a.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-zhang21a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Hongrun
+    family: Zhang
+  - given: Yanda
+    family: Meng
+  - given: Xuesheng
+    family: Qian
+  - given: Xiaoyun
+    family: Yang
+  - given: Sarah E.
+    family: Coupland
+  - given: Yalin
+    family: Zheng
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 842-854
+  id: zhang21a
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 842
+  lastpage: 854
+  published: 2021-08-25 00:00:00 +0000
+- title: 'SWNet: Surgical Workflow Recognition with Deep Convolutional Network'
+  abstract: 'Surgical workflow recognition has been playing an essential role in computer-assisted interventional systems for modern operating rooms. In this paper, we present a computer vision-based method named SWNet that focuses on utilizing spatial information and temporal information from the surgical video to achieve surgical workflow recognition. As the first step, we utilize Interaction-Preserved Channel-Separated Convolutional Network (IP-CSN) to extract features that contain spatial information and local temporal information from the surgical video through segments. Secondly, we train a Multi-Stage Temporal Convolutional Network (MS-TCN) with those extracted features to capture global temporal information from the full surgical video. Finally, by utilizing Prior Knowledge Noise Filtering (PKNF), prediction noise from the output of MS-TCN is filtered. We evaluate SWNet for Sleeve Gastrectomy surgical workflow recognition. SWNet achieves 90% frame-level accuracy and reaches a weighted Jaccard Score of 0.8256. This demonstrates that SWNet has considerable potential to solve the surgical workflow recognition problem.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/zhang21b.html
+  PDF: https://proceedings.mlr.press/v143/zhang21b/zhang21b.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-zhang21b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Bokai
+    family: Zhang
+  - given: Amer
+    family: Ghanem
+  - given: Alexander
+    family: Simes
+  - given: Henry
+    family: Choi
+  - given: Andrew
+    family: Yoo
+  - given: Andrew
+    family: Min
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 855-869
+  id: zhang21b
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 855
+  lastpage: 869
+  published: 2021-08-25 00:00:00 +0000
+- title: 'Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping'
+  abstract: 'A Hybrid Optimization Between Iterative and network fine-Tuning (HOBIT) reconstruction method is proposed to solve quantitative susceptibility mapping (QSM) inverse problem in MRI. In HOBIT, a convolutional neural network (CNN) is first trained on healthy subjects’ data with gold standard labels. Domain adaptation to patients’ data with hemorrhagic lesions is then deployed by minimizing fidelity loss on the patient training dataset. During test time, a fidelity loss is imposed on each patient test case, where alternating direction method of multiplier (ADMM) is used to split the time consuming fidelity imposed network update into iterative reconstruction and network update subproblems alternatively in ADMM, and only a subnet of the pre-trained CNN is updated during the process. Compared to the method FINE where such fidelity imposing strategy was initially proposed to solve QSM, HOBIT achieved both performance gain of reconstruction accuracy and vast reduction of computational time.'
+  volume: 143
+  URL: https://proceedings.mlr.press/v143/zhang21c.html
+  PDF: https://proceedings.mlr.press/v143/zhang21c/zhang21c.pdf
+  edit: https://github.com/mlresearch//v143/edit/gh-pages/_posts/2021-08-25-zhang21c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth Conference on Medical Imaging with Deep Learning'
+  publisher: 'PMLR'
+  author: 
+  - given: Jinwei
+    family: Zhang
+  - given: Hang
+    family: Zhang
+  - given: Pascal
+    family: Spincemaille
+  - given: Thanh
+    family: Nguyen
+  - given: Mert R.
+    family: Sabuncu
+  - given: Yi
+    family: Wang
+  editor: 
+  - given: Mattias
+    family: Heinrich
+  - given: Qi
+    family: Dou
+  - given: Marleen
+    prefix: de
+    family: Bruijne
+  - given: Jan
+    family: Lellmann
+  - given: Alexander
+    family: Schläfer
+  - given: Floris
+    family: Ernst
+  page: 870-880
+  id: zhang21c
+  issued:
+    date-parts: 
+      - 2021
+      - 8
+      - 25
+  firstpage: 870
+  lastpage: 880
+  published: 2021-08-25 00:00:00 +0000

@@ -1,0 +1,581 @@
+
+- title: '4th Workshop on Learning with Imbalanced Domains: Preface'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/moniz22a.html
+  PDF: https://proceedings.mlr.press/v183/moniz22a/moniz22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-moniz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 1-7
+  id: moniz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 1
+  lastpage: 7
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Systematic Evaluation of CASH Search Strategies for Unsupervised Anomaly Detection'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/antoniadis22a.html
+  PDF: https://proceedings.mlr.press/v183/antoniadis22a/antoniadis22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-antoniadis22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ioannis
+    family: Antoniadis
+  - given: Vincent
+    family: Vercruyssen
+  - given: Jesse
+    family: Davis
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 8-22
+  id: antoniadis22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 8
+  lastpage: 22
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Bagging Propensity Weighting: A Robust method for biased PU Learning'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/block22a.html
+  PDF: https://proceedings.mlr.press/v183/block22a/block22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-block22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Sander De
+    family: Block
+  - given: Jessa
+    family: Bekker
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 23-37
+  id: block22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 23
+  lastpage: 37
+  published: 2022-10-08 00:00:00 +0000
+- title: 'DistSMOGN: Distributed SMOGN for Imbalanced Regression Problems'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/song22a.html
+  PDF: https://proceedings.mlr.press/v183/song22a/song22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-song22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Xin Yue
+    family: Song
+  - given: Nam
+    family: Dao
+  - given: Paula
+    family: Branco
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 38-52
+  id: song22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 38
+  lastpage: 52
+  published: 2022-10-08 00:00:00 +0000
+- title: 'The Hidden Cost of Fraud: An Instance-Dependent Cost-Sensitive Approach for Positive and Unlabeled Learning'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/vasquez22a.html
+  PDF: https://proceedings.mlr.press/v183/vasquez22a/vasquez22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-vasquez22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Carlos Ortega
+    family: Vasquez
+  - given: Jochen De
+    family: Weerdt
+  - given: Seppe
+    prefix: vanden
+    family: Broucke
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 53-67
+  id: vasquez22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 53
+  lastpage: 67
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Improving Imbalanced Learning by Pre-finetuning with Data Augmentation'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/shi22a.html
+  PDF: https://proceedings.mlr.press/v183/shi22a/shi22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-shi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Yiwen
+    family: Shi
+  - given: Taha
+    family: ValizadehAslani
+  - given: Jing
+    family: Wang
+  - given: Ping
+    family: Ren
+  - given: Yi
+    family: Zhang
+  - given: Meng
+    family: Hu
+  - given: Liang
+    family: Zhao
+  - given: Hualou
+    family: Liang
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 68-82
+  id: shi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 68
+  lastpage: 82
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Performance and model complexity on imbalanced datasets using resampling and cost-sensitive algorithms'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/silva-freitas-junior22a.html
+  PDF: https://proceedings.mlr.press/v183/silva-freitas-junior22a/silva-freitas-junior22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-silva-freitas-junior22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Jairo
+    prefix: da
+    family: Silva Freitas Junior
+  - given: Paulo Henrique
+    family: Pisani
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 83-97
+  id: silva-freitas-junior22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 83
+  lastpage: 97
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Adversarial oversampling for multi-class imbalanced data classification with convolutional neural networks'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/wojciechowski22a.html
+  PDF: https://proceedings.mlr.press/v183/wojciechowski22a/wojciechowski22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-wojciechowski22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Adam
+    family: Wojciechowski
+  - given: Mateusz
+    family: Lango
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 98-111
+  id: wojciechowski22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 98
+  lastpage: 111
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Assessing the Robustness of Ordinal Classifiers against Imbalanced and Shifting Distributions'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/bonnier22a.html
+  PDF: https://proceedings.mlr.press/v183/bonnier22a/bonnier22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-bonnier22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Thomas
+    family: Bonnier
+  - given: Benjamin
+    family: Bosch
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 112-126
+  id: bonnier22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 112
+  lastpage: 126
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Deep Contextual Novelty Detection with Context Prediction'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/rushe22a.html
+  PDF: https://proceedings.mlr.press/v183/rushe22a/rushe22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-rushe22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Ellen
+    family: Rushe
+  - given: Brian Mac
+    family: Namee
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 127-138
+  id: rushe22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 127
+  lastpage: 138
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Integrating and reporting full multi-view supervised learning experiments using SuMMIT'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/bauvin22a.html
+  PDF: https://proceedings.mlr.press/v183/bauvin22a/bauvin22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-bauvin22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Baptiste
+    family: Bauvin
+  - given: Jacques
+    family: Corbeil
+  - given: Dominique
+    family: Benielli
+  - given: Sokol
+    family: Koço
+  - given: Cecile
+    family: Capponi
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 139-150
+  id: bauvin22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 139
+  lastpage: 150
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Probabilistic Metric to measure the imbalance in multi-class problems'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/agostinho22a.html
+  PDF: https://proceedings.mlr.press/v183/agostinho22a/agostinho22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-agostinho22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Solander Patricio Lopes
+    family: Agostinho
+  - given: João
+    family: Mendes-Moreira
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 151-162
+  id: agostinho22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 151
+  lastpage: 162
+  published: 2022-10-08 00:00:00 +0000
+- title: 'CNN and diffusion MRI’s 4th degree rotational invariants for Alzheimer’s disease identification'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/bouayed22a.html
+  PDF: https://proceedings.mlr.press/v183/bouayed22a/bouayed22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-bouayed22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Aymene Mohammed
+    family: Bouayed
+  - given: Samuel
+    family: Deslauriers-Gauthier
+  - given: Mauro
+    family: Zucchelli
+  - given: Rachid
+    family: Deriche
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 163-174
+  id: bouayed22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 163
+  lastpage: 174
+  published: 2022-10-08 00:00:00 +0000
+- title: 'Data complexity and classification accuracy correlation in oversampling algorithms'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/komorniczak22a.html
+  PDF: https://proceedings.mlr.press/v183/komorniczak22a/komorniczak22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-komorniczak22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Joanna
+    family: Komorniczak
+  - given: Paweł
+    family: Ksieniewicz
+  - given: Michał
+    family: Woźniak
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 175-186
+  id: komorniczak22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 175
+  lastpage: 186
+  published: 2022-10-08 00:00:00 +0000
+- title: 'The Influence of Multiple Classes on Learning from Imbalanced Data Streams'
+  volume: 183
+  URL: https://proceedings.mlr.press/v183/lipska22a.html
+  PDF: https://proceedings.mlr.press/v183/lipska22a/lipska22a.pdf
+  edit: https://github.com/mlresearch//v183/edit/gh-pages/_posts/2022-10-08-lipska22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications'
+  publisher: 'PMLR'
+  author: 
+  - given: Agnieszka
+    family: Lipska
+  - given: Jerzy
+    family: Stefanowski
+  editor: 
+  - given: Nuno
+    family: Moniz
+  - given: Paula
+    family: Branco
+  - given: Luís
+    family: Torgo
+  - given: Nathalie
+    family: Japkowicz
+  - given: Michal
+    family: Wozniak
+  - given: Shuo
+    family: Wang
+  page: 187-198
+  id: lipska22a
+  issued:
+    date-parts: 
+      - 2022
+      - 10
+      - 8
+  firstpage: 187
+  lastpage: 198
+  published: 2022-10-08 00:00:00 +0000

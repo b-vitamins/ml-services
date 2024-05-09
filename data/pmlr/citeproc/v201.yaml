@@ -1,0 +1,1518 @@
+
+- title: 'Algorithmic Learning Theory 2023: Preface'
+  abstract: 'Presentation of this volume'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/agrawal23a.html
+  PDF: https://proceedings.mlr.press/v201/agrawal23a/agrawal23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-agrawal23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1-2
+  id: agrawal23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1
+  lastpage: 2
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Variance-Reduced Conservative Policy Iteration'
+  abstract: 'We study the sample complexity of reducing reinforcement learning to a sequence of empirical risk minimization problems over the policy space. Such reductions-based algorithms exhibit local convergence in the function space, as opposed to the parameter space for policy gradient algorithms, and thus are unaffected by the possibly non-linear or discontinuous parameterization of the policy class. We propose a variance-reduced variant of Conservative Policy Iteration that improves the sample complexity of producing a $\varepsilon$-functional local optimum from $O(\varepsilon^{-4})$ to $O(\varepsilon^{-3})$. Under state-coverage and policy-completeness assumptions, the algorithm enjoys $\varepsilon$-global optimality after sampling $O(\varepsilon^{-2})$ times, improving upon the previously established $O(\varepsilon^{-3})$ sample requirement.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/agarwal23a.html
+  PDF: https://proceedings.mlr.press/v201/agarwal23a/agarwal23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-agarwal23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Naman
+    family: Agarwal
+  - given: Brian
+    family: Bullins
+  - given: Karan
+    family: Singh
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 3-33
+  id: agarwal23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 3
+  lastpage: 33
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Testing Tail Weight of a Distribution Via Hazard Rate'
+  abstract: 'Understanding the shape of a distribution of data is of interest to people in a great variety of fields, as it may affect the types of algorithms used for that data. We study one such problem in the framework of {\em distribution property testing}, characterizing the number of samples required to to distinguish whether a distribution has a certain property or is far from having that property. In particular, given samples from a distribution, we seek to characterize the tail of the distribution, that is, understand how many elements appear infrequently. We develop an algorithm based on a careful bucketing scheme that distinguishes light-tailed distributions from non-light-tailed ones with respect to a definition based on the hazard rate, under natural smoothness and ordering assumptions. We bound the number of samples required for this test to succeed with high probability in terms of the parameters of the problem, showing that it is polynomial in these parameters. Further, we prove a hardness result that implies that this problem cannot be solved without any assumptions. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/aliakbarpour23a.html
+  PDF: https://proceedings.mlr.press/v201/aliakbarpour23a/aliakbarpour23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-aliakbarpour23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Maryam
+    family: Aliakbarpour
+  - given: Amartya Shankha
+    family: Biswas
+  - given: Kavya
+    family: Ravichandran
+  - given: Ronitt
+    family: Rubinfeld
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 34-81
+  id: aliakbarpour23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 34
+  lastpage: 81
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Reconstructing Ultrametric Trees from Noisy Experiments'
+  abstract: 'The problem of reconstructing evolutionary trees or phylogenies is of great interest in computational biology. A popular model for this problem assumes that we are given the set of leaves (current species) of an unknown weighted binary tree and the results of ‘experiments’ on triples of leaves $(a,b,c)$, which return the pair with the deepest least common ancestor. If the tree is assumed to be an \textit{ultrametric} (i.e., with all root-leaf paths of the same length), the experiment can be equivalently seen to return the closest pair of leaves. In this model, efficient algorithms are known for reconstructing the tree. In reality,  since the data on which these ‘experiments’ are run is itself generated by the stochastic process of evolution, it is noisy. In all reasonable models of evolution, if the branches leading to the three leaves in a triple, separate from each other at common ancestors that are very close to each other  in the tree,  the result of the experiment should be close to uniformly random. Motivated by this, in the current paper, we consider a model where the noise in an experiment on any triple is just dependent on the three pairwise distances (referred to as \emph{distance-based noise}). Our results are the following: \begin{enumerate} \item Suppose the length of every edge in the unknown tree is at least  $\tilde{O} (\frac{1}{\sqrt n})$ fraction of the length of a root-leaf path, where $n$ is the number of leaves. Then, we give an efficient algorithm to reconstruct the topology of the unknown tree for a broad family of {distance-based noise} models. Further, we show that if the edges are asymptotically shorter, then topology reconstruction is information-theoretically impossible. \item Further, for a specific distance-based noise model – which we refer to as the {\em{homogeneous noise model}} – we show that the edge weights can also be approximately  reconstructed under the same quantitative lower bound on the edge lengths. Note that in the noiseless case, such reconstruction of edge weights is impossible. \end{enumerate} The phylogeny reconstruction problem is essentially the problem of hierarchical clustering. Our result here apply to a suitably defined version of this problem.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/arunachaleswaran23a.html
+  PDF: https://proceedings.mlr.press/v201/arunachaleswaran23a/arunachaleswaran23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-arunachaleswaran23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Eshwar Ram
+    family: Arunachaleswaran
+  - given: Anindya
+    family: De
+  - given: Sampath
+    family: Kannan
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 82-114
+  id: arunachaleswaran23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 82
+  lastpage: 114
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Adversarially Robust Learning with Tolerance'
+  abstract: 'We initiate the study of tolerant adversarial PAC-learning with respect to metric perturbation sets. In adversarial PAC-learning, an adversary is allowed to replace a test point $x$ with an arbitrary point in a closed ball of radius $r$ centered at $x$. In the tolerant version, the error of the learner is compared with the best achievable error with respect to a slightly larger perturbation radius $(1+\gamma)r$. This simple tweak helps us bridge the gap between theory and practice and obtain the first PAC-type guarantees for algorithmic techniques that are popular in practice. Our first result concerns the widely-used “perturb-and-smooth” approach for adversarial learning. For perturbation sets with doubling dimension $d$, we show that a variant of these approaches PAC-learns any hypothesis class $\mathcal{H}$ with VC-dimension $v$ in the $\gamma$-tolerant adversarial setting with $O\left(\frac{v(1+1/\gamma)^{O(d)}}{\varepsilon}\right)$ samples. This is in contrast to the traditional (non-tolerant) setting in which, as we show, the perturb-and-smooth approach can provably fail. Our second result shows that one can PAC-learn the same class using $\widetilde{O}\left(\frac{O(d)\vc(\mathcal{H})\log(1+1/\gamma)}{\varepsilon^2}\right)$ samples even in the agnostic setting. This result is based on a novel compression-based algorithm, and achieves a linear dependence on the doubling dimension as well as the VC-dimension. This is in contrast to the non-tolerant setting where there is no known sample complexity upper bound that depends polynomially on the VC-dimension. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/ashtiani23a.html
+  PDF: https://proceedings.mlr.press/v201/ashtiani23a/ashtiani23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-ashtiani23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Hassan
+    family: Ashtiani
+  - given: Vinayak
+    family: Pathak
+  - given: Ruth
+    family: Urner
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 115-135
+  id: ashtiani23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 115
+  lastpage: 135
+  published: 2023-02-13 00:00:00 +0000
+- title: 'On Best-Arm Identification with a Fixed Budget in Non-Parametric Multi-Armed Bandits'
+  abstract: 'We lay the foundations of a non-parametric theory of best-arm identification in multi-armed bandits with a fixed budget $T$. We consider general, possibly non-parametric, models $\mathcal{D}$ for distributions over the arms; an overarching example is the model $\mathcal{D} = \mathcal{P}[0, 1]$ of all probability distributions over $[0,1]$. We propose upper bounds on the average log-probability of misidentifying the optimal arm based on information-theoretic quantities that we name $\mathcal{L}_{\inf}^{<}(\,\cdot\,,\nu)$ and $\mathcal{L}_{\inf}^{>}(\,\cdot\,,\nu)$ and that correspond to infima over Kullback-Leibler divergences between some distributions in $\mathcal{D}$ and a given distribution $\nu$. This is made possible by a refined analysis of the successive-rejects strategy of Audibert et al. (2010). We finally provide lower bounds on the same average log-probability, also in terms of the same new information-theoretic quantities; these lower bounds are larger when the (natural) assumptions on the considered strategies are stronger. All these new upper and lower bounds generalize existing bounds based, e.g., on gaps between distributions.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/barrier23a.html
+  PDF: https://proceedings.mlr.press/v201/barrier23a/barrier23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-barrier23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Antoine
+    family: Barrier
+  - given: Aurélien
+    family: Garivier
+  - given: Gilles
+    family: Stoltz
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 136-181
+  id: barrier23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 136
+  lastpage: 181
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Robust Empirical Risk Minimization with Tolerance'
+  abstract: 'Developing simple, sample-efficient learning algorithms for robust classification is a pressing issue in today’s tech-dominated world, and current theoretical techniques requiring exponential sample complexity and complicated improper learning rules fall far from answering the need. In this work we study the fundamental paradigm of (robust) \textit{empirical risk minimization} (RERM), a simple process in which the learner outputs any hypothesis minimizing its training error. RERM famously fails to robustly learn VC classes \citep{Omar19}, a bound we show extends even to ‘nice’ settings such as (bounded) halfspaces. As such, we study a recent relaxation of the robust model called \textit{tolerant} robust learning \citep{Urner22} where the output classifier is compared to the best achievable error over slightly larger perturbation sets. We show that under geometric niceness conditions, a natural tolerant variant of RERM is indeed sufficient for $\gamma$-tolerant robust learning VC classes over $\mathbb{R}^d$, and requires only $\tilde{O}\left( \frac{VC(H)d\log \frac{D}{\gamma\delta}}{\epsilon^2}\right)$ samples for robustness regions of (maximum) diameter $D$.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/bhattacharjee23a.html
+  PDF: https://proceedings.mlr.press/v201/bhattacharjee23a/bhattacharjee23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-bhattacharjee23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Robi
+    family: Bhattacharjee
+  - given: Max
+    family: Hopkins
+  - given: Akash
+    family: Kumar
+  - given: Hantao
+    family: Yu
+  - given: Kamalika
+    family: Chaudhuri
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 182-203
+  id: bhattacharjee23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 182
+  lastpage: 203
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Online k-means Clustering on Arbitrary Data Streams'
+  abstract: 'We consider $k$-means clustering in an online setting where each new data point is assigned to its closest cluster center and incurs a loss equal to the squared distance to that center, after which the algorithm is allowed to update its centers. The goal over a data stream $X$ is to achieve a total loss that is not too much larger than $L(X, OPT_k)$, the best possible loss using $k$ fixed centers in hindsight. We start by introducing a data parameter, $\Lambda(X)$, such that for any online algorithm that maintains $O(k \, \text{poly}(\log n))$ centers after seeing $n$ points, there exists a data stream $X$ for which a loss of $\Omega(\Lambda(X))$ is inevitable. Next, we give a randomized algorithm that achieves online loss $O(\Lambda(X) + L(X, OPT_k))$, while taking $O(k \, \text{poly}(\log n))$ centers and additional memory. It has an update time of $O(k \, \text{poly}(\log n))$ and is the first algorithm to achieve polynomial space and time complexity in the online setting. We note that our results have implications to the related streaming setting, where one final clustering is outputted, and the no-substitution setting, where center selections are permanent. We show a general reduction between the no-substitution cost of a blackbox algorithm and its online cost. Finally, we translate our algorithm to the no-substitution setting and streaming settings, and it competes with and can outperform existing work in the areas.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/bhattacharjee23b.html
+  PDF: https://proceedings.mlr.press/v201/bhattacharjee23b/bhattacharjee23b.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-bhattacharjee23b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Robi
+    family: Bhattacharjee
+  - given: Jacob
+    family: Imola
+  - given: Michal
+    family: Moshkovitz
+  - given: Sanjoy
+    family: Dasgupta
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 204-236
+  id: bhattacharjee23b
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 204
+  lastpage: 236
+  published: 2023-02-13 00:00:00 +0000
+- title: 'The Replicator Dynamic, Chain Components and the Response Graph'
+  abstract: 'In this paper we examine the relationship between the flow of the replicator dynamic, the continuum limit of Multiplicative Weights Update, and a game’s \emph{response graph}. We settle an open problem establishing that under the replicator, \emph{sink chain components}—a topological notion of long-run outcome of a dynamical system—always exist and are approximated by the \emph{sink connected components} of the game’s response graph. More specifically, each sink chain component contains a sink connected component of the response graph, as well as all mixed strategy profiles whose support consists of pure profiles in the same connected component, a set we call the \emph{content} of the connected component. As a corollary, all profiles are chain recurrent in games with strongly connected response graphs. In any two-player game sharing a response graph with a zero-sum game, the sink chain component is unique. In two-player zero-sum and potential games the sink chain components and sink connected components are in a one-to-one correspondence, and we conjecture that this holds in all games.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/biggar23a.html
+  PDF: https://proceedings.mlr.press/v201/biggar23a/biggar23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-biggar23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Oliver
+    family: Biggar
+  - given: Iman
+    family: Shames
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 237-258
+  id: biggar23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 237
+  lastpage: 258
+  published: 2023-02-13 00:00:00 +0000
+- title: 'A Query Algorithm for Learning a Spanning Forest in Weighted Undirected Graphs'
+  abstract: 'We consider the problem of finding a spanning forest in an unknown {\em weighted} undirected graph when the access to the graph is via CUT queries, that is, one can query a subset $S\subseteq V$ of vertices and get the cut-value $\sum_{e\in \partial S} w(e)$ as the response. It is not too hard to solve this problem using $O(n\log n)$ queries mimicking a Prim-style algorithm using a binary-search style idea. In this paper we use the power of CUT queries to obtain a Monte-Carlo algorithm that makes $O(n\log \log n(\log\log\log n)^2)$ CUT queries. At the core of our contribution is a generalization of a result in [Apers et al., 2022] which studies the same problem on unweighted graphs, but to handle weights, we need to combine their ideas with ideas for {\em support estimation} of weighted vectors, as in [Stockmeyer, 1983], and {\em weighted graph reconstruction} algorithms, as in [Bshouty and Mazzawi, 2012]. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chakrabarty23a.html
+  PDF: https://proceedings.mlr.press/v201/chakrabarty23a/chakrabarty23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chakrabarty23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Deeparnab
+    family: Chakrabarty
+  - given: Hang
+    family: Liao
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 259-274
+  id: chakrabarty23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 259
+  lastpage: 274
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Spatially Adaptive Online Prediction of Piecewise Regular Functions'
+  abstract: 'We consider the problem of estimating piecewise regular functions in an online setting, i.e., the data arrive sequentially and at any round our task is to predict the value of the true function at the next revealed point using the available data from past predictions. We propose a suitably modified version of a recently developed online learning algorithm called the sleeping experts aggregation algorithm. We show that this estimator satisfies oracle risk bounds simultaneously for all local regions of the domain. As concrete instantiations of the expert aggregation algorithm proposed here, we study an online mean aggregation and an online linear regression aggregation algorithm where experts correspond to the set of dyadic subrectangles of the domain. The resulting algorithms are near linear time computable in the sample size. We specifically focus on the performance of these online algorithms in the context of estimating piecewise polynomial and bounded variation function classes in the fixed design setup. The simultaneous oracle risk bounds we obtain for these estimators in this context provide new and improved (in certain aspects) guarantees even in the batch setting and are not available for the state of the art batch learning estimators.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chatterjee23a.html
+  PDF: https://proceedings.mlr.press/v201/chatterjee23a/chatterjee23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chatterjee23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Sabyasachi
+    family: Chatterjee
+  - given: Subhajit
+    family: Goswami
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 275-309
+  id: chatterjee23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 275
+  lastpage: 309
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Reaching Goals is Hard: Settling the Sample Complexity of the  Stochastic Shortest Path'
+  abstract: ' We study the sample complexity of learning an $\epsilon$-optimal policy in the Stochastic Shortest Path (SSP) problem. We first derive sample complexity bounds when the learner has access to a generative model. We show that there exists a worst-case SSP instance with $S$ states, $A$ actions, minimum cost $c_{\min}$, and maximum expected cost of the optimal policy over all states $B_{\star}$, where any algorithm requires at least $\Omega(SAB_{\star}^3/(c_{\min}\epsilon^2))$ samples to return an $\epsilon$-optimal policy with high probability. Surprisingly, this implies that whenever $c_{\min}=0$ an SSP problem may not be learnable, thus revealing that learning in SSPs is strictly harder than in the finite-horizon and discounted settings. We complement this result with lower bounds when prior knowledge of the hitting time of the optimal policy is available and when we restrict optimality by competing against policies with bounded hitting time. Finally, we design an algorithm with matching upper bounds in these cases. This settles the sample complexity of learning $\epsilon$-optimal polices in SSP with generative models. We also initiate the study of learning $\epsilon$-optimal policies without access to a generative model (i.e., the so-called best-policy identification problem), and show that sample-efficient learning is impossible in general. On the other hand, efficient learning can be made possible if we assume the agent can directly reach the goal state from any state by paying a fixed cost. We then establish the first upper and lower bounds under this assumption. Finally, using similar analytic tools, we prove that horizon-free regret is impossible in SSPs under general costs, resolving an open problem in (Tarbouriech et al., 2021c). '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chen23a.html
+  PDF: https://proceedings.mlr.press/v201/chen23a/chen23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chen23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Liyu
+    family: Chen
+  - given: Andrea
+    family: Tirinzoni
+  - given: Matteo
+    family: Pirotta
+  - given: Alessandro
+    family: Lazaric
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 310-357
+  id: chen23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 310
+  lastpage: 357
+  published: 2023-02-13 00:00:00 +0000
+- title: 'On the complexity of finding stationary points of smooth functions in one dimension'
+  abstract: 'We characterize the query complexity of finding stationary points of one-dimensional non-convex but smooth functions. We consider four settings, based on whether the algorithms under consideration are deterministic or randomized, and whether the oracle outputs $1^{\rm st}$-order or both $0^{\rm th}$- and $1^{\rm st}$-order information. Our results show that algorithms for this task provably benefit by incorporating either randomness or $0^{\rm th}$-order information. Our results also show that, for every dimension $d \geq 1$, gradient descent is optimal among deterministic algorithms using $1^{\rm st}$-order queries only.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chewi23a.html
+  PDF: https://proceedings.mlr.press/v201/chewi23a/chewi23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chewi23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Sinho
+    family: Chewi
+  - given: Sébastien
+    family: Bubeck
+  - given: Adil
+    family: Salim
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 358-374
+  id: chewi23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 358
+  lastpage: 374
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Fisher information lower bounds for sampling'
+  abstract: '  We prove two lower bounds for the complexity of non-log-concave sampling within the framework of Balasubramanian et al. (2022), who introduced the use of Fisher information ($\mathsf{FI}$) bounds as a notion of approximate first-order stationarity in sampling. Our first lower bound shows that averaged Langevin Monte Carlo (LMC) is optimal for the regime of large $\mathsf{FI}$ by reducing the problem of finding stationary points in non-convex optimization to sampling. Our second lower bound shows that in the regime of small $\mathsf{FI}$, obtaining a $\mathsf{FI}$ of at most $\varepsilon^2$ from the target distribution requires $\text{poly}(1/\varepsilon)$ queries, which is surprising as it rules out the existence of high-accuracy algorithms (e.g., algorithms using Metropolis{–}Hastings filters) in this context.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chewi23b.html
+  PDF: https://proceedings.mlr.press/v201/chewi23b/chewi23b.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chewi23b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Sinho
+    family: Chewi
+  - given: Patrik
+    family: Gerber
+  - given: Holden
+    family: Lee
+  - given: Chen
+    family: Lu
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 375-410
+  id: chewi23b
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 375
+  lastpage: 410
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Robust Estimation of Discrete Distributions under Local Differential Privacy'
+  abstract: 'Although robust learning and local differential privacy are both widely studied fields of research, combining the two settings is just starting to be explored. We consider the problem of estimating a discrete distribution in total variation from $n$ contaminated data batches under a local differential privacy constraint. A fraction $1-\alpha$ of the batches contain $k$ i.i.d. samples drawn from a discrete distribution $p$ over $d$ elements. To protect the users’ privacy, each of the samples is privatized using an $\epsilon$-locally differentially private mechanism. The remaining $\alpha n $ batches are an adversarial contamination. The minimax rate of estimation under contamination alone, with no privacy, is known to be $\alpha/\sqrt{k}+\sqrt{d/kn}$. Under the privacy constraint alone, the minimax rate of estimation is $\sqrt{d^2/\epsilon^2 kn}$. We show, up to a $\sqrt{\log(1/\alpha)}$ factor, that combining the two constraints leads to a minimax estimation rate of $\alpha\sqrt{d/\epsilon^2 k}+\sqrt{d^2/\epsilon^2 kn}$, larger than the sum of the two separate rates. We provide a polynomial-time algorithm achieving this bound, as well as a matching information theoretic lower bound. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/chhor23a.html
+  PDF: https://proceedings.mlr.press/v201/chhor23a/chhor23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-chhor23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Julien
+    family: Chhor
+  - given: Flore
+    family: Sentenac
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 411-446
+  id: chhor23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 411
+  lastpage: 446
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Wide stochastic networks: Gaussian limit and PAC-Bayesian training'
+  abstract: 'The limit of infinite width allows for substantial simplifications in the analytical study of over- parameterised neural networks. With a suitable random initialisation, an extremely large network exhibits an approximately Gaussian behaviour. In the present work, we establish a similar result for a simple stochastic architecture whose parameters are random variables, holding both before and during training. The explicit evaluation of the output distribution allows for a PAC-Bayesian training procedure that directly optimises the generalisation bound. For a large but finite-width network, we show empirically on MNIST that this training approach can outperform standard PAC- Bayesian methods.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/clerico23a.html
+  PDF: https://proceedings.mlr.press/v201/clerico23a/clerico23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-clerico23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Eugenio
+    family: Clerico
+  - given: George
+    family: Deligiannidis
+  - given: Arnaud
+    family: Doucet
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 447-470
+  id: clerico23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 447
+  lastpage: 470
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Pseudonorm Approachability and Applications to Regret Minimization'
+  abstract: 'Blackwell’s celebrated approachability theory provides a general framework for a variety of learning problems, including regret minimization. However, Blackwell’s proof and implicit algorithm measure approachability using the $\ell_2$ (Euclidean) distance. We argue that in many applications such as regret minimization, it is more useful to study approachability under other distance metrics, most commonly the $\ell_\infty$-metric. But, the time and space complexity of the algorithms designed for $\ell_\infty$-approachability depend on the dimension of the space of the vectorial payoffs, which is often prohibitively large. Thus, we present a framework for converting high-dimensional $\ell_\infty$-approachability problems to low-dimensional \emph{pseudonorm} approachability problems, thereby resolving such issues.  We first show that the $\ell_\infty$-distance between the average payoff and the approachability set can be equivalently defined as a \emph{pseudodistance} between a lower-dimensional average vector payoff and a new convex set we define. Next, we develop an algorithmic theory of pseudonorm approachability, analogous to previous work on approachability for $\ell_2$ and other norms, showing that it can be achieved via online linear optimization (OLO) over a convex set given by the Fenchel dual of the unit pseudonorm ball. We then use that to show, modulo mild normalization assumptions, that there exists an $\ell_\infty$-approachability algorithm whose convergence is independent of the dimension of the original vectorial payoff. We further show that that algorithm admits a polynomial-time complexity, assuming that the original $\ell_\infty$-distance can be computed efficiently. We also give an $\ell_\infty$-approachability algorithm whose convergence is logarithmic in that dimension using an FTRL algorithm with a maximum-entropy regularizer. Finally, we illustrate the benefits of our framework by applying it to several problems in regret minimization.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/dann23a.html
+  PDF: https://proceedings.mlr.press/v201/dann23a/dann23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-dann23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Christoph
+    family: Dann
+  - given: Yishay
+    family: Mansour
+  - given: Mehryar
+    family: Mohri
+  - given: Jon
+    family: Schneider
+  - given: Balubramanian
+    family: Sivan
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 471-509
+  id: dann23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 471
+  lastpage: 509
+  published: 2023-02-13 00:00:00 +0000
+- title: 'A Unified Algorithm for Stochastic Path Problems'
+  abstract: 'We study reinforcement learning in stochastic path (SP) problems. The goal in these problems is to maximize the expected sum of rewards until the agent reaches a terminal state. We provide the first regret guarantees in this general problem by analyzing a simple optimistic algorithm. Our regret bound matches the best known results for the well-studied special case of stochastic shortest path (SSP) with all non-positive rewards. For SSP, we present an adaptation procedure for the case when the scale of rewards $B_\star$ is unknown. We show that there is no price for adaptation, and our regret bound matches that with a known $B_\star$. We also provide a scale adaptation procedure for the special case of stochastic longest paths (SLP) where all rewards are non-negative. However, unlike in SSP, we show through a lower bound that there is an unavoidable price for adaptation. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/dann23b.html
+  PDF: https://proceedings.mlr.press/v201/dann23b/dann23b.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-dann23b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Christoph
+    family: Dann
+  - given: Chen-Yu
+    family: Wei
+  - given: Julian
+    family: Zimmert
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 510-557
+  id: dann23b
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 510
+  lastpage: 557
+  published: 2023-02-13 00:00:00 +0000
+- title: 'SQ Lower Bounds for Random Sparse Planted Vector Problem'
+  abstract: 'Consider the setting where a $\rho$-sparse Rademacher vector is planted in a random $d$-dimensional subspace of $R^n$. A classical question is how to recover this planted vector given a random basis in this subspace. A recent result by Zadik et al. showed that the Lattice basis reduction algorithm can recover the planted vector when $n\geq d+1$ (Zadik et al. (2021)). Although the algorithm is not expected to tolerate inverse polynomial amount of noise, it is surprising because it was previously shown that recovery cannot be achieved by low degree polynomials when $n \ll \rho^2 d^{2}$ (Mao and Wein (2021)). A natural question is whether we can derive an Statistical Query (SQ) lower bound matching the previous low degree lower bound in Mao and Wein (2021). This will (1) imply that the SQ lower bound can be surpassed by lattice based algorithms; (2) predict the computational hardness when the planted vector is perturbed by inverse polynomial amount of noise. In this paper, we prove such an SQ lower bound. In particular, we show that super-polynomial number of VSTAT queries is needed to solve the easier statistical testing problem when $n \ll \rho^2 d^{2}$ and $\rho \gg \frac{1}{\sqrt{d}}$. The most notable technique we used to derive the SQ lower bound is the almost equivalence relationship between SQ lower bound and low degree lower bound (Brennan et al. (2020); Mao and Wein (2021)).'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/ding23a.html
+  PDF: https://proceedings.mlr.press/v201/ding23a/ding23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-ding23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Jingqiu
+    family: Ding
+  - given: Yiding
+    family: Hua
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 558-596
+  id: ding23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 558
+  lastpage: 596
+  published: 2023-02-13 00:00:00 +0000
+- title: 'On The Computational Complexity of Self-Attention'
+  abstract: 'Transformer architectures have led to remarkable progress in many state-of-art applications. However, despite their successes, modern transformers rely on the self-attention mechanism, whose time- and space-complexity is quadratic in the length of the input. Several approaches have been proposed to speed up self-attention mechanisms to achieve sub-quadratic running time; however, the large majority of these works are not accompanied by rigorous error guarantees. In this work, we establish lower bounds on the computational complexity of self-attention in a number of scenarios. We prove that the time complexity of self-attention is necessarily quadratic in the input length, unless the Strong Exponential Time Hypothesis (SETH) is false. This argument holds even if the attention computation is performed only approximately, and for a variety of attention mechanisms. As a complement to our lower bounds, we show that it is indeed possible to approximate dot-product self-attention using finite Taylor series in linear-time, at the cost of having an exponential dependence on the polynomial order.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/duman-keles23a.html
+  PDF: https://proceedings.mlr.press/v201/duman-keles23a/duman-keles23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-duman-keles23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Feyza
+    family: Duman Keles
+  - given: Pruthuvi Mahesakya
+    family: Wijewardena
+  - given: Chinmay
+    family: Hegde
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 597-619
+  id: duman-keles23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 597
+  lastpage: 619
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Online Learning with Off-Policy Feedback'
+  abstract: 'We study the problem of online learning in adversarial bandit problems under a partial observability model called off-policy feedback. In this sequential decision making problem, the learner cannot directly observe its rewards, but instead sees the ones obtained by another unknown policy run in parallel (behavior policy). Instead of a standard exploration-exploitation dilemma, the learner has to face another challenge in this setting: due to limited observations outside of their control, the learner may not be able to estimate the value of each policy equally well. To address this issue, we propose a set of algorithms that guarantee regret bounds that scale with a natural notion of mismatch between any comparator policy and the behavior policy, achieving improved performance against comparators that are well-covered by the observations. We also provide an extension to the setting of adversarial linear contextual bandits, and verify the theoretical guarantees via a set of experiments. Our key algorithmic idea is adapting the notion of pessimistic reward estimators that has been recently popular in the context of off-policy reinforcement learning.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/gabbianelli23a.html
+  PDF: https://proceedings.mlr.press/v201/gabbianelli23a/gabbianelli23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-gabbianelli23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Germano
+    family: Gabbianelli
+  - given: Gergely
+    family: Neu
+  - given: Matteo
+    family: Papini
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 620-641
+  id: gabbianelli23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 620
+  lastpage: 641
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Online Learning for Traffic Navigation in Congested Networks'
+  abstract: 'We develop an online learning algorithm for a navigation platform to route travelers in a congested network with multiple origin-destination (o-d) pairs while simultaneously learning unknown cost functions of road segments (edges) using the crowd-sourced data. The number of travel requests is randomly realized, and the travel time of each edge is stochastically distributed with the mean being a linear function that increases with the edge load (the number of travelers who take the edge). In each step of our algorithm, the platform updates the estimates of cost function parameters using the collected travel time data, and maintains a rectangular confidence interval of each parameter. The platform then routes travelers in the next step using an optimistic strategy based on the lower bound of the up-to-date confidence interval. The key aspects of our setting include (i) the size and the spatial distribution of collected travel time data depend on travelers’ routing strategies; (ii) we evaluate the regret of our algorithm for platforms with different objectives, ranging from minimizing the social cost to minimizing the individual cost of self-interested users. We prove that the regret upper bound of our algorithm is $O(\sqrt{T}\log(T)|E|)$, where $T$ is the time horizon, and $|E|$ is the number of edges in the network. Furthermore, we show that the regret bound decreases as the number of travelers increases, which implies that the platform learns faster with a larger user population. Finally, we implement our algorithm on the network of New York City, and demonstrate the efficacy of the proposed algorithm.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/gollapudi23a.html
+  PDF: https://proceedings.mlr.press/v201/gollapudi23a/gollapudi23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-gollapudi23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Sreenivas
+    family: Gollapudi
+  - given: Kostas
+    family: Kollias
+  - given: Chinmay
+    family: Maheshwari
+  - given: Manxi
+    family: Wu
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 642-662
+  id: gollapudi23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 642
+  lastpage: 662
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Limitations of Information-Theoretic Generalization Bounds for Gradient Descent Methods in Stochastic Convex Optimization'
+  abstract: 'To date, no “information-theoretic” frameworks for reasoning about generalization error have been shown to establish minimax rates for gradient descent in the setting of stochastic convex optimization. In this work, we consider the prospect of establishing such rates via several existing information-theoretic frameworks: input-output mutual information bounds, conditional mutual information bounds and variants, PAC-Bayes bounds, and recent conditional variants thereof. We prove that none of these bounds are able to establish minimax rates. We then consider a common tactic employed in studying gradient methods, whereby the final iterate is corrupted by Gaussian noise, producing a noisy “surrogate” algorithm. We prove that minimax rates cannot be established via the analysis of such surrogates. Our results suggest that new ideas are required to analyze gradient descent using information-theoretic techniques.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/haghifam23a.html
+  PDF: https://proceedings.mlr.press/v201/haghifam23a/haghifam23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-haghifam23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Mahdi
+    family: Haghifam
+  - given: Borja
+    family: Rodríguez-Gálvez
+  - given: Ragnar
+    family: Thobaben
+  - given: Mikael
+    family: Skoglund
+  - given: Daniel
+    family: M. Roy
+  - given: Gintare
+    family: Karolina Dziugaite
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 663-706
+  id: haghifam23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 663
+  lastpage: 706
+  published: 2023-02-13 00:00:00 +0000
+- title: 'On Computable Online Learning'
+  abstract: 'We initiate the first study of computable online (c-online) learning, which we analyse under varying requirements for “optimality” in terms of the mistake bound. Our main contribution is to give a necessary and sufficient condition for optimal c-online learning and show that the Littlestone dimension no longer characterizes the optimal mistake bound of c-online learning. Furthermore, we introduce anytime optimal (a-optimal) online learning, a more natural conceptualization of “optimality” and a generalization of Littlestone’s Standard Optimal Algorithm. We show the existence of a computational separation between a-optimal and optimal online learning, proving that a-optimal online learning is computationally more difficult. Finally, we consider online learning with no requirements for optimality, and show, under a weaker notion of computability, that the finiteness of the Littlestone dimension no longer characterizes whether a class is c-online learnable with finite mistake bound. A potential avenue for strengthening this result is suggested by exploring the relationship between c-online and CPAC learning, where we show that c-online learning is as difficult as improper CPAC learning.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/hasrati23a.html
+  PDF: https://proceedings.mlr.press/v201/hasrati23a/hasrati23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-hasrati23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Niki
+    family: Hasrati
+  - given: Shai
+    family: Ben-David
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 707-725
+  id: hasrati23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 707
+  lastpage: 725
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Follow-the-Perturbed-Leader Achieves Best-of-Both-Worlds for Bandit Problems'
+  abstract: 'This paper discusses the adversarial and stochastic $K$-armed bandit problems. In the adversarial setting, the best possible regret is known to be $O(\sqrt{KT})$ for time horizon $T$. This bound can be achieved by several policies but they require to explicitly compute the arm-selection probabilities by solving optimization problems at each round, which becomes problematic in some settings. One promising candidate to avoid this issue is the Follow-The-Perturbed-Leader (FTPL) policy, which simply chooses the arm with the minimum cumulative estimated loss with a random perturbation. In particular, it has been conjectured that $O(\sqrt{KT})$ regret might be achieved by FTPL with a Fréchet-type perturbation. This paper affirmatively resolves this conjecture by showing that Fréchet perturbation indeed achieves this bound. We also show that FTPL achieves a logarithmic regret for the stochastic setting, meaning that FTPL achieves best-of-both-worlds regret bounds. The key to these bounds is the novel technique to evaluate the stability of the policy and to express the regret at each round in multiple forms depending on the estimated losses.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/honda23a.html
+  PDF: https://proceedings.mlr.press/v201/honda23a/honda23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-honda23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Junya
+    family: Honda
+  - given: Shinji
+    family: Ito
+  - given: Taira
+    family: Tsuchiya
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 726-754
+  id: honda23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 726
+  lastpage: 754
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Linear Reinforcement Learning with Ball Structure Action Space'
+  abstract: 'We study the problem of Reinforcement Learning (RL) with linear function approximation, i.e. assuming the optimal action-value function is linear in a known $d$-dimensional feature mapping. Unfortunately, however, based on only this assumption, the worst case sample complexity has been shown to be exponential, even under a generative model. Instead of making further assumptions on the MDP or value functions, we assume that our action space is such that there always exist playable actions to explore any direction of the feature space. We formalize this assumption as a “ball structure” action space, and show that being able to freely explore the feature space allows for efficient RL. In particular, we propose a sample-efficient RL algorithm (BallRL) that learns an $\epsilon$-optimal policy using only $\tilde{\mathcal{O}}\left(\frac{H^5d^3}{\epsilon^3}\right)$ number of trajectories.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/jia23a.html
+  PDF: https://proceedings.mlr.press/v201/jia23a/jia23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-jia23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Zeyu
+    family: Jia
+  - given: Randy
+    family: Jia
+  - given: Dhruv
+    family: Madeka
+  - given: Dean P.
+    family: Foster
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 755-775
+  id: jia23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 755
+  lastpage: 775
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Dealing with Unknown Variances in Best-Arm Identification'
+  abstract: 'The problem of identifying the best arm among a collection of items having Gaussian rewards distribution is well understood when the variances are known. Despite its practical relevance for many applications, few works studied it for unknown variances. In this paper we introduce and analyze two approaches to deal with unknown variances, either by plugging in the empirical variance or by adapting the transportation costs. In order to calibrate our two stopping rules, we derive new time-uniform concentration inequalities, which are of independent interest. Then, we illustrate the theoretical and empirical performances of our two sampling rule wrappers on Track-and-Stop and on a Top Two algorithm. Moreover, by quantifying the impact on the sample complexity of not knowing the variances, we reveal that it is rather small.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/jourdan23a.html
+  PDF: https://proceedings.mlr.press/v201/jourdan23a/jourdan23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-jourdan23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Marc
+    family: Jourdan
+  - given: Degenne
+    family: Rémy
+  - given: Kaufmann
+    family: Emilie
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 776-849
+  id: jourdan23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 776
+  lastpage: 849
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Complexity Analysis of a Countable-armed Bandit Problem'
+  abstract: 'We consider a stochastic multi-armed bandit (MAB) problem motivated by “large” action spaces, and endowed with a population of arms containing exactly $K$ arm-types, each characterized by a distinct mean reward. The decision maker is oblivious to the statistical properties of reward distributions as well as the population-level distribution of different arm-types, and is precluded also from observing the type of an arm after play. We study the classical problem of minimizing the expected cumulative regret over a horizon of play $n$, and propose algorithms that achieve a rate-optimal finite-time instance-dependent regret of $\mathcal{O}\left( \log n \right)$. We also show that the instance-independent (minimax) regret is $\tilde{\mathcal{O}}\left( \sqrt{n} \right)$ when $K=2$. While the order of regret and complexity of the problem suggests a great degree of similarity to the classical MAB problem, properties of the performance bounds and salient aspects of algorithm design are quite distinct from the latter, as are the key primitives that determine complexity along with the analysis tools needed to study them.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/kalvit23a.html
+  PDF: https://proceedings.mlr.press/v201/kalvit23a/kalvit23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-kalvit23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Anand
+    family: Kalvit
+  - given: Assaf
+    family: Zeevi
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 850-890
+  id: kalvit23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 850
+  lastpage: 890
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Primal-Dual Algorithms with Predictions for Online Bounded Allocation and Ad-Auctions Problems'
+  abstract: 'Matching problems have been widely studied in the research community, especially Ad-Auctions with many applications ranging from network design to advertising. Following the various advancements in machine learning, one natural question is whether classical algorithms can benefit from machine learning and obtain better-quality solutions. Even a small percentage of performance improvement in matching problems could result in significant gains for the studied use cases. For example, the network throughput or the revenue of Ad-Auctions can increase remarkably. This paper presents algorithms with machine learning predictions for the Online Bounded Allocation and the Online Ad-Auctions problems. We constructed primal-dual algorithms that achieve competitive performance depending on the quality of the predictions. When the predictions are accurate, the algorithms’ performance surpasses previous performance bounds, while when the predictions are misleading, the algorithms maintain standard worst-case performance guarantees. We provide supporting experiments on generated data for our theoretical findings.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/kevi23a.html
+  PDF: https://proceedings.mlr.press/v201/kevi23a/kevi23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-kevi23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Enikő
+    family: Kevi
+  - given: Kim Tháng
+    family: Nguyễn
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 891-908
+  id: kevi23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 891
+  lastpage: 908
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Max-Quantile Grouped Infinite-Arm Bandits'
+  abstract: 'In this paper, we consider a bandit problem in which there are a number of groups each consisting of infinitely many arms.  Whenever a new arm is requested from a given group, its mean reward is drawn from an unknown reservoir distribution (different for each group), and the uncertainty in the arm’s mean reward can only be reduced via subsequent pulls of the arm.  The goal is to identify the infinite-arm group whose reservoir distribution has the highest $(1-\alpha)$-quantile (e.g., median if $\alpha = \frac{1}{2}$), using as few total arm pulls as possible.  We introduce a two-step algorithm that first requests a fixed number of arms from each group and then runs a finite-arm grouped max-quantile bandit algorithm.  We characterize both the instance-dependent and worst-case regret, and provide a matching lower bound for the latter, while discussing various strengths, weaknesses, algorithmic improvements, and potential lower bounds associated with our instance-dependent upper bounds.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/lau23a.html
+  PDF: https://proceedings.mlr.press/v201/lau23a/lau23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-lau23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Ivan
+    family: Lau
+  - given: Yan Hao
+    family: Ling
+  - given: Mayank
+    family: Shrivastava
+  - given: Jonathan
+    family: Scarlett
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 909-945
+  id: lau23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 909
+  lastpage: 945
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Convergence of score-based generative modeling for general data distributions'
+  abstract: 'Score-based generative modeling (SGM) has grown to be a hugely successful method for learning to generate samples from complex data distributions such as that of images and audio. It is based on evolving an SDE that transforms white noise into a sample from the learned distribution, using estimates of the \emph{score function}, or gradient log-pdf. Previous convergence analyses for these methods have suffered either from strong assumptions on the data distribution or exponential dependencies, and hence fail to give efficient guarantees for the multimodal and non-smooth distributions that arise in practice and for which good empirical performance is observed. We consider a popular kind of SGM—denoising diffusion models—and give polynomial convergence guarantees for general data distributions, with no assumptions related to functional inequalities or smoothness. Assuming $L^2$-accurate score estimates, we obtain Wasserstein distance guarantees for \emph{any} distribution of bounded support or sufficiently decaying tails, as well as TV guarantees for distributions with further smoothness assumptions.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/lee23a.html
+  PDF: https://proceedings.mlr.press/v201/lee23a/lee23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-lee23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Holden
+    family: Lee
+  - given: Jianfeng
+    family: Lu
+  - given: Yixin
+    family: Tan
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 946-985
+  id: lee23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 946
+  lastpage: 985
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Private Stochastic Optimization with Large Worst-Case Lipschitz Parameter: Optimal Rates for (Non-Smooth) Convex Losses and Extension to Non-Convex Losses'
+  abstract: 'We study differentially private (DP) stochastic optimization (SO) with loss functions whose worst-case Lipschitz parameter over all data points may be extremely large. To date, the vast majority of work on DP SO assumes that the loss is uniformly Lipschitz continuous over data (i.e. stochastic gradients are uniformly bounded  over all data points). While this assumption is convenient, it often leads to pessimistic excess risk bounds. In many practical problems, the worst-case (uniform) Lipschitz parameter of the loss over all data points may be extremely large due to outliers. In such cases, the error bounds for DP SO, which scale with the worst-case Lipschitz parameter of the loss, are vacuous. To address these limitations, this work provides near-optimal excess risk bounds that do not depend on the uniform Lipschitz parameter of the loss. Building on a recent line of work (Wang et al., 2020; Kamath et al., 2022), we assume that stochastic gradients have bounded $k$-th order \textit{moments} for some $k \geq 2$. Compared with works on uniformly Lipschitz DP SO, our excess risk scales with the $k$-th moment bound instead of the uniform Lipschitz parameter of the loss, allowing for significantly faster rates in the presence of outliers and/or heavy-tailed data.  For \textit{convex} and \textit{strongly convex} loss functions, we provide the first asymptotically \textit{optimal} excess risk bounds (up to a logarithmic factor). In contrast to (Wang et al., 2020; Kamath et al., 2022), our bounds do not require the loss function to be differentiable/smooth. We also devise an accelerated algorithm for smooth losses that runs in linear time and has excess risk that is tight in certain practical parameter regimes. Additionally, our work is the first to address \textit{non-convex} non-uniformly Lipschitz loss functions satisfying the \textit{Proximal-PL inequality}; this covers some practical machine learning models. Our Proximal-PL algorithm has near-optimal excess risk.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/lowy23a.html
+  PDF: https://proceedings.mlr.press/v201/lowy23a/lowy23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-lowy23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrew
+    family: Lowy
+  - given: Meisam
+    family: Razaviyayn
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 986-1054
+  id: lowy23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 986
+  lastpage: 1054
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Projection-free Adaptive Regret with Membership Oracles'
+  abstract: 'In the framework of online convex optimization, most iterative algorithms require the computation of projections onto convex sets, which can be computationally expensive. To tackle this problem HK12 proposed the study of  projection-free methods that replace projections with  less expensive computations. The most common approach is based on the Frank-Wolfe method, that uses linear optimization computation in lieu of projections. Recent work by GK22 gave sublinear adaptive regret guarantees with projection free algorithms based on the Frank Wolfe approach. In this work we give projection-free algorithms that are based on a different technique, inspired by Mhammedi22, that replaces projections by set-membership computations.  We propose a simple lazy gradient-based algorithm with a Minkowski regularization that attains near-optimal adaptive regret bounds. For general convex loss functions we improve previous adaptive regret bounds from $O(T^{3/4})$ to $O(\sqrt{T})$, and further to tight interval dependent bound $\tilde{O}(\sqrt{I})$ where $I$ denotes the interval length. For strongly convex functions we obtain the first poly-logarithmic adaptive regret bounds using a projection-free algorithm. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/lu23a.html
+  PDF: https://proceedings.mlr.press/v201/lu23a/lu23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-lu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhou
+    family: Lu
+  - given: Nataly
+    family: Brukhim
+  - given: Paula
+    family: Gradu
+  - given: Elad
+    family: Hazan
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1055-1073
+  id: lu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1055
+  lastpage: 1073
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Improved High-Probability Regret for Adversarial Bandits with Time-Varying Feedback Graphs'
+  abstract: 'We study high-probability regret bounds for adversarial $K$-armed bandits with time-varying feedback graphs over $T$ rounds. For general strongly observable graphs, we develop an algorithm that achieves the optimal regret $\widetilde{\mathcal{O}}((\sum_{t=1}^T\alpha_t)^{\frac{1}{2}}+\max_{t\in[T]}\alpha_t)$ with high probability, where $\alpha_t$ is the independence number of the feedback graph at round $t$. Compared to the best existing result (Neu, 15) which only considers graphs with self-loops for all nodes, our result not only holds more generally, but importantly also removes any $\text{poly}(K)$ dependence that can be prohibitively large for applications such as contextual bandits. Furthermore, we also develop the first algorithm that achieves the optimal high-probability regret bound for weakly observable graphs, which even improves the best expected regret bound of (Alon et al., 2015) by removing the $\mathcal{O}(\sqrt{KT})$ term with a refined analysis. Our algorithms are based on the online mirror descent framework, but importantly with an innovative combination of several techniques. Notably, while earlier works use optimistic biased loss estimators for achieving high-probability bounds, we find it important to use a pessimistic one for nodes without self-loop in a strongly observable graph.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/luo23a.html
+  PDF: https://proceedings.mlr.press/v201/luo23a/luo23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-luo23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Haipeng
+    family: Luo
+  - given: Hanghang
+    family: Tong
+  - given: Mengxiao
+    family: Zhang
+  - given: Yuheng
+    family: Zhang
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1074-1100
+  id: luo23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1074
+  lastpage: 1100
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Efficient Global Planning in Large MDPs via Stochastic Primal-Dual Optimization'
+  abstract: 'We propose a new stochastic primal-dual optimization algorithm for planning in a large discounted Markov decision process with a generative model and linear function approximation. Assuming that the feature map approximately satisfies standard realizability and Bellman-closedness conditions and also that the feature vectors of all state-action pairs are representable as convex combinations of a small core set of state-action pairs, we show that our method outputs a near-optimal policy after a polynomial number of queries to the generative model. Our method is computationally efficient and comes with the major advantage that it outputs a single softmax policy that is compactly represented by a low-dimensional parameter vector, and does not need to execute computationally expensive local planning subroutines in runtime.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/neu23a.html
+  PDF: https://proceedings.mlr.press/v201/neu23a/neu23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-neu23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Gergely
+    family: Neu
+  - given: Nneka
+    family: Okolo
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1101-1123
+  id: neu23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1101
+  lastpage: 1123
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Adversarial Online Multi-Task Reinforcement Learning'
+  abstract: ' We consider the adversarial online multi-task reinforcement learning setting, where in each of $K$ episodes the learner is given an unknown task taken from a finite set of $M$ unknown finite-horizon MDP models. The learner’s objective is to minimize its regret with respect to the optimal policy for each task. We assume the MDPs in $\mathcal{M}$ are well-separated under a notion of $\lambda$-separability, and show that this notion generalizes many task-separability notions from previous works. We prove a minimax lower bound of $\Omega(K\sqrt{DSAH})$ on the regret of any learning algorithm and an instance-specific lower bound of $\Omega(\frac{K}{\lambda^2})$ in sample complexity for a class of \emph{uniformly good} cluster-then-learn algorithms. We use a novel construction called $\emph{2-JAO MDP}$ for proving the instance-specific lower bound. The lower bounds are complemented with a polynomial time algorithm that obtains $\tilde{O}(\frac{K}{\lambda^2})$ sample complexity guarantee for the clustering phase and $\tilde{O}(\sqrt{MK})$ regret guarantee for the learning phase, indicating that the dependency on $K$ and $\frac{1}{\lambda^2}$ is tight.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/nguyen23a.html
+  PDF: https://proceedings.mlr.press/v201/nguyen23a/nguyen23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-nguyen23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Quan
+    family: Nguyen
+  - given: Nishant
+    family: Mehta
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1124-1165
+  id: nguyen23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1124
+  lastpage: 1165
+  published: 2023-02-13 00:00:00 +0000
+- title: 'An Instance-Dependent Analysis for the Cooperative Multi-Player Multi-Armed Bandit'
+  abstract: 'We study the problem of information sharing and cooperation in Multi-Player Multi-Armed bandits. We propose the first algorithm that achieves logarithmic regret for this problem when the collision reward is unknown. Our results are based on two innovations. First, we show that a simple modification to a successive elimination strategy can be used to allow the players to estimate their suboptimality gaps, up to constant factors, in the absence of collisions. Second, we leverage the first result to design a communication protocol that successfully uses the small reward of collisions to coordinate among players, while  preserving meaningful instance-dependent logarithmic regret guarantees. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/pacchiano23a.html
+  PDF: https://proceedings.mlr.press/v201/pacchiano23a/pacchiano23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-pacchiano23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Aldo
+    family: Pacchiano
+  - given: Peter
+    family: Bartlett
+  - given: Michael
+    family: Jordan
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1166-1215
+  id: pacchiano23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1166
+  lastpage: 1215
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Towards Empirical Process Theory for Vector-Valued Functions: Metric Entropy of Smooth Function Classes'
+  abstract: 'This paper provides some first steps in developing empirical process theory for functions taking values in a vector space. Our main results provide bounds on the entropy of classes of smooth functions taking values in a Hilbert space, by leveraging theory from differential calculus of vector-valued functions and fractal dimension theory of metric spaces. We demonstrate how these entropy bounds can be used to show the uniform law of large numbers and asymptotic equicontinuity of the function classes, and also apply it to statistical learning theory in which the output space is a Hilbert space. We conclude with a discussion on the extension of Rademacher complexities to vector-valued function classes. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/park23a.html
+  PDF: https://proceedings.mlr.press/v201/park23a/park23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-park23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Junhyung
+    family: Park
+  - given: Krikamol
+    family: Muandet
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1216-1260
+  id: park23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1216
+  lastpage: 1260
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Perceptronic Complexity and Online Matrix Completion'
+  abstract: 'We present an online algorithm for learning a binary relation, or equivalently the components of a binary-valued matrix. We derive mistake bounds for this algorithm that are based on a novel complexity measure called the perceptronic complexity. Informally, if we consider each row of the matrix as a separate learning task, then the perceptronic complexity is the Novikoff perceptron bound for learning the whole matrix when given the optimal kernel over the columns of the matrix. Our mistake bound is equal, up to a logarithmic factor, to the perceptronic complexity of the matrix plus the perceptronic complexity of its transpose. We show how this mistake bound asymptotically outperforms those of previous algorithms for the same problem, and give examples of our bound on natural families of matrices.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/pasteris23a.html
+  PDF: https://proceedings.mlr.press/v201/pasteris23a/pasteris23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-pasteris23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Stephen
+    family: Pasteris
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1261-1291
+  id: pasteris23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1261
+  lastpage: 1291
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Algorithmic Stability of Heavy-Tailed Stochastic Gradient Descent on Least Squares'
+  abstract: 'Recent studies have shown that heavy tails can  emerge in stochastic optimization and that the heaviness of the tails have links to the generalization error. While these studies have shed light on interesting aspects of the generalization behavior in modern settings, they relied on strong topological and statistical regularity assumptions, which are hard to verify in practice. Furthermore, it has been empirically illustrated that the relation between heavy tails and generalization might not always be monotonic in practice, contrary to the conclusions of existing theory. In this study, we establish novel links between the tail behavior and generalization properties of stochastic gradient descent (SGD), through the lens of algorithmic stability. We consider a quadratic optimization problem and use a heavy-tailed stochastic differential equation (and its Euler discretization) as a proxy for modeling the heavy-tailed behavior emerging in SGD. We then prove uniform stability bounds, which reveal the following outcomes: (i) Without making any exotic assumptions, we show that SGD will not be stable if the stability is measured with the squared-loss $x\mapsto x^2$, whereas it in turn becomes stable if the stability is instead measured with a surrogate loss $x\mapsto |x|^p$ with some $p<2$. (ii) Depending on the variance of the data, there exists a \emph{‘threshold of heavy-tailedness’} such that the generalization error decreases as the tails become heavier, as long as the tails are lighter than this threshold. This suggests that the relation between heavy tails and generalization is not globally monotonic. (iii) We prove matching lower-bounds on uniform stability, implying that our bounds are tight in terms of the heaviness of the tails. We support our theory with synthetic and real neural network experiments.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/raj23a.html
+  PDF: https://proceedings.mlr.press/v201/raj23a/raj23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-raj23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Anant
+    family: Raj
+  - given: Melih
+    family: Barsbey
+  - given: Mert
+    family: Gurbuzbalaban
+  - given: Lingjiong
+    family: Zhu
+  - given: Umut
+    family: Şim\scekli
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1292-1342
+  id: raj23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1292
+  lastpage: 1342
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Constant regret for sequence prediction with limited advice'
+  abstract: 'We investigate the problem of cumulative regret minimization for individual sequence prediction with respect to the best expert in a finite family of size K under limited access to information. We assume that in each round, the learner can predict using a convex combination of at most p experts for prediction, then they can observe a posteriori the losses of at most m experts. We assume that the loss function is range-bounded and exp-concave. In the standard multi-armed bandits setting, when the learner is allowed to play only one expert per round and observe only its feedback, known optimal regret bounds are of the order O(sqrt{KT}). We show that allowing the learner to play one additional expert per round and observe one additional feedback, improves substantially the guarantees on regret. We provide a strategy combining only p=2 experts per round for prediction and observing m \ge 2 experts’ losses. Its randomized regret (wrt. internal randomization of the learners’ strategy) is of order O((K/m) log(K delta^{-1})) with probability 1- delta, i.e., is independent of the horizon T (“constant” or “fast rate” regret) if (p \ge 2 and m \ge 3). We prove that this rate is optimal up to a logarithmic factor in K. In the case p=m=2, we provide an upper bound of order O(K^2 \log(K delta^{-1})), with probability 1-delta. Our strategies do not require any prior knowledge of the horizon T nor of the confidence parameter \delta. Finally, we show that if the learner is constrained to observe only one expert feedback per round, the worst-case regret is the “slow rate” Omega(sqrt{KT}), suggesting that synchronous observation of at least two experts per round is necessary to have a constant regret. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/saad23a.html
+  PDF: https://proceedings.mlr.press/v201/saad23a/saad23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-saad23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: El Mehdi
+    family: Saad
+  - given: Gilles
+    family: Blanchard
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1343-1386
+  id: saad23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1343
+  lastpage: 1386
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Adaptive Power Method: Eigenvector Estimation from Sampled Data'
+  abstract: 'Computing the dominant eigenvectors of a matrix $A$ has many applications, such as principal component analysis, spectral embedding, and PageRank. However, in general, this task relies on the complete knowledge of the matrix $A$, which can be too large to store or even infeasible to observe in many applications, e.g., large-scale social networks. Thus, a natural question is how to accurately estimate the eigenvectors of $A$ when only partial observations can be made by sampling entries from $A$. To this end, we propose the Adaptive Power Method (\textsc{APM}), a variant of the well-known power method. At each power iteration, \textsc{APM} adaptively selects a subset of the entries of $A$ to observe based on the current estimate of the top eigenvector. We show that \textsc{APM} can estimate the dominant eigenvector(s) of $A$ with squared error at most $\epsilon$ by observing roughly $O(n\epsilon^{-2} \log^2 (n/\epsilon))$ entries of an $n\times n$ matrix. We present empirical results for the problem of eigenvector centrality computation on two real-world graphs and show that \textsc{APM} significantly outperforms a non-adaptive estimation algorithm using the same number of observations. Furthermore, in the context of eigenvector centrality, \textsc{APM} can also adaptively allocate the observation budget to selectively refine the estimate of nodes with high centrality scores in the graph.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/shin23a.html
+  PDF: https://proceedings.mlr.press/v201/shin23a/shin23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-shin23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Seiyun
+    family: Shin
+  - given: Han
+    family: Zhao
+  - given: Ilan
+    family: Shomorony
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1387-1410
+  id: shin23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1387
+  lastpage: 1410
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Tournaments, Johnson Graphs and NC-Teaching'
+  abstract: 'Some years ago a teaching model, called “No-Clash Teaching” or simply “NC-Teaching”, had been suggested that is provably optimal in the following strong sense. First, it satisfies Goldman and Matthias’ collusion-freeness condition. Second, the NC-teaching dimension (= NCTD) is smaller than or equal to the teaching dimension with respect to any other collusion-free teaching model. Specifically the NCTD is upper-bounded by the recursive teaching dimension (= RTD). This raised the question about the largest possible gap between the NCTD and the RTD. The main results in this paper are as follows. First, we show that there exists a family $({\mathcal{C}})_{n\ge1}$ of concept classes such that the RTD of ${\mathcal{C}}$  grows logarithmically in $n = |{\mathcal{C}}_n|$ while, for every $n\ge1$, the NCTD of ${\mathcal{C}}$ equals $1$. Since the RTD of a finite concept class ${\mathcal{C}}$ is generally bounded by $\log|{\mathcal{C}}|$, the family $({\mathcal{C}}_n)_{n\ge1}$ separates RTD from NCTD in the most striking way. Our first proof of existence of the family $({\mathcal{C}}_n)_{n\ge1}$ makes use of the probabilistic method and random tournaments. But we also present a concrete family of concept classes (leading to a slightly smaller lower bound on $\mathrm{RTD}({\mathcal{C}}_n)$) which makes use of so-called quadratic-residue tournaments. Second, we characterize the maximum concept classes of NCTD $1$ as classes which are induced by tournaments in a very natural way. Third, we improve the previously best upper bound on the size of a maximum class of NCTD $d$ by a factor of order $\sqrt{d}$. The verification of the new upper bound makes use of Johnson graphs and maximum subgraphs not containing large narrow cliques. The connections between tournaments, Johnson graphs and NC-Teaching revealed here were not known before and might be considered interesting in their own right.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/simon23a.html
+  PDF: https://proceedings.mlr.press/v201/simon23a/simon23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-simon23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Hans U.
+    family: Simon
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1411-1428
+  id: simon23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1411
+  lastpage: 1428
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Implicit Regularization Towards Rank Minimization in ReLU Networks'
+  abstract: 'We study the conjectured relationship between the implicit regularization in neural networks, trained with gradient-based methods, and rank minimization of their weight matrices. Previously, it was proved that for linear networks (of depth $2$ and vector-valued outputs), gradient flow (GF) w.r.t. the square loss acts as a rank minimization heuristic. However, understanding to what extent this generalizes to nonlinear networks is an open problem. In this paper, we focus on nonlinear ReLU networks, providing several new positive and negative results. On the negative side, we prove (and demonstrate empirically) that, unlike the linear case, GF on ReLU networks may no longer tend to minimize ranks, in a rather strong sense (even approximately, for “most” datasets of size $2$). On the positive side, we reveal that ReLU networks of sufficient depth are provably biased towards low-rank solutions in several reasonable settings.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/timor23a.html
+  PDF: https://proceedings.mlr.press/v201/timor23a/timor23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-timor23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Nadav
+    family: Timor
+  - given: Gal
+    family: Vardi
+  - given: Ohad
+    family: Shamir
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1429-1459
+  id: timor23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1429
+  lastpage: 1459
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Optimistic PAC Reinforcement Learning: the Instance-Dependent View'
+  abstract: 'Optimistic algorithms have been extensively studied for regret minimization in episodic tabular Markov Decision Processes (MDPs), both from a minimax and an instance-dependent view. However, for the PAC RL problem, where the goal is to identify a near-optimal policy with high probability, little is known about their instance-dependent sample complexity. A negative result of Wagenmaker et al. (2022) suggests that optimistic sampling rules cannot be used to attain the (still elusive) optimal instance-dependent sample complexity. On the positive side, we provide the first instance-dependent bound for an optimistic algorithm for PAC RL, BPI-UCRL, for which only minimax guarantees were available (Kaufmann et al., 2021). While our bound features some minimal visitation probabilities, it also features a refined notion of sub-optimality gap compared to the value gaps that appear in prior work. Moreover, in MDPs with deterministic transitions, we show that  BPI-UCRL is actually near instance-optimal (up to a factor of the horizon).  On the technical side, our analysis is very simple thanks to a new “target trick” of independent interest. We complement these findings with a novel hardness result explaining why the instance-dependent complexity of PAC RL cannot be easily related to that of regret minimization, unlike in the minimax regime. '
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/tirinzoni23a.html
+  PDF: https://proceedings.mlr.press/v201/tirinzoni23a/tirinzoni23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-tirinzoni23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Andrea
+    family: Tirinzoni
+  - given: Aymen
+    family: Al-Marjani
+  - given: Emilie
+    family: Kaufmann
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1460-1480
+  id: tirinzoni23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1460
+  lastpage: 1480
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Online Self-Concordant and Relatively Smooth Minimization, With Applications to Online Portfolio Selection and Learning Quantum States'
+  abstract: 'Consider an online convex optimization problem where the loss functions are self-concordant barriers, smooth relative to a convex function $h$, and possibly non-Lipschitz. We analyze the regret of online mirror descent with $h$. Then, based on the result, we prove the following in a unified manner. Denote by $T$ the time horizon and $d$ the parameter dimension. - For online portfolio selection, the regret of $\widetilde{\text{EG}}$, a variant of exponentiated gradient due to Helmbold et al., is $\tilde{O} ( T^{2/3} d^{1/3} )$ when $T > 4 d / \log d$. This improves on the original $\tilde{O} ( T^{3/4} d^{1/2} )$ regret bound for $\widetilde{\text{EG}}$. - For online portfolio selection, the regret of online mirror descent with the logarithmic barrier is $\tilde{O}(\sqrt{T d})$. The regret bound is the same as that of Soft-Bayes due to Orseau et al. up to logarithmic terms. - For online learning quantum states with the logarithmic loss, the regret of online mirror descent with the log-determinant function is also $\tilde{O} ( \sqrt{T d} )$. Its per-iteration time is shorter than all existing algorithms we know.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/tsai23a.html
+  PDF: https://proceedings.mlr.press/v201/tsai23a/tsai23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-tsai23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Chung-En
+    family: Tsai
+  - given: Hao-Chung
+    family: Cheng
+  - given: Yen-Huan
+    family: Li
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1481-1483
+  id: tsai23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1481
+  lastpage: 1483
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Best-of-Both-Worlds Algorithms for Partial Monitoring'
+  abstract: 'This study considers the partial monitoring problem with $k$-actions and $d$-outcomes and provides the first best-of-both-worlds algorithms, whose regrets are favorably bounded both in the stochastic and adversarial regimes. In particular, we show that for non-degenerate locally observable games, the regret is $O(m^2 k^4 \log(T) \log(k_{\Pi} T) / \Delta_{\min})$ in the stochastic regime and $O(m k^{3/2} \sqrt{T \log(T) \log k_{\Pi}})$ in the adversarial regime, where $T$ is the number of rounds, $m$ is the maximum number of distinct observations per action, $\Delta_{\min}$ is the minimum suboptimality gap, and $k_{\Pi}$ is the number of Pareto optimal actions. Moreover, we show that for globally observable games, the regret is $O(c_{\mathcal{G}}^2 \log(T) \log(k_{\Pi} T) / \Delta_{\min}^2)$ in the stochastic regime and $O((c_{\mathcal{G}}^2 \log(T) \log(k_{\Pi} T))^{1/3} T^{2/3})$ in the adversarial regime, where $c_{\mathcal{G}}$ is a game-dependent constant. We also provide regret bounds for a stochastic regime with adversarial corruptions. Our algorithms are based on the follow-the-regularized-leader framework and are inspired by the approach of exploration by optimization and the adaptive learning rate in the field of online learning with feedback graphs.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/tsuchiya23a.html
+  PDF: https://proceedings.mlr.press/v201/tsuchiya23a/tsuchiya23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-tsuchiya23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Taira
+    family: Tsuchiya
+  - given: Shinji
+    family: Ito
+  - given: Junya
+    family: Honda
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1484-1515
+  id: tsuchiya23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1484
+  lastpage: 1515
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Dictionary Learning for the Almost-Linear Sparsity Regime'
+  abstract: '\textit{Dictionary learning}, the problem of recovering a sparsely used matrix $\mathbf{D} \in \mathbb{R}^{M \times K}$ and $N$ independent $K \times 1$ $s$-sparse vectors $\mathbf{X} \in \mathbb{R}^{K \times N}$ from samples of the form $\mathbf{y} = \mathbf{D}\mathbf{X}$, is of increasing importance to applications in signal processing and data science. Early papers on provable dictionary learning identified that one can detect whether two samples $\mathbf{y}_i, \mathbf{y}_j$ share a common dictionary element by testing if their inner product (correlation) exceeds a certain threshold: $|{\left⟨\mathbf{y}_i, \mathbf{y}_j \right⟩}| > \tau$. These correlation-based methods work well when sparsity is small, but suffer from declining performance when sparsity grows faster than $\sqrt{M}$; as a result, such methods were abandoned in the search for dictionary learning algorithms when sparsity is nearly linear in $M$. In this paper, we revisit correlation-based dictionary learning. Instead of seeking to recover individual dictionary atoms, we employ a spectral method to recover the subspace spanned by the dictionary atoms in the support of each sample. This approach circumvents the primary challenge encountered by previous correlation methods, namely that when sharing information between two samples it is difficult to tell \textit{which} dictionary element the two samples share. We prove that under a suitable random model the resulting algorithm recovers dictionaries in polynomial time for sparsity linear in $M$ up to log factors. Our results improve on the best known methods by achieving a decaying error bound in dimension $M$; the best previously known results for the overcomplete ($K > M$) setting achieve polynomial time in the linear regime only for constant error bounds. Numerical simulations confirm our results.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/novikov23a.html
+  PDF: https://proceedings.mlr.press/v201/novikov23a/novikov23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-novikov23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexei
+    family: Novikov
+  - given: Stephen
+    family: White
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1516-1554
+  id: novikov23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1516
+  lastpage: 1554
+  published: 2023-02-13 00:00:00 +0000
+- title: 'Universal Bias Reduction in Estimation of Smooth Additive Function in High Dimensions'
+  abstract: 'Suppose we observe $\mathbf{x}_j = \boldsymbol{\theta} + \boldsymbol{\varepsilon}_j$, $j=1,...,n$ where $\boldsymbol{\theta} \in \mathbb{R}^d$ is an unknown parameter and $\boldsymbol{\varepsilon}_j$ are i.i.d. random noise vectors satisfying some general distribution. We study the estimation of $f(\boldsymbol{\theta}):= \sum_{i=1}^d f_i(\theta_i)$ when $f:\mathbb{R}^d\rightarrow \mathbb{R}$ is a given smooth additive function and $d$ is large. Inspired by a recent work on studying the estimation of $f(\boldsymbol{\theta})$ under Gaussian shift model via a Fourier analytical approach, we propose a new estimator that can be implemented easily and computed fast. We show that the new estimator achieves effective bias reduction universally under minimum moment constraint. Further, we establish its asymptotic normality which implies the new estimator is asymptotically efficient. When $f_i$ is sufficiently smooth and $d$ is large, such properties make the new estimator rate optimal. Efficient computation of the new estimator and the minimum requirement of noise make this work more applicable to real world applications.'
+  volume: 201
+  URL: https://proceedings.mlr.press/v201/zhou23a.html
+  PDF: https://proceedings.mlr.press/v201/zhou23a/zhou23a.pdf
+  edit: https://github.com/mlresearch//v201/edit/gh-pages/_posts/2023-02-13-zhou23a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of The 34th International Conference on Algorithmic Learning Theory'
+  publisher: 'PMLR'
+  author: 
+  - given: Fan
+    family: Zhou
+  - given: Ping
+    family: Li
+  - given: Cun-Hui
+    family: Zhang
+  editor: 
+  - given: Shipra
+    family: Agrawal
+  - given: Francesco
+    family: Orabona
+  page: 1555-1578
+  id: zhou23a
+  issued:
+    date-parts: 
+      - 2023
+      - 2
+      - 13
+  firstpage: 1555
+  lastpage: 1578
+  published: 2023-02-13 00:00:00 +0000

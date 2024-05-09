@@ -1,0 +1,2024 @@
+
+- title: 'The First Learning on Graphs Conference: Preface'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/rieck22a.html
+  PDF: https://proceedings.mlr.press/v198/rieck22a/rieck22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-rieck22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  - given: Yuanqi
+    family: Du
+  - given: Hannes
+    family: Stärk
+  - given: Derek
+    family: Lim
+  - given: Chaitanya K.
+    family: Joshi
+  - given: Andreea
+    family: Deac
+  - given: Iulia
+    family: Duta
+  - given: Joshua
+    family: Robinson
+  - given: Gabriele
+    family: Corso
+  - given: Leonardo
+    family: Cotta
+  - given: Yanqiao
+    family: Zhu
+  - given: Kexin
+    family: Huang
+  - given: Michelle
+    family: Li
+  - given: Sofia
+    family: Bourhim
+  - given: Ilia
+    family: Igashov
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: i-xxiii
+  id: rieck22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: i
+  lastpage: xxiii
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Neighborhood-Aware Scalable Temporal Network Representation Learning'
+  abstract: 'Temporal networks have been widely used to model real-world complex systems such as financial systems and e-commerce systems. In a temporal network, the joint neighborhood of a set of nodes often provides crucial structural information useful for predicting whether they may interact at a certain time. However, recent representation learning methods for temporal networks often fail to extract such information or depend on online construction of structural features, which is time-consuming. To address the issue, this work proposes Neighborhood-Aware Temporal network model (NAT). For each node in the network, NAT abandons the commonly-used one-single-vector-based representation while adopting a novel dictionary-type neighborhood representation. Such a dictionary representation records a downsampled set of the neighboring nodes as keys, and allows fast construction of structural features for a joint neighborhood of multiple nodes. We also design a dedicated data structure termed N-cache to support parallel access and update of those dictionary representations on GPUs. NAT gets evaluated over seven real-world large-scale temporal networks. NAT not only outperforms all cutting-edge baselines by averaged 1.2% and 4.2% in transductive and inductive link prediction accuracy, respectively, but also keeps scalable by achieving a speed-up of 4.1-76.7x against the baselines that adopt joint structural features and achieves a speed-up of 1.6-4.0x against the baselines that cannot adopt those features. The link to the code: https: //github.com/Graph-COM/Neighborhood-Aware-Temporal-Network.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/luo22a.html
+  PDF: https://proceedings.mlr.press/v198/luo22a/luo22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-luo22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yuhong
+    family: Luo
+  - given: Pan
+    family: Li
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 1:1-1:18
+  id: luo22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 1:1
+  lastpage: 1:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'A Generalist Neural Algorithmic Learner'
+  abstract: 'The cornerstone of neural algorithmic reasoning is the ability to solve algorithmic tasks, especially in a way that generalises out of distribution. While recent years have seen a surge in methodological improvements in this area, they mostly focused on building specialist models. Specialist models are capable of learning to neurally execute either only one algorithm or a collection of algorithms with identical control-flow backbone. Here, instead, we focus on constructing a generalist neural algorithmic learner—a single graph neural network processor capable of learning to execute a wide range of algorithms, such as sorting, searching, dynamic programming, path-finding and geometry. We leverage the CLRS benchmark to empirically show that, much like recent successes in the domain of perception, generalist algorithmic learners can be built by "incorporating" knowledge. That is, it is possible to effectively learn algorithms in a multi-task manner, so long as we can learn to execute them well in a single-task regime. Motivated by this, we present a series of improvements to the input representation, training regime and processor architecture over CLRS, improving average single-task performance by over 20% from prior art. We then conduct a thorough ablation of multi-task learners leveraging these improvements. Our results demonstrate a generalist learner that effectively incorporates knowledge captured by specialist models.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/ibarz22a.html
+  PDF: https://proceedings.mlr.press/v198/ibarz22a/ibarz22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-ibarz22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Borja
+    family: Ibarz
+  - given: Vitaly
+    family: Kurin
+  - given: George
+    family: Papamakarios
+  - given: Kyriacos
+    family: Nikiforou
+  - given: Mehdi
+    family: Bennani
+  - given: Róbert
+    family: Csordás
+  - given: Andrew Joseph
+    family: Dudzik
+  - given: Matko
+    family: Bošnjak
+  - given: Alex
+    family: Vitvitskyi
+  - given: Yulia
+    family: Rubanova
+  - given: Andreea
+    family: Deac
+  - given: Beatrice
+    family: Bevilacqua
+  - given: Yaroslav
+    family: Ganin
+  - given: Charles
+    family: Blundell
+  - given: Petar
+    family: Veličković
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 2:1-2:23
+  id: ibarz22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 2:1
+  lastpage: 2:23
+  published: 2022-12-21 00:00:00 +0000
+- title: 'GARNET: Reduced-Rank Topology Learning for Robust and Scalable Graph Neural Networks'
+  abstract: 'Graph neural networks (GNNs) have been increasingly deployed in various applications that involve learning on non-Euclidean data. However, recent studies show that GNNs are vulnerable to graph adversarial attacks. Although there are several defense methods to improve GNN robustness by eliminating adversarial components, they may also impair the underlying clean graph structure that contributes to GNN training. In addition, few of those defense models can scale to large graphs due to their high computational complexity and memory usage. In this paper, we propose GARNET, a scalable spectral method to boost the adversarial robustness of GNN models. GARNET first leverages weighted spectral embedding to construct a base graph, which is not only resistant to adversarial attacks but also contains critical (clean) graph structure for GNN training. Next, GARNET further refines the base graph by pruning additional uncritical edges based on probabilistic graphical model. GARNET has been evaluated on various datasets, including a large graph with millions of nodes. Our extensive experiment results show that GARNET achieves adversarial accuracy improvement and runtime speedup over state-of-the-art GNN (defense) models by up to \textdollar 10.23\%\textdollar  and \textdollar 14.7\times\textdollar , respectively.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/deng22a.html
+  PDF: https://proceedings.mlr.press/v198/deng22a/deng22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-deng22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Chenhui
+    family: Deng
+  - given: Xiuyu
+    family: Li
+  - given: Zhuo
+    family: Feng
+  - given: Zhiru
+    family: Zhang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 3:1-3:23
+  id: deng22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 3:1
+  lastpage: 3:23
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Transductive Linear Probing: A Novel Framework for Few-Shot Node Classification'
+  abstract: 'Few-shot node classification is tasked to provide accurate predictions for nodes from novel classes with only few representative labeled nodes. This problem has drawn tremendous attention for its projection to prevailing real-world applications, such as product categorization for newly added commodity categories on an E-commerce platform with scarce records or diagnoses for rare diseases on a patient similarity graph. To tackle such challenging label scarcity issues in the non-Euclidean graph domain, meta-learning has become a successful and predominant paradigm. More recently, inspired by the development of graph self-supervised learning, transferring pretrained node embeddings for few-shot node classification could be a promising alternative to meta-learning but remains unexposed. In this work, we empirically demonstrate the potential of an alternative framework, \textit{Transductive Linear Probing}, that transfers pretrained node embeddings, which are learned from graph contrastive learning methods. We further extend the setting of few-shot node classification from standard fully supervised to a more realistic self-supervised setting, where meta-learning methods cannot be easily deployed due to the shortage of supervision from training classes. Surprisingly, even without any ground-truth labels, transductive linear probing with self-supervised graph contrastive pretraining can outperform the state-of-the-art fully supervised meta-learning based methods under the same protocol. We hope this work can shed new light on few-shot node classification problems and foster future research on learning from scarcely labeled instances on graphs.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/tan22a.html
+  PDF: https://proceedings.mlr.press/v198/tan22a/tan22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-tan22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhen
+    family: Tan
+  - given: Song
+    family: Wang
+  - given: Kaize
+    family: Ding
+  - given: Jundong
+    family: Li
+  - given: Huan
+    family: Liu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 4:1-4:21
+  id: tan22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 4:1
+  lastpage: 4:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Shortest Path Networks for Graph Property Prediction'
+  abstract: 'Most graph neural network models rely on a particular message passing paradigm, where the idea is to iteratively propagate node representations of a graph to each node in the direct neighborhood. While very prominent, this paradigm leads to information propagation bottlenecks, as information is repeatedly compressed at intermediary node representations, which causes loss of information, making it practically impossible to gather meaningful signals from distant nodes. To address this, we propose shortest path message passing neural networks, where the node representations of a graph are propagated to each node in the shortest path neighborhoods. In this setting, nodes can directly communicate between each other even if they are not neighbors, breaking the information bottleneck and hence leading to more adequately learned representations. Our framework generalizes message passing neural networks, resulting in a class of more expressive models, including some recent state-of-the-art models. We verify the capacity of a basic model of this framework on dedicated synthetic experiments, and on real-world graph classification and regression benchmarks, and obtain state-of-the art results.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/abboud22a.html
+  PDF: https://proceedings.mlr.press/v198/abboud22a/abboud22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-abboud22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ralph
+    family: Abboud
+  - given: Radoslav
+    family: Dimitrov
+  - given: Ismail Ilkan
+    family: Ceylan
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 5:1-5:25
+  id: abboud22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 5:1
+  lastpage: 5:25
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Taxonomy of Benchmarks in Graph Representation Learning'
+  abstract: 'Graph Neural Networks (GNNs) extend the success of neural networks to graph-structured data by accounting for their intrinsic geometry. While extensive research has been done on developing GNN models with superior performance according to a collection of graph representation learning benchmarks, it is currently not well understood what aspects of a given model are probed by them. For example, to what extent do they test the ability of a model to leverage graph structure vs. node features? Here, we develop a principled approach to taxonomize benchmarking datasets according to a \textdollar \textit{sensitivity profile}\textdollar  that is based on how much GNN performance changes due to a collection of graph perturbations. Our data-driven analysis provides a deeper understanding of which benchmarking data characteristics are leveraged by GNNs. Consequently, our taxonomy can aid in selection and development of adequate graph benchmarks, and better informed evaluation of future GNN methods. Finally, our approach is designed to be extendable to multiple graph prediction task types and future datasets.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/liu22a.html
+  PDF: https://proceedings.mlr.press/v198/liu22a/liu22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-liu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Renming
+    family: Liu
+  - given: Semih
+    family: Cantürk
+  - given: Frederik
+    family: Wenkel
+  - given: Sarah
+    family: McGuire
+  - given: Xinyi
+    family: Wang
+  - given: Anna
+    family: Little
+  - given: Leslie O’
+    family: Bray
+  - given: Michael
+    family: Perlmutter
+  - given: Bastian
+    family: Rieck
+  - given: Matthew
+    family: Hirn
+  - given: Guy
+    family: Wolf
+  - given: Ladislav
+    family: Rampášek
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 6:1-6:25
+  id: liu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 6:1
+  lastpage: 6:25
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Graph Learning Indexer: A Contributor-Friendly and Metadata-Rich Platform for Graph Learning Benchmarks'
+  abstract: 'Establishing open and general benchmarks has been a critical driving force behind the success of modern machine learning techniques. As machine learning is being applied to broader domains and tasks, there is a need to establish richer and more diverse benchmarks to better reflect the reality of the application scenarios. Graph learning is an emerging field of machine learning that urgently needs more and better benchmarks. To accommodate the need, we introduce Graph Learning Indexer (GLI), a benchmark curation platform for graph learning. In comparison to existing graph learning benchmark libraries, GLI highlights two novel design objectives. First, GLI is designed to incentivize \emph{dataset contributors}. In particular, we incorporate various measures to minimize the effort of contributing and maintaining a dataset, increase the usability of the contributed dataset, as well as encourage attributions to different contributors of the dataset. Second, GLI is designed to curate a knowledge base, instead of a plain collection, of benchmark datasets. We use multiple sources of meta information to augment the benchmark datasets with \emph{rich characteristics}, so that they can be easily selected and used in downstream research or development. The source code of GLI is available at \url{https://github.com/Graph-Learning-Benchmarks/gli}. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/ma22a.html
+  PDF: https://proceedings.mlr.press/v198/ma22a/ma22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-ma22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jiaqi
+    family: Ma
+  - given: Xingjian
+    family: Zhang
+  - given: Hezheng
+    family: Fan
+  - given: Jin
+    family: Huang
+  - given: Tianyue
+    family: Li
+  - given: Ting Wei
+    family: Li
+  - given: Yiwen
+    family: Tu
+  - given: Chenshu
+    family: Zhu
+  - given: Qiaozhu
+    family: Mei
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 7:1-7:23
+  id: ma22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 7:1
+  lastpage: 7:23
+  published: 2022-12-21 00:00:00 +0000
+- title: 'You Can Have Better Graph Neural Networks by Not Training Weights at All: Finding Untrained GNNs Tickets'
+  abstract: 'Recent works have impressively demonstrated that there exists a subnetwork in randomly initialized convolutional neural networks (CNNs) that can match the performance of the fully trained dense networks at initialization, without any optimization of the weights of the network (i.e., untrained networks). However, the presence of such untrained subnetworks in graph neural networks (GNNs) still remains mysterious. In this paper we carry out the first-of-its-kind exploration of discovering matching untrained GNNs. With sparsity as the core tool, we can find untrained sparse subnetworks at the initialization, that can match the performance of fully trained dense GNNs. Besides this already encouraging finding of comparable performance, we show that the found untrained subnetworks can substantially mitigate the GNN over-smoothing problem, hence becoming a powerful tool to enable deeper GNNs without bells and whistles. We also observe that such sparse untrained subnetworks have appealing performance in out-of-distribution detection and robustness of input perturbations. We evaluate our method across widely-used GNN architectures on various popular datasets including the Open Graph Benchmark (OGB).'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/huang22a.html
+  PDF: https://proceedings.mlr.press/v198/huang22a/huang22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-huang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Tianjin
+    family: Huang
+  - given: Tianlong
+    family: Chen
+  - given: Meng
+    family: Fang
+  - given: Vlado
+    family: Menkovski
+  - given: Jiaxu
+    family: Zhao
+  - given: Lu
+    family: Yin
+  - given: Yulong
+    family: Pei
+  - given: Decebal Constantin
+    family: Mocanu
+  - given: Zhangyang
+    family: Wang
+  - given: Mykola
+    family: Pechenizkiy
+  - given: Shiwei
+    family: Liu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 8:1-8:17
+  id: huang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 8:1
+  lastpage: 8:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Influence-Based Mini-Batching for Graph Neural Networks'
+  abstract: 'Using graph neural networks for large graphs is challenging since there is no clear way of constructing mini-batches. To solve this, previous methods have relied on sampling or graph clustering. While these approaches often lead to good training convergence, they introduce significant overhead due to expensive random data accesses and perform poorly during inference. In this work we instead focus on model behavior during inference. We theoretically model batch construction via maximizing the influence score of nodes on the outputs. This formulation leads to optimal approximation of the output when we do not have knowledge of the trained model. We call the resulting method influence-based mini-batching (IBMB). IBMB accelerates inference by up to 130x compared to previous methods that reach similar accuracy. Remarkably, with adaptive optimization and the right training schedule IBMB can also substantially accelerate training, thanks to precomputed batches and consecutive memory accesses. This results in up to 18x faster training per epoch and up to 17x faster convergence per runtime compared to previous methods.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/gasteiger22a.html
+  PDF: https://proceedings.mlr.press/v198/gasteiger22a/gasteiger22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-gasteiger22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Johannes
+    family: Gasteiger
+  - given: Chendi
+    family: Qian
+  - given: Stephan
+    family: Günnemann
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 9:1-9:19
+  id: gasteiger22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 9:1
+  lastpage: 9:19
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Learning Graph Search Heuristics'
+  abstract: 'Searching for a path between two nodes in a graph is one of the most well-studied and fundamental problems in computer science. In numerous domains such as robotics, AI, or biology, practitioners develop search heuristics to accelerate their pathfinding algorithms. However, it is a laborious and complex process to hand-design heuristics based on the problem and the structure of a given use case. Here we present PHIL (Path Heuristic with Imitation Learning), a novel neural architecture and a training algorithm for discovering graph search and navigation heuristics from data by leveraging recent advances in imitation learning and graph representation learning. At training time, we aggregate datasets of search trajectories and ground-truth shortest path distances, which we use to train a specialized graph neural network-based heuristic function using backpropagation through steps of the pathfinding process. Our heuristic function learns graph embeddings useful for inferring node distances, runs in constant time independent of graph sizes, and can be easily incorporated in an algorithm such as A\ast  at test time. Experiments show that PHIL reduces the number of explored nodes compared to state-of-the-art methods on benchmark datasets by 58.5% on average, can be directly applied in diverse graphs ranging from biological networks to road networks, and allows for fast planning in time-critical robotics domains.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/pandy22a.html
+  PDF: https://proceedings.mlr.press/v198/pandy22a/pandy22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-pandy22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Michal
+    family: Pándy
+  - given: Weikang
+    family: Qiu
+  - given: Gabriele
+    family: Corso
+  - given: Petar
+    family: Veličković
+  - given: Zhitao
+    family: Ying
+  - given: Jure
+    family: Leskovec
+  - given: Pietro
+    family: Lio
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 10:1-10:13
+  id: pandy22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 10:1
+  lastpage: 10:13
+  published: 2022-12-21 00:00:00 +0000
+- title: 'On the Unreasonable Effectiveness of Feature Propagation in Learning on Graphs With Missing Node Features'
+  abstract: 'While Graph Neural Networks (GNNs) have recently become the de facto standard for modeling relational data, they impose a strong assumption on the availability of the node or edge features of the graph.  In many real-world applications, however, features are only partially available; for example, in social networks, age and gender are available only for a small subset of users. We present a general approach for handling missing features in graph machine learning applications that is based on minimization of the Dirichlet energy and leads to a diffusion-type differential equation on the graph. The discretization of this equation produces a simple, fast and scalable algorithm which we call Feature Propagation. We experimentally show that the proposed approach outperforms previous methods on seven common node-classification benchmarks and can withstand surprisingly high rates of missing features: on average we observe only around 4% relative accuracy drop when 99% of the features are missing. Moreover, it takes only 10 seconds to run on a graph with ~2.5M nodes and ~23M edges on a single GPU. The code is available at https://github.com/twitter-research/feature-propagation.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/rossi22a.html
+  PDF: https://proceedings.mlr.press/v198/rossi22a/rossi22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-rossi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Emanuele
+    family: Rossi
+  - given: Henry
+    family: Kenlay
+  - given: Maria I.
+    family: Gorinova
+  - given: Benjamin Paul
+    family: Chamberlain
+  - given: Xiaowen
+    family: Dong
+  - given: Michael M.
+    family: Bronstein
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 11:1-11:16
+  id: rossi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 11:1
+  lastpage: 11:16
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Well-Conditioned Spectral Transforms for Dynamic Graph Representation'
+  abstract: 'This work establishes a fully-spectral framework to capture informative long-range temporal interactions in a dynamic system. We connect the spectral transform to the low-rank self-attention mechanisms and investigate its energy-balancing effect and computational efficiency. Based on the observations, we leverage the adaptive power method SVD and global graph framelet convolution to encode time-dependent features and graph structure for continuous-time dynamic graph representation learning. The former serves as an efficient high-order linear self-attention with determined propagation rules, and the latter establishes scalable and transferable geometric characterization for property prediction. Empirically, the proposed model learns well-conditioned hidden representations on a variety of online learning tasks, and it achieves top performance with a reduced number of learnable parameters and faster propagation speed.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhou22a.html
+  PDF: https://proceedings.mlr.press/v198/zhou22a/zhou22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhou22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Bingxin
+    family: Zhou
+  - given: Xinliang
+    family: Liu
+  - given: Yuehua
+    family: Liu
+  - given: Yunying
+    family: Huang
+  - given: Pietro
+    family: Lio
+  - given: Yu Guang
+    family: Wang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 12:1-12:19
+  id: zhou22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 12:1
+  lastpage: 12:19
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Efficient Representation Learning for Higher-Order Data With Simplicial Complexes'
+  abstract: 'Graph-based machine learning is experiencing explosive growth, driven by impressive recent developments and wide applicability. Typical approaches for graph representation learning predominantly focus on pairwise interactions, while neglecting the patterns of higher-order interactions common to complex systems. This paper explores many-body interaction models, centering on simplicial complexes. From a theoretical point of view, we offer a pair of insights illustrating why higher-order models are necessary, why non-graph-based models generally cannot generalize well, while graph-based models may be able to do so. We conduct experiments on synthetic data, co-citation networks, co-authorship networks and gene-disease associations and show that simplicial complexes with certain relaxations can more efficiently capture underlying higher-order structures than non-graph structure, regular graph, hypergraph, and traditional simplicial complex-based learning frameworks.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/yang22a.html
+  PDF: https://proceedings.mlr.press/v198/yang22a/yang22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-yang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Ruochen
+    family: Yang
+  - given: Frederic
+    family: Sala
+  - given: Paul
+    family: Bogdan
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 13:1-13:21
+  id: yang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 13:1
+  lastpage: 13:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Flashlight: Scalable Link Prediction With Effective Decoders'
+  abstract: 'Link prediction (LP) has been recognized as an important task in graph learning with its broad practical applications. A typical application of LP is to retrieve the top scoring neighbors for a given source node, such as the friend recommendation. These services desire the high inference scalability to find the top scoring neighbors from many candidate nodes at low latencies. There are two popular decoders that the recent LP models mainly use to compute the edge scores from node embeddings: the \textbf{HadamardMLP} and \textbf{Dot Product} decoders. After theoretical and empirical analysis, we find that the HadamardMLP decoders are generally more effective for LP. However, HadamardMLP lacks the scalability for retrieving top scoring neighbors on large graphs, since to the best of our knowledge, there does not exist an algorithm to retrieve the top scoring neighbors for HadamardMLP decoders in sublinear complexity. To make HadamardMLP scalable, we propose the \textit{Flashlight} algorithm to accelerate the top scoring neighbor retrievals for HadamardMLP: a sublinear algorithm that progressively applies approximate maximum inner product search (MIPS) techniques with adaptively adjusted query embeddings. Empirical results show that Flashlight improves the inference speed of LP by more than 100 times on the large OGBL-CITATION2 dataset without sacrificing effectiveness. Our work paves the way for large-scale LP applications with the effective HadamardMLP decoders by greatly accelerating their inference.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/wang22a.html
+  PDF: https://proceedings.mlr.press/v198/wang22a/wang22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-wang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yiwei
+    family: Wang
+  - given: Bryan
+    family: Hooi
+  - given: Yozen
+    family: Liu
+  - given: Tong
+    family: Zhao
+  - given: Zhichun
+    family: Guo
+  - given: Neil
+    family: Shah
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 14:1-14:17
+  id: wang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 14:1
+  lastpage: 14:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'DiffWire: Inductive Graph Rewiring via the Lovász Bound'
+  abstract: 'Graph Neural Networks (GNNs) have been shown to achieve competitive results to tackle graph-related tasks, such as node and graph classification, link prediction and node and graph clustering in a variety of domains. Most GNNs use a message passing framework and hence are called MPNNs. Despite their promising results, MPNNs have been reported to suffer from over-smoothing, over-squashing and under-reaching. Graph rewiring and graph pooling have been proposed in the literature as solutions to address these limitations. However, most state-of-the-art graph rewiring methods fail to preserve the global topology of the graph, are neither differentiable nor inductive, and require the tuning of hyper-parameters. In this paper, we propose DiffWire, a novel framework for graph rewiring in MPNNs that is principled, fully differentiable and parameter-free by leveraging the Lov{á}sz bound. The proposed approach provides a unified theory for graph rewiring by proposing two new, complementary layers in MPNNs: CT-Layer, a layer that learns the commute times and uses them as a relevance function for edge re-weighting; and GAP-Layer, a layer to optimize the spectral gap, depending on the nature of the network and the task at hand. We empirically validate the value of each of these layers separately with benchmark datasets for graph classification. We also perform preliminary studies on the use of CT-Layer for homophilic and heterophilic node classification tasks. DiffWire brings together the learnability of commute times to related definitions of curvature, opening the door to creating more expressive MPNNs. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a.html
+  PDF: https://proceedings.mlr.press/v198/arnaiz-rodri-guez22a/arnaiz-rodri-guez22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-arnaiz-rodri-guez22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Adrián
+    family: Arnaiz-Rodrı́guez
+  - given: Ahmed
+    family: Begga
+  - given: Francisco
+    family: Escolano
+  - given: Nuria M
+    family: Oliver
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 15:1-15:27
+  id: arnaiz-rodri-guez22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 15:1
+  lastpage: 15:27
+  published: 2022-12-21 00:00:00 +0000
+- title: 'GEFL: Extended Filtration Learning for Graph Classification'
+  abstract: 'Extended persistence is a technique from topological data analysis to obtain global multiscale topological information from a graph. This includes information about connected components and cycles that are captured by the so-called persistence barcodes. We introduce extended persistence into a supervised learning framework for graph classification. Global topological information, in the form of a barcode with four different types of bars and their explicit cycle representatives, is combined into the model by the readout function which is computed by extended persistence. The entire model is end-to-end differentiable. We use a link-cut tree data structure and parallelism to lower the complexity of computing extended persistence, obtaining a speedup of more than 60x over the state-of-the-art for extended persistence computation. This makes extended persistence feasible for machine learning. We show that, under certain conditions, extended persistence surpasses both the WL[1] graph isomorphism test and 0-dimensional barcodes in terms of expressivity because it adds more global (topological) information. In particular, arbitrarily long cycles can be represented, which is difficult for finite receptive field message passing graph neural networks. Furthermore, we show the effectiveness of our method on real world datasets compared to many existing recent graph representation learning methods.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhang22b.html
+  PDF: https://proceedings.mlr.press/v198/zhang22b/zhang22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhang22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Simon
+    family: Zhang
+  - given: Soham
+    family: Mukherjee
+  - given: Tamal K.
+    family: Dey
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 16:1-16:26
+  id: zhang22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 16:1
+  lastpage: 16:26
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Towards Efficient and Expressive GNNs for Graph Classification via Subgraph-Aware Weisfeiler-Lehman'
+  abstract: 'The expressive power of GNNs is upper-bounded by the Weisfeiler-Lehman (WL) test. To achieve GNNs with high expressiveness, researchers resort to subgraph-based GNNs (WL/GNN on subgraphs), deploying GNNs on subgraphs centered around each node to encode subgraphs instead of rooted subtrees like WL. However, deploying multiple GNNs on subgraphs suffers from much higher computational cost than deploying a single GNN on the whole graph, limiting its application to large-size graphs. In this paper, we propose a novel paradigm, namely Subgraph-aware WL (SaWL), to obtain graph representation that reaches subgraph-level expressiveness with a single GNN. We prove that SaWL has beyond-WL capability for graph isomorphism testing, while sharing similar runtime to WL. To generalize SaWL to graphs with continuous node features, we propose a neural version named Subgraph-aware GNN (SaGNN) to learn graph representation. Both SaWL and SaGNN are more expressive than 1-WL while having similar computational cost to 1-WL/GNN, without causing much higher complexity like other more expressive GNNs. Experimental results on several benchmark datasets demonstrate that fast SaWL and SaGNN significantly outperform competitive baseline methods on the task of graph classification, while achieving high efficiency. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/wang22b.html
+  PDF: https://proceedings.mlr.press/v198/wang22b/wang22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-wang22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhaohui
+    family: Wang
+  - given: Qi
+    family: Cao
+  - given: Huawei
+    family: Shen
+  - given: Xu
+    family: Bingbing
+  - given: Muhan
+    family: Zhang
+  - given: Xueqi
+    family: Cheng
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 17:1-17:18
+  id: wang22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 17:1
+  lastpage: 17:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Transfer Learning Using Spectral Convolutional Autoencoders on Semi-Regular Surface Meshes'
+  abstract: 'The underlying dynamics and patterns of 3D surface meshes deforming over time can be discovered by unsupervised learning, especially autoencoders, which calculate low-dimensional embeddings of the surfaces. To study the deformation patterns of unseen shapes by transfer learning, we want to train an autoencoder that can analyze new surface meshes without training a new network. Here, most state-of-the-art autoencoders cannot handle meshes of different connectivity and therefore have limited to no generalization capacities to new meshes. Also, reconstruction errors strongly increase in comparison to the errors for the training shapes. To address this, we propose a novel spectral CoSMA (Convolutional Semi-Regular Mesh Autoencoder) network. This patch-based approach is combined with a surface-aware training. It reconstructs surfaces not presented during training and generalizes the deformation behavior of the surfaces’patches. The novel approach reconstructs unseen meshes from different datasets in superior quality compared to state-of-the-art autoencoders that have been trained on these shapes. Our transfer learning errors on unseen shapes are 40% lower than those from models learned directly on the data. Furthermore, baseline autoencoders detect deformation patterns of unseen mesh sequences only for the whole shape. In contrast, due to the employed regional patches and stable reconstruction quality, we can localize where on the surfaces these deformation patterns manifest. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/hahner22a.html
+  PDF: https://proceedings.mlr.press/v198/hahner22a/hahner22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-hahner22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sara
+    family: Hahner
+  - given: Felix
+    family: Kerkhoff
+  - given: Jochen
+    family: Garcke
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 18:1-18:19
+  id: hahner22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 18:1
+  lastpage: 18:19
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Graph Neural Network With Local Frame for Molecular Potential Energy Surface'
+  abstract: 'Modeling molecular potential energy surface is of pivotal importance in science. Graph Neural Networks have shown great success in this field. However, their message passing schemes need special designs to capture geometric information and fulfill symmetry requirement like rotation equivariance, leading to complicated architectures. To avoid these designs, we introduce a novel local frame method to molecule representation learning and analyze its expressivity. Projected onto a frame, equivariant features like 3D coordinates are converted to invariant features, so that we can capture geometric information with these projections and decouple the symmetry requirement from GNN design. Theoretically, we prove that given non-degenerate frames, even ordinary GNNs can encode molecules injectively and reach maximum expressivity with coordinate projection and frame-frame projection. In experiments, our model uses a simple ordinary GNN architecture yet achieves state-of-the-art accuracy. The simpler architecture also leads to higher scalability. Our model only takes about \textdollar 30\%\textdollar  inference time and \textdollar 10\%\textdollar  GPU memory compared to the most efficient baselines.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/wang22d.html
+  PDF: https://proceedings.mlr.press/v198/wang22d/wang22d.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-wang22d.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Xiyuan
+    family: Wang
+  - given: Muhan
+    family: Zhang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 19:1-19:30
+  id: wang22d
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 19:1
+  lastpage: 19:30
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Gradual Weisfeiler-Leman: Slow and Steady Wins the Race'
+  abstract: 'The classical Weisfeiler-Leman algorithm aka color refinement is fundamental for graph learning with kernels and neural networks. Originally developed for graph isomorphism testing, the algorithm iteratively refines vertex colors. On many datasets, the stable coloring is reached after a few iterations and the optimal number of iterations for machine learning tasks is typically even lower. This suggests that the colors diverge too fast, defining a similarity that is too coarse. We generalize the concept of color refinement and propose a framework for gradual neighborhood refinement, which allows a slower convergence to the stable coloring and thus provides a more fine-grained refinement hierarchy and vertex similarity. We assign new colors by clustering vertex neighborhoods, replacing the original injective color assignment function. Our approach is used to derive new variants of existing graph kernels and to approximate the graph edit distance via optimal assignments regarding vertex similarity. We show that in both tasks, our method outperforms the original color refinement with only a moderate increase in running time advancing the state of the art.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/bause22a.html
+  PDF: https://proceedings.mlr.press/v198/bause22a/bause22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-bause22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Franka
+    family: Bause
+  - given: Nils Morten
+    family: Kriege
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 20:1-20:18
+  id: bause22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 20:1
+  lastpage: 20:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'DIGRAC:  Digraph Clustering Based on  Flow Imbalance'
+  abstract: 'Node clustering is a powerful tool in the analysis of networks. We introduce a graph neural network framework, named DIGRAC, to obtain node embeddings for directed networks in a self-supervised manner, including a novel probabilistic imbalance loss, which can be used for network clustering. Here, we propose \textit{directed flow imbalance} measures, which are tightly related to directionality, to reveal clusters in the network even when there is no density difference between clusters.  In contrast to standard approaches in the literature, in this paper, directionality is not treated as a nuisance, but rather contains the main signal. DIGRAC optimizes directed flow imbalance for clustering without requiring label supervision, unlike existing graph neural network methods, and can naturally incorporate node features, unlike existing spectral methods. Extensive experimental results on synthetic data, in the form of directed stochastic block models, and real-world data at different scales, demonstrate that our method, based on flow imbalance, attains state-of-the-art results on directed graph clustering when compared against 10 state-of-the-art methods from the literature, for a wide range of noise and sparsity levels, graph structures, and topologies, and even outperforms supervised methods. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/he22b.html
+  PDF: https://proceedings.mlr.press/v198/he22b/he22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-he22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yixuan
+    family: He
+  - given: Gesine
+    family: Reinert
+  - given: Mihai
+    family: Cucuringu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 21:1-21:43
+  id: he22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 21:1
+  lastpage: 21:43
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Distributed Representations of Graphs for Drug Pair Scoring'
+  abstract: 'In this paper we study the practicality and usefulness of incorporating distributed representations of graphs into models within the context of drug pair scoring. We argue that the real world growth and update cycles of drug pair scoring datasets subvert the limitations of transductive learning associated with distributed representations. Furthermore, we argue that the vocabulary of discrete substructure patterns induced over drug sets is not dramatically large due to the limited set of atom types and constraints on bonding patterns enforced by chemistry. Under this pretext, we explore the effectiveness of distributed representations of the molecular graphs of drugs in drug pair scoring tasks such as drug synergy, polypharmacy, and drug-drug interaction prediction. To achieve this, we present a methodology for learning and incorporating distributed representations of graphs within a unified framework for drug pair scoring. Subsequently, we augment a number of recent and state-of-the-art models to utilise our embeddings. We empirically show that the incorporation of these embeddings improves downstream performance of almost every model across different drug pair scoring tasks, even those the original model was not designed for. We publicly release all of our drug embeddings for the DrugCombDB, DrugComb, DrugbankDDI, and TwoSides datasets.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/scherer22a.html
+  PDF: https://proceedings.mlr.press/v198/scherer22a/scherer22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-scherer22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Paul
+    family: Scherer
+  - given: Pietro
+    family: Lio
+  - given: Mateja
+    family: Jamnik
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 22:1-22:17
+  id: scherer22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 22:1
+  lastpage: 22:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'DAMNETS: A Deep Autoregressive Model for Generating Markovian Network Time Series'
+  abstract: 'Generative models for network time series (also known as dynamic graphs) have tremendous potential in fields such as epidemiology, biology and economics, where complex graph-based dynamics are core objects of study. Designing flexible and scalable generative models is a very challenging task due to the high dimensionality of the data, as well as the need to represent temporal dependencies and marginal network structure. Here we introduce DAMNETS, a scalable deep generative model for network time series. DAMNETS outperforms competing methods on all of our measures of sample quality, over both real and synthetic data sets. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/clarkson22a.html
+  PDF: https://proceedings.mlr.press/v198/clarkson22a/clarkson22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-clarkson22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Jase
+    family: Clarkson
+  - given: Mihai
+    family: Cucuringu
+  - given: Andrew
+    family: Elliott
+  - given: Gesine
+    family: Reinert
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 23:1-23:19
+  id: clarkson22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 23:1
+  lastpage: 23:19
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Graph-Time Convolutional Autoencoders'
+  abstract: 'We introduce graph-time convolutional autoencoder (GTConvAE), a novel spatiotemporal architecture tailored to learn unsupervised representations from multivariate time series on networks. The GTConvAE leverages product graphs to represent the spatiotemporal information and a principled joint convolution operation over this product graph. Instead of fixing the product graph at the outset, we make it parametric to learn also the spatiotemporal coupling for the task at hand, whereas the convolutional filtering parameters learn layer-wise higher-order representations. On top of this, we propose temporal downsampling for the encoder to improve the receptive field in a spatiotemporal manner without affecting the network structure; respectively, in the decoder, we consider the opposite upsampling operator. We prove the GTConvAEs with graph integral Lipschitz filters are stable to relative perturbations in the network structure, ultimately showing the role of the different components in the encoder and decoder on the performance degradation. Numerical experiments for denoising and anomaly detection tasks in power and water networks corroborate our finding and showcase the effectiveness of the GTConv-AE compared with state-of-the-art alternatives. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/sabbaqi22a.html
+  PDF: https://proceedings.mlr.press/v198/sabbaqi22a/sabbaqi22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-sabbaqi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Mohammad
+    family: Sabbaqi
+  - given: Riccardo
+    family: Taormina
+  - given: Alan
+    family: Hanjalic
+  - given: Elvin
+    family: Isufi
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 24:1-24:20
+  id: sabbaqi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 24:1
+  lastpage: 24:20
+  published: 2022-12-21 00:00:00 +0000
+- title: 'A Simple Way to Learn Metrics Between Attributed Graphs'
+  abstract: 'The choice of good distances and similarity measures between objects is important for many machine learning methods. Therefore, many metric learning algorithms have been developed in recent years, mainly for Euclidean data in order to improve performance of classification or clustering methods. However, due to difficulties in establishing computable, efficient and differentiable distances between attributed graphs, few metric learning algorithms adapted to graphs have been developed despite the strong interest of the community.  In this paper, we address this issue by proposing a new Simple Graph Metric Learning - SGML - model with few trainable parameters based on Simple Convolutional Neural Networks - SGCN - and elements of optimal transport theory. This model allows us to build an appropriate distance from  a database of labeled (attributed) graphs to improve the performance of simple classification algorithms such as \textdollar k\textdollar -NN. This distance can be quickly trained while maintaining good performances as illustrated by the experimental study presented in this paper.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/kaloga22a.html
+  PDF: https://proceedings.mlr.press/v198/kaloga22a/kaloga22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-kaloga22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yacouba
+    family: Kaloga
+  - given: Pierre
+    family: Borgnat
+  - given: Amaury
+    family: Habrard
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 25:1-25:12
+  id: kaloga22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 25:1
+  lastpage: 25:12
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Label-Wise Graph Convolutional Network for Heterophilic Graphs'
+  abstract: 'Graph Neural Networks (GNNs) have achieved remarkable performance in modeling graphs for various applications. However, most existing GNNs assume the graphs exhibit strong homophily in node labels, i.e., nodes with similar labels are connected in the graphs. They fail to generalize to heterophilic graphs where linked nodes may have dissimilar labels and attributes. Therefore, in this paper, we investigate a novel framework that performs well on graphs with either homophily or heterophily. More specifically,  we propose a label-wise message passing mechanism to avoid the negative effects caused by aggregating dissimilar node representations and preserve the heterophilic contexts for representation learning. We further propose a bi-level optimization method to automatically select the model for graphs with homophily/heterophily. Theoretical analysis and extensive experiments  demonstrate the effectiveness of our proposed framework for node classification on both homophilic and heterophilic graphs.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/dai22b.html
+  PDF: https://proceedings.mlr.press/v198/dai22b/dai22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-dai22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Enyan
+    family: Dai
+  - given: Shijie
+    family: Zhou
+  - given: Zhimeng
+    family: Guo
+  - given: Suhang
+    family: Wang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 26:1-26:21
+  id: dai22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 26:1
+  lastpage: 26:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'PatchGT: Transformer Over Non-Trainable Clusters for Learning Graph Representations'
+  abstract: 'Recently the Transformer structure has shown good performances in graph learning tasks. However, these Transformer models directly work on graph nodes and may have difficulties learning high-level information. Inspired by the vision transformer, which applies to image patches, we propose a new Transformer-based graph neural network: Patch Graph Transformer (PatchGT). Unlike previous transformer-based models for learning graph representations, PatchGT learns from non-trainable graph patches, not from nodes directly. It can help save computation and improve the model performance. The key idea is to segment a graph into patches based on spectral clustering without any trainable parameters, with which the model can first use GNN layers to learn patch-level representations and then use Transformer layers to obtain graph-level representations. The architecture leverages the spectral information of graphs and combines the strengths of GNNs and Transformers. Further, We show the limitations of previous hierarchical trainable clusters theoretically and empirically. We also prove the proposed non-trainable spectral clustering method is permutation invariant and can help address the information bottlenecks in the graph. PatchGT achieves higher expressiveness than 1-WL-type GNNs, and the empirical study shows that PatchGT achieves competitive performances on benchmark datasets and provides interpretability to its predictions. The implementation of our algorithm is released at our GitHub repo: https://github.com/tufts-ml/PatchGT.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/gao22a.html
+  PDF: https://proceedings.mlr.press/v198/gao22a/gao22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-gao22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Han
+    family: Gao
+  - given: Xu
+    family: Han
+  - given: Jiaoyang
+    family: Huang
+  - given: Jian-Xun
+    family: Wang
+  - given: Liping
+    family: Liu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 27:1-27:25
+  id: gao22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 27:1
+  lastpage: 27:25
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Towards Training GNNs Using Explanation Directed Message Passing'
+  abstract: 'With the increasing use of Graph Neural Networks (GNNs) in critical real-world applications, several post hoc explanation methods have been proposed to understand their predictions. However, there has been no work in generating explanations on the fly during model training and utilizing them to improve the expressive power of the underlying GNN models. In this work, we introduce a novel explanation-directed neural message passing framework for GNNs, EXPASS (EXplainable message PASSing), which aggregates only embeddings from nodes and edges identified as important by a GNN explanation method. EXPASS can be used with any existing GNN architecture and subgraph-optimizing explainer to learn accurate graph embeddings. We theoretically show that EXPASS alleviates the oversmoothing problem in GNNs by slowing the layer-wise loss of Dirichlet energy and that the embedding difference between the vanilla message passing and EXPASS framework can be upper bounded by the difference of their respective model weights. Our empirical results show that graph embeddings learned using EXPASS improve the predictive performance and alleviate the oversmoothing problems of GNNs, opening up new frontiers in graph machine learning to develop explanation-based training frameworks.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/giunchiglia22a.html
+  PDF: https://proceedings.mlr.press/v198/giunchiglia22a/giunchiglia22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-giunchiglia22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Valentina
+    family: Giunchiglia
+  - given: Chirag Varun
+    family: Shukla
+  - given: Guadalupe
+    family: Gonzalez
+  - given: Chirag
+    family: Agarwal
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 28:1-28:18
+  id: giunchiglia22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 28:1
+  lastpage: 28:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Jointly Modelling Uncertainty and Diversity for Active Molecular Property Prediction'
+  abstract: 'Molecular property prediction is a fundamental task in AI-driven drug discovery. Deep learning has achieved great success in this task, but relies heavily on abundant annotated data. However, annotating molecules is particularly costly because it often requires lab experiments conducted by experts. Active Learning (AL) tackles this issue by querying (i.e., selecting) the most valuable samples to annotate, according to two criteria: uncertainty of the model and diversity of data. Combining both criteria (a.k.a. hybrid AL) generally leads to better performance than using only one single criterion. However, existing best hybrid methods rely on some trade-off hyperparameters for balancing uncertainty and diversity, and hence need to carefully tune the hyperparameters in each experiment setting, causing great annotation and time inefficiency. In this paper, we propose a novel AL method that jointly models uncertainty and diversity without the trade-off hyperparameters. Specifically, we model the joint distribution of the labeled data and the model prediction. Based on this distribution, we introduce a Minimum Maximum Probability Querying (MMPQ) strategy, in which a single selection score naturally captures how the model is uncertain about its prediction, and how dissimilar the sample is to the currently labeled data. To model the joint distribution, we adapt the energy-based models to the non-Euclidean molecular graph data, by learning chemically-meaningful embedding vectors as the proxy of the graphs. We perform extensive experiments on binary classification datasets. Results show that our method achieves superior AL performance, outperforming existing methods by a large margin. We also conduct ablation studies to verify different design choices of our approach.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhou22b.html
+  PDF: https://proceedings.mlr.press/v198/zhou22b/zhou22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhou22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Kuangqi
+    family: Zhou
+  - given: Kaixin
+    family: Wang
+  - given: Jian
+    family: Tang
+  - given: Jiashi
+    family: Feng
+  - given: Bryan
+    family: Hooi
+  - given: Peilin
+    family: Zhao
+  - given: Tingyang
+    family: Xu
+  - given: Xinchao
+    family: Wang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 29:1-29:21
+  id: zhou22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 29:1
+  lastpage: 29:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Representation Learning on Biomolecular Structures Using Equivariant Graph Attention'
+  abstract: 'Learning and reasoning about 3D molecular structures with varying size is an emerging and important challenge in machine learning and especially in the development of biotherapeutics. Equivariant Graph Neural Networks (GNNs) can simultaneously leverage the geometric and relational detail of the problem domain and are known to learn expressive representations through the propagation of information between nodes leveraging higher-order representations to faithfully express the geometry of the data, such as directionality in their intermediate layers. In this work, we propose an equivariant GNN that operates with Cartesian coordinates to incorporate directionality and we implement a novel attention mechanism, acting as a content and spatial dependent filter when propagating information between nodes. Our proposed message function processes vector features in a geometrically meaningful way by mixing existing vectors and creating new ones based on cross products. We demonstrate the efficacy of our architecture on accurately predicting properties of large biomolecules and show its computational advantage over recent methods which rely on irreducible representations by means of the spherical harmonics expansion.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/le22a.html
+  PDF: https://proceedings.mlr.press/v198/le22a/le22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-le22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Tuan
+    family: Le
+  - given: Frank
+    family: Noe
+  - given: Djork-Arné
+    family: Clevert
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 30:1-30:17
+  id: le22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 30:1
+  lastpage: 30:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Neural Graph Databases'
+  abstract: 'Graph databases (GDBs) enable processing and analysis of unstructured, complex, rich, and usually vast graph datasets. Despite the large significance of GDBs in both academia and industry, little effort has been made into integrating them with the predictive power of graph neural networks (GNNs).  In this work, we show how to seamlessly combine nearly any GNN model with the computational capabilities of GDBs. For this, we observe that the majority of these systems are based on a graph data model called the Labeled Property Graph (LPG), where vertices and edges can have arbitrarily complex sets of labels and properties. We then develop LPG2vec, an encoder that transforms an arbitrary LPG dataset into a representation that can be directly used with a broad class of GNNs, including convolutional, attentional, message-passing, and even higher-order or spectral models.  In our evaluation, we show that the rich information represented as LPG labels and properties is properly preserved by LPG2vec, and it increases the accuracy of predictions regardless of the targeted learning task or the used GNN model, by up to 34% compared to graphs with no LPG labels/properties.  In general, LPG2vec enables combining predictive power of the most powerful GNNs with the full scope of information encoded in the LPG model, paving the way for neural graph databases, a class of systems where the vast complexity of maintained data will benefit from modern and future graph machine learning methods.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/besta22a.html
+  PDF: https://proceedings.mlr.press/v198/besta22a/besta22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-besta22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Maciej
+    family: Besta
+  - given: Patrick
+    family: Iff
+  - given: Florian
+    family: Scheidl
+  - given: Kazuki
+    family: Osawa
+  - given: Nikoli
+    family: Dryden
+  - given: Michal
+    family: Podstawski
+  - given: Tiancheng
+    family: Chen
+  - given: Torsten
+    family: Hoefler
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 31:1-31:38
+  id: besta22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 31:1
+  lastpage: 31:38
+  published: 2022-12-21 00:00:00 +0000
+- title: 'AutoGDA: Automated Graph Data Augmentation for Node Classification'
+  abstract: 'Graph data augmentation has been used to improve generalizability of graph machine learning. However, by only applying fixed augmentation operations on entire graphs, existing methods overlook the unique characteristics of communities which naturally exist in the graphs. For example, different communities can have various degree distributions and homophily ratios. Ignoring such discrepancy with unified augmentation strategies on the entire graph could lead to sub-optimal performance for graph data augmentation methods. In this paper, we study a novel problem of automated graph data augmentation for node classification from the localized perspective of communities. We formulate it as a bilevel optimization problem: finding a set of augmentation strategies for each community, which maximizes the performance of graph neural networks on node classification. As the bilevel optimization is hard to solve directly and the search space for community-customized augmentations strategy is huge, we propose a reinforcement learning framework AutoGDA that learns the local-optimal augmentation strategy for each community sequentially. Our proposed approach outperforms established and popular baselines on public node classification benchmarks as well as real industry e-commerce networks by up to +12.5% accuracy.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhao22a.html
+  PDF: https://proceedings.mlr.press/v198/zhao22a/zhao22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhao22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Tong
+    family: Zhao
+  - given: Xianfeng
+    family: Tang
+  - given: Danqing
+    family: Zhang
+  - given: Haoming
+    family: Jiang
+  - given: Nikhil
+    family: Rao
+  - given: Yiwei
+    family: Song
+  - given: Pallav
+    family: Agrawal
+  - given: Karthik
+    family: Subbian
+  - given: Bing
+    family: Yin
+  - given: Meng
+    family: Jiang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 32:1-32:17
+  id: zhao22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 32:1
+  lastpage: 32:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Metric Based Few-Shot Graph Classification'
+  abstract: 'Few-shot graph classification is a novel yet promising emerging research field that still lacks the soundness of well-established research domains. Existing works often consider different benchmarks and evaluation settings, hindering comparison and, therefore, scientific progress. In this work, we start by providing an extensive overview of the possible approaches to solving the task, comparing the current state-of-the-art and baselines via a unified evaluation framework. Our findings show that while graph-tailored approaches have a clear edge on some distributions, easily adapted few-shot learning methods generally perform better.  In fact, we show that it is sufficient to equip a simple metric learning baseline with a state-of-the-art graph embedder to obtain the best overall results. We then show that straightforward additions at the latent level lead to substantial improvements by introducing i) a task-conditioned embedding space ii) a MixUp-based data augmentation technique. Finally, we release a highly reusable codebase to foster research in the field, offering modular and extensible implementations of all the relevant techniques.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/crisostomi22a.html
+  PDF: https://proceedings.mlr.press/v198/crisostomi22a/crisostomi22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-crisostomi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Donato
+    family: Crisostomi
+  - given: Simone
+    family: Antonelli
+  - given: Valentino
+    family: Maiorca
+  - given: Luca
+    family: Moschella
+  - given: Riccardo
+    family: Marin
+  - given: Emanuele
+    family: Rodolà
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 33:1-33:22
+  id: crisostomi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 33:1
+  lastpage: 33:22
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Sparse and Local Networks for Hypergraph Reasoning'
+  abstract: 'Reasoning about the relationships between entities from input facts (e.g., whether Ari is a grandparent of Charlie) generally requires explicit consideration of other entities that are not mentioned in the query (e.g., the parents of Charlie). In this paper, we present an approach for learning to solve problems of this kind in large, real-world domains, using sparse and local hypergraph neural networks (SpaLoc). SpaLoc is motivated by two observations from traditional logic-based reasoning: relational inferences usually apply locally (i.e., involve only a small number of individuals), and relations are usually sparse (i.e., only hold for a small percentage of tuples in a domain). We exploit these properties to make learning and inference efficient in very large domains by (1) using a sparse tensor representation for hypergraph neural networks, (2) applying a sparsification loss during training to encourage sparse representations, and (3) subsampling based on a novel information sufficiency–based sampling process during training. SpaLoc achieves state-of-the-art performance on several real-world, large-scale knowledge graph reasoning benchmarks, and is the first framework for applying hypergraph neural networks on real-world knowledge graphs with more than 10k nodes.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/xiao22a.html
+  PDF: https://proceedings.mlr.press/v198/xiao22a/xiao22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-xiao22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Guangxuan
+    family: Xiao
+  - given: Leslie Pack
+    family: Kaelbling
+  - given: Jiajun
+    family: Wu
+  - given: Jiayuan
+    family: Mao
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 34:1-34:16
+  id: xiao22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 34:1
+  lastpage: 34:16
+  published: 2022-12-21 00:00:00 +0000
+- title: 'ScatterSample: Diversified Label Sampling for Data Efficient Graph Neural Network Learning'
+  abstract: 'What target labels are most effective for graph neural network (GNN) training? In some applications where GNNs excel-like drug design or fraud detection, labeling new instances is expensive. We develop a data-efficient active sampling framework, ScatterSample, to train GNNs under an active learning setting. ScatterSample employs a sampling module termed DiverseUncertainty to collect instances with large uncertainty from different regions of the sample space for labeling. To ensure diversification of the selected nodes, DiverseUncertainty clusters the high uncertainty nodes and selects the representative nodes from each cluster. Our ScatterSample algorithm is further supported by rigorous theoretical analysis demonstrating its advantage compared to standard active sampling methods that aim to simply maximize the uncertainty and not diversify the samples. In particular, we show that ScatterSample is able to efficiently reduce the model uncertainty over the whole sample space. Our experiments on five datasets show that ScatterSample significantly outperforms the other GNN active learning baselines, specifically it reduces the sampling cost by up to 50% while achieving the same test accuracy. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/dai22a.html
+  PDF: https://proceedings.mlr.press/v198/dai22a/dai22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-dai22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Zhenwei
+    family: DAI
+  - given: Vasileios
+    family: Ioannidis
+  - given: Soji
+    family: Adeshina
+  - given: Zak
+    family: Jost
+  - given: Christos
+    family: Faloutsos
+  - given: George
+    family: Karypis
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 35:1-35:15
+  id: dai22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 35:1
+  lastpage: 35:15
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Piecewise-Velocity Model for Learning Continuous-Time Dynamic Node Representations'
+  abstract: 'Networks have become indispensable and ubiquitous structures in many fields to model the interactions among different entities, such as friendship in social networks or protein interactions in biological graphs. A major challenge is to understand the structure and dynamics of these systems. Although networks evolve through time, most existing graph representation learning methods target only static networks. Whereas approaches have been developed for the modeling of dynamic networks, there is a lack of efficient continuous time dynamic graph representation learning methods that can provide accurate network characterization and visualization in low dimensions while explicitly accounting for prominent network characteristics such as homophily and transitivity. In this paper, we propose the Piecewise-Velocity Model (PiVeM) for the representation of continuous-time dynamic networks. It learns dynamic embeddings in which the temporal evolution of nodes is approximated by piecewise linear interpolations based on a latent distance model with piecewise constant node-specific velocities. The model allows for analytically tractable expressions of the associated Poisson process likelihood with scalable inference invariant to the number of events. We further impose a scalable Kronecker structured Gaussian Process prior to the dynamics accounting for community structure, temporal smoothness, and disentangled (uncorrelated) latent embedding dimensions optimally learned to characterize the network dynamics. We show that PiVeM can successfully represent network structure and dynamics in ultra-low two-dimensional embedding spaces. We further extensively evaluate the performance of the approach on various networks of different types and sizes and find that it outperforms existing relevant state-of-art methods in downstream tasks such as link prediction. In summary, PiVeM enables easily interpretable dynamic network visualizations and characterizations that can further improve our understanding of the intrinsic dynamics of time-evolving networks.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/celikkanat22a.html
+  PDF: https://proceedings.mlr.press/v198/celikkanat22a/celikkanat22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-celikkanat22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Abdulkadir
+    family: CELIKKANAT
+  - given: Nikolaos
+    family: Nakis
+  - given: Morten
+    family: Mørup
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 36:1-36:21
+  id: celikkanat22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 36:1
+  lastpage: 36:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'TopoImb: Toward Topology-Level Imbalance in Learning From Graphs'
+  abstract: 'Graph serves as a powerful tool for modeling data that has an underlying structure in non-Euclidean space, by encoding relations as edges and entities as nodes. Despite developments in learning from graph-structured data over the years, one obstacle persists: graph imbalance. Although several attempts have been made to target this problem, they are limited to considering only class-level imbalance. In this work, we argue that for graphs, the imbalance is likely to exist at the sub-class topology group level. Due to the flexibility of topology structures, graphs could be highly diverse, and learning a generalizable classification boundary would be difficult. Therefore, several majority topology groups may dominate the learning process, rendering others under-represented. To address this problem, we propose a new framework {\method} and design (1 a topology extractor, which automatically identifies the topology group for each instance with explicit memory cells, (2 a training modulator, which modulates the learning process of the target GNN model to prevent the case of topology-group-wise under-representation. {\method} can be used as a key component in GNN models to improve their performances under the data imbalance setting. Analyses on both topology-level imbalance and the proposed {\method} are provided theoretically, and we empirically verify its effectiveness with both node-level and graph-level classification as the target tasks.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhao22b.html
+  PDF: https://proceedings.mlr.press/v198/zhao22b/zhao22b.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhao22b.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Tianxiang
+    family: Zhao
+  - given: Dongsheng
+    family: Luo
+  - given: Xiang
+    family: Zhang
+  - given: Suhang
+    family: Wang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 37:1-37:18
+  id: zhao22b
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 37:1
+  lastpage: 37:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Expander Graph Propagation'
+  abstract: 'Deploying graph neural networks (GNNs) on whole-graph classification or regression tasks is known to be challenging: it often requires computing node features that are mindful of both local interactions in their neighbourhood and the global context of the graph structure. GNN architectures that navigate this space need to avoid pathological behaviours, such as bottlenecks and oversquashing, while ideally having linear time and space complexity requirements. In this work, we propose an elegant approach based on propagating information over expander graphs. We leverage an efficient method for constructing expander graphs of a given size, and use this insight to propose the EGP model. We show that EGP is able to address all of the above concerns, while requiring minimal effort to set up, and provide evidence of its empirical utility on relevant graph classification datasets and baselines in the Open Graph Benchmark. Importantly, using expander graphs as a template for message passing necessarily gives rise to negative curvature. While this appears to be counterintuitive in light of recent related work on oversquashing, we theoretically demonstrate that negatively curved edges are likely to be required to obtain scalable message passing without bottlenecks. To the best of our knowledge, this is a previously unstudied result in the context of graph representation learning, and we believe our analysis paves the way to a novel class of scalable methods to counter oversquashing in GNNs.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/deac22a.html
+  PDF: https://proceedings.mlr.press/v198/deac22a/deac22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-deac22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Andreea
+    family: Deac
+  - given: Marc
+    family: Lackenby
+  - given: Petar
+    family: Veličković
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 38:1-38:18
+  id: deac22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 38:1
+  lastpage: 38:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'CEP3: Community Event Prediction With Neural Point Process on Graph'
+  abstract: 'Many real-world applications can be formulated as event forecasting on Continuous Time Dynamic Graphs (CTDGs) where the occurrence of a timed event between two entities is represented as an edge along with its occurrence timestamp. However, many previous works handle the problem in compromised settings, either formulating it as a link prediction task on the graph given the event time, or a time prediction problem for which event will happen next. In this paper, we propose a novel model combining Graph Neural Networks and Marked Temporal Point Process (MTPP) that jointly forecasts multiple link events and their timestamps on communities over a CTDG. Moreover, to scale our model to large graphs, we factorize the joint event prediction problem into three easier conditional probability modeling problems. To evaluate the effectiveness of our model and the rationale behind such a decomposition, we establish a set of benchmarks and evaluation metrics. The experimental results demonstrate the superiority of our model in terms of both accuracy and training efficiency. All the source codes and datasets are available in a GitHub repository. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/wang22c.html
+  PDF: https://proceedings.mlr.press/v198/wang22c/wang22c.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-wang22c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Xuhong
+    family: Wang
+  - given: Sirui
+    family: Chen
+  - given: Yixuan
+    family: He
+  - given: Minjie
+    family: Wang
+  - given: Quan
+    family: Gan
+  - given: Junchi
+    family: Yan
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 39:1-39:17
+  id: wang22c
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 39:1
+  lastpage: 39:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'MSGNN: A Spectral Graph Neural Network Based on a Novel Magnetic Signed Laplacian'
+  abstract: 'Signed and directed networks are ubiquitous in real-world applications. However, there has been relatively little work proposing spectral graph neural networks (GNNs) for such networks. Here we introduce a signed directed Laplacian matrix, which we call the magnetic signed Laplacian, as a natural generalization of both the signed Laplacian on signed graphs and the magnetic Laplacian on directed graphs. We then use this matrix to construct a novel efficient spectral GNN architecture and conduct extensive experiments on both node clustering and link prediction tasks. In these experiments, we consider tasks related to signed information, tasks related to directional information, and tasks related to both signed and directional information. We demonstrate that our proposed spectral GNN is effective for incorporating both signed and directional information, and attains leading performance on a wide range of data sets. Additionally, we provide a novel synthetic network model, which we refer to as the Signed Directed Stochastic Block Model, and a number of novel real-world data sets based on lead-lag relationships in financial time series. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/he22c.html
+  PDF: https://proceedings.mlr.press/v198/he22c/he22c.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-he22c.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yixuan
+    family: He
+  - given: Michael
+    family: Perlmutter
+  - given: Gesine
+    family: Reinert
+  - given: Mihai
+    family: Cucuringu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 40:1-40:39
+  id: he22c
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 40:1
+  lastpage: 40:39
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Combining Graph and Recurrent Networks for Efficient and Effective Segment Tagging'
+  abstract: 'Graph Neural Networks have been demonstrated to be highly effective and efficient in learning relationships between nodes locally and globally. Also, they are suitable for documents-related tasks due to their flexibility and capacity of adapting to complex layouts. However, information extraction on documents still remains a challenge, especially when dealing with unstructured documents. The semantic tagging of the text segments (a.k.a. entity tagging) is one of the essential tasks. In this paper we present SeqGraph, a new model that combines Transformers for text feature extraction, and Graph Neural Networks and recurrent layers for segments interaction, for an efficient and effective segment tagging. We address some of the limitations of current architectures and Transformer-based solutions. We optimize the model architecture by combining Graph Attention layers (GAT) and Gated Recurrent Units (GRUs), and we provide an ablation study on the design choices to demonstrate the effectiveness of SeqGraph. The proposed model is extremely light (4 million parameters), reducing the number of parameters between 100- and 200-times compared to its competitors, while achieving state-of-the-art results (97.23% F1 score on CORD dataset).'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/montero22a.html
+  PDF: https://proceedings.mlr.press/v198/montero22a/montero22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-montero22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: David
+    family: Montero
+  - given: Javier
+    family: Yebes
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 41:1-41:14
+  id: montero22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 41:1
+  lastpage: 41:14
+  published: 2022-12-21 00:00:00 +0000
+- title: 'A Systematic Evaluation of Node Embedding Robustness'
+  abstract: 'Node embedding methods map network nodes to low dimensional vectors that can be subsequently used in a variety of downstream prediction tasks. The popularity of these methods has grown significantly in recent years, yet, their robustness to perturbations of the input data is still poorly understood. In this paper, we assess the empirical robustness of node embedding models to random and adversarial poisoning attacks. Our systematic evaluation covers representative embedding methods based on Skip-Gram, matrix factorization, and deep neural networks. We compare edge addition, deletion and rewiring attacks computed using network properties as well as node labels. We also investigate the performance of popular node classification attack baselines that assume full knowledge of the node labels. We report qualitative results via embedding visualization and quantitative results in terms of downstream node classification and network reconstruction performances. We find that node classification results are impacted more than network reconstruction ones, that degree-based and label-based attacks are on average the most damaging and that label heterophily can strongly influence attack performance. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/mara22a.html
+  PDF: https://proceedings.mlr.press/v198/mara22a/mara22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-mara22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Alexandru Cristian
+    family: Mara
+  - given: Jefrey
+    family: Lijffijt
+  - given: Stephan
+    family: Günnemann
+  - given: Tijl De
+    family: Bie
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 42:1-42:14
+  id: mara22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 42:1
+  lastpage: 42:14
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Learnable Commutative Monoids for Graph Neural Networks'
+  abstract: 'Graph neural networks (GNNs) have been shown to be highly sensitive to the choice of aggregation function. While summing over a node’s neighbours can approximate any permutation-invariant function over discrete inputs, Cohen-Karlik et al. [2020] proved there are set-aggregation problems for which summing cannot generalise to unbounded inputs, proposing recurrent neural networks regularised towards permutation-invariance as a more expressive aggregator. We show that these results carry over to the graph domain: GNNs equipped with recurrent aggregators are competitive with state-of-the-art permutation-invariant aggregators, on both synthetic benchmarks and real-world problems. However, despite the benefits of recurrent aggregators, their O(V) depth makes them both difficult to parallelise and harder to train on large graphs. Inspired by the observation that a well-behaved aggregator for a GNN is a commutative monoid over its latent space, we propose a framework for constructing learnable, commutative, associative binary operators. And with this, we construct an aggregator of O(log V) depth, yielding exponential improvements for both parallelism and dependency length while achieving performance competitive with recurrent aggregators. Based on our empirical observations, our proposed learnable commutative monoid (LCM) aggregator represents a favourable tradeoff between efficient and expressive aggregators.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/ong22a.html
+  PDF: https://proceedings.mlr.press/v198/ong22a/ong22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-ong22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Euan
+    family: Ong
+  - given: Petar
+    family: Veličković
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 43:1-43:22
+  id: ong22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 43:1
+  lastpage: 43:22
+  published: 2022-12-21 00:00:00 +0000
+- title: 'GraphFramEx: Towards Systematic Evaluation of Explainability Methods for Graph Neural Networks'
+  abstract: 'As one of the most popular machine learning models today, graph neural networks (GNNs) have attracted intense interest recently, and so does their explainability. Unfortunately, today’s evaluation frameworks for GNN explainability often rely on few inadequate synthetic datasets, leading to conclusions of limited scope due to a lack of complexity in the problem instances. As GNN models are deployed to more mission-critical applications, we are in dire need for a common evaluation protocol of explainability methods of GNNs. In this paper, we propose, to our best knowledge, the first systematic evaluation framework for GNN explainability GraphFramEx, considering explainability on three different "user needs". We propose a unique metric, the characterization score, which combines the fidelity measures and classifies explanations based on their quality of being sufficient or necessary. We scope ourselves to node classification tasks and compare the most representative techniques in the field of input-level explainability for GNNs. We found that personalized PageRank has the best performance for synthetic benchmarks, but gradient-based methods outperform for tasks with complex graph structure. However, none dominates the others on all evaluation dimensions and there is always a trade-off. We further apply our evaluation protocol in a case study for frauds explanation on eBay transaction graphs to reflect the production environment.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/amara22a.html
+  PDF: https://proceedings.mlr.press/v198/amara22a/amara22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-amara22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Kenza
+    family: Amara
+  - given: Zhitao
+    family: Ying
+  - given: Zitao
+    family: Zhang
+  - given: Zhichao
+    family: Han
+  - given: Yang
+    family: Zhao
+  - given: Yinan
+    family: Shan
+  - given: Ulrik
+    family: Brandes
+  - given: Sebastian
+    family: Schemm
+  - given: Ce
+    family: Zhang
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 44:1-44:23
+  id: amara22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 44:1
+  lastpage: 44:23
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Learning Distributed Geometric Koopman Operator for Sparse Networked Dynamical Systems'
+  abstract: 'The Koopman operator theory provides an alternative to studying nonlinear networked dynamical systems (NDS) by mapping the state space to an abstract higher dimensional space where the system evolution is linear. The recent works show the application of graph neural networks (GNNs) to learn state to object-centric embedding and achieve centralized block-wise computation of the Koopman operator (KO) under additional assumptions on the underlying node properties and constraints on the KO structure. However, the computational complexity of learning the Koopman operator increases for large NDS. Moreover, the computational complexity increases in a combinatorial fashion with the increase in the number of nodes. The learning challenge is further amplified for sparse networks by two factors: 1) sample sparsity for learning the Koopman operator in the non-linear space, and 2) the dissimilarity in the dynamics of individual nodes or from one subgraph to another.  Our work aims to address these challenges by formulating the representation learning of NDS into a multi-agent paradigm and learning the Koopman operator in a distributive manner. Our theoretical results show that the proposed distributed computation of the geometric Koopman operator is beneficial for sparse NDS, whereas for the fully connected systems this approach coincides with the centralized one. The empirical study on a rope system, a network of oscillators, and a power grid show comparable and superior performance along with computational benefits with the state-of-the-art methods.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/mukherjee22a.html
+  PDF: https://proceedings.mlr.press/v198/mukherjee22a/mukherjee22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-mukherjee22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Sayak
+    family: Mukherjee
+  - given: Sai Pushpak
+    family: Nandanoori
+  - given: Sheng
+    family: Guan
+  - given: Khushbu
+    family: Agarwal
+  - given: Subhrajit
+    family: Sinha
+  - given: Soumya
+    family: Kundu
+  - given: Seemita
+    family: Pal
+  - given: Yinghui
+    family: Wu
+  - given: Draguna L
+    family: Vrabie
+  - given: Sutanay
+    family: Choudhury
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 45:1-45:17
+  id: mukherjee22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 45:1
+  lastpage: 45:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Weisfeiler and Leman Go Relational'
+  abstract: 'Knowledge graphs, modeling multi-relational data, improve numerous applications such as question answering or graph logical reasoning. Many graph neural networks for such data emerged recently, often outperforming shallow architectures. However, the design of such multi-relational graph neural networks is ad-hoc, driven mainly by intuition and empirical insights. Up to now, their expressivity, their relation to each other, and their (practical) learning performance is poorly understood. Here, we initiate the study of deriving a more principled understanding of multi-relational graph neural networks. Namely, we investigate the limitations in the expressive power of the well-known Relational GCN and Compositional GCN architectures and shed some light on their practical learning performance. By aligning both architectures with a suitable version of the Weisfeiler-Leman test, we establish under which conditions both models have the same expressive power in distinguishing non-isomorphic (multi-relational) graphs or vertices with different structural roles. Further, by leveraging recent progress in designing expressive graph neural networks, we introduce the \textdollar k\textdollar -RN  architecture that provably overcomes the expressiveness limitations of the above two architectures. Empirically, we confirm our theoretical findings in a vertex classification setting over small and large multi-relational graphs.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/barcelo22a.html
+  PDF: https://proceedings.mlr.press/v198/barcelo22a/barcelo22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-barcelo22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Pablo
+    family: Barcelo
+  - given: Mikhail
+    family: Galkin
+  - given: Christopher
+    family: Morris
+  - given: Miguel Romero
+    family: Orth
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 46:1-46:26
+  id: barcelo22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 46:1
+  lastpage: 46:26
+  published: 2022-12-21 00:00:00 +0000
+- title: 'A Survey on Deep Graph Generation: Methods and Applications'
+  abstract: 'Graphs are ubiquitous in encoding relational information of real-world objects in many domains. Graph generation, whose purpose is to generate new graphs from a distribution similar to the observed graphs, has received increasing attention thanks to the recent advances of deep learning models. In this paper, we conduct a comprehensive review on the existing literature of deep graph generation from a variety of emerging methods to its wide application areas. Specifically, we first formulate the problem of deep graph generation and discuss its difference with several related graph learning tasks. Secondly, we divide the state-of-the-art methods into three categories based on model architectures and summarize their generation strategies. Thirdly, we introduce three key application areas of deep graph generation. Lastly, we highlight challenges and opportunities in the future study of deep graph generation. We hope that our survey will be useful for researchers and practitioners who are interested in this exciting and rapidly-developing field.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhu22a.html
+  PDF: https://proceedings.mlr.press/v198/zhu22a/zhu22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhu22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yanqiao
+    family: Zhu
+  - given: Yuanqi
+    family: Du
+  - given: Yinkai
+    family: Wang
+  - given: Yichen
+    family: Xu
+  - given: Jieyu
+    family: Zhang
+  - given: Qiang
+    family: Liu
+  - given: Shu
+    family: Wu
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 47:1-47:21
+  id: zhu22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 47:1
+  lastpage: 47:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Neural Graph Modelling of Whole Slide Images for Survival Ranking'
+  abstract: 'Evaluation of a cancer patient’s prognostic outlook is an essential step in the clinical decision-making process, involving the assessment of complex tissue structures in multi-gigapixel whole slide images (WSIs). Effective risk stratification of patients from WSIs has proven challenging despite several approaches across the literature due to their large size and inability of existing approaches to effectively model inter-relationships between different tissue components. We propose a graph neural network (GNN) model that performs pairwise ranking of graph representations of WSIs based on survival scores. The proposed approach translates spatially-localised deep features along with their spatial context to a graph neural network to produce survival scores.  Analysis over breast cancer patients from The Cancer Genome Atlas (TCGA) shows that the proposed GNN approach is able to rank patients with respect to their disease-specific survival times with a concordance index of \textdollar 0.672 \pm 0.058\textdollar . This is a significant improvement over existing state of the art and paves the way for neural graph modelling of WSI data for survival prediction for other cancer types. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/mackenzie22a.html
+  PDF: https://proceedings.mlr.press/v198/mackenzie22a/mackenzie22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-mackenzie22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Callum Christopher
+    family: Mackenzie
+  - given: Muhammad
+    family: Dawood
+  - given: Simon
+    family: Graham
+  - given: Mark
+    family: Eastwood
+  - given: Fayyaz
+    prefix: ul
+    family: Amir Afsar Minhas
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 48:1-48:10
+  id: mackenzie22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 48:1
+  lastpage: 48:10
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Dynamic Network Reconfiguration for Entropy Maximization Using Deep Reinforcement Learning'
+  abstract: 'A key problem in network theory is how to reconfigure a graph in order to optimize a quantifiable objective. Given the ubiquity of networked systems, such work has broad practical applications in a variety of situations, ranging from drug and material design to telecommunications. The large decision space of possible reconfigurations, however, makes this problem computationally intensive. In this paper, we cast the problem of network rewiring for optimizing a specified structural property as a Markov Decision Process (MDP), in which a decision-maker is given a budget of modifications that are performed sequentially. We then propose a general approach based on the Deep Q-Network (DQN) algorithm and graph neural networks (GNNs) that can efficiently learn strategies for rewiring networks.  We then discuss a cybersecurity case study, i.e., an application to the computer network reconfiguration problem for intrusion protection. In a typical scenario, an attacker might have a (partial) map of the system they plan to penetrate; if the network is effectively "scrambled", they would not be able to navigate it since their prior knowledge would become obsolete. This can be viewed as an entropy maximization problem, in which the goal is to increase the surprise of the network. Indeed, entropy acts as a proxy measurement of the difficulty of navigating the network topology. We demonstrate the general ability of the proposed method to obtain better entropy gains than random rewiring on synthetic and real-world graphs while being computationally inexpensive, as well as being able to generalize to larger graphs than those seen during training. Simulations of attack scenarios confirm the effectiveness of the learned rewiring strategies.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/doorman22a.html
+  PDF: https://proceedings.mlr.press/v198/doorman22a/doorman22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-doorman22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Christoffel
+    family: Doorman
+  - given: Victor-Alexandru
+    family: Darvariu
+  - given: Stephen
+    family: Hailes
+  - given: Mirco
+    family: Musolesi
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 49:1-49:15
+  id: doorman22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 49:1
+  lastpage: 49:15
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Reasoning-Modulated Representations'
+  abstract: 'Neural networks leverage robust internal representations in order to generalise. Learning them is difficult, and often requires a large training set that covers the data distribution densely. We study a common setting where our task is not purely opaque. Indeed, very often we may have access to information about the underlying system (e.g. that observations must obey certain laws of physics) that any "tabula rasa" neural network would need to re-learn from scratch, penalising performance. We incorporate this information into a pre-trained reasoning module, and investigate its role in shaping the discovered representations in diverse self-supervised learning settings from pixels. Our approach paves the way for a new class of representation learning, grounded in algorithmic priors. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/velickovic22a.html
+  PDF: https://proceedings.mlr.press/v198/velickovic22a/velickovic22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-velickovic22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Petar
+    family: Veličković
+  - given: Matko
+    family: Bošnjak
+  - given: Thomas
+    family: Kipf
+  - given: Alexander
+    family: Lerchner
+  - given: Raia
+    family: Hadsell
+  - given: Razvan
+    family: Pascanu
+  - given: Charles
+    family: Blundell
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 50:1-50:17
+  id: velickovic22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 50:1
+  lastpage: 50:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'De Bruijn Goes Neural: Causality-Aware Graph Neural Networks for Time Series Data on Dynamic Graphs'
+  abstract: 'We introduce De Bruijn Graph Neural Networks (DBGNNs), a novel time-aware graph neural network architecture for time-resolved data on dynamic graphs. Our approach accounts for temporal-topological patterns that unfold in the causal topology of dynamic graphs, which is determined by \emph{causal walks}, i.e. temporally ordered sequences of links by which nodes can influence each other over time. Our architecture builds on multiple layers of higher-order De Bruijn graphs, an iterative line graph construction where nodes in a De Bruijn graph of order \textdollar k\textdollar  represent walks of length \textdollar k-1\textdollar , while edges represent walks of length \textdollar k\textdollar . We develop a graph neural network architecture that utilizes De Bruijn graphs to implement a message passing scheme that considers non-Markovian characteristics of causal walks, which enables us to learn patterns in the causal topology of dynamic graphs. Addressing the issue that De Bruijn graphs with different orders \textdollar k\textdollar  can be used to model the same data, we apply statistical model selection to determine the optimal graph to be used for message passing. An evaluation in synthetic and empirical data sets suggests that DBGNNs can leverage temporal patterns in dynamic graphs, which substantially improves performance in a node classification task.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/qarkaxhija22a.html
+  PDF: https://proceedings.mlr.press/v198/qarkaxhija22a/qarkaxhija22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-qarkaxhija22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Lisi
+    family: Qarkaxhija
+  - given: Vincenzo
+    family: Perri
+  - given: Ingo
+    family: Scholtes
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 51:1-51:21
+  id: qarkaxhija22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 51:1
+  lastpage: 51:21
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Similarity-Based Link Prediction From Modular Compression of Network Flows'
+  abstract: 'Node similarity scores are a foundation for machine learning in graphs for clustering, node classification, anomaly detection, and link prediction with applications in biological systems, information networks, and recommender systems. Recent works on link prediction use vector space embeddings to calculate node similarities in undirected networks with good performance. Still, they have several disadvantages: limited interpretability, need for hyperparameter tuning, manual model fitting through dimensionality reduction, and poor performance from symmetric similarities in directed link prediction. We propose MapSim, an information-theoretic measure to assess node similarities based on modular compression of network flows. Unlike vector space embeddings, MapSim represents nodes in a discrete, non-metric space of communities and yields asymmetric similarities in an unsupervised fashion. We compare MapSim on a link prediction task to popular embedding-based algorithms across 47 networks and find that MapSim’s average performance across all networks is more than 7% higher than its closest competitor, outperforming all embedding methods in 11 of the 47 networks. Our method demonstrates the potential of compression-based approaches in graph representation learning, with promising applications in other graph learning tasks.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/blocker22a.html
+  PDF: https://proceedings.mlr.press/v198/blocker22a/blocker22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-blocker22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Christopher
+    family: Blöcker
+  - given: Jelena
+    family: Smiljanić
+  - given: Ingo
+    family: Scholtes
+  - given: Martin
+    family: Rosvall
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 52:1-52:18
+  id: blocker22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 52:1
+  lastpage: 52:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Pruning Edges and Gradients to Learn Hypergraphs From Larger Sets'
+  abstract: 'This paper aims for set-to-hypergraph prediction, where the goal is to infer the set of relations for a given set of entities. This is a common abstraction for applications in particle physics, biological systems and combinatorial optimization. We address two common scaling problems encountered in set-to-hypergraph tasks that limit the size of the input set: the exponentially growing number of hyperedges and the run-time complexity, both leading to higher memory requirements. We make three contributions. First, we propose to predict and supervise the positive edges only, which changes the asymptotic memory scaling from exponential to linear. Second, we introduce a training method that encourages iterative refinement of the predicted hypergraph, which allows us to skip iterations in the backward pass for improved efficiency and constant memory usage. Third, we combine both contributions in a single set-to-hypergraph model that enables us to address problems with larger input set sizes. We provide ablations for our main technical contributions and show that our model outperforms prior state-of-the-art, especially for larger sets.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/zhang22a.html
+  PDF: https://proceedings.mlr.press/v198/zhang22a/zhang22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-zhang22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: David W
+    family: Zhang
+  - given: Gertjan J.
+    family: Burghouts
+  - given: Cees G. M.
+    family: Snoek
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 53:1-53:18
+  id: zhang22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 53:1
+  lastpage: 53:18
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Continuous Neural Algorithmic Planners'
+  abstract: 'Neural algorithmic reasoning studies the problem of learning algorithms with neural networks, especially using graph architectures. A recent proposal, XLVIN, reaps the benefits of using a graph neural network that simulates the value iteration algorithm in deep reinforcement learning agents. It allows model-free planning without access to privileged information about the environment, which is usually unavailable. However, XLVIN only supports discrete action spaces, and is hence nontrivially applicable to most tasks of real-world interest. We expand XLVIN to continuous action spaces by discretization, and evaluate several selective expansion policies to deal with the large planning graphs. Our proposal, CNAP, demonstrates how neural algorithmic reasoning can make a measurable impact in higher-dimensional continuous control settings, such as MuJoCo, bringing gains in low-data settings and outperforming model-free baselines.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/he22a.html
+  PDF: https://proceedings.mlr.press/v198/he22a/he22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-he22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Yu
+    family: He
+  - given: Petar
+    family: Veličković
+  - given: Pietro
+    family: Lio
+  - given: Andreea
+    family: Deac
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 54:1-54:13
+  id: he22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 54:1
+  lastpage: 54:13
+  published: 2022-12-21 00:00:00 +0000
+- title: 'Effective Higher-Order Link Prediction and Reconstruction From Simplicial Complex Embeddings'
+  abstract: 'Methods that learn graph topological representations are becoming the usual choice to extract features to help solve machine learning tasks on graphs. In particular, low-dimensional encoding of graph nodes can be exploited in tasks such as link prediction and network reconstruction, where pairwise node embedding similarity is interpreted as the likelihood of an edge incidence. The presence of polyadic interactions in many real-world complex systems is leading to the emergence of representation learning techniques able to describe systems that include such polyadic relations. Despite this, their application on estimating the likelihood of tuple-wise edges is still underexplored.  Here we focus on the reconstruction and prediction of simplices (higher-order links) in the form of classification tasks, where the likelihood of interacting groups is computed from the embedding features of a simplicial complex. Using similarity scores based on geometric properties of the learned metric space, we show how the resulting node-level and group-level feature embeddings are beneficial to predict unseen simplices, as well as to reconstruct the topology of the original simplicial structure, even when training data contain only records of lower-order simplices. '
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/piaggesi22a.html
+  PDF: https://proceedings.mlr.press/v198/piaggesi22a/piaggesi22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-piaggesi22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Simone
+    family: Piaggesi
+  - given: André
+    family: Panisson
+  - given: Giovanni
+    family: Petri
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 55:1-55:17
+  id: piaggesi22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 55:1
+  lastpage: 55:17
+  published: 2022-12-21 00:00:00 +0000
+- title: 'FakeEdge: Alleviate Dataset Shift in Link Prediction'
+  abstract: 'Link prediction is a crucial problem in graph-structured data. Due to the recent success of graph neural networks (GNNs), a variety of GNN-based models were proposed to tackle the link prediction task. Specifically, GNNs leverage the message passing paradigm to obtain node representation, which relies on link connectivity. However, in a link prediction task, links in the training set are always present while ones in the testing set are not yet formed, resulting in a discrepancy of the connectivity pattern and bias of the learned representation. It leads to a problem of dataset shift which degrades the model performance. In this paper, we first identify the dataset shift problem in the link prediction task and provide theoretical analyses on how existing link prediction methods are vulnerable to it. We then propose FakeEdge, a model-agnostic technique, to address the problem by mitigating the graph topological gap between training and testing sets. Extensive experiments demonstrate the applicability and superiority of FakeEdge on multiple datasets across various domains.'
+  volume: 198
+  URL: https://proceedings.mlr.press/v198/dong22a.html
+  PDF: https://proceedings.mlr.press/v198/dong22a/dong22a.pdf
+  edit: https://github.com/mlresearch//v198/edit/gh-pages/_posts/2022-12-21-dong22a.md
+  series: 'Proceedings of Machine Learning Research'
+  container-title: 'Proceedings of the First Learning on Graphs Conference'
+  publisher: 'PMLR'
+  author: 
+  - given: Kaiwen
+    family: Dong
+  - given: Yijun
+    family: Tian
+  - given: Zhichun
+    family: Guo
+  - given: Yang
+    family: Yang
+  - given: Nitesh
+    family: Chawla
+  editor: 
+  - given: Bastian
+    family: Rieck
+  - given: Razvan
+    family: Pascanu
+  page: 56:1-56:19
+  id: dong22a
+  issued:
+    date-parts: 
+      - 2022
+      - 12
+      - 21
+  firstpage: 56:1
+  lastpage: 56:19
+  published: 2022-12-21 00:00:00 +0000
