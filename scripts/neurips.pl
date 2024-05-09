@@ -6,22 +6,26 @@ use Readonly;
 use LWP::UserAgent;
 use Text::BibTeX;
 use HTML::TreeBuilder;
+use Cwd 'abs_path';
 use File::Path qw(make_path);
 use File::Glob ':glob';
+use File::Basename;
+use File::Spec;
 use Carp qw(croak);
 use Parallel::ForkManager;
 use Log::Log4perl;
 
 # Constants
-Readonly my $BASE_URL    => 'https://proceedings.neurips.cc';
-Readonly my $PAGE_URL    => 'https://proceedings.neurips.cc/paper_files/paper';
-Readonly my $START_YEAR  => 1987;
-Readonly my $END_YEAR    => 2023;
-Readonly my $BASE_DIR    => '../data/neurips';
-Readonly my $BIB_DIR     => "$BASE_DIR/bibliography";
-Readonly my $LOG_DIR     => "../logs";
-Readonly my $LOG_FILE    => "$LOG_DIR/neurips.log";
-Readonly my $RETRY_COUNT => 3;
+Readonly my $SCRIPT_DIR      => dirname(abs_path($0));
+Readonly my $BASE_URL        => 'https://proceedings.neurips.cc';
+Readonly my $PAGE_URL        => 'https://proceedings.neurips.cc/paper_files/paper';
+Readonly my $START_YEAR      => 1987;
+Readonly my $END_YEAR        => 2023;
+Readonly my $BASE_DIR        => File::Spec->catdir($SCRIPT_DIR, '..', 'data', 'neurips');
+Readonly my $BIB_DIR         => File::Spec->catdir($BASE_DIR, 'bibliography');
+Readonly my $LOG_DIR         => File::Spec->catdir($SCRIPT_DIR, '..', 'logs');
+Readonly my $LOG_FILE        => File::Spec->catfile($LOG_DIR, 'neurips.log');
+Readonly my $RETRY_COUNT     => 3;
 Readonly my $TIMEOUT_SECONDS => 10;
 Readonly my $MAX_PARALLEL    => 38;
 
