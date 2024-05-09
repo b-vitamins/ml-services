@@ -35,7 +35,7 @@ unless ( -d $LOG_DIR ) {
 }
 
 # Initialize the Log4perl configuration
-my $log_config = q(
+my $log_config = qq(
     log4perl.rootLogger=DEBUG, Screen, File
 
     log4perl.appender.Screen=Log::Log4perl::Appender::Screen
