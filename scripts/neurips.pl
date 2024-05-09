@@ -44,7 +44,7 @@ my $log_config = q(
     log4perl.appender.Screen.layout.ConversionPattern=%d %p %m%n
 
     log4perl.appender.File=Log::Log4perl::Appender::File
-    log4perl.appender.File.filename=../logs/neurips.log
+    log4perl.appender.File.filename=$LOG_FILE
     log4perl.appender.File.mode=append
     log4perl.appender.File.layout=Log::Log4perl::Layout::PatternLayout
     log4perl.appender.File.layout.ConversionPattern=%d %p %m%n
