@@ -6,6 +6,10 @@ from fuzzywuzzy import fuzz
 import pyalex
 import bibtexparser
 
+pyalex.config.max_retries = 15
+pyalex.config.retry_backoff_factor = 0.1
+pyalex.config.retry_http_codes = [429, 500, 503]
+
 # Constants
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
@@ -85,6 +89,7 @@ def process_search_results(
                 if full_id_link:
                     work_id = work.get("id").rsplit("/", 1)[-1]
                     detailed_work = pyalex.Works()[work_id]
+                    abstract = detailed_work["abstract"]
                     if detailed_work:
                         save_json(detailed_work, paper_folder, work_id)
                         truncated_path = os.path.relpath(
@@ -93,7 +98,9 @@ def process_search_results(
                         logging.info(
                             f"Processed {work_id}: {title} ({truncated_path})"
                         )
-                        update_bib_file(bib_file_path, extracted_title, work_id)
+                        update_bib_file(
+                            bib_file_path, extracted_title, work_id, abstract
+                        )
                         return True
                     else:
                         logging.error(
@@ -106,21 +113,23 @@ def process_search_results(
         log_no_match(bib_file_path, extracted_title, results)
 
 
-def update_bib_file(bib_file_path, title, work_id):
-    """Update .bib file with openalex field."""
+def update_bib_file(bib_file_path, title, work_id, abstract):
+    """Update .bib file with openalex and abstract field."""
     try:
         with open(bib_file_path, "r") as bib_file:
             bib_database = bibtexparser.load(bib_file)
         for entry in bib_database.entries:
             if entry.get("title") == title:
-                entry["openalex"] = work_id
+                if work_id:
+                    entry["openalex"] = work_id
+                if abstract:
+                    entry["abstract"] = abstract
                 break
         else:
             logging.warning(f"Title '{title}' not found in {bib_file_path}")
             return
         with open(bib_file_path, "w") as bib_file:
             bib_file.write(bibtexparser.dumps(bib_database))
-
         logging.info(f"Updated {bib_file_path} with OpenAlex ID: {work_id}")
     except Exception as e:
         logging.error(f"Error updating {bib_file_path}: {e}")
