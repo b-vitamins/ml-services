@@ -122,8 +122,9 @@ def update_bib_file(bib_file_path, title, work_id, abstract):
             if entry.get("title") == title:
                 if work_id:
                     entry["openalex"] = work_id
-                if abstract:
-                    entry["abstract"] = abstract
+                if entry["abstract"] == None:
+                    if abstract:
+                        entry["abstract"] = abstract
                 break
         else:
             logging.warning(f"Title '{title}' not found in {bib_file_path}")
