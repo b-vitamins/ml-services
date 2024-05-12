@@ -6,6 +6,7 @@ This project is in its infancy, and I haven't scoped it enough to write anything
 
 ### Scripts
 Scripts for wrangling data:
+- `scripts/alexify.py`: wrangles the [OpenAlex Work Object](https://docs.openalex.org/api-entities/works/work-object) for all entries in all `BibTeX` files under `data`.
 - `scripts/mloss.pl`: wrangles the `BibTeX` entries for everything ever to have appeared in [JMLR Machine Learning Open Source Software (MLOSS)](https://www.jmlr.org/mloss/),
 - `scripts/tlmr.pl`: wrangles the `BibTeX` entries for everything ever to have appeared in [Transactions on Machine Learning Research (TLMR)](https://jmlr.org/tmlr/),
 - `scripts/jmlr.pl`: wrangles the `BibTeX` entries for everything ever to have appeared in [Journal of Machine Learning Research (JLMR)](https://www.jmlr.org/),
