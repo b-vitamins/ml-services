@@ -121,7 +121,7 @@ def update_bib_file(bib_file_path, title, work_id, abstract):
             if entry.get("title") == title:
                 if work_id:
                     entry["openalex"] = work_id
-                if abstract and entry.get("abstract") is None:
+                if abstract:
                     entry["abstract"] = abstract
                 entry_updated = True
                 break
