@@ -89,7 +89,9 @@ def fuzzy_match_titles(extracted_title, work_title):
 
 def log_no_match(bib_file_path, extracted_title):
     """Log when no matching title is found."""
-    logging.info(f"No close match for {bib_file_path}. Title: '{extracted_title}'.")
+    logging.info(
+        f"No close match for {bib_file_path}. Title: '{extracted_title}'."
+    )
 
 
 def process_search_results(
@@ -102,8 +104,14 @@ def process_search_results(
             full_id_link = work.get("id")
             work_id = full_id_link.rsplit("/", 1)[-1] if full_id_link else None
 
-            if work_id and work_id not in processed_entries and (
-                extracted_title and top_result_title and fuzzy_match_titles(extracted_title, top_result_title)
+            if (
+                work_id
+                and work_id not in processed_entries
+                and (
+                    extracted_title
+                    and top_result_title
+                    and fuzzy_match_titles(extracted_title, top_result_title)
+                )
             ):
                 try:
                     detailed_work = pyalex.Works()[work_id]
@@ -116,7 +124,10 @@ def process_search_results(
                             f"Processed {work_id}: {top_result_title} ({truncated_path})"
                         )
                         update_bib_file(
-                            bib_file_path, extracted_title, work_id, detailed_work.get("abstract", "")
+                            bib_file_path,
+                            extracted_title,
+                            work_id,
+                            detailed_work.get("abstract", ""),
                         )
                         log_processed_entry(work_id)
                         return True
@@ -155,7 +166,13 @@ def process_bib_file(bib_file_path, openalex_folder, processed_entries):
     for title in extracted_titles:
         try:
             results = pyalex.Works().search(title).get()
-            process_search_results(bib_file_path, [title], results, openalex_folder, processed_entries)
+            process_search_results(
+                bib_file_path,
+                [title],
+                results,
+                openalex_folder,
+                processed_entries,
+            )
         except (HTTPError, RequestException) as e:
             logging.error(f"Error searching for '{title}': {e}")
 
@@ -175,7 +192,9 @@ def process_conference_bibliographies():
                 if bib_file.endswith(".bib"):
                     bib_file_path = os.path.join(bib_folder, bib_file)
                     openalex_folder = create_subfolder_for_bib(bib_file, conf)
-                    process_bib_file(bib_file_path, openalex_folder, processed_entries)
+                    process_bib_file(
+                        bib_file_path, openalex_folder, processed_entries
+                    )
         else:
             logging.warning(f"Bibliography folder not found: {bib_folder}")
 
