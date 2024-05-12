@@ -10,14 +10,12 @@ pyalex.config.max_retries = 15
 pyalex.config.retry_backoff_factor = 0.1
 pyalex.config.retry_http_codes = [429, 500, 503]
 
-# Constants
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(SCRIPT_DIR, "..", "data")
 LOG_DIR = os.path.join(SCRIPT_DIR, "..", "logs")
 CONFERENCES = ["jmlr", "mloss", "neurips", "pmlr", "tmlr"]
 FUZZY_MATCH_THRESHOLD = 80
 
-# Set up logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -31,7 +29,7 @@ logging.basicConfig(
 def create_subfolder_for_bib(bib_file, conf):
     """Creates a subfolder in the openalex directory for each .bib file."""
     openalex_path = os.path.join(DATA_DIR, conf, "openalex")
-    subfolder_name = os.path.splitext(bib_file)[0]  # Strip the .bib extension
+    subfolder_name = os.path.splitext(bib_file)[0]
     subfolder_path = os.path.join(openalex_path, subfolder_name)
     if not os.path.exists(subfolder_path):
         os.makedirs(subfolder_path)
@@ -118,20 +116,21 @@ def update_bib_file(bib_file_path, title, work_id, abstract):
     try:
         with open(bib_file_path, "r") as bib_file:
             bib_database = bibtexparser.load(bib_file)
+        entry_updated = False
         for entry in bib_database.entries:
             if entry.get("title") == title:
                 if work_id:
                     entry["openalex"] = work_id
-                if entry["abstract"] == None:
-                    if abstract:
-                        entry["abstract"] = abstract
+                if abstract and entry.get("abstract") is None:
+                    entry["abstract"] = abstract
+                entry_updated = True
                 break
-        else:
+        if not entry_updated:
             logging.warning(f"Title '{title}' not found in {bib_file_path}")
-            return
-        with open(bib_file_path, "w") as bib_file:
-            bib_file.write(bibtexparser.dumps(bib_database))
-        logging.info(f"Updated {bib_file_path} with OpenAlex ID: {work_id}")
+        else:
+            with open(bib_file_path, "w") as bib_file:
+                bib_file.write(bibtexparser.dumps(bib_database))
+            logging.info(f"Updated {bib_file_path} with OpenAlex ID: {work_id}")
     except Exception as e:
         logging.error(f"Error updating {bib_file_path}: {e}")
 
