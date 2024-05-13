@@ -1,101 +1,131 @@
-
 @article{JMLR:v17:15-176,
-  author  = {Hoo-Chang Shin and Le Lu and Lauren Kim and Ari Seff and Jianhua Yao and Ronald M. Summers},
-  title   = {Interleaved Text/Image Deep Mining on a Large-Scale Radiology Database for Automated Image Interpretation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {107},
-  pages   = {1--31},
-  url     = {http://jmlr.org/papers/v17/15-176.html}
+ abstract = {Despite tremendous progress in computer vision, there has not been an attempt for machine learning on very large-scale medical image databases. We present an interleaved text/image deep learning system to extract and mine the semantic interactions of radiology images and reports from a national research hospital's Picture Archiving and Communication System. With natural language processing, we mine a collection of representative ~216K two-dimensional key images selected by clinicians for diagnostic reference, and match the images with their descriptions in an automated manner. Our system interleaves between unsupervised learning and supervised learning on document- and sentence-level text collections, to generate semantic labels and to predict them given an image. Given an image of a patient scan, semantic topics in radiology levels are predicted, and associated key-words are generated. Also, a number of frequent disease types are detected as present or absent, to provide more specific interpretation of a patient scan. This shows the potential of large-scale learning and prediction in electronic patient records available in most modern clinical institutions.},
+ author = {Hoo-Chang Shin and Le Lu and Lauren Kim and Ari Seff and Jianhua Yao and Ronald M. Summers},
+ journal = {Journal of Machine Learning Research},
+ number = {107},
+ openalex = {W1548445631},
+ pages = {1--31},
+ title = {Interleaved Text/Image Deep Mining on a Large-Scale Radiology Database for Automated Image Interpretation},
+ url = {http://jmlr.org/papers/v17/15-176.html},
+ volume = {17},
+ year = {2016}
 }
+
 @article{JMLR:v17:15-177,
-  author  = {Jenna Wiens and John Guttag and Eric Horvitz},
-  title   = {Patient Risk Stratification with Time-Varying Parameters: A Multitask Learning Approach},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {79},
-  pages   = {1--23},
-  url     = {http://jmlr.org/papers/v17/15-177.html}
+ abstract = {The proliferation of electronic health records (EHRs) frames opportunities for using machine learning to build models that help healthcare providers improve patient outcomes. However, building useful risk stratification models presents many technical challenges including the large number of factors (both intrinsic and extrinsic) influencing a patient's risk of an adverse outcome and the inherent evolution of that risk over time. We address these challenges in the context of learning a risk stratification model for predicting which patients are at risk of acquiring a Clostridium difficile infection (CDI). We take a novel data-centric approach, leveraging the contents of EHRs from nearly 50,000 hospital admissions. We show how, by adapting techniques from multitask learning, we can learn models for patient risk stratification with unprecedented classification performance. Our model, based on thousands of variables, both time-varying and time-invariant, changes over the course of a patient admission. Applied to a held out set of approximately 25,000 patient admissions, we achieve an area under the receiver operating characteristic curve of 0.81 (95% CI 0.78-0.84). The model has been integrated into the health record system at a large hospital in the US, and can be used to produce daily risk estimates for each inpatient. While more complex than traditional risk stratification methods, the widespread development and use of such data-driven models could ultimately enable cost-effective, targeted prevention strategies that lead to better patient outcomes.},
+ author = {Jenna Wiens and John Guttag and Eric Horvitz},
+ journal = {Journal of Machine Learning Research},
+ number = {79},
+ openalex = {W2466764065},
+ pages = {1--23},
+ title = {Patient risk stratification with time-varying parameters: a multitask learning approach},
+ url = {http://jmlr.org/papers/v17/15-177.html},
+ volume = {17},
+ year = {2016}
 }
-@article{JMLR:v17:15-404,
-  author  = {Byron C. Wallace and Jo{{\"e}}l Kuiper and Aakash Sharma and Mingxi (Brian) Zhu and Iain J. Marshall},
-  title   = {Extracting PICO Sentences from Clinical Trial Reports using Supervised Distant Supervision},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {132},
-  pages   = {1--25},
-  url     = {http://jmlr.org/papers/v17/15-404.html}
-}
-@article{JMLR:v17:15-405,
-  author  = {Ramin Moghaddass and Cynthia Rudin and David Madigan},
-  title   = {The Factorized Self-Controlled Case Series Method: An Approach for Estimating the Effects of Many Drugs on Many Outcomes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {185},
-  pages   = {1--24},
-  url     = {http://jmlr.org/papers/v17/15-405.html}
-}
-@article{JMLR:v17:15-428,
-  author  = {Bilal Ahmed and Thomas Thesen and Karen E. Blackmon and Ruben Kuzniekcy and Orrin Devinsky and Carla E. Brodley},
-  title   = {Decrypting ``Cryptogenic'' Epilepsy: Semi-supervised Hierarchical Conditional Random Fields For Detecting Cortical Lesions In MRI-Negative Patients},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {112},
-  pages   = {1--30},
-  url     = {http://jmlr.org/papers/v17/15-428.html}
-}
-@article{JMLR:v17:15-429,
-  author  = {Ricardo Henao and James T. Lu and Joseph E. Lucas and Jeffrey Ferranti and Lawrence Carin},
-  title   = {Electronic Health Record Analysis via Deep Poisson Factor Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {186},
-  pages   = {1--32},
-  url     = {http://jmlr.org/papers/v17/15-429.html}
-}
-@article{JMLR:v17:15-431,
-  author  = {Huseyin Melih Elibol and Vincent Nguyen and Scott Linderman and Matthew Johnson and Amna Hashmi and Finale Doshi-Velez},
-  title   = {Cross-Corpora Unsupervised Learning of Trajectories in Autism Spectrum Disorders},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {133},
-  pages   = {1--38},
-  url     = {http://jmlr.org/papers/v17/15-431.html}
-}
-@article{JMLR:v17:15-436,
-  author  = {Peter Schulam and Suchi Saria},
-  title   = {Integrative Analysis using Coupled Latent Variable Models for Individualizing Prognoses},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {232},
-  pages   = {1--35},
-  url     = {http://jmlr.org/papers/v17/15-436.html}
-}
-@article{JMLR:v17:15-444,
-  author  = {Jun Fan and Yirong Wu and Ming Yuan and David Page and Jie Liu and Irene M. Ong and Peggy Peissig and Elizabeth Burnside},
-  title   = {Structure-Leveraged Methods in Breast Cancer Risk Prediction},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {85},
-  pages   = {1--15},
-  url     = {http://jmlr.org/papers/v17/15-444.html}
-}
+
 @article{JMLR:v17:15-252,
-  author  = {Daniel J. Lizotte and Eric B. Laber},
-  title   = {Multi-Objective Markov Decision Processes for Data-Driven Decision Support},
-  journal = {Journal of Machine Learning Research},
-  year    = {2016},
-  volume  = {17},
-  number  = {210},
-  pages   = {1--28},
-  url     = {http://jmlr.org/papers/v17/15-252.html}
+ abstract = {We present new methodology based on Multi-Objective Markov Decision Processes for developing sequential decision support systems from data. Our approach uses sequential decision-making data to provide support that is useful to many different decision-makers, each with different, potentially time-varying preference. To accomplish this, we develop an extension of fitted-Q iteration for multiple objectives that computes policies for all scalarization functions, i.e. preference functions, simultaneously from continuous-state, finite-horizon data. We identify and address several conceptual and computational challenges along the way, and we introduce a new solution concept that is appropriate when different actions have similar expected outcomes. Finally, we demonstrate an application of our method using data from the Clinical Antipsychotic Trials of Intervention Effectiveness and show that our approach offers decision-makers increased choice by a larger class of optimal policies.},
+ author = {Daniel J. Lizotte and Eric B. Laber},
+ journal = {Journal of Machine Learning Research},
+ number = {210},
+ openalex = {W2567566400},
+ pages = {1--28},
+ title = {Multi-Objective Markov Decision Processes for Data-Driven Decision Support.},
+ url = {http://jmlr.org/papers/v17/15-252.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-404,
+ abstract = {Systematic reviews underpin Evidence Based Medicine (EBM) by addressing precise clinical questions via comprehensive synthesis of all relevant published evidence. Authors of systematic reviews typically define a Population/Problem, Intervention, Comparator, and Outcome (a PICO criteria) of interest, and then retrieve, appraise and synthesize results from all reports of clinical trials that meet these criteria. Identifying PICO elements in the full-texts of trial reports is thus a critical yet time-consuming step in the systematic review process. We seek to expedite evidence synthesis by developing machine learning models to automatically extract sentences from articles relevant to PICO elements. Collecting a large corpus of training data for this task would be prohibitively expensive. Therefore, we derive distant supervision (DS) with which to train models using previously conducted reviews. DS entails heuristically deriving 'soft' labels from an available structured resource. However, we have access only to unstructured, free-text summaries of PICO elements for corresponding articles; we must derive from these the desired sentence-level annotations. To this end, we propose a novel method - supervised distant supervision (SDS) - that uses a small amount of direct supervision to better exploit a large corpus of distantly labeled instances by learning to pseudo-annotate articles using the available DS. We show that this approach tends to outperform existing methods with respect to automated PICO extraction.},
+ author = {Byron C. Wallace and Jo{{\"e}}l Kuiper and Aakash Sharma and Mingxi (Brian) Zhu and Iain J. Marshall},
+ journal = {Journal of Machine Learning Research},
+ number = {132},
+ openalex = {W2484269232},
+ pages = {1--25},
+ title = {Extracting PICO Sentences from Clinical Trial Reports using Supervised Distant Supervision.},
+ url = {http://jmlr.org/papers/v17/15-404.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-405,
+ abstract = {We provide a hierarchical Bayesian model for estimating the effects of transient drug exposures on a collection of health outcomes, where the effects of all drugs on all outcomes are estimated simultaneously. The method possesses properties that allow it to handle important challenges of dealing with large-scale longitudinal observational databases. In particular, this model is a generalization of the self-controlled case series (SCCS) method, meaning that certain patient specific baseline rates never need to be estimated. Further, this model is formulated with layers of latent factors, which substantially reduces the number of parameters and helps with interpretability by illuminating latent classes of drugs and outcomes. We believe our work is the first to consider multivariate SCCS (in the sense of multiple outcomes) and is the first to couple latent factor analysis with SCCS. We demonstrate the approach by estimating the effects of various time-sensitive insulin treatments for diabetes.},
+ author = {Ramin Moghaddass and Cynthia Rudin and David Madigan},
+ journal = {Journal of Machine Learning Research},
+ number = {185},
+ openalex = {W2542915588},
+ pages = {1--24},
+ title = {The factorized self-controlled case series method: an approach for estimating the effects of many drugs on any outcomes},
+ url = {http://jmlr.org/papers/v17/15-405.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-428,
+ abstract = {Focal cortical dysplasia (FCD) is the most common cause of pediatric epilepsy and the third most common cause in adults with treatment-resistant epilepsy. Surgical resection of the lesion is the most effective treatment to stop seizures. Technical advances in MRI have revolutionized the diagnosis of FCD, leading to high success rates for resective surgery. However, 45% of histologically confirmed FCD patients have normal MRIs (MRI-negative). Without a visible lesion, the success rate of surgery drops from 66% to 29%. In this work, we cast the problem of detecting potential FCD lesions using MRI scans of MRI-negative patients in an image segmentation framework based on hierarchical conditional random fields (HCRF). We use surface based morphometry to model the cortical surface as a two-dimensional surface which is then segmented at multiple scales to extract superpixels of different sizes. Each superpixel is assigned an outlier score by comparing it to a control population. The lesion is detected by fusing the outlier probabilities across multiple scales using a tree-structured HCRF. The proposed method achieves a higher detection rate, with superior recall and precision on a sample of twenty MRI-negative FCD patients as compared to a baseline across four morphological features and their combinations.},
+ author = {Bilal Ahmed and Thomas Thesen and Karen E. Blackmon and Ruben Kuzniekcy and Orrin Devinsky and Carla E. Brodley},
+ journal = {Journal of Machine Learning Research},
+ number = {112},
+ openalex = {W2509826223},
+ pages = {1--30},
+ title = {Decrypting cryptogenic epilepsy: semi-supervised hierarchical conditional random fields for detecting cortical lesions in MRI-negative patients},
+ url = {http://jmlr.org/papers/v17/15-428.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-429,
+ abstract = {Electronic Health Record (EHR) phenotyping utilizes patient data captured through normal medical practice, to identify features that may represent computational medical phenotypes. These features may be used to identify at-risk patients and improve prediction of patient morbidity and mortality. We present a novel deep multi-modality architecture for EHR analysis (applicable to joint analysis of multiple forms of EHR data), based on Poisson Factor Analysis (PFA) modules. Each modality, composed of observed counts, is represented as a Poisson distribution, parameterized in terms of hidden binary units. Information from different modalities is shared via a deep hierarchy of common hidden units. Activation of these binary units occurs with probability characterized as Bernoulli-Poisson link functions, instead of more traditional logistic link functions. In addition, we demonstrate that PFA modules can be adapted to discriminative modalities. To compute model parameters, we derive efficient Markov Chain Monte Carlo (MCMC) inference that scales efficiently, with significant computational gains when compared to related models based on logistic link functions. To explore the utility of these models, we apply them to a subset of patients from the Duke-Durham patient cohort. We identified a cohort of over 16,000 patients with Type 2 Diabetes Mellitus (T2DM) based on diagnosis codes and laboratory tests out of our patient population of over 240,000. Examining the common hidden units uniting the PFA modules, we identify patient features that represent medical concepts. Experiments indicate that our learned features are better able to predict mortality and morbidity than clinical features identified previously in a large-scale clinical trial.},
+ author = {Ricardo Henao and James T. Lu and Joseph E. Lucas and Jeffrey Ferranti and Lawrence Carin},
+ journal = {Journal of Machine Learning Research},
+ number = {186},
+ openalex = {W2541242421},
+ pages = {1--32},
+ title = {Electronic health record analysis via deep Poisson factor models},
+ url = {http://jmlr.org/papers/v17/15-429.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-431,
+ abstract = {Patients with developmental disorders, such as autism spectrum disorder (ASD), present with symptoms that change with time even if the named diagnosis remains fixed. For example, language impairments may present as delayed speech in a toddler and difficulty reading in a school-age child. Characterizing these trajectories is important for early treatment. However, deriving these trajectories from observational sources is challenging: electronic health records only reflect observations of patients at irregular intervals and only record what factors are clinically relevant at the time of observation. Meanwhile, caretakers discuss daily developments and concerns on social media.
+
+In this work, we present a fully unsupervised approach for learning disease trajectories from incomplete medical records and social media posts, including cases in which we have only a single observation of each patient. In particular, we use a dynamic topic model approach which embeds each disease trajectory as a path in RD. A Polya-gamma augmentation scheme is used to efficiently perform inference as well as incorporate multiple data sources. We learn disease trajectories from the electronic health records of 13,435 patients with ASD and the forum posts of 13,743 caretakers of children with ASD, deriving interesting clinical insights as well as good predictions.},
+ author = {Huseyin Melih Elibol and Vincent Nguyen and Scott Linderman and Matthew Johnson and Amna Hashmi and Finale Doshi-Velez},
+ journal = {Journal of Machine Learning Research},
+ number = {133},
+ openalex = {W2520519270},
+ pages = {1--38},
+ title = {Cross-corpora unsupervised learning of trajectories in autism spectrum disorders},
+ url = {http://jmlr.org/papers/v17/15-431.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-436,
+ abstract = {Complex chronic diseases (e.g., autism, lupus, and Parkinson's) are remarkably heterogeneous across individuals. This heterogeneity makes treatment difficult for caregivers because they cannot accurately predict the way in which the disease will progress in order to guide treatment decisions. Therefore, tools that help to predict the trajectory of these complex chronic diseases can help to improve the quality of health care. To build such tools, we can leverage clinical markers that are collected at baseline when a patient first presents and longitudinally over time during follow-up visits. Because complex chronic diseases are typically systemic, the longitudinal markers often track disease progression in multiple organ systems. In this paper, our goal is to predict a function of time that models the future trajectory of a single target clinical marker tracking a disease process of interest. We want to make these predictions using the histories of many related clinical markers as input. Our proposed solution tackles several key challenges. First, we can easily handle irregularly and sparsely sampled markers, which are standard in clinical data. Second, the number of parameters and the computational complexity of learning our model grows linearly in the number of marker types included in the model. This makes our approach applicable to diseases where many different markers are recorded over time. Finally, our model accounts for latent factors influencing disease expression, whereas standard regression models rely on observed features alone to explain variability. Moreover, our approach can be applied dynamically in continous-time and updates its predictions as soon as any new data is available. We apply our approach to the problem of predicting lung disease trajectories in scleroderma, a complex autoimmune disease. We show that our model improves over state-of-the-art baselines in predictive accuracy and we provide a qualitative analysis of our model's output. Finally, the variability of disease presentation in scleroderma makes clinical trial recruitment challenging. We show that a prognostic tool that integrates multiple types of routinely collected longitudinal data can be used to identify individuals at greatest risk of rapid progression and to target trial recruitment.},
+ author = {Peter Schulam and Suchi Saria},
+ journal = {Journal of Machine Learning Research},
+ number = {232},
+ openalex = {W2586238671},
+ pages = {1--35},
+ title = {Integrative analysis using coupled latent variable models for individualizing prognoses},
+ url = {http://jmlr.org/papers/v17/15-436.html},
+ volume = {17},
+ year = {2016}
+}
+
+@article{JMLR:v17:15-444,
+ abstract = {Predicting breast cancer risk has long been a goal of medical research in the pursuit of precision medicine. The goal of this study is to develop novel penalized methods to improve breast cancer risk prediction by leveraging structure information in electronic health records. We conducted a retrospective case-control study, garnering 49 mammography descriptors and 77 high-frequency/low-penetrance single-nucleotide polymorphisms (SNPs) from an existing personalized medicine data repository. Structured mammography reports and breast imaging features have long been part of a standard electronic health record (EHR), and genetic markers likely will be in the near future. Lasso and its variants are widely used approaches to integrated learning and feature selection, and our methodological contribution is to incorporate the dependence structure among the features into these approaches. More specifically, we propose a new methodology by combining group penalty and [Formula: see text] (1 ≤ p ≤ 2) fusion penalty to improve breast cancer risk prediction, taking into account structure information in mammography descriptors and SNPs. We demonstrate that our method provides benefits that are both statistically significant and potentially significant to people's lives.},
+ author = {Jun Fan and Yirong Wu and Ming Yuan and David Page and Jie Liu and Irene M. Ong and Peggy Peissig and Elizabeth Burnside},
+ journal = {Journal of Machine Learning Research},
+ number = {85},
+ openalex = {W2467591991},
+ pages = {1--15},
+ title = {Structure-Leveraged Methods in Breast Cancer Risk Prediction.},
+ url = {http://jmlr.org/papers/v17/15-444.html},
+ volume = {17},
+ year = {2016}
 }

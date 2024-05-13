@@ -1,731 +1,944 @@
+@article{JMLR:v6:agarwal05a,
+ abstract = {We study generalization properties of the area under the ROC curve (AUC), a quantity that has been advocated as an evaluation criterion for the bipartite ranking problem.The AUC is a different term than the error rate used for evaluation in classification problems; consequently, existing generalization bounds for the classification error rate cannot be used to draw conclusions about the AUC.In this paper, we define the expected accuracy of a ranking function (analogous to the expected error rate of a classification function), and derive distribution-free probabilistic bounds on the deviation of the empirical AUC of a ranking function (observed on a finite data sequence) from its expected accuracy.We derive both a large deviation bound, which serves to bound the expected accuracy of a ranking function in terms of its empirical AUC on a test sequence, and a uniform convergence bound, which serves to bound the expected accuracy of a learned ranking function in terms of its empirical AUC on a training sequence.Our uniform convergence bound is expressed in terms of a new set of combinatorial parameters that we term the bipartite rank-shatter coefficients; these play the same role in our result as do the standard VC-dimension related shatter coefficients (also known as the growth function) in uniform convergence results for the classification error rate. A comparison of our result with a recent uniform convergence result derived by Freund et al. (2003) for a quantity closely related to the AUC shows that the bound provided by our result can be considerably tighter.},
+ author = {Shivani Agarwal and Thore Graepel and Ralf Herbrich and Sariel Har-Peled and Dan Roth},
+ journal = {Journal of Machine Learning Research},
+ number = {14},
+ openalex = {W2111233787},
+ pages = {393--425},
+ title = {Generalization Bounds for the Area Under the ROC Curve},
+ url = {http://jmlr.org/papers/v6/agarwal05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:aiolli05a,
+ abstract = {Winner-take-all multiclass classifiers are built on the top of a set of prototypes each representing one of the available classes. A pattern is then classified with the label associated to the most 'similar' prototype. Recent proposal of SVM extensions to multiclass can be considered instances of the same strategy with one prototype per class.The multi-prototype SVM proposed in this paper extends multiclass SVM to multiple prototypes per class. It allows to combine several vectors in a principled way to obtain large margin decision functions. For this problem, we give a compact constrained quadratic formulation and we propose a greedy optimization algorithm able to find locally optimal solutions for the non convex objective function.This algorithm proceeds by reducing the overall problem into a series of simpler convex problems. For the solution of these reduced problems an efficient optimization algorithm is proposed. A number of pattern selection strategies are then discussed to speed-up the optimization process. In addition, given the combinatorial nature of the overall problem, stochastic search strategies are suggested to escape from local minima which are not globally optimal.Finally, we report experiments on a number of datasets. The performance obtained using few simple linear prototypes is comparable to that obtained by state-of-the-art kernel-based methods but with a significant reduction (of one or two orders) in response time.},
+ author = {Fabio Aiolli and Alessandro Sperduti},
+ journal = {Journal of Machine Learning Research},
+ number = {28},
+ openalex = {W2101577816},
+ pages = {817--850},
+ title = {Multiclass Classification with Multi-Prototype Support Vector Machines},
+ url = {http://jmlr.org/papers/v6/aiolli05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:almeida05a,
+ abstract = {When acquiring an image of a paper document, the image printed on the back page sometimes shows through. The mixture of the front- and back-page images thus obtained is markedly nonlinear, and thus constitutes a good real-life test case for nonlinear blind source separation. This paper addresses a difficult version of this problem, corresponding to the use of "onion skin" paper, which results in a relatively strong nonlinearity of the mixture, which becomes close to singular in the lighter regions of the images. The separation is achieved through the MISEP technique, which is an extension of the well known INFOMAX method. The separation results are assessed with objective quality measures. They show an improvement over the results obtained with linear separation, but have room for further improvement.},
+ author = {Lu{{\'i}}s B. Almeida},
+ journal = {Journal of Machine Learning Research},
+ number = {41},
+ openalex = {W2950016325},
+ pages = {1199--1229},
+ title = {Separating a Real-Life Nonlinear Image Mixture},
+ url = {http://jmlr.org/papers/v6/almeida05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:ando05a,
+ abstract = {One of the most important issues in machine learning is whether one can improve the performance of a supervised learning algorithm by including unlabeled data. Methods that use both labeled and unlabeled data are generally referred to as semi-supervised learning. Although a number of such methods are proposed, at the current stage, we still don't have a complete understanding of their effectiveness. This paper investigates a closely related problem, which leads to a novel approach to semi-supervised learning. Specifically we consider learning predictive structures on hypothesis spaces (that is, what kind of classifiers have good predictive power) from multiple learning tasks. We present a general framework in which the structural learning problem can be formulated and analyzed theoretically, and relate it to learning with unlabeled data. Under this framework, algorithms for structural learning will be proposed, and computational issues will be investigated. Experiments will be given to demonstrate the effectiveness of the proposed algorithms in the semi-supervised learning setting.},
+ author = {Rie Kubota Ando and Tong Zhang},
+ journal = {Journal of Machine Learning Research},
+ number = {61},
+ openalex = {W2130903752},
+ pages = {1817--1853},
+ title = {A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data},
+ url = {http://jmlr.org/papers/v6/ando05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:banerjee05a,
+ abstract = {Several large scale data mining applications, such as text categorization and gene expression analysis, involve high-dimensional data that is also inherently directional in nature. Often such data is L2 normalized so that it lies on the surface of a unit hypersphere. Popular models such as (mixtures of) multi-variate Gaussians are inadequate for characterizing such data. This paper proposes a generative mixture-model approach to clustering directional data based on the von Mises-Fisher (vMF) distribution, which arises naturally for data distributed on the unit hypersphere. In particular, we derive and analyze two variants of the Expectation Maximization (EM) framework for estimating the mean and concentration parameters of this mixture. Numerical estimation of the concentration parameters is non-trivial in high dimensions since it involves functional inversion of ratios of Bessel functions. We also formulate two clustering algorithms corresponding to the variants of EM that we derive. Our approach provides a theoretical basis for the use of cosine similarity that has been widely employed by the information retrieval community, and obtains the spherical kmeans algorithm (kmeans with cosine similarity) as a special case of both variants. Empirical results on clustering of high-dimensional text and gene-expression data based on a mixture of vMF distributions show that the ability to estimate the concentration parameter for each vMF component, which is not present in existing approaches, yields superior results, especially for difficult clustering tasks in high-dimensional spaces.},
+ author = {Arindam Banerjee and Inderjit S. Dhillon and Joydeep Ghosh and Suvrit Sra},
+ journal = {Journal of Machine Learning Research},
+ number = {46},
+ openalex = {W2145001205},
+ pages = {1345--1382},
+ title = {Clustering on the Unit Hypersphere using von Mises-Fisher Distributions},
+ url = {http://jmlr.org/papers/v6/banerjee05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:banerjee05b,
+ abstract = {Previous chapter Next chapter Full AccessProceedings Proceedings of the 2004 SIAM International Conference on Data Mining (SDM)Clustering with Bregman DivergencesArindam Banerjee, Srujana Merugu, Inderjit Dhillon, and Joydeep GhoshArindam BanerjeeDept. of ECE, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USADept. of CS, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USASearch for more papers by this author, Srujana MeruguDept. of ECE, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USADept. of CS, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USASearch for more papers by this author, Inderjit DhillonDept. of ECE, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USADept. of CS, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USASearch for more papers by this author, and Joydeep GhoshDept. of ECE, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USADept. of CS, University of Texas at Austin, TX, USADept. of ECE, University of Texas at Austin, TX, USASearch for more papers by this authorpp.234 - 245Chapter DOI:https://doi.org/10.1137/1.9781611972740.22PDFBibTexSections ToolsAdd to favoritesDownload CitationsTrack CitationsEmail SectionsAboutAbstract A wide variety of distortion functions are used for clustering, e.g., squared Euclidean distance, Mahalanobis distance and relative entropy. In this paper, we propose and analyze parametric hard and soft clustering algorithms based on a large class of distortion functions known as Bregman divergences. The proposed algorithms unify centroid-based parametric clustering approaches, such as classical kmeans and information-theoretic clustering, which arise by special choices of the Bregman divergence. The algorithms maintain the simplicity and scalability of the classical kmeans algorithm, while generalizing the basic idea to a very large class of clustering loss functions. There are two main contributions in this paper. First, we pose the hard clustering problem in terms of minimizing the loss in Bregman information, a quantity motivated by rate-distortion theory, and present an algorithm to minimize this loss. Secondly, we show an explicit bijection between Bregman divergences and exponential families. The bijection enables the development of an alternative interpretation of an efficient EM scheme for learning models involving mixtures of exponential distributions. This leads to a simple soft clustering algorithm for all Bregman divergences. Previous chapter Next chapter RelatedDetails Published:2004ISBN:978-0-89871-568-2eISBN:978-1-61197-274-0 https://doi.org/10.1137/1.9781611972740Book Series Name:ProceedingsBook Code:PR117Book Pages:xiv + 537},
+ author = {Arindam Banerjee and Srujana Merugu and Inderjit S. Dhillon and Joydeep Ghosh},
+ journal = {Journal of Machine Learning Research},
+ number = {58},
+ openalex = {W2096765209},
+ pages = {1705--1749},
+ title = {Clustering with Bregman Divergences},
+ url = {http://jmlr.org/papers/v6/banerjee05b.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:bar-hillel05a,
+ abstract = {Many learning algorithms use a metric defined over the input space as a principal tool, and their performance critically depends on the quality of this metric. We address the problem of learning me...},
+ author = {Aharon Bar-Hillel and Tomer Hertz and Noam Shental and Daphna Weinshall},
+ journal = {Journal of Machine Learning Research},
+ number = {32},
+ openalex = {W2999575747},
+ pages = {937--965},
+ title = {Learning a Mahalanobis Metric from Equivalence Constraints},
+ url = {http://jmlr.org/papers/v6/bar-hillel05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:binev05a,
+ abstract = {This paper is concerned with the construction and analysis of a universal estimator for the regression problem in supervised learning. Universal means that the estimator does not depend on any a priori assumptions about the regression function to be estimated. The universal estimator studied in this paper consists of a least-square fitting procedure using piecewise constant functions on a partition which depends adaptively on the data. The partition is generated by a splitting procedure which differs from those used in CART algorithms. It is proven that this estimator performs at the optimal convergence rate for a wide class of priors on the regression function. Namely, as will be made precise in the text, if the regression function is in any one of a certain class of approximation spaces (or smoothness spaces of order not exceeding one -- a limitation resulting because the estimator uses piecewise constants) measured relative to the marginal measure, then the estimator converges to the regression function (in the least squares sense) with an optimal rate of convergence in terms of the number of samples. The estimator is also numerically feasible and can be implemented on-line.},
+ author = {Peter Binev and Albert Cohen and Wolfgang Dahmen and Ronald DeVore and Vladimir Temlyakov},
+ journal = {Journal of Machine Learning Research},
+ number = {44},
+ openalex = {W2129293958},
+ pages = {1297--1321},
+ title = {"Universal algorithms in learning theory - Part I: piecewise constant functions"},
+ url = {http://jmlr.org/papers/v6/binev05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:bongard05a,
+ abstract = {This paper describes an active learning approach to the problem of grammatical inference, specifically the inference of deterministic finite automata (DFAs). We refer to the algorithm as the estima...},
+ author = {Josh Bongard and Hod Lipson},
+ journal = {Journal of Machine Learning Research},
+ number = {56},
+ openalex = {W3010319051},
+ pages = {1651--1678},
+ title = {Active Coevolutionary Learning of Deterministic Finite Automata},
+ url = {http://jmlr.org/papers/v6/bongard05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:bordes05a,
+ abstract = {Very high dimensional learning systems become theoretically possible when training examples are abundant. The computing cost then becomes the limiting factor. Any efficient learning algorithm should at least take a brief look at each example. But should all examples be given equal attention?This contribution proposes an empirical answer. We first present an online SVM algorithm based on this premise. LASVM yields competitive misclassification rates after a single pass over the training examples, outspeeding state-of-the-art SVM solvers. Then we show how active example selection can yield faster training, higher accuracies, and simpler models, using only a fraction of the training example labels.},
+ author = {Antoine Bordes and Seyda Ertekin and Jason Weston and L{{\'e}}on Bottou},
+ journal = {Journal of Machine Learning Research},
+ number = {54},
+ openalex = {W2135106139},
+ pages = {1579--1619},
+ title = {Fast Kernel Classifiers with Online and Active Learning},
+ url = {http://jmlr.org/papers/v6/bordes05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:boulle05a,
+ abstract = {In supervised machine learning, the partitioning of the values (also called grouping) of a categorical attribute aims at constructing a new synthetic attribute which keeps the information of the initial attribute and reduces the number of its values. In this paper, we propose a new grouping method MODL founded on a Bayesian approach. The method relies on a model space of grouping models and on a prior distribution defined on this model space. This results in an evaluation criterion of grouping, which is minimal for the most probable grouping given the data, i.e. the Bayes optimal grouping. We propose new super-linear optimization heuristics that yields near-optimal groupings. Extensive comparative experiments demonstrate that the MODL grouping method builds high quality groupings in terms of predictive quality, robustness and small number of groups.},
+ author = {Marc Boull{{\'e}}},
+ journal = {Journal of Machine Learning Research},
+ number = {49},
+ openalex = {W2108455851},
+ pages = {1431--1452},
+ title = {A Bayes Optimal Approach for Partitioning the Values of Categorical Attributes},
+ url = {http://jmlr.org/papers/v6/boulle05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:brown05a,
+ abstract = {Ensembles are a widely used and effective technique in machine learning---their success is commonly attributed to the degree of disagreement, or 'diversity', within the ensemble. For ensembles where the individual estimators output crisp class labels, this 'diversity' is not well understood and remains an open research issue. For ensembles of regression estimators, the diversity can be exactly formulated in terms of the covariance between individual estimator outputs, and the optimum level is expressed in terms of a bias-variance-covariance trade-off. Despite this, most approaches to learning ensembles use heuristics to encourage the right degree of diversity. In this work we show how to explicitly control diversity through the error function. The first contribution of this paper is to show that by taking the combination mechanism for the ensemble into account we can derive an error function for each individual that balances ensemble diversity with individual accuracy. We show the relationship between this error function and an existing algorithm called negative correlation learning, which uses a heuristic penalty term added to the mean squared error function. It is demonstrated that these methods control the bias-variance-covariance trade-off systematically, and can be utilised with any estimator capable of minimising a quadratic error function, for example MLPs, or RBF networks. As a second contribution, we derive a strict upper bound on the coefficient of the penalty term, which holds for any estimator that can be cast in a generalised linear regression framework, with mild assumptions on the basis functions. Finally we present the results of an empirical study, showing significant improvements over simple ensemble learning, and finding that this technique is competitive with a variety of methods, including boosting, bagging, mixtures of experts, and Gaussian processes, on a number of tasks.},
+ author = {Gavin Brown and Jeremy L. Wyatt and Peter Ti&#328;o},
+ journal = {Journal of Machine Learning Research},
+ number = {55},
+ openalex = {W2124951716},
+ pages = {1621--1650},
+ title = {Managing Diversity in Regression Ensembles},
+ url = {http://jmlr.org/papers/v6/brown05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:chechik05a,
+ abstract = {The problem of extracting the relevant aspects of data was previously addressed through the information bottleneck (IB) method, through (soft) clustering one variable while preserving information about another - relevance - variable. The current work extends these ideas to obtain continuous representations that preserve relevant information, rather than discrete clusters, for the special case of multivariate Gaussian variables. While the general continuous IB problem is difficult to solve, we provide an analytic solution for the optimal representation and tradeoff between compression and relevance for the this important case. The obtained optimal representation is a noisy linear projection to eigenvectors of the normalized regression matrix Σx|yΣx-1, which is also the basis obtained in canonical correlation analysis. However, in Gaussian IB, the compression tradeoff parameter uniquely determines the dimension, as well as the scale of each eigenvector, through a cascade of structural phase transitions. This introduces a novel interpretation where solutions of different ranks lie on a continuum parametrized by the compression level. Our analysis also provides a complete analytic expression of the preserved information as a function of the compression (the information-curve), in terms of the eigenvalue spectrum of the data. As in the discrete case, the information curve is concave and smooth, though it is made of different analytic segments for each optimal dimension. Finally, we show how the algorithmic theory developed in the IB framework provides an iterative algorithm for obtaining the optimal Gaussian projections.},
+ author = {Gal Chechik and Amir Globerson and Naftali Tishby and Yair Weiss},
+ journal = {Journal of Machine Learning Research},
+ number = {6},
+ openalex = {W2170503197},
+ pages = {165--188},
+ title = {Information Bottleneck for Gaussian Variables},
+ url = {http://jmlr.org/papers/v6/chechik05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:chu05a,
+ abstract = {We present a probabilistic kernel approach to ordinal regression based on Gaussian processes. A threshold model that generalizes the probit function is used as the likelihood function for ordinal variables. Two inference techniques, based on the Laplace approximation and the expectation propagation algorithm respectively, are derived for hyperparameter learning and model selection. We compare these two Gaussian process approaches with a previous ordinal regression method based on support vector machines on some benchmark and real-world data sets, including applications of ordinal regression to collaborative filtering and gene expression analysis. Experimental results on these data sets verify the usefulness of our approach.},
+ author = {Wei Chu and Zoubin Ghahramani},
+ journal = {Journal of Machine Learning Research},
+ number = {35},
+ openalex = {W2142575165},
+ pages = {1019--1041},
+ title = {Gaussian Processes for Ordinal Regression},
+ url = {http://jmlr.org/papers/v6/chu05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:cowell05a,
+ abstract = {This paper describes a scheme for local computation in conditional Gaussian Bayesian networks that combines the approach of Lauritzen and Jensen (2001) with some elements of Shachter and Kenley (1989). Message passing takes place on an elimination tree structure rather than the more compact (and usual) junction tree of cliques. This yields a local computation scheme in which all calculations involving the continuous variables are performed by manipulating univariate regressions, and hence matrix operations are avoided.},
+ author = {Robert G. Cowell},
+ journal = {Journal of Machine Learning Research},
+ number = {52},
+ openalex = {W2115557670},
+ pages = {1517--1550},
+ title = {Local Propagation in Conditional Gaussian Bayesian Networks},
+ url = {http://jmlr.org/papers/v6/cowell05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:cuturi05a,
+ abstract = {We present a family of positive definite kernels on measures, characterized by the fact that the value of the between two measures is a function of their sum. These kernels can be used to derive kernels on structured objects, such as images and texts, by representing these objects as sets of components, such as pixels or words, or more generally as measures on the space of components. Several kernels studied in this work make use of common quantities defined on measures such as entropy or generalized variance to detect similarities. Given an a priori on the space of components itself, the approach is further extended by restating the previous results in a more efficient and flexible framework using the kernel trick. Finally, a constructive approach to such positive definite kernels through an integral representation theorem is proved, before presenting experimental results on a benchmark experiment of handwritten digits classification to illustrate the validity of the approach.},
+ author = {Marco Cuturi and Kenji Fukumizu and Jean-Philippe Vert},
+ journal = {Journal of Machine Learning Research},
+ number = {40},
+ openalex = {W2146562219},
+ pages = {1169--1198},
+ title = {Semigroup Kernels on Measures},
+ url = {http://jmlr.org/papers/v6/cuturi05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:daume05a,
+ abstract = {We develop a Bayesian framework for tackling the supervised clustering problem, the generic problem encountered in tasks such as reference matching, coreference resolution, identity uncertainty and record linkage. Our clustering model is based on the Dirichlet process prior, which enables us to define distributions over the countably infinite sets that naturally arise in this problem. We add supervision to our model by positing the existence of a set of unobserved random variables (we call these "reference types") that are generic across all clusters. Inference in our framework, which requires integrating over infinitely many parameters, is solved using Markov chain Monte Carlo techniques. We present algorithms for both conjugate and non-conjugate priors. We present a simple--but general--parameterization of our model based on a Gaussian assumption. We evaluate this model on one artificial task and three real-world tasks, comparing it against both unsupervised and state-of-the-art supervised algorithms. Our results show that our model is able to outperform other models across a variety of tasks and performance metrics.},
+ author = {Hal Daum{{\'e}} III and Daniel Marcu},
+ journal = {Journal of Machine Learning Research},
+ number = {53},
+ openalex = {W2142313532},
+ pages = {1551--1577},
+ title = {A Bayesian Model for Supervised Clustering with the Dirichlet Process Prior},
+ url = {http://jmlr.org/papers/v6/daume05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:dekel05a,
+ abstract = {We describe a framework for solving regression problems by reduction to classification. Our reduction is based on symmetrization of margin-based loss functions commonly used in boosting algorithms, namely, the logistic loss and the exponential loss. Our construction yields a smooth version of the ε-insensitive hinge loss that is used in support vector regression. A byproduct of this construction is a new simple form of regularization for boosting-based classification and regression algorithms. We present two parametric families of batch learning algorithms for minimizing these losses. The first family employs a log-additive update and is based on recent boosting algorithms while the second family uses a new form of additive update. We also describe and analyze online gradient descent (GD) and exponentiated gradient (EG) algorithms for the ε-insensitive logistic loss. Our regression framework also has implications on classification algorithms, namely, a new additive batch algorithm for the log-loss and exp-loss used in boosting.},
+ author = {Ofer Dekel and Shai Shalev-Shwartz and Yoram Singer},
+ journal = {Journal of Machine Learning Research},
+ number = {25},
+ openalex = {W2099385852},
+ pages = {711--741},
+ title = {Smooth ε-Insensitive Regression by Loss Symmetrization},
+ url = {http://jmlr.org/papers/v6/dekel05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:devito05a,
+ abstract = {Many works related learning from examples to regularization techniques for inverse problems, emphasizing the strong algorithmic and conceptual analogy of certain learning algorithms with regularization algorithms. In particular it is well known that regularization schemes such as Tikhonov regularization can be effectively used in the context of learning and are closely related to algorithms such as support vector machines. Nevertheless the connection with inverse problem was considered only for the discrete (finite sample) problem and the probabilistic aspects of learning from examples were not taken into account. In this paper we provide a natural extension of such analysis to the continuous (population) case and study the interplay between the discrete and continuous problems. From a theoretical point of view, this allows to draw a clear connection between the consistency approach in learning theory and the stability convergence property in ill-posed inverse problems. The main mathematical result of the paper is a new probabilistic bound for the regularized least-squares algorithm. By means of standard results on the approximation term, the consistency of the algorithm easily follows.},
+ author = {Ernesto De Vito and Lorenzo Rosasco and Andrea Caponnetto and Umberto De Giovannini and Francesca Odone},
+ journal = {Journal of Machine Learning Research},
+ number = {30},
+ openalex = {W2103336901},
+ pages = {883--904},
+ title = {Learning from Examples as an Inverse Problem},
+ url = {http://jmlr.org/papers/v6/devito05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:drineas05a,
+ author = {Petros Drineas and Michael W. Mahoney},
+ journal = {Journal of Machine Learning Research},
+ number = {72},
+ pages = {2153--2175},
+ title = {On the Nystrom Method for Approximating a Gram Matrix for Improved Kernel-Based Learning},
+ url = {http://jmlr.org/papers/v6/drineas05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:drukh05a,
+ abstract = {We show several PAC-style concentration bounds for learning unigrams language model. One interesting quantity is the probability of all words appearing exactly k times in a sample of size m. A standard estimator for this quantity is the Good-Turing estimator. The existing analysis on its error shows a PAC bound of approximately $O(\frac{k}{\sqrt{m}})$ . We improve its dependency on k to $O(\frac{\sqrt[4]{k}}{\sqrt{m}}+\frac{k}{m})$ . We also analyze the empirical frequencies estimator, showing that its PAC error bound is approximately $O(\frac{1}{k}+\sqrt{k}{m})$ . We derive a combined estimator, which has an error of approximately $O(m-\frac{2}{5})$ , for any k. A standard measure for the quality of a learning algorithm is its expected per-word log-loss. We show that the leave-one-out method can be used for estimating the log-loss of the unigrams model with a PAC error of approximately $O(\frac{1}{\sqrt{m}})$ , for any distribution. We also bound the log-loss a priori, as a function of various parameters of the distribution.},
+ author = {Evgeny Drukh and Yishay Mansour},
+ journal = {Journal of Machine Learning Research},
+ number = {42},
+ openalex = {W2146691341},
+ pages = {1231--1264},
+ title = {Concentration Bounds for Unigrams Language Model},
+ url = {http://jmlr.org/papers/v6/drukh05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:eibl05a,
+ abstract = {AdaBoost.M2 is a boosting algorithm designed for multiclass problems with weak base classifiers. The algorithm is designed to minimize a very loose bound on the training error. We propose two alternative boosting algorithms which also minimize bounds on performance measures. These performance measures are not as strongly connected to the expected error as the training error, but the derived bounds are tighter than the bound on the training error of AdaBoost.M2. In experiments the methods have roughly the same performance in minimizing the training and test error rates. The new algorithms have the advantage that the base classifier should minimize the confidence-rated error, whereas for AdaBoost.M2 the base classifier should minimize the pseudo-loss. This makes them more easily applicable to already existing base classifiers. The new algorithms also tend to converge faster than AdaBoost.M2.},
+ author = {G{{\"u}}nther Eibl and Karl-Peter Pfeiffer},
+ journal = {Journal of Machine Learning Research},
+ number = {7},
+ openalex = {W1564186586},
+ pages = {189--210},
+ title = {Multiclass Boosting for Weak Classifiers},
+ url = {http://jmlr.org/papers/v6/eibl05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:elidan05a,
+ abstract = {A central challenge in learning probabilistic graphical models is dealing with domains that involve hidden variables. The common approach for learning model parameters in such domains is the expectation maximization (EM) algorithm. This algorithm, however, can easily get trapped in sub-optimal local maxima. Learning the model structure is even more challenging. The structural EM algorithm can adapt the structure in the presence of hidden variables, but usually performs poorly without prior knowledge about the cardinality and location of the hidden variables. In this work, we present a general approach for learning Bayesian networks with hidden variables that overcomes these problems. The approach builds on the information bottleneck framework of Tishby et al. (1999). We start by proving formal correspondence between the information bottleneck objective and the standard parametric EM functional. We then use this correspondence to construct a learning algorithm that combines an information-theoretic smoothing term with a continuation procedure. Intuitively, the algorithm bypasses local maxima and achieves superior solutions by following a continuous path from a solution of, an easy and smooth, target function, to a solution of the desired likelihood function. As we show, our algorithmic framework allows learning of the parameters as well as the structure of a network. In addition, it also allows us to introduce new hidden variables during model selection and learn their cardinality. We demonstrate the performance of our procedure on several challenging real-life data sets.},
+ author = {Gal Elidan and Nir Friedman},
+ journal = {Journal of Machine Learning Research},
+ number = {4},
+ openalex = {W2105480138},
+ pages = {81--127},
+ title = {Learning Hidden Variable Networks: The Information Bottleneck Approach},
+ url = {http://jmlr.org/papers/v6/elidan05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:elisseeff05a,
+ abstract = {We extend existing theory on stability, namely how much changes in the training data influence the estimated models, and generalization performance of deterministic learning algorithms to the case of randomized algorithms. We give formal definitions of stability for randomized algorithms and prove non-asymptotic bounds on the difference between the empirical and expected error as well as the leave-one-out and expected error of such algorithms that depend on their random stability. The setup we develop for this purpose can be also used for generally studying randomized learning algorithms. We then use these general results to study the effects of bagging on the stability of a learning method and to prove non-asymptotic bounds on the predictive performance of bagging which have not been possible to prove with the existing theory of stability for deterministic learning algorithms.},
+ author = {Andre Elisseeff and Theodoros Evgeniou and Massimiliano Pontil},
+ journal = {Journal of Machine Learning Research},
+ number = {3},
+ openalex = {W2131542408},
+ pages = {55--79},
+ title = {Stability of Randomized Learning Algorithms},
+ url = {http://jmlr.org/papers/v6/elisseeff05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:ernst05a,
+ abstract = {Reinforcement learning aims to determine an optimal control policy from interaction with a system or from observations gathered from a system. In batch mode, it can be achieved by approximating the so-called Q-function based on a set of four-tuples (xt, ut , rt, xt+1) where xt denotes the system state at time t, ut the control action taken, rt the instantaneous reward obtained and xt+1 the successor state of the system, and by determining the control policy from this Q-function. The Q-function approximation may be obtained from the limit of a sequence of (batch mode) supervised learning problems. Within this framework we describe the use of several classical tree-based supervised learning methods (CART, Kd-tree, tree bagging) and two newly proposed ensemble algorithms, namely extremely and totally randomized trees. We study their performances on several examples and find that the ensemble methods based on regression trees perform well in extracting relevant information about the optimal control policy from sets of four-tuples. In particular, the totally randomized trees give good results while ensuring the convergence of the sequence, whereas by relaxing the convergence constraint even better accuracy results are provided by the extremely randomized trees.},
+ author = {Damien  Ernst and Pierre  Geurts and Louis  Wehenkel},
+ journal = {Journal of Machine Learning Research},
+ number = {18},
+ openalex = {W2120346334},
+ pages = {503--556},
+ title = {Tree-Based Batch Mode Reinforcement Learning},
+ url = {http://jmlr.org/papers/v6/ernst05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:evgeniou05a,
+ abstract = {We study the problem of learning many related tasks simultaneously using kernel methods and regularization. The standard single-task kernel methods, such as support vector machines and regularization networks, are extended to the case of multi-task learning. Our analysis shows that the problem of estimating many task functions with regularization can be cast as a single task learning problem if a family of multi-task kernel functions we define is used. These kernels model relations among the tasks and are derived from a novel form of regularizers. Specific kernels that can be used for multi-task learning are provided and experimentally tested on two real data sets. In agreement with past empirical work on multi-task learning, the experiments show that learning multiple related tasks simultaneously using the proposed approach can significantly outperform standard single-task learning particularly when there are many related tasks but few data per task.},
+ author = {Theodoros Evgeniou and Charles A. Micchelli and Massimiliano Pontil},
+ journal = {Journal of Machine Learning Research},
+ number = {21},
+ openalex = {W2144752499},
+ pages = {615--637},
+ title = {Learning Multiple Tasks with Kernel Methods},
+ url = {http://jmlr.org/papers/v6/evgeniou05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:fan05a,
+ abstract = {Working set selection is an important step in decomposition methods for training support vector machines (SVMs). This paper develops a new technique for working set selection in SMO-type decomposit...},
+ author = {Rong-En Fan and Pai-Hsuen Chen and Chih-Jen Lin},
+ journal = {Journal of Machine Learning Research},
+ number = {63},
+ openalex = {W3000101108},
+ pages = {1889--1918},
+ title = {Working Set Selection Using Second Order Information for Training Support Vector Machines},
+ url = {http://jmlr.org/papers/v6/fan05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:fiori05a,
+ abstract = {The aim of this contribution is to present a tutorial on learning algorithms for a single neural layer whose connection matrix belongs to the orthogonal group. The algorithms exploit geodesics appropriately connected as piece-wise approximate integrals of the exact differential learning equation. The considered learning equations essentially arise from the Riemannian-gradient-based optimization theory with deterministic and diffusion-type gradient. The paper aims specifically at reviewing the relevant mathematics (and at presenting it in as much transparent way as possible in order to make it accessible to readers that do not possess a background in differential geometry), at bringing together modern optimization methods on manifolds and at comparing the different algorithms on a common machine learning problem. As a numerical case-study, we consider an application to non-negative independent component analysis, although it should be recognized that Riemannian gradient methods give rise to general-purpose algorithms, by no means limited to ICA-related applications.},
+ author = {Simone Fiori},
+ journal = {Journal of Machine Learning Research},
+ number = {26},
+ openalex = {W2155813218},
+ pages = {743--781},
+ title = {Quasi-Geodesic Neural Learning Algorithms Over the Orthogonal Group: A Tutorial},
+ url = {http://jmlr.org/papers/v6/fiori05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:goldsmith05a,
+ abstract = {A revision algorithm is a learning algorithm that identifies the target concept, starting from an initial concept. Such an algorithm is considered efficient if its complexity (in terms of the measured resource) is polynomial in the syntactic distance between the initial and the target concept, but only polylogarithmic in the number of variables in the universe. We give efficient revision algorithms in the model of learning with equivalence and membership queries. The algorithms work in a general revision model where both deletion and addition revision operators are allowed. In this model one of the main open problems is the efficient revision of Horn formulas. Two revision algorithms are presented for special cases of this problem: for depth-1 acyclic Horn formulas, and for definite Horn formulas with unique heads.},
+ author = {Judy Goldsmith and Robert H. Sloan},
+ journal = {Journal of Machine Learning Research},
+ number = {64},
+ openalex = {W2162122584},
+ pages = {1919--1938},
+ title = {New Horn Revision Algorithms},
+ url = {http://jmlr.org/papers/v6/goldsmith05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:gretton05a,
+ abstract = {We introduce two new functionals, the constrained covariance and the kernel mutual information, to measure the degree of independence of random variables. These quantities are both based on the covariance between functions of the random variables in reproducing kernel Hilbert spaces (RKHSs). We prove that when the RKHSs are universal, both functionals are zero if and only if the random variables are pairwise independent. We also show that the kernel mutual information is an upper bound near independence on the Parzen window estimate of the mutual information. Analogous results apply for two correlation-based dependence functionals introduced earlier: we show the kernel canonical correlation and the kernel generalised variance to be independence measures for universal kernels, and prove the latter to be an upper bound on the mutual information near independence. The performance of the kernel dependence functionals in measuring independence is verified in the context of independent component analysis.},
+ author = {Arthur Gretton and Ralf Herbrich and Alexander Smola and Olivier Bousquet and Bernhard Sch&#246;lkopf},
+ journal = {Journal of Machine Learning Research},
+ number = {70},
+ openalex = {W2145544165},
+ pages = {2075--2129},
+ title = {Kernel Methods for Measuring Independence},
+ url = {http://jmlr.org/papers/v6/gretton05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:gunawardana05a,
+ abstract = {The EM algorithm is widely used to develop iterative parameter estimation procedures for statistical models. In cases where these procedures strictly follow the EM formulation, the convergence properties of the estimation procedures are well understood. In some instances there are practical reasons to develop procedures that do not strictly fall within the EM framework. We study EM variants in which the E-step is not performed exactly, either to obtain improved rates of convergence, or due to approximations needed to compute statistics under a model family over which E-steps cannot be realized. Since these variants are not EM procedures, the standard (G)EM convergence results do not apply to them. We present an information geometric framework for describing such algorithms and analyzing their convergence properties. We apply this framework to analyze the convergence properties of incremental EM and variational EM. For incremental EM, we discuss conditions under these algorithms converge in likelihood. For variational EM, we show how the E-step approximation prevents convergence to local maxima in likelihood.},
+ author = {Asela Gunawardana and William Byrne},
+ journal = {Journal of Machine Learning Research},
+ number = {69},
+ openalex = {W2114551781},
+ pages = {2049--2073},
+ title = {Convergence Theorems for Generalized Alternating Minimization Procedures},
+ url = {http://jmlr.org/papers/v6/gunawardana05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:hutter05a,
+ abstract = {When applying aggregating strategies to Prediction with Expert Advice, the learning rate must be adaptively tuned. The natural choice of sqrt(complexity/current loss) renders the analysis of Weighted Majority derivatives quite complicated. In particular, for arbitrary weights there have been no results proven so far. The analysis of the alternative "Follow the Perturbed Leader" (FPL) algorithm from Kalai &amp; Vempala (2003) (based on Hannan's algorithm) is easier. We derive loss bounds for adaptive learning rate and both finite expert classes with uniform weights and countable expert classes with arbitrary weights. For the former setup, our loss bounds match the best known results so far, while for the latter our results are new.},
+ author = {Marcus Hutter and Jan Poland},
+ journal = {Journal of Machine Learning Research},
+ number = {22},
+ openalex = {W2951888199},
+ pages = {639--660},
+ title = {Adaptive Online Prediction by Following the Perturbed Leader},
+ url = {http://jmlr.org/papers/v6/hutter05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:hyvarinen05a,
+ abstract = {One often wants to estimate statistical models where the probability density function is known only up to a multiplicative normalization constant. Typically, one then has to resort to Markov Chain Monte Carlo methods, or approximations of the normalization constant. Here, we propose that such models can be estimated by minimizing the expected squared distance between the gradient of the log-density given by the model and the gradient of the log-density of the observed data. While the estimation of the gradient of log-density function is, in principle, a very difficult non-parametric problem, we prove a surprising result that gives a simple formula for this objective function. The density function of the observed data does not appear in this formula, which simplifies to a sample average of a sum of some derivatives of the log-density given by the model. The validity of the method is demonstrated on multivariate Gaussian and independent component analysis models, and by estimating an overcomplete filter set for natural image data.},
+ author = {Aapo Hyv{{\"a}}rinen},
+ journal = {Journal of Machine Learning Research},
+ number = {24},
+ openalex = {W1505878979},
+ pages = {695--709},
+ title = {Estimation of Non-Normalized Statistical Models by Score Matching},
+ url = {http://jmlr.org/papers/v6/hyvarinen05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:ihler05a,
+ abstract = {Belief propagation (BP) is an increasingly popular method of performing approximate inference on arbitrary graphical models. At times, even further approximations are required, whether due to quantization of the messages or model parameters, from other simplified message or model representations, or from stochastic approximation methods. The introduction of such errors into the BP message computations has the potential to affect the solution obtained adversely. We analyze the effect resulting from message approximation under two particular measures of error, and show bounds on the accumulation of errors in the system. This analysis leads to convergence conditions for traditional BP message passing, and both strict bounds and estimates of the resulting error in systems of approximate BP message passing.},
+ author = {Alexander T. Ihler and John W. Fisher III and Alan S. Willsky},
+ journal = {Journal of Machine Learning Research},
+ number = {31},
+ openalex = {W2163364417},
+ pages = {905--936},
+ title = {Loopy Belief Propagation: Convergence and Effects of Message Errors},
+ url = {http://jmlr.org/papers/v6/ihler05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:jaeger05a,
+ abstract = {A unified approach is taken for deriving new generalization data dependent bounds for several classes of algorithms explored in the existing literature by different approaches. This unified approach is based on an extension of Vapnik's inequality for VC classes of sets to random classes of sets - that is, classes depending on the random data, invariant under permutation of the data and possessing the increasing property.Generalization bounds are derived for convex combinations of functions from random classes with certain properties. Algorithms, such as SVMs (support vector machines), boosting with decision stumps, radial basis function networks, some hierarchies of kernel machines or convex combinations of indicator functions over sets with finite VC dimension, generate classifier functions that fall into the above category. We also explore the individual complexities of the classifiers, such as sparsity of weights and weighted variance over clusters from the convex combination introduced by Koltchinskii and Panchenko (2004), and show sparsity-type and cluster-variance-type generalization bounds for random classes.},
+ author = {Savina Andonova Jaeger},
+ journal = {Journal of Machine Learning Research},
+ number = {11},
+ openalex = {W2131168872},
+ pages = {307--340},
+ title = {Generalization Bounds and Complexities Based on Sparsity and Clustering for Convex Combinations of Functions from Random Classes},
+ url = {http://jmlr.org/papers/v6/jaeger05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:kawanabe05a,
+ abstract = {The blind separation problem where the sources are not independent, but have variance-dependencies is discussed. Hyvärinen and Hurri[1] proposed an algorithm which requires no assumption on distributions of sources and no parametric model of dependencies between components. In this paper, we extend the semiparametric statistical approach of Amari and Cardoso[2] under variance-dependencies and study estimating functions for blind separation of such dependent sources. In particular, we show that many of ICA algorithms are applicable to the variance-dependent model as well. Our theoretical consequences were confirmed by artificial and realistic examples.},
+ author = {Motoaki Kawanabe and Klaus-Robert M&#252;ller},
+ journal = {Journal of Machine Learning Research},
+ number = {16},
+ openalex = {W1563344879},
+ pages = {453--482},
+ title = {Estimating Functions for Blind Separation when Sources Have Variance-Dependencies},
+ url = {http://jmlr.org/papers/v6/kawanabe05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:keerthi05a,
+ abstract = {This paper develops a fast method for solving linear SVMs with L2 loss function that is suited for large scale data mining tasks such as text classification. This is done by modifying the finite Newton method of Mangasarian in several ways. Experiments indicate that the method is much faster than decomposition methods such as SVMlight, SMO and BSVM (e.g., 4-100 fold), especially when the number of examples is large. The paper also suggests ways of extending the method to other loss functions such as the modified Huber's loss function and the L1 loss function, and also for solving ordinal regression.},
+ author = {S. Sathiya Keerthi and Dennis DeCoste},
+ journal = {Journal of Machine Learning Research},
+ number = {12},
+ openalex = {W2107275319},
+ pages = {341--361},
+ title = {A Modified Finite Newton Method for Fast Solution of Large Scale Linear SVMs},
+ url = {http://jmlr.org/papers/v6/keerthi05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:khardon05a,
+ abstract = {Recent work has introduced Boolean kernels with which one can learn over a feature space containing all conjunctions of length up to k (for any 1≤ k ≤ n) over the original n Boolean features in the input space. This motivates the question of whether maximum margin algorithms such as support vector machines can learn Disjunctive Normal Form expressions in the PAC learning model using this kernel. We study this question, as well as a variant in which structural risk minimization (SRM) is performed where the class hierarchy is taken over the length of conjunctions. We show that such maximum margin algorithms do not PAC learn t(n)-term DNF for any t(n) = ω(1), even when used with such a SRM scheme. We also consider PAC learning under the uniform distribution and show that if the kernel uses conjunctions of length $\tilde{\omega}(\sqrt{n})$ then the maximum margin hypothesis will fail on the uniform distribution as well. Our results concretely illustrate that margin based algorithms may overfit when learning simple target functions with natural kernels.},
+ author = {Roni Khardon and Rocco A. Servedio},
+ journal = {Journal of Machine Learning Research},
+ number = {48},
+ openalex = {W2145880292},
+ pages = {1405--1429},
+ title = {Maximum Margin Algorithms with Boolean Kernels},
+ url = {http://jmlr.org/papers/v6/khardon05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:kim05a,
+ abstract = {Support vector machines (SVMs) have been recognized as one of the most successful classification methods for many applications including text classification. Even though the learning ability and co...},
+ author = {Hyunsoo Kim and Peg Howland and Haesun Park},
+ journal = {Journal of Machine Learning Research},
+ number = {2},
+ openalex = {W3005198936},
+ pages = {37--53},
+ title = {Dimension Reduction in Text Classification with Support Vector Machines},
+ url = {http://jmlr.org/papers/v6/kim05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:kuss05a,
+ abstract = {Gaussian process priors can be used to define flexible, probabilistic classification models. Unfortunately exact Bayesian inference is analytically intractable and various approximation techniques have been proposed. In this work we review and compare Laplace's method and Expectation Propagation for approximate Bayesian inference in the binary Gaussian process classification model. We present a comprehensive comparison of the approximations, their predictive performance and marginal likelihood estimates to results obtained by MCMC sampling. We explain theoretically and corroborate empirically the advantages of Expectation Propagation compared to Laplace's method.},
+ author = {Malte Kuss and Carl Edward Rasmussen},
+ journal = {Journal of Machine Learning Research},
+ number = {57},
+ openalex = {W1905898145},
+ pages = {1679--1704},
+ title = {Assessing Approximate Inference for Binary Gaussian Process Classification},
+ url = {http://jmlr.org/papers/v6/kuss05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:lafferty05a,
+ abstract = {A family of kernels for statistical learning is introduced that exploits the geometric structure of statistical models. The kernels are based on the heat equation on the Riemannian manifold defined by the Fisher information metric associated with a statistical family, and generalize the Gaussian kernel of Euclidean space. As an important special case, kernels based on the geometry of multinomial families are derived, leading to kernel-based learning algorithms that apply naturally to discrete data. Bounds on covering numbers and Rademacher averages for the kernels are proved using bounds on the eigenvalues of the Laplacian on Riemannian manifolds. Experimental results are presented for document classification, for which the use of multinomial geometry is natural and well motivated, and improvements are obtained over the standard use of Gaussian or linear kernels, which have been the standard for text classification.},
+ author = {John Lafferty and Guy Lebanon},
+ journal = {Journal of Machine Learning Research},
+ number = {5},
+ openalex = {W2097973429},
+ pages = {129--163},
+ title = {Diffusion Kernels on Statistical Manifolds},
+ url = {http://jmlr.org/papers/v6/lafferty05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:langford05a,
+ abstract = {We discuss basic prediction theory and its impact on classification success evaluation, implications for learning algorithm design, and uses in learning algorithm execution. This tutorial is meant to be a comprehensive compilation of results which are both theoretically rigorous and quantitatively useful.There are two important implications of the results presented here. The first is that common practices for reporting results in classification should change to use the test set bound. The second is that train set bounds can sometimes be used to directly motivate learning algorithms.},
+ author = {John Langford},
+ journal = {Journal of Machine Learning Research},
+ number = {10},
+ openalex = {W2170207925},
+ pages = {273--306},
+ title = {Tutorial on Practical Prediction Theory for Classification},
+ url = {http://jmlr.org/papers/v6/langford05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:lawrence05a,
+ abstract = {Summarising a high dimensional data set with a low dimensional embedding is a standard approach for exploring its structure. In this paper we provide an overview of some existing techniques for discovering such embeddings. We then introduce a novel probabilistic interpretation of principal component analysis (PCA) that we term dual probabilistic PCA (DPPCA). The DPPCA model has the additional advantage that the linear mappings from the embedded space can easily be non-linearised through Gaussian processes. We refer to this model as a Gaussian process latent variable model (GP-LVM). Through analysis of the GP-LVM objective function, we relate the model to popular spectral techniques such as kernel PCA and multidimensional scaling. We then review a practical algorithm for GP-LVMs in the context of large data sets and develop it to also handle discrete valued data and missing attributes. We demonstrate the model on a range of real-world and artificially generated data sets.},
+ author = {Neil Lawrence},
+ journal = {Journal of Machine Learning Research},
+ number = {60},
+ openalex = {W2136111243},
+ pages = {1783--1816},
+ title = {Probabilistic Non-linear Principal Component Analysis with Gaussian Process Latent Variable Models},
+ url = {http://jmlr.org/papers/v6/lawrence05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:luo05a,
+ abstract = {Active learning has been applied with support vector machines to reduce the data labeling effort in pattern recognition domains. However, most of those applications only deal with two class problems. In this paper, we extend the active learning approach to multiple class support vector machines. The experimental results from a plankton recognition system indicate that our approach often requires significantly less labeled images to maintain the same accuracy level as random sampling.},
+ author = {Tong Luo and Kurt Kramer and Dmitry B. Goldgof and Lawrence O. Hall and Scott Samson and Andrew Remsen and Thomas Hopkins},
+ journal = {Journal of Machine Learning Research},
+ number = {20},
+ openalex = {W4250800088},
+ pages = {589--613},
+ title = {Active learning to recognize multiple types of plankton},
+ url = {http://jmlr.org/papers/v6/luo05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:marchand05a,
+ abstract = {We present a learning algorithm for decision lists which allows features that are constructed from the data and allows a trade-off between accuracy and complexity. We provide bounds on the generalization error of this learning algorithm in terms of the number of errors and the size of the classifier it finds on the training data. We also compare its performance on some natural data sets with the set covering machine and the support vector machine. Furthermore, we show that the proposed bounds on the generalization error provide effective guides for model selection.},
+ author = {Mario Marchand and Marina Sokolova},
+ journal = {Journal of Machine Learning Research},
+ number = {15},
+ openalex = {W2164053026},
+ pages = {427--451},
+ title = {Learning with Decision Lists of Data-Dependent Features},
+ url = {http://jmlr.org/papers/v6/marchand05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:markatou05a,
+ abstract = {This paper brings together methods from two different disciplines: statistics and machine learning. We address the problem of estimating the variance of cross-validation (CV) estimators of the generalization error. In particular, we approach the problem of variance estimation of the CV estimators of generalization error as a problem in approximating the moments of a statistic. The approximation illustrates the role of training and test sets in the performance of the algorithm. It provides a unifying approach to evaluation of various methods used in obtaining training and test sets and it takes into account the variability due to different training and test sets. For the simple problem of predicting the sample mean and in the case of smooth loss functions, we show that the variance of the CV estimator of the generalization error is a function of the moments of the random variables Y=Card(Sj ∩ Sj') and Y*=Card(Sjc ∩ Sj'c), where Sj, Sj' are two training sets, and Sjc, Sj'c are the corresponding test sets. We prove that the distribution of Y and Y* is hypergeometric and we compare our estimator with the one proposed by Nadeau and Bengio (2003). We extend these results in the regression case and the case of absolute error loss, and indicate how the methods can be extended to the classification case. We illustrate the results through simulation.},
+ author = {Marianthi Markatou and Hong Tian and Shameek Biswas and George Hripcsak},
+ journal = {Journal of Machine Learning Research},
+ number = {39},
+ openalex = {W2106564640},
+ pages = {1127--1168},
+ title = {Analysis of Variance of Cross-Validation Estimators of the Generalization Error},
+ url = {http://jmlr.org/papers/v6/markatou05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:maurer05a,
+ abstract = {A mechnism of transfer learning is analysed, where samples drawn from different learning tasks of an environment are used to improve the learners performance on a new task. We give a general method to prove generalisation error bounds for such meta-algorithms. The method can be applied to the bias learning model of J. Baxter and to derive novel generalisation bounds for meta-algorithms searching spaces of uniformly stable algorithms. We also present an application to regularized least squares regression.},
+ author = {Andreas Maurer},
+ journal = {Journal of Machine Learning Research},
+ number = {33},
+ openalex = {W2124231679},
+ pages = {967--994},
+ title = {Algorithmic Stability and Meta-Learning},
+ url = {http://jmlr.org/papers/v6/maurer05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:micchelli05a,
+ abstract = {We study the problem of finding an optimal kernel from a prescribed convex set of kernels K for learning a real-valued function by regularization. We establish for a wide variety of regularization functionals that this leads to a convex optimization problem and, for square loss regularization, we characterize the solution of this problem. We show that, although K may be an uncountable set, the optimal kernel is always obtained as a convex combination of at most m+2 basic kernels, where m is the number of data examples. In particular, our results apply to learning the optimal radial kernel or the optimal dot product kernel.},
+ author = {Charles A. Micchelli and Massimiliano Pontil},
+ journal = {Journal of Machine Learning Research},
+ number = {38},
+ openalex = {W2121033924},
+ pages = {1099--1125},
+ title = {Learning the Kernel Function via Regularization},
+ url = {http://jmlr.org/papers/v6/micchelli05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:mohammadi05a,
+ author = {Leila Mohammadi and Sara van de Geer},
+ journal = {Journal of Machine Learning Research},
+ number = {68},
+ openalex = {W2808022771},
+ pages = {2027--2047},
+ title = {Asymptotics in empirical risk minimization},
+ url = {http://jmlr.org/papers/v6/mohammadi05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:murphy05a,
+ author = {Susan A. Murphy},
+ journal = {Journal of Machine Learning Research},
+ number = {37},
+ openalex = {W4298188144},
+ pages = {1073--1097},
+ title = {A Generalization Error for Q-Learning},
+ url = {http://jmlr.org/papers/v6/murphy05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:murray05a,
+ abstract = {We compare machine learning methods applied to a difficult real-world problem: predicting computer hard-drive failure using attributes monitored internally by individual drives. The problem is one of detecting rare events in a time series of noisy and nonparametrically-distributed data. We develop a new algorithm based on the multiple-instance learning framework and the naive Bayesian classifier (mi-NB) which is specifically designed for the low false-alarm case, and is shown to have promising performance. Other methods compared are support vector machines (SVMs), unsupervised clustering, and non-parametric statistical tests (rank-sum and reverse arrangements). The failure-prediction performance of the SVM, rank-sum and mi-NB algorithm is considerably better than the threshold method currently implemented in drives, while maintaining low false alarm rates. Our results suggest that nonparametric statistical tests should be considered for learning problems involving detecting rare events in time series data. An appendix details the calculation of rank-sum significance probabilities in the case of discrete, tied observations, and we give new recommendations about when the exact calculation should be used instead of the commonly-used normal approximation. These normal approximations may be particularly inaccurate for rare event problems like hard drive failures.},
+ author = {Joseph F. Murray and Gordon F. Hughes and Kenneth Kreutz-Delgado},
+ journal = {Journal of Machine Learning Research},
+ number = {27},
+ openalex = {W2119381450},
+ pages = {783--816},
+ title = {Machine Learning Methods for Predicting Failures in Hard Drives: A Multiple-Instance Application},
+ url = {http://jmlr.org/papers/v6/murray05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:nakamura05a,
+ abstract = {Bayesian networks have become one of the major models used for statistical inference. We study the question whether the decisions computed by a Bayesian network can be represented within a low-dimensional inner product space. We focus on two-label classification tasks over the Boolean domain. As main results we establish upper and lower bounds on the dimension of the inner product space for Bayesian networks with an explicitly given (full or reduced) parameter collection. In particular, these bounds are tight up to a factor of 2. For some nontrivial cases of Bayesian networks we even determine the exact values of this dimension. We further consider logistic autoregressive Bayesian networks and show that every sufficiently expressive inner product space must have dimension at least Ω(n2), where n is the number of network nodes. We also derive the bound 2Ω(n) for an artificial variant of this network, thereby demonstrating the limits of our approach and raising an interesting open question. As a major technical contribution, this work reveals combinatorial and algebraic structures within Bayesian networks such that known methods for the derivation of lower bounds on the dimension of inner product spaces can be brought into play.},
+ author = {Atsuyoshi Nakamura and Michael Schmitt and Niels Schmitt and Hans Ulrich Simon},
+ journal = {Journal of Machine Learning Research},
+ number = {47},
+ openalex = {W2154831226},
+ pages = {1383--1403},
+ title = {Inner Product Spaces for Bayesian Networks},
+ url = {http://jmlr.org/papers/v6/nakamura05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:ong05a,
+ abstract = {This paper addresses the problem of choosing a kernel suitable for estimation with a support vector machine, hence further automating machine learning. This goal is achieved by defining a reproducing kernel Hilbert space on the space of kernels itself. Such a formulation leads to a statistical estimation problem similar to the problem of minimizing a regularized risk functional.We state the equivalent representer theorem for the choice of kernels and present a semidefinite programming formulation of the resulting optimization problem. Several recipes for constructing hyperkernels are provided, as well as the details of common machine learning problems. Experimental results for classification, regression and novelty detection on UCI data show the feasibility of our approach.},
+ author = {Cheng Soon Ong and Alexander J. Smola and Robert C. Williamson},
+ journal = {Journal of Machine Learning Research},
+ number = {36},
+ openalex = {W2170356051},
+ pages = {1043--1071},
+ title = {Learning the Kernel with Hyperkernels},
+ url = {http://jmlr.org/papers/v6/ong05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:opper05a,
+ abstract = {We propose a novel framework for approximations to intractable probabilistic models which is based on a free energy formulation. The approximation can be understood as replacing an average over the original intractable distribution with a tractable one. It requires two tractable probability distributions which are made consistent on a set of moments and encode different features of the original intractable distribution. In this way we are able to use Gaussian approximations for models with discrete or bounded variables which allow us to include non-trivial correlations. These are neglected in many other methods. We test the framework on toy benchmark problems for binary variables on fully connected graphs and 2D grids and compare with other methods, such as loopy belief propagation. Good performance is already achieved by using single nodes as tractable substructures. Significant improvements are obtained when a spanning tree is used instead.},
+ author = {Manfred Opper and Ole Winther},
+ journal = {Journal of Machine Learning Research},
+ number = {73},
+ openalex = {W2140966562},
+ pages = {2177--2204},
+ title = {Expectation Consistent Approximate Inference},
+ url = {http://jmlr.org/papers/v6/opper05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:quinonero-candela05a,
+ abstract = {We provide a new unifying view, including all existing proper probabilistic sparse approximations for Gaussian process regression. Our approach relies on expressing the effective prior which the methods are using. This allows new insights to be gained, and highlights the relationship between existing methods. It also allows for a clear theoretically justified ranking of the closeness of the known approximations to the corresponding full GPs. Finally we point directly to designs of new better sparse approximations, combining the best of the existing strategies, within attractive computational constraints.},
+ author = {Joaquin Qui{{\~n}}onero-Candela and Carl Edward Rasmussen},
+ journal = {Journal of Machine Learning Research},
+ number = {65},
+ openalex = {W1571870753},
+ pages = {1939--1959},
+ title = {A Unifying View of Sparse Approximate Gaussian Process Regression},
+ url = {http://jmlr.org/papers/v6/quinonero-candela05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:rakotomamonjy05a,
+ abstract = {This work deals with a method for building a reproducing kernel Hilbert space (RKHS) from a Hilbert space with frame elements having special properties. Conditions on existence and a method of construction are given. Then, these RKHS are used within the framework of regularization theory for function approximation. Implications on semiparametric estimation are discussed and a multiscale scheme of regularization is also proposed. Results on toy and real-world approximation problems illustrate the effectiveness of such methods.},
+ author = {Alain Rakotomamonjy and St{{\'e}}phane Canu},
+ journal = {Journal of Machine Learning Research},
+ number = {51},
+ openalex = {W2128584444},
+ pages = {1485--1515},
+ title = {Frames, Reproducing Kernels, Regularization and Learning},
+ url = {http://jmlr.org/papers/v6/rakotomamonjy05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:ratsch05a,
+ abstract = {AdaBoost produces a linear combination of base hypotheses and predicts with the sign of this linear combination. The linear combination may be viewed as a hyperplane in feature space where the base hypotheses form the features. It has been observed that the generalization error of the algorithm continues to improve even after all examples are on the correct side of the current hyperplane. The improvement is attributed to the experimental observation that the distances (margins) of the examples to the separating hyperplane are increasing even after all examples are on the correct side.We introduce a new version of AdaBoost, called AdaBoost*ν, that explicitly maximizes the minimum margin of the examples up to a given precision. The algorithm incorporates a current estimate of the achievable margin into its calculation of the linear coefficients of the base hypotheses. The bound on the number of iterations needed by the new algorithms is the same as the number needed by a known version of AdaBoost that must have an explicit estimate of the achievable margin as a parameter. We also illustrate experimentally that our algorithm requires considerably fewer iterations than other algorithms that aim to maximize the margin.},
+ author = {Gunnar R{{\"a}}tsch and Manfred K. Warmuth},
+ journal = {Journal of Machine Learning Research},
+ number = {71},
+ openalex = {W2098300287},
+ pages = {2131--2152},
+ title = {Efficient Margin Maximizing with Boosting},
+ url = {http://jmlr.org/papers/v6/ratsch05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:rousu05a,
+ abstract = {We present a sparse dynamic programming algorithm that, given two strings s and t , a gap penalty λ, and an integer p, computes the value of the gap-weighted length-p subsequences kernel. The algorithm works in time O(p |M| log |t|), where M = {(i,j) | si = tj} is the set of matches of characters in the two sequences. The algorithm is easily adapted to handle bounded length subsequences and different gap-penalty schemes, including penalizing by the total length of gaps and the number of gaps as well as incorporating character-specific match/gap penalties.The new algorithm is empirically evaluated against a full dynamic programming approach and a trie-based algorithm both on synthetic and newswire article data. Based on the experiments, the full dynamic programming approach is the fastest on short strings, and on long strings if the alphabet is small. On large alphabets, the new sparse dynamic programming algorithm is the most efficient. On medium-sized alphabets the trie-based approach is best if the maximum number of allowed gaps is strongly restricted.},
+ author = {Juho Rousu and John Shawe-Taylor},
+ journal = {Journal of Machine Learning Research},
+ number = {45},
+ openalex = {W2165405907},
+ pages = {1323--1344},
+ title = {Efficient Computation of Gapped Substring Kernels on Large Alphabets},
+ url = {http://jmlr.org/papers/v6/rousu05a.html},
+ volume = {6},
+ year = {2005}
+}
 
 @article{JMLR:v6:rusakov05a,
-  author  = {Dmitry Rusakov and Dan Geiger},
-  title   = {Asymptotic Model Selection for Naive Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {1},
-  pages   = {1--35},
-  url     = {http://jmlr.org/papers/v6/rusakov05a.html}
+ abstract = {We develop a closed form asymptotic formula to compute the marginal likelihood of data given a naive Bayesian network model with two hidden states and binary features. This formula deviates from th...},
+ author = {Dmitry Rusakov and Dan Geiger},
+ journal = {Journal of Machine Learning Research},
+ number = {1},
+ openalex = {W3006494260},
+ pages = {1--35},
+ title = {Asymptotic Model Selection for Naive Bayesian Networks},
+ url = {http://jmlr.org/papers/v6/rusakov05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:kim05a,
-  author  = {Hyunsoo Kim and Peg Howland and Haesun Park},
-  title   = {Dimension Reduction in Text Classification with Support Vector Machines},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {2},
-  pages   = {37--53},
-  url     = {http://jmlr.org/papers/v6/kim05a.html}
-}
-@article{JMLR:v6:elisseeff05a,
-  author  = {Andre Elisseeff and Theodoros Evgeniou and Massimiliano Pontil},
-  title   = {Stability of Randomized Learning Algorithms},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {3},
-  pages   = {55--79},
-  url     = {http://jmlr.org/papers/v6/elisseeff05a.html}
-}
-@article{JMLR:v6:elidan05a,
-  author  = {Gal Elidan and Nir Friedman},
-  title   = {Learning Hidden Variable Networks: The Information Bottleneck Approach},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {4},
-  pages   = {81--127},
-  url     = {http://jmlr.org/papers/v6/elidan05a.html}
-}
-@article{JMLR:v6:lafferty05a,
-  author  = {John Lafferty and Guy Lebanon},
-  title   = {Diffusion Kernels on Statistical Manifolds},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {5},
-  pages   = {129--163},
-  url     = {http://jmlr.org/papers/v6/lafferty05a.html}
-}
-@article{JMLR:v6:chechik05a,
-  author  = {Gal Chechik and Amir Globerson and Naftali Tishby and Yair Weiss},
-  title   = {Information Bottleneck for Gaussian Variables},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {6},
-  pages   = {165--188},
-  url     = {http://jmlr.org/papers/v6/chechik05a.html}
-}
-@article{JMLR:v6:eibl05a,
-  author  = {G{{\"u}}nther Eibl and Karl-Peter Pfeiffer},
-  title   = {Multiclass Boosting for Weak Classifiers},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {7},
-  pages   = {189--210},
-  url     = {http://jmlr.org/papers/v6/eibl05a.html}
-}
-@article{JMLR:v6:steinwart05a,
-  author  = {Ingo Steinwart and Don Hush and Clint Scovel},
-  title   = {A Classification Framework for Anomaly Detection},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {8},
-  pages   = {211--232},
-  url     = {http://jmlr.org/papers/v6/steinwart05a.html}
-}
+
 @article{JMLR:v6:sarela05a,
-  author  = {Jaakko S{{\"a}}rel{{\"a}} and Harri Valpola},
-  title   = {Denoising Source Separation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {9},
-  pages   = {233--272},
-  url     = {http://jmlr.org/papers/v6/sarela05a.html}
+ abstract = {A new algorithmic framework called denoising source separation (DSS) is introduced. The main benefit of this framework is that it allows for the easy development of new source separation algorithms which can be optimised for specific problems. In this framework, source separation algorithms are constructed around denoising procedures. The resulting algorithms can range from almost blind to highly specialised source separation algorithms. Both simple linear and more complex nonlinear or adaptive denoising schemes are considered. Some existing independent component analysis algorithms are reinterpreted within the DSS framework and new, robust blind source separation algorithms are suggested. The framework is derived as a one-unit equivalent to an EM algorithm for source separation. However, in the DSS framework it is easy to utilise various kinds of denoising procedures which need not be based on generative models.In the experimental section, various DSS schemes are applied extensively to artificial data, to real magnetoencephalograms and to simulated CDMA mobile network signals. Finally, various extensions to the proposed DSS algorithms are considered. These include nonlinear observation mappings, hierarchical models and over-complete, nonorthogonal feature spaces. With these extensions, DSS appears to have relevance to many existing models of neural information processing.},
+ author = {Jaakko S{{\"a}}rel{{\"a}} and Harri Valpola},
+ journal = {Journal of Machine Learning Research},
+ number = {9},
+ openalex = {W1487724874},
+ pages = {233--272},
+ title = {Denoising Source Separation},
+ url = {http://jmlr.org/papers/v6/sarela05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:langford05a,
-  author  = {John Langford},
-  title   = {Tutorial on Practical Prediction Theory for Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {10},
-  pages   = {273--306},
-  url     = {http://jmlr.org/papers/v6/langford05a.html}
-}
-@article{JMLR:v6:jaeger05a,
-  author  = {Savina Andonova Jaeger},
-  title   = {Generalization Bounds and Complexities Based on Sparsity and Clustering for Convex Combinations of Functions from Random Classes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {11},
-  pages   = {307--340},
-  url     = {http://jmlr.org/papers/v6/jaeger05a.html}
-}
-@article{JMLR:v6:keerthi05a,
-  author  = {S. Sathiya Keerthi and Dennis DeCoste},
-  title   = {A Modified Finite Newton Method for Fast Solution of Large Scale Linear SVMs},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {12},
-  pages   = {341--361},
-  url     = {http://jmlr.org/papers/v6/keerthi05a.html}
-}
-@article{JMLR:v6:tsang05a,
-  author  = {Ivor W. Tsang and James T. Kwok and Pak-Ming Cheung},
-  title   = {Core Vector Machines: Fast SVM Training on Very Large Data Sets},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {13},
-  pages   = {363--392},
-  url     = {http://jmlr.org/papers/v6/tsang05a.html}
-}
-@article{JMLR:v6:agarwal05a,
-  author  = {Shivani Agarwal and Thore Graepel and Ralf Herbrich and Sariel Har-Peled and Dan Roth},
-  title   = {Generalization Bounds for the Area Under the ROC Curve},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {14},
-  pages   = {393--425},
-  url     = {http://jmlr.org/papers/v6/agarwal05a.html}
-}
-@article{JMLR:v6:marchand05a,
-  author  = {Mario Marchand and Marina Sokolova},
-  title   = {Learning with Decision Lists of Data-Dependent Features},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {15},
-  pages   = {427--451},
-  url     = {http://jmlr.org/papers/v6/marchand05a.html}
-}
-@article{JMLR:v6:kawanabe05a,
-  author  = {Motoaki Kawanabe and Klaus-Robert M&#252;ller},
-  title   = {Estimating Functions for Blind Separation When Sources Have Variance Dependencies},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {16},
-  pages   = {453--482},
-  url     = {http://jmlr.org/papers/v6/kawanabe05a.html}
-}
-@article{JMLR:v6:ye05a,
-  author  = {Jieping Ye},
-  title   = {Characterization of a Family of Algorithms for Generalized  Discriminant Analysis on Undersampled Problems},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {17},
-  pages   = {483--502},
-  url     = {http://jmlr.org/papers/v6/ye05a.html}
-}
-@article{JMLR:v6:ernst05a,
-  author  = {Damien  Ernst and Pierre  Geurts and Louis  Wehenkel},
-  title   = {Tree-Based Batch Mode Reinforcement Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {18},
-  pages   = {503--556},
-  url     = {http://jmlr.org/papers/v6/ernst05a.html}
-}
+
 @article{JMLR:v6:segal05a,
-  author  = {Eran Segal and Dana Pe'er and Aviv Regev and Daphne Koller and Nir Friedman},
-  title   = {Learning Module Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {19},
-  pages   = {557--588},
-  url     = {http://jmlr.org/papers/v6/segal05a.html}
+ abstract = {Methods for learning Bayesian networks can discover dependency structure between observed variables. Although these methods are useful in many applications, they run into computational and statistical problems in domains that involve a large number of variables. In this paper, we consider a solution that is applicable when many variables have similar behavior. We introduce a new class of models, module networks, that explicitly partition the variables into modules, so that the variables in each module share the same parents in the network and the same conditional probability distribution. We define the semantics of module networks, and describe an algorithm that learns the modules' composition and their dependency structure from data. Evaluation on real data in the domains of gene expression and the stock market shows that module networks generalize better than Bayesian networks, and that the learned module network structure reveals regularities that are obscured in learned Bayesian networks.},
+ author = {Eran Segal and Dana Pe'er and Aviv Regev and Daphne Koller and Nir Friedman},
+ journal = {Journal of Machine Learning Research},
+ number = {19},
+ openalex = {W2104877015},
+ pages = {557--588},
+ title = {Learning Module Networks},
+ url = {http://jmlr.org/papers/v6/segal05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:luo05a,
-  author  = {Tong Luo and Kurt Kramer and Dmitry B. Goldgof and Lawrence O. Hall and Scott Samson and Andrew Remsen and Thomas Hopkins},
-  title   = {Active Learning to Recognize Multiple Types of Plankton},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {20},
-  pages   = {589--613},
-  url     = {http://jmlr.org/papers/v6/luo05a.html}
-}
-@article{JMLR:v6:evgeniou05a,
-  author  = {Theodoros Evgeniou and Charles A. Micchelli and Massimiliano Pontil},
-  title   = {Learning Multiple Tasks with Kernel Methods},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {21},
-  pages   = {615--637},
-  url     = {http://jmlr.org/papers/v6/evgeniou05a.html}
-}
-@article{JMLR:v6:hutter05a,
-  author  = {Marcus Hutter and Jan Poland},
-  title   = {Adaptive Online Prediction by Following the Perturbed Leader},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {22},
-  pages   = {639--660},
-  url     = {http://jmlr.org/papers/v6/hutter05a.html}
-}
-@article{JMLR:v6:winn05a,
-  author  = {John Winn and Christopher M. Bishop},
-  title   = {Variational Message Passing},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {23},
-  pages   = {661--694},
-  url     = {http://jmlr.org/papers/v6/winn05a.html}
-}
-@article{JMLR:v6:hyvarinen05a,
-  author  = {Aapo Hyv{{\"a}}rinen},
-  title   = {Estimation of Non-Normalized Statistical Models by Score Matching},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {24},
-  pages   = {695--709},
-  url     = {http://jmlr.org/papers/v6/hyvarinen05a.html}
-}
-@article{JMLR:v6:dekel05a,
-  author  = {Ofer Dekel and Shai Shalev-Shwartz and Yoram Singer},
-  title   = {Smooth ε-Insensitive Regression by Loss Symmetrization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {25},
-  pages   = {711--741},
-  url     = {http://jmlr.org/papers/v6/dekel05a.html}
-}
-@article{JMLR:v6:fiori05a,
-  author  = {Simone Fiori},
-  title   = {Quasi-Geodesic Neural Learning Algorithms Over the Orthogonal Group: A Tutorial},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {26},
-  pages   = {743--781},
-  url     = {http://jmlr.org/papers/v6/fiori05a.html}
-}
-@article{JMLR:v6:murray05a,
-  author  = {Joseph F. Murray and Gordon F. Hughes and Kenneth Kreutz-Delgado},
-  title   = {Machine Learning Methods for Predicting Failures in Hard Drives:  A Multiple-Instance Application},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {27},
-  pages   = {783--816},
-  url     = {http://jmlr.org/papers/v6/murray05a.html}
-}
-@article{JMLR:v6:aiolli05a,
-  author  = {Fabio Aiolli and Alessandro Sperduti},
-  title   = {Multiclass Classification with Multi-Prototype Support Vector Machines},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {28},
-  pages   = {817--850},
-  url     = {http://jmlr.org/papers/v6/aiolli05a.html}
-}
-@article{JMLR:v6:wingate05a,
-  author  = {David Wingate and Kevin D. Seppi},
-  title   = {Prioritization Methods for Accelerating MDP Solvers},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {29},
-  pages   = {851--881},
-  url     = {http://jmlr.org/papers/v6/wingate05a.html}
-}
-@article{JMLR:v6:devito05a,
-  author  = {Ernesto De Vito and Lorenzo Rosasco and Andrea Caponnetto and Umberto De Giovannini and Francesca Odone},
-  title   = {Learning from Examples as an Inverse Problem},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {30},
-  pages   = {883--904},
-  url     = {http://jmlr.org/papers/v6/devito05a.html}
-}
-@article{JMLR:v6:ihler05a,
-  author  = {Alexander T. Ihler and John W. Fisher III and Alan S. Willsky},
-  title   = {Loopy Belief Propagation: Convergence and Effects of Message Errors},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {31},
-  pages   = {905--936},
-  url     = {http://jmlr.org/papers/v6/ihler05a.html}
-}
-@article{JMLR:v6:bar-hillel05a,
-  author  = {Aharon Bar-Hillel and Tomer Hertz and Noam Shental and Daphna Weinshall},
-  title   = {Learning a Mahalanobis Metric from Equivalence Constraints},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {32},
-  pages   = {937--965},
-  url     = {http://jmlr.org/papers/v6/bar-hillel05a.html}
-}
-@article{JMLR:v6:maurer05a,
-  author  = {Andreas Maurer},
-  title   = {Algorithmic Stability and Meta-Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {33},
-  pages   = {967--994},
-  url     = {http://jmlr.org/papers/v6/maurer05a.html}
-}
-@article{JMLR:v6:tsuda05a,
-  author  = {Koji Tsuda and Gunnar R{{\"a}}tsch and Manfred K. Warmuth},
-  title   = {Matrix Exponentiated Gradient Updates for On-line Learning and Bregman Projection},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {34},
-  pages   = {995--1018},
-  url     = {http://jmlr.org/papers/v6/tsuda05a.html}
-}
-@article{JMLR:v6:chu05a,
-  author  = {Wei Chu and Zoubin Ghahramani},
-  title   = {Gaussian Processes for Ordinal Regression},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {35},
-  pages   = {1019--1041},
-  url     = {http://jmlr.org/papers/v6/chu05a.html}
-}
-@article{JMLR:v6:ong05a,
-  author  = {Cheng Soon Ong and Alexander J. Smola and Robert C. Williamson},
-  title   = {Learning the Kernel with Hyperkernels},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {36},
-  pages   = {1043--1071},
-  url     = {http://jmlr.org/papers/v6/ong05a.html}
-}
-@article{JMLR:v6:murphy05a,
-  author  = {Susan A. Murphy},
-  title   = {A Generalization Error for Q-Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {37},
-  pages   = {1073--1097},
-  url     = {http://jmlr.org/papers/v6/murphy05a.html}
-}
-@article{JMLR:v6:micchelli05a,
-  author  = {Charles A. Micchelli and Massimiliano Pontil},
-  title   = {Learning the Kernel Function via Regularization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {38},
-  pages   = {1099--1125},
-  url     = {http://jmlr.org/papers/v6/micchelli05a.html}
-}
-@article{JMLR:v6:markatou05a,
-  author  = {Marianthi Markatou and Hong Tian and Shameek Biswas and George Hripcsak},
-  title   = {Analysis of Variance of Cross-Validation Estimators of the Generalization Error},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {39},
-  pages   = {1127--1168},
-  url     = {http://jmlr.org/papers/v6/markatou05a.html}
-}
-@article{JMLR:v6:cuturi05a,
-  author  = {Marco Cuturi and Kenji Fukumizu and Jean-Philippe Vert},
-  title   = {Semigroup Kernels on Measures},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {40},
-  pages   = {1169--1198},
-  url     = {http://jmlr.org/papers/v6/cuturi05a.html}
-}
-@article{JMLR:v6:almeida05a,
-  author  = {Lu{{\'i}}s B. Almeida},
-  title   = {Separating a Real-Life Nonlinear Image Mixture},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {41},
-  pages   = {1199--1229},
-  url     = {http://jmlr.org/papers/v6/almeida05a.html}
-}
-@article{JMLR:v6:drukh05a,
-  author  = {Evgeny Drukh and Yishay Mansour},
-  title   = {Concentration Bounds for Unigram Language Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {42},
-  pages   = {1231--1264},
-  url     = {http://jmlr.org/papers/v6/drukh05a.html}
-}
+
 @article{JMLR:v6:shani05a,
-  author  = {Guy Shani and David Heckerman and Ronen I. Brafman},
-  title   = {An MDP-Based Recommender System},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {43},
-  pages   = {1265--1295},
-  url     = {http://jmlr.org/papers/v6/shani05a.html}
+ abstract = {Typical recommender systems adopt a static view of the recommendation process and treat it as a prediction problem. We argue that it is more appropriate to view the problem of generating recommendations as a sequential optimization problem and, consequently, that Markov decision processes (MDPs) provide a more appropriate model for recommender systems. MDPs introduce two benefits: they take into account the long-term effects of each recommendation and the expected value of each recommendation. To succeed in practice, an MDP-based recommender system must employ a strong initial model, must be solvable quickly, and should not consume too much memory. In this paper, we describe our particular MDP model, its initialization using a predictive model, the solution and update algorithm, and its actual performance on a commercial site. We also describe the particular predictive model we used which outperforms previous models. Our system is one of a small number of commercially deployed recommender systems. As far as we know, it is the first to report experimental analysis conducted on a real commercial site. These results validate the commercial value of recommender systems, and in particular, of our MDP-based approach.},
+ author = {Guy Shani and David Heckerman and Ronen I. Brafman},
+ journal = {Journal of Machine Learning Research},
+ number = {43},
+ openalex = {W2138108551},
+ pages = {1265--1295},
+ title = {An MDP-Based Recommender System},
+ url = {http://jmlr.org/papers/v6/shani05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:binev05a,
-  author  = {Peter Binev and Albert Cohen and Wolfgang Dahmen and Ronald DeVore and Vladimir Temlyakov},
-  title   = {Universal Algorithms for Learning Theory Part I : Piecewise Constant Functions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {44},
-  pages   = {1297--1321},
-  url     = {http://jmlr.org/papers/v6/binev05a.html}
-}
-@article{JMLR:v6:rousu05a,
-  author  = {Juho Rousu and John Shawe-Taylor},
-  title   = {Efficient Computation of Gapped Substring Kernels on Large Alphabets},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {45},
-  pages   = {1323--1344},
-  url     = {http://jmlr.org/papers/v6/rousu05a.html}
-}
-@article{JMLR:v6:banerjee05a,
-  author  = {Arindam Banerjee and Inderjit S. Dhillon and Joydeep Ghosh and Suvrit Sra},
-  title   = {Clustering on the Unit Hypersphere using von Mises-Fisher  Distributions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {46},
-  pages   = {1345--1382},
-  url     = {http://jmlr.org/papers/v6/banerjee05a.html}
-}
-@article{JMLR:v6:nakamura05a,
-  author  = {Atsuyoshi Nakamura and Michael Schmitt and Niels Schmitt and Hans Ulrich Simon},
-  title   = {Inner Product Spaces for Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {47},
-  pages   = {1383--1403},
-  url     = {http://jmlr.org/papers/v6/nakamura05a.html}
-}
-@article{JMLR:v6:khardon05a,
-  author  = {Roni Khardon and Rocco A. Servedio},
-  title   = {Maximum Margin Algorithms with Boolean Kernels},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {48},
-  pages   = {1405--1429},
-  url     = {http://jmlr.org/papers/v6/khardon05a.html}
-}
-@article{JMLR:v6:boulle05a,
-  author  = {Marc Boull{{\'e}}},
-  title   = {A Bayes Optimal Approach for Partitioning the Values of Categorical Attributes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {49},
-  pages   = {1431--1452},
-  url     = {http://jmlr.org/papers/v6/boulle05a.html}
-}
-@article{JMLR:v6:tsochantaridis05a,
-  author  = {Ioannis Tsochantaridis and Thorsten Joachims and Thomas Hofmann and Yasemin Altun},
-  title   = {Large Margin Methods for Structured and Interdependent Output Variables},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {50},
-  pages   = {1453--1484},
-  url     = {http://jmlr.org/papers/v6/tsochantaridis05a.html}
-}
-@article{JMLR:v6:rakotomamonjy05a,
-  author  = {Alain Rakotomamonjy and St{{\'e}}phane Canu},
-  title   = {Frames, Reproducing Kernels, Regularization and Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {51},
-  pages   = {1485--1515},
-  url     = {http://jmlr.org/papers/v6/rakotomamonjy05a.html}
-}
-@article{JMLR:v6:cowell05a,
-  author  = {Robert G. Cowell},
-  title   = {Local Propagation in Conditional Gaussian Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {52},
-  pages   = {1517--1550},
-  url     = {http://jmlr.org/papers/v6/cowell05a.html}
-}
-@article{JMLR:v6:daume05a,
-  author  = {Hal Daum{{\'e}} III and Daniel Marcu},
-  title   = {A Bayesian Model for Supervised Clustering with the Dirichlet Process Prior},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {53},
-  pages   = {1551--1577},
-  url     = {http://jmlr.org/papers/v6/daume05a.html}
-}
-@article{JMLR:v6:bordes05a,
-  author  = {Antoine Bordes and Seyda Ertekin and Jason Weston and L{{\'e}}on Bottou},
-  title   = {Fast Kernel Classifiers with Online and Active Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {54},
-  pages   = {1579--1619},
-  url     = {http://jmlr.org/papers/v6/bordes05a.html}
-}
-@article{JMLR:v6:brown05a,
-  author  = {Gavin Brown and Jeremy L. Wyatt and Peter Ti&#328;o},
-  title   = {Managing Diversity in Regression Ensembles},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {55},
-  pages   = {1621--1650},
-  url     = {http://jmlr.org/papers/v6/brown05a.html}
-}
-@article{JMLR:v6:bongard05a,
-  author  = {Josh Bongard and Hod Lipson},
-  title   = {Active Coevolutionary Learning of Deterministic Finite Automata},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {56},
-  pages   = {1651--1678},
-  url     = {http://jmlr.org/papers/v6/bongard05a.html}
-}
-@article{JMLR:v6:kuss05a,
-  author  = {Malte Kuss and Carl Edward Rasmussen},
-  title   = {Assessing Approximate Inference for Binary Gaussian Process Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {57},
-  pages   = {1679--1704},
-  url     = {http://jmlr.org/papers/v6/kuss05a.html}
-}
-@article{JMLR:v6:banerjee05b,
-  author  = {Arindam Banerjee and Srujana Merugu and Inderjit S. Dhillon and Joydeep Ghosh},
-  title   = {Clustering with Bregman Divergences},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {58},
-  pages   = {1705--1749},
-  url     = {http://jmlr.org/papers/v6/banerjee05b.html}
-}
+
 @article{JMLR:v6:sigletos05a,
-  author  = {Georgios Sigletos and Georgios Paliouras and Constantine D. Spyropoulos and Michalis Hatzopoulos},
-  title   = {Combining Information Extraction Systems Using Voting and Stacked Generalization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {59},
-  pages   = {1751--1782},
-  url     = {http://jmlr.org/papers/v6/sigletos05a.html}
+ abstract = {This article investigates the effectiveness of voting and stacked generalization -also known as stacking- in the context of information extraction (IE). A new stacking framework is proposed that accommodates well-known approaches for IE. The key idea is to perform cross-validation on the base-level data set, which consists of text documents annotated with relevant information, in order to create a meta-level data set that consists of feature vectors. A classifier is then trained using the new vectors. Therefore, base-level IE systems are combined with a common classifier at the meta-level. Various voting schemes are presented for comparing against stacking in various IE domains. Well known IE systems are employed at the base-level, together with a variety of classifiers at the meta-level. Results show that both voting and stacking work better when relying on probabilistic estimates by the base-level systems. Voting proved to be effective in most domains in the experiments. Stacking, on the other hand, proved to be consistently effective over all domains, doing comparably or better than voting and always better than the best base-level systems. Particular emphasis is also given to explaining the results obtained by voting and stacking at the meta-level, with respect to the varying degree of similarity in the output of the base-level systems.},
+ author = {Georgios Sigletos and Georgios Paliouras and Constantine D. Spyropoulos and Michalis Hatzopoulos},
+ journal = {Journal of Machine Learning Research},
+ number = {59},
+ openalex = {W2125035899},
+ pages = {1751--1782},
+ title = {Combining Information Extraction Systems Using Voting and Stacked Generalization},
+ url = {http://jmlr.org/papers/v6/sigletos05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:lawrence05a,
-  author  = {Neil Lawrence},
-  title   = {Probabilistic Non-linear Principal Component Analysis with Gaussian Process Latent Variable Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {60},
-  pages   = {1783--1816},
-  url     = {http://jmlr.org/papers/v6/lawrence05a.html}
+
+@article{JMLR:v6:steinwart05a,
+ abstract = {One way to describe anomalies is by saying that anomalies are not concentrated. This leads to the problem of finding level sets for the data generating density. We interpret this learning problem a...},
+ author = {Ingo Steinwart and Don Hush and Clint Scovel},
+ journal = {Journal of Machine Learning Research},
+ number = {8},
+ openalex = {W3003808604},
+ pages = {211--232},
+ title = {A Classification Framework for Anomaly Detection},
+ url = {http://jmlr.org/papers/v6/steinwart05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:ando05a,
-  author  = {Rie Kubota Ando and Tong Zhang},
-  title   = {A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {61},
-  pages   = {1817--1853},
-  url     = {http://jmlr.org/papers/v6/ando05a.html}
+
+@article{JMLR:v6:tsang05a,
+ abstract = {Standard SVM training has O(m3) time and O(m2) space complexities, where m is the training set size. It is thus computationally infeasible on very large data sets. By observing that practical SVM implementations only approximate the optimal solution by an iterative strategy, we scale up kernel methods by exploiting such approximateness in this paper. We first show that many kernel methods can be equivalently formulated as minimum enclosing ball (MEB) problems in computational geometry. Then, by adopting an efficient approximate MEB algorithm, we obtain provably approximately optimal solutions with the idea of core sets. Our proposed Core Vector Machine (CVM) algorithm can be used with nonlinear kernels and has a time complexity that is linear in m and a space complexity that is independent of m. Experiments on large toy and real-world data sets demonstrate that the CVM is as accurate as existing SVM implementations, but is much faster and can handle much larger data sets than existing scale-up methods. For example, CVM with the Gaussian kernel produces superior results on the KDDCUP-99 intrusion detection data, which has about five million training patterns, in only 1.4 seconds on a 3.2GHz Pentium--4 PC.},
+ author = {Ivor W. Tsang and James T. Kwok and Pak-Ming Cheung},
+ journal = {Journal of Machine Learning Research},
+ number = {13},
+ openalex = {W2155319834},
+ pages = {363--392},
+ title = {Core Vector Machines: Fast SVM Training on Very Large Data Sets},
+ url = {http://jmlr.org/papers/v6/tsang05a.html},
+ volume = {6},
+ year = {2005}
 }
+
+@article{JMLR:v6:tsochantaridis05a,
+ abstract = {Learning general functional dependencies between arbitrary input and output spaces is one of the key challenges in computational intelligence. While recent progress in machine learning has mainly focused on designing flexible and powerful input representations, this paper addresses the complementary issue of designing classification algorithms that can deal with more complex outputs, such as trees, sequences, or sets. More generally, we consider problems involving multiple dependent output variables, structured output spaces, and classification problems with class attributes. In order to accomplish this, we propose to appropriately generalize the well-known notion of a separation margin and derive a corresponding maximum-margin formulation. While this leads to a quadratic program with a potentially prohibitive, i.e. exponential, number of constraints, we present a cutting plane algorithm that solves the optimization problem in polynomial time for a large class of problems. The proposed method has important applications in areas such as computational biology, natural language processing, information retrieval/extraction, and optical character recognition. Experiments from various domains involving different types of output spaces emphasize the breadth and generality of our approach.},
+ author = {Ioannis Tsochantaridis and Thorsten Joachims and Thomas Hofmann and Yasemin Altun},
+ journal = {Journal of Machine Learning Research},
+ number = {50},
+ openalex = {W2105842272},
+ pages = {1453--1484},
+ title = {Large Margin Methods for Structured and Interdependent Output Variables},
+ url = {http://jmlr.org/papers/v6/tsochantaridis05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:tsuda05a,
+ abstract = {We address the problem of learning a symmetric positive definite matrix. The central issue is to design parameter updates that preserve positive definiteness. Our updates are motivated with the von Neumann divergence. Rather than treating the most general case, we focus on two key applications that exemplify our methods: on-line learning with a simple square loss, and finding a symmetric positive definite matrix subject to linear constraints. The updates generalize the exponentiated gradient (EG) update and AdaBoost, respectively: the parameter is now a symmetric positive definite matrix of trace one instead of a probability vector (which in this context is a diagonal positive definite matrix with trace one). The generalized updates use matrix logarithms and exponentials to preserve positive definiteness. Most importantly, we show how the derivation and the analyses of the original EG update and AdaBoost generalize to the non-diagonal case. We apply the resulting matrix exponentiated gradient (MEG) update and DefiniteBoost to the problem of learning a kernel matrix from distance measurements.},
+ author = {Koji Tsuda and Gunnar R{{\"a}}tsch and Manfred K. Warmuth},
+ journal = {Journal of Machine Learning Research},
+ number = {34},
+ openalex = {W1537145174},
+ pages = {995--1018},
+ title = {Matrix Exponentiated Gradient Updates for On-line Learning and Bregman Projection},
+ url = {http://jmlr.org/papers/v6/tsuda05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:wingate05a,
+ abstract = {The performance of value and policy iteration can be dramatically improved by eliminating redundant or useless backups, and by backing up states in the right order. We study several methods designed to accelerate these iterative solvers, including prioritization, partitioning, and variable reordering. We generate a family of algorithms by combining several of the methods discussed, and present extensive empirical evidence demonstrating that performance can improve by several orders of magnitude for many problems, while preserving accuracy and convergence guarantees.},
+ author = {David Wingate and Kevin D. Seppi},
+ journal = {Journal of Machine Learning Research},
+ number = {29},
+ openalex = {W2121733891},
+ pages = {851--881},
+ title = {Prioritization Methods for Accelerating MDP Solvers},
+ url = {http://jmlr.org/papers/v6/wingate05a.html},
+ volume = {6},
+ year = {2005}
+}
+
+@article{JMLR:v6:winn05a,
+ abstract = {Bayesian inference is now widely established as one of the principal foundations for machine learning. In practice, exact inference is rarely possible, and so a variety of approximation techniques have been developed, one of the most widely used being a deterministic framework called variational inference. In this paper we introduce Variational Message Passing (VMP), a general purpose algorithm for applying variational inference to Bayesian Networks. Like belief propagation, VMP proceeds by sending messages between nodes in the network and updating posterior beliefs using local operations at each node. Each such update increases a lower bound on the log evidence (unless already at a local maximum). In contrast to belief propagation, VMP can be applied to a very general class of conjugate-exponential models because it uses a factorised variational approximation. Furthermore, by introducing additional variational parameters, VMP can be applied to models containing non-conjugate distributions. The VMP framework also allows the lower bound to be evaluated, and this can be used both for model comparison and for detection of convergence. Variational message passing has been implemented in the form of a general purpose inference engine called VIBES ('Variational Inference for BayEsian networkS') which allows models to be specified graphically and then solved variationally without recourse to coding.},
+ author = {John Winn and Christopher M. Bishop},
+ journal = {Journal of Machine Learning Research},
+ number = {23},
+ openalex = {W2156358825},
+ pages = {661--694},
+ title = {Variational Message Passing},
+ url = {http://jmlr.org/papers/v6/winn05a.html},
+ volume = {6},
+ year = {2005}
+}
+
 @article{JMLR:v6:wolf05a,
-  author  = {Lior Wolf and Amnon Shashua},
-  title   = {Feature Selection for Unsupervised and Supervised Inference: The Emergence of Sparsity in a Weight-Based Approach},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {62},
-  pages   = {1855--1887},
-  url     = {http://jmlr.org/papers/v6/wolf05a.html}
+ abstract = {The problem of selecting a subset of relevant features in a potentially overwhelming quantity of data is classic and found in many branches of science. Examples in computer vision, text processing ...},
+ author = {Lior Wolf and Amnon Shashua},
+ journal = {Journal of Machine Learning Research},
+ number = {62},
+ openalex = {W3010120015},
+ pages = {1855--1887},
+ title = {Feature Selection for Unsupervised and Supervised Inference: The Emergence of Sparsity in a Weight-Based Approach},
+ url = {http://jmlr.org/papers/v6/wolf05a.html},
+ volume = {6},
+ year = {2005}
 }
-@article{JMLR:v6:fan05a,
-  author  = {Rong-En Fan and Pai-Hsuen Chen and Chih-Jen Lin},
-  title   = {Working Set Selection Using Second Order Information for Training Support Vector Machines},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {63},
-  pages   = {1889--1918},
-  url     = {http://jmlr.org/papers/v6/fan05a.html}
-}
-@article{JMLR:v6:goldsmith05a,
-  author  = {Judy Goldsmith and Robert H. Sloan},
-  title   = {New Horn Revision Algorithms},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {64},
-  pages   = {1919--1938},
-  url     = {http://jmlr.org/papers/v6/goldsmith05a.html}
-}
-@article{JMLR:v6:quinonero-candela05a,
-  author  = {Joaquin Qui{{\~n}}onero-Candela and Carl Edward Rasmussen},
-  title   = {A Unifying View of Sparse Approximate Gaussian Process Regression},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {65},
-  pages   = {1939--1959},
-  url     = {http://jmlr.org/papers/v6/quinonero-candela05a.html}
-}
+
 @article{JMLR:v6:wong05a,
-  author  = {Weng-Keen Wong and Andrew Moore and Gregory Cooper and Michael Wagner},
-  title   = {What's Strange About Recent Events (WSARE): An Algorithm for the Early Detection of Disease Outbreaks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {66},
-  pages   = {1961--1998},
-  url     = {http://jmlr.org/papers/v6/wong05a.html}
+ abstract = {Traditional biosurveillance algorithms detect disease outbreaks by looking for peaks in a univariate time series of health-care data. Current health-care surveillance data, however, are no longer simply univariate data streams. Instead, a wealth of spatial, temporal, demographic and symptomatic information is available. We present an early disease outbreak detection algorithm called What's Strange About Recent Events (WSARE), which uses a multivariate approach to improve its timeliness of detection. WSARE employs a rule-based technique that compares recent health-care data against data from a baseline distribution and finds subgroups of the recent data whose proportions have changed the most from the baseline data. In addition, health-care data also pose difficulties for surveillance algorithms because of inherent temporal trends such as seasonal effects and day of week variations. WSARE approaches this problem using a Bayesian network to produce a baseline distribution that accounts for these temporal trends. The algorithm itself incorporates a wide range of ideas, including association rules, Bayesian networks, hypothesis testing and permutation tests to produce a detection algorithm that is careful to evaluate the significance of the alarms that it raises.},
+ author = {Weng-Keen Wong and Andrew Moore and Gregory Cooper and Michael Wagner},
+ journal = {Journal of Machine Learning Research},
+ number = {66},
+ openalex = {W2168202339},
+ pages = {1961--1998},
+ title = {What's Strange About Recent Events (WSARE): An Algorithm for the Early Detection of Disease Outbreaks},
+ url = {http://jmlr.org/papers/v6/wong05a.html},
+ volume = {6},
+ year = {2005}
 }
+
+@article{JMLR:v6:ye05a,
+ abstract = {A generalized discriminant analysis based on a new optimization criterion is presented. The criterion extends the optimization criteria of the classical Linear Discriminant Analysis (LDA) when the ...},
+ author = {Jieping Ye},
+ journal = {Journal of Machine Learning Research},
+ number = {17},
+ openalex = {W3005272312},
+ pages = {483--502},
+ title = {Characterization of a Family of Algorithms for Generalized Discriminant Analysis on Undersampled Problems},
+ url = {http://jmlr.org/papers/v6/ye05a.html},
+ volume = {6},
+ year = {2005}
+}
+
 @article{JMLR:v6:zoeter05a,
-  author  = {Onno Zoeter and Tom Heskes},
-  title   = {Change Point Problems in Linear Dynamical Systems},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {67},
-  pages   = {1999--2026},
-  url     = {http://jmlr.org/papers/v6/zoeter05a.html}
-}
-@article{JMLR:v6:mohammadi05a,
-  author  = {Leila Mohammadi and Sara van de Geer},
-  title   = {Asymptotics in Empirical Risk Minimization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {68},
-  pages   = {2027--2047},
-  url     = {http://jmlr.org/papers/v6/mohammadi05a.html}
-}
-@article{JMLR:v6:gunawardana05a,
-  author  = {Asela Gunawardana and William Byrne},
-  title   = {Convergence Theorems for Generalized Alternating Minimization Procedures},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {69},
-  pages   = {2049--2073},
-  url     = {http://jmlr.org/papers/v6/gunawardana05a.html}
-}
-@article{JMLR:v6:gretton05a,
-  author  = {Arthur Gretton and Ralf Herbrich and Alexander Smola and Olivier Bousquet and Bernhard Sch&#246;lkopf},
-  title   = {Kernel Methods for Measuring Independence},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {70},
-  pages   = {2075--2129},
-  url     = {http://jmlr.org/papers/v6/gretton05a.html}
-}
-@article{JMLR:v6:ratsch05a,
-  author  = {Gunnar R{{\"a}}tsch and Manfred K. Warmuth},
-  title   = {Efficient Margin Maximizing with Boosting},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {71},
-  pages   = {2131--2152},
-  url     = {http://jmlr.org/papers/v6/ratsch05a.html}
-}
-@article{JMLR:v6:drineas05a,
-  author  = {Petros Drineas and Michael W. Mahoney},
-  title   = {On the Nystrom Method for Approximating a Gram Matrix for Improved Kernel-Based Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {72},
-  pages   = {2153--2175},
-  url     = {http://jmlr.org/papers/v6/drineas05a.html}
-}
-@article{JMLR:v6:opper05a,
-  author  = {Manfred Opper and Ole Winther},
-  title   = {Expectation Consistent Approximate Inference},
-  journal = {Journal of Machine Learning Research},
-  year    = {2005},
-  volume  = {6},
-  number  = {73},
-  pages   = {2177--2204},
-  url     = {http://jmlr.org/papers/v6/opper05a.html}
+ abstract = {We study the problem of learning two regimes (we have a normal and a prefault regime in mind) based on a train set of non-Markovian observation sequences. Key to the model is that we assume that once the system switches from the normal to the prefault regime it cannot restore and will eventually result in a fault. We refer to the particular setting as semi-supervised since we assume the only information given to the learner is whether a particular sequence ended with a stop (implying that the sequence was generated by the normal regime) or with a fault (implying that there was a switch from the normal to the fault regime). In the latter case the particular time point at which a switch occurred is not known.The underlying model used is a switching linear dynamical system (SLDS). The constraints in the regime transition probabilities result in an exact inference procedure that scales quadratically with the length of a sequence. Maximum aposteriori (MAP) parameter estimates can be found using an expectation maximization (EM) algorithm with this inference algorithm in the E-step. For long sequences this will not be practically feasible and an approximate inference and an approximate EM procedure is called for. We describe a flexible class of approximations corresponding to different choices of clusters in a Kikuchi free energy with weak consistency constraints.},
+ author = {Onno Zoeter and Tom Heskes},
+ journal = {Journal of Machine Learning Research},
+ number = {67},
+ openalex = {W2149906451},
+ pages = {1999--2026},
+ title = {Change Point Problems in Linear Dynamical Systems},
+ url = {http://jmlr.org/papers/v6/zoeter05a.html},
+ volume = {6},
+ year = {2005}
 }

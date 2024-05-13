@@ -1,41 +1,51 @@
-
 @article{JMLR:v20:18-196,
-  author  = {Akshara Rai and Rika Antonova and Franziska Meier and Christopher G. Atkeson},
-  title   = {Using Simulation to Improve Sample-Efficiency of Bayesian Optimization for Bipedal Robots},
-  journal = {Journal of Machine Learning Research},
-  year    = {2019},
-  volume  = {20},
-  number  = {49},
-  pages   = {1--24},
-  url     = {http://jmlr.org/papers/v20/18-196.html}
+ abstract = {Learning for control can acquire controllers for novel robotic tasks, paving the path for autonomous agents. Such controllers can be expert-designed policies, which typically require tuning of parameters for each task scenario. In this context, Bayesian optimization (BO) has emerged as a promising approach for automatically tuning controllers. However, when performing BO on hardware for high-dimensional policies, sample-efficiency can be an issue. Here, we develop an approach that utilizes simulation to map the original parameter space into a domain-informed space. During BO, similarity between controllers is now calculated in this transformed space. Experiments on the ATRIAS robot hardware and another bipedal robot simulation show that our approach succeeds at sample-efficiently learning controllers for multiple robots. Another question arises: What if the simulation significantly differs from hardware? To answer this, we create increasingly approximate simulators and study the effect of increasing simulation-hardware mismatch on the performance of Bayesian optimization. We also compare our approach to other approaches from literature, and find it to be more reliable, especially in cases of high mismatch. Our experiments show that our approach succeeds across different controller types, bipedal robot models and simulator fidelity levels, making it applicable to a wide range of bipedal locomotion problems.},
+ author = {Akshara Rai and Rika Antonova and Franziska Meier and Christopher G. Atkeson},
+ journal = {Journal of Machine Learning Research},
+ number = {49},
+ openalex = {W2799517192},
+ pages = {1--24},
+ title = {Using Simulation to Improve Sample-Efficiency of Bayesian Optimization for Bipedal Robots},
+ url = {http://jmlr.org/papers/v20/18-196.html},
+ volume = {20},
+ year = {2019}
 }
+
 @article{JMLR:v20:18-213,
-  author  = {Felix Berkenkamp and Angela P. Schoellig and Andreas Krause},
-  title   = {No-Regret Bayesian Optimization with Unknown Hyperparameters},
-  journal = {Journal of Machine Learning Research},
-  year    = {2019},
-  volume  = {20},
-  number  = {50},
-  pages   = {1--24},
-  url     = {http://jmlr.org/papers/v20/18-213.html}
+ abstract = {Bayesian optimization (BO) based on Gaussian process models is a powerful paradigm to optimize black-box functions that are expensive to evaluate. While several BO algorithms provably converge to the global optimum of the unknown function, they assume that the hyperparameters of the kernel are known in advance. This is not the case in practice and misspecification often causes these algorithms to converge to poor local optima. In this paper, we present the first BO algorithm that is provably no-regret and converges to the optimum without knowledge of the hyperparameters. During optimization we slowly adapt the hyperparameters of stationary kernels and thereby expand the associated function class over time, so that the BO algorithm considers more complex function candidates. Based on the theoretical insights, we propose several practical algorithms that achieve the empirical sample efficiency of BO with online hyperparameter estimation, but retain theoretical convergence guarantees. We evaluate our method on several benchmark problems.},
+ author = {Felix Berkenkamp and Angela P. Schoellig and Andreas Krause},
+ journal = {Journal of Machine Learning Research},
+ number = {50},
+ openalex = {W4288639403},
+ pages = {1--24},
+ title = {No-Regret Bayesian Optimization with Unknown Hyperparameters},
+ url = {http://jmlr.org/papers/v20/18-213.html},
+ volume = {20},
+ year = {2019}
 }
-@article{JMLR:v20:18-227,
-  author  = {Setareh Ariafar and Jaume Coll-Font and Dana Brooks and Jennifer Dy},
-  title   = {ADMMBO: Bayesian Optimization with Unknown Constraints using ADMM},
-  journal = {Journal of Machine Learning Research},
-  year    = {2019},
-  volume  = {20},
-  number  = {123},
-  pages   = {1--26},
-  url     = {http://jmlr.org/papers/v20/18-227.html}
-}
+
 @article{JMLR:v20:18-225,
-  author  = {Benjamin Letham and Eytan Bakshy},
-  title   = {Bayesian Optimization for Policy Search via Online-Offline Experimentation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2019},
-  volume  = {20},
-  number  = {145},
-  pages   = {1--30},
-  url     = {http://jmlr.org/papers/v20/18-225.html}
+ abstract = {Online field experiments are the gold-standard way of evaluating changes to real-world interactive machine learning systems. Yet our ability to explore complex, multi-dimensional policy spaces - such as those found in recommendation and ranking problems - is often constrained by the limited number of experiments that can be run simultaneously. To alleviate these constraints, we augment online experiments with an offline simulator and apply multi-task Bayesian optimization to tune live machine learning systems. We describe practical issues that arise in these types of applications, including biases that arise from using a simulator and assumptions for the multi-task kernel. We measure empirical learning curves which show substantial gains from including data from biased offline experiments, and show how these learning curves are consistent with theoretical results for multi-task Gaussian process generalization. We find that improved kernel inference is a significant driver of multi-task generalization. Finally, we show several examples of Bayesian optimization efficiently tuning a live machine learning system by combining offline and online experiments.},
+ author = {Benjamin Letham and Eytan Bakshy},
+ journal = {Journal of Machine Learning Research},
+ number = {145},
+ openalex = {W2982659598},
+ pages = {1--30},
+ title = {Bayesian Optimization for Policy Search via Online-Offline Experimentation},
+ url = {http://jmlr.org/papers/v20/18-225.html},
+ volume = {20},
+ year = {2019}
+}
+
+@article{JMLR:v20:18-227,
+ abstract = {There exist many problems in science and engineering that involve optimization of an unknown or partially unknown objective function. Recently, Bayesian Optimization (BO) has emerged as a powerful tool for solving optimization problems whose objective functions are only available as a black box and are expensive to evaluate. Many practical problems, however, involve optimization of an unknown objective function subject to unknown constraints. This is an important yet challenging problem for which, unlike optimizing an unknown function, existing methods face several limitations. In this paper, we present a novel constrained Bayesian optimization framework to optimize an unknown objective function subject to unknown constraints. We introduce an equivalent optimization by augmenting the objective function with constraints, introducing auxiliary variables for each constraint, and forcing the new variables to be equal to the main variable. Building on the Alternating Direction Method of Multipliers (ADMM) algorithm, we propose ADMM-Bayesian Optimization (ADMMBO) to solve the problem in an iterative fashion. Our framework leads to multiple unconstrained subproblems with unknown objective functions, which we then solve via BO. Our method resolves several challenges of state-of-the-art techniques: it can start from infeasible points, is insensitive to initialization, can efficiently handle 'decoupled problems' and has a concrete stopping criterion. Extensive experiments on a number of challenging BO benchmark problems show that our proposed approach outperforms the state-of-the-art methods in terms of the speed of obtaining a feasible solution and convergence to the global optimum as well as minimizing the number of total evaluations of unknown objective and constraints functions.},
+ author = {Setareh Ariafar and Jaume Coll-Font and Dana Brooks and Jennifer Dy},
+ journal = {Journal of Machine Learning Research},
+ number = {123},
+ openalex = {W2974398825},
+ pages = {1--26},
+ title = {ADMMBO: Bayesian Optimization with Unknown Constraints using ADMM.},
+ url = {http://jmlr.org/papers/v20/18-227.html},
+ volume = {20},
+ year = {2019}
 }

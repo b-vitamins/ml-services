@@ -1,192 +1,323 @@
-
-@Proceedings{IDM2016,
-  title =     {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  editor =    {Tatiana V. Guy and Miroslav KÃ¡rnÃ½ and David Rios-Insua and David H. Wolpert},
-  publisher = {PMLR},
-  series =    {Proceedings of Machine Learning Research},
-  volume =    58
-}
-@InProceedings{pmlr-v58-guy17a,
-  title = 	 {NIPS Workshop on Imperfect Decision Makers 2016: {P}reface},
-  author = 	 {Guy, Tatiana V.},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {i--iii},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/guy17a/guy17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/guy17a.html},
-  abstract = 	 {The workshop aims, organising and programme committees, invited talks and panel discussions are introduced.}
-}
-@InProceedings{pmlr-v58-buckmann17a,
-  title = 	 {Decision Heuristics for Comparison:{H}ow Good Are They?},
-  author = 	 {Buckmann, Marcus and ÅimÅek, ÃzgÃ¼r},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {1--11},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/buckmann17a/buckmann17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/buckmann17a.html},
-  abstract = 	 {Simple decision heuristics are cognitive models of human and animal decision making. They examine few pieces of information and combine the pieces in simple ways, for example, by considering them sequentially or giving them equal weight. They have been studied most extensively for the problem of \textitcomparison, where the objective is to identify which of a given number of alternatives has the highest value on a specified (unobserved) criterion. We present the most comprehensive empirical evaluation of decision heuristics to date on the comparison problem. In a diverse collection of 56 real-world data sets, we compared heuristics to powerful statistical learning methods, including support vector machines and random forests. Heuristics performed surprisingly well. On average, they were only a few percentage points behind the best-performing algorithm. In many data sets, they yielded the highest accuracy in all or parts of the learning curve. The first part of the supplement describes implementation details of the algorithms tested; the second part describes the 56 public data sets used in the empirical analysis. }
-}
-@InProceedings{pmlr-v58-lichtenberg17a,
-  title = 	 {Simple Regression Models},
-  author = 	 {Lichtenberg, Jan M. and ÅimÅek, ÃzgÃ¼r},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {13--25},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/lichtenberg17a/lichtenberg17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/lichtenberg17a.html},
-  abstract = 	 {Developing theories of when and why simple predictive models perform well is a key step in understanding decisions of cognitively bounded humans and intelligent machines. We are interested in how well simple models predict in regression. We list and review existing simple regression models and define new ones. We identify the lack of a large-scale empirical comparison of these models with state-of-the-art regression models in a predictive regression context. We report the results of such an empirical analysis on 60 real-world data sets. Simple regression models such as equal-weights regression routinely outperformed state-of-the-art regression models, especially on small training-set sizes. There was no simple model that predicted well in all data sets, but in nearly all data sets, there was at least one simple model that predicted well. The supplementary material contains learning curves for individual data sets that have not been presented in the main article. It also contains detailed descriptions and source descriptions of all used data sets. }
-}
-@InProceedings{pmlr-v58-karny17a,
-  title = 	 {Implementable Prescriptive Decision Making},
-  author = 	 {KÃ¡rnÃ½, Miroslav},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {19--30},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/karny17a/karny17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/karny17a.html},
-  abstract = 	 {The need for inspecting (ir)rationality in decision making (DM) â the observed discrepancy between real and prescriptive DMs â stems from omnipresence of DM in individualsâ and society life. Active approaches try to diminish this discrepancy either by changing behaviour of participants (DM subjects) or modifying prescriptive theories as done in this text. It provides a core of unified merging methodology of probabilities serving for knowledge fusion and information sharing exploited in cooperative DM.  Specifically, it unifies merging methodologies supporting a flat cooperation of interacting self-interested DM participants. They act without a facilitator and they are unwilling to spare a non-negligible deliberation effort on merging. They are supposed to solve their DM tasks via the fully probabilistic design (FPD) of decision strategies. This option is motivated by the fact that FPD is axiomatically justified and extends standard Bayesian DM. Merging is a supporting DM task and is also solved  via FPD. The proposed merging formulation tries to be as general as possible without entering into technicalities of measure theory. The results generalise and unify earlier work and open a pathway to systematic solutions of specific, less general,  problems.}
-}
-@InProceedings{pmlr-v58-drachal17a,
-  title = 	 {Forecasting Spot Oil Price Using Google Probabilities},
-  author = 	 {Drachal, Krzysztof},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {31--40},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/drachal17a/drachal17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/drachal17a.html},
-  abstract = 	 {In this paper DMA (Dynamic Averaging Model) is expanded by adding certain probabilities based on Google Trends. Such a method is applied to forecasting spot oil prices (WTI). In particular it is checked whether a dynamic model including stock prices in developed markets, stock prices in China, stock prices volatility, exchange rates, global economic activity, interest rates, production, consumption, import and level of inventories as independent variables might be improved by including a certain measure of Google searches. Monthly data between 2004 and 2015 were analysed. It was found that such a modification leads to slightly better forecast. However, the weight ascribed to Google searches should  be quite small. Except that it was found that even unmodified DMA produced better forecast than that based on futures contracts or naive forecast.}
-}
-@InProceedings{pmlr-v58-seckarova17a,
-  title = 	 {Performance of {K}ullback-{L}eibler Based Expert Opinion Pooling for Unlikely Events},
-  author = 	 {SeÄkÃ¡rovÃ¡, VladimÄ±Ìra},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {41--50},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/seckarova17a/seckarova17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/seckarova17a.html},
-  abstract = 	 {The aggregation of available information is of great importance in many branches of economics, social sciences. Often, we can only rely on expertsâ opinions, i.e. probabilities assigned to possible events. To deal with opinions in probabilistic form, we focus on the Kullback-Leibler (KL) divergence based pools: linear, logarithmic and KL-pool. Since occurrence of events is subject to random influences of the real world, it is important to address events assigned lower probabilities (unlikely events). This is done by choosing pooling with a higher entropy than standard linear or logarithmic options, i.e. the KL-pool. We show how well the mentioned pools perform on real data using absolute error, KL-divergence and quadratic reward. In cases favoring events assigned higher probabilities, the KL-pool performs similarly to the linear pool and outperforms the logarithmic pool. When unlikely events occur, the KL-pool outperforms both pools, which makes it a reasonable way of pooling.}
-}
-@InProceedings{pmlr-v58-guy17b,
-  title = 	 {Experimental Performance of Deliberation-Aware Responder in Multi-Proposer Ultimatum Game},
-  author = 	 {Guy, Tatiana V. and Ruman, Marko and HÅ¯la, FrantiÅ¡ek and KÃ¡rnÃ½, Miroslav},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {51--60},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/guy17b/guy17b.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/guy17b.html},
-  abstract = 	 {The ultimatum game serves for studying various aspects of decision making (DM). Recently, its multi-proposer version has been modified to study the influence of deliberation costs. An optimising policy of the responder, switching between several proposers at non-negligible deliberation costs, was designed and successfully tested in a simulated environment. The policy design was done within the  framework of Markov Decision Processes with rewards also allowing to model the responderâs feeling for fairness. It relies on simple Markov models of proposers, which are recursively learnt in a Bayesian way during the game course. This paper verifies, whether the gained theoretically plausible policy, suits to real-life DM. It describes experiments in which this policy was applied against human proposers. The results â with eleven groups of three independently acting proposers â confirm the soundness of this policy. It increases the responderâs economic profit due to switching between proposers, in spite of the deliberation costs and the used approximate modelling of proposers. Methodologically, it opens the possibility to learn systematically willingness of humans to spent their deliberation resources on specific DM tasks.}
-}
-@InProceedings{pmlr-v58-ganzfried17a,
-  title = 	 {Optimal Number of Choices in Rating Contexts},
-  author = 	 {Ganzfried, Sam},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {61--74},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/ganzfried17a/ganzfried17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/ganzfried17a.html},
-  abstract = 	 {In many settings people must give numerical scores to entities from a small discrete set. For instance, rating physical attractiveness from 1â5 on dating sites, or papers from 1â10 for conference reviewing. We study the problem of understanding when using a different number of options is optimal. For concreteness we assume the true underlying scores are integers from 1â100. We consider the case when scores are uniform random and Gaussian. While in theory for this setting it would be optimal to use all 100 options, in practice this is prohibitive, and it is preferable to utilize a smaller number of options due to humansâ cognitive limitations. Our results suggest that using a smaller number of options than is typical could be optimal in certain situations. This would have many potential applications, as settings requiring entities to be ranked by humans are ubiquitous.}
-}
-@InProceedings{pmlr-v58-simsek17a,
-  title = 	 {On Learning Decision Heuristics},
-  author = 	 {ÅimÅek, ÃzgÃ¼r and Buckmann, Marcus},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {75--85},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/simsek17a/simsek17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/simsek17a.html},
-  abstract = 	 {Decision heuristics are simple models of human and animal decision making that use few pieces of information and combine the pieces in simple ways, for example, by giving them equal weight or by considering them sequentially. We examine how decision heuristics can be learnedâand modifiedâas additional training examples become available. In particular, we examine how additional training examples change the variance in parameter estimates of the heuristic. Our analysis suggests new decision heuristics, including a family of heuristics that generalizes two well-known families: lexicographic heuristics and tallying. We evaluate the empirical performance of these heuristics in a large, diverse collection of data sets. The supplementary material provides details on the random forest implementation and describes the 56 public data sets used in the empirical analysis. }
-}
-@InProceedings{pmlr-v58-benavoli17a,
-  title = 	 {Quantum Rational Preferences and Desirability},
-  author = 	 {Benavoli, Alessio and Facchini, Alessandro and Zaffalon, Marco},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {87--96},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/benavoli17a/benavoli17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/benavoli17a.html},
-  abstract = 	 {We develop a theory of quantum rational decision making in the tradition of Anscombe and Aumannâs axiomatisation of preferences on horse lotteries. It is essentially the Bayesian decision theory generalised to the space of Hermitian matrices. Among other things, this leads us to give a representation theorem showing that quantum complete rational preferences are obtained by means of expected utility considerations.}
-}
-@InProceedings{pmlr-v58-d-agostino17a,
-  title = 	 {Rational Beliefs Real Agents Can Have â {A} Logical Point of View},
-  author = 	 {DâAgostino, Marcello and Flaminio, Tommaso and Hosni, Hykel},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {97--109},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/d-agostino17a/d-agostino17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/d-agostino17a.html},
-  abstract = 	 {The purpose of this note is to outline a framework for uncertain reasoning which  drops unrealistic assumptions about the agentsâ inferential  capabilities. To do so, we envisage a pivotal role for the recent research programme of \emphdepth-bounded Boolean logics. We suggest that this can be fruitfully extended to the representation of rational belief  under uncertainty. By doing this we lay the foundations for a prescriptive account of rational belief, namely one that  \emphrealistic agents, as opposed to   idealised ones, can feasibly act upon.}
-}
-@InProceedings{pmlr-v58-mahdavi17a,
-  title = 	 {Hindsight Bias Impedes Learning},
-  author = 	 {Mahdavi, Shaudi and Rahimian, M. Amin},
-  booktitle = 	 {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
-  pages = 	 {111--127},
-  year = 	 {2017},
-  editor = 	 {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
-  volume = 	 {58},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {09 Dec},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v58/mahdavi17a/mahdavi17a.pdf},
-  url = 	 {https://proceedings.mlr.press/v58/mahdavi17a.html},
-  abstract = 	 {We propose a model that addresses an open question in the cognitive science literature: How can we rigorously model the cognitive bias known as hindsight bias such that we fully account for critical experimental results? Though hindsight bias has been studied extensively, prior work has failed to produce a consensus theoretical model sufficiently general to account for several key experimental results, or to fully demonstrate how hindsight impedes our ability to learn the truth in a repeated decision or social network setting.  We present a model in which agents aim to learn the quality of their signals through repeated interactions with their environment. Our results indicate that agents who are subject to hindsight bias will always believe themselves to be high-type âexpertâ regardless of whether they are actually high- or low-type.}
+@proceedings{IDM2016,
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Tatiana V. Guy and Miroslav KÃ¡rnÃ½ and David Rios-Insua and David H. Wolpert},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ volume = {58}
 }
 
+@inproceedings{pmlr-v58-benavoli17a,
+ abstract = {We develop a theory of quantum rational decision making in the tradition of Anscombe and Aumann's axiomatisation of preferences on horse lotteries. It is essentially the Bayesian decision theory generalised to the space of Hermitian matrices. Among other things, this leads us to give a representation theorem showing that quantum complete rational preferences are obtained by means of expected utility considerations.},
+ author = {Benavoli, Alessio and Facchini, Alessandro and Zaffalon, Marco},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2806904276},
+ pages = {87--96},
+ pdf = {http://proceedings.mlr.press/v58/benavoli17a/benavoli17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Quantum Rational Preferences and Desirability.},
+ url = {https://proceedings.mlr.press/v58/benavoli17a.html},
+ volume = {58},
+ year = {2017}
+}
 
+@inproceedings{pmlr-v58-buckmann17a,
+ abstract = {Simple decision heuristics are cognitive models of human and animal decision
+making. They examine few pieces of information and combine the pieces in
+simple ways, for example, by considering them sequentially or giving them
+equal weight. They have been studied most extensively for the problem of
+\textitcomparison, where the objective is to identify which of a given
+number of alternatives has the highest value on a specified (unobserved)
+criterion. We present the most comprehensive empirical evaluation of decision
+heuristics to date on the comparison problem. In a diverse collection of 56
+real-world data sets, we compared heuristics to powerful statistical learning
+methods, including support vector machines and random forests. Heuristics
+performed surprisingly well. On average, they were only a few percentage
+points behind the best-performing algorithm. In many data sets, they yielded
+the highest accuracy in all or parts of the learning curve.
+The first part of the supplement describes implementation details of the
+algorithms tested; the second part describes the 56 public data sets used in
+the empirical analysis. },
+ author = {Buckmann, Marcus and ÅimÅek, ÃzgÃ¼r},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ pages = {1--11},
+ pdf = {http://proceedings.mlr.press/v58/buckmann17a/buckmann17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Decision Heuristics for Comparison:{H}ow Good Are They?},
+ url = {https://proceedings.mlr.press/v58/buckmann17a.html},
+ volume = {58},
+ year = {2017}
+}
 
+@inproceedings{pmlr-v58-d-agostino17a,
+ abstract = {The purpose of this note is to outline a framework for uncertain
+reasoning which  drops unrealistic assumptions about the agentsâ
+inferential  capabilities. To do so, we envisage a pivotal role for
+the recent research programme of \emphdepth-bounded Boolean logics.
+We suggest that this can be fruitfully extended to the representation
+of rational belief  under uncertainty. By doing this we lay the
+foundations for a prescriptive account of rational belief, namely one
+that  \emphrealistic agents, as opposed to   idealised ones, can feasibly act upon.},
+ author = {DâAgostino, Marcello and Flaminio, Tommaso and Hosni, Hykel},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ pages = {97--109},
+ pdf = {http://proceedings.mlr.press/v58/d-agostino17a/d-agostino17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Rational Beliefs Real Agents Can Have â {A} Logical Point of View},
+ url = {https://proceedings.mlr.press/v58/d-agostino17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-drachal17a,
+ abstract = {In this paper DMA (Dynamic Averaging Model) is expanded by adding certain probabilities
+based on Google Trends. Such a method is applied to forecasting spot oil prices (WTI).
+In particular it is checked whether a dynamic model including stock prices in
+developed markets, stock prices in China, stock prices volatility, exchange rates,
+global economic activity, interest rates, production, consumption, import and level of
+inventories as independent variables might be improved by including a certain measure
+of Google searches. Monthly data between 2004 and 2015 were analysed. It was found that such a
+modification leads to slightly better forecast. However, the weight ascribed to Google
+searches should  be quite small. Except that it was found that even unmodified DMA produced
+better forecast than that based on futures contracts or naive forecast.},
+ author = {Drachal, Krzysztof},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2807092843},
+ pages = {31--40},
+ pdf = {http://proceedings.mlr.press/v58/drachal17a/drachal17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Forecasting Spot Oil Price Using Google Probabilities.},
+ url = {https://proceedings.mlr.press/v58/drachal17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-ganzfried17a,
+ abstract = {In many settings people must give numerical scores to entities from a small discrete set. For instance, rating physical attractiveness from 1--5 on dating sites, or papers from 1--10 for conference reviewing. We study the problem of understanding when using a different number of options is optimal. We consider the case when scores are uniform random and Gaussian. We study computationally when using 2, 3, 4, 5, and 10 options out of a total of 100 is optimal in these models (though our theoretical analysis is for a more general setting with $k$ choices from $n$ total options as well as a continuous underlying space). One may expect that using more options would always improve performance in this model, but we show that this is not necessarily the case, and that using fewer choices---even just two---can surprisingly be optimal in certain situations. While in theory for this setting it would be optimal to use all 100 options, in practice this is prohibitive, and it is preferable to utilize a smaller number of options due to humans' limited computational resources. Our results could have many potential applications, as settings requiring entities to be ranked by humans are ubiquitous. There could also be applications to other fields such as signal or image processing where input values from a large set must be mapped to output values in a smaller set.},
+ author = {Ganzfried, Sam},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W3098138494},
+ pages = {61--74},
+ pdf = {http://proceedings.mlr.press/v58/ganzfried17a/ganzfried17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Optimal Number of Choices in Rating Contexts},
+ url = {https://proceedings.mlr.press/v58/ganzfried17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-guy17a,
+ abstract = {The workshop aims, organising and programme committees, invited talks and panel
+discussions are introduced.},
+ author = {Guy, Tatiana V.},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ pages = {i--iii},
+ pdf = {http://proceedings.mlr.press/v58/guy17a/guy17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {NIPS Workshop on Imperfect Decision Makers 2016: {P}reface},
+ url = {https://proceedings.mlr.press/v58/guy17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-guy17b,
+ abstract = {The ultimatum game serves for studying various aspects of decision making
+(DM). Recently, its multi-proposer version has been modified to study the influence
+of deliberation costs. An optimising policy of the responder, switching between several
+proposers at non-negligible deliberation costs, was designed and successfully tested
+in a simulated environment. The policy design was done within the  framework of
+Markov Decision Processes with rewards also allowing to model the responderâs feeling
+for fairness. It relies on simple Markov models of proposers, which are recursively
+learnt in a Bayesian way during the game course. This paper verifies, whether the
+gained theoretically plausible policy, suits to real-life DM. It describes experiments
+in which this policy was applied against human proposers. The results â with eleven
+groups of three independently acting proposers â confirm the soundness of this policy.
+It increases the responderâs economic profit due to switching between proposers, in spite
+of the deliberation costs and the used approximate modelling of proposers. Methodologically,
+it opens the possibility to learn systematically willingness of humans to spent their
+deliberation resources on specific DM tasks.},
+ author = {Guy, Tatiana V. and Ruman, Marko and HÅ¯la, FrantiÅ¡ek and KÃ¡rnÃ½, Miroslav},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2807307012},
+ pages = {51--60},
+ pdf = {http://proceedings.mlr.press/v58/guy17b/guy17b.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Experimental Performance of Deliberation-Aware Responder in Multi-Proposer Ultimatum Game.},
+ url = {https://proceedings.mlr.press/v58/guy17b.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-karny17a,
+ abstract = {The need for inspecting (ir)rationality in decision making (DM)
+â the observed discrepancy between real and prescriptive DMs â
+stems from omnipresence of DM in individualsâ and society life.
+Active approaches try to diminish this discrepancy either by changing
+behaviour of participants (DM subjects) or modifying prescriptive
+theories as done in this text. It provides a core of unified merging
+methodology of probabilities serving for knowledge fusion and information
+sharing exploited in cooperative DM.  Specifically, it unifies merging
+methodologies supporting a flat cooperation of interacting self-interested
+DM participants. They act without a facilitator and they are unwilling
+to spare a non-negligible deliberation effort on merging. They are supposed
+to solve their DM tasks via the fully probabilistic design (FPD) of
+decision strategies. This option is motivated by the fact that FPD
+is axiomatically justified and extends standard Bayesian DM.
+Merging is a supporting DM task and is also solved  via FPD.
+The proposed merging formulation tries to be as general as possible
+without entering into technicalities of measure theory. The results generalise
+and unify earlier work and open a pathway to systematic solutions of
+specific, less general,  problems.},
+ author = {KÃ¡rnÃ½, Miroslav},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2807543314},
+ pages = {19--30},
+ pdf = {http://proceedings.mlr.press/v58/karny17a/karny17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Implementable Prescriptive Decision Making.},
+ url = {https://proceedings.mlr.press/v58/karny17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-lichtenberg17a,
+ abstract = {Developing theories of when and why simple predictive models
+perform well is a key step in understanding decisions of cognitively
+bounded humans and intelligent machines. We are interested in
+how well simple models predict in regression. We list and review
+existing simple regression models and define new ones. We identify
+the lack of a large-scale empirical comparison of these models with
+state-of-the-art regression models in a predictive regression context.
+We report the results of such an empirical analysis on 60 real-world data
+sets. Simple regression models such as equal-weights regression routinely
+outperformed state-of-the-art regression models, especially on small training-set sizes.
+There was no simple model that predicted well in all data sets, but in nearly
+all data sets, there was at least one simple model that predicted well.
+The supplementary material contains learning curves for individual data sets that have
+not been presented in the main article. It also contains detailed descriptions and source
+descriptions of all used data sets.
+},
+ author = {Lichtenberg, Jan M. and ÅimÅek, ÃzgÃ¼r},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2806111447},
+ pages = {13--25},
+ pdf = {http://proceedings.mlr.press/v58/lichtenberg17a/lichtenberg17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Simple Regression Models},
+ url = {https://proceedings.mlr.press/v58/lichtenberg17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-mahdavi17a,
+ abstract = {We propose a model that addresses an open question
+in the cognitive science literature: How can we rigorously model
+the cognitive bias known as hindsight bias such that
+we fully account for critical experimental results?
+Though hindsight bias has been studied extensively,
+prior work has failed to produce a consensus theoretical model
+sufficiently general to account for several key experimental results,
+or to fully demonstrate how hindsight impedes our ability to learn
+the truth in a repeated decision or social network setting.  We
+present a model in which agents aim to learn the quality of
+their signals through repeated interactions with their environment.
+Our results indicate that agents who are subject to hindsight
+bias will always believe themselves to be high-type âexpertâ regardless
+of whether they are actually high- or low-type.},
+ author = {Mahdavi, Shaudi and Rahimian, M. Amin},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ openalex = {W2807020274},
+ pages = {111--127},
+ pdf = {http://proceedings.mlr.press/v58/mahdavi17a/mahdavi17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Hindsight Bias Impedes Learning.},
+ url = {https://proceedings.mlr.press/v58/mahdavi17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-seckarova17a,
+ abstract = {The aggregation of available information
+is of great importance in many branches of economics, social sciences. Often,
+we can only rely on expertsâ opinions, i.e. probabilities assigned to
+possible events. To deal with opinions in probabilistic form, we focus on the
+Kullback-Leibler (KL) divergence based pools: linear, logarithmic and
+KL-pool. Since occurrence of events is subject to random influences of the
+real world, it is important to address events assigned lower probabilities
+(unlikely events). This is done by choosing pooling with a higher entropy
+than standard linear or logarithmic options, i.e. the KL-pool. We show how
+well the mentioned pools perform on real data using absolute error,
+KL-divergence and quadratic reward. In cases favoring events assigned higher
+probabilities, the KL-pool performs similarly to the linear pool and
+outperforms the logarithmic pool. When unlikely events occur, the KL-pool
+outperforms both pools, which makes it a reasonable way of pooling.},
+ author = {SeÄkÃ¡rovÃ¡, VladimÄ±Ìra},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ pages = {41--50},
+ pdf = {http://proceedings.mlr.press/v58/seckarova17a/seckarova17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {Performance of {K}ullback-{L}eibler Based Expert Opinion Pooling for Unlikely Events},
+ url = {https://proceedings.mlr.press/v58/seckarova17a.html},
+ volume = {58},
+ year = {2017}
+}
+
+@inproceedings{pmlr-v58-simsek17a,
+ abstract = {Decision heuristics are simple models of human and animal decision making
+that use few pieces of information and combine the pieces in simple ways, for example,
+by giving them equal weight or by considering them sequentially. We examine how decision
+heuristics can be learnedâand modifiedâas additional training examples become available.
+In particular, we examine how additional training examples change the variance in parameter
+estimates of the heuristic. Our analysis suggests new decision heuristics, including
+a family of heuristics that generalizes two well-known families: lexicographic heuristics
+and tallying. We evaluate the empirical performance of these heuristics
+in a large, diverse collection of data sets.
+The supplementary material provides details on the random
+forest implementation and describes the 56 public data sets used in the empirical analysis.
+},
+ author = {ÅimÅek, ÃzgÃ¼r and Buckmann, Marcus},
+ booktitle = {Proceedings of the NIPS 2016 Workshop on Imperfect Decision Makers},
+ editor = {Guy, Tatiana V. and KÃ¡rnÃ½, Miroslav and Rios-Insua, David and Wolpert, David H.},
+ month = {09 Dec},
+ pages = {75--85},
+ pdf = {http://proceedings.mlr.press/v58/simsek17a/simsek17a.pdf},
+ publisher = {PMLR},
+ series = {Proceedings of Machine Learning Research},
+ title = {On Learning Decision Heuristics},
+ url = {https://proceedings.mlr.press/v58/simsek17a.html},
+ volume = {58},
+ year = {2017}
+}

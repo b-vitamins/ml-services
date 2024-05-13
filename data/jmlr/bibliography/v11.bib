@@ -1,1181 +1,1539 @@
+@article{JMLR:v11:aliferis10a,
+ abstract = {We present an algorithmic framework for learning local causal structure around target variables of interest in the form of direct causes/effects and Markov blankets applicable to very large data sets with relatively small samples. The selected feature sets can be used for causal discovery and classification. The framework (Generalized Local Learning, or GLL) can be instantiated in numerous ways, giving rise to both existing state-of-the-art as well as novel algorithms. The resulting algorithms are sound under well-defined sufficient conditions. In a first set of experiments we evaluate several algorithms derived from this framework in terms of predictivity and feature set parsimony and compare to other local causal discovery methods and to state-of-the-art non-causal feature selection methods using real data. A second set of experimental evaluations compares the algorithms in terms of ability to induce local causal neighborhoods using simulated and resimulated data and examines the relation of predictivity with causal induction performance.
+
+Our experiments demonstrate, consistently with causal feature selection theory, that local causal feature selection methods (under broad assumptions encompassing appropriate family of distributions, types of classifiers, and loss functions) exhibit strong feature set parsimony, high predictivity and local causal interpretability. Although non-causal feature selection methods are often used in practice to shed light on causal relationships, we find that they cannot be interpreted causally even when they achieve excellent predictivity. Therefore we conclude that only local causal techniques should be used when insight into causal structure is sought.
+
+In a companion paper we examine in depth the behavior of GLL algorithms, provide extensions, and show how local techniques can be used for scalable and accurate global causal graph learning.},
+ author = {Constantin F. Aliferis and Alexander Statnikov and Ioannis Tsamardinos and Subramani Mani and Xenofon D. Koutsoukos},
+ journal = {Journal of Machine Learning Research},
+ number = {7},
+ openalex = {W2133091666},
+ pages = {171--234},
+ title = {Local Causal and Markov Blanket Induction for Causal Discovery and Feature Selection for Classification Part I: Algorithms and Empirical Evaluation},
+ url = {http://jmlr.org/papers/v11/aliferis10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:aliferis10b,
+ abstract = {In part I of this work we introduced and evaluated the Generalized Local Learning (GLL) framework for producing local causal and Markov blanket induction algorithms. In the present second part we analyze the behavior of GLL algorithms and provide extensions to the core methods. Specifically, we investigate the empirical convergence of GLL to the true local neighborhood as a function of sample size. Moreover, we study how predictivity improves with increasing sample size. Then we investigate how sensitive are the algorithms to multiple statistical testing, especially in the presence of many irrelevant features. Next we discuss the role of the algorithm parameters and also show that Markov blanket and causal graph concepts can be used to understand deviations from optimality of state-of-the-art non-causal algorithms. The present paper also introduces the following extensions to the core GLL framework: parallel and distributed versions of GLL algorithms, versions with false discovery rate control, strategies for constructing novel heuristics for specific domains, and divide-and-conquer local-to-global learning (LGL) strategies. We test the generality of the LGL approach by deriving a novel LGL-based algorithm that compares favorably to the state-of-the-art global learning algorithms. In addition, we investigate the use of non-causal feature selection methods to facilitate global learning. Open problems and future research paths related to local and local-to-global causal learning are discussed.},
+ author = {Constantin F. Aliferis and Alexander Statnikov and Ioannis Tsamardinos and Subramani Mani and Xenofon D. Koutsoukos},
+ journal = {Journal of Machine Learning Research},
+ number = {8},
+ openalex = {W2120450109},
+ pages = {235--284},
+ title = {Local Causal and Markov Blanket Induction for Causal Discovery and Feature Selection for Classification Part II: Analysis and Extensions},
+ url = {http://jmlr.org/papers/v11/aliferis10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:aoyagi10a,
+ abstract = {In this paper, we consider the asymptotic form of the generalization error for the restricted Boltzmann machine in Bayesian estimation. It has been shown that obtaining the maximum pole of zeta functions is related to the asymptotic form of the generalization error for hierarchical learning models (Watanabe, 2001a,b). The zeta function is defined by using a Kullback function. We use two methods to obtain the maximum pole: a new eigenvalue analysis method and a recursive blowing up process. We show that these methods are effective for obtaining the asymptotic form of the generalization error of hierarchical learning models.},
+ author = {Miki Aoyagi},
+ journal = {Journal of Machine Learning Research},
+ number = {41},
+ openalex = {W2105304730},
+ pages = {1243--1272},
+ title = {Stochastic Complexity and Generalization Error of a Restricted Boltzmann Machine in Bayesian Estimation},
+ url = {http://jmlr.org/papers/v11/aoyagi10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:argyriou10a,
+ abstract = {We present a simple, easily implemented spectral learning algorithm which applies equally whether we have no supervisory information, pairwise link constraints, or labeled examples. In the unsupervised case, it performs consistently with other spectral clustering algorithms. In the supervised case, our approach achieves high accuracy on the categorization of thousands of documents given only a few dozen labeled training documents for the 20 Newsgroups data set. Furthermore, its classification accuracy increases with the addition of unlabeled documents, demonstrating effective use of unlabeled data. By using normalized affinity matrices which are both symmetric and stochastic, we also obtain both a probabilistic interpretation of our method and certain guarantees of performance.},
+ author = {Andreas Argyriou and Charles A. Micchelli and Massimiliano Pontil},
+ journal = {Journal of Machine Learning Research},
+ number = {31},
+ openalex = {W2912210943},
+ pages = {935--953},
+ title = {Spectral learning},
+ url = {http://jmlr.org/papers/v11/argyriou10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:audibert10a,
+ abstract = {This work deals with four classical prediction settings, namely full information, bandit, label efficient and bandit label efficient as well as four different notions of regret: pseudo-regret, expected regret, high probability regret and tracking the best expert regret. We introduce a new forecaster, INF (Implicitly Normalized Forecaster) based on an arbitrary function ψ for which we propose a unified analysis of its pseudo-regret in the four games we consider. In particular, for ψ(x)=exp(η x) + γ/K, INF reduces to the classical exponentially weighted average forecaster and our analysis of the pseudo-regret recovers known results while for the expected regret we slightly tighten the bounds. On the other hand with ψ(x)=(η/-x)q + γ/K, which defines a new forecaster, we are able to remove the extraneous logarithmic factor in the pseudo-regret bounds for bandits games, and thus fill in a long open gap in the characterization of the minimax rate for the pseudo-regret in the bandit game. We also provide high probability bounds depending on the cumulative reward of the optimal action. Finally, we consider the stochastic bandit game, and prove that an appropriate modification of the upper confidence bound policy UCB1 (Auer et al., 2002a) achieves the distribution-free optimal rate while still having a distribution-dependent rate logarithmic in the number of plays.},
+ author = {Jean-Yves Audibert and S{{\'e}}bastien Bubeck},
+ journal = {Journal of Machine Learning Research},
+ number = {94},
+ openalex = {W2123681024},
+ pages = {2785--2836},
+ title = {Regret Bounds and Minimax Policies under Partial Monitoring},
+ url = {http://jmlr.org/papers/v11/audibert10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:baehrens10a,
+ abstract = {After building a classifier with modern tools of machine learning we typically have a black box at hand that is able to predict well for unseen data. Thus, we get an answer to the question what is the most likely label of a given unseen data point. However, most methods will provide no answer why the model predicted the particular label for a single instance and what features were most influential for that particular instance. The only method that is currently able to provide such explanations are decision trees. This paper proposes a procedure which (based on a set of assumptions) allows to explain the decisions of any classification method.},
+ author = {David Baehrens and Timon Schroeter and Stefan Harmeling and Motoaki Kawanabe and Katja Hansen and Klaus-Robert M{{\"u}}ller},
+ journal = {Journal of Machine Learning Research},
+ number = {61},
+ openalex = {W2150165932},
+ pages = {1803--1831},
+ title = {How to Explain Individual Classification Decisions},
+ url = {http://jmlr.org/papers/v11/baehrens10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ben-haim10a,
+ abstract = {We propose a new algorithm for building decision tree classifiers. The algorithm is executed in a distributed environment and is especially designed for classifying large data sets and streaming da...},
+ author = {Yael Ben-Haim and Elad Tom-Tov},
+ journal = {Journal of Machine Learning Research},
+ number = {28},
+ openalex = {W3003169551},
+ pages = {849--872},
+ title = {A Streaming Parallel Decision Tree Algorithm},
+ url = {http://jmlr.org/papers/v11/ben-haim10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:biau10a,
+ abstract = {Bagging is a simple way to combine estimates in order to improve their performance. This method, suggested by Breiman in 1996, proceeds by resampling from the original data set, constructing a predictor from each subsample, and decide by combining. By bagging an n-sample, the crude nearest neighbor regression estimate is turned into a consistent weighted nearest neighbor regression estimate, which is amenable to statistical analysis. Letting the resampling size kn grows appropriately with n, it is shown that this estimate may achieve optimal rate of convergence, independently from the fact that resampling is done with or without replacement. Since the estimate with the optimal rate of convergence depends on the unknown distribution of the observations, adaptation results by data-splitting are presented.},
+ author = {G{{\'e}}rard Biau and Fr{{\'e}}d{{\'e}}ric C{{\'e}}rou and Arnaud Guyader},
+ journal = {Journal of Machine Learning Research},
+ number = {22},
+ openalex = {W2128025294},
+ pages = {687--712},
+ title = {On the rate of convergence of the bagged nearest neighbor estimate},
+ url = {http://jmlr.org/papers/v11/biau10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:bifet10a,
+ abstract = {Massive Online Analysis (MOA) is a software environment for implementing algorithms and running experiments for online learning from evolving data streams. MOA includes a collection of offline and ...},
+ author = {Albert Bifet and Geoff Holmes and Richard Kirkby and Bernhard Pfahringer},
+ journal = {Journal of Machine Learning Research},
+ number = {52},
+ openalex = {W3003253354},
+ pages = {1601--1604},
+ title = {MOA: Massive Online Analysis},
+ url = {http://jmlr.org/papers/v11/bifet10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:blanchard10a,
+ abstract = {A common setting for novelty detection assumes that labeled examples from the nominal class are available, but that labeled examples of novelties are unavailable. The standard (inductive) approach is to declare novelties where the nominal density is low, which reduces the problem to density level set estimation. In this paper, we consider the setting where an unlabeled and possibly contaminated sample is also available at learning time. We argue that novelty detection in this semi-supervised setting is naturally solved by a general reduction to a binary classification problem. In particular, a detector with a desired false positive rate can be achieved through a reduction to Neyman-Pearson classification. Unlike the inductive approach, semi-supervised novelty detection (SSND) yields detectors that are optimal (e.g., statistically consistent) regardless of the distribution on novelties. Therefore, in novelty detection, unlabeled data have a substantial impact on the theoretical properties of the decision rule. We validate the practical utility of SSND with an extensive experimental study. We also show that SSND provides distribution-free, learning-theoretic solutions to two well known problems in hypothesis testing. First, our results provide a general solution to the general two-sample problem, that is, the problem of determining whether two random samples arise from the same distribution. Second, a specialization of SSND coincides with the standard p-value approach to multiple testing under the so-called random effects model. Unlike standard rejection regions based on thresholded p-values, the general SSND framework allows for adaptation to arbitrary alternative distributions in multiple dimensions.},
+ author = {Gilles Blanchard and Gyemin Lee and Clayton Scott},
+ journal = {Journal of Machine Learning Research},
+ number = {99},
+ openalex = {W2127883478},
+ pages = {2973--3009},
+ title = {Semi-Supervised Novelty Detection},
+ url = {http://jmlr.org/papers/v11/blanchard10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:bordes10a,
+ abstract = {The SGD-QN algorithm described in Bordes et al. (2009) contains a subtle flaw that prevents it from reaching its design goals. Yet the flawed SGD-QN algorithm has worked well enough to be a winner of the first Pascal Large Scale Learning Challenge (Sonnenburg et al., 2008). This document clarifies the situation, proposes a corrected algorithm, and evaluates its performance.},
+ author = {Antoine Bordes and L{{\'e}}on Bottou and Patrick Gallinari and Jonathan Chang and S. Alex Smith},
+ journal = {Journal of Machine Learning Research},
+ number = {77},
+ openalex = {W2170854749},
+ pages = {2229--2240},
+ title = {Erratum: Sgdqn is less careful than expected},
+ url = {http://jmlr.org/papers/v11/bordes10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:bouckaert10a,
+ author = {Remco R. Bouckaert and Eibe Frank and Mark A. Hall and Geoffrey Holmes and Bernhard Pfahringer and Peter Reutemann and Ian H. Witten},
+ journal = {Journal of Machine Learning Research},
+ number = {87},
+ pages = {2533--2541},
+ title = {WEKA&minus;Experiences with a Java Open-Source Project},
+ url = {http://jmlr.org/papers/v11/bouckaert10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:bouckaert10b,
+ abstract = {The topic of the paper is computer testing of (probabilistic) conditional independence (CI) implications by an algebraic method of structural imsets. The basic idea is to transform (sets of) CI sta...},
+ author = {Remco Bouckaert and Raymond Hemmecke and Silvia Lindner and Milan Studen&#253;},
+ journal = {Journal of Machine Learning Research},
+ number = {112},
+ openalex = {W3005018719},
+ pages = {3453--3479},
+ title = {Efficient Algorithms for Conditional Independence Inference},
+ url = {http://jmlr.org/papers/v11/bouckaert10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:carlsson10a,
+ abstract = {We study hierarchical clustering schemes under an axiomatic view. We show that within this framework, one can prove a theorem analogous to one of Kleinberg (2002), in which one obtains an existence and uniqueness theorem instead of a non-existence result. We explore further properties of this unique scheme: stability and convergence are established. We represent dendrograms as ultrametric spaces and use tools from metric geometry, namely the Gromov-Hausdorff distance, to quantify the degree to which perturbations in the input metric space affect the result of hierarchical methods.},
+ author = {Gunnar Carlsson and Facundo M{{\'e}}moli},
+ journal = {Journal of Machine Learning Research},
+ number = {47},
+ openalex = {W2165879774},
+ pages = {1425--1470},
+ title = {Characterization, Stability and Convergence of Hierarchical Clustering Methods},
+ url = {http://jmlr.org/papers/v11/carlsson10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:cavallanti10a,
+ abstract = {We introduce new Perceptron-based algorithms for the online multitask binary classification problem. Under suitable regularity conditions, our algorithms are shown to improve on their baselines by a factor proportional to the number of tasks. We achieve these improvements using various types of regularization that bias our algorithms towards specific notions of task relatedness. More specifically, similarity among tasks is either measured in terms of the geometric closeness of the task reference vectors or as a function of the dimension of their spanned subspace. In addition to adapting to the online setting a mix of known techniques, such as the multitask kernels of Evgeniou et al., our analysis also introduces a matrix-based multitask extension of the p-norm Perceptron, which is used to implement spectral co-regularization. Experiments on real-world data sets complement and support our theoretical findings.},
+ author = {Giovanni Cavallanti and Nicol{{\'o}} Cesa-Bianchi and Claudio Gentile},
+ journal = {Journal of Machine Learning Research},
+ number = {97},
+ openalex = {W2116772053},
+ pages = {2901--2934},
+ title = {Linear Algorithms for Online Multitask Classification},
+ url = {http://jmlr.org/papers/v11/cavallanti10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:cawley10a,
+ abstract = {Model selection strategies for machine learning algorithms typically involve the numerical optimisation of an appropriate model selection criterion, often based on an estimator of generalisation performance, such as k-fold cross-validation. The error of such an estimator can be broken down into bias and variance components. While unbiasedness is often cited as a beneficial quality of a model selection criterion, we demonstrate that a low variance is at least as important, as a non-negligible variance introduces the potential for over-fitting in model selection as well as in training the model. While this observation is in hindsight perhaps rather obvious, the degradation in performance due to over-fitting the model selection criterion can be surprisingly large, an observation that appears to have received little attention in the machine learning literature to date. In this paper, we show that the effects of this form of over-fitting are often of comparable magnitude to differences in performance between learning algorithms, and thus cannot be ignored in empirical evaluation. Furthermore, we show that some common performance evaluation practices are susceptible to a form of selection bias as a result of this form of over-fitting and hence are unreliable. We discuss methods to avoid over-fitting in model selection and subsequent selection bias in performance evaluation, which we hope will be incorporated into best practice. While this study concentrates on cross-validation based model selection, the findings are quite general and apply to any model selection practice involving the optimisation of a model selection criterion evaluated over a finite sample of data, including maximisation of the Bayesian evidence and optimisation of performance bounds.},
+ author = {Gavin C. Cawley and Nicola L. C. Talbot},
+ journal = {Journal of Machine Learning Research},
+ number = {70},
+ openalex = {W2154776925},
+ pages = {2079--2107},
+ title = {On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation},
+ url = {http://jmlr.org/papers/v11/cawley10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:chang10a,
+ abstract = {Kernel techniques have long been used in SVM to handle linearly inseparable problems by transforming data to a high dimensional space, but training and testing large data sets is often time consumi...},
+ author = {Yin-Wen Chang and Cho-Jui Hsieh and Kai-Wei Chang and Michael Ringgaard and Chih-Jen Lin},
+ journal = {Journal of Machine Learning Research},
+ number = {48},
+ openalex = {W3011284156},
+ pages = {1471--1490},
+ title = {Training and Testing Low-degree Polynomial Data Mappings via Linear SVM},
+ url = {http://jmlr.org/papers/v11/chang10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:chang10b,
+ abstract = {To handle problems created by large data sets, we propose a method that uses a decision tree to decompose a given data space and trains SVMs on the decomposed regions. Although there are other means of decomposing a data space, we show that the decision tree has several merits for large-scale SVM training. First, it can classify some data points by its own means, thereby reducing the cost of SVM training applied to the remaining data points. Second, it is efficient for seeking the parameter values that maximize the validation accuracy, which helps maintain good test accuracy. For experiment data sets whose size can be handled by current non-linear, or kernel-based, SVM training techniques, the proposed method can speed up the training by a factor of thousands, and still achieve comparable test accuracy.},
+ author = {Fu Chang and Chien-Yang Guo and Xiao-Rong Lin and Chi-Jen Lu},
+ journal = {Journal of Machine Learning Research},
+ number = {98},
+ openalex = {W2028362891},
+ pages = {2935--2972},
+ title = {Tree Decomposition for Large-Scale SVM Problems},
+ url = {http://jmlr.org/papers/v11/chang10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:chechik10a,
+ abstract = {Learning a measure of similarity between pairs of objects is a fundamental problem in machine learning. Pairwise similarity plays a crucial role in classification algorithms like nearest neighbors, and is practically important for applications like searching for images that are similar to a given image or finding videos that are relevant to a given video. In these tasks, users look for objects that are both visually similar and semantically related to a given object.Unfortunately, current approaches for learning semantic similarity are limited to small scale datasets, because their complexity grows quadratically with the sample size, and because they impose costly positivity constraints on the learned similarity functions. To address real-world large-scale AI problem, like learning similarity over all images on the web, we need to develop new algorithms that scale to many samples, many classes, and many features.The current abstract presents OASIS, an Online Algorithm for Scalable Image Similarity learning that learns a bilinear similarity measure over sparse representations. OASIS is an online dual approach using the passive-aggressive family of learning algorithms with a large margin criterion and an efficient hinge loss cost. Our experiments show that OASIS is both fast and accurate at a wide range of scales: for a dataset with thousands of images, it achieves better results than existing state-of-the-art methods, while being an order of magnitude faster. Comparing OASIS with different symmetric variants, provides unexpected insights into the effect of symmetry on the quality of the similarity. For large, web scale, datasets, OASIS can be trained on more than two million images from 150K text queries within two days on a single CPU. Human evaluations showed that 35% of the ten top images ranked by OASIS were semantically relevant to a query image. This suggests that query-independent similarity could be accurately learned even for large-scale datasets that could not be handled before.},
+ author = {Gal Chechik and Varun Sharma and Uri Shalit and Samy Bengio},
+ journal = {Journal of Machine Learning Research},
+ number = {36},
+ openalex = {W2100799972},
+ pages = {1109--1135},
+ title = {Large Scale Online Learning of Image Similarity through Ranking},
+ url = {http://jmlr.org/papers/v11/chechik10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:christoforou10a,
+ abstract = {Traditional analysis methods for single-trial classification of electro-encephalography (EEG) focus on two types of paradigms: phase-locked methods, in which the amplitude of the signal is used as the feature for classification, that is, event related potentials; and second-order methods, in which the feature of interest is the power of the signal, that is, event related (de)synchronization. The process of deciding which paradigm to use is ad hoc and is driven by assumptions regarding the underlying neural generators. Here we propose a method that provides an unified framework for the analysis of EEG, combining first and second-order spatial and temporal features based on a bilinear model. Evaluation of the proposed method on simulated data shows that the technique outperforms state-of-the art techniques for single-trial classification for a broad range of signal-to-noise ratios. Evaluations on human EEG--including one benchmark data set from the Brain Computer Interface (BCI) competition--show statistically significant gains in classification accuracy, with a reduction in overall classification error from 26%-28% to 19%.},
+ author = {Christoforos Christoforou and Robert Haralick and Paul Sajda and Lucas C. Parra},
+ journal = {Journal of Machine Learning Research},
+ number = {21},
+ openalex = {W2158656175},
+ pages = {665--685},
+ title = {Second-Order Bilinear Discriminant Analysis},
+ url = {http://jmlr.org/papers/v11/christoforou10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:clark10a,
+ abstract = {We present a polynomial update time algorithm for the inductive inference of a large class of context-free languages using the paradigm of positive data and a membership oracle. We achieve this result by moving to a novel representation, called Contextual Binary Feature Grammars (CBFGs), which are capable of representing richly structured context-free languages as well as some context sensitive languages. These representations explicitly model the lattice structure of the distribution of a set of substrings and can be inferred using a generalisation of distributional learning. This formalism is an attempt to bridge the gap between simple learnable classes and the sorts of highly expressive representations necessary for linguistic representation: it allows the learnability of a large class of context-free languages, that includes all regular languages and those context-free languages that satisfy two simple constraints. The formalism and the algorithm seem well suited to natural language and in particular to the modeling of first language acquisition. Preliminary experimental results confirm the effectiveness of this approach.},
+ author = {Alexander Clark and R{{\'e}}mi Eyraud and Amaury Habrard},
+ journal = {Journal of Machine Learning Research},
+ number = {92},
+ openalex = {W2097100074},
+ pages = {2707--2744},
+ title = {Using Contextual Representations to Efficiently Learn Context-Free Languages},
+ url = {http://jmlr.org/papers/v11/clark10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:cohen10a,
+ abstract = {Probabilistic grammars offer great flexibility in modeling discrete sequential data like natural language text. Their symbolic component is amenable to inspection by humans, while their probabilistic component helps resolve ambiguity. They also permit the use of well-understood, general-purpose learning algorithms. There has been an increased interest in using probabilistic grammars in the Bayesian setting. To date, most of the literature has focused on using a Dirichlet prior. The Dirichlet prior has several limitations, including that it cannot directly model covariance between the probabilistic grammar's parameters. Yet, various grammar parameters are expected to be correlated because the elements in language they represent share linguistic properties. In this paper, we suggest an alternative to the Dirichlet prior, a family of logistic normal distributions. We derive an inference algorithm for this family of distributions and experiment with the task of dependency grammar induction, demonstrating performance improvements with our priors on a set of six treebanks in different natural languages. Our covariance framework permits soft parameter tying within grammars and across grammars for text in different languages, and we show empirical gains in a novel learning setting using bilingual, non-parallel data.},
+ author = {Shay B. Cohen and Noah A. Smith},
+ journal = {Journal of Machine Learning Research},
+ number = {101},
+ openalex = {W2160474561},
+ pages = {3017--3051},
+ title = {Covariance in Unsupervised Learning of Probabilistic Grammars},
+ url = {http://jmlr.org/papers/v11/cohen10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:cohn10a,
+ abstract = {Continuous-time Bayesian networks is a natural structured representation language for multi-component stochastic processes that evolve continuously over time. Despite the compact representation provided by this language, inference in such models is intractable even in relatively simple structured networks. We introduce a mean field variational approximation in which we use a product of inhomogeneous Markov processes to approximate a joint distribution over trajectories. This variational approach leads to a globally consistent distribution, which can be efficiently queried. Additionally, it provides a lower bound on the probability of observations, thus making it attractive for learning tasks. Here we describe the theoretical foundations for the approximation, an efficient implementation that exploits the wide range of highly optimized ordinary differential equations (ODE) solvers, experimentally explore characterizations of processes for which this approximation is suitable, and show applications to a large-scale real-world inference problem.},
+ author = {Ido Cohn and Tal El-Hay and Nir Friedman and Raz Kupferman},
+ journal = {Journal of Machine Learning Research},
+ number = {93},
+ openalex = {W1597438912},
+ pages = {2745--2783},
+ title = {Mean Field Variational Approximation for Continuous-Time Bayesian Networks},
+ url = {http://jmlr.org/papers/v11/cohn10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:cohn10b,
+ abstract = {Inducing a grammar from text has proven to be a notoriously challenging learning task despite decades of research. The primary reason for its difficulty is that in order to induce plausible grammars, the underlying model must be capable of representing the intricacies of language while also ensuring that it can be readily learned from data. The majority of existing work on grammar induction has favoured model simplicity (and thus learnability) over representational capacity by using context free grammars and first order dependency grammars, which are not sufficiently expressive to model many common linguistic constructions. We propose a novel compromise by inferring a probabilistic tree substitution grammar, a formalism which allows for arbitrarily large tree fragments and thereby better represent complex linguistic structures. To limit the model's complexity we employ a Bayesian non-parametric prior which biases the model towards a sparse grammar with shallow productions. We demonstrate the model's efficacy on supervised phrase-structure parsing, where we induce a latent segmentation of the training treebank, and on unsupervised dependency grammar induction. In both cases the model uncovers interesting latent linguistic structures while producing competitive results.},
+ author = {Trevor Cohn and Phil Blunsom and Sharon Goldwater},
+ journal = {Journal of Machine Learning Research},
+ number = {102},
+ openalex = {W2157874452},
+ pages = {3053--3096},
+ title = {Inducing Tree-Substitution Grammars},
+ url = {http://jmlr.org/papers/v11/cohn10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:dicastro10a,
+ abstract = {Actor-Critic based approaches were among the first to address reinforcement learning in a general setting. Recently, these algorithms have gained renewed interest due to their generality, good convergence properties, and possible biological relevance. In this paper, we introduce an online temporal difference based actor-critic algorithm which is proved to converge to a neighborhood of a local maximum of the average reward. Linear function approximation is used by the critic in order estimate the value function, and the temporal difference signal, which is passed from the critic to the actor. The main distinguishing feature of the present convergence proof is that both the actor and the critic operate on a similar time scale, while in most current convergence proofs they are required to have very different time scales in order to converge. Moreover, the same temporal difference signal is used to update the parameters of both the actor and the critic. A limitation of the proposed approach, compared to results available for two time scale convergence, is that convergence is guaranteed only to a neighborhood of an optimal value, rather to an optimal value itself. The single time scale and identical temporal difference signal used by the actor and the critic, may provide a step towards constructing more biologically realistic models of reinforcement learning in the brain.},
+ author = {Dotan Di Castro and Ron Meir},
+ journal = {Journal of Machine Learning Research},
+ number = {11},
+ openalex = {W2141091023},
+ pages = {367--410},
+ title = {A Convergent Online Single Time Scale Actor Critic Algorithm},
+ url = {http://jmlr.org/papers/v11/dicastro10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:dillon10a,
+ abstract = {Maximum likelihood estimators are often of limited practical use due to the intensive computation they require. We propose a family of alternative estimators that maximize a stochastic variation of the composite likelihood function. Each of the estimators resolve the computation-accuracy tradeoff differently, and taken together they span a continuous spectrum of computation-accuracy tradeoff resolutions. We prove the consistency of the estimators, provide formulas for their asymptotic variance, statistical robustness, and computational complexity. We discuss experimental results in the context of Boltzmann machines and conditional random fields. The theoretical and experimental studies demonstrate the effectiveness of the estimators when the computational resources are insufficient. They also demonstrate that in some cases reduced computational complexity is associated with robustness thereby increasing statistical accuracy.},
+ author = {Joshua V. Dillon and Guy Lebanon},
+ journal = {Journal of Machine Learning Research},
+ number = {89},
+ openalex = {W2114860583},
+ pages = {2597--2633},
+ title = {Stochastic Composite Likelihood},
+ url = {http://jmlr.org/papers/v11/dillon10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ding10a,
+ abstract = {There are many different methods used by classification tree algorithms when missing data occur in the predictors, but few studies have been done comparing their appropriateness and performance. This paper provides both analytic and Monte Carlo evidence regarding the effectiveness of six popular missing data methods for classification trees applied to binary response data. We show that in the context of classification trees, the relationship between the missingness and the dependent variable, as well as the existence or non-existence of missing values in the testing data, are the most helpful criteria to distinguish different missing data methods. In particular, separate class is clearly the best method to use when the testing set has missing values and the missingness is related to the response variable. A real data set related to modeling bankruptcy of a firm is then analyzed. The paper concludes with discussion of adaptation of these results to logistic regression, and other potential generalizations.},
+ author = {Yufeng Ding and Jeffrey S. Simonoff},
+ journal = {Journal of Machine Learning Research},
+ number = {6},
+ openalex = {W2126275630},
+ pages = {131--170},
+ title = {An Investigation of Missing Data Methods for Classification Trees Applied to Binary Response Data},
+ url = {http://jmlr.org/papers/v11/ding10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:dmochowski10a,
+ abstract = {The presence of asymmetry in the misclassification costs or class prevalences is a common occurrence in the pattern classification domain. While much interest has been devoted to the study of cost-sensitive learning techniques, the relationship between cost-sensitive learning and the specification of the model set in a parametric estimation framework remains somewhat unclear. To that end, we differentiate between the case of the model including the true posterior, and that in which the model is misspecified. In the former case, it is shown that thresholding the maximum likelihood (ML) estimate is an asymptotically optimal solution to the risk minimization problem. On the other hand, under model misspecification, it is demonstrated that thresholded ML is suboptimal and that the risk-minimizing solution varies with the misclassification cost ratio. Moreover, we analytically show that the negative weighted log likelihood (Elkan, 2001) is a tight, convex upper bound of the empirical loss. Coupled with empirical results on several real-world data sets, we argue that weighted ML is the preferred cost-sensitive technique.},
+ author = {Jacek P. Dmochowski and Paul Sajda and Lucas C. Parra},
+ journal = {Journal of Machine Learning Research},
+ number = {108},
+ openalex = {W2121946739},
+ pages = {3313--3332},
+ title = {Maximum Likelihood in Cost-Sensitive Learning: Model Specification, Approximations, and Upper Bounds},
+ url = {http://jmlr.org/papers/v11/dmochowski10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:donmez10a,
+ abstract = {Estimating the error rates of classifiers or regression models is a fundamental task in machine learning which has thus far been studied exclusively using supervised learning techniques. We propose a novel unsupervised framework for estimating these error rates using only unlabeled data and mild assumptions. We prove consistency results for the framework and demonstrate its practical applicability on both synthetic and real world data.},
+ author = {Pinar Donmez and Guy Lebanon and Krishnakumar Balasubramanian},
+ journal = {Journal of Machine Learning Research},
+ number = {44},
+ openalex = {W2099906136},
+ pages = {1323--1351},
+ title = {Unsupervised Supervised Learning I: Estimating Classification and Regression Errors without Labels},
+ url = {http://jmlr.org/papers/v11/donmez10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:el-yaniv10a,
+ abstract = {We consider selective classification, a term we adopt here to refer to 'classification with a reject option.' The essence in selective classification is to trade-off classifier coverage for higher accuracy. We term this trade-off the risk-coverage (RC) trade-off. Our main objective is to characterize this trade-off and to construct algorithms that can optimally or near optimally achieve the best possible trade-offs in a controlled manner. For noise-free models we present in this paper a thorough analysis of selective classification including characterizations of RC trade-offs in various interesting settings.},
+ author = {Ran El-Yaniv and Yair Wiener},
+ journal = {Journal of Machine Learning Research},
+ number = {53},
+ openalex = {W2101946573},
+ pages = {1605--1641},
+ title = {On the Foundations of Noise-free Selective Classification},
+ url = {http://jmlr.org/papers/v11/el-yaniv10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:erhan10a,
+ abstract = {Much recent research has been devoted to learning algorithms for deep architectures such as Deep Belief Networks and stacks of auto-encoder variants, with impressive results obtained in several are...},
+ author = {Dumitru Erhan and Yoshua Bengio and Aaron Courville and Pierre-Antoine Manzagol and Pascal Vincent and Samy Bengio},
+ journal = {Journal of Machine Learning Research},
+ number = {19},
+ openalex = {W2997183031},
+ pages = {625--660},
+ title = {Why Does Unsupervised Pre-training Help Deep Learning?},
+ url = {http://jmlr.org/papers/v11/erhan10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:escalera10a,
+ author = {Sergio Escalera and Oriol Pujol and Petia Radeva},
+ journal = {Journal of Machine Learning Research},
+ number = {20},
+ pages = {661--664},
+ title = {Error-Correcting Output Codes Library},
+ url = {http://jmlr.org/papers/v11/escalera10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:fan10a,
+ abstract = {A continuous time Bayesian network (CTBN) uses a structured representation to describe a dynamic system with a finite number of states which evolves in continuous time. Exact inference in a CTBN is often intractable as the state space of the dynamic system grows exponentially with the number of variables. In this paper, we first present an approximate inference algorithm based on importance sampling. We then extend it to continuous-time particle filtering and smoothing algorithms. These three algorithms can estimate the expectation of any function of a trajectory, conditioned on any evidence set constraining the values of subsets of the variables over subsets of the time line. We present experimental results on both synthetic networks and a network learned from a real data set on people's life history events. We show the accuracy as well as the time efficiency of our algorithms, and compare them to other approximate algorithms: expectation propagation and Gibbs sampling.},
+ author = {Yu Fan and Jing Xu and Christian R. Shelton},
+ journal = {Journal of Machine Learning Research},
+ number = {72},
+ openalex = {W2153544503},
+ pages = {2115--2140},
+ title = {Importance Sampling for Continuous Time Bayesian Networks},
+ url = {http://jmlr.org/papers/v11/fan10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:forero10a,
+ abstract = {This paper develops algorithms to train support vector machines when training data are distributed across different nodes, and their communication to a centralized processing unit is prohibited due to, for example, communication complexity, scalability, or privacy reasons. To accomplish this goal, the centralized linear SVM problem is cast as a set of decentralized convex optimization sub-problems (one per node) with consensus constraints on the wanted classifier parameters. Using the alternating direction method of multipliers, fully distributed training algorithms are obtained without exchanging training data among nodes. Different from existing incremental approaches, the overhead associated with inter-node communications is fixed and solely dependent on the network topology rather than the size of the training sets available per node. Important generalizations to train nonlinear SVMs in a distributed fashion are also developed along with sequential variants capable of online processing. Simulated tests illustrate the performance of the novel algorithms.},
+ author = {Pedro A. Forero and Alfonso Cano and Georgios B. Giannakis},
+ journal = {Journal of Machine Learning Research},
+ number = {55},
+ openalex = {W2132291180},
+ pages = {1663--1707},
+ title = {Consensus-Based Distributed Support Vector Machines},
+ url = {http://jmlr.org/papers/v11/forero10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ganchev10a,
+ abstract = {We present posterior regularization, a probabilistic framework for structured, weakly supervised learning. Our framework efficiently incorporates indirect supervision via constraints on posterior distributions of probabilistic models with latent variables. Posterior regularization separates model complexity from the complexity of structural constraints it is desired to satisfy. By directly imposing decomposable regularization on the posterior moments of latent variables during learning, we retain the computational efficiency of the unconstrained model while ensuring desired constraints hold in expectation. We present an efficient algorithm for learning with posterior regularization and illustrate its versatility on a diverse set of structural constraints such as bijectivity, symmetry and group sparsity in several large scale experiments, including multi-view learning, cross-lingual dependency grammar induction, unsupervised part-of-speech induction, and bitext word alignment.},
+ author = {Kuzman Ganchev and Jo&#227;o Gra{\c{c}}a and Jennifer Gillenwater and Ben Taskar},
+ journal = {Journal of Machine Learning Research},
+ number = {67},
+ openalex = {W2154368244},
+ pages = {2001--2049},
+ title = {Posterior Regularization for Structured Latent Variable Models},
+ url = {http://jmlr.org/papers/v11/ganchev10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ghiasi-shirazi10a,
+ abstract = {Appropriate selection of the kernel function, which implicitly defines the feature space of an algorithm, has a crucial role in the success of kernel methods. In this paper, we consider the problem of optimizing a kernel function over the class of translation invariant kernels for the task of binary classification. The learning capacity of this class is invariant with respect to rotation and scaling of the features and it encompasses the set of radial kernels. We show that how translation invariant kernel functions can be embedded in a nested set of sub-classes and consider the kernel learning problem over one of these sub-classes. This allows the choice of an appropriate sub-class based on the problem at hand. We use the criterion proposed by Lanckriet et al. (2004) to obtain a functional formulation for the problem. It will be proven that the optimal kernel is a finite mixture of cosine functions. The kernel learning problem is then formulated as a semi-infinite programming (SIP) problem which is solved by a sequence of quadratically constrained quadratic programming (QCQP) sub-problems. Using the fact that the cosine kernel is of rank two, we propose a formulation of a QCQP sub-problem which does not require the kernel matrices to be loaded into memory, making the method applicable to large-scale problems. We also address the issue of including other classes of kernels, such as individual kernels and isotropic Gaussian kernels, in the learning process. Another interesting feature of the proposed method is that the optimal classifier has an expansion in terms of the number of cosine kernels, instead of support vectors, leading to a remarkable speedup at run-time. As a by-product, we also generalize the kernel trick to complex-valued kernel functions. Our experiments on artificial and real-world benchmark data sets, including the USPS and the MNIST digit recognition data sets, show the usefulness of the proposed method.},
+ author = {Kamaledin Ghiasi-Shirazi and Reza Safabakhsh and Mostafa Shamsi},
+ journal = {Journal of Machine Learning Research},
+ number = {45},
+ openalex = {W2129511572},
+ pages = {1353--1390},
+ title = {Learning Translation Invariant Kernels for Classification},
+ url = {http://jmlr.org/papers/v11/ghiasi-shirazi10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:gomez10a,
+ abstract = {We introduce novel results for approximate inference on planar graphical models using the loop calculus framework. The loop calculus (Chertkov and Chernyak, 2006a) allows to express the exact partition function of a graphical model as a finite sum of terms that can be evaluated once the belief propagation (BP) solution is known. In general, full summation over all correction terms is intractable. We develop an algorithm for the approach presented in Chertkov et al. (2008) which represents an efficient truncation scheme on planar graphs and a new representation of the series in terms of Pfaffians of matrices. We analyze the performance of the algorithm for models with binary variables and pairwise interactions on grids and other planar graphs. We study in detail both the loop series and the equivalent Pfaffian series and show that the first term of the Pfaffian series for the general, intractable planar model, can provide very accurate approximations. The algorithm outperforms previous truncation schemes of the loop series and is competitive with other state of the art methods for approximate inference.},
+ author = {Vicen{\c{c}} G{{\'o}}mez and Hilbert J. Kappen and Michael Chertkov},
+ journal = {Journal of Machine Learning Research},
+ number = {42},
+ openalex = {W2569102244},
+ pages = {1273--1296},
+ title = {Approximate Inference on Planar Graphs using Loop Calculus and Belief Propagation},
+ url = {http://jmlr.org/papers/v11/gomez10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:gorissen10a,
+ abstract = {An exceedingly large number of scientific and engineering fields are confronted with the need for computer simulations to study complex, real world phenomena or solve challenging design problems. H...},
+ author = {Dirk Gorissen and Ivo Couckuyt and Piet Demeester and Tom Dhaene and Karel Crombecq},
+ journal = {Journal of Machine Learning Research},
+ number = {68},
+ openalex = {W3004784263},
+ pages = {2051--2055},
+ title = {A Surrogate Modeling and Adaptive Sampling Toolbox for Computer Based Design},
+ url = {http://jmlr.org/papers/v11/gorissen10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:gretton10a,
+ abstract = {Three simple and explicit procedures for testing the independence of two multi-dimensional random variables are described. Two of the associated test statistics (L1, log-likelihood) are defined when the empirical distribution of the variables is restricted to finite partitions. A third test statistic is defined as a kernel-based independence measure. Two kinds of tests are provided. Distribution-free strong consistent tests are derived on the basis of large deviation bounds on the test statistics: these tests make almost surely no Type I or Type II error after a random sample size. Asymptotically α-level tests are obtained from the limiting distribution of the test statistics. For the latter tests, the Type I error converges to a fixed non-zero value α, and the Type II error drops to zero, for increasing sample size. All tests reject the null hypothesis of independence if the test statistics become large. The performance of the tests is evaluated experimentally on benchmark data.},
+ author = {Arthur Gretton and L{{\'a}}szl{{\'o}} Gy{{\"o}}rfi},
+ journal = {Journal of Machine Learning Research},
+ number = {46},
+ openalex = {W2167663973},
+ pages = {1391--1423},
+ title = {Consistent Nonparametric Tests of Independence},
+ url = {http://jmlr.org/papers/v11/gretton10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:gupta10a,
+ abstract = {Many structured information extraction tasks employ collective graphical models that capture inter-instance associativity by coupling them with various clique potentials. We propose tractable families of such potentials that are invariant under permutations of their arguments, and call them symmetric clique potentials. We present three families of symmetric potentials---MAX, SUM, and MAJORITY. We propose cluster message passing for collective inference with symmetric clique potentials, and present message computation algorithms tailored to such potentials. Our first message computation algorithm, called α-pass, is sub-quadratic in the clique size, outputs exact messages for MAX, and computes 13/15-approximate messages for Potts, a popular member of the SUM family. Empirically, it is upto two orders of magnitude faster than existing algorithms based on graph-cuts or belief propagation. Our second algorithm, based on Lagrangian relaxation, operates on MAJORITY potentials and provides close to exact solutions while being two orders of magnitude faster. We show that the cluster message passing framework is more principled, accurate and converges faster than competing approaches. We extend our collective inference framework to exploit associativity of more general intra-domain properties of instance labelings, which opens up interesting applications in domain adaptation. Our approach leads to significant error reduction on unseen domains without incurring any overhead of model retraining.},
+ author = {Rahul Gupta and Sunita Sarawagi and Ajit A. Diwan},
+ journal = {Journal of Machine Learning Research},
+ number = {103},
+ openalex = {W1754515228},
+ pages = {3097--3135},
+ title = {Collective Inference for Extraction MRFs Coupled with Symmetric Clique Potentials},
+ url = {http://jmlr.org/papers/v11/gupta10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:guyon10a,
+ abstract = {The principle of parsimony also known as Ockham's razor has inspired many theories of model selection. Yet such theories, all making arguments in favor of parsimony, are based on very different p...},
+ author = {Isabelle Guyon and Amir Saffari and Gideon Dror and Gavin Cawley},
+ journal = {Journal of Machine Learning Research},
+ number = {3},
+ openalex = {W2998457436},
+ pages = {61--87},
+ title = {Model Selection: Beyond the Bayesian/Frequentist Divide},
+ url = {http://jmlr.org/papers/v11/guyon10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:gyorgy10a,
+ abstract = {We consider a sequential version of the classical bin packing problem in which items are received one by one. Before the size of the next item is revealed, the decision maker needs to decide whether the next item is packed in the currently open bin or the bin is closed and a new bin is opened. If the new item does not fit, it is lost. If a bin is closed, the remaining free space in the bin accounts for a loss. The goal of the decision maker is to minimize the loss accumulated over n periods. We present an algorithm that has a cumulative loss not much larger than any strategy in a finite class of reference strategies for any sequence of items. Special attention is payed to reference strategies that use a fixed threshold at each step to decide whether a new bin is opened. Some positive and negative results are presented for this case.},
+ author = {Andr{{\'a}}s Gy{{\"o}}rgy and G{{\'a}}bor Lugosi and Gy{{\"o}}rgy Ottucs&#224;k},
+ journal = {Journal of Machine Learning Research},
+ number = {4},
+ openalex = {W2171881527},
+ pages = {89--109},
+ title = {On-Line Sequential Bin Packing},
+ url = {http://jmlr.org/papers/v11/gyorgy10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:henderson10a,
+ abstract = {We propose a class of Bayesian networks appropriate for structured prediction problems where the Bayesian network's model structure is a function of the predicted output structure. These incremental sigmoid belief networks (ISBNs) make decoding possible because inference with partial output structures does not require summing over the unboundedly many compatible model structures, due to their directed edges and incrementally specified model structure. ISBNs are specifically targeted at challenging structured prediction problems such as natural language parsing, where learning the domain's complex statistical dependencies benefits from large numbers of latent variables. While exact inference in ISBNs with large numbers of latent variables is not tractable, we propose two efficient approximations. First, we demonstrate that a previous neural network parsing model can be viewed as a coarse mean-field approximation to inference with ISBNs. We then derive a more accurate but still tractable variational approximation, which proves effective in artificial experiments. We compare the effectiveness of these models on a benchmark natural language parsing task, where they achieve accuracy competitive with the state-of-the-art. The model which is a closer approximation to an ISBN has better parsing accuracy, suggesting that ISBNs are an appropriate abstract model of natural language grammar learning.},
+ author = {James Henderson and Ivan Titov},
+ journal = {Journal of Machine Learning Research},
+ number = {115},
+ openalex = {W2108014210},
+ pages = {3541--3570},
+ title = {Incremental Sigmoid Belief Networks for Grammar Learning},
+ url = {http://jmlr.org/papers/v11/henderson10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:honkela10a,
+ abstract = {Variational Bayesian (VB) methods are typically only applied to models in the conjugate-exponential family using the variational Bayesian expectation maximisation (VB EM) algorithm or one of its variants. In this paper we present an efficient algorithm for applying VB to more general models. The method is based on specifying the functional form of the approximation, such as multivariate Gaussian. The parameters of the approximation are optimised using a conjugate gradient algorithm that utilises the Riemannian geometry of the space of the approximations. This leads to a very efficient algorithm for suitably structured approximations. It is shown empirically that the proposed method is comparable or superior in efficiency to the VB EM in a case where both are applicable. We also apply the algorithm to learning a nonlinear state-space model and a nonlinear factor analysis model for which the VB EM is not applicable. For these models, the proposed algorithm outperforms alternative gradient-based methods by a significant margin.},
+ author = {Antti Honkela and Tapani Raiko and Mikael Kuusela and Matti Tornio and Juha Karhunen},
+ journal = {Journal of Machine Learning Research},
+ number = {106},
+ openalex = {W1546485431},
+ pages = {3235--3268},
+ title = {Approximate Riemannian Conjugate Gradient Learning for Fixed-Form Variational Bayes},
+ url = {http://jmlr.org/papers/v11/honkela10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:hothorn10a,
+ abstract = {We describe version 2.0 of the R add-on package mboost. The package implements boosting for optimizing general risk functions using component-wise (penalized) least squares estimates or regression trees as base-learners for fitting generalized linear, additive and interaction models to potentially high-dimensional data.},
+ author = {Torsten Hothorn and Peter B{{\"u}}hlmann and Thomas Kneib and Matthias Schmid and Benjamin Hofner},
+ journal = {Journal of Machine Learning Research},
+ number = {71},
+ openalex = {W2104235537},
+ pages = {2109--2113},
+ title = {Model-based Boosting 2.0},
+ url = {http://jmlr.org/papers/v11/hothorn10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:huang10a,
+ abstract = {Maximum entropy (Maxent) is useful in natural language processing and many other areas. Iterative scaling (IS) methods are one of the most popular approaches to solve Maxent. With many variants of IS methods, it is difficult to understand them and see the differences. In this paper, we create a general and unified framework for iterative scaling methods. This framework also connects iterative scaling and coordinate descent methods. We prove general convergence results for IS methods and analyze their computational complexity. Based on the proposed framework, we extend a coordinate descent method for linear SVM to Maxent. Results show that it is faster than existing iterative scaling methods.},
+ author = {Fang-Lan Huang and Cho-Jui Hsieh and Kai-Wei Chang and Chih-Jen Lin},
+ journal = {Journal of Machine Learning Research},
+ number = {27},
+ openalex = {W2127785841},
+ pages = {815--848},
+ title = {Iterative Scaling and Coordinate Descent Methods for Maximum Entropy Models},
+ url = {http://jmlr.org/papers/v11/huang10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:hyvarinen10a,
+ abstract = {Analysis of causal effects between continuous-valued variables typically uses either autoregressive models or structural equation models with instantaneous effects. Estimation of Gaussian, linear structural equation models poses serious identifiability problems, which is why it was recently proposed to use non-Gaussian models. Here, we show how to combine the non-Gaussian instantaneous model with autoregressive models. This is effectively what is called a structural vector autoregression (SVAR) model, and thus our work contributes to the long-standing problem of how to estimate SVAR's. We show that such a non-Gaussian model is identifiable without prior knowledge of network structure. We propose computationally efficient methods for estimating the model, as well as methods to assess the significance of the causal influences. The model is successfully applied on financial and brain imaging data.},
+ author = {Aapo Hyv{{\"a}}rinen and Kun Zhang and Shohei Shimizu and Patrik O. Hoyer},
+ journal = {Journal of Machine Learning Research},
+ number = {56},
+ openalex = {W2154195147},
+ pages = {1709--1731},
+ title = {Estimation of a Structural Vector Autoregression Model Using Non-Gaussianity},
+ url = {http://jmlr.org/papers/v11/hyvarinen10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ilin10a,
+ abstract = {Principal component analysis (PCA) is a classical data analysis technique that finds linear transformations of data that retain the maximal amount of variance. We study a case where some of the dat...},
+ author = {Alexander Ilin and Tapani Raiko},
+ journal = {Journal of Machine Learning Research},
+ number = {66},
+ openalex = {W3008253579},
+ pages = {1957--2000},
+ title = {Practical Approaches to Principal Component Analysis in the Presence of Missing Values},
+ url = {http://jmlr.org/papers/v11/ilin10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:jaimovich10a,
+ abstract = {The FastInf C++ library is designed to perform memory and time efficient approximate inference in large-scale discrete undirected graphical models. The focus of the library is propagation based approximate inference methods, ranging from the basic loopy belief propagation algorithm to propagation based on convex free energies. Various message scheduling schemes that improve on the standard synchronous or asynchronous approaches are included. Also implemented are a clique tree based exact inference, Gibbs sampling, and the mean field algorithm. In addition to inference, FastInf provides parameter estimation capabilities as well as representation and learning of shared parameters. It offers a rich interface that facilitates extension of the basic classes to other inference and learning methods.},
+ author = {Ariel Jaimovich and Ofer Meshi and Ian McGraw and Gal Elidan},
+ journal = {Journal of Machine Learning Research},
+ number = {57},
+ openalex = {W2117776955},
+ pages = {1733--1736},
+ title = {FastInf: An Efficient Approximate Inference Library},
+ url = {http://jmlr.org/papers/v11/jaimovich10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:jaksch10a,
+ abstract = {For undiscounted reinforcement learning in Markov decision processes (MDPs) we consider the total regret of a learning algorithm with respect to an optimal policy. In order to describe the transition structure of an MDP we propose a new parameter: An MDP has diameter D if for any pair of states s,s' there is a policy which moves from s to s' in at most D steps (on average). We present a reinforcement learning algorithm with total regret O(DS√AT) after T steps for any unknown MDP with S states, A actions per state, and diameter D. A corresponding lower bound of Ω(√DSAT) on the total regret of any learning algorithm is given as well.
+
+These results are complemented by a sample complexity bound on the number of suboptimal steps taken by our algorithm. This bound can be used to achieve a (gap-dependent) regret bound that is logarithmic in T.
+
+Finally, we also consider a setting where the MDP is allowed to change a fixed number of l times. We present a modification of our algorithm that is able to deal with this setting and show a regret bound of O(l1/3T2/3DS√A).},
+ author = {Thomas Jaksch and Ronald Ortner and Peter Auer},
+ journal = {Journal of Machine Learning Research},
+ number = {51},
+ openalex = {W1850488217},
+ pages = {1563--1600},
+ title = {Near-optimal Regret Bounds for Reinforcement Learning},
+ url = {http://jmlr.org/papers/v11/jaksch10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:journee10a,
+ abstract = {In this paper we develop a new approach to sparse principal component analysis (sparse PCA). We propose two single-unit and two block optimization formulations of the sparse PCA problem, aimed at extracting a single sparse dominant principal component of a data matrix, or more components at once, respectively. While the initial formulations involve nonconvex functions, and are therefore computationally intractable, we rewrite them into the form of an optimization program involving maximization of a convex function on a compact set. The dimension of the search space is decreased enormously if the data matrix has many more columns (variables) than rows. We then propose and analyze a simple gradient method suited for the task. It appears that our algorithm has best convergence properties in the case when either the objective function or the feasible set are strongly convex, which is the case with our single-unit formulations and can be enforced in the block case. Finally, we demonstrate numerically on a set of random and gene expression test problems that our approach outperforms existing algorithms both in quality of the obtained solution and in computational speed.},
+ author = {Michel Journ{{\'e}}e and Yurii Nesterov and Peter Richt{{\'a}}rik and Rodolphe Sepulchre},
+ journal = {Journal of Machine Learning Research},
+ number = {15},
+ openalex = {W2097417531},
+ pages = {517--553},
+ title = {Generalized power method for sparse principal component analysis},
+ url = {http://jmlr.org/papers/v11/journee10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:keshavan10a,
+ abstract = {Given a matrix M of low-rank, we consider the problem of reconstructing it from noisy observations of a small, random subset of its entries. The problem arises in a variety of applications, from collaborative filtering (the 'Netflix problem') to structure-from-motion and positioning. We study a low complexity algorithm introduced by Keshavan, Montanari, and Oh (2010), based on a combination of spectral techniques and manifold optimization, that we call here OPTSPACE. We prove performance guarantees that are order-optimal in a number of circumstances.},
+ author = {Raghunandan H. Keshavan and Andrea Montanari and Sewoong Oh},
+ journal = {Journal of Machine Learning Research},
+ number = {69},
+ openalex = {W2616032753},
+ pages = {2057--2078},
+ title = {Matrix Completion from Noisy Entries},
+ url = {http://jmlr.org/papers/v11/keshavan10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:kojima10a,
+ abstract = {We study the problem of learning an optimal Bayesian network in a constrained search space; skeletons are compelled to be subgraphs of a given undirected graph called the super-structure. The previously derived constrained optimal search (COS) remains limited even for sparse super-structures. To extend its feasibility, we propose to divide the super-structure into several clusters and perform an optimal search on each of them. Further, to ensure acyclicity, we introduce the concept of ancestral constraints (ACs) and derive an optimal algorithm satisfying a given set of ACs. Finally, we theoretically derive the necessary and sufficient sets of ACs to be considered for finding an optimal constrained graph. Empirical evaluations demonstrate that our algorithm can learn optimal Bayesian networks for some graphs containing several hundreds of vertices, and even for super-structures having a high average degree (up to four), which is a drastic improvement in feasibility over the previous optimal algorithm. Learnt networks are shown to largely outperform state-of-the-art heuristic algorithms both in terms of score and structural hamming distance.},
+ author = {Kaname Kojima and Eric Perrier and Seiya Imoto and Satoru Miyano},
+ journal = {Journal of Machine Learning Research},
+ number = {9},
+ openalex = {W2138186209},
+ pages = {285--310},
+ title = {Optimal Search on Clustered Structural Constraint for Learning Bayesian Network Structure},
+ url = {http://jmlr.org/papers/v11/kojima10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:koltchinskii10a,
+ abstract = {Sequential algorithms of active learning based on the estimation of the level sets of the empirical risk are discussed in the paper. Localized Rademacher complexities are used in the algorithms to estimate the sample sizes needed to achieve the required accuracy of learning in an adaptive way. Probabilistic bounds on the number of active examples have been proved and several applications to binary classification problems are considered.},
+ author = {Vladimir Koltchinskii},
+ journal = {Journal of Machine Learning Research},
+ number = {85},
+ openalex = {W53630002},
+ pages = {2457--2485},
+ title = {Rademacher Complexities and Bounding the Excess Risk in Active Learning},
+ url = {http://jmlr.org/papers/v11/koltchinskii10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:krause10a,
+ abstract = {In recent years, a fundamental problem structure has emerged as very useful in a variety of machine learning applications: Submodularity is an intuitive diminishing returns property, stating that adding an element to a smaller set helps more than adding it to a larger set. Similarly to convexity, submodularity allows one to efficiently find provably (near-) optimal solutions for large problems. We present SFO, a toolbox for use in MATLAB or Octave that implements algorithms for minimization and maximization of submodular functions. A tutorial script illustrates the application of submodularity to machine learning and AI problems such as feature selection, clustering, inference and optimized information gathering.},
+ author = {Andreas Krause},
+ journal = {Journal of Machine Learning Research},
+ number = {38},
+ openalex = {W2118936174},
+ pages = {1141--1144},
+ title = {SFO: A Toolbox for Submodular Function Optimization},
+ url = {http://jmlr.org/papers/v11/krause10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:laparra10a,
+ abstract = {A successful class of image denoising methods is based on Bayesian approaches working in wavelet representations. The performance of these methods improves when relations among the local frequency ...},
+ author = {Valero Laparra and Juan Guti{{\'e}}rrez and Gustavo Camps-Valls and Jes&#250;s Malo},
+ journal = {Journal of Machine Learning Research},
+ number = {29},
+ openalex = {W3005831956},
+ pages = {873--903},
+ title = {Image Denoising with Kernels Based on Natural Image Relations},
+ url = {http://jmlr.org/papers/v11/laparra10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:lazaro-gredilla10a,
+ abstract = {We present a new sparse Gaussian Process (GP) model for regression. The key novel idea is to sparsify the spectral representation of the GP. This leads to a simple, practical algorithm for regression tasks. We compare the achievable trade-offs between predictive accuracy and computational requirements, and show that these are typically superior to existing state-of-the-art sparse approximations. We discuss both the weight space and function space representations, and note that the new construction implies priors over functions which are always stationary, and can approximate any covariance function in this class.},
+ author = {Miguel L{{\'a}}zaro-Gredilla and Joaquin Qui{{\~n}}nero-Candela and Carl Edward Rasmussen and An&#237;bal R. Figueiras-Vidal},
+ journal = {Journal of Machine Learning Research},
+ number = {63},
+ openalex = {W2170912685},
+ pages = {1865--1881},
+ title = {Sparse Spectrum Gaussian Process Regression},
+ url = {http://jmlr.org/papers/v11/lazaro-gredilla10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:leskovec10a,
+ abstract = {How can we generate realistic networks? In addition, how can we do so with a mathematically tractable model that allows for rigorous analysis of network properties? Real networks exhibit a long lis...},
+ author = {Jure Leskovec and Deepayan Chakrabarti and Jon Kleinberg and Christos Faloutsos and Zoubin Ghahramani},
+ journal = {Journal of Machine Learning Research},
+ number = {33},
+ openalex = {W3004555699},
+ pages = {985--1042},
+ title = {Kronecker Graphs: An Approach to Modeling Networks},
+ url = {http://jmlr.org/papers/v11/leskovec10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:lucke10a,
+ abstract = {We show how a preselection of hidden variables can be used to efficiently train generative models with binary hidden variables. The approach is based on Expectation Maximization (EM) and uses an efficiently computable approximation to the sufficient statistics of a given model. The computational cost to compute the sufficient statistics is strongly reduced by selecting, for each data point, the relevant hidden causes. The approximation is applicable to a wide range of generative models and provides an interpretation of the benefits of preselection in terms of a variational EM approximation. To empirically show that the method maximizes the data likelihood, it is applied to different types of generative models including: a version of non-negative matrix factorization (NMF), a model for non-linear component extraction (MCA), and a linear generative model similar to sparse coding. The derived algorithms are applied to both artificial and realistic data, and are compared to other models in the literature. We find that the training scheme can reduce computational costs by orders of magnitude and allows for a reliable extraction of hidden causes.},
+ author = {J{{\"o}}rg L{{\"u}}cke and Julian Eggert},
+ journal = {Journal of Machine Learning Research},
+ number = {96},
+ openalex = {W2128209899},
+ pages = {2855--2900},
+ title = {Expectation Truncation and the Benefits of Preselection In Training Generative Models},
+ url = {http://jmlr.org/papers/v11/lucke10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mairal10a,
+ abstract = {Sparse coding--that is, modelling data vectors as sparse linear combinations of basis elements--is widely used in machine learning, neuroscience, signal processing, and statistics. This paper focuses on the large-scale matrix factorization problem that consists of learning the basis set in order to adapt it to specific data. Variations of this problem include dictionary learning in signal processing, non-negative matrix factorization and sparse principal component analysis. In this paper, we propose to address these tasks with a new online optimization algorithm, based on stochastic approximations, which scales up gracefully to large data sets with millions of training samples, and extends naturally to various matrix factorization formulations, making it suitable for a wide range of learning problems. A proof of convergence is presented, along with experiments with natural images and genomic data demonstrating that it leads to state-of-the-art performance in terms of speed and optimization for both small and large data sets.},
+ author = {Julien Mairal and Francis Bach and Jean Ponce and Guillermo Sapiro},
+ journal = {Journal of Machine Learning Research},
+ number = {2},
+ openalex = {W2112447569},
+ pages = {19--60},
+ title = {Online Learning for Matrix Factorization and Sparse Coding},
+ url = {http://jmlr.org/papers/v11/mairal10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mann10a,
+ abstract = {In this paper, we present an overview of generalized expectation criteria (GE), a simple, robust, scalable method for semi-supervised training using weakly-labeled data. GE fits model parameters by favoring models that match certain expectation constraints, such as marginal label distributions, on the unlabeled data. This paper shows how to apply generalized expectation criteria to two classes of parametric models: maximum entropy models and conditional random fields. Experimental results demonstrate accuracy improvements over supervised training and a number of other state-of-the-art semi-supervised learning methods for these models.},
+ author = {Gideon S. Mann and Andrew McCallum},
+ journal = {Journal of Machine Learning Research},
+ number = {32},
+ openalex = {W2122052811},
+ pages = {955--984},
+ title = {Generalized Expectation Criteria for Semi-Supervised Learning with Weakly Labeled Data},
+ url = {http://jmlr.org/papers/v11/mann10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mazumder10a,
+ abstract = {We use convex relaxation techniques to provide a sequence of regularized low-rank solutions for large-scale matrix completion problems. Using the nuclear norm as a regularizer, we provide a simple and very efficient convex algorithm for minimizing the reconstruction error subject to a bound on the nuclear norm. Our algorithm Soft-Impute iteratively replaces the missing elements with those obtained from a soft-thresholded SVD. With warm starts this allows us to efficiently compute an entire regularization path of solutions on a grid of values of the regularization parameter. The computationally intensive part of our algorithm is in computing a low-rank SVD of a dense matrix. Exploiting the problem structure, we show that the task can be performed with a complexity linear in the matrix dimensions. Our semidefinite-programming algorithm is readily scalable to large matrices: for example it can obtain a rank-80 approximation of a 10(6) × 10(6) incomplete matrix with 10(5) observed entries in 2.5 hours, and can fit a rank 40 approximation to the full Netflix training set in 6.6 hours. Our methods show very good performance both in training and test error when compared to other competitive state-of-the art techniques.},
+ author = {Rahul Mazumder and Trevor Hastie and Robert Tibshirani},
+ journal = {Journal of Machine Learning Research},
+ number = {80},
+ openalex = {W2146130798},
+ pages = {2287--2322},
+ title = {Spectral Regularization Algorithms for Learning Large Incomplete Matrices.},
+ url = {http://jmlr.org/papers/v11/mazumder10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:meila10a,
+ abstract = {This paper presents a statistical model for expressing preferences through rankings, when the number of alternatives (items to rank) is large. A human ranker will then typically rank only the most preferred items, and may not even examine the whole set of items, or know how many they are. Similarly, a user presented with the ranked output of a search engine, will only consider the highest ranked items. We model such situations by introducing a stagewise ranking model that operates with finite ordered lists called top-t orderings over an infinite space of items. We give algorithms to estimate this model from data, and demonstrate that it has sufficient statistics, being thus an exponential family model with continuous and discrete parameters. We describe its conjugate prior and other statistical properties. Then, we extend the estimation problem to multimodal data by introducing an Exponential-Blurring-Mean-Shift nonparametric clustering algorithm. The experiments highlight the properties of our model and demonstrate that infinite models over permutations can be simple, elegant and practical.},
+ author = {Marina Meil&#259; and Le Bao},
+ journal = {Journal of Machine Learning Research},
+ number = {113},
+ openalex = {W2102987267},
+ pages = {3481--3518},
+ title = {An Exponential Model for Infinite Rankings},
+ url = {http://jmlr.org/papers/v11/meila10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mohri10a,
+ author = {Mehryar Mohri and Afshin Rostamizadeh},
+ journal = {Journal of Machine Learning Research},
+ number = {26},
+ pages = {789--814},
+ title = {Stability Bounds for Stationary &#966;-mixing and &#946;-mixing Processes},
+ url = {http://jmlr.org/papers/v11/mohri10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mooij10a,
+ abstract = {This paper describes the software package libDAI, a free & open source C++ library that provides implementations of various exact and approximate inference methods for graphical models with discrete-valued variables. libDAI supports directed graphical models (Bayesian networks) as well as undirected ones (Markov random fields and factor graphs). It offers various approximations of the partition sum, marginal probability distributions and maximum probability states. Parameter learning is also supported. A feature comparison with other open source software packages for approximate inference is given. libDAI is licensed under the GPL v2+ license and is available at http://www.libdai.org.},
+ author = {Joris M. Mooij},
+ journal = {Journal of Machine Learning Research},
+ number = {74},
+ openalex = {W2169447051},
+ pages = {2169--2173},
+ title = {libDAI: A Free and Open Source C++ Library for Discrete Approximate Inference in Graphical Models},
+ url = {http://jmlr.org/papers/v11/mooij10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:mordohai10a,
+ abstract = {We address instance-based learning from a perceptual organization standpoint and present methods for dimensionality estimation, manifold learning and function approximation. Under our approach, manifolds in high-dimensional spaces are inferred by estimating geometric relationships among the input instances. Unlike conventional manifold learning, we do not perform dimensionality reduction, but instead perform all operations in the original input space. For this purpose we employ a novel formulation of tensor voting, which allows an N-D implementation. Tensor voting is a perceptual organization framework that has mostly been applied to computer vision problems. Analyzing the estimated local structure at the inputs, we are able to obtain reliable dimensionality estimates at each instance, instead of a global estimate for the entire data set. Moreover, these local dimensionality and structure estimates enable us to measure geodesic distances and perform nonlinear interpolation for data sets with varying density, outliers, perturbation and intersections, that cannot be handled by state-of-the-art methods. Quantitative results on the estimation of local manifold structure using ground truth data are presented. In addition, we compare our approach with several leading methods for manifold learning at the task of measuring geodesic distances. Finally, we show competitive function approximation results on real data.},
+ author = {Philippos Mordohai and G{{\'e}}rard Medioni},
+ journal = {Journal of Machine Learning Research},
+ number = {12},
+ openalex = {W2159998603},
+ pages = {411--450},
+ title = {Dimensionality Estimation, Manifold Learning and Function Approximation using Tensor Voting},
+ url = {http://jmlr.org/papers/v11/mordohai10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ojala10a,
+ abstract = {We explore the framework of permutation-based p-values for assessing the behavior of the classification error. In this paper we study two simple permutation tests. The first test estimates the null distribution by permuting the labels in the data; this has been used extensively in classification problems in computational biology. The second test produces permutations of the features within classes, inspired by restricted randomization techniques traditionally used in statistics. We study the properties of these tests and present an extensive empirical evaluation on real and synthetic data. Our analysis shows that studying the classification error via permutation tests is effective; in particular, the restricted permutation test clearly reveals whether the classifier exploits the interdependency between the features in the data.},
+ author = {Markus Ojala and Gemma C. Garriga},
+ journal = {Journal of Machine Learning Research},
+ number = {62},
+ openalex = {W2160331326},
+ pages = {1833--1863},
+ title = {Permutation Tests for Studying Classifier Performance},
+ url = {http://jmlr.org/papers/v11/ojala10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:omidiran10a,
+ abstract = {We consider the problem of high-dimensional variable selection: given n noisy observations of a k-sparse vector β* ∈ Rp, estimate the subset of non-zero entries of β*. A significant body of work has studied behavior of l1-relaxations when applied to random measurement matrices that are dense (e.g., Gaussian, Bernoulli). In this paper, we analyze sparsified measurement ensembles, and consider the trade-off between measurement sparsity, as measured by the fraction γ of non-zero entries, and the statistical efficiency, as measured by the minimal number of observations n required for correct variable selection with probability converging to one. Our main result is to prove that it is possible to let the fraction on non-zero entries γ → 0 at some rate, yielding measurement matrices with a vanishing fraction of non-zeros per row, while retaining the same statistical efficiency as dense ensembles. A variety of simulation results confirm the sharpness of our theoretical predictions.},
+ author = {Dapo Omidiran and Martin J. Wainwright},
+ journal = {Journal of Machine Learning Research},
+ number = {82},
+ openalex = {W2122018120},
+ pages = {2361--2386},
+ title = {High-dimensional Variable Selection with Sparse Random Projections: Measurement Sparsity and Statistical Efficiency},
+ url = {http://jmlr.org/papers/v11/omidiran10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:pernkopf10a,
+ abstract = {We introduce a simple order-based greedy heuristic for learning discriminative structure within generative Bayesian network classifiers. We propose two methods for establishing an order of N features. They are based on the conditional mutual information and classification rate (i.e., risk), respectively. Given an ordering, we can find a discriminative structure with O(Nk+1) score evaluations (where constant k is the tree-width of the sub-graph over the attributes). We present results on 25 data sets from the UCI repository, for phonetic classification using the TIMIT database, for a visual surface inspection task, and for two handwritten digit recognition tasks. We provide classification performance for both discriminative and generative parameter learning on both discriminatively and generatively structured networks. The discriminative structure found by our new procedures significantly outperforms generatively produced structures, and achieves a classification accuracy on par with the best discriminative (greedy) Bayesian network learning approach, but does so with a factor of ~10-40 speedup. We also show that the advantages of generative discriminatively structured Bayesian network classifiers still hold in the case of missing features, a case where generative classifiers have an advantage over discriminative classifiers.},
+ author = {Franz Pernkopf and Jeff A. Bilmes},
+ journal = {Journal of Machine Learning Research},
+ number = {81},
+ openalex = {W157873616},
+ pages = {2323--2360},
+ title = {Efficient Heuristics for Discriminative Structure Learning of Bayesian Network Classifiers},
+ url = {http://jmlr.org/papers/v11/pernkopf10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:perry10a,
+ abstract = {In multivariate regression models we have the opportunity to look for hidden structure unrelated to the observed predictors. However, when one fits a model involving such latent variables it is important to be able to tell if the structure is real, or just an artifact of correlation in the regression errors. We develop a new statistical test based on random rotations for verifying the existence of latent variables. The rotations are carefully constructed to rotate orthogonally to the column space of the regression model. We find that only non-Gaussian latent variables are detectable, a finding that parallels a well known phenomenon in independent components analysis. We base our test on a measure of non-Gaussianity in the histogram of the principal eigenvector components instead of on the eigenvalue. The method finds and verifies some latent dichotomies in the microarray data from the AGEMAP consortium.},
+ author = {Patrick O. Perry and Art B. Owen},
+ journal = {Journal of Machine Learning Research},
+ number = {18},
+ openalex = {W2160123652},
+ pages = {603--624},
+ title = {A Rotation Test to Verify Latent Structure},
+ url = {http://jmlr.org/papers/v11/perry10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:radovanovic10a,
+ abstract = {Different aspects of the curse of dimensionality are known to present serious challenges to various machine-learning methods and tasks. This paper explores a new aspect of the dimensionality curse,...},
+ author = {Milo{\v{s}} Radovanovi&#263; and Alexandros Nanopoulos and Mirjana Ivanovi&#263;},
+ journal = {Journal of Machine Learning Research},
+ number = {86},
+ openalex = {W3010805239},
+ pages = {2487--2531},
+ title = {Hubs in Space: Popular Nearest Neighbors in High-Dimensional Data},
+ url = {http://jmlr.org/papers/v11/radovanovic10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ralaivola10a,
+ author = {Liva Ralaivola and Marie Szafranski and Guillaume Stempfel},
+ journal = {Journal of Machine Learning Research},
+ number = {65},
+ pages = {1927--1956},
+ title = {Chromatic PAC-Bayes Bounds for Non-IID Data: Applications to Ranking and Stationary &#946;-Mixing Processes},
+ url = {http://jmlr.org/papers/v11/ralaivola10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:raskutti10a,
+ abstract = {Methods based on l1-relaxation, such as basis pursuit and the Lasso, are very popular for sparse regression in high dimensions. The conditions for success of these methods are now well-understood: (1) exact recovery in the noiseless setting is possible if and only if the design matrix X satisfies the restricted nullspace property, and (2) the squared l2-error of a Lasso estimate decays at the minimax optimal rate k log p / n, where k is the sparsity of the p-dimensional regression problem with additive Gaussian noise, whenever the design satisfies a restricted eigenvalue condition. The key issue is thus to determine when the design matrix X satisfies these desirable properties. Thus far, there have been numerous results showing that the restricted isometry property, which implies both the restricted nullspace and eigenvalue conditions, is satisfied when all entries of X are independent and identically distributed (i.i.d.), or the rows are unitary. This paper proves directly that the restricted nullspace and eigenvalue conditions hold with high probability for quite general classes of Gaussian matrices for which the predictors may be highly dependent, and hence restricted isometry conditions can be violated with high probability. In this way, our results extend the attractive theoretical guarantees on l1-relaxations to a much broader class of problems than the case of completely independent or unitary designs.},
+ author = {Garvesh Raskutti and Martin J. Wainwright and Bin Yu},
+ journal = {Journal of Machine Learning Research},
+ number = {78},
+ openalex = {W2162312215},
+ pages = {2241--2259},
+ title = {Restricted Eigenvalue Properties for Correlated Gaussian Designs},
+ url = {http://jmlr.org/papers/v11/raskutti10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:rasmussen10a,
+ abstract = {The GPML toolbox provides a wide range of functionality for Gaussian process (GP) inference and prediction. GPs are specified by mean and covariance functions; we offer a library of simple mean and covariance functions and mechanisms to compose more complex ones. Several likelihood functions are supported including Gaussian and heavy-tailed for regression as well as others suitable for classification. Finally, a range of inference methods is provided, including exact and variational inference, Expectation Propagation, and Laplace's method dealing with non-Gaussian likelihoods and FITC for dealing with large regression tasks.},
+ author = {Carl Edward Rasmussen and Hannes Nickisch},
+ journal = {Journal of Machine Learning Research},
+ number = {100},
+ openalex = {W2107386393},
+ pages = {3011--3015},
+ title = {Gaussian Processes for Machine Learning (GPML) Toolbox},
+ url = {http://jmlr.org/papers/v11/rasmussen10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ravikumar10a,
+ abstract = {The problem of computing a maximum a posteriori (MAP) configuration is a central computational challenge associated with Markov random fields. There has been some focus on tree-based linear programming (LP) relaxations for the MAP problem. This paper develops a family of super-linearly convergent algorithms for solving these LPs, based on proximal minimization schemes using Bregman divergences. As with standard message-passing on graphs, the algorithms are distributed and exploit the underlying graphical structure, and so scale well to large problems. Our algorithms have a double-loop character, with the outer loop corresponding to the proximal sequence, and an inner loop of cyclic Bregman projections used to compute each proximal update. We establish convergence guarantees for our algorithms, and illustrate their performance via some simulations. We also develop two classes of rounding schemes, deterministic and randomized, for obtaining integral configurations from the LP solutions. Our deterministic rounding schemes use a re-parameterization property of our algorithms so that when the LP solution is integral, the MAP solution can be obtained even before the LP-solver converges to the optimum. We also propose graph-structured randomized rounding schemes applicable to iterative LP-solving algorithms in general. We analyze the performance of and report simulations comparing these rounding schemes.},
+ author = {Pradeep Ravikumar and Alekh Agarwal and Martin J. Wainwright},
+ journal = {Journal of Machine Learning Research},
+ number = {34},
+ openalex = {W2100726809},
+ pages = {1043--1080},
+ title = {Message-passing for Graph-structured Linear Programs: Proximal Methods and Rounding Schemes},
+ url = {http://jmlr.org/papers/v11/ravikumar10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:raykar10a,
+ abstract = {For many supervised learning tasks it may be infeasible (or very expensive) to obtain objective and reliable labels. Instead, we can collect subjective (possibly noisy) labels from multiple experts or annotators. In practice, there is a substantial amount of disagreement among the annotators, and hence it is of great practical interest to address conventional supervised learning problems in this scenario. In this paper we describe a probabilistic approach for supervised learning when we have multiple annotators providing (possibly noisy) labels but no absolute gold standard. The proposed algorithm evaluates the different experts and also gives an estimate of the actual hidden labels. Experimental results indicate that the proposed method is superior to the commonly used majority voting baseline.},
+ author = {Vikas C. Raykar and Shipeng Yu and Linda H. Zhao and Gerardo Hermosillo Valadez and Charles Florin and Luca Bogoni and Linda Moy},
+ journal = {Journal of Machine Learning Research},
+ number = {43},
+ openalex = {W2134305421},
+ pages = {1297--1322},
+ title = {Learning From Crowds},
+ url = {http://jmlr.org/papers/v11/raykar10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:reid10a,
+ abstract = {We study losses for binary and class probability estimation and extend the understanding of them from margin losses to general composite losses which are the composition of a proper loss with a link function. We characterise when margin losses can be proper composite losses, explicitly show how to determine a symmetric loss in full from half of one of its partial losses, introduce an intrinsic parametrisation of composite binary losses and give a complete characterisation of the relationship between proper losses and classification calibrated losses. We also consider the question of the best binary loss. We introduce a precise notion of best and show there exist situations where two convex losses are incommensurable. We provide a complete explicit characterisation of the convexity of composite binary losses in terms of the link function and the weight function associated with the proper loss which make up the composite loss. This characterisation suggests new ways of surrogate tuning as well as providing an explicit characterisation of when Bregman divergences on the unit interval are convex in their second argument. Finally, in an appendix we present some new algorithm-independent results on the relationship between properness, convexity and robustness to misclassification noise for binary losses and show that all convex proper losses are non-robust to misclassification noise.},
+ author = {Mark D. Reid and Robert C. Williamson},
+ journal = {Journal of Machine Learning Research},
+ number = {83},
+ openalex = {W2101557761},
+ pages = {2387--2422},
+ title = {Composite Binary Losses},
+ url = {http://jmlr.org/papers/v11/reid10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:rieck10a,
+ abstract = {Convolution kernels for trees provide simple means for learning with tree-structured data. The computation time of tree kernels is quadratic in the size of the trees, since all pairs of nodes need to be compared. Thus, large parse trees, obtained from HTML documents or structured network data, render convolution kernels inapplicable. In this article, we propose an effective approximation technique for parse tree kernels. The approximate tree kernels (ATKs) limit kernel computation to a sparse subset of relevant subtrees and discard redundant structures, such that training and testing of kernel-based learning methods are significantly accelerated. We devise linear programming approaches for identifying such subsets for supervised and unsupervised learning tasks, respectively. Empirically, the approximate tree kernels attain run-time improvements up to three orders of magnitude while preserving the predictive accuracy of regular tree kernels. For unsupervised tasks, the approximate tree kernels even lead to more accurate predictions by identifying relevant dimensions in feature space.},
+ author = {Konrad Rieck and Tammo Krueger and Ulf Brefeld and Klaus-Robert M{{\"u}}ller},
+ journal = {Journal of Machine Learning Research},
+ number = {16},
+ openalex = {W2102851236},
+ pages = {555--580},
+ title = {Approximate Tree Kernels},
+ url = {http://jmlr.org/papers/v11/rieck10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:robinson10a,
+ abstract = {Learning dynamic Bayesian network structures provides a principled mechanism for identifying conditional dependencies in time-series data. An important assumption of traditional DBN structure learning is that the data are generated by a stationary process, an assumption that is not true in many important settings. In this paper, we introduce a new class of graphical model called a non-stationary dynamic Bayesian network, in which the conditional dependence structure of the underlying data-generation process is permitted to change over time. Non-stationary dynamic Bayesian networks represent a new framework for studying problems in which the structure of a network is evolving over time. Some examples of evolving networks are transcriptional regulatory networks during an organism's development, neural pathways during learning, and traffic patterns during the day. We define the non-stationary DBN model, present an MCMC sampling algorithm for learning the structure of the model from time-series data under different assumptions, and demonstrate the effectiveness of the algorithm on both simulated and biological data.},
+ author = {Joshua W. Robinson and Alexander J. Hartemink},
+ journal = {Journal of Machine Learning Research},
+ number = {118},
+ openalex = {W1593373597},
+ pages = {3647--3680},
+ title = {Learning Non-Stationary Dynamic Bayesian Networks},
+ url = {http://jmlr.org/papers/v11/robinson10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:rodriguez-lujan10a,
+ abstract = {Identifying a subset of features that preserves classification accuracy is a problem of growing importance, because of the increasing size and dimensionality of real-world data sets. We propose a new feature selection method, named Quadratic Programming Feature Selection (QPFS), that reduces the task to a quadratic optimization problem. In order to limit the computational complexity of solving the optimization problem, QPFS uses the Nystrom method for approximate matrix diagonalization. QPFS is thus capable of dealing with very large data sets, for which the use of other methods is computationally expensive. In experiments with small and medium data sets, the QPFS method leads to classification accuracy similar to that of other successful techniques. For large data sets, QPFS is superior in terms of computational efficiency.},
+ author = {Irene Rodriguez-Lujan and Ramon Huerta and Charles Elkan and Carlos Santa Cruz},
+ journal = {Journal of Machine Learning Research},
+ number = {49},
+ openalex = {W2119869458},
+ pages = {1491--1516},
+ title = {Quadratic Programming Feature Selection},
+ url = {http://jmlr.org/papers/v11/rodriguez-lujan10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:rosasco10a,
+ abstract = {A large number of learning algorithms, for example, spectral clustering, kernel Principal Components Analysis and many manifold methods are based on estimating eigenvalues and eigenfunctions of operators defined by a similarity function or a kernel, given empirical data. Thus for the analysis of algorithms, it is an important problem to be able to assess the quality of such approximations. The contribution of our paper is two-fold: 1. We use a technique based on a concentration inequality for Hilbert spaces to provide new much simplified proofs for a number of results in spectral approximation. 2. Using these methods we provide several new results for estimating spectral properties of the graph Laplacian operator extending and strengthening results from von Luxburg et al. (2008).},
+ author = {Lorenzo Rosasco and Mikhail Belkin and Ernesto De Vito},
+ journal = {Journal of Machine Learning Research},
+ number = {30},
+ openalex = {W2108280101},
+ pages = {905--934},
+ title = {On Learning with Integral Operators},
+ url = {http://jmlr.org/papers/v11/rosasco10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ryabko10a,
+ abstract = {The problem is sequence prediction in the following setting. A sequence x1,...,xn,... of discrete-valued observations is generated according to some unknown probabilistic law (measure) μ. After observing each outcome, it is required to give the conditional probabilities of the next observation. The measure μ belongs to an arbitrary but known class C of stochastic process measures. We are interested in predictors ρ whose conditional probabilities converge (in some sense) to the true μ-conditional probabilities, if any μ∈C is chosen to generate the sequence. The contribution of this work is in characterizing the families C for which such predictors exist, and in providing a specific and simple form in which to look for a solution. We show that if any predictor works, then there exists a Bayesian predictor, whose prior is discrete, and which works too. We also find several sufficient and necessary conditions for the existence of a predictor, in terms of topological characterizations of the family C, as well as in terms of local behaviour of the measures in C, which in some cases lead to procedures for constructing such predictors.
+
+It should be emphasized that the framework is completely general: the stochastic processes considered are not required to be i.i.d., stationary, or to belong to any parametric or countable family.},
+ author = {Daniil Ryabko},
+ journal = {Journal of Machine Learning Research},
+ number = {17},
+ openalex = {W2963498426},
+ pages = {581--602},
+ title = {On Finding Predictors for Arbitrary Families of Processes},
+ url = {http://jmlr.org/papers/v11/ryabko10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:schaul10a,
+ author = {Tom Schaul and Justin Bayer and Daan Wierstra and Yi Sun and Martin Felder and Frank Sehnke and Thomas R{{\"u}}ckstie&#223; and J{{\"u}}rgen Schmidhuber},
+ journal = {Journal of Machine Learning Research},
+ number = {24},
+ pages = {743--746},
+ title = {PyBrain},
+ url = {http://jmlr.org/papers/v11/schaul10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:segata10a,
+ abstract = {A computationally efficient approach to local learning with kernel methods is presented. The Fast Local Kernel Support Vector Machine (FaLK-SVM) trains a set of local SVMs on redundant neighbourhoods in the training set and an appropriate model for each query point is selected at testing time according to a proximity strategy. Supported by a recent result by Zakai and Ritov (2009) relating consistency and localizability, our approach achieves high classification accuracies by dividing the separation function in local optimisation problems that can be handled very efficiently from the computational viewpoint. The introduction of a fast local model selection further speeds-up the learning process. Learning and complexity bounds are derived for FaLK-SVM, and the empirical evaluation of the approach (with data sets up to 3 million points) showed that it is much faster and more accurate and scalable than state-of-the-art accurate and approximated SVM solvers at least for non high-dimensional data sets. More generally, we show that locality can be an important factor to sensibly speed-up learning approaches and kernel methods, differently from other recent techniques that tend to dismiss local information in order to improve scalability.},
+ author = {Nicola Segata and Enrico Blanzieri},
+ journal = {Journal of Machine Learning Research},
+ number = {64},
+ openalex = {W2096613134},
+ pages = {1883--1926},
+ title = {Fast and Scalable Local Kernel Machines},
+ url = {http://jmlr.org/papers/v11/segata10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:seldin10a,
+ abstract = {We derive PAC-Bayesian generalization bounds for supervised and unsupervised learning models based on clustering, such as co-clustering, matrix tri-factorization, graphical models, graph clustering, and pairwise clustering. We begin with the analysis of co-clustering, which is a widely used approach to the analysis of data matrices. We distinguish among two tasks in matrix data analysis: discriminative prediction of the missing entries in data matrices and estimation of the joint probability distribution of row and column variables in co-occurrence matrices. We derive PAC-Bayesian generalization bounds for the expected out-of-sample performance of co-clustering-based solutions for these two tasks. The analysis yields regularization terms that were absent in the previous formulations of co-clustering. The bounds suggest that the expected performance of co-clustering is governed by a trade-off between its empirical performance and the mutual information preserved by the cluster variables on row and column IDs. We derive an iterative projection algorithm for finding a local optimum of this trade-off for discriminative prediction tasks. This algorithm achieved state-of-the-art performance in the MovieLens collaborative filtering task. Our co-clustering model can also be seen as matrix tri-factorization and the results provide generalization bounds, regularization terms, and new algorithms for this form of matrix factorization. The analysis of co-clustering is extended to tree-shaped graphical models, which can be used to analyze high dimensional tensors. According to the bounds, the generalization abilities of tree-shaped graphical models depend on a trade-off between their empirical data fit and the mutual information that is propagated up the tree levels. We also formulate weighted graph clustering as a prediction problem: given a subset of edge weights we analyze the ability of graph clustering to predict the remaining edge weights. The analysis of co-clustering easily extends to this problem and suggests that graph clustering should optimize the trade-off between empirical data fit and the mutual information that clusters preserve on graph nodes.},
+ author = {Yevgeny Seldin and Naftali Tishby},
+ journal = {Journal of Machine Learning Research},
+ number = {117},
+ openalex = {W2119611763},
+ pages = {3595--3646},
+ title = {PAC-Bayesian Analysis of Co-clustering and Beyond},
+ url = {http://jmlr.org/papers/v11/seldin10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:shalev-shwartz10a,
+ abstract = {The problem of characterizing learnability is the most basic question of statistical learning theory. A fundamental and long-standing answer, at least for the case of supervised classification and regression, is that learnability is equivalent to uniform convergence of the empirical risk to the population risk, and that if a problem is learnable, it is learnable via empirical risk minimization. In this paper, we consider the General Learning Setting (introduced by Vapnik), which includes most statistical learning problems as special cases. We show that in this setting, there are non-trivial learning problems where uniform convergence does not hold, empirical risk minimization fails, and yet they are learnable using alternative mechanisms. Instead of uniform convergence, we identify stability as the key necessary and sufficient condition for learnability. Moreover, we show that the conditions for learnability in the general setting are significantly more complex than in supervised classification and regression.},
+ author = {Shai Shalev-Shwartz and Ohad Shamir and Nathan Srebro and Karthik Sridharan},
+ journal = {Journal of Machine Learning Research},
+ number = {90},
+ openalex = {W27434444},
+ pages = {2635--2670},
+ title = {Learnability, Stability and Uniform Convergence},
+ url = {http://jmlr.org/papers/v11/shalev-shwartz10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:shelton10a,
+ abstract = {We present a continuous time Bayesian network reasoning and learning engine (CTBN-RLE). A continuous time Bayesian network (CTBN) provides a compact (factored) description of a continuous-time Markov process. This software provides libraries and programs for most of the algorithms developed for CTBNs. For learning, CTBN-RLE implements structure and parameter learning for both complete and partial data. For inference, it implements exact inference and Gibbs and importance sampling approximate inference for any type of evidence pattern. Additionally, the library supplies visualization methods for graphically displaying CTBNs or trajectories of evidence.},
+ author = {Christian R. Shelton and Yu Fan and William Lam and Joon Lee and Jing Xu},
+ journal = {Journal of Machine Learning Research},
+ number = {37},
+ openalex = {W1645398407},
+ pages = {1137--1140},
+ title = {Continuous Time Bayesian Network Reasoning and Learning Engine},
+ url = {http://jmlr.org/papers/v11/shelton10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:shi10a,
+ author = {Jianing Shi and Wotao Yin and Stanley Osher and Paul Sajda},
+ journal = {Journal of Machine Learning Research},
+ number = {23},
+ pages = {713--741},
+ title = {A Fast Hybrid Algorithm for Large-Scale <i>l<sub>1</sub></i>-Regularized Logistic Regression},
+ url = {http://jmlr.org/papers/v11/shi10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:shivaswamy10a,
+ abstract = {Leading classification methods such as support vector machines (SVMs) and their counterparts achieve strong generalization performance by maximizing the margin of separation between data classes. While the maximum margin approach has achieved promising performance, this article identifies its sensitivity to affine transformations of the data and to directions with large data spread. Maximum margin solutions may be misled by the spread of data and preferentially separate classes along large spread directions. This article corrects these weaknesses by measuring margin not in the absolute sense but rather only relative to the spread of data in any projection direction. Maximum relative margin corresponds to a data-dependent regularization on the classification function while maximum absolute margin corresponds to an l2 norm constraint on the classification function. Interestingly, the proposed improvements only require simple extensions to existing maximum margin formulations and preserve the computational efficiency of SVMs. Through the maximization of relative margin, surprising performance gains are achieved on real-world problems such as digit, text classification and on several other benchmark data sets. In addition, risk bounds are derived for the new formulation based on Rademacher averages.},
+ author = {Pannagadatta K. Shivaswamy and Tony Jebara},
+ journal = {Journal of Machine Learning Research},
+ number = {25},
+ openalex = {W2118713255},
+ pages = {747--788},
+ title = {Maximum Relative Margin and Data-Dependent Regularization},
+ url = {http://jmlr.org/papers/v11/shivaswamy10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:sinz10a,
+ author = {Fabian Sinz and Matthias Bethge},
+ journal = {Journal of Machine Learning Research},
+ number = {111},
+ pages = {3409--3451},
+ title = {<i>L<sub>p</sub></i>-Nested Symmetric Distributions},
+ url = {http://jmlr.org/papers/v11/sinz10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:songsiri10a,
+ abstract = {An algorithm is presented for topology selection in graphical models of autoregressive Gaussian time series. The graph topology of the model represents the sparsity pattern of the inverse spectrum of the time series and characterizes conditional independence relations between the variables. The method proposed in the paper is based on an l1-type nonsmooth regularization of the conditional maximum likelihood estimation problem. We show that this reduces to a convex optimization problem and describe a large-scale algorithm that solves the dual problem via the gradient projection method. Results of experiments with randomly generated and real data sets are also included.},
+ author = {Jitkomut Songsiri and Lieven Vandenberghe},
+ journal = {Journal of Machine Learning Research},
+ number = {91},
+ openalex = {W2112856361},
+ pages = {2671--2705},
+ title = {Topology Selection in Graphical Models of Autoregressive Processes},
+ url = {http://jmlr.org/papers/v11/songsiri10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:sonnenburg10a,
+ abstract = {We have developed a machine learning toolbox, called SHOGUN, which is designed for unified large-scale learning for a broad range of feature types and learning settings. It offers a considerable number of machine learning models such as support vector machines, hidden Markov models, multiple kernel learning, linear discriminant analysis, and more. Most of the specific algorithms are able to deal with several different data classes. We have used this toolbox in several applications from computational biology, some of them coming with no less than 50 million training examples and others with 7 billion test examples. With more than a thousand installations worldwide, SHOGUN is already widely adopted in the machine learning community and beyond.
+
+SHOGUN is implemented in C++ and interfaces to MATLABTM, R, Octave, Python, and has a stand-alone command line interface. The source code is freely available under the GNU General Public License, Version 3 at http://www.shogun-toolbox.org.},
+ author = {S{{\"o}}ren Sonnenburg and Gunnar R&#228;tsch and Sebastian Henschel and Christian Widmer and Jonas Behr and Alexander Zien and Fabio de Bona and Alexander Binder and Christian Gehl and Vojt{{\ve}}ch Franc},
+ journal = {Journal of Machine Learning Research},
+ number = {60},
+ openalex = {W1571024744},
+ pages = {1799--1802},
+ title = {The SHOGUN Machine Learning Toolbox},
+ url = {http://jmlr.org/papers/v11/sonnenburg10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:spirtes10a,
+ abstract = {This paper summarizes recent advances in causal inference and underscores the paradigmatic shifts that must be undertaken in moving from traditional statistical analysis to causal analysis of multivariate data. Special emphasis is placed on the assumptions that underlie all causal inferences, the languages used in formulating those assumptions, the conditional nature of all causal and counterfactual claims, and the methods that have been developed for the assessment of such claims. These advances are illustrated using a general theory of causation based on the Structural Causal Model (SCM) described in Pearl (2000a), which subsumes and unifies other approaches to causation, and provides a coherent mathematical foundation for the analysis of causes and counterfactuals. In particular, the paper surveys the development of mathematical tools for inferring (from a combination of data and assumptions) answers to three types of causal queries: those about (1) the effects of potential interventions, (2) probabilities of counterfactuals, and (3) direct and indirect effects (also known as "mediation"). Finally, the paper defines the formal and conceptual relationships between the structural and potential-outcome frameworks and presents tools for a symbiotic analysis that uses the strong features of both. The tools are demonstrated in the analyses of mediation, causes of effects, and probabilities of causation.},
+ author = {Peter Spirtes},
+ journal = {Journal of Machine Learning Research},
+ number = {54},
+ openalex = {W2145429839},
+ pages = {1643--1662},
+ title = {An Introduction to Causal Inference},
+ url = {http://jmlr.org/papers/v11/spirtes10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:sriperumbudur10a,
+ abstract = {A Hilbert space embedding for probability measures has recently been proposed, with applications including dimensionality reduction, homogeneity testing, and independence testing. This embedding represents any probability measure as a mean element in a reproducing kernel Hilbert space (RKHS). A pseudometric on the space of probability measures can be defined as the distance between distribution embeddings: we denote this as γk, indexed by the kernel function k that defines the inner product in the RKHS.
+
+We present three theoretical properties of γk. First, we consider the question of determining the conditions on the kernel k for which γk is a metric: such k are denoted characteristic kernels. Unlike pseudometrics, a metric is zero only when two distributions coincide, thus ensuring the RKHS embedding maps all distributions uniquely (i.e., the embedding is injective). While previously published conditions may apply only in restricted circumstances (e.g., on compact domains), and are difficult to check, our conditions are straightforward and intuitive: integrally strictly positive definite kernels are characteristic. Alternatively, if a bounded continuous kernel is translation-invariant on ℜd, then it is characteristic if and only if the support of its Fourier transform is the entire ℜd. Second, we show that the distance between distributions under γk results from an interplay between the properties of the kernel and the distributions, by demonstrating that distributions are close in the embedding space when their differences occur at higher frequencies. Third, to understand the nature of the topology induced by γk, we relate γk to other popular metrics on probability measures, and present conditions on the kernel k under which γk metrizes the weak topology.},
+ author = {Bharath K. Sriperumbudur and Arthur Gretton and Kenji Fukumizu and Bernhard Sch{{\"o}}lkopf and Gert R.G. Lanckriet},
+ journal = {Journal of Machine Learning Research},
+ number = {50},
+ openalex = {W2124331852},
+ pages = {1517--1561},
+ title = {Hilbert Space Embeddings and Metrics on Probability Measures},
+ url = {http://jmlr.org/papers/v11/sriperumbudur10a.html},
+ volume = {11},
+ year = {2010}
+}
 
 @article{JMLR:v11:strumbelj10a,
-  author  = {Erik {\v{S}}trumbelj and Igor Kononenko},
-  title   = {An Efficient Explanation of Individual Classifications using Game Theory},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {1},
-  pages   = {1--18},
-  url     = {http://jmlr.org/papers/v11/strumbelj10a.html}
-}
-@article{JMLR:v11:mairal10a,
-  author  = {Julien Mairal and Francis Bach and Jean Ponce and Guillermo Sapiro},
-  title   = {Online Learning for Matrix Factorization and Sparse Coding},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {2},
-  pages   = {19--60},
-  url     = {http://jmlr.org/papers/v11/mairal10a.html}
-}
-@article{JMLR:v11:guyon10a,
-  author  = {Isabelle Guyon and Amir Saffari and Gideon Dror and Gavin Cawley},
-  title   = {Model Selection: Beyond the Bayesian/Frequentist Divide},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {3},
-  pages   = {61--87},
-  url     = {http://jmlr.org/papers/v11/guyon10a.html}
-}
-@article{JMLR:v11:gyorgy10a,
-  author  = {Andr{{\'a}}s Gy{{\"o}}rgy and G{{\'a}}bor Lugosi and Gy{{\"o}}rgy Ottucs&#224;k},
-  title   = {On-Line Sequential Bin Packing},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {4},
-  pages   = {89--109},
-  url     = {http://jmlr.org/papers/v11/gyorgy10a.html}
-}
-@article{JMLR:v11:yuan10a,
-  author  = {Ming Yuan and Marten Wegkamp},
-  title   = {Classification Methods with Reject Option Based on Convex Risk Minimization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {5},
-  pages   = {111--130},
-  url     = {http://jmlr.org/papers/v11/yuan10a.html}
-}
-@article{JMLR:v11:ding10a,
-  author  = {Yufeng Ding and Jeffrey S. Simonoff},
-  title   = {An Investigation of Missing Data Methods for Classification Trees Applied to Binary Response Data},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {6},
-  pages   = {131--170},
-  url     = {http://jmlr.org/papers/v11/ding10a.html}
-}
-@article{JMLR:v11:aliferis10a,
-  author  = {Constantin F. Aliferis and Alexander Statnikov and Ioannis Tsamardinos and Subramani Mani and Xenofon D. Koutsoukos},
-  title   = {Local Causal and Markov Blanket Induction for Causal Discovery and Feature Selection for Classification Part I: Algorithms and Empirical Evaluation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {7},
-  pages   = {171--234},
-  url     = {http://jmlr.org/papers/v11/aliferis10a.html}
-}
-@article{JMLR:v11:aliferis10b,
-  author  = {Constantin F. Aliferis and Alexander Statnikov and Ioannis Tsamardinos and Subramani Mani and Xenofon D. Koutsoukos},
-  title   = {Local Causal and Markov Blanket Induction for Causal Discovery and Feature Selection for Classification Part II: Analysis and Extensions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {8},
-  pages   = {235--284},
-  url     = {http://jmlr.org/papers/v11/aliferis10b.html}
-}
-@article{JMLR:v11:kojima10a,
-  author  = {Kaname Kojima and Eric Perrier and Seiya Imoto and Satoru Miyano},
-  title   = {Optimal Search on Clustered Structural Constraint for Learning Bayesian Network Structure},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {9},
-  pages   = {285--310},
-  url     = {http://jmlr.org/papers/v11/kojima10a.html}
-}
-@article{JMLR:v11:teo10a,
-  author  = {Choon Hui Teo and S.V.N. Vishwanthan and Alex J. Smola and Quoc V. Le},
-  title   = {Bundle Methods for Regularized Risk Minimization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {10},
-  pages   = {311--365},
-  url     = {http://jmlr.org/papers/v11/teo10a.html}
-}
-@article{JMLR:v11:dicastro10a,
-  author  = {Dotan Di Castro and Ron Meir},
-  title   = {A Convergent Online Single Time Scale Actor Critic Algorithm},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {11},
-  pages   = {367--410},
-  url     = {http://jmlr.org/papers/v11/dicastro10a.html}
-}
-@article{JMLR:v11:mordohai10a,
-  author  = {Philippos Mordohai and G{{\'e}}rard Medioni},
-  title   = {Dimensionality Estimation, Manifold Learning and Function Approximation using Tensor Voting},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {12},
-  pages   = {411--450},
-  url     = {http://jmlr.org/papers/v11/mordohai10a.html}
-}
-@article{JMLR:v11:venna10a,
-  author  = {Jarkko Venna and Jaakko Peltonen and Kristian Nybo and Helena Aidos and Samuel Kaski},
-  title   = {Information Retrieval Perspective to Nonlinear Dimensionality Reduction for Data Visualization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {13},
-  pages   = {451--490},
-  url     = {http://jmlr.org/papers/v11/venna10a.html}
-}
-@article{JMLR:v11:varshney10a,
-  author  = {Kush R. Varshney and Alan S. Willsky},
-  title   = {Classification Using Geometric Level Sets},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {14},
-  pages   = {491--516},
-  url     = {http://jmlr.org/papers/v11/varshney10a.html}
-}
-@article{JMLR:v11:journee10a,
-  author  = {Michel Journ{{\'e}}e and Yurii Nesterov and Peter Richt{{\'a}}rik and Rodolphe Sepulchre},
-  title   = {Generalized Power Method for Sparse Principal Component Analysis},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {15},
-  pages   = {517--553},
-  url     = {http://jmlr.org/papers/v11/journee10a.html}
-}
-@article{JMLR:v11:rieck10a,
-  author  = {Konrad Rieck and Tammo Krueger and Ulf Brefeld and Klaus-Robert M{{\"u}}ller},
-  title   = {Approximate Tree Kernels},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {16},
-  pages   = {555--580},
-  url     = {http://jmlr.org/papers/v11/rieck10a.html}
-}
-@article{JMLR:v11:ryabko10a,
-  author  = {Daniil Ryabko},
-  title   = {On Finding Predictors for Arbitrary Families of Processes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {17},
-  pages   = {581--602},
-  url     = {http://jmlr.org/papers/v11/ryabko10a.html}
-}
-@article{JMLR:v11:perry10a,
-  author  = {Patrick O. Perry and Art B. Owen},
-  title   = {A Rotation Test to Verify Latent Structure},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {18},
-  pages   = {603--624},
-  url     = {http://jmlr.org/papers/v11/perry10a.html}
-}
-@article{JMLR:v11:erhan10a,
-  author  = {Dumitru Erhan and Yoshua Bengio and Aaron Courville and Pierre-Antoine Manzagol and Pascal Vincent and Samy Bengio},
-  title   = {Why Does Unsupervised Pre-training Help Deep Learning?},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {19},
-  pages   = {625--660},
-  url     = {http://jmlr.org/papers/v11/erhan10a.html}
-}
-@article{JMLR:v11:escalera10a,
-  author  = {Sergio Escalera and Oriol Pujol and Petia Radeva},
-  title   = {Error-Correcting Output Codes Library},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {20},
-  pages   = {661--664},
-  url     = {http://jmlr.org/papers/v11/escalera10a.html}
-}
-@article{JMLR:v11:christoforou10a,
-  author  = {Christoforos Christoforou and Robert Haralick and Paul Sajda and Lucas C. Parra},
-  title   = {Second-Order Bilinear Discriminant Analysis},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {21},
-  pages   = {665--685},
-  url     = {http://jmlr.org/papers/v11/christoforou10a.html}
-}
-@article{JMLR:v11:biau10a,
-  author  = {G{{\'e}}rard Biau and Fr{{\'e}}d{{\'e}}ric C{{\'e}}rou and Arnaud Guyader},
-  title   = {On the Rate of Convergence of the Bagged Nearest Neighbor Estimate},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {22},
-  pages   = {687--712},
-  url     = {http://jmlr.org/papers/v11/biau10a.html}
-}
-@article{JMLR:v11:shi10a,
-  author  = {Jianing Shi and Wotao Yin and Stanley Osher and Paul Sajda},
-  title   = {A Fast Hybrid Algorithm for Large-Scale <i>l<sub>1</sub></i>-Regularized Logistic Regression},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {23},
-  pages   = {713--741},
-  url     = {http://jmlr.org/papers/v11/shi10a.html}
-}
-@article{JMLR:v11:schaul10a,
-  author  = {Tom Schaul and Justin Bayer and Daan Wierstra and Yi Sun and Martin Felder and Frank Sehnke and Thomas R{{\"u}}ckstie&#223; and J{{\"u}}rgen Schmidhuber},
-  title   = {PyBrain},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {24},
-  pages   = {743--746},
-  url     = {http://jmlr.org/papers/v11/schaul10a.html}
-}
-@article{JMLR:v11:shivaswamy10a,
-  author  = {Pannagadatta K. Shivaswamy and Tony Jebara},
-  title   = {Maximum Relative Margin and Data-Dependent Regularization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {25},
-  pages   = {747--788},
-  url     = {http://jmlr.org/papers/v11/shivaswamy10a.html}
-}
-@article{JMLR:v11:mohri10a,
-  author  = {Mehryar Mohri and Afshin Rostamizadeh},
-  title   = {Stability Bounds for Stationary &#966;-mixing and &#946;-mixing Processes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {26},
-  pages   = {789--814},
-  url     = {http://jmlr.org/papers/v11/mohri10a.html}
-}
-@article{JMLR:v11:huang10a,
-  author  = {Fang-Lan Huang and Cho-Jui Hsieh and Kai-Wei Chang and Chih-Jen Lin},
-  title   = {Iterative Scaling and Coordinate Descent Methods for Maximum Entropy Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {27},
-  pages   = {815--848},
-  url     = {http://jmlr.org/papers/v11/huang10a.html}
-}
-@article{JMLR:v11:ben-haim10a,
-  author  = {Yael Ben-Haim and Elad Tom-Tov},
-  title   = {A Streaming Parallel Decision Tree Algorithm},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {28},
-  pages   = {849--872},
-  url     = {http://jmlr.org/papers/v11/ben-haim10a.html}
-}
-@article{JMLR:v11:laparra10a,
-  author  = {Valero Laparra and Juan Guti{{\'e}}rrez and Gustavo Camps-Valls and Jes&#250;s Malo},
-  title   = {Image Denoising with Kernels Based on Natural Image Relations},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {29},
-  pages   = {873--903},
-  url     = {http://jmlr.org/papers/v11/laparra10a.html}
-}
-@article{JMLR:v11:rosasco10a,
-  author  = {Lorenzo Rosasco and Mikhail Belkin and Ernesto De Vito},
-  title   = {On Learning with Integral Operators},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {30},
-  pages   = {905--934},
-  url     = {http://jmlr.org/papers/v11/rosasco10a.html}
-}
-@article{JMLR:v11:argyriou10a,
-  author  = {Andreas Argyriou and Charles A. Micchelli and Massimiliano Pontil},
-  title   = {On Spectral Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {31},
-  pages   = {935--953},
-  url     = {http://jmlr.org/papers/v11/argyriou10a.html}
-}
-@article{JMLR:v11:mann10a,
-  author  = {Gideon S. Mann and Andrew McCallum},
-  title   = {Generalized Expectation Criteria for Semi-Supervised Learning with Weakly Labeled Data},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {32},
-  pages   = {955--984},
-  url     = {http://jmlr.org/papers/v11/mann10a.html}
-}
-@article{JMLR:v11:leskovec10a,
-  author  = {Jure Leskovec and Deepayan Chakrabarti and Jon Kleinberg and Christos Faloutsos and Zoubin Ghahramani},
-  title   = {Kronecker Graphs: An Approach to Modeling Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {33},
-  pages   = {985--1042},
-  url     = {http://jmlr.org/papers/v11/leskovec10a.html}
-}
-@article{JMLR:v11:ravikumar10a,
-  author  = {Pradeep Ravikumar and Alekh Agarwal and Martin J. Wainwright},
-  title   = {Message-passing for Graph-structured Linear Programs: Proximal Methods and Rounding Schemes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {34},
-  pages   = {1043--1080},
-  url     = {http://jmlr.org/papers/v11/ravikumar10a.html}
-}
-@article{JMLR:v11:zhang10a,
-  author  = {Tong Zhang},
-  title   = {Analysis of Multi-stage Convex Relaxation for Sparse Regularization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {35},
-  pages   = {1081--1107},
-  url     = {http://jmlr.org/papers/v11/zhang10a.html}
-}
-@article{JMLR:v11:chechik10a,
-  author  = {Gal Chechik and Varun Sharma and Uri Shalit and Samy Bengio},
-  title   = {Large Scale Online Learning of Image Similarity Through Ranking},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {36},
-  pages   = {1109--1135},
-  url     = {http://jmlr.org/papers/v11/chechik10a.html}
-}
-@article{JMLR:v11:shelton10a,
-  author  = {Christian R. Shelton and Yu Fan and William Lam and Joon Lee and Jing Xu},
-  title   = {Continuous Time Bayesian Network Reasoning and Learning Engine},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {37},
-  pages   = {1137--1140},
-  url     = {http://jmlr.org/papers/v11/shelton10a.html}
-}
-@article{JMLR:v11:krause10a,
-  author  = {Andreas Krause},
-  title   = {SFO: A Toolbox for Submodular Function Optimization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {38},
-  pages   = {1141--1144},
-  url     = {http://jmlr.org/papers/v11/krause10a.html}
-}
-@article{JMLR:v11:yu10a,
-  author  = {Jin Yu and S.V.N. Vishwanathan and Simon G{{\"u}}nter and Nicol N. Schraudolph},
-  title   = {A Quasi-Newton Approach to Nonsmooth Convex Optimization Problems in Machine Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {39},
-  pages   = {1145--1200},
-  url     = {http://jmlr.org/papers/v11/yu10a.html}
-}
-@article{JMLR:v11:vishwanathan10a,
-  author  = {S.V.N. Vishwanathan and Nicol N. Schraudolph and Risi Kondor and Karsten M. Borgwardt},
-  title   = {Graph Kernels},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {40},
-  pages   = {1201--1242},
-  url     = {http://jmlr.org/papers/v11/vishwanathan10a.html}
-}
-@article{JMLR:v11:aoyagi10a,
-  author  = {Miki Aoyagi},
-  title   = {Stochastic Complexity and Generalization Error of a Restricted Boltzmann Machine in Bayesian Estimation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {41},
-  pages   = {1243--1272},
-  url     = {http://jmlr.org/papers/v11/aoyagi10a.html}
-}
-@article{JMLR:v11:gomez10a,
-  author  = {Vicen{\c{c}} G{{\'o}}mez and Hilbert J. Kappen and Michael Chertkov},
-  title   = {Approximate Inference on Planar Graphs using Loop Calculus and Belief Propagation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {42},
-  pages   = {1273--1296},
-  url     = {http://jmlr.org/papers/v11/gomez10a.html}
-}
-@article{JMLR:v11:raykar10a,
-  author  = {Vikas C. Raykar and Shipeng Yu and Linda H. Zhao and Gerardo Hermosillo Valadez and Charles Florin and Luca Bogoni and Linda Moy},
-  title   = {Learning From Crowds},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {43},
-  pages   = {1297--1322},
-  url     = {http://jmlr.org/papers/v11/raykar10a.html}
-}
-@article{JMLR:v11:donmez10a,
-  author  = {Pinar Donmez and Guy Lebanon and Krishnakumar Balasubramanian},
-  title   = {Unsupervised Supervised Learning I: Estimating Classification and Regression Errors without Labels},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {44},
-  pages   = {1323--1351},
-  url     = {http://jmlr.org/papers/v11/donmez10a.html}
-}
-@article{JMLR:v11:ghiasi-shirazi10a,
-  author  = {Kamaledin Ghiasi-Shirazi and Reza Safabakhsh and Mostafa Shamsi},
-  title   = {Learning Translation Invariant Kernels for Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {45},
-  pages   = {1353--1390},
-  url     = {http://jmlr.org/papers/v11/ghiasi-shirazi10a.html}
-}
-@article{JMLR:v11:gretton10a,
-  author  = {Arthur Gretton and L{{\'a}}szl{{\'o}} Gy{{\"o}}rfi},
-  title   = {Consistent Nonparametric Tests of Independence},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {46},
-  pages   = {1391--1423},
-  url     = {http://jmlr.org/papers/v11/gretton10a.html}
-}
-@article{JMLR:v11:carlsson10a,
-  author  = {Gunnar Carlsson and Facundo M{{\'e}}moli},
-  title   = {Characterization, Stability and Convergence of Hierarchical Clustering Methods},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {47},
-  pages   = {1425--1470},
-  url     = {http://jmlr.org/papers/v11/carlsson10a.html}
-}
-@article{JMLR:v11:chang10a,
-  author  = {Yin-Wen Chang and Cho-Jui Hsieh and Kai-Wei Chang and Michael Ringgaard and Chih-Jen Lin},
-  title   = {Training and Testing Low-degree Polynomial Data Mappings via Linear SVM},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {48},
-  pages   = {1471--1490},
-  url     = {http://jmlr.org/papers/v11/chang10a.html}
-}
-@article{JMLR:v11:rodriguez-lujan10a,
-  author  = {Irene Rodriguez-Lujan and Ramon Huerta and Charles Elkan and Carlos Santa Cruz},
-  title   = {Quadratic Programming Feature Selection},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {49},
-  pages   = {1491--1516},
-  url     = {http://jmlr.org/papers/v11/rodriguez-lujan10a.html}
-}
-@article{JMLR:v11:sriperumbudur10a,
-  author  = {Bharath K. Sriperumbudur and Arthur Gretton and Kenji Fukumizu and Bernhard Sch{{\"o}}lkopf and Gert R.G. Lanckriet},
-  title   = {Hilbert Space Embeddings and Metrics on Probability Measures},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {50},
-  pages   = {1517--1561},
-  url     = {http://jmlr.org/papers/v11/sriperumbudur10a.html}
-}
-@article{JMLR:v11:jaksch10a,
-  author  = {Thomas Jaksch and Ronald Ortner and Peter Auer},
-  title   = {Near-optimal Regret Bounds for Reinforcement Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {51},
-  pages   = {1563--1600},
-  url     = {http://jmlr.org/papers/v11/jaksch10a.html}
-}
-@article{JMLR:v11:bifet10a,
-  author  = {Albert Bifet and Geoff Holmes and Richard Kirkby and Bernhard Pfahringer},
-  title   = {MOA: Massive Online Analysis},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {52},
-  pages   = {1601--1604},
-  url     = {http://jmlr.org/papers/v11/bifet10a.html}
-}
-@article{JMLR:v11:el-yaniv10a,
-  author  = {Ran El-Yaniv and Yair Wiener},
-  title   = {On the Foundations of Noise-free Selective Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {53},
-  pages   = {1605--1641},
-  url     = {http://jmlr.org/papers/v11/el-yaniv10a.html}
-}
-@article{JMLR:v11:spirtes10a,
-  author  = {Peter Spirtes},
-  title   = {Introduction to Causal Inference},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {54},
-  pages   = {1643--1662},
-  url     = {http://jmlr.org/papers/v11/spirtes10a.html}
-}
-@article{JMLR:v11:forero10a,
-  author  = {Pedro A. Forero and Alfonso Cano and Georgios B. Giannakis},
-  title   = {Consensus-Based Distributed Support Vector Machines},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {55},
-  pages   = {1663--1707},
-  url     = {http://jmlr.org/papers/v11/forero10a.html}
-}
-@article{JMLR:v11:hyvarinen10a,
-  author  = {Aapo Hyv{{\"a}}rinen and Kun Zhang and Shohei Shimizu and Patrik O. Hoyer},
-  title   = {Estimation of a Structural Vector Autoregression Model Using Non-Gaussianity},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {56},
-  pages   = {1709--1731},
-  url     = {http://jmlr.org/papers/v11/hyvarinen10a.html}
-}
-@article{JMLR:v11:jaimovich10a,
-  author  = {Ariel Jaimovich and Ofer Meshi and Ian McGraw and Gal Elidan},
-  title   = {FastInf: An Efficient Approximate Inference Library},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {57},
-  pages   = {1733--1736},
-  url     = {http://jmlr.org/papers/v11/jaimovich10a.html}
-}
-@article{JMLR:v11:verbancsics10a,
-  author  = {Phillip Verbancsics and Kenneth O. Stanley},
-  title   = {Evolving Static Representations for Task Transfer},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {58},
-  pages   = {1737--1769},
-  url     = {http://jmlr.org/papers/v11/verbancsics10a.html}
-}
-@article{JMLR:v11:yoshida10a,
-  author  = {Ryo Yoshida and Mike West},
-  title   = {Bayesian Learning in Sparse Graphical Factor Models via Variational Mean-Field Annealing},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {59},
-  pages   = {1771--1798},
-  url     = {http://jmlr.org/papers/v11/yoshida10a.html}
-}
-@article{JMLR:v11:sonnenburg10a,
-  author  = {S{{\"o}}ren Sonnenburg and Gunnar R&#228;tsch and Sebastian Henschel and Christian Widmer and Jonas Behr and Alexander Zien and Fabio de Bona and Alexander Binder and Christian Gehl and Vojt{{\ve}}ch Franc},
-  title   = {The SHOGUN Machine Learning Toolbox},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {60},
-  pages   = {1799--1802},
-  url     = {http://jmlr.org/papers/v11/sonnenburg10a.html}
-}
-@article{JMLR:v11:baehrens10a,
-  author  = {David Baehrens and Timon Schroeter and Stefan Harmeling and Motoaki Kawanabe and Katja Hansen and Klaus-Robert M{{\"u}}ller},
-  title   = {How to Explain Individual Classification Decisions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {61},
-  pages   = {1803--1831},
-  url     = {http://jmlr.org/papers/v11/baehrens10a.html}
-}
-@article{JMLR:v11:ojala10a,
-  author  = {Markus Ojala and Gemma C. Garriga},
-  title   = {Permutation Tests for Studying Classifier Performance},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {62},
-  pages   = {1833--1863},
-  url     = {http://jmlr.org/papers/v11/ojala10a.html}
-}
-@article{JMLR:v11:lazaro-gredilla10a,
-  author  = {Miguel L{{\'a}}zaro-Gredilla and Joaquin Qui{{\~n}}nero-Candela and Carl Edward Rasmussen and An&#237;bal R. Figueiras-Vidal},
-  title   = {Sparse Spectrum Gaussian Process Regression},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {63},
-  pages   = {1865--1881},
-  url     = {http://jmlr.org/papers/v11/lazaro-gredilla10a.html}
-}
-@article{JMLR:v11:segata10a,
-  author  = {Nicola Segata and Enrico Blanzieri},
-  title   = {Fast and Scalable Local Kernel Machines},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {64},
-  pages   = {1883--1926},
-  url     = {http://jmlr.org/papers/v11/segata10a.html}
-}
-@article{JMLR:v11:ralaivola10a,
-  author  = {Liva Ralaivola and Marie Szafranski and Guillaume Stempfel},
-  title   = {Chromatic PAC-Bayes Bounds for Non-IID Data: Applications to Ranking and Stationary &#946;-Mixing Processes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {65},
-  pages   = {1927--1956},
-  url     = {http://jmlr.org/papers/v11/ralaivola10a.html}
-}
-@article{JMLR:v11:ilin10a,
-  author  = {Alexander Ilin and Tapani Raiko},
-  title   = {Practical Approaches to Principal Component Analysis in the Presence of Missing Values},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {66},
-  pages   = {1957--2000},
-  url     = {http://jmlr.org/papers/v11/ilin10a.html}
-}
-@article{JMLR:v11:ganchev10a,
-  author  = {Kuzman Ganchev and Jo&#227;o Gra{\c{c}}a and Jennifer Gillenwater and Ben Taskar},
-  title   = {Posterior Regularization for Structured Latent Variable Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {67},
-  pages   = {2001--2049},
-  url     = {http://jmlr.org/papers/v11/ganchev10a.html}
-}
-@article{JMLR:v11:gorissen10a,
-  author  = {Dirk Gorissen and Ivo Couckuyt and Piet Demeester and Tom Dhaene and Karel Crombecq},
-  title   = {A Surrogate Modeling and Adaptive Sampling Toolbox for Computer Based Design},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {68},
-  pages   = {2051--2055},
-  url     = {http://jmlr.org/papers/v11/gorissen10a.html}
-}
-@article{JMLR:v11:keshavan10a,
-  author  = {Raghunandan H. Keshavan and Andrea Montanari and Sewoong Oh},
-  title   = {Matrix Completion from  Noisy Entries},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {69},
-  pages   = {2057--2078},
-  url     = {http://jmlr.org/papers/v11/keshavan10a.html}
-}
-@article{JMLR:v11:cawley10a,
-  author  = {Gavin C. Cawley and Nicola L. C. Talbot},
-  title   = {On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {70},
-  pages   = {2079--2107},
-  url     = {http://jmlr.org/papers/v11/cawley10a.html}
-}
-@article{JMLR:v11:hothorn10a,
-  author  = {Torsten Hothorn and Peter B{{\"u}}hlmann and Thomas Kneib and Matthias Schmid and Benjamin Hofner},
-  title   = {Model-based Boosting 2.0},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {71},
-  pages   = {2109--2113},
-  url     = {http://jmlr.org/papers/v11/hothorn10a.html}
-}
-@article{JMLR:v11:fan10a,
-  author  = {Yu Fan and Jing Xu and Christian R. Shelton},
-  title   = {Importance Sampling for Continuous Time Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {72},
-  pages   = {2115--2140},
-  url     = {http://jmlr.org/papers/v11/fan10a.html}
-}
-@article{JMLR:v11:yu10b,
-  author  = {Guoqiang Yu and Yuanjian Feng and David J. Miller and Jianhua Xuan and Eric P. Hoffman and Robert Clarke and Ben Davidson and Ie-Ming Shih and Yue Wang},
-  title   = {Matched Gene Selection and Committee Classifier for Molecular Classification of Heterogeneous Diseases},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {73},
-  pages   = {2141--2167},
-  url     = {http://jmlr.org/papers/v11/yu10b.html}
-}
-@article{JMLR:v11:mooij10a,
-  author  = {Joris M. Mooij},
-  title   = {libDAI: A Free and Open Source C++ Library for Discrete Approximate Inference in Graphical Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {74},
-  pages   = {2169--2173},
-  url     = {http://jmlr.org/papers/v11/mooij10a.html}
-}
-@article{JMLR:v11:wu10a,
-  author  = {Qiang Wu and Justin Guinney and Mauro Maggioni and Sayan Mukherjee},
-  title   = {Learning Gradients: Predictive Models that Infer Geometry and Statistical Dependence},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {75},
-  pages   = {2175--2198},
-  url     = {http://jmlr.org/papers/v11/wu10a.html}
-}
-@article{JMLR:v11:zhang10b,
-  author  = {Zhihua Zhang and Guang Dai and Congfu Xu and Michael I. Jordan},
-  title   = {Regularized Discriminant Analysis, Ridge Regression and Beyond},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {76},
-  pages   = {2199--2228},
-  url     = {http://jmlr.org/papers/v11/zhang10b.html}
-}
-@article{JMLR:v11:bordes10a,
-  author  = {Antoine Bordes and L{{\'e}}on Bottou and Patrick Gallinari and Jonathan Chang and S. Alex Smith},
-  title   = {Erratum: SGDQN is Less Careful than Expected},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {77},
-  pages   = {2229--2240},
-  url     = {http://jmlr.org/papers/v11/bordes10a.html}
-}
-@article{JMLR:v11:raskutti10a,
-  author  = {Garvesh Raskutti and Martin J. Wainwright and Bin Yu},
-  title   = {Restricted Eigenvalue Properties for Correlated Gaussian Designs},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {78},
-  pages   = {2241--2259},
-  url     = {http://jmlr.org/papers/v11/raskutti10a.html}
-}
-@article{JMLR:v11:yuan10b,
-  author  = {Ming Yuan},
-  title   = {High Dimensional Inverse Covariance Matrix Estimation via Linear Programming},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {79},
-  pages   = {2261--2286},
-  url     = {http://jmlr.org/papers/v11/yuan10b.html}
-}
-@article{JMLR:v11:mazumder10a,
-  author  = {Rahul Mazumder and Trevor Hastie and Robert Tibshirani},
-  title   = {Spectral Regularization Algorithms for Learning Large Incomplete Matrices},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {80},
-  pages   = {2287--2322},
-  url     = {http://jmlr.org/papers/v11/mazumder10a.html}
-}
-@article{JMLR:v11:pernkopf10a,
-  author  = {Franz Pernkopf and Jeff A. Bilmes},
-  title   = {Efficient Heuristics for Discriminative Structure Learning of Bayesian Network Classifiers},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {81},
-  pages   = {2323--2360},
-  url     = {http://jmlr.org/papers/v11/pernkopf10a.html}
-}
-@article{JMLR:v11:omidiran10a,
-  author  = {Dapo Omidiran and Martin J. Wainwright},
-  title   = {High-dimensional Variable Selection with Sparse Random Projections: Measurement Sparsity and Statistical Efficiency},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {82},
-  pages   = {2361--2386},
-  url     = {http://jmlr.org/papers/v11/omidiran10a.html}
-}
-@article{JMLR:v11:reid10a,
-  author  = {Mark D. Reid and Robert C. Williamson},
-  title   = {Composite Binary Losses},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {83},
-  pages   = {2387--2422},
-  url     = {http://jmlr.org/papers/v11/reid10a.html}
-}
+ abstract = {We present a general method for explaining individual predictions of classification models. The method is based on fundamental concepts from coalitional game theory and predictions are explained wi...},
+ author = {Erik {\v{S}}trumbelj and Igor Kononenko},
+ journal = {Journal of Machine Learning Research},
+ number = {1},
+ openalex = {W3007590609},
+ pages = {1--18},
+ title = {An Efficient Explanation of Individual Classifications using Game Theory},
+ url = {http://jmlr.org/papers/v11/strumbelj10a.html},
+ volume = {11},
+ year = {2010}
+}
+
 @article{JMLR:v11:sun10a,
-  author  = {Shiliang Sun and John Shawe-Taylor},
-  title   = {Sparse Semi-supervised Learning Using Conjugate Functions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {84},
-  pages   = {2423--2455},
-  url     = {http://jmlr.org/papers/v11/sun10a.html}
+ abstract = {In this paper, we propose a general framework for sparse semi-supervised learning, which concerns using a small portion of unlabeled data and a few labeled data to represent target functions and thus has the merit of accelerating function evaluations when predicting the output of a new example. This framework makes use of Fenchel-Legendre conjugates to rewrite a convex insensitive loss involving a regularization with unlabeled data, and is applicable to a family of semi-supervised learning methods such as multi-view co-regularized least squares and single-view Laplacian support vector machines (SVMs). As an instantiation of this framework, we propose sparse multi-view SVMs which use a squared e-insensitive loss. The resultant optimization is an inf-sup problem and the optimal solutions have arguably saddle-point properties. We present a globally optimal iterative algorithm to optimize the problem. We give the margin bound on the generalization error of the sparse multi-view SVMs, and derive the empirical Rademacher complexity for the induced function class. Experiments on artificial and real-world data show their effectiveness. We further give a sequential training approach to show their possibility and potential for uses in large-scale problems and provide encouraging experimental results indicating the efficacy of the margin bound and empirical Rademacher complexity on characterizing the roles of unlabeled data for semi-supervised learning.},
+ author = {Shiliang Sun and John Shawe-Taylor},
+ journal = {Journal of Machine Learning Research},
+ number = {84},
+ openalex = {W2160158899},
+ pages = {2423--2455},
+ title = {Sparse Semi-supervised Learning Using Conjugate Functions},
+ url = {http://jmlr.org/papers/v11/sun10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:koltchinskii10a,
-  author  = {Vladimir Koltchinskii},
-  title   = {Rademacher Complexities and Bounding the Excess Risk in Active Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {85},
-  pages   = {2457--2485},
-  url     = {http://jmlr.org/papers/v11/koltchinskii10a.html}
+
+@article{JMLR:v11:teo10a,
+ abstract = {A wide variety of machine learning problems can be described as minimizing a regularized risk functional, with different algorithms using different notions of risk and different regularizers. Examples include linear Support Vector Machines (SVMs), Gaussian Processes, Logistic Regression, Conditional Random Fields (CRFs), and Lasso amongst others. This paper describes the theory and implementation of a scalable and modular convex solver which solves all these estimation problems. It can be parallelized on a cluster of workstations, allows for data-locality, and can deal with regularizers such as L1 and L2 penalties. In addition to the unified framework we present tight convergence bounds, which show that our algorithm converges in O(1/e) steps to e precision for general convex problems and in O(log (1/e)) steps for continuously differentiable problems. We demonstrate the performance of our general purpose solver on a variety of publicly available data sets.},
+ author = {Choon Hui Teo and S.V.N. Vishwanthan and Alex J. Smola and Quoc V. Le},
+ journal = {Journal of Machine Learning Research},
+ number = {10},
+ openalex = {W2115364117},
+ pages = {311--365},
+ title = {Bundle Methods for Regularized Risk Minimization},
+ url = {http://jmlr.org/papers/v11/teo10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:radovanovic10a,
-  author  = {Milo{\v{s}} Radovanovi&#263; and Alexandros Nanopoulos and Mirjana Ivanovi&#263;},
-  title   = {Hubs in Space: Popular Nearest Neighbors in High-Dimensional Data},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {86},
-  pages   = {2487--2531},
-  url     = {http://jmlr.org/papers/v11/radovanovic10a.html}
-}
-@article{JMLR:v11:bouckaert10a,
-  author  = {Remco R. Bouckaert and Eibe Frank and Mark A. Hall and Geoffrey Holmes and Bernhard Pfahringer and Peter Reutemann and Ian H. Witten},
-  title   = {WEKA&minus;Experiences with a Java Open-Source Project},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {87},
-  pages   = {2533--2541},
-  url     = {http://jmlr.org/papers/v11/bouckaert10a.html}
-}
-@article{JMLR:v11:xiao10a,
-  author  = {Lin Xiao},
-  title   = {Dual Averaging Methods for Regularized Stochastic Learning and Online Optimization},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {88},
-  pages   = {2543--2596},
-  url     = {http://jmlr.org/papers/v11/xiao10a.html}
-}
-@article{JMLR:v11:dillon10a,
-  author  = {Joshua V. Dillon and Guy Lebanon},
-  title   = {Stochastic Composite Likelihood},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {89},
-  pages   = {2597--2633},
-  url     = {http://jmlr.org/papers/v11/dillon10a.html}
-}
-@article{JMLR:v11:shalev-shwartz10a,
-  author  = {Shai Shalev-Shwartz and Ohad Shamir and Nathan Srebro and Karthik Sridharan},
-  title   = {Learnability, Stability and Uniform Convergence},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {90},
-  pages   = {2635--2670},
-  url     = {http://jmlr.org/papers/v11/shalev-shwartz10a.html}
-}
-@article{JMLR:v11:songsiri10a,
-  author  = {Jitkomut Songsiri and Lieven Vandenberghe},
-  title   = {Topology Selection in Graphical Models of Autoregressive Processes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {91},
-  pages   = {2671--2705},
-  url     = {http://jmlr.org/papers/v11/songsiri10a.html}
-}
-@article{JMLR:v11:clark10a,
-  author  = {Alexander Clark and R{{\'e}}mi Eyraud and Amaury Habrard},
-  title   = {Using Contextual Representations to Efficiently Learn Context-Free Languages},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {92},
-  pages   = {2707--2744},
-  url     = {http://jmlr.org/papers/v11/clark10a.html}
-}
-@article{JMLR:v11:cohn10a,
-  author  = {Ido Cohn and Tal El-Hay and Nir Friedman and Raz Kupferman},
-  title   = {Mean Field Variational Approximation for Continuous-Time Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {93},
-  pages   = {2745--2783},
-  url     = {http://jmlr.org/papers/v11/cohn10a.html}
-}
-@article{JMLR:v11:audibert10a,
-  author  = {Jean-Yves Audibert and S{{\'e}}bastien Bubeck},
-  title   = {Regret Bounds and Minimax Policies under Partial Monitoring},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {94},
-  pages   = {2785--2836},
-  url     = {http://jmlr.org/papers/v11/audibert10a.html}
-}
-@article{JMLR:v11:vinh10a,
-  author  = {Nguyen Xuan Vinh and Julien Epps and James Bailey},
-  title   = {Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {95},
-  pages   = {2837--2854},
-  url     = {http://jmlr.org/papers/v11/vinh10a.html}
-}
-@article{JMLR:v11:lucke10a,
-  author  = {J{{\"o}}rg L{{\"u}}cke and Julian Eggert},
-  title   = {Expectation Truncation and the Benefits of Preselection In Training Generative Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {96},
-  pages   = {2855--2900},
-  url     = {http://jmlr.org/papers/v11/lucke10a.html}
-}
-@article{JMLR:v11:cavallanti10a,
-  author  = {Giovanni Cavallanti and Nicol{{\'o}} Cesa-Bianchi and Claudio Gentile},
-  title   = {Linear Algorithms for Online Multitask Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {97},
-  pages   = {2901--2934},
-  url     = {http://jmlr.org/papers/v11/cavallanti10a.html}
-}
-@article{JMLR:v11:chang10b,
-  author  = {Fu Chang and Chien-Yang Guo and Xiao-Rong Lin and Chi-Jen Lu},
-  title   = {Tree Decomposition for Large-Scale SVM Problems},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {98},
-  pages   = {2935--2972},
-  url     = {http://jmlr.org/papers/v11/chang10b.html}
-}
-@article{JMLR:v11:blanchard10a,
-  author  = {Gilles Blanchard and Gyemin Lee and Clayton Scott},
-  title   = {Semi-Supervised Novelty Detection},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {99},
-  pages   = {2973--3009},
-  url     = {http://jmlr.org/papers/v11/blanchard10a.html}
-}
-@article{JMLR:v11:rasmussen10a,
-  author  = {Carl Edward Rasmussen and Hannes Nickisch},
-  title   = {Gaussian Processes for Machine Learning (GPML) Toolbox},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {100},
-  pages   = {3011--3015},
-  url     = {http://jmlr.org/papers/v11/rasmussen10a.html}
-}
-@article{JMLR:v11:cohen10a,
-  author  = {Shay B. Cohen and Noah A. Smith},
-  title   = {Covariance in Unsupervised Learning of Probabilistic Grammars},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {101},
-  pages   = {3017--3051},
-  url     = {http://jmlr.org/papers/v11/cohen10a.html}
-}
-@article{JMLR:v11:cohn10b,
-  author  = {Trevor Cohn and Phil Blunsom and Sharon Goldwater},
-  title   = {Inducing Tree-Substitution Grammars},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {102},
-  pages   = {3053--3096},
-  url     = {http://jmlr.org/papers/v11/cohn10b.html}
-}
-@article{JMLR:v11:gupta10a,
-  author  = {Rahul Gupta and Sunita Sarawagi and Ajit A. Diwan},
-  title   = {Collective Inference for  Extraction MRFs Coupled with Symmetric Clique Potentials},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {103},
-  pages   = {3097--3135},
-  url     = {http://jmlr.org/papers/v11/gupta10a.html}
-}
+
 @article{JMLR:v11:theodorou10a,
-  author  = {Evangelos Theodorou and Jonas Buchli and Stefan Schaal},
-  title   = {A Generalized Path Integral Control Approach to Reinforcement Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {104},
-  pages   = {3137--3181},
-  url     = {http://jmlr.org/papers/v11/theodorou10a.html}
+ abstract = {With the goal to generate more scalable algorithms with higher efficiency and fewer open parameters, reinforcement learning (RL) has recently moved towards combining classical techniques from optim...},
+ author = {Evangelos Theodorou and Jonas Buchli and Stefan Schaal},
+ journal = {Journal of Machine Learning Research},
+ number = {104},
+ openalex = {W3005581722},
+ pages = {3137--3181},
+ title = {A Generalized Path Integral Control Approach to Reinforcement Learning},
+ url = {http://jmlr.org/papers/v11/theodorou10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:yuan10c,
-  author  = {Guo-Xun Yuan and Kai-Wei Chang and Cho-Jui Hsieh and Chih-Jen Lin},
-  title   = {A Comparison of Optimization Methods and Software for Large-scale L1-regularized Linear Classification},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {105},
-  pages   = {3183--3234},
-  url     = {http://jmlr.org/papers/v11/yuan10c.html}
+
+@article{JMLR:v11:varshney10a,
+ abstract = {A variational level set method is developed for the supervised classification problem. Nonlinear classifier decision boundaries are obtained by minimizing an energy functional that is composed of an empirical risk term with a margin-based loss and a geometric regularization term new to machine learning: the surface area of the decision boundary. This geometric level set classifier is analyzed in terms of consistency and complexity through the calculation of its e-entropy. For multicategory classification, an efficient scheme is developed using a logarithmic number of decision functions in the number of classes rather than the typical linear number of decision functions. Geometric level set classification yields performance results on benchmark data sets that are competitive with well-established methods.},
+ author = {Kush R. Varshney and Alan S. Willsky},
+ journal = {Journal of Machine Learning Research},
+ number = {14},
+ openalex = {W2115899769},
+ pages = {491--516},
+ title = {Classification Using Geometric Level Sets},
+ url = {http://jmlr.org/papers/v11/varshney10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:honkela10a,
-  author  = {Antti Honkela and Tapani Raiko and Mikael Kuusela and Matti Tornio and Juha Karhunen},
-  title   = {Approximate Riemannian Conjugate Gradient Learning for Fixed-Form Variational Bayes},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {106},
-  pages   = {3235--3268},
-  url     = {http://jmlr.org/papers/v11/honkela10a.html}
+
+@article{JMLR:v11:venna10a,
+ abstract = {Nonlinear dimensionality reduction methods are often used to visualize high-dimensional data, although the existing methods have been designed for other related tasks such as manifold learning. It ...},
+ author = {Jarkko Venna and Jaakko Peltonen and Kristian Nybo and Helena Aidos and Samuel Kaski},
+ journal = {Journal of Machine Learning Research},
+ number = {13},
+ openalex = {W3008070742},
+ pages = {451--490},
+ title = {Information Retrieval Perspective to Nonlinear Dimensionality Reduction for Data Visualization},
+ url = {http://jmlr.org/papers/v11/venna10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:wang10a,
-  author  = {Chunping Wang and Xuejun Liao and Lawrence Carin and David B. Dunson},
-  title   = {Classification with Incomplete Data Using Dirichlet Process Priors},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {107},
-  pages   = {3269--3311},
-  url     = {http://jmlr.org/papers/v11/wang10a.html}
+
+@article{JMLR:v11:verbancsics10a,
+ abstract = {An important goal for machine learning is to transfer knowledge between tasks. For example, learning to play RoboCup Keepaway should contribute to learning the full game of RoboCup soccer. Previous approaches to transfer in Keepaway have focused on transforming the original representation to fit the new task. In contrast, this paper explores the idea that transfer is most effective if the representation is designed to be the same even across different tasks. To demonstrate this point, a bird's eye view (BEV) representation is introduced that can represent different tasks on the same two-dimensional map. For example, both the 3 vs. 2 and 4 vs. 3 Keepaway tasks can be represented on the same BEV. Yet the problem is that a raw two-dimensional map is high-dimensional and unstructured. This paper shows how this problem is addressed naturally by an idea from evolutionary computation called indirect encoding, which compresses the representation by exploiting its geometry. The result is that the BEV learns a Keepaway policy that transfers without further learning or manipulation. It also facilitates transferring knowledge learned in a different domain, Knight Joust, into Keepaway. Finally, the indirect encoding of the BEV means that its geometry can be changed without altering the solution. Thus static representations facilitate several kinds of transfer.},
+ author = {Phillip Verbancsics and Kenneth O. Stanley},
+ journal = {Journal of Machine Learning Research},
+ number = {58},
+ openalex = {W86302728},
+ pages = {1737--1769},
+ title = {Evolving Static Representations for Task Transfer},
+ url = {http://jmlr.org/papers/v11/verbancsics10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:dmochowski10a,
-  author  = {Jacek P. Dmochowski and Paul Sajda and Lucas C. Parra},
-  title   = {Maximum Likelihood in Cost-Sensitive Learning: Model Specification, Approximations, and Upper Bounds},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {108},
-  pages   = {3313--3332},
-  url     = {http://jmlr.org/papers/v11/dmochowski10a.html}
-}
-@article{JMLR:v11:visweswaran10a,
-  author  = {Shyam Visweswaran and Gregory F. Cooper},
-  title   = {Learning Instance-Specific Predictive Models},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {109},
-  pages   = {3333--3369},
-  url     = {http://jmlr.org/papers/v11/visweswaran10a.html}
-}
+
 @article{JMLR:v11:vincent10a,
-  author  = {Pascal Vincent and Hugo Larochelle and Isabelle Lajoie and Yoshua Bengio and Pierre-Antoine Manzagol},
-  title   = {Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {110},
-  pages   = {3371--3408},
-  url     = {http://jmlr.org/papers/v11/vincent10a.html}
+ abstract = {We explore an original strategy for building deep networks, based on stacking layers of denoising autoencoders which are trained locally to denoise corrupted versions of their inputs. The resulting...},
+ author = {Pascal Vincent and Hugo Larochelle and Isabelle Lajoie and Yoshua Bengio and Pierre-Antoine Manzagol},
+ journal = {Journal of Machine Learning Research},
+ number = {110},
+ openalex = {W2997574889},
+ pages = {3371--3408},
+ title = {Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion},
+ url = {http://jmlr.org/papers/v11/vincent10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:sinz10a,
-  author  = {Fabian Sinz and Matthias Bethge},
-  title   = {<i>L<sub>p</sub></i>-Nested Symmetric Distributions},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {111},
-  pages   = {3409--3451},
-  url     = {http://jmlr.org/papers/v11/sinz10a.html}
+
+@article{JMLR:v11:vinh10a,
+ abstract = {Information theoretic measures form a fundamental class of measures for comparing clusterings, and have recently received increasing interest. Nevertheless, a number of questions concerning their properties and inter-relationships remain unresolved. In this paper, we perform an organized study of information theoretic measures for clustering comparison, including several existing popular measures in the literature, as well as some newly proposed ones. We discuss and prove their important properties, such as the metric property and the normalization property. We then highlight to the clustering community the importance of correcting information theoretic measures for chance, especially when the data size is small compared to the number of clusters present therein. Of the available information theoretic based measures, we advocate the normalized information distance (NID) as a general measure of choice, for it possesses concurrently several important properties, such as being both a metric and a normalized measure, admitting an exact analytical adjusted-for-chance form, and using the nominal [0,1] range better than other normalized variants.},
+ author = {Nguyen Xuan Vinh and Julien Epps and James Bailey},
+ journal = {Journal of Machine Learning Research},
+ number = {95},
+ openalex = {W2162833336},
+ pages = {2837--2854},
+ title = {Information Theoretic Measures for Clusterings Comparison: Variants, Properties, Normalization and Correction for Chance},
+ url = {http://jmlr.org/papers/v11/vinh10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:bouckaert10b,
-  author  = {Remco Bouckaert and Raymond Hemmecke and Silvia Lindner and Milan Studen&#253;},
-  title   = {Efficient Algorithms for Conditional Independence Inference},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {112},
-  pages   = {3453--3479},
-  url     = {http://jmlr.org/papers/v11/bouckaert10b.html}
+
+@article{JMLR:v11:vishwanathan10a,
+ abstract = {In this paper, we present Deep Graph Kernels, a unified framework to learn latent representations of sub-structures for graphs, inspired by latest advancements in language modeling and deep learning. Our framework leverages the dependency information between sub-structures by learning their latent representations. We demonstrate instances of our framework on three popular graph kernels, namely Graphlet kernels, Weisfeiler-Lehman subtree kernels, and Shortest-Path graph kernels. Our experiments on several benchmark datasets show that Deep Graph Kernels achieve significant improvements in classification accuracy over state-of-the-art graph kernels.},
+ author = {S.V.N. Vishwanathan and Nicol N. Schraudolph and Risi Kondor and Karsten M. Borgwardt},
+ journal = {Journal of Machine Learning Research},
+ number = {40},
+ openalex = {W2008857988},
+ pages = {1201--1242},
+ title = {Deep Graph Kernels},
+ url = {http://jmlr.org/papers/v11/vishwanathan10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:meila10a,
-  author  = {Marina Meil&#259; and Le Bao},
-  title   = {An Exponential Model for Infinite Rankings},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {113},
-  pages   = {3481--3518},
-  url     = {http://jmlr.org/papers/v11/meila10a.html}
+
+@article{JMLR:v11:visweswaran10a,
+ abstract = {This paper introduces a Bayesian algorithm for constructing predictive models from data that are optimized to predict a target variable well for a particular instance. This algorithm learns Markov blanket models, carries out Bayesian model averaging over a set of models to predict a target variable of the instance at hand, and employs an instance-specific heuristic to locate a set of suitable models to average over. We call this method the instance-specific Markov blanket (ISMB) algorithm. The ISMB algorithm was evaluated on 21 UCI data sets using five different performance measures and its performance was compared to that of several commonly used predictive algorithms, including nave Bayes, C4.5 decision tree, logistic regression, neural networks, k-Nearest Neighbor, Lazy Bayesian Rules, and AdaBoost. Over all the data sets, the ISMB algorithm performed better on average on all performance measures against all the comparison algorithms.},
+ author = {Shyam Visweswaran and Gregory F. Cooper},
+ journal = {Journal of Machine Learning Research},
+ number = {109},
+ openalex = {W1526790641},
+ pages = {3333--3369},
+ title = {Learning Instance-Specific Predictive Models.},
+ url = {http://jmlr.org/papers/v11/visweswaran10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:ye10a,
-  author  = {Fei Ye and Cun-Hui Zhang},
-  title   = {Rate Minimaxity of the Lasso and Dantzig Selector for the <i>l<sub>q</sub></i> Loss in <i>l<sub>r</sub></i> Balls},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {114},
-  pages   = {3519--3540},
-  url     = {http://jmlr.org/papers/v11/ye10a.html}
+
+@article{JMLR:v11:wang10a,
+ abstract = {A non-parametric hierarchical Bayesian framework is developed for designing a classifier, based on a mixture of simple (linear) classifiers. Each simple classifier is termed a local "expert", and the number of experts and their construction are manifested via a Dirichlet process formulation. The simple form of the "experts" allows analytical handling of incomplete data. The model is extended to allow simultaneous design of classifiers on multiple data sets, termed multi-task learning, with this also performed non-parametrically via the Dirichlet process. Fast inference is performed using variational Bayesian (VB) analysis, and example results are presented for several data sets. We also perform inference via Gibbs sampling, to which we compare the VB results.},
+ author = {Chunping Wang and Xuejun Liao and Lawrence Carin and David B. Dunson},
+ journal = {Journal of Machine Learning Research},
+ number = {107},
+ openalex = {W2168152978},
+ pages = {3269--3311},
+ title = {Classification with Incomplete Data Using Dirichlet Process Priors.},
+ url = {http://jmlr.org/papers/v11/wang10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:henderson10a,
-  author  = {James Henderson and Ivan Titov},
-  title   = {Incremental Sigmoid Belief Networks for Grammar Learning},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {115},
-  pages   = {3541--3570},
-  url     = {http://jmlr.org/papers/v11/henderson10a.html}
-}
+
 @article{JMLR:v11:watanabe10a,
-  author  = {Sumio Watanabe},
-  title   = {Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {116},
-  pages   = {3571--3594},
-  url     = {http://jmlr.org/papers/v11/watanabe10a.html}
+ abstract = {In regular statistical models, the leave-one-out cross-validation is asymptotically equivalent to the Akaike information criterion. However, since many learning machines are singular statistical models, the asymptotic behavior of the cross-validation remains unknown. In previous studies, we established the singular learning theory and proposed a widely applicable information criterion, the expectation value of which is asymptotically equal to the average Bayes generalization loss. In the present paper, we theoretically compare the Bayes cross-validation loss and the widely applicable information criterion and prove two theorems. First, the Bayes cross-validation loss is asymptotically equivalent to the widely applicable information criterion as a random variable. Therefore, model selection and hyperparameter optimization using these two values are asymptotically equivalent. Second, the sum of the Bayes generalization error and the Bayes cross-validation error is asymptotically equal to $2λ/n$, where $λ$ is the real log canonical threshold and $n$ is the number of training samples. Therefore the relation between the cross-validation error and the generalization error is determined by the algebraic geometrical structure of a learning machine. We also clarify that the deviance information criteria are different from the Bayes cross-validation and the widely applicable information criterion.},
+ author = {Sumio Watanabe},
+ journal = {Journal of Machine Learning Research},
+ number = {116},
+ openalex = {W2123222757},
+ pages = {3571--3594},
+ title = {Asymptotic Equivalence of Bayes Cross Validation and Widely Applicable Information Criterion in Singular Learning Theory},
+ url = {http://jmlr.org/papers/v11/watanabe10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:seldin10a,
-  author  = {Yevgeny Seldin and Naftali Tishby},
-  title   = {PAC-Bayesian Analysis of Co-clustering and Beyond},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {117},
-  pages   = {3595--3646},
-  url     = {http://jmlr.org/papers/v11/seldin10a.html}
+
+@article{JMLR:v11:wu10a,
+ abstract = {The problems of dimension reduction and inference of statistical dependence are addressed by the modeling framework of learning gradients. The models we propose hold for Euclidean spaces as well as the manifold setting. The central quantity in this approach is an estimate of the gradient of the regression or classification function. Two quadratic forms are constructed from gradient estimates: the gradient outer product and gradient based diffusion maps. The first quantity can be used for supervised dimension reduction on manifolds as well as inference of a graphical model encoding dependencies that are predictive of a response variable. The second quantity can be used for nonlinear projections that incorporate both the geometric structure of the manifold as well as variation of the response variable on the manifold. We relate the gradient outer product to standard statistical quantities such as covariances and provide a simple and precise comparison of a variety of supervised dimensionality reduction methods. We provide rates of convergence for both inference of informative directions as well as inference of a graphical model of variable dependencies.},
+ author = {Qiang Wu and Justin Guinney and Mauro Maggioni and Sayan Mukherjee},
+ journal = {Journal of Machine Learning Research},
+ number = {75},
+ openalex = {W2141864905},
+ pages = {2175--2198},
+ title = {Learning Gradients: Predictive Models that Infer Geometry and Statistical Dependence},
+ url = {http://jmlr.org/papers/v11/wu10a.html},
+ volume = {11},
+ year = {2010}
 }
-@article{JMLR:v11:robinson10a,
-  author  = {Joshua W. Robinson and Alexander J. Hartemink},
-  title   = {Learning Non-Stationary Dynamic Bayesian Networks},
-  journal = {Journal of Machine Learning Research},
-  year    = {2010},
-  volume  = {11},
-  number  = {118},
-  pages   = {3647--3680},
-  url     = {http://jmlr.org/papers/v11/robinson10a.html}
+
+@article{JMLR:v11:xiao10a,
+ abstract = {We consider regularized stochastic learning and online optimization problems, where the objective function is the sum of two convex terms: one is the loss function of the learning task, and the other is a simple regularization term such as l1-norm for promoting sparsity. We develop extensions of Nesterov's dual averaging method, that can exploit the regularization structure in an online setting. At each iteration of these methods, the learning variables are adjusted by solving a simple minimization problem that involves the running average of all past subgradients of the loss function and the whole regularization term, not just its subgradient. In the case of l1-regularization, our method is particularly effective in obtaining sparse solutions. We show that these methods achieve the optimal convergence rates or regret bounds that are standard in the literature on stochastic and online convex optimization. For stochastic learning problems in which the loss functions have Lipschitz continuous gradients, we also present an accelerated version of the dual averaging method.},
+ author = {Lin Xiao},
+ journal = {Journal of Machine Learning Research},
+ number = {88},
+ openalex = {W2096199223},
+ pages = {2543--2596},
+ title = {Dual Averaging Method for Regularized Stochastic Learning and Online Optimization},
+ url = {http://jmlr.org/papers/v11/xiao10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:ye10a,
+ author = {Fei Ye and Cun-Hui Zhang},
+ journal = {Journal of Machine Learning Research},
+ number = {114},
+ pages = {3519--3540},
+ title = {Rate Minimaxity of the Lasso and Dantzig Selector for the <i>l<sub>q</sub></i> Loss in <i>l<sub>r</sub></i> Balls},
+ url = {http://jmlr.org/papers/v11/ye10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yoshida10a,
+ abstract = {We describe a class of sparse latent factor models, called graphical factor models (GFMs), and relevant sparse learning algorithms for posterior mode estimation. Linear, Gaussian GFMs have sparse, orthogonal factor loadings matrices, that, in addition to sparsity of the implied covariance matrices, also induce conditional independence structures via zeros in the implied precision matrices. We describe the models and their use for robust estimation of sparse latent factor structure and data/signal reconstruction. We develop computational algorithms for model exploration and posterior mode search, addressing the hard combinatorial optimization involved in the search over a huge space of potential sparse configurations. A mean-field variational technique coupled with annealing is developed to successively generate "artificial" posterior distributions that, at the limiting temperature in the annealing schedule, define required posterior modes in the GFM parameter space. Several detailed empirical studies and comparisons to related approaches are discussed, including analyses of handwritten digit image and cancer gene expression data.},
+ author = {Ryo Yoshida and Mike West},
+ journal = {Journal of Machine Learning Research},
+ number = {59},
+ openalex = {W1585888610},
+ pages = {1771--1798},
+ title = {Bayesian Learning in Sparse Graphical Factor Models via Variational Mean-Field Annealing.},
+ url = {http://jmlr.org/papers/v11/yoshida10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yu10a,
+ abstract = {We extend the well-known BFGS quasi-Newton method and its memory-limited variant LBFGS to the optimization of nonsmooth convex objectives. This is done in a rigorous fashion by generalizing three components of BFGS to subdifferentials: the local quadratic model, the identification of a descent direction, and the Wolfe line search conditions. We prove that under some technical conditions, the resulting subBFGS algorithm is globally convergent in objective function value. We apply its memory-limited variant (subLBFGS) to L2-regularized risk minimization with the binary hinge loss. To extend our algorithm to the multiclass and multilabel settings, we develop a new, efficient, exact line search algorithm. We prove its worst-case time complexity bounds, and show that our line search can also be used to extend a recently developed bundle method to the multiclass and multilabel settings. We also apply the direction-finding component of our algorithm to L1-regularized risk minimization with logistic loss. In all these contexts our methods perform comparable to or better than specialized state-of-the-art solvers on a number of publicly available data sets. An open source implementation of our algorithms is freely available.},
+ author = {Jin Yu and S.V.N. Vishwanathan and Simon G{{\"u}}nter and Nicol N. Schraudolph},
+ journal = {Journal of Machine Learning Research},
+ number = {39},
+ openalex = {W2157711174},
+ pages = {1145--1200},
+ title = {A Quasi-Newton Approach to Nonsmooth Convex Optimization Problems in Machine Learning},
+ url = {http://jmlr.org/papers/v11/yu10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yu10b,
+ abstract = {Microarray gene expressions provide new opportunities for molecular classification of heterogeneous diseases. Although various reported classification schemes show impressive performance, most existing gene selection methods are suboptimal and are not well-matched to the unique characteristics of the multicategory classification problem. Matched design of the gene selection method and a committee classifier is needed for identifying a small set of gene markers that achieve accurate multicategory classification while being both statistically reproducible and biologically plausible. We report a simpler and yet more accurate strategy than previous works for multicategory classification of heterogeneous diseases. Our method selects the union of one-versus-everyone (OVE) phenotypic up-regulated genes (PUGs) and matches this gene selection with a one-versus-rest support vector machine (OVRSVM). Our approach provides even-handed gene resources for discriminating both neighboring and well-separated classes. Consistent with the OVRSVM structure, we evaluated the fold changes of OVE gene expressions and found that only a small number of high-ranked genes were required to achieve superior accuracy for multicategory classification. We tested the proposed PUG-OVRSVM method on six real microarray gene expression data sets (five public benchmarks and one in-house data set) and two simulation data sets, observing significantly improved performance with lower error rates, fewer marker genes, and higher performance sustainability, as compared to several widely-adopted gene selection and classification methods. The MATLAB toolbox, experiment data and supplement files are available at http://www.cbil.ece.vt.edu/software.htm.},
+ author = {Guoqiang Yu and Yuanjian Feng and David J. Miller and Jianhua Xuan and Eric P. Hoffman and Robert Clarke and Ben Davidson and Ie-Ming Shih and Yue Wang},
+ journal = {Journal of Machine Learning Research},
+ number = {73},
+ openalex = {W2164229718},
+ pages = {2141--2167},
+ title = {Matched Gene Selection and Committee Classifier for Molecular Classification of Heterogeneous Diseases},
+ url = {http://jmlr.org/papers/v11/yu10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yuan10a,
+ abstract = {In this paper, we investigate the problem of binary classification with a reject option in which one can withhold the decision of classifying an observation at a cost lower than that of misclassification. Since the natural loss function is non-convex so that empirical risk minimization easily becomes infeasible, the paper proposes minimizing convex risks based on surrogate convex loss functions. A necessary and sufficient condition for infinite sample consistency (both risks share the same minimizer) is provided. Moreover, we show that the excess risk can be bounded through the excess surrogate risk under appropriate conditions. These bounds can be tightened by a generalized margin condition. The impact of the results is illustrated on several commonly used surrogate loss functions.},
+ author = {Ming Yuan and Marten Wegkamp},
+ journal = {Journal of Machine Learning Research},
+ number = {5},
+ openalex = {W2158707174},
+ pages = {111--130},
+ title = {Classification Methods with Reject Option Based on Convex Risk Minimization},
+ url = {http://jmlr.org/papers/v11/yuan10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yuan10b,
+ abstract = {This paper considers the problem of estimating a high dimensional inverse covariance matrix that can be well approximated by sparse matrices. Taking advantage of the connection between multivariate linear regression and entries of the inverse covariance matrix, we propose an estimating procedure that can effectively exploit such sparsity. The proposed method can be computed using linear programming and therefore has the potential to be used in very high dimensional problems. Oracle inequalities are established for the estimation error in terms of several operator norms, showing that the method is adaptive to different types of sparsity of the problem.},
+ author = {Ming Yuan},
+ journal = {Journal of Machine Learning Research},
+ number = {79},
+ openalex = {W2170866857},
+ pages = {2261--2286},
+ title = {High Dimensional Inverse Covariance Matrix Estimation via Linear Programming},
+ url = {http://jmlr.org/papers/v11/yuan10b.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:yuan10c,
+ abstract = {Large-scale linear classification is widely used in many areas. The L1-regularized form can be applied for feature selection; however, its non-differentiability causes more difficulties in training. Although various optimization methods have been proposed in recent years, these have not yet been compared suitably. In this paper, we first broadly review existing methods. Then, we discuss state-of-the-art software packages in detail and propose two efficient implementations. Extensive comparisons indicate that carefully implemented coordinate descent methods are very suitable for training large document data.},
+ author = {Guo-Xun Yuan and Kai-Wei Chang and Cho-Jui Hsieh and Chih-Jen Lin},
+ journal = {Journal of Machine Learning Research},
+ number = {105},
+ openalex = {W56897548},
+ pages = {3183--3234},
+ title = {A Comparison of Optimization Methods and Software for Large-scale L1-regularized Linear Classification},
+ url = {http://jmlr.org/papers/v11/yuan10c.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:zhang10a,
+ abstract = {We consider learning formulations with non-convex objective functions that often occur in practical applications. There are two approaches to this problem:
+
+
+Heuristic methods such as gradient descent that only find a local minimum. A drawback of this approach is the lack of theoretical guarantee showing that the local minimum gives a good solution. 
+Convex relaxation such as L1-regularization that solves the problem under some conditions. However it often leads to a sub-optimal solution in reality. 
+
+
+
+This paper tries to remedy the above gap between theory and practice. In particular, we present a multi-stage convex relaxation scheme for solving problems with non-convex objective functions. For learning formulations with sparse regularization, we analyze the behavior of a specific multi-stage relaxation scheme. Under appropriate conditions, we show that the local solution obtained by this procedure is superior to the global solution of the standard L1 convex relaxation for learning sparse targets.},
+ author = {Tong Zhang},
+ journal = {Journal of Machine Learning Research},
+ number = {35},
+ openalex = {W2166956514},
+ pages = {1081--1107},
+ title = {Analysis of Multi-stage Convex Relaxation for Sparse Regularization},
+ url = {http://jmlr.org/papers/v11/zhang10a.html},
+ volume = {11},
+ year = {2010}
+}
+
+@article{JMLR:v11:zhang10b,
+ abstract = {Fisher linear discriminant analysis (FDA) and its kernel extension--kernel discriminant analysis (KDA)--are well known methods that consider dimensionality reduction and classification jointly. While widely deployed in practical problems, there are still unresolved issues surrounding their efficient implementation and their relationship with least mean squares procedures. In this paper we address these issues within the framework of regularized estimation. Our approach leads to a flexible and efficient implementation of FDA as well as KDA. We also uncover a general relationship between regularized discriminant analysis and ridge regression. This relationship yields variations on conventional FDA based on the pseudoinverse and a direct equivalence to an ordinary least squares estimator.},
+ author = {Zhihua Zhang and Guang Dai and Congfu Xu and Michael I. Jordan},
+ journal = {Journal of Machine Learning Research},
+ number = {76},
+ openalex = {W2164728239},
+ pages = {2199--2228},
+ title = {Regularized Discriminant Analysis, Ridge Regression and Beyond},
+ url = {http://jmlr.org/papers/v11/zhang10b.html},
+ volume = {11},
+ year = {2010}
 }
