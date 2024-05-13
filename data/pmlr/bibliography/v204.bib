@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{COPA 20232023,
   title =     {Proceedings of the Twelfth Symposium on Conformal and Probabilistic Prediction with Applications},
   booktitle = {Proceedings of the Twelfth Symposium on Conformal and Probabilistic Prediction with Applications},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    204
 }
-
-
-
-
 @InProceedings{pmlr-v204-papadopoulos23a,
   title = 	 {Preface},
   author =       {Papadopoulos, Harris and Nguyen, Khuong An and Bostr\"{o}m, Henrik and Carlsson, Lars},
@@ -27,10 +21,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/papadopoulos23a/papadopoulos23a.pdf},
   url = 	 {https://proceedings.mlr.press/v204/papadopoulos23a.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-kuijk23a,
   title = 	 {Conformal Regression in Calorie Prediction for Team Jumbo-Visma},
   author =       {van Kuijk, Kristian and Dirksen, Mark and Seiler, Christof},
@@ -46,10 +36,6 @@
   url = 	 {https://proceedings.mlr.press/v204/kuijk23a.html},
   abstract = 	 {UCI WorldTour races, the premier menâs elite road cycling tour, are grueling events that put physical fitness and endurance of riders to the test. The coaches of Team Jumbo-Visma have long been responsible for predicting the energy needs of each rider of the Dutch team for every race on the calendar. Those must be estimated to ensure riders have the energy and resources necessary to maintain a high level of performance throughout a race. This task, however, is both time-consuming and challenging, as it requires precise estimates of race speed and power output. Traditionally, the approach to predicting energy needs has relied on judgement and experience of coaches, but this method has its limitations and often leads to inaccurate predictions. In this paper, we propose a new, more effective approach to predicting energy needs for cycling races. By predicting the speed and power with regression models, we provide the coaches with calorie needs estimates for each individual rider per stage instantly. In addition, we compare methods to quantify uncertainty using conformal prediction. The empirical analysis of the jackknife+, jackknife-minmax, jackknife-minmax-after-bootstrap, CV+, CV-minmax, conformalized quantile regression, and inductive conformal prediction methods in conformal prediction reveals that all methods achieve valid prediction intervals. All but minmax-based methods also produce sufficiently narrow prediction intervals for decision-making. Furthermore, methods computing prediction intervals of fixed size produce tighter intervals for low significance values.  Among the methods computing intervals of varying length across the input space, inductive conformal prediction computes narrower prediction intervals at larger significance level.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-ernez23a,
   title = 	 {Applying the conformal prediction paradigm for the uncertainty quantification of an end-to-end automatic speech recognition model (wav2vec 2.0)},
   author =       {Ernez, Fares and Arnold, Alexandre and Galametz, Audrey and Kobus, Catherine and Ould-Amer, Nawal},
@@ -65,10 +51,6 @@
   url = 	 {https://proceedings.mlr.press/v204/ernez23a.html},
   abstract = 	 {Uncertainty quantification is critical when using Automatic Speech Recognition (ASR) in High Risk Systems where safety is highly important. While developing ASR models adapted to such context, a range of techniques are being explored to measure the uncertainty of their predictions.  In this paper, we present two algorithms: the first one applies the Conformal Risk Control paradigm to predict a set of sentences that controls the Word Error Rate (WER) to an adjustable level of guarantee. The second algorithm uses Inductive Conformal Prediction (ICP) to predict uncertain words in an automatic transcription. We analyze the performance of the three algorithms using an open-source ASR model based on Wav2vec 2.0. The CP algorithms were trained on the âclean testâ part of the LibriSpeech corpus that contains approximately 2,600 sentences. The results show that the three algorithms provide valid and efficient prediction sets. We guarantee that the WER is below 2% with a confidence level of 80% and an average set size of 29 sentences and we detect 90% of the badly transcripted words.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-andeol23a,
   title = 	 {Confident Object Detection via Conformal Prediction and Conformal Risk Control: an Application to Railway Signaling},
   author =       {Andeol, Leo and Fel, Thomas and de Grancey, Florence and Mossina, Luca},
@@ -84,10 +66,6 @@
   url = 	 {https://proceedings.mlr.press/v204/andeol23a.html},
   abstract = 	 {Deploying deep learning models in real-world certied systems requires the ability to provide condence estimates that accurately reflect their uncertainty. In this paper, we demonstrate the use of the conformal prediction framework to construct reliable and trustworthy predictors for detecting railway signals. Our approach is based on a novel dataset that includes images taken from the perspective of a train operator and state-of-the-art object detectors. We test several conformal approaches and introduce a new method based on conformal risk control. Our findings demonstrate the potential of the conformal prediction framework to evaluate model performance and provide practical guidance for achieving formally guaranteed uncertainty bounds.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-vishwakarma23a,
   title = 	 {Enterprise Disk Drive Scrubbing Based on Mondrian Conformal Predictors},
   author =       {Vishwakarma, Rahul and Hwang, Jinha and Messoudi, Soundouss and Hedayatipour, Ava},
@@ -103,10 +81,6 @@
   url = 	 {https://proceedings.mlr.press/v204/vishwakarma23a.html},
   abstract = 	 {Disk scrubbing is a process aimed at resolving read errors on disks by reading data from the disk. However, scrubbing the entire storage array at once can adversely impact system performance, particularly during periods of high input/output operations. Additionally, the continuous reading of data from disks when scrubbing can result in wear and tear, especially on larger capacity disks, due to the significant time and energy consumption involved. To address these issues, we propose a selective disk scrubbing method that enhances the overall reliability and power efficiency in data centers. Our method employs a Machine Learning model based on Mondrian Conformal prediction to identify specific disks for scrubbing, by proactively predicting the health status of each disk in the storage pool, forecasting n-days in advance, and using an open-source dataset. For disks predicted as non-healthy, we mark them for replacement without further action. For healthy drives, we create a set and quantify their relative health across the entire storage pool based on the predictorâs confidence. This enables us to prioritize selective scrubbing for drives with established scrubbing frequency based on the scrub cycle. The method we propose provides an efficient and dependable solution for managing enterprise disk drives. By scrubbing just 22.7% of the total storage disks, we can achieve optimized energy consumption and reduce the carbon footprint of the data center. }
 }
-
-
-
-
 @InProceedings{pmlr-v204-garcia-galindo23a,
   title = 	 {An Uncertainty-Aware Sequential Approach for Predicting Response to Neoadjuvant Therapy in Breast Cancer},
   author =       {Garcia-Galindo, Alberto and Lopez-De-Castro, Marcos and Armananzas, Ruben},
@@ -122,10 +96,6 @@
   url = 	 {https://proceedings.mlr.press/v204/garcia-galindo23a.html},
   abstract = 	 {Neoadjuvant therapy (NAT) is considered the gold standard preoperative treatment for reducing tumor charge in breast cancer. However, the tumorâs pathological response highly depends on patient conditions and clinical factors. There is a dire need to develop modeling tools to predict a patient response to NAT and thus improve personalized medical care plans. Recent studies have shown promising results of machine learning (ML) methodologies in breast cancer prognosis through the combination of several modalities, including imaging and molecular features derived from biopsy analyses. We here present a ML model to predict response to NAT through two sequential prediction stages. First, a pre-treatment dynamic contrast-enhanced magnetic resonance imaging model is trained, followed by a second model with molecular biomarkers-enriched data. We propose the integration of the Conformal Prediction (CP) framework in the first non-invasive model to identify patients whose predicted responses show large uncertainty and refer them to the second model that includes data from invasive tests. The major advantage of this procedure is in the reduction of unnecessary biopsies. Different alternatives for the standard ML algorithms and the CP functions are explored on a publicly available clinical dataset. Results clearly show the potential of our uncertainty-aware clinical predictive tool in such real scenarios.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-canete23a,
   title = 	 {Market Implied Conformal Volatility Intervals},
   author =       {Canete, Alejandro},
@@ -141,10 +111,6 @@
   url = 	 {https://proceedings.mlr.press/v204/canete23a.html},
   abstract = 	 {Volatility is a fundamental input for pricing and risk management of nancial instruments.  In the following work we propose an algorithm to estimate the market implied uncertainty of future realized volatility. Our method interprets the market implied volatility as a point prediction of future realized volatility and applies online conformal prediction to estimate the uncertainty of this prediction. We analyze rolling coverage and width of several nonconformity scores over 15 years of daily data. The results suggest that conformal prediction can be used to infer market implied prediction intervals for realized volatility.  }
 }
-
-
-
-
 @InProceedings{pmlr-v204-althoff23a,
   title = 	 {Evaluation of conformal-based probabilistic forecasting methods for short-term wind speed forecasting},
   author =       {Althoff, Simon and Szabadv'ary, Johan Hallberg and Anderson, Jonathan and Carlsson, Lars},
@@ -160,10 +126,6 @@
   url = 	 {https://proceedings.mlr.press/v204/althoff23a.html},
   abstract = 	 {We apply Conformal Predictive Distribution Systems (CPDS) and a non-exchangeable version of the traditional Conformal Prediction (NECP) method to short-term wind speed forecasting to generate probabilistic forecasts. These are compared to the more traditional Quantile Regression Forest (QRF) method. A short-term forecast is available from a few hours before the forecasted time period and is only extended a couple days into the future.  The methods are supplied ensemble forecasts as input and additionally the Conformal methods are supplied with post-processed point forecasts for generating the probability distributions. In the NECP case we propose a method of producing probability distributions by creating sequentially larger prediction intervals. The methods are compared through a teaching schedule, to mimic a real-world setting. For each model update in the teaching schedule a grid-search approach is applied to select each methodâs optimal hyperparameters, respectively. The methods are tested out of the box with tweaks to few hyperparameters. We also introduce a normalized nonconformity score and use it with the conformal method that handles data that violates the exchangeability assumption. The resulting probability distributions are compared to actual wind measurements through Continuous Ranked Probability Scores (CRPS) as well as their validity and efficiency of certain prediction intervals.  Our results suggest that the conformal based methods, with the pre-trained underlying model, produce slightly more conservative but more efficient probability distributions than QRF at a lower computational cost. We further propose how the conformal-based methods could be improved for the application to real-world scenarios. }
 }
-
-
-
-
 @InProceedings{pmlr-v204-choudhury23a,
   title = 	 {Evaluating potential sensitive information leaks on a smartphone using the magnetometer and Conformal Prediction},
   author =       {Choudhury, Robert and Luo, Zhiyuan and Nguyen, Khuong An},
@@ -179,10 +141,6 @@
   url = 	 {https://proceedings.mlr.press/v204/choudhury23a.html},
   abstract = 	 {The low powered sensors used in modern Smartphones do not require permissions when using low sampling rates i.e. 200Hz and below. This has made them a target for side channel attacks. In this paper we perform a series of experiments that harvest raw data from the low powered sensor known as the magnetometer. We start by using unsupervised learning with the cosine metric to provide clear indications if it is possible to classify the data into the different security events occurring at the time of capture. We then build a model, designed to be robust in terms of the orientation of the device, to evaluate the risk of sensitive data being correctly identified from magnetometer data despite the limited sampling rate. Using a model trained with LSTM on the whole data set with an 80/20 split, our results show 100% accuracy on our reverse Turing test and 67.5% on the key press test.  We also show that when analysing the captured magnetometer responses to playing sound samples from the loudspeaker it is very difficult to infer the original sound. We extend the work using Inductive Conformal Prediction by examining the property of uncertainty for different confidence levels. We also show that despite a high degree of uncertainty there is the potential to infer security properties such as the layout of a screen. To this end we show that the number 5 in the center of a keypad occurs a disproportionately high number of times in the prediction set (68.3%).}
 }
-
-
-
-
 @InProceedings{pmlr-v204-el-mekkaoui23a,
   title = 	 {Neural Networks based Conformal Prediction for Pipeline Structural Response},
   author =       {El Mekkaoui, Sara and Ferreira, Carla J and Guevara G'omez, Juan Camilo and Agrell, Christian and Vaughan, Nicholas James and Heggen, Hans Olav},
@@ -198,10 +156,6 @@
   url = 	 {https://proceedings.mlr.press/v204/el-mekkaoui23a.html},
   abstract = 	 {The widespread use of machine learning models has achieved considerable success across various domains. Nevertheless, their deployment in safety-critical systems can result in catastrophic consequences if uncertainties are not handled properly. This study is concerned with the simulation of the physical response of a subsea pipeline when it is hooked by an anchor. Predicting this response is crucial for risk assessment, however, it is computationally unfeasible to run a significant amount of input sets to compute the probability of failure of the system. Therefore, the use of a surrogate model becomes essential. In this context, a surrogate model is a machine learning model trained on data from a physicsbased simulation. This is achieved by neural network based surrogate models, as they are capable of modelling complex relationships and provide greater accuracy than other machine learning models in many use cases. However, to ensure the safe use of these models, it is important to understand the uncertainty associated with their predictions. Therefore, we apply the conformal prediction framework to provide valid prediction intervals and improve the uncertainty quantification of the neural network models. In order to create adaptive conformal prediction intervals, we employ multilayer perceptron neural network models that provide uncertainty estimates through both the Monte Carlo dropout technique and treating the output as a Gaussian distribution, with the neural network providing estimates for both mean and variance. The conformal prediction procedure improves the uncertainty estimation of uncalibrated models and guarantees new test samples are within the predicted intervals with the corresponding selected confidence level.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-uddin23a,
   title = 	 {Applications of Conformal Regression on Real-world Industrial Use Cases using Crepes and MAPIE},
   author =       {Uddin, Nasir and Lofstrom, Tuwe},
@@ -217,10 +171,6 @@
   url = 	 {https://proceedings.mlr.press/v204/uddin23a.html},
   abstract = 	 {Applying conformal prediction in real-world industrial use cases is rare, and publications are often limited to popular open-source data sets. This paper demonstrates two experimental use cases where the conformal prediction framework was applied to regression problems at Husqvarna Group with the two Python-based open-source platforms MAPIE and Crepes. The paper concludes by discussing lessons learned for the industry and some challenges for the conformal prediction community to address.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-canete23b,
   title = 	 {Online NoVaS Conformal Volatility Prediction},
   author =       {Canete, Alejandro},
@@ -235,10 +185,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/canete23b/canete23b.pdf},
   url = 	 {https://proceedings.mlr.press/v204/canete23b.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-pham23a,
   title = 	 {Capturing prediction uncertainty in upstream cell culture models using conformal prediction and Gaussian processes},
   author =       {Pham, Tien Dung and Aickelin, Uwe and Bassett, Robert},
@@ -254,10 +200,6 @@
   url = 	 {https://proceedings.mlr.press/v204/pham23a.html},
   abstract = 	 { }
 }
-
-
-
-
 @InProceedings{pmlr-v204-vishwakarma23b,
   title = 	 {Variable Sparing of Disk Drives Based on Failure Analysis},
   author =       {Vishwakarma, Rahul and Fardadi, Mahshid and Liu, Bing},
@@ -272,10 +214,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/vishwakarma23b/vishwakarma23b.pdf},
   url = 	 {https://proceedings.mlr.press/v204/vishwakarma23b.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-angelopoulos23a,
   title = 	 {Recommendation Systems with Distribution-Free Reliability Guarantees},
   author =       {Angelopoulos, Anastasios N and Krauth, Karl and Bates, Stephen and Wang, Yixin and Jordan, Michael I},
@@ -291,10 +229,6 @@
   url = 	 {https://proceedings.mlr.press/v204/angelopoulos23a.html},
   abstract = 	 {When building recommendation systems, we seek to output a helpful set of items to the user. Under the hood, a ranking model predicts which of two candidate items is better, and we must distill these pairwise comparisons into the user-facing output. However, a learned ranking model is never perfect, so taking its predictions at face value gives no guarantee that the user-facing output is reliable. Building from a pre-trained ranking model, we show how to return a set of items that is rigorously guaranteed to contain mostly good items. Our procedure endows any ranking model with rigorous nite-sample control of the false discovery rate (FDR), regardless of the (unknown) data distribution. Moreover, our calibration algorithm enables the easy and principled integration of multiple objectives in recommender systems. As an example, we show how to optimize for recommendation diversity subject to a user-specied level of FDR control, circumventing the need to specify ad hoc weights of a diversity loss against an accuracy loss. Throughout, we focus on the problem of learning to rank a set of possible recommendations, evaluating our methods on the Yahoo! Learning to Rank and MSMarco datasets.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-tebjou23a,
   title = 	 {Data-driven Reachability using Christoffel Functions and Conformal Prediction},
   author =       {Tebjou, Abdelmouaiz and Frehse, Goran and Chamroukhi, Fa"{i}cel},
@@ -310,10 +244,6 @@
   url = 	 {https://proceedings.mlr.press/v204/tebjou23a.html},
   abstract = 	 {An important mathematical tool in the analysis of dynamical systems is the approximation of the reach set, i.e., the set of states reachable after a given time from a given initial state.  This set is difficult to compute for complex systems even if the system dynamics are known and given by a system of ordinary differential equations with known coefficients. In practice, parameters are often unknown and mathematical models difficult to obtain. Data-based approaches are promised to avoid these difficulties by estimating the reach set based on a sample of states. If a model is available, this training set can be obtained through numerical simulation. In the absence of a model, real-life observations can be used instead. A recently proposed approach for data-based reach set approximation uses Christoffel functions to approximate the reach set. Under certain assumptions, the approximation is guaranteed to converge to the true solution. In this paper, we improve upon these results by notably improving the sample efficiency and relaxing some of the assumptions by exploiting statistical guarantees from conformal prediction with training and calibration sets. In addition, we exploit an incremental way to compute the Christoffel function to avoid the calibration set while maintaining the statistical convergence guarantees. Furthermore, our approach is robust to outliers in the training and calibration set.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-lienen23a,
   title = 	 {Conformal Credal Self-Supervised Learning},
   author =       {Lienen, Julian and Demir, Caglar and H\"ullermeier, Eyke},
@@ -329,10 +259,6 @@
   url = 	 {https://proceedings.mlr.press/v204/lienen23a.html},
   abstract = 	 {In semi-supervised learning, the paradigm of self-training refers to the idea of learning from pseudo-labels suggested by the learner itself. Recently, corresponding methods have proven effective and achieve state-of-the-art performance, e.g., when applied to image classification problems. However, pseudo-labels typically stem from ad-hoc heuristics, relying on the quality of the predictions though without guaranteeing their validity. One such method, so-called credal self-supervised learning, maintains pseudo-supervision in the form of sets of (instead of single) probability distributions over labels, thereby allowing for a flexible yet uncertainty-aware labeling. Again, however, there is no justification beyond empirical effectiveness. To address this deficiency, we make use of conformal prediction, an approach that comes with guarantees on the validity of set-valued predictions. As a result, the construction of credal sets of labels is supported by a rigorous theoretical foundation, leading to better calibrated and less error-prone supervision for unlabeled data. Along with this, we present effective algorithms for learning from credal self-supervision. An empirical study demonstrates excellent calibration properties of the pseudo-supervision, as well as the competitiveness of our method on several image classification benchmark datasets.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-rodriguez23a,
   title = 	 {Self Learning using Venn-Abers predictors},
   author =       {Rodriguez, Come and Martin Bordini, Vitor and Destercke, Sebastien and Quost, Benjamin},
@@ -348,10 +274,6 @@
   url = 	 {https://proceedings.mlr.press/v204/rodriguez23a.html},
   abstract = 	 {In supervised learning problems, it is common to have a lot of unlabeled data, but little labeled data. It is then desirable to leverage the unlabeled data to improve the learning procedure. One way to do this is to have a model predict âpseudolabelsâ for the unlabeled data, so as to use them for learning. In self-learning, the pseudo-labels are provided by the very same model to which they are fed. As these pseudo-labels are by nature uncertain and only partially reliable, it is then natural to model this uncertainty and take it into account in the learning process, if only to robustify the self-learning procedure. This paper describes such an approach, where we use Venn-Abers Predictors to produce calibrated credal labels so as to quantify the pseudo-labeling uncertainty. These labels are then included in the learning process by optimizing an adapted loss. Experiments show that taking into account pseudo-label uncertainty both robustifies the self-learning procedure and allows it to converge faster in general.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-javanmardi23a,
   title = 	 {Conformal Prediction with Partially Labeled Data},
   author =       {Javanmardi, Alireza and Sale, Yusuf and Hofman, Paul and H\"ullermeier, Eyke},
@@ -367,10 +289,6 @@
   url = 	 {https://proceedings.mlr.press/v204/javanmardi23a.html},
   abstract = 	 {While the predictions produced by conformal prediction are set-valued, the data used for training and calibration is supposed to be precise. In the setting of superset learning or learning from partial labels, a variant of weakly supervised learning, it is exactly the other way around: training data is possibly imprecise (set-valued), but the model induced from this data yields precise predictions. In this paper, we combine the two settings by making conformal prediction amenable to set-valued training data. We propose a generalization of the conformal prediction procedure that can be applied to set-valued training and calibration data. We prove the validity of the proposed method and present experimental studies in which it compares favorably to natural baselines.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-nouretdinov23a,
   title = 	 {Conformal Association Rule Mining (CARM): A novel technique for data error detection and probabilistic correction},
   author =       {Nouretdinov, Ilia and Gammerman, James},
@@ -386,10 +304,6 @@
   url = 	 {https://proceedings.mlr.press/v204/nouretdinov23a.html},
   abstract = 	 {Conformal prediction (CP) is a modern framework for reliable machine learning. It is most commonly used in the context of supervised learning, where in combination with an underlying algorithm it generates predicted labels for new, unlabelled examples and complements each of them with an individual measure of confidence. Conversely, association rule mining (ARM) is an unsupervised learning technique for discovering interesting relationships in large datasets in the form of rules. In this work, we integrate CP and ARM to develop a novel technique termed Conformal Association Rule Mining (CARM). The technique enables the identification of probable errors within a set of binary labels. Subsequently, these probable errors are analysed using another modern framework called Venn-ABERS prediction to correct the value in a probabilistic way.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-luo23a,
   title = 	 {Anomalous Edge Detection in Edge Exchangeable Social Network Models},
   author =       {Luo, Rui and Nettasinghe, Buddhika and Krishnamurthy, Vikram},
@@ -405,10 +319,6 @@
   url = 	 {https://proceedings.mlr.press/v204/luo23a.html},
   abstract = 	 {This paper studies detecting anomalous edges in directed graphs that model social networks.  We exploit edge exchangeability as a criterion for distinguishing anomalous edges from normal edges. Then we present an anomaly detector based on conformal prediction theory; this detector has a guaranteed upper bound for false positive rate. In numerical experiments, we show that the proposed algorithm achieves superior performance to baseline methods.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-ennadir23a,
   title = 	 {Conformalized Adversarial Attack Detection for Graph Neural Networks},
   author =       {Ennadir, Sofiane and Alkhatib, Amr and Bostrom, Henrik and Vazirgiannis, Michalis},
@@ -424,10 +334,6 @@
   url = 	 {https://proceedings.mlr.press/v204/ennadir23a.html},
   abstract = 	 {Graph Neural Networks (GNNs) have achieved remarkable performance on diverse graph representation learning tasks. However, recent studies have unveiled their susceptibility to adversarial attacks, leading to the development of various defense techniques to enhance their robustness. In this work, instead of improving the robustness, we propose a framework to detect adversarial attacks and provide an adversarial certainty score in the prediction.  Our framework evaluates whether an input graph significantly deviates from the original data and provides a well-calibrated p-value based on this score through the conformal paradigm, therby controlling the false alarm rate. We demonstrate the effectiveness of our approach on various benchmark datasets. Although we focus on graph classification, the proposed framework can be readily adapted for other graph-related tasks, such as node classification.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-prinster23a,
   title = 	 {Efficient Approximate Predictive Inference Under Feedback Covariate Shift with Influence Functions},
   author =       {Prinster, Drew and Saria, Suchi and Liu, Anqi},
@@ -442,10 +348,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/prinster23a/prinster23a.pdf},
   url = 	 {https://proceedings.mlr.press/v204/prinster23a.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-eliades23a,
   title = 	 {A Conformal Martingales Ensemble Approach for addressing Concept Drift},
   author =       {Eliades, Charalambos and Papadopoulos, Harris},
@@ -461,10 +363,6 @@
   url = 	 {https://proceedings.mlr.press/v204/eliades23a.html},
   abstract = 	 {We propose an ensemble learning approach to tackle the problem of concept drift (CD) in data-stream classication. Accurately detecting the change point in the distribution is insufficient to ensure precise predictions, particularly when the selection of a representative training set is challenging or computationally expensive. More specically, we employ an ensemble of ten classiers that use a majority voting mechanism to make predictions. To promote diversity among models, we train each on a different number of instances, resulting in different sequences of p-values and construct an Inductive Conformal Martingale (ICM) for each one. When the ICM algorithm detects a change point in the corresponding p-value sequence, we perform a retraining process of the corresponding classier. We evaluate the performance of our proposed methodology on four benchmark datasets and compare it to existing methods in the literature. Our experimental results show that the proposed approach exhibits comparable and in some cases better accuracy than two state-of-the-art algorithms.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-vovk23a,
   title = 	 {The power of forgetting in statistical hypothesis testing},
   author =       {Vovk, Vladimir},
@@ -480,10 +378,6 @@
   url = 	 {https://proceedings.mlr.press/v204/vovk23a.html},
   abstract = 	 {This paper places conformal testing in a general framework of statistical hypothesis testing.  A standard approach to testing a composite null hypothesis H is to test each of its elements and to reject H when each of its elements is rejected. It turns out that we can fully cover conformal testing using this approach only if we allow forgetting some of the data. However, we will see that the standard approach covers conformal testing in a weak asymptotic sense and under restrictive assumptions. I will also list several possible directions of further research, including developing a general scheme of online testing.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-nouretdinov23b,
   title = 	 {The Venn-ABERS Testing for Change-Point Detection},
   author =       {Nouretdinov, Ilia and Gammerman, Alex},
@@ -498,10 +392,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/nouretdinov23b/nouretdinov23b.pdf},
   url = 	 {https://proceedings.mlr.press/v204/nouretdinov23b.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-kato23a,
   title = 	 {A Review of Nonconformity Measures for Conformal Prediction in Regression},
   author =       {Kato, Yuko and Tax, David M.J. and Loog, Marco},
@@ -517,10 +407,6 @@
   url = 	 {https://proceedings.mlr.press/v204/kato23a.html},
   abstract = 	 {Conformal prediction provides distribution-free uncertainty quantification under minimal assumptions. An important ingredient in conformal prediction is the so-called nonconformity measure, which quantifies how the test sample differs from the rest of the data. In this paper, existing nonconformity measures from the current literature are collected and their underlying ideas are analyzed. Furthermore, the influence of different factors on the performance of conformal prediction are pointed out by focusing on the relation between the influencing factors and the choice of nonconformity measures. Lastly, we provide suggestions for future work with regard to currently existing knowledge gaps and development of new nonconformity measures.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-colombo23a,
   title = 	 {On training locally adaptive CP},
   author =       {Colombo, Nicolo},
@@ -536,10 +422,6 @@
   url = 	 {https://proceedings.mlr.press/v204/colombo23a.html},
   abstract = 	 {We address the problem of making Conformal Prediction (CP) intervals locally adaptive.  Most existing methods focus on approximating the object-conditional validity of the intervals by partitioning or re-weighting the calibration set. Our strategy is new and conceptually different. Instead of re-weighting the calibration data, we redefine the conformity measure through a trainable change of variables, A â $\phi$X(A), that depends explicitly on the object attributes, X. Under certain conditions and if $\phi$X is monotonic in A for any X, the transformations produce prediction intervals that are guaranteed to be marginally valid and have X-dependent sizes. We describe how to parameterize and train $\phi$X to maximize the interval efficiency. Contrary to other CP-aware training methods, the objective function is smooth and can be minimized through standard gradient methods without approximations.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-bostrom23a,
   title = 	 {Mondrian Predictive Systems for Censored Data},
   author =       {Bostrom, Henrik and Linusson, Henrik and Vesterberg, Anders},
@@ -555,10 +437,6 @@
   url = 	 {https://proceedings.mlr.press/v204/bostrom23a.html},
   abstract = 	 {Conformal predictive systems output predictions in the form of well-calibrated cumulative distribution functions (conformal predictive distributions). In this paper, we apply conformal predictive systems to the problem of time-to-event prediction, where the conformal predictive distribution for a test object may be used to obtain the expected time until an event occurs, as well as p-values for an event to take place earlier (or later) than some specified time points. Specifically, we target right-censored time-to-event prediction tasks, i.e., situations in which the true time-to-event for a particular training example may be unknown due to observation of the example ending before any event occurs. By leveraging the Kaplan-Meier estimator, we develop a procedure for constructing Mondrian predictive systems that are able to produce well-calibrated cumulative distribution functions for right-censored time-to-event prediction tasks. We show that the proposed procedure is guaranteed to produce conservatively valid predictive distributions, and provide empirical support using simulated censoring on benchmark data. The proposed approach is contrasted with established techniques for survival analysis, including random survival forests and censored quantile regression forests, using both synthetic and non-synthetic censoring.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-giovannotti23a,
   title = 	 {Evaluating Machine Translation Quality with Conformal Predictive Distributions},
   author =       {Giovannotti, Patrizio},
@@ -574,10 +452,6 @@
   url = 	 {https://proceedings.mlr.press/v204/giovannotti23a.html},
   abstract = 	 {This paper presents a new approach for assessing uncertainty in machine translation by simultaneously evaluating translation quality and providing a reliable confidence score.  Our approach utilizes conformal predictive distributions to produce prediction intervals with guaranteed coverage, meaning that for any given significance level $\epsilon$, we can expect the true quality score of a translation to fall out of the interval at a rate of 1 - $\epsilon$. In this paper, we demonstrate how our method outperforms a simple, but effective baseline on six different language pairs in terms of coverage and sharpness. Furthermore, we validate that our approach requires the data exchangeability assumption to hold for optimal performance.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-trunov23a,
   title = 	 {Online aggregation of conformal predictive systems},
   author =       {Trunov, Vladimir G. and {V'yugin}, Vladimir V.},
@@ -593,10 +467,6 @@
   url = 	 {https://proceedings.mlr.press/v204/trunov23a.html},
   abstract = 	 {The problem of online probabilistic forecasting is considered. Probabilistic forecasts are obtained as a result of the application of conformal predictive systems. The conformal predictive system is a novel method for obtaining reliable predictions which are based on point forecasts of the regression algorithm. The paper considers the case when at each moment of time several competing conformal predictive systems (experts) give their predictions in the form of probability distribution functions. Probabilistic forecasts of the experts are combined by an aggregation algorithm into one probabilistic forecast at each step of the forecasting process, while expert forecasts can be used partially.  The developed methods are used to solve the well-known problem of predicting the load of an electrical network online. Numerical experiments have shown the agreement of predictions with real data.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-alkhatib23a,
   title = 	 {Approximating Score-based Explanation Techniques Using Conformal Regression},
   author =       {Alkhatib, Amr and Bostrom, Henrik and Ennadir, Sofiane and Johansson, Ulf},
@@ -612,10 +482,6 @@
   url = 	 {https://proceedings.mlr.press/v204/alkhatib23a.html},
   abstract = 	 {Score-based explainable machine-learning techniques are often used to understand the logic behind black-box models. However, such explanation techniques are often computationally expensive, which limits their application in time-critical contexts. Therefore, we propose and investigate the use of computationally less costly regression models for approximating the output of score-based explanation techniques, such as SHAP. Moreover, validity guarantees for the approximated values are provided by the employed inductive conformal prediction framework. We propose several non-conformity measures designed to take the difficulty of approximating the explanations into account while keeping the computational cost low. We present results from a large-scale empirical investigation, in which the approximate explanations generated by our proposed models are evaluated with respect to efficiency (interval size). The results indicate that the proposed method can significantly improve execution time compared to the fast version of SHAP, TreeSHAP. The results also suggest that the proposed method can produce tight intervals, while providing validity guarantees. Moreover, the proposed approach allows for comparing explanations of different approximation methods and selecting a method based on how informative (tight) are the predicted intervals.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-gauraha23a,
   title = 	 {Investigating the Contribution of Privileged Information in Knowledge Transfer LUPI by Explainable Machine Learning},
   author =       {Gauraha, Niharika and Bostrom, Henrik},
@@ -631,10 +497,6 @@
   url = 	 {https://proceedings.mlr.press/v204/gauraha23a.html},
   abstract = 	 {Learning Under Privileged Information (LUPI) is a framework that exploits information that is available during training only, i.e., the privileged information (PI), to improve the classification of objects for which this information is not available. Knowledge transfer LUPI (KT-LUPI) extends the framework by inferring PI for the test objects through separate predictive models. Although the effectiveness of the framework has been thoroughly demonstrated, current investigations have provided limited insights only regarding what parts of the transferred PI contribute to the improved performance. A better understanding of this could not only lead to computational savings but potentially also to novel strategies for exploiting PI. We approach the problem by exploring the use of explainable machine learning through the state-of-the-art technique SHAP, to analyze the contribution of the transferred privileged information. We present results from experiments with five classification and three regression datasets, in which we compare the Shapley values of the PI computed in two different settings; one where the PI is assumed to be available during both training and testing, hence representing an ideal scenario, and a second setting, in which the PI is available during training only but is transferred to test objects, through KT-LUPI. The results indicate that explainable machine learning indeed has the potential as a tool to gain insights regarding the effectiveness of KT-LUPI.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-narteni23a,
   title = 	 {CONFIDERAI: CONFormal Interpretable-by-Design score function for Explainable and Reliable Artificial Intelligence},
   author =       {Narteni, Sara and Carlevaro, Alberto and Dabbene, Fabrizio and Muselli, Marco and Mongelli, Maurizio},
@@ -649,10 +511,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/narteni23a/narteni23a.pdf},
   url = 	 {https://proceedings.mlr.press/v204/narteni23a.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-tyagi23a,
   title = 	 {Multi-label Classification under Uncertainty: A Tree-based Conformal Prediction Approach},
   author =       {Tyagi, Chhavi and Guo, Wenge},
@@ -668,10 +526,6 @@
   url = 	 {https://proceedings.mlr.press/v204/tyagi23a.html},
   abstract = 	 {Multi-label classification is a common challenge in various machine learning applications, where a single data instance can be associated with multiple classes simultaneously. The current paper proposes a novel tree-based method for multi-label classification using conformal prediction and multiple hypothesis testing. The proposed method employs hierarchical clustering with labelsets to develop a hierarchical tree, which is then formulated as a multiple-testing problem with a hierarchical structure. The split-conformal prediction method is used to obtain marginal conformal p-values for each tested hypothesis, and two hierarchical testing procedures are developed based on marginal conformal p-values, including a hierarchical Bonferroni procedure and its modification for controlling the family-wise error rate. The prediction sets are thus formed based on the testing outcomes of these two procedures. We establish a theoretical guarantee of valid coverage for the prediction sets through proven family-wise error rate control of those two procedures. We demonstrate the effectiveness of our method in a simulation study and two real data analysis compared to other conformal methods for multi-label classification.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-johansson23a,
   title = 	 {Confidence Classifiers with Guaranteed Accuracy or Precision},
   author =       {Johansson, Ulf and Sonstrod, Cecilia and Lofstrom, Tuwe and Bostrom, Henrik},
@@ -687,10 +541,6 @@
   url = 	 {https://proceedings.mlr.press/v204/johansson23a.html},
   abstract = 	 {In many situations, probabilistic predictors have replaced conformal classifiers. The main reason is arguably that the set predictions of conformal classifiers, with the accompanying significance level, are hard to interpret. In this paper, we demonstrate how conformal classification can be used as a basis for a classifier with reject option. Specifically, we introduce and evaluate two algorithms that are able to perfectly estimate accuracy or precision for a set of test instances, in a classifier with reject scenario. In the empirical investigation, the suggested algorithms are shown to clearly outperform both calibrated and uncalibrated probabilistic predictors.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-smirnov23a,
   title = 	 {Coverage vs Acceptance-Error Curves for Conformal Classification Models},
   author =       {Smirnov, Evgueni},
@@ -706,10 +556,6 @@
   url = 	 {https://proceedings.mlr.press/v204/smirnov23a.html},
   abstract = 	 {In this paper, we introduce coverage vs acceptance-error graphs as a visualization tool for comparing the performance of conformal predictors at a given significance level $\epsilon$ for any k-class classification task with k $\geq$ 2. We show that by plotting the performance of each predictor for different significance levels in $\epsilon$ $\in$ [0, 1], we receive a coverage vs acceptanceerror curve for that predictor. The area under this curve represents the probability that the p-value of randomly chosen true class-label of any test instance is greater than the p-value of any other false class-label for the same or any other test instance. This area can be used as a metric for predictive efficiency of a conformal predictor, when the validity has been established. The new metric is unique in that it is related to the empirical coverage rate, and extensive experiments confirmed its utility and difference from existing predictive efficiency criteria.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-cherubin23a,
   title = 	 {How do the performance of a Conformal Predictor and its underlying algorithm relate?},
   author =       {Cherubin, Giovanni},
@@ -725,10 +571,6 @@
   url = 	 {https://proceedings.mlr.press/v204/cherubin23a.html},
   abstract = 	 {Conformal Prediction (CP) offers a shift on the traditional supervised classification paradigm. Whereas in supervised learning one generally aims to optimize the error of a classifier at predicting the label correctly (prediction error), in CP one aims to optimize the size of a prediction set (efficiency), where this set is guaranteed to contain the true label with probability $\geq 1-\varepsilon$, for a user-defined $\varepsilon \in[0,1]$. CP works as a wrapper around a traditional learning model; yet, it is unclear how the prediction error of the underlying model affects the efficiency of the CP. In this note, we study a simple class of CPs whose efficiency is proportional to the prediction error of the underlying model.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-cordier23a,
   title = 	 {Flexible and Systematic Uncertainty Estimation with Conformal Prediction via the MAPIE library},
   author =       {Cordier, Thibault and Blot, Vincent and Lacombe, Louis and Morzadec, Thomas and Capitaine, Arnaud and Brunel, Nicolas},
@@ -744,10 +586,6 @@
   url = 	 {https://proceedings.mlr.press/v204/cordier23a.html},
   abstract = 	 {Conformal prediction (CP) is an attractive theoretical framework for estimating the uncertainties of any predictive algorithms as its methodology is general and systematic with few assumptions. CP methods can be abstracted into building blocks that can be deployed on any type of data, model, or task. In this work, we contribute to the wide diffusion of the CP framework by developing the library MAPIE1 that implements such principles and can address seamlessly different tasks (e.g. classification, regression, time-series) and in different settings (split and cross-conformal). All these concepts are under a common umbrella with an emphasis on readability, transparency, and reliability, hence supporting the principles of trustworthy AI. An original feature of MAPIE is to offer the possibility of designing tailored-made non-conformity scores in particular p-normalized residual non-conformal scores that can be defined to account for asymmetric errors. We show theoretically the marginal coverage guarantee in several settings. We highlight through applications the interest of choosing different non-conformity scores for tabular data when considering local coverage.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-mendil23a,
   title = 	 {PUNCC: a Python Library for Predictive Uncertainty Calibration and Conformalization},
   author =       {Mendil, Mouhcine and Mossina, Luca and Vigouroux, David},
@@ -763,10 +601,6 @@
   url = 	 {https://proceedings.mlr.press/v204/mendil23a.html},
   abstract = 	 {Predictive UNcertainty Calibration and Conformalization (PUNCC) is an open-source Python library integrating a collection of state-of-the-art Conformal Prediction (CP) algorithms and related techniques for regression and classication problems. This package aims to make conformal procedures accessible to non-experts using a simple and intuitive implementation. It is compatible with scikit-learn, PyTorch and TensorFlow and easily extensible to other prediction toolkits. PUNCC also comes with a low-level API that provides a unfied workfow in a pythonic environment to build, combine and run inductive CP algorithms. It offers generic structures and consistent interfaces to design customized nonconformity scores, data partition schemes, and methods for constructing prediction sets.  In this paper, we present the design of our library and demonstrate its use with various CP procedures, Machine Learning (ML) problems and models from different ML libraries.  Source code, documentation and demos are available at https://github.com/deel-ai/puncc.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-lofstrom23a,
   title = 	 {Tutorial on using Conformal Predictive Systems in KNIME},
   author =       {Lofstrom, Tuwe and Bondaletov, Alexander and Ryasik, Artem and Bostrom, Henrik and Johansson, Ulf},
@@ -782,10 +616,6 @@
   url = 	 {https://proceedings.mlr.press/v204/lofstrom23a.html},
   abstract = 	 {KNIME is an end-to-end software platform for data science with an open-source analytics platform for creating solutions and a commercial server solution for productionization.  Conformal classification and regression have previously been implemented in KNIME. We extend the conformal prediction package with added support for conformal predictive systems, taking inspiration from the interface of the Crepes package in Python. The paper demonstrates some typical use cases for conformal predictive systems. Furthermore, the paper also illustrates how to create Mondrian conformal predictors using the KNIME implementation.  All examples are publicly available, and the package is1 available through KNIMEâs official software repositories.}
 }
-
-
-
-
 @InProceedings{pmlr-v204-manolopoulos23a,
   title = 	 {Recommendation Systems in Scholarly Publishing},
   author =       {Manolopoulos, Yannis},
@@ -800,10 +630,6 @@
   pdf = 	 {https://proceedings.mlr.press/v204/manolopoulos23a/manolopoulos23a.pdf},
   url = 	 {https://proceedings.mlr.press/v204/manolopoulos23a.html}
 }
-
-
-
-
 @InProceedings{pmlr-v204-feldman23a,
   title = 	 {Conformal Prediction is Robust to Dispersive Label Noise},
   author =       {Feldman, Shai and Einbinder, Bat-Sheva and Bates, Stephen and Angelopoulos, Anastasios N. and Gendler, Asaf and Romano, Yaniv},

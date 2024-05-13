@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{On-line Trading of Exploration and Exploitation 22011,
   title =     {Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2},
   booktitle = {Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    26
 }
-
-
-
-
 @InProceedings{pmlr-v26-glowacka12a,
   title = 	 {Preface},
   author = 	 {GÅowacka, Dorota and Dorard, Louis and Shawe-Taylor, John},
@@ -29,10 +23,6 @@
   url = 	 {https://proceedings.mlr.press/v26/glowacka12a.html},
   abstract = 	 {Preface to the Proceedings of the Workshop on On-line Trading of Exploration and Exploitation 2 July 2, 2011, Bellevue, Washington, USA.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-choromanska12a,
   title = 	 {Online Clustering with Experts},
   author = 	 {Choromanska, Anna and Monteleoni, Claire},
@@ -49,10 +39,6 @@
   url = 	 {https://proceedings.mlr.press/v26/choromanska12a.html},
   abstract = 	 {We propose an online clustering algorithm that manages the exploration/exploitation tradeoff using an adaptive weighting over batch clustering algorithms. We extend algorithms for online supervised learning, with access to expert predictors, to the unsupervised learning setting.  Instead of computing prediction errors in order to re-weight the experts, the algorithm computes an approximation to the current value of the \emphk-means objective obtained by each expert. When the experts are batch clustering algorithms with   \emphb-approximation guarantees with respect to the \emphk-means   objective (for example, the \emphk-means++ or \emphk-means # algorithms), applied to a sliding window of the data stream, our algorithm achieves an approximation guarantee with respect to the \emphk-means objective.  The form of this online clustering approximation guarantee is novel, and extends  an evaluation framework proposed by Dasgupta as an analog to regret.  Our algorithm tracks the best clustering algorithm on real and simulated data sets.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-li12a,
   title = 	 {An Unbiased Offline Evaluation of Contextual Bandit Algorithms with Generalized Linear Models},
   author = 	 {Li, Lihong and Chu, Wei and Langford, John and Moon, Taesup and Wang, Xuanhui},
@@ -69,10 +55,6 @@
   url = 	 {https://proceedings.mlr.press/v26/li12a.html},
   abstract = 	 {Contextual bandit algorithms have become popular tools in online   recommendation and advertising systems. \emphOffline evaluation of the effectiveness of new algorithms in these applications is critical for protecting online user experiences but very challenging due to their âpartial-labelâ nature.  A common practice is to create a simulator which simulates the online environment for the problem at hand and then run an algorithm against this simulator. However, creating the simulator itself is often difficult and modeling bias is usually unavoidably introduced. The purpose of this paper is two-fold.  First, we review a recently proposed \emphoffline evaluation technique.  Different from simulator-based approaches, the method is completely data-driven, is easy to adapt to different applications, and more importantly, provides provably unbiased evaluations.  We argue for the wide use of this technique as standard practice when comparing bandit algorithms in real-life problems. Second, as an application of this technique, we compare and validate a number of new algorithms based on \emphgeneralized linear models.  Experiments using real Yahoo! data suggest substantial improvement over algorithms with linear models when the rewards are binary.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-lovell12a,
   title = 	 {Exploration and Exploitation with Insufficient Resources},
   author = 	 {Lovell, Chris and Jones, Gareth and Zauner, Klaus-Peter and Gunn, Steve R.},
@@ -89,10 +71,6 @@
   url = 	 {https://proceedings.mlr.press/v26/lovell12a.html},
   abstract = 	 {In physical experimentation, the resources available to discover new knowledge are typically extremely small in comparison to the size and dimensionality of the parameter spaces that can be searched. Additionally, due to the nature of physical experimentation, experimental errors will occur, particularly in biochemical experimentation where the reactants may undetectably denature, or reactant contamination could occur or equipment failure. These errors mean that not all experimental measurements and observations will be accurate or representative of the system being investigated. As the validity of observations is not guaranteed, resources must be split between exploration to discover new knowledge and exploitation to test the validity of the new knowledge. Currently we are investigating the automation of discovery in physical experimentation, with the aim of producing a fully autonomous closed-loop robotic machine capable of autonomous experimentation. This machine will build and evaluate hypotheses, determine experiments to perform and then perform them on an automated lab-on-chip experimentation platform for biochemical response characterisation. In the present work we examine how the trade-off between exploration and exploitation can occur in a situation where the number of experiments that can be performed is extremely small and where the observations returned are sometimes erroneous or unrepresentative of the behaviour being examined. To manage this trade-off we consider the use of a Bayesian notion of surprise, which is used to perform exploration experiments whilst observations are unsurprising from the predictions that can be made and exploits when observations are surprising as they do not match the predicted response.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-nicol12a,
   title = 	 {ICML Exploration & Exploitation Challenge: Keep it simple!},
   author = 	 {Nicol, Olivier and Mary, JÃ©rÃ©mie and Preux, Philippe},
@@ -109,10 +87,6 @@
   url = 	 {https://proceedings.mlr.press/v26/nicol12a.html},
   abstract = 	 {Recommendation has become a key feature in the economy of a lot of   companies (online shopping, search engines...). There is a lot of   work going on regarding recommender systems and there is still a lot   to do to improve them. Indeed nowadays in many companies most of the   job is done by hand. Moreover even when a supposedly smart   recommender system is designed, it is hard to evaluate it without   using real audience which obviously involves economic issues. The   ICML Exploration & Exploitation challenge is an attempt to make   people propose efficient recommendation techniques and particularly   focuses on limited computational resources. The challenge also   proposes a framework to address the problem of evaluating a   recommendation algorithm with real data. We took part in this   challenge and achieved the best performances; this paper aims at   reporting on this achievement; we also discuss the evaluation   process and propose a better one for future challenges of the   same kind.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-salperwyck12a,
   title = 	 {Stumping along a Summary for Exploration & Exploitation Challenge 2011},
   author = 	 {Salperwyck, Christophe and Urvoy, Tanguy},
@@ -129,10 +103,6 @@
   url = 	 {https://proceedings.mlr.press/v26/salperwyck12a.html},
   abstract = 	 {The  \emphPascal Exploration & Exploitation challenge 2011 seeks to evaluate algorithms for the online website content selection problem. This article presents the solution we used to achieve second place in this challenge and some side-experiments we performed. The methods we evaluated are all structured in three layers. The first layer provides an online summary of the data stream for continuous and nominal data. Continuous data are handled using an online quantile summary. Nominal data are summarized with a hash-based counting structure. With these techniques, we managed to build an accurate stream summary with a small memory footprint. The second layer uses the summary to build predictors. We exploited several kinds of trees from simple decision stumps to deep multivariate ones. For the last layer, we explored several combination strategies: online bagging, exponential weighting, linear ranker, and simple averaging.}
 }
-
-
-
-
 @InProceedings{pmlr-v26-seldin12a,
   title = 	 {PAC-Bayes-Bernstein Inequality for Martingales and its Application to Multiarmed Bandits},
   author = 	 {Seldin, Yevgeny and Cesa-Bianchi, NicolÃ² and Auer, Peter and Laviolette, FranÃ§ois and Shawe-Taylor, John},

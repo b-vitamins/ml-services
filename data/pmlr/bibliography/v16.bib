@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{Active Learning and Experimental Design Workshop2010,
   title =     {Active Learning and Experimental Design workshop In conjunction with AISTATS 2010},
   booktitle = {Active Learning and Experimental Design workshop In conjunction with AISTATS 2010},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    16
 }
-
-
-
-
 @InProceedings{pmlr-v16-settles11a,
   title = 	 {From Theories to Queries: Active Learning in Practice},
   author = 	 {Settles, Burr},
@@ -29,10 +23,6 @@
   url = 	 {https://proceedings.mlr.press/v16/settles11a.html},
   abstract = 	 {This article surveys recent work in active learning aimed at making it more practical for real-world use. In general, active learning systems aim to make machine learning more economical, since they can participate in the acquisition of their own training data. An active learner might iteratively select informative query instances to be labeled by an oracle, for example. Work over the last two decades has shown that such approaches are effective at maintaining accuracy while reducing training set size in many machine learning applications. However, as we begin to deploy active learning in real ongoing learning systems and data annotation projects, we are encountering unexpected problemsâdue in part to practical realities that violate the basic assumptions of earlier foundational work. I review some of these issues, and discuss recent work being done to address the challenges.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-guyon11a,
   title = 	 {Results of the Active Learning Challenge},
   author = 	 {Guyon, Isabelle and Cawley, Gavin C. and Dror, Gideon and Lemaire, Vincent},
@@ -49,10 +39,6 @@
   url = 	 {https://proceedings.mlr.press/v16/guyon11a.html},
   abstract = 	 {We organized a machine learning challenge on âactive learningâ, addressing problems where labeling data is expensive, but large amounts of unlabeled data are available at low cost. Examples include handwriting and speech recognition, document classification, vision tasks, drug design using recombinant molecules and protein engineering. The algorithms may place a limited number of queries to get new sample labels. The design of the challenge and its results are summarized in this paper and the best contributions made by the participants are included in these proceedings. The website of the challenge remains open as a resource for students and researchers (http://clopinet.com/al).}
 }
-
-
-
-
 @InProceedings{pmlr-v16-cawley11a,
   title = 	 {Baseline Methods for Active Learning},
   author = 	 {Cawley, Gavin C.},
@@ -69,10 +55,6 @@
   url = 	 {https://proceedings.mlr.press/v16/cawley11a.html},
   abstract = 	 {In many potential applications of machine learning, unlabelled data are abundantly available at low cost, but there is a paucity of labelled data, and labeling unlabelled examples is expensive and/or time-consuming. This motivates the development of active learning methods, that seek to direct the collection of labelled examples such that the greatest performance gains can be achieved using the smallest quantity of labelled data. In this paper, we describe some simple pool-based active learning strategies, based on optimally regularised linear [kernel] ridge regression, providing a set of baseline submissions for the Active Learning Challenge. A simple random strategy, where unlabelled patterns are submitted to the oracle purely at random, is found to be surprisingly effective, being competitive with more complex approaches.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-borisov11a,
   title = 	 {Active Batch Learning with Stochastic Query-by-Forest (SQBF)},
   author = 	 {Borisov, Alexander and Tuv, Eugene and Runger, George},
@@ -89,10 +71,6 @@
   url = 	 {https://proceedings.mlr.press/v16/borisov11a.html},
   abstract = 	 {In a conventional machine learning approach, one uses labeled data to train the model. However, often we have a data set with few labeled instances, and a large number of unlabeled ones. This is called a semi-supervised learning problem. It is well known that often unlabeled data could be used to improve a model. In real world scenarios, labeled data can usually be obtained dynamically. However, obtaining new labels in most cases requires human effort and/or is costly. An active learning (AL) paradigm tries to direct the queries in such way that a good model can be trained with a relatively small number of queries. In this work we focus on so-called pool-based active learning, i.e., learning when there is a fixed large pool of unlabeled data, and we can query the label for any instance from this pool at some cost. Existing methods are often based on strong assumptions for the joint input/output distribution (i.e., a mixture of Gaussians, linearly separable input space, etc.), or use a distance-based approach (such as Euclidean or Mahalanobis distances). That makes such methods very susceptible to noise in input space, and they often work poorly in high dimensions. Also, such methods assume numeric inputs only. In addition, for most methods relying on distance computations and/or linear models, computational complexity scales at least quadratically with respect to the number of unlabeled samples, rendering them useless on large datasets. In real world applications data is often large, noisy, contains irrelevant inputs, missing values, and mixed variable types. Often queries should be arranged in groups or batches (this is called batch AL). In batch querying one should consider both the âusefulnessâ of individual queries within a batch, and the batch diversity. Batch AL, although being very practical by nature, is rarely addressed by existing AL approaches. Here we propose a new non-parametric approach to the AL problem called Stochastic Query by Forest (SQRF), that effectively addresses the challenges described above. Our algorithm is based on a QBC algorithm applied to an RF ensemble, and our main contribution is the batch diversification strategy. We describe two different strategies for batch selection, the first of which achieved the highest average score on the AISTATS 2010 active learning challenge and ranked top on one of the challenge datasets. Our work focuses on binary classification problems, but our method can be directly applied to regression or multi-class problems with minor modifications.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-ho11a,
   title = 	 {Active Learning and Experimental Design with SVMs},
   author = 	 {Ho, Chia-Hua and Tsai, Ming-Hen and Lin, Chih-Jen},
@@ -109,10 +87,6 @@
   url = 	 {https://proceedings.mlr.press/v16/ho11a.html},
   abstract = 	 {In this paper, we consider active learning as a procedure of iteratively performing two steps: first, we train a classifier based on labeled and unlabeled data. Second, we query labels of some data points. The first part is achieved mainly by standard classifiers such as SVM and logistic regression. We develop additional techniques when there are very few labeled data. These techniques help to obtain good classifiers in the early stage of the active learning procedure. In the second part, based on SVM or logistic regression decision values, we propose a framework to flexibly select points for query. We find that selecting points with various distances to the decision boundary is important, but including more points close to the decision boundary further improves the performance. Our experiments are conducted on the data sets of Causality Active Learning Challenge. With measurements of Area Under Curve (AUC) and Area under the Learning Curve (ALC), we find suitable methods for different data sets.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-xie11a,
   title = 	 {Stochastic Semi-supervised Learning on Partially Labeled Imbalanced Data},
   author = 	 {Xie, Jianjun and Xiong, Tao},
@@ -129,10 +103,6 @@
   url = 	 {https://proceedings.mlr.press/v16/xie11a.html},
   abstract = 	 {In this paper, we describe the stochastic semi-supervised learning approach that we used in our submission to all six tasks in 2009-2010 Active Learning Challenge. The method is designed to tackle the binary classification problem under the condition that the number of labeled data points is extremely small and the two classes are highly imbalanced. It starts with only one positive seed given by the contest organizer. We randomly pick additional unlabeled data points and treat them as ânegativeâ seeds based on the fact that the positive label is rare across all datasets. A classifier is trained using the âlabeledâ data points and then is used to predict the unlabeled dataset. We take the final result to be the average of n stochastic iterations. Supervised learning was used as a large number of labels were purchased. Our approach is shown to work well in 5 out of 6 datasets. The overall results ranked 3rd in the contest.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-lan11a,
   title = 	 {An Active Learning Algorithm Based on Parzen Window Classiffication},
   author = 	 {Lan, Liang and Shi, Haidong and Wang, Zhuang and Vucetic, Slobodan},
@@ -149,10 +119,6 @@
   url = 	 {https://proceedings.mlr.press/v16/lan11a.html},
   abstract = 	 {This paper describes active learning algorithm used in AISTATS 2010 Active Learning Challenge as well as several of its extensions evaluated in the post-competition experiments. The algorithm consists of a pair of Regularized Parzen Window Classifiers, one trained on full set of features and another on features filtered using Pearson correlation. Predictions of the two classifiers are averaged to obtain the ensemble classifier. Parzen Window classifier was chosen because is an easy to implement lazy algorithm and has a single parameter, the kernel window size, that is determined by the cross-validation. The labeling schedule started by selecting random 20 examples and then continued by doubling the number of labeled examples in each round of active learning. A combination of random sampling and uncertainty sampling was used for querying. For the random sampling, examples were first clustered using either all features or the filtered features (whichever resulted in higher cross-validated accuracy) and then the same number of random examples was selected from each cluster. Our algorithm ranked as the 5th overall, and was consistently ranked in the upper half of the competing algorithms. The challenge results show that Parzen Window classifiers are less accurate than several competing learning algorithms used in the competition, but also indicate the success of the simple querying strategy that was employed. In the post-competition, we were able to improve the accuracy by using an ensemble of 5 Parzen Window classifiers, each trained on features selected by different filters. We also explored how more involved querying during the initial stages of active learning and the pre-clustering querying strategy would influence the performance of the proposed algorithm.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-chen11a,
   title = 	 {Active Learning for Unbalanced Data in the Challenge with Multiple Models and Biasing},
   author = 	 {Chen, Yukun and Mani, Subramani},
@@ -169,10 +135,6 @@
   url = 	 {https://proceedings.mlr.press/v16/chen11a.html},
   abstract = 	 {The common uncertain sampling approach searches for the most uncertain samples closest to the decision boundary for a classification task. However, we might fail to find the uncertain samples when we have a poor probabilistic model. In this work, we develop an active learning strategy called âUncertainty Sampling with Biasing Consensusâ (USBC) which predicts the unbalanced data by multi-model committee and ranks the informativeness of samples by uncertainty sampling with higher weight on the minority class. For prediction, we use Random Forests based multiple models that generate the consensus posterior probability for each sample as part of USBC. To further improve the initial performance in active learning, we also use a semi-supervised learning model that self labels predicted negative samples without querying. For more stable initial performance, we use a filter to avoid querying samples with high variance. We also introduce batch size validation to find the optimal initial batch size for querying samples in active learning.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-bodo11a,
   title = 	 {Active Learning with Clustering},
   author = 	 {BodÃ³, ZalÃ¡n and Minier, Zsolt and CsatÃ³, Lehel},
@@ -189,10 +151,6 @@
   url = 	 {https://proceedings.mlr.press/v16/bodo11a.html},
   abstract = 	 {Active learning is an important field of machine learning and it is becoming more widely used in case of problems where labeling the examples in the training data set is expensive. In this paper we present a clustering-based algorithm used in the Active Learning Challenge (http://www.causality.inf.ethz.ch/activelearning.php). The algorithm is based on graph clustering with normalized cuts, and uses k-means to extract representative points from the data and approximate spectral clustering for efficiently performing the computations.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-lovel11a,
   title = 	 {Autonomous Experimentation:Active Learning for Enzyme Response Characterisation},
   author = 	 {Lovell, Cliff and Jones, Gareth and Gunn, Steve R. and Zauner, Klaus-Peter},
@@ -209,10 +167,6 @@
   url = 	 {https://proceedings.mlr.press/v16/lovel11a.html},
   abstract = 	 {Characterising response behaviours of biological systems is impaired by limited resources that restrict the exploration of high dimensional parameter spaces. Additionally, experimental errors that provide observations not representative of the true underlying behaviour, mean that observations obtained from these experiments cannot be regarded as always valid. To combat the problem of erroneous observations in situations where there are limited observations available to learn from, we consider the use of multiple hypotheses, where potentially erroneous observations are considered as being erroneous and valid in parallel by competing hypotheses. Here we describe work towards an autonomous experimentation machine that combines active learning techniques with computer controlled experimentation platforms to perform physical experiments. Whilst the target for our approach is the characterisation of the behaviours of networks of enzymes for novel computing mechanisms, the algorithms we are working towards remain independent of the application domain.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-geist11a,
   title = 	 {Managing Uncertainty within the KTD Framework},
   author = 	 {Geist, Matthieu and Pietquin, Olivier},
@@ -229,10 +183,6 @@
   url = 	 {https://proceedings.mlr.press/v16/geist11a.html},
   abstract = 	 {The dilemma between exploration and exploitation is an important topic in reinforcement learning (RL). Most successful approaches in addressing this problem tend to use some uncertainty information about values estimated during learning. On another hand, scalability is known as being a lack of RL algorithms and value function approximation has become a major topic of research. Both problems arise in real-world applications, however few approaches allow approximating the value function while maintaining uncertainty information about estimates. Even fewer use this information in the purpose of addressing the exploration/exploitation dilemma. In this paper, we show how such an uncertainty information can be derived from a Kalman-based Temporal Differences (KTD) framework and how it can be used.}
 }
-
-
-
-
 @InProceedings{pmlr-v16-tomanek11a,
   title = 	 {Inspecting Sample Reusability for Active Learning},
   author = 	 {Tomanek, Katrin and Morik, Katherina},

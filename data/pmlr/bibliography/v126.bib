@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{MLHC2020,
   title =     {Proceedings of the 5th Machine Learning for Healthcare Conference},
   booktitle = {Proceedings of the 5th Machine Learning for Healthcare Conference},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    126
 }
-
-
-
-
 @InProceedings{pmlr-v126-shaham20a,
   title = 	 {Learning to Ask Medical Questions using Reinforcement Learning},
   author =       {Shaham, Uri and Zahavy, Tom and Caraballo, Cesar and Mahajan, Shiwani and Massey, Daisy and Krumholz, Harlan},
@@ -28,10 +22,6 @@
   url = 	 {https://proceedings.mlr.press/v126/shaham20a.html},
   abstract = 	 {We propose a novel reinforcement learning-based approach for adaptive and iterative feature selection. Given a masked vector of input features, a reinforcement learning agent iteratively selects certain features to be unmasked, and uses them to predict an outcome when it is sufficiently confident. The algorithm makes use of a novel environment setting, corresponding to a non-stationary Markov Decision Process. A key component of our approach is a guesser network, trained to predict the outcome from the selected features and parametrizing the reward function. Applying our method to a national survey dataset, we show that it not only outperforms strong baselines when requiring the prediction to be made based on a small number of input features, but is also highly more interpretable. Our code is publicly available at https://github.com/ushaham/adaptiveFS.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-luo20a,
   title = 	 {ScanMap: Supervised Confounding Aware Non-negative Matrix Factorization for Polygenic Risk Modeling},
   author =       {Luo, Yuan and Mao, Chengsheng},
@@ -47,10 +37,6 @@
   url = 	 {https://proceedings.mlr.press/v126/luo20a.html},
   abstract = 	 {Molecular mechanisms are important to inform targeted intervention and are often encoded in gene sets or pathways. Existing machine learning approaches often face challenges in simultaneously reducing the high dimensionality and learning effective features that are discriminative in predicting the disease types with the usual presence of confounding variables. We aim to improve accuracy and interpretability of prediction models by introducing Supervised Confounding Aware Non-negative Matrix Factorization for Polygenic Risk Modeling (ScanMap) for genetic studies. ScanMap selects informative groups of genes that embody multiple interacting molecular functions by using a supervised model that integrates both groups of genes and confounding variables in predicting disease type and status. The learned groups of genes reflect interacting molecular mechanisms, which are suitable features for polygenic risk modeling. These learned features are then used in training a softmax classifier for disease type and status prediction. We evaluated ScanMap against multiple state-of-the-art unsupervised and supervised matrix factorization models using large scale NGS datasets. ScanMap outperformed all comparison models significantly (p < 0:05). Feature analysis was performed to illuminate the insights and benefits of gene groups learned by ScanMap in disease risk prediction.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-hegselmann20a,
   title = 	 {An Evaluation of the Doctor-Interpretability of Generalized Additive Models with Interactions},
   author =       {Hegselmann, Stefan and Volkert, Thomas and Ohlenburg, Hendrik and Gottschalk, Antje and Dugas, Martin and Ertmer, Christian},
@@ -85,10 +71,6 @@ and it showed that interpretability of generalized additive models depends on th
 complexity of risk functions.
 }
 }
-
-
-
-
 @InProceedings{pmlr-v126-lu20a,
   title = 	 {Towards Early Diagnosis of Epilepsy from EEG Data},
   author =       {Lu, Diyuan and Bauer, Sebastian and Neubert, Valentin and Costard, Laura Sophie and Rosenow, Felix and Triesch, Jochen},
@@ -104,10 +86,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/lu20a.html},
   abstract = 	 {Epilepsy is one of the most common neurological disorders, affecting about 1% of the population at all ages. Detecting the development of epilepsy, i.e., epileptogenesis (EPG), before any seizures occur could allow for early interventions and potentially more effective treatments. Here, we investigate if modern machine learning (ML) techniques can detect EPG from intra-cranial electroencephalography (EEG) recordings prior to the occurrence of any seizures by a time frame of days or even weeks. We study a common form of epilepsy called mesial temporal lobe epilepsy (mTLE). Specifically, we use a rodent mTLE model where EPG is triggered by electrical stimulation of the brain, which induces hippocampal damages that resemble those in human patients. We propose a ML framework for EPG identification, which combines a deep convolutional neural network (CNN) with a prediction aggregation method to obtain the final classification decision. Specifically, the neural network is trained to distinguish five second segments of EEG recordings taken from either the pre-stimulation period or the post-stimulation period. Due to the gradual development of epilepsy, there is enormous overlap of the EEG patterns before and after the stimulation. Hence, a prediction aggregation process is introduced, which pools predictions over a longer period. By aggregating predictions over one hour, our approach achieves an area under the curve (AUC) of 0.99 on the EPG detection task. This demonstrates the potential of ML for EPG prediction from EEG recordings.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-zhang20a,
   title = 	 {Developing Personalized Models of Blood Pressure Estimation from Wearable Sensors Data Using Minimally-trained Domain Adversarial Neural Networks},
   author =       {Zhang, Lida and Hurley, Nathan C. and Ibrahim, Bassem and Spatz, Erica and Krumholz, Harlan M. and Jafari, Roozbeh and Bobak, Mortazavi J.},
@@ -123,10 +101,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/zhang20a.html},
   abstract = 	 {Blood pressure monitoring is an essential component of hypertension management and in the prediction of associated comorbidities. Blood pressure is a dynamic vital sign with frequent changes throughout a given day. Capturing blood pressure remotely and frequently (also known as ambulatory blood pressure monitoring) has traditionally been achieved by measuring blood pressure at discrete intervals using an inflatable cuff. However, there is growing interest in developing a cuffless ambulatory blood pressure monitoring system to measure blood pressure continuously. One such approach is by utilizing bioimpedance sensors to build regression models. A practical problem with this approach is that the amount of data required to confidently train such a regression model can be prohibitive. In this paper, we propose the application of the domain-adversarial training neural network (DANN) method on our multitask learning (MTL) blood pressure estimation model, allowing for knowledge transfer between subjects. Our proposed model obtains average root mean square error (RMSE) of $4.80 \pm 0.74$ mmHg for diastolic blood pressure and $7.34 \pm 1.88$ mmHg for systolic blood pressure when using three minutes of training data, $4:64 \pm 0.60$ mmHg and $7.10 \pm 1.79$ respectively when using four minutes of training data, and $4.48 \pm 0.57$ mmHg and $6.79 \pm 1:70$ respectively when using five minutes of training data. DANN improves training with minimal data in comparison to both directly training and to training with a pretrained model from another subject, decreasing RMSE by 0.19 to 0.26 mmHg (diastolic) and by 0.46 to 0.67 mmHg (systolic) in comparison to the best baseline models. We observe that four minutes of training data is the minimum requirement for our framework to exceed ISO standards within this cohort of patients.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-bandi20a,
   title = 	 {Optimizing Influenza Vaccine Composition: From Predictions to Prescriptions},
   author =       {Bandi, Hari and Bertsimas, Dimitris},
@@ -142,10 +116,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/bandi20a.html},
   abstract = 	 {We propose a holistic framework based on state-of-the-art methods in Machine Learning and Optimization to prescribe influenza vaccine composition that are specific to a region, or a country based on historical data concerning the rates of circulation of predominant viruses. First, we develop a tensor completion formulation to predict rates of circulation of viruses for the next season based on historical data. Then, taking into account the uncertainty in the predicted rates of circulation of predominant viruses, we propose a novel robust prescriptive framework for selecting suitable strains for each subtypes of the flu virus: Influenza A (H1N1 and H3N2) and B viruses for production. Finally, we train optimal regression trees to predict efficacy of the prescribed vaccine in terms of both morbidity and mortality rates using a set of weighted distances between the vaccine-strain and the actual circulating viruses during a flu season for each subtypes of the flu virus. Through numerical experiments, we show that our proposed vaccine compositions could potentially lower morbidity by 11-14% and mortality by 8-11% over vaccine compositions proposed by World Health Organization (WHO) for Northern hemisphere, and lower morbidity by 8-10% and mortality by 6-9% over vaccine compositions proposed by U.S Food and Drug Administration (FDA) for USA, and finally, lower morbidity by 10-12% and mortality by 9-11% over vaccine compositions proposed by European Medicines Agency (EMA) for Europe.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-kaku20a,
   title = 	 {Towards data-driven stroke rehabilitation via wearable sensors and deep learning},
   author =       {Kaku, Aakash and Parnandi, Avinash and Venkatesan, Anita and Pandit, Natasha and Schambra, Heidi and Fernandez-Granda, Carlos},
@@ -161,10 +131,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/kaku20a.html},
   abstract = 	 {Recovery after stroke is often incomplete, but rehabilitation training may potentiate recovery by engaging endogenous neuroplasticity. In preclinical models of stroke, high doses of rehabilitation training are required to restore functional movement to the affected limbs of animals. In humans, however, the necessary dose of training to potentiate recovery is not known. This ignorance stems from the lack of objective, pragmatic approaches for measuring training doses in rehabilitation activities. Here, to develop a measurement approach, we took the critical first step of automatically identifying functional primitives, the basic building block of activities. Forty-eight individuals with chronic stroke performed a variety of rehabilitation activities while wearing inertial measurement units (IMUs) to capture upper body motion. Primitives were identified by human labelers, who labeled and segmented the associated IMU data. We performed automatic classification of these primitives using machine learning. We designed a convolutional neural network model that outperformed existing methods. The model includes an initial module to compute separate embeddings of different physical quantities in the sensor data. In addition, it replaces batch normalization (which performs normalization based on statistics computed from the training data) with instance normalization (which uses statistics computed from the test data). This increases robustness to possible distributional shifts when applying the method to new patients. With this approach, we attained an average classification accuracy of 70%. Thus, using a combination of IMU-based motion capture and deep learning, we were able to identify primitives automatically. This approach builds towards objectively-measured rehabilitation training, enabling the identification and counting of functional primitives that accrues to a training dose.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-miller20a,
   title = 	 {Learning Insulin-Glucose Dynamics in the Wild},
   author =       {Miller, Andrew C. and Foti, Nicholas J. and Fox, Emily},
@@ -180,10 +146,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/miller20a.html},
   abstract = 	 {We develop a new model of insulin-glucose dynamics for forecasting blood glucose in type 1 diabetics. We augment an existing biomedical model by introducing time-varying dynamics driven by a machine learning sequence model. Our model maintains a physiologically plausible inductive bias and clinically interpretable parameters â e.g., insulin sensitivity â while inheriting the flexibility of modern pattern recognition algorithms. Critical to modeling success are the flexible, but structured representations of subject variability with a sequence model. In contrast, less constrained models like the LSTM fail to provide reliable or physiologically plausible forecasts. We conduct an extensive empirical study. We show that allowing biomedical model dynamics to vary in time improves forecasting at long time horizons, up to six hours, and produces forecasts consistent with the physiological effects of insulin and carbohydrates.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-mullenbach20a,
   title = 	 {Knowledge Base Completion for Constructing Problem-Oriented Medical Records},
   author =       {Mullenbach, James and Swartz, Jordan and McKelvey, T. Greg and Dai, Hui and Sontag, David},
@@ -199,10 +161,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/mullenbach20a.html},
   abstract = 	 {Both electronic health records and personal health records are typically organized by data type, with medical problems, medications, procedures, and laboratory results chronologically sorted in separate areas of the chart. As a result, it can be difficult to find all of the relevant information for answering a clinical question about a given medical problem. A promising alternative is to instead organize by problems, with related medications, procedures, and other pertinent information all grouped together. A recent effort by Buchanan (2017) manually defined, through expert consensus, 11 medical problems and the relevant labs and medications for each. We show how to use machine learning on electronic health records to instead automatically construct these problem-based groupings of relevant medications, procedures, and laboratory tests. We formulate the learning task as one of knowledge base completion, and annotate a dataset that expands the set of problems from 11 to 32. We develop a model architecture that exploits both pre-trained concept embeddings and usage data relating the concepts contained in a longitudinal dataset from a large health system. We evaluate our algorithmsâ ability to suggest relevant medications, procedures, and lab tests, and find that the approach provides feasible suggestions even for problems that are hidden during training. The dataset, along with code to reproduce our results, is available at https://github.com/asappresearch/kbc-pomr.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-engelhard20a,
   title = 	 {Neural Conditional Event Time Models},
   author =       {Engelhard, Matthew and Berchuck, Samuel and D'Arcy, Joshua and Henao, Ricardo},
@@ -218,10 +176,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/engelhard20a.html},
   abstract = 	 {Event time models predict occurrence times of an event of interest based on known features. Recent work has demonstrated that neural networks achieve state-of-the-art event time predictions in biomedical applications, where event time models are frequently used, as well as a variety of other settings. However, standard event time models suppose that the event occurs, eventually, in all cases. Consequently, no distinction is made between a) the probability of event occurrence, and b) the predicted time of occurrence. This distinction is critical when predicting medical diagnoses as well as social media posts, equipment defects, and other events that or may not occur; and for which the features affecting a) may be different from those affecting b). In this work, we develop a conditional event time model that distinguishes between these components, implement it as a neural network with a binary stochastic layer representing nite event occurrence, and show how it may be learned from right-censored event times via maximum likelihood estimation. Results demonstrate improved event occurrence and event time predictions on synthetic data, medical events (MIMIC-III), and social media posts (Reddit), including posts related to mental health, comprising 21 total prediction tasks.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-lovelace20a,
   title = 	 {Dynamically Extracting Outcome-Specific Problem Lists from Clinical Notes with Guided Multi-Headed Attention},
   author =       {Lovelace, Justin and Hurley, Nathan C. and Haimovich, Adrian D. and Mortazavi, Bobak J.},
@@ -237,10 +191,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/lovelace20a.html},
   abstract = 	 {Problem lists are intended to provide clinicians with a relevant summary of patient medical issues and are embedded in many electronic health record systems. Despite their importance, problem lists are often cluttered with resolved or currently irrelevant conditions. In this work, we develop a novel end-to-end framework that first extracts diagnosis and procedure information from clinical notes and subsequently uses the extracted medical problems to predict patient outcomes. This framework is both more performant and more interpretable than existing models used within the domain, achieving an AU-ROC of 0.710 for bounceback readmission and 0.869 for in-hospital mortality occurring after ICU discharge. We identify risk factors for both readmission and mortality outcomes and demonstrate that our framework can be used to develop dynamic problem lists that present clinical problems along with their quantitative importance. We conduct a qualitative user study with medical experts and demonstrate that they view the lists produced by our framework favorably and find them to be a more effective clinical decision support tool than a strong baseline.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-gondara20a,
   title = 	 {Differentially Private Survival Function Estimation},
   author =       {Gondara, Lovedeep and Wang, Ke},
@@ -256,10 +206,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/gondara20a.html},
   abstract = 	 {Survival function estimation is used in many disciplines, but it is most common in medical analytics in the form of the Kaplan-Meier estimator. Sensitive data (patient records) is used in the estimation without any explicit control on the information leakage, which is a significant privacy concern. We propose a first differentially private estimator of the survival function and show that it can be easily extended to provide differentially private confidence intervals and test statistics without spending any extra privacy budget. We further provide extensions for differentially private estimation of the competing risk cumulative incidence function, Nelson-Aalenâs estimator for the hazard function, etc. Using eleven real-life clinical datasets, we provide empirical evidence that our proposed method provides good utility while simultaneously providing strong privacy guarantees.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-kim20a,
   title = 	 {MRI-based Diagnosis of Rotator Cuff Tears using Deep Learning and Weighted Linear Combinations},
   author =       {Kim, Mijung and Park, Ho-min and Kim, Jae Yoon and Kim, Seong Hwan and Hoeke, Sofie and De Neve, Wesley},
@@ -275,10 +221,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/kim20a.html},
   abstract = 	 {Rotator Cuff Tears (RCTs) are a common injury among people who are middle-aged or older. For effective diagnosis of RCTs, orthopedic surgeons typically need to have access to both shoulder Magnetic Resonance Imaging (MRI) and proton density-weighted imaging. However, the generation and interpretation of such comprehensive image information is labor intensive, and thus time consuming and costly. Although computer-aided diagnosis can help in mitigating the aforementioned issues, no computational tools are currently available for diagnosing RCTs. Therefore, we introduce a computational approach towards RCT diagnosis in this paper, leveraging end-to-end learning by applying a deep convolutional neural network to shoulder MRI scans. Given that these shoulder MRI scans are 3-D by nature and highly biased towards normal shoulders, with only 6.6% of the available shoulder MRI scans containing partial-thickness tears, we made use of two tools to enhance our deep convolutional neural network. First, to enable the utilization of sequential information available in the 3-D MRI scans, we integrated a weighted linear combination layer. Second, to mitigate the presence of class imbalance, we adopted weighted cross-entropy loss. That way, we were able to obtain a diagnostic accuracy of 87% and an M-AUC score of 97%, outperforming a baseline of human annotators (diagnostic accuracy of 76% and an M-AUC score of 81%). In addition, we were able to outperform several approaches using conventional machine learning techniques. Finally, to facilitate further research efforts and ease of benchmarking, we make our dataset of 2,447 shoulder MRI scans publicly available.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-severson20a,
   title = 	 {Personalized Input-Output Hidden Markov Models for Disease Progression Modeling},
   author =       {Severson, Kristen A. and Chahine, Lana M. and Smolensky, Luba and Ng, Kenney and Hu, Jianying and Ghosh, Soumya},
@@ -294,10 +236,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/severson20a.html},
   abstract = 	 {Disease progression models are important computational tools in healthcare and are used for tasks such as improving disease understanding, informing drug discovery, and aiding in patient management. Although many algorithms for time series modeling exist, healthcare applications face particular challenges such as small datasets, medication effects, disease heterogeneity, and a desire for personalized predictions. In this work, we present a disease progression model that addresses these needs by proposing a probabilistic time-series model that captures individualized disease states, personalized medication effects, disease-state medication effects, or any combination thereof. The model builds on the framework of an input-output hidden Markov model where the parameters are learned using a structured variational approximation. To demonstrate the utility of the algorithm, we apply it to both synthetic and real-world datasets. In the synthetic case, we demonstrate the benefits afforded by the proposed model as compared to standard techniques. In the real-world cases, we use two Parkinsonâs disease datasets to show improved predictive performance when ground truth is available and clinically relevant insights that are not revealed via classic Markov models when ground truth is not available.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-rahman20a,
   title = 	 {Phenotyping with Prior Knowledge using Patient Similarity},
   author =       {Rahman, Asif and Chang, Yale and Conroy, Bryan and Xu-Wilson, Minnan},
@@ -313,10 +251,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/rahman20a.html},
   abstract = 	 {Prior medical knowledge, like the relationships between diseases or treatments and their corresponding risk factors are widely available in electronic health records (EHR), can be generated by domain experts, and extracted from knowledge graphs. Although informative for predictive modeling tasks, most of the patient-specific knowledge in EHR are not utilized because of practical constraints on data availability or cost of acquiring the data to make inferences. We present a method to learn from prior knowledge using a mixture of experts model where gating probabilities are tuned by an adjacency matrix created using side information available during training, like comorbidities, interventions, outcomes, vital signs and laboratory measurements. The adjacency matrix of a nearest neighbor graph is used to discover subgroups of intensive care unit (ICU) patients. Experts are shown to specialize based on how patients are grouped in the adjacency matrix on two real-world decision support tasks: predicting hemodynamic interventions and stratifying patients at risk for developing a sustained period of hypoxemia. The proposed prior knowledge-guided learning (PKL) model discovers clinically meaningful cohorts in patients with respiratory compromise that match well known sub-phenotypes described in the literature.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-arunajadai20a,
   title = 	 {Addressing Sample Size Challenges in Linked Data Through Data Fusion},
   author =       {Arunajadai, Srikesh and Lee, Lulu and Haskell, Tom},
@@ -332,10 +266,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/arunajadai20a.html},
   abstract = 	 {Linking secondary clinical data with patient-reported data at the patient-level brings together a comprehensive view of the patient but sample sizes can be a challenge. This study demonstrates the fusion of Patient Reported Outcomes in surveys with clinical data in claims enabling the study of associations between quality of life and disease-treatment interactions at scale especially for rare diseases. In this work, we show the ability to implement data fusion in a disease agnostic way thereby enabling the use of more advanced machine learning algorithms on larger data sets, while still being able to use the resulting fused data to perform disease specific analysis. This is in contrast to usual approaches where the data fusion might be attempted on disease specific data sets which can be too small to be amenable to analysis by advanced methods. The proposed data fusion methodology circumvents some of the assumptions typically imposed on the data fusion process that are untestable and usually invalid by taking advantage of the subset of the data that can be linked in the two data sources.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-adib20a,
   title = 	 {A Causally Formulated Hazard Ratio Estimation through Backdoor Adjustment on Structural Causal Model},
   author =       {Adib, Riddhiman and Griffin, Paul and Ahamed, Sheikh Iqbal and Adibuzzaman, Mohammad},
@@ -351,10 +281,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/adib20a.html},
   abstract = 	 {Identifying causal relationships for a treatment intervention is a fundamental problem in health sciences. Randomized controlled trials (RCTs) are considered the gold standard for identifying causal relationships. However, recent advancements in the theory of causal inference based on the foundations of structural causal models (SCMs) have allowed the identification of causal relationships from observational data, under certain assumptions. Survival analysis provides standard measures, such as the hazard ratio, to quantify the effects of an intervention. While hazard ratios are widely used in clinical and epidemiological studies for RCTs, a principled approach does not exist to compute hazard ratios for observational studies with SCMs. In this work, we review existing approaches to compute hazard ratios as well as their causal interpretation, if it exists. We also propose a novel approach to compute hazard ratios from observational studies using backdoor adjustment through SCMs and do-calculus. Finally, we evaluate the approach using experimental data for Ewingâs sarcoma.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-pananos20a,
   title = 	 {Comparisons Between Hamiltonian Monte Carlo and Maximum A Posteriori For A Bayesian Model For Apixaban Induction Dose & Dose Personalization},
   author =       {Pananos, A. Demetri and Lizotte, Daniel J.},
@@ -370,10 +296,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/pananos20a.html},
   abstract = 	 {Precision medicineâs slogan is "right drug - right patient - right time." Implicit in the slogan is "right dose"; however, determining the right dose for any one patient can be challenging when dose-response data are limited. Bayesian methods, with their ability to explicitly incorporate prior information to supplement limited data, have been proposed as a solution to this problem. Although Hamiltonian Monte Carlo (HMC) is a leading methodology for inference in Bayesian models because of its ability to capture posterior distributions with high fidelity, dose personalization studies commonly use simpler Maximum A Posteriori (MAP) inference methods. The impact of the choice of inference engine on dose decision-making has not been explored. To better understand this issue, we perform a simulation study characterizing the differences between inferences made via MAP and HMC for personalized dosing strategies. The simulation study uses a new Bayesian pharmacokinetic model for apixaban pharmacokinetics written in an open source Bayesian language; the model code and posterior summaries of all parameters will be publicly available. We demonstrate that the differences between HMC and MAP are non-trivial and can greatly affect the choices surrounding dose selection for personalized medicine.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-zhang20b,
   title = 	 {Evaluating and interpreting caption prediction for histopathology images},
   author =       {Zhang, Renyu and Weber, Christopher and Grossman, Robert and Khan, Aly A.},
@@ -389,10 +311,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/zhang20b.html},
   abstract = 	 {The automatic generation of captions from medical images can provide for an efficient way to annotate histopathology images with natural language descriptions. Such large-scale annotation of medical images may help facilitate image retrieval tasks and standardize clinical ontologies. In this work, we focus on developing and methodically evaluating a new caption generation framework for histopathology whole-slide images. We introduce PathCap, a deep learning multi-scale framework, to predict captions from histopathology images using multi-scale views of whole-slide images. We demonstrate that our framework outperforms a standard baseline caption model on a diverse set of human tissues and provides interpretable contextual cues for understanding predicted captions. Finally, we draw attention to a novel dataset of histopathology images with captions from the Genotype-Tissue Expression (GTEx) project, providing a valuable dataset for the machine learning and healthcare community to benchmark future caption prediction and interpretation methods.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-si20a,
   title = 	 {Students Need More Attention: BERT-based Attention Model for Small Data with Application to Automatic Patient Message Triage},
   author =       {Si, Shijing and Wang, Rui and Wosik, Jedrek and Zhang, Hao and Dov, David and Wang, Guoyin and Carin, Lawrence},
@@ -408,10 +326,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/si20a.html},
   abstract = 	 {Small and imbalanced datasets commonly seen in healthcare represent a challenge when training classifiers based on deep learning models. So motivated, we propose a novel framework based on BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical TextMining). Specifically, (i) we introduce Label Embeddings for Self-Attention in each layer of BERT, which we call LESA-BERT, and (ii) by distilling LESA-BERT to smaller variants, we aim to reduce over fitting and model size when working on small datasets. As an application, our framework is utilized to build a model for patient portal message triage that classifies the urgency of a message into three categories: non-urgent, medium and urgent. Experiments demonstrate that our approach can outperform several strong baseline classifiers by a significant margin of 4.3% in terms of macro F1 score. The code for this project is publicly available at https://github.com/shijing001/text_classifiers}
 }
-
-
-
-
 @InProceedings{pmlr-v126-nasiri20a,
   title = 	 {Attentive Adversarial Network for Large-Scale Sleep Staging},
   author =       {Nasiri, Samaneh and Clifford, Gari D.},
@@ -427,10 +341,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/nasiri20a.html},
   abstract = 	 {Current approaches to developing a generalized automated sleep staging method rely on constructing a large labeled training and test corpora by leveraging electroencephalograms (EEGs) from different individuals. However, data in the training set may exhibit changes in the EEG pattern that are very different from the data in the test set due to inherent inter-subject variability, heterogeneity of acquisition hardware, different montage choices and different recording environments. Training an algorithm on such data without accounting for this diversity can lead to underperformance. In order to solve this issue, different methods are investigated for learning an invariant representation across all individuals in datasets. However, all parts of the corpora are not equally transferable. Therefore, forcefully aligning the nontransferable data may lead to a negative impact on the overall performance. Inspired by how clinicians manually label sleep stages, this paper proposes a method based on adversarial training along with attention mechanisms to extract transferable information across individuals from different datasets and pay attention to more important or relevant channels and transferable parts of data, simultaneously. Using two large public EEG databases - 994 patient EEGs (6,561 hours of data) from the Physionet 2018 Challenge (P18C) database and 5,793 patients (42,560 hours) EEGs from Sleep Heart Health Study (SHHS) - we demonstrate that adversarially learning a network with attention mechanism, significantly boosts performance compared to state-of-the-art deep learning approaches in the cross-dataset scenario. By considering the SHHS as the training set, the proposed method improves, on average, precision from 0.72 to 0.84, sensitivity from 0.74 to 0.85, and Cohenâs Kappa coefficient from 0.64 to 0.80 for the P18C database.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-isaev20a,
   title = 	 {Attention-Based Network for Weak Labels in Neonatal Seizure Detection},
   author =       {Isaev, Dmitry Yu. and Tchapyjnikov, Dmitry and Cotten, C. Michael and Tanaka, David and Martinez, Natalia and Bertran, Martin and Sapiro, Guillermo and Carlson, David},
@@ -446,10 +356,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/isaev20a.html},
   abstract = 	 {Seizures are a common emergency in the neonatal intesive care unit (NICU) among newborns receiving therapeutic hypothermia for hypoxic ischemic encephalopathy. The high incidence of seizures in this patient population necessitates continuous electroencephalographic (EEG) monitoring to detect and treat them. Due to EEG recordings being reviewed intermittently throughout the day, inevitable delays to seizure identification and treatment arise. In recent years, work on neonatal seizure detection using deep learning algorithms has started gaining momentum. These algorithms face numerous challenges: first, the training data for such algorithms comes from individual patients, each with varying levels of label imbalance since the seizure burden in NICU patients differs by several orders of magnitude. Second, seizures in neonates are usually localized in a subset of EEG channels, and performing annotations per channel is very time-consuming. Hence models which make use of labels only per time periods, and not per channels, are preferable. In this work we assess how different deep learning models and data balancing methods influence learning in neonatal seizure detection in EEGs. We propose a model which provides a level of importance to each of the EEG channels - a proxy to whether a channel exhibits seizure activity or not, and we provide a quantitative assessment of how well this mechanism works. The model is portable to EEG devices with differing layouts without retraining, facilitating its potential deployment across different medical centers. We also provide a first assessment of how a deep learning model for neonatal seizure detection agrees with human rater decisions - an important milestone for deployment to clinical practice. We show that high AUC values in a deep learning model do not necessarily correspond to agreement with a human expert, and there is still a need to further refine such algorithms for optimal seizure discrimination.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-fox20a,
   title = 	 {Deep Reinforcement Learning for Closed-Loop Blood Glucose Control},
   author =       {Fox, Ian and Lee, Joyce and Pop-Busui, Rodica and Wiens, Jenna},
@@ -465,10 +371,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/fox20a.html},
   abstract = 	 {People with type 1 diabetes (T1D) lack the ability to produce the insulin their bodies need. As a result, they must continually make decisions about how much insulin to self-administer to adequately control their blood glucose levels. Longitudinal data streams captured from wearables, like continuous glucose monitors, can help these individuals manage their health, but currently the majority of the decision burden remains on the user. To relieve this burden, researchers are working on closed-loop solutions that combine a continuous glucose monitor and an insulin pump with a control algorithm in an âartificial pancreas.â Such systems aim to estimate and deliver the appropriate amount of insulin. Here, we develop reinforcement learning (RL) techniques for automated blood glucose control. Through a series of experiments, we compare the performance of different deep RL approaches to non-RL approaches. We highlight the flexibility of RL approaches, demonstrating how they can adapt to new individuals with little additional data. On over 2.1 million hours of data from 30 simulated patients, our RL approach outperforms baseline control algorithms: leading to a decrease in median glycemic risk of nearly 50% from 8.34 to 4.24 and a decrease in total time hypoglycemic of 99.8%, from 4,610 days to 6. Moreover, these approaches are able to adapt to predictable meal times (decreasing average risk by an additional 24% as meals increase in predictability). This work demonstrates the potential of deep RL to help people with T1D manage their blood glucose levels without requiring expert knowledge. All of our code is publicly available, allowing for replication and extension.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-chen20a,
   title = 	 {Deep Kernel Survival Analysis and Subject-Specific Survival Time Prediction Intervals},
   author =       {Chen, George H.},
@@ -484,10 +386,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/chen20a.html},
   abstract = 	 {Kernel survival analysis methods predict subject-specific survival curves and times using information about which training subjects are most similar to a test subject. These most similar training subjects could serve as forecast evidence. How similar any two subjects are is given by the kernel function. In this paper, we present the first neural network framework that learns which kernel functions to use in kernel survival analysis. We also show how to use kernel functions to construct prediction intervals of survival time estimates that are statistically valid for individuals similar to a test subject. These prediction intervals can use any kernel function, such as ones learned using our neural kernel learning framework or using random survival forests. Our experiments show that our neural kernel survival estimators are competitive with a variety of existing survival analysis methods, and that our prediction intervals can help compare different methodsâ uncertainties, even for estimators that do not use kernels. In particular, these prediction interval widths can be used as a new performance metric for survival analysis methods.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-zhang20c,
   title = 	 {Time-Aware Transformer-based Network for Clinical Notes Series Prediction},
   author =       {Zhang, Dongyu and Thadajarassiri, Jidapa and Sen, Cansu and Rundensteiner, Elke},
@@ -503,10 +401,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/zhang20c.html},
   abstract = 	 {A patientâs clinical notes correspond to a sequence of free-form text documents generated by healthcare professionals over time. Rich and unique information in clinical notes is useful for clinical decision making. In this work, we propose a time-aware transformer-based hierarchical architecture, which we call Flexible Time-aware LSTM Transformer (FTL-Trans), for classifying a patientâs health state based on her series of clinical notes. FTL-Trans addresses the problem that current transformer-based architectures cannot handle, which is the multi-level structure inherent in clinical note series where a note contains a sequence of chucks and a chuck contains further a sequence of words. At the bottom layer, FTL-Trans encodes equal-length subsequences of a patientâs clinical notes ("chunks") into content embeddings using a pre-trained ClinicalBERT model. Unlike ClinicalBERT, however, FTL-Trans merges each content embedding and sequential information into a new position-enhanced chunk representation in the second layer by an augmented multi-level position embedding. Next, the time-aware layer tackles the irregularity in the spacing of notes in the note series by learning a flexible time decay function and utilizing the time decay function to incorporate both the position-enhanced chunk embedding and time information into a patient representation. This patient representation is then fed into the top layer for classification. Together, this hierarchical design of FTL-Trans successfully captures the multi-level sequential structure of the note series. Our extensive experimental evaluation conducted using multiple patient cohorts extracted from the MIMIC dataset illustrates that, while addressing the aforementioned issues, FTL-Trans consistently outperforms the state-of-the-art transformer-based architectures up to 5% in AUROC and 6% in Accuracy.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-parbhoo20a,
   title = 	 {Transfer Learning from Well-Curated to Less-Resourced Populations with HIV},
   author =       {Parbhoo, Sonali and Wieser, Mario and Roth, Volker and Doshi-Velez, Finale},
@@ -522,10 +416,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/parbhoo20a.html},
   abstract = 	 {In Europe and North America, more homogeneous virus types and the relatively high availability of sequencing technologies have helped transform HIV from a life-threatening disease to a manageable chronic condition. However, modern therapies have been less successful in managing HIV in Africa, where there is more viral heterogeneity and access to sequencing is much less available. In this work, we present a novel mixture based approach that uses a deep information bottleneck to transfer patterns learned from European HIV cohorts where genomic data is readily available to African patients where no such data is available. We demonstrate its utility for optimising treatments for the first time in a set of HIV patients in Africa, and note how this approach may be applicable to many other scenarios where a variable is measured in some population but is missing from the target population.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-schloss20a,
   title = 	 {Towards an Automated SOAP Note: Classifying Utterances from Medical Conversations},
   author =       {Schloss, Benjamin and Konam, Sandeep},
@@ -541,10 +431,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/schloss20a.html},
   abstract = 	 {Summaries generated from medical conversations can improve recall and understanding of care plans for patients and reduce documentation burden for doctors. Recent advancements in automatic speech recognition (ASR) and natural language understanding (NLU) offer potential solutions to generate these summaries automatically, but rigorous quantitative baselines for benchmarking research in this domain are lacking. In this paper, we bridge this gap for two tasks: classifying utterances from medical conversations according to (i) the SOAP section and (ii) the speaker role. Both are fundamental building blocks along the path towards an end-to-end, automated SOAP note for medical conversations. We provide details on a dataset that contains human and ASR transcriptions of medical conversations and corresponding machine learning optimized SOAP notes. We then present a systematic analysis in which we adapt an existing deep learning architecture to the two aforementioned tasks. The results suggest that modelling context in a hierarchical manner, which captures both word and utterance level context, yields substantial improvements on both classification tasks. Additionally, we develop and analyze a modular method for adapting our model to ASR output.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-mcinerney20a,
   title = 	 {Query-Focused EHR Summarization to Aid Imaging Diagnosis},
   author =       {McInerney, Denis Jered and Dabiri, Borna and Touret, Anne-Sophie and Young, Geoffrey and van de Meent, Jan-Willem and Wallace, Byron C.},
@@ -560,10 +446,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/mcinerney20a.html},
   abstract = 	 {Electronic Health Records (EHRs) provide vital contextual information to radiologists and other physicians when making a diagnosis. Unfortunately, because a given patientâs record may contain hundreds of notes and reports, identifying relevant information within these in the short time typically allotted to a case is very difficult. We propose and evaluate models that extract relevant text snippets from patient records to provide a rough case summary intended to aid physicians considering one or more diagnoses. This is hard because direct supervision (i.e., physician annotations of snippets relevant to specific diagnoses in medical records) is prohibitively expensive to collect at scale. We propose a distantly supervised strategy in which we use groups of International Classification of Diseases (ICD) codes observed in âfutureâ records as noisy proxies for âdownstreamâ diagnoses. Using this we train a transformer-based neural model to perform extractive summarization conditioned on potential diagnoses. This model defines an attention mechanism that is conditioned on potential diagnoses (queries) provided by the diagnosing physician. We train (via distant supervision) and evaluate variants of this model on EHR data from Brigham and Womenâs Hospital in Boston and MIMIC-III (the latter to facilitate reproducibility). Evaluations performed by radiologists demonstrate that these distantly supervised models yield better extractive summaries than do unsupervised approaches. Such models may aid diagnosis by identifying sentences in past patient reports that are clinically relevant to a potential diagnosis. Code is available at https://github.com/dmcinerney/ehr-extraction-models.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-tao20a,
   title = 	 {Predicting Drug Sensitivity of Cancer Cell Lines via Collaborative Filtering with Contextual Attention},
   author =       {Tao, Yifeng and Ren, Shuangxia and Ding, Michael Q. and Schwartz, Russell and Lu, Xinghua},
@@ -579,10 +461,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/tao20a.html},
   abstract = 	 {Accurate anti-cancer drug recommendations and the identification of essential biomarkers for this task are crucial to precision oncology. Large-scale drug response assays on cancer cell lines provide a potential way to understand the interplay of drugs and cancer cells. In this work, we present CADRE (Contextual Attention-based Drug REsponse), a model that accurately infers the response of cancer cell lines to a panel of candidate compounds based on the omics profiles, such as gene expressions, of cancer cells. CADRE builds on the framework of collaborative filtering, which provides robustness to the noise of biological data by leveraging similarities within drugs and cell lines. It utilizes the contextual attention mechanism to identify informative biomarkers of these cell lines, which boosts prediction accuracy and affords interpretability of results. In addition, CADRE incorporates external knowledge of drug target pathways and co-expression patterns of genes to further improve feature representations and model performance. Comprehensive evaluations of CADRE and competing models on two large-scale pharmacogenomic datasets show its superiority in both prediction performance and interpretability. CADRE identifies as vital biomarkers genes related to intracellular vesicles and signaling receptor binding, shedding light on its translational potential in the clinical practice of cancer treatment.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-beer20a,
   title = 	 {Using deep networks for scientific discovery in physiological signals},
   author =       {Beer, Tom and Eini-Porat, Bar and Goodfellow, Sebastian and Eytan, Danny and Shalit, Uri},
@@ -598,10 +476,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/beer20a.html},
   abstract = 	 {Deep neural networks (DNN) have shown remarkable success in the classification of physiological signals. In this study we propose a method for examining to what extent does a DNNâs performance rely on rediscovering existing features of the signals, as opposed to discovering genuinely new features. Moreover, we offer a novel method of "removing" a hand-engineered feature from the networkâs hypothesis space, thus forcing it to try and learn representations which are different from known ones, as a method of scientific exploration. We then build on existing work in the field of interpretability, specifically class activation maps, to try and infer what new features the network has learned. We demonstrate this approach using ECG and EEG signals. With respect to ECG signals we show that for the specific task of classifying atrial fibrillation, DNNs are likely rediscovering known features. We also show how our method could be used to discover new features, by selectively removing some ECG features and "rediscovering" them. We further examine how could our method be used as a tool for examining scientific hypotheses. We simulate this scenario by looking into the importance of eye movements in classifying sleep from EEG. We show that our tool can successfully focus a researcherâs attention by bringing to light patterns in the data that would be hidden otherwise.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-adam20a,
   title = 	 {Hidden Risks of Machine Learning Applied to Healthcare: Unintended Feedback Loops Between Models and Future Data Causing Model Degradation},
   author =       {Adam, George Alexandru and Chang, Chun-Hao Kingsley and Haibe-Kains, Benjamin and Goldenberg, Anna},
@@ -617,10 +491,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/adam20a.html},
   abstract = 	 {There is much hope for the positive impact of machine learning on healthcare. In fact, several ML methods are already used in everyday clinical practice, but the effect of adopting imperfect predictions from an ML system on model performance over time is unknown. Clinicians changing their decisions based on an imperfect ML system changes the underlying probability distribution P(Y ) of future data, where Y is the outcome. This effect has not been carefully studied to date. In this work we tackle the problem of model predictions influencing future labels (which we refer to as the feedback loop) by considering several supervised learning scenarios, and show that unlike in the no-feedback-loop setting, if clinicians fully trust the model (100% adoption of the predicted label) the false positive rate (FPR) grows uncontrollably with the number of updates. We simulate the feedback loop problem on a real-world ICU data (MIMIC-IV v0.1) as the distribution shifts over time. Among our scenarios, we consider how the clinicianâs trust in the model over time impacts the magnitude of the FPR increase due to a feedback loop. Finally, we propose mitigating solutions to the observed model degradation using heuristics that discard potentially incorrectly labeled samples. We hope that our work draws attention to the existence of the feedback-loop problem resulting in both theoretical and practical advances for ML in healthcare.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-hu20a,
   title = 	 {Self-Supervised Pretraining with DICOM metadata in Ultrasound Imaging},
   author =       {Hu, Szu-Yen and Wang, Shuhang and Weng, Wei-Hung and Wang, JingChao and Wang, XiaoHong and Ozturk, Arinc and Li, Quan and Kumar, Viksit and Samir, Anthony E.},
@@ -636,10 +506,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/hu20a.html},
   abstract = 	 {Modern deep learning algorithms geared towards clinical adaption usually rely on a large amount of high fidelity labeled data. Low-resource settings pose challenges like acquiring high fidelity data and becomes the bottleneck for developing artificial intelligence applications. Ultrasound images, stored in Digital Imaging and Communication in Medicine (DICOM) format, have additional metadata data corresponding to ultrasound image parameters and medical exams. In this work, we leverage DICOM metadata from ultrasound images to help learn representations of the ultrasound image. We demonstrate that the proposed method outperforms the approaches without using metadata across a variety of downstream tasks.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-jabbour20a,
   title = 	 {Deep Learning Applied to Chest X-Rays: Exploiting and Preventing Shortcuts},
   author =       {Jabbour, Sarah and Fouhey, David and Kazerooni, Ella and Sjoding, Michael W. and Wiens, Jenna},
@@ -655,10 +521,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/jabbour20a.html},
   abstract = 	 {While deep learning has shown promise in improving the automated diagnosis of disease based on chest X-rays, deep networks may exhibit undesirable behavior related to short-cuts. This paper studies the case of spurious class skew in which patients with a particular attribute are spuriously more likely to have the outcome of interest. For instance, clinical protocols might lead to a dataset in which patients with pacemakers are disproportionately likely to have congestive heart failure. This skew can lead to models that take shortcuts by heavily relying on the biased attribute. We explore this problem across a number of attributes in the context of diagnosing the cause of acute hypoxemic respiratory failure. Applied to chest X-rays, we show that i) deep nets can accurately identify many patient attributes including sex (AUROC = 0.96) and age (AUROC 0.90), ii) they tend to exploit correlations between such attributes and the outcome label when learning to predict a diagnosis, leading to poor performance when such correlations do not hold in the test population (e.g., everyone in the test set is male), and iii) a simple transfer learning approach is surprisingly effective at preventing the shortcut and promoting good generalization performance. On the task of diagnosing congestive heart failure based on a set of chest X-rays skewed towards older patients (age $\geq$ 63), the proposed approach improves generalization over standard training from 0.66 (95% CI: 0.54-0.77) to 0.84 (95% CI: 0.73-0.92) AUROC. While simple, the proposed approach has the potential to improve the performance of models across populations by encouraging reliance on clinically relevant manifestations of disease, i.e., those that a clinician would use to make a diagnosis.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-saleh20a,
   title = 	 {Clinical Collabsheets: 53 Questions to Guide a Clinical Collaboration},
   author =       {Saleh, Shems and Boag, William and Erdman, Lauren and Naumann, Tristan},
@@ -674,10 +536,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/saleh20a.html},
   abstract = 	 {Clinical Machine Learning (ML) is a rapidly-growing field due to the digitization of hospital records, recent advances in ML techniques, and the ability to leverage increasing computational power for large and complex models. The high stakes and often unintuitive nature of clinical data make effective collaboration between clinicians and ML researchers one of the most important aspects of working in this interdisciplinary space. However, there are few resources codifying best practices for collaboration on Clinical ML projects. In this paper, we interviewed 18 experts in the Clinical ML field and distilled their advice and experiences into a list of questions (a Clinical Collabsheet) ML scientists and clinicians can use to promote effective discussion when working on a new project. We intend this for a broad audience as checklist of discussion points to hit at a kickoff meeting. This resource will enable more successful partnerships in Clinical ML with improved interdisciplinary communication and organization.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-barral20a,
   title = 	 {Non-Invasive Classification of Alzheimerâs Disease Using Eye Tracking and Language},
   author =       {Barral, Oswald and Jang, Hyeju and Newton-Mason, Sally and Shajan, Sheetal and Soroski, Thomas and Carenini, Giuseppe and Conati, Cristina and Field, Thalia},
@@ -693,10 +551,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/barral20a.html},
   abstract = 	 {Alzheimerâs disease (AD) is an insidious progressive neurodegenerative disease resulting in impaired cognition, dementia, and eventual death. At the earliest stages of the disease, decline in multiple cognitive domains including speech and eye movements occurs, and worsens with disease progression. Therefore, investigating speech and eye movements is promising as a non-invasive method for early classification of AD. While related work has investigated AD classification using speech collected during spontaneous speech tasks, no prior research has studied the utility of eye movements and their combination with speech for this classification task. In this paper, we present classification experiments with speech and eye movement data collected from 68 memory clinic patients (with a diagnosis of AD, mixed dementia, mild cognitive impairment, or subjective memory complaints) and 73 healthy volunteers completing the Cookie Theft picture description task. We show that eye tracking data is predictive of AD in a patient versus control classification task (AUC = .73). Furthermore, we show that using eye tracking data for this predictive task is complementary to using speech alone, as combining both modalities yields to the best classification performance (AUC=.80). Our results suggest that eye tracking is a useful modality for classification of AD, most promising when considered as an additional noninvasive modality to speech-based classification.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-gopinath20a,
   title = 	 {Fast, Structured Clinical Documentation via Contextual Autocomplete},
   author =       {Gopinath, Divya and Agrawal, Monica and Murray, Luke and Horng, Steven and Karger, David and Sontag, David},
@@ -712,10 +566,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/gopinath20a.html},
   abstract = 	 {We present a system that uses a learned autocompletion mechanism to facilitate rapid creation of semi-structured clinical documentation. We dynamically suggest relevant clinical concepts as a doctor drafts a note by leveraging features from both unstructured and structured medical data. By constraining our architecture to shallow neural networks, we are able to make these suggestions in real time. Furthermore, as our algorithm is used to write a note, we can automatically annotate the documentation with clean labels of clinical concepts drawn from medical vocabularies, making notes more structured and readable for physicians, patients, and future algorithms. To our knowledge, this system is the only machine learning-based documentation utility for clinical notes deployed in a live hospital setting, and it reduces keystroke burden of clinical concepts by 67% in real environments.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-hameed20a,
   title = 	 {Comparing Machine Learning Techniques for Blood Glucose Forecasting Using Free-living and Patient Generated Data},
   author =       {Hameed, Hadia and Kleinberg, Samantha},
@@ -731,10 +581,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/hameed20a.html},
   abstract = 	 {Managing a chronic disease like Type 1 diabetes (T1D) is both challenging and time consuming, but new technologies that allow continuous measurement of glucose and delivery of insulin have led to significant improvements. The development of an artificial pancreas (AP), which algorithmically determines insulin dosing and delivers insulin in a fully automated way, may transform T1D care but it is not yet widely available. Patient-led alternatives, like the Open Artificial Pancreas (OpenAPS), are being used by hundreds of individuals and have also led to a dramatic increase in the availability of patient generated health data (PGHD). All APs require an accurate forecast of blood glucose (BG). While there have been efforts to develop better forecasts and apply new ML techniques like deep learning to this problem, methods are often tested on small controlled datasets that do not indicate how they may perform in reality - and the most advanced methods have not always outperformed the simplest. We introduce a rigorous comparison of BG forecasting using both a small controlled research dataset and large heterogeneous PGHD. Our comparison advances the state of the art in BG forecasting by providing insight into how methods may fare when moving beyond small controlled studies to real-world use.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-min20a,
   title = 	 {UPSTAGE: Unsupervised Context Augmentation for Utterance Classification in Patient-Provider Communication},
   author =       {Min, Do June and Perez-Rosas, Veronica and Kuo, Shihchen and Herman, William H. and Mihalcea, Rada},
@@ -750,10 +596,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/min20a.html},
   abstract = 	 {Conversations between patients and providers in clinical settings provide a source of natural language data that may reflect and correlate with the patientsâ experience and response to the treatment they are receiving. When analyzing utterances in such conversations, it is not sufficient to consider each sentence in isolation, since its context may play a role in determining its semantic meaning. Recently, contextual information in natural language documents has been modeled using various techniques, such as recurrent neural networks with latent variables, or neural networks with attention mechanisms. In this paper, we present UnsuPerviSed conText AuGmEntation (Upstage), a classification framework that relies on both local and global contextual information from different sources. Upstage uses transformer models with pretrained language models and joint sentence representation to solve the task of classifying health topics in patient-provider conversations. In addition, Upstage leverages unlabeled corpora for pretraining and data augmentation to provide additional context, which leads to improved classification performance.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-mcdermott20a,
   title = 	 {CheXpert++: Approximating the CheXpert Labeler for Speed, Differentiability, and Probabilistic Output},
   author =       {McDermott, Matthew B.A. and Hsu, Tzu Ming Harry and Weng, Wei-Hung and Ghassemi, Marzyeh and Szolovits, Peter},
@@ -769,10 +611,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/mcdermott20a.html},
   abstract = 	 {It is often infeasible or impossible to obtain ground truth labels for medical data. To circumvent this, one may build rule-based or other expert-knowledge driven labelers to ingest data and yield silver labels absent any ground-truth training data. One popular such labeler is CheXpert (Irvin et al., 2019), a labeler that produces diagnostic labels for chest X-ray radiology reports. CheXpert is very useful, but is relatively computationally slow, especially when integrated with end-to-end neural pipelines, is non-differentiable so canât be used in any applications that require gradients to flow through the labeler, and does not yield probabilistic outputs, which limits our ability to improve the quality of the silver labeler through techniques such as active learning. In this work, we solve all three of these problems with CheXpert++, a BERT-based, high-fidelity approximation to CheXpert. CheXpert++ achieves 99.81% parity with CheXpert, which means it can be reliably used as a drop-in replacement for CheXpert, all while being significantly faster, fully differentiable, and probabilistic in output. Error analysis of CheXpert++ also demonstrates that CheXpert++ has a tendency to actually correct errors in the CheXpert labels, with CheXpert++ labels being more often preferred by a clinician over CheXpert labels (when they disagree) on all but one disease task. To further demonstrate the utility of these advantages in this model, we conduct a proof-of-concept active learning study, demonstrating we can improve accuracy on an expert labeled random subset of report sentences by approximately 8% over raw, unaltered CheXpert by using one-iteration of active-learning inspired re-training. These findings suggest that simple techniques in co-learning and active learning can yield high-quality labelers under minimal, and controllable human labeling demands.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-agrawal20a,
   title = 	 {Robust Benchmarking for Machine Learning of Clinical Entity Extraction},
   author =       {Agrawal, Monica and O'Connell, Chloe and Fatemi, Yasmin and Levy, Ariel and Sontag, David},
@@ -788,10 +626,6 @@ complexity of risk functions.
   url = 	 {https://proceedings.mlr.press/v126/agrawal20a.html},
   abstract = 	 {Clinical studies often require understanding elements of a patientâs narrative that exist only in free text clinical notes. To transform notes into structured data for downstream use, these elements are commonly extracted and normalized to medical vocabularies. In this work, we audit the performance of and indicate areas of improvement for state-of-the-art systems. We find that high task accuracies for clinical entity normalization systems on the 2019 n2c2 Shared Task are misleading, and underlying performance is still brittle. Normalization accuracy is high for common concepts (95.3%), but much lower for concepts unseen in training data (69.3%). We demonstrate that current approaches are hindered in part by inconsistencies in medical vocabularies, limitations of existing labeling schemas, and narrow evaluation techniques. We reformulate the annotation framework for clinical entity extraction to factor in these issues to allow for robust end-to-end system benchmarking. We evaluate concordance of annotations from our new framework between two annotators and achieve a Jaccard similarity of 0.73 for entity recognition and an agreement of 0.83 for entity normalization. We propose a path forward to address the demonstrated need for the creation of a reference standard to spur method development in entity recognition and normalization.}
 }
-
-
-
-
 @InProceedings{pmlr-v126-nestor20a,
   title = 	 {Preparing a Clinical Support Model for Silent Mode in General Internal Medicine},
   author =       {Nestor, Bret and McCoy, Liam G. and Verma, Amol and Pou-Prom, Chloe and Murray, Joshua and Kuzulugil, Sebnem and Dai, David and Mamdani, Muhammad and Goldenberg, Anna and Ghassemi, Marzyeh},

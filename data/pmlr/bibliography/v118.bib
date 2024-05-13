@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{AABI2019,
   title =     {Proceedings of The 2nd Symposium on Advances in Approximate Bayesian Inference},
   booktitle = {Proceedings of The 2nd Symposium on Advances in Approximate Bayesian Inference},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    118
 }
-
-
-
-
 @InProceedings{pmlr-v118-zhang20a,
   title = 	 { Rapid Model Comparison by Amortizing Across Models},
   author =       {Zhang, Lily H. and Hughes, Michael C.},
@@ -28,10 +22,6 @@
   url = 	 {https://proceedings.mlr.press/v118/zhang20a.html},
   abstract = 	 { Comparing the inferences of diverse candidate models is an essential part of model checking and escaping local optima. To enable efficient comparison, we introduce an amortized variational inference framework that can perform fast and reliable posterior estimation across models of the same architecture. Our Any Parameter Encoder (APE) extends the encoder neural network common in amortized inference to take both a data feature vector and a model parameter vector as input. APE thus reduces posterior inference across unseen data and models to a single forward pass. In experiments comparing candidate topic models for synthetic data and product reviews, our Any Parameter Encoder yields comparable posteriors to more expensive methods in far less time, especially when the encoder architecture is designed in model-aware fashion.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-yacoby20a,
   title = 	 { Characterizing and Avoiding Problematic Global Optima of Variational Autoencoders},
   author =       {Yacoby, Yaniv and Pan, Weiwei and Doshi-Velez, Finale},
@@ -47,10 +37,6 @@
   url = 	 {https://proceedings.mlr.press/v118/yacoby20a.html},
   abstract = 	 { Variational Auto-encoders (VAEs) are deep generative latent variable models consisting of two components: a generative model that captures a data distribution p(x) by transforming a distribution p(z) over latent space, and an inference model that infers likely latent codes for each data point (Kingma and Welling, 2013). Recent work shows that traditional training methods tend to yield solutions that violate modeling desiderata: (1) the learned generative model captures the observed data distribution but does so while ignoring the latent codes, resulting in codes that do not represent the data (e.g. van den Oord et al. (2017); Kim et al. (2018)); (2) the aggregate of the learned latent codes does not match the prior p(z). This mismatch means that the learned generative model will be unable to generate realistic data with samples from p(z)(e.g. Makhzani et al. (2015); Tomczak and Welling (2017)). In this paper, we demonstrate that both issues stem from the fact that the global optima of the VAE training objective often correspond to undesirable solutions. Our analysis builds on two observations: (1) the generative model is unidentiable - there exist many generative models that explain the data equally well, each with dierent (and potentially unwanted) properties and (2) bias in the VAE objective - the VAE objective may prefer generative models that explain the data poorly but have posteriors that are easy to approximate. We present a novel inference method, LiBI, mitigating the problems identied in our analysis. On synthetic datasets, we show that LiBI can learn generative models that capture the data distribution and inference models that better satisfy modeling assumptions when traditional methods struggle to do so.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-xu20a,
   title = 	 {AdvancedHMC.jl: A robust, modular and ecient implementation of advanced HMC algorithms },
   author =       {Xu, Kai and Ge, Hong and Tebbutt, Will and Tarek, Mohamed and Trapp, Martin and Ghahramani, Zoubin},
@@ -66,10 +52,6 @@
   url = 	 {https://proceedings.mlr.press/v118/xu20a.html},
   abstract = 	 {Stanâs Hamilton Monte Carlo (HMC) has demonstrated remarkable sampling robustness and efficiency in a wide range of Bayesian inference problems through carefully crafted adaption schemes to the celebrated No-U-Turn sampler (NUTS) algorithm. It is challenging to implement these adaption schemes robustly in practice, hindering wider adoption amongst practitioners who are not directly working with the Stan modelling language. AdvancedHMC.jl (AHMC) contributes a modular, well-tested, standalone implementation of NUTS that recovers and extends Stanâs NUTS algorithm. AHMC is written in Julia, a modern high-level language for scientic computing, benefoting from optional hardware acceleration and interoperability with a wealth of existing software written in both Julia and other languages, such as Python. Efficacy is demonstrated empirically by comparison with Stan through a third-party Markov chain Monte Carlo benchmarking suite.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-wilk20a,
   title = 	 { Variational Gaussian Process Models without Matrix Inverses},
   author =       {van der Wilk, Mark and John, ST and Artemev, Artem and Hensman, James},
@@ -85,10 +67,6 @@
   url = 	 {https://proceedings.mlr.press/v118/wilk20a.html},
   abstract = 	 {In this work, we provide a variational lower bound that can be computed without expensive matrix operations like inversion. Our bound can be used as a drop-in replacement to the existing variational method of Hensman et al. (2013, 2015), and can therefore directly be applied in a wide variety of models, such as deep GPs (Damianou and Lawrence, 2013). We focus on the theoretical properties of this new bound, and show some initial experimental results for optimising this bound. We hope to realise the full promise in scalability that this new bound has in future work.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-shwartz-ziv20a,
   title = 	 {Information in Infinite Ensembles of Infinitely-Wide Neural Networks },
   author =       {Shwartz-Ziv, Ravid and Alemi, Alexander A},
@@ -104,10 +82,6 @@
   url = 	 {https://proceedings.mlr.press/v118/shwartz-ziv20a.html},
   abstract = 	 { In this preliminary work, we study the generalization properties of in nite ensembles of in nitely-wide neural networks. Amazingly, this model family admits tractable calculations for many information-theoretic quantities. We report analytical and empirical investigations in the search for signals that correlate with generalization.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-sheth20a,
   title = 	 { Pseudo-Bayesian Learning via Direct Loss Minimization with Applications to Sparse Gaussian Process Models},
   author =       {Sheth, Rishit and Khardon, Roni},
@@ -123,10 +97,6 @@
   url = 	 {https://proceedings.mlr.press/v118/sheth20a.html},
   abstract = 	 {We propose that approximate Bayesian algorithms should optimize a new criterion, directly derived from the loss, to calculate their approximate posterior which we refer to as pseudo-posterior. Unlike standard variational inference which optimizes a lower bound on the log marginal likelihood, the new algorithms can be analyzed to provide loss guarantees on the predictions with the pseudo-posterior. Our criterion can be used to derive new sparse Gaussian process algorithms that have error guarantees applicable to various likelihoods. }
 }
-
-
-
-
 @InProceedings{pmlr-v118-perov20a,
   title = 	 {MultiVerse: Causal Reasoning using Importance Sampling in Probabilistic Programming },
   author =       {Perov, Yura and Graham, Logan and Gourgoulias, Kostis and Richens, Jonathan and Lee, Ciaran and Baker, Adam and Johri, Saurabh},
@@ -142,10 +112,6 @@
   url = 	 {https://proceedings.mlr.press/v118/perov20a.html},
   abstract = 	 { We elaborate on using importance sampling for causal reasoning, in particular for counterfactual inference. We show how this can be implemented natively in probabilistic programming. By considering the structure of the counterfactual query, one can signicantly optimise the inference process. We also consider design choices to enable further optimisations. We introduce MultiVerse, a probabilistic programming prototype engine for approximate causal reasoning. We provide experimental results and compare with Pyro, an existing probabilistic programming framework with some of causal reasoning tools.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-pearce20a,
   title = 	 { The Gaussian Process Prior VAE for Interpretable Latent Dynamics from Pixels},
   author =       {Pearce, Michael},
@@ -161,10 +127,6 @@
   url = 	 {https://proceedings.mlr.press/v118/pearce20a.html},
   abstract = 	 { We consider the problem of unsupervised learning of a low dimensional, interpretable, latent state of a video containing a moving object. The problem of distilling interpretable dynamics from pixels has been extensively considered through the lens of graphical/state space models (Fraccaro et al., 2017; Lin et al., 2018; Pearce et al., 2018; Chiappa and Paquet, 2019) that exploit Markov structure for cheap computation and structured priors for enforcing interpretability on latent representations. We take a step towards extending these approaches by discarding the Markov structure; inspired by Gaussian process dynamical models (Wang et al., 2006), we instead repurpose the recently proposed Gaussian Process Prior Variational Autoencoder (Casale et al., 2018) for learning interpretable latent dynamics. We describe the model and perform experiments on a synthetic dataset and see that the model reliably reconstructs smooth dynamics exhibiting U-turns and loops. We also observe that this model may be trained without any  annealing or freeze-thaw of training parameters in contrast to previous works, albeit for slightly dierent use cases, where application specic training tricks are often required.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-pakman20a,
   title = 	 {Neural Permutation Processes },
   author =       {Pakman, Ari and Wang, Yueqi and Paninski, Liam},
@@ -180,10 +142,6 @@
   url = 	 {https://proceedings.mlr.press/v118/pakman20a.html},
   abstract = 	 { We introduce a neural architecture to perform amortized approximate Bayesian inference over latent random permutations of two sets of objects. The method involves approximating permanents of matrices of pairwise probabilities using recent ideas on functions dened over sets. Each sampled permutation comes with a probability estimate, a quantity unavailable in MCMC approaches. We illustrate the method in sets of 2D points and MNIST images.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-mena20a,
   title = 	 {Sinkhorn Permutation Variational Marginal Inference },
   author =       {Mena, Gonzalo and Varol, Erdem and Nejatbakhsh, Amin and Yemini, Eviatar and Paninski, Liam},
@@ -199,10 +157,6 @@
   url = 	 {https://proceedings.mlr.press/v118/mena20a.html},
   abstract = 	 { We address the problem of marginal inference for an exponential family defined over the set of permutation matrices. This problem is known to quickly become intractable as the size of the permutation increases, since its involves the computation of the permanent of a matrix, a #P-hard problem. We introduce Sinkhorn variational marginal inference as a scalable alternative, a method whose validity is ultimately justified by the so-called Sinkhorn approximation of the permanent. We demonstrate the effectiveness of our method in the problem of probabilistic identification of neurons in the worm C.elegans.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-marino20a,
   title = 	 { Improving Sequential Latent Variable Models with Autoregressive Flows},
   author =       {Marino, Joseph and Chen, Lei and He, Jiawei and Mandt, Stephan},
@@ -218,10 +172,6 @@
   url = 	 {https://proceedings.mlr.press/v118/marino20a.html},
   abstract = 	 {We propose an approach for sequence modeling based on autoregressive normalizing ows. Each autoregressive transform, acting across time, serves as a moving reference frame for modeling higher-level dynamics. This technique provides a simple, general-purpose method for improving sequence modeling, with connections to existing and classical techniques. We demonstrate the proposed approach both with standalone models, as well as a part of larger sequential latent variable models. Results are presented on three benchmark video datasets, where ow-based dynamics improve log-likelihood performance over baseline models.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-ma20a,
   title = 	 { HM-VAEs: a Deep Generative Model for Real-valued Data with Heterogeneous Marginals},
   author =       {Ma, Chao and Tschiatschek, Sebastian and Li, Yingzhen and Turner, Richard and Hernandez-Lobato, Jose Miguel and Zhang, Cheng},
@@ -237,10 +187,6 @@
   url = 	 {https://proceedings.mlr.press/v118/ma20a.html},
   abstract = 	 {In this paper, we propose a very simple but e ective VAE model (HM-VAE) that can handle real-valued data with heterogeneous marginals, meaning that they have drastically distinct marginal distributions, statistical properties as well as semantics. Preliminary results show that the HM-VAE can learn distributions with heterogeneous marginal distributions, whereas the vanilla VAEs fails. }
 }
-
-
-
-
 @InProceedings{pmlr-v118-li20a,
   title = 	 {Scalable Gradients and Variational Inference for Stochastic Differential Equations },
   author =       {Li, Xuechen and Wong, Ting-Kam Leonard and Chen, Ricky T. Q. and Duvenaud, David K.},
@@ -256,10 +202,6 @@
   url = 	 {https://proceedings.mlr.press/v118/li20a.html},
   abstract = 	 { We derive reverse-mode (or adjoint) automatic differentiation for solutions of stochastic differential equations (SDEs), allowing time-efficient and constant-memory computation of pathwise gradients, a continuous-time analogue of the reparameterization trick. Specifically, we construct a backward SDE whose solution is the gradient and provide conditions under which numerical solutions converge. We also combine our stochastic adjoint approach with a stochastic variational inference scheme for continuous-time SDE models, allowing us to learn distributions over functions using stochastic gradient descent. Our latent SDE model achieves competitive performance compared to existing approaches on time series modeling.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-lalchand20a,
   title = 	 { Approximate Inference for Fully Bayesian Gaussian Process Regression },
   author =       {Lalchand, Vidhi and Rasmussen, Carl Edward},
@@ -275,10 +217,6 @@
   url = 	 {https://proceedings.mlr.press/v118/lalchand20a.html},
   abstract = 	 { Learning in Gaussian Process models occurs through the adaptation of hyperparameters of the mean and the covariance function. The classical approach entails maximizing the marginal likelihood yielding fixed point estimates (an approach called Type II maximum likelihood or ML-II). An alternative learning procedure is to infer the posterior over hyper-parameters in a hierarchical specication of GPs we call Fully Bayesian Gaussian Process Regression (GPR). This work considers two approximation schemes for the intractable hyperparameter posterior: 1) Hamiltonian Monte Carlo (HMC) yielding a sampling based approximation and 2) Variational Inference (VI) where the posterior over hyperparameters is approximated by a factorized Gaussian (mean-field) or a full-rank Gaussian accounting for correlations between hyperparameters. We analyse the predictive performance for fully Bayesian GPR on a range of benchmark data sets.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-jia20a,
   title = 	 { Normalizing Constant Estimation with Gaussianized Bridge Sampling},
   author =       {Jia, He and Seljak, Uros},
@@ -294,10 +232,6 @@
   url = 	 {https://proceedings.mlr.press/v118/jia20a.html},
   abstract = 	 { Normalizing constant (also called partition function, Bayesian evidence, or marginal likelihood) is one of the central goals of Bayesian inference, yet most of the existing methods are both expensive and inaccurate. Here we develop a new approach, starting from posterior samples obtained with a standard Markov Chain Monte Carlo (MCMC). We apply a novel Normalizing Flow (NF) approach to obtain an analytic density estimator from these samples, followed by Optimal Bridge Sampling (OBS) to obtain the normalizing constant. We compare our method which we call Gaussianized Bridge Sampling (GBS) to existing methods such as Nested Sampling (NS) and Annealed Importance Sampling (AIS) on several examples, showing our method is both signicantly faster and substantially more accurate than these methods, and comes with a reliable error estimation.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-jaiswal20a,
   title = 	 { Variational Bayesian Methods for Stochastically Constrained System Design Problems},
   author =       {Jaiswal, Prateek and Honnappa, Harsh and Rao, Vinayak A.},
@@ -313,10 +247,6 @@
   url = 	 {https://proceedings.mlr.press/v118/jaiswal20a.html},
   abstract = 	 { We study system design problems stated as parameterized stochastic programs with a chance-constraint set. We adopt a Bayesian approach that requires the computation of a posterior predictive integral which is usually intractable. In addition, for the problem to be a well-dened convex program, we must retain the convexity of the feasible set. Consequently, we propose a variational Bayes-based method to approximately compute the posterior predictive integral that ensures tractability and retains the convexity of the feasible set. Under certain regularity conditions, we also show that the solution set obtained using variational Bayes converges to the true solution set as the number of observations tends to infinity. We also provide bounds on the probability of qualifying a true infeasible point (with respect to the true constraints) as feasible under the VB approximation for a given number of samples.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-gong20a,
   title = 	 {Variational Selective Autoencoder},
   author =       {Gong, Yu and Hajimirsadeghi, Hossein and He, Jiawei and Nawhal, Megha and Durand, Thibaut and Mori, Greg},
@@ -332,10 +262,6 @@
   url = 	 {https://proceedings.mlr.press/v118/gong20a.html},
   abstract = 	 { Despite promising progress on unimodal data imputation (e.g. image inpainting), models for multimodal data imputation are far from satisfactory. In this work, we propose variational selective autoencoder (VSAE) for this task. Learning only from partially-observed data, VSAE can model the joint distribution of observed/unobserved modalities and the imputation mask, resulting in a unied model for various down-stream tasks including data generation and imputation. Evaluation on synthetic high-dimensional and challenging low-dimensional multimodal datasets shows improvement over the state-of-the-art imputation models. }
 }
-
-
-
-
 @InProceedings{pmlr-v118-fjelde20a,
   title = 	 { Bijectors.jl: Flexible transformations for probability distributions},
   author =       {Fjelde, Tor Erlend and Xu, Kai and Tarek, Mohamed and Yalburgi, Sharan and Ge, Hong},
@@ -351,10 +277,6 @@
   url = 	 {https://proceedings.mlr.press/v118/fjelde20a.html},
   abstract = 	 {Transforming one probability distribution to another is a powerful tool in Bayesian inference and machine learning. Some prominent examples are constrained-to-unconstrained transformations of distributions for use in Hamiltonian Monte Carlo and constructing exible and learnable densities such as normalizing ows. We present Bijectors.jl, a software package in Julia for transforming distributions, available at github.com/TuringLang/Bijectors.jl. The package provides a exible and composable way of implementing transformations of distributions without being tied to a computational framework. We demonstrate the use of Bijectors.jl on improving variational inference by encoding known statistical dependencies into the variational posterior using normalizing ows, providing a general approach to relaxing the mean-field assumption usually made in variational inference. }
 }
-
-
-
-
 @InProceedings{pmlr-v118-cherief-abdellatif20a,
   title = 	 {MMD-Bayes: Robust Bayesian Estimation via Maximum Mean Discrepancy},
   author =       {Cherief-Abdellatif, Badr-Eddine and Alquier, Pierre},
@@ -370,10 +292,6 @@
   url = 	 {https://proceedings.mlr.press/v118/cherief-abdellatif20a.html},
   abstract = 	 {In some misspecified settings, the posterior distribution in Bayesian statistics may lead to inconsistent estimates. To fix this issue, it has been suggested to replace the likelihood by a pseudo-likelihood, that is the exponential of a loss function enjoying suitable robustness properties. In this paper, we build a pseudo-likelihood based on the Maximum Mean Discrepancy, dened via an embedding of probability distributions into a reproducing kernel Hilbert space. We show that this MMD-Bayes posterior is consistent and robust to model misspecication. As the posterior obtained in this way might be intractable, we also prove that reasonable variational approximations of this posterior enjoy the same properties. We provide details on a stochastic gradient algorithm to compute these variational approximations. Numerical simulations indeed suggest that our estimator is more robust to misspecication than the ones based on the likelihood.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-berkovich20a,
   title = 	 {GP-ALPS: Automatic Latent Process Selection for Multi-Output Gaussian Process Models },
   author =       {Berkovich, Pavel and Perim, Eric and Bruinsma, Wessel},
@@ -389,10 +307,6 @@
   url = 	 {https://proceedings.mlr.press/v118/berkovich20a.html},
   abstract = 	 { In this work, we apply Bayesian model selection to the calibration of the complexity of the latent space. We propose an extension of the LMM that automatically chooses the latent processes by turning off those that do not meaningfully contribute to explaining the data. We call the technique Gaussian Process Automatic Latent Process Selection (GPALPS). The extra functionality of GP-ALPS comes at the cost of exact inference, so we devise a variational inference (VI) scheme and demonstrate its suitability in a set of preliminary experiments. We also assess the quality of the variational posterior by comparing our approximate results with those obtained via a Markov Chain Monte Carlo (MCMC) approach.}
 }
-
-
-
-
 @InProceedings{pmlr-v118-alemi20a,
   title = 	 { Variational Predictive Information Bottleneck},
   author =       {Alemi, Alexander A.},

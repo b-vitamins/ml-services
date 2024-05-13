@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{CPC2008,
   title =     {Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008},
   booktitle = {Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    3
 }
-
-
-
-
 @InProceedings{pmlr-v3-guyon08a,
   title = 	 {Design and Analysis of the Causation and Prediction Challenge},
   author = 	 {Guyon, Isabelle and Aliferis, Constantin and Cooper, Greg and Elisseeff, AndrÃ© and Pellet, Jean-Philippe and Spirtes, Peter and Statnikov, Alexander},
@@ -29,10 +23,6 @@
   url = 	 {http://proceedings.mlr.press/v3/guyon08a.html},
   abstract = 	 {We organized for WCCI 2008 a challenge to evaluate causal modeling techniques,  focusing on predicting the effect of âinterventionsâ performed by an external  agent. Examples of that problem are found in the medical domain to predict  the effect of a drug prior to administering it, or in econometrics to predict  the effect of a new policy prior to issuing it. We concentrate on a given  target variable to be predicted (e.g., health status of a patient) from a  number of candidate predictive variables or âfeaturesâ (e.g., risk factors  in the medical domain). Under interventions, variable predictive power and  causality are tied together. For instance, both smoking and coughing may be predictive of lung cancer (the target) in the absence of external intervention;  however, prohibiting smoking (a possible cause) may prevent lung cancer, but administering a cough medicine to stop coughing (a possible consequence) would not. We propose four tasks from various application domains, each dataset  including a training set drawn from a ânaturalâ distribution and three test  sets: one from the same distribution as the training set and two corresponding  to data drawn when an external agent is manipulating certain variables. The  goal is to predict a binary target variable, whose values on test data are  withheld. The participants were asked to provide predictions of the target  variable on test data and the list of variables (features) used to make predictions.  The challenge platform remains open for post-challenge submissions and the  organization of other events is under way (see http://clopinet.com/causality).}
 }
-
-
-
-
 @InProceedings{pmlr-v3-brown08a,
   title = 	 {A Strategy for Making Predictions Under Manipulation},
   author = 	 {Brown, Laura E. and Tsamardinos, Ioannis},
@@ -49,10 +39,6 @@
   url = 	 {http://proceedings.mlr.press/v3/brown08a.html},
   abstract = 	 {The first Causality Challenge competition posted several causal discovery  problems that require researchers to employ the full arsenal of state-of-the-art  causal discovery methods, while prompting the development of new ones. Our  approach used the formalism of Causal Bayesian Networks to model and induce  causal relations and to make predictions about the effects of the manipulation  of the variables. Using state-of-the-art, under development, or newly invented  methods specifically for the purposes of the competition, we addressed the  following problems in turn in order to build and evaluate a model: (a) finding  the Markov Blanket of the target even under some non-faithfulness conditions  (e.g., parity functions), (b) reducing the problems to a size manageable by subsequent algorithms, (c) identifying and orienting the network edges, (d) identifying causal edges (i.e., not confounded), and (e) selecting the causal Markov Blanket of the target in the manipulated distribution. The results of the competition illustrate some of the strengths and weaknesses of the state-of-the-art of causal discovery methods and point to new directions in the field. An implementation of our approach is available at http://www.dsl-lab.org  for use by other researchers.}
 }
-
-
-
-
 @InProceedings{pmlr-v3-chang08a,
   title = 	 {Feature Ranking Using Linear SVM},
   author = 	 {Chang, Yin-Wen and Lin, Chih-Jen},
@@ -69,10 +55,6 @@
   url = 	 {http://proceedings.mlr.press/v3/chang08a.html},
   abstract = 	 {Feature ranking is useful to gain knowledge of data and identify relevant   features. This article explores the performance of combining linear support   vector machines with various feature ranking methods, and reports the experiments   conducted when participating the Causality Challenge. Experiments show that   a feature ranking using weights from linear SVM models yields good performances,   even when the training and testing data are not identically distributed.  Checking the difference of Area Under Curve (AUC) with and without removing  each feature also gives similar rankings. Our study indicates that linear   SVMs with simple feature rankings are effective on data sets in the Causality  Challenge.}
 }
-
-
-
-
 @InProceedings{pmlr-v3-nikulin08a,
   title = 	 {Random Sets Approach and its Applications},
   author = 	 {Nikulin, Vladimir},
@@ -89,10 +71,6 @@
   url = 	 {http://proceedings.mlr.press/v3/nikulin08a.html},
   abstract = 	 {The random sets approach is heuristic in nature and has been inspired by  the growing speed of computations. For example, we can consider a large number  of classifiers where any single classifier is based on a relatively small  subset of randomly selected features or random sets of features. Using cross-validation  we can rank all random sets according to the selected criterion, and use this ranking for further feature selection. Another application of random sets was motivated by the huge imbalanced data, which represent significant  problem because the corresponding classifier has a tendency to ignore patterns with smaller representation in the training set. Again, we propose to consider  a large number of balanced training subsets where representatives from both  patterns are selected randomly. The above models demonstrated competitive  results in two data mining competitions.}
 }
-
-
-
-
 @InProceedings{pmlr-v3-saeed08a,
   title = 	 {Bernoulli Mixture Models for Markov Blanket Filtering and Classification},
   author = 	 {Saeed, Mehreen},
@@ -109,10 +87,6 @@
   url = 	 {http://proceedings.mlr.press/v3/saeed08a.html},
   abstract = 	 {This paper presents the use of Bernoulli mixture models for Markov blanket  filtering and classification of binary data. Bernoulli mixture models can  be seen as a tool for partitioning an n-dimensional hypercube, identifying  regions of high data density on the corners of the hypercube. Once Bernoulli  mixture models are computed from a training dataset we use them for determining  the Markov blanket of the target variable. An algorithm for Markov blanket  filtering was proposed by Koller and Sahami (1996), which is a greedy search   method for feature subset selection and it outputs an approximation to the  optimal feature selection criterion. However, they use the entire training  instances for computing the conditioning sets and have to limit the size of these sets for computational efficiency and avoiding data fragmentation. We have adapted their algorithm to use Bernoulli mixture models instead, hence, overcoming the short comings of their algorithm and increasing the  efficiency of this algorithm considerably. Once a feature subset is identified we perform classification using these mixture models. We have applied this algorithm to the causality challenge datasets. Our prediction scores were ranked fourth on SIDO and our feature scores were ranked the best for test sets 1 and 2 of the same dataset.}
 }
-
-
-
-
 @InProceedings{pmlr-v3-yin08a,
   title = 	 {Partial orientation and local structural learning of causal networks for prediction},
   author = 	 {Yin, Jianxin and Zhou, You and Wang, Changzhang and He, Ping and Zheng, Cheng and Geng, Zhi},
@@ -129,10 +103,6 @@
   url = 	 {http://proceedings.mlr.press/v3/yin08a.html},
   abstract = 	 {For a prediction problem of a given target feature in a large causal network  under external interventions, we propose in this paper two partial orientation  and local structural learning (POLSL) approaches, Local-Graph and PCD-by-PCD  (where PCD denotes Parents, Children and some Descendants). The POLSL approaches  are used to discover the local structure of the target and to orient edges   connected to the target without discovering a global causal network. Thus  they can greatly reduce computational complexity of structural learning and  improve power of statistical tests. This approach is stimulated by the challenge  problems proposed in IEEE World Congress on Computational Intelligence (WCCI2008)  competition workshop. For the cases with and without external interventions,  we select different feature sets to build prediction models. We apply the  L1 penalized logistic regression model to the prediction. For the case with  noise and calibrant features in microarray data, we propose a two-stage filter  to correct global and local patterns of noise.}
 }
-
-
-
-
 @InProceedings{pmlr-v3-cawley09a,
   title = 	 {Causal & Non-Causal Feature Selection for Ridge Regression},
   author = 	 {Cawley, Gavin C.},

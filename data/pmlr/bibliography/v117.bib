@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{ALT2020,
   title =     {Proceedings of the 31st International Conference  on Algorithmic Learning Theory},
   booktitle = {Proceedings of the 31st International Conference  on Algorithmic Learning Theory},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    117
 }
-
-
-
-
 @InProceedings{pmlr-v117-kontorovich20a,
   title = 	 {Algorithmic Learning Theory 2020: Preface},
   author =       {Kontorovich, Aryeh and Neu, Gergely},
@@ -28,10 +22,6 @@
   url = 	 {https://proceedings.mlr.press/v117/kontorovich20a.html},
   abstract = 	 {Presentation of this volume}
 }
-
-
-
-
 @InProceedings{pmlr-v117-acharya20a,
   title = 	 {Optimal multiclass overfitting by sequence reconstruction from Hamming queries},
   author =       {Acharya, Jayadev and Suresh, Ananda Theertha},
@@ -47,10 +37,6 @@
   url = 	 {https://proceedings.mlr.press/v117/acharya20a.html},
   abstract = 	 {A primary concern of excessive reuse of test datasets in machine learning is that it can lead to overfitting. Multiclass classification was recently shown to be more resistant to overfitting than binary classification. In an open problem of COLT 2019, Feldman, Frostig, and Hardt ask to characterize the dependence of the amount of overfitting bias with the number of classes $m$, the number of accuracy queries $k$, and the number of examples in the dataset $n$.  We resolve this problem and determine the  amount of overfitting possible in multi-class classification. We provide computationally efficient algorithms that achieve overfitting bias of  $\tilde{\Theta}(\max\{\sqrt{{k}/{(mn)}}, k/n\})$, matching the known upper bounds.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-agarwal20a,
   title = 	 {Leverage Score Sampling for Faster Accelerated Regression and ERM},
   author =       {Agarwal, Naman and Kakade, Sham and Kidambi, Rahul and Lee, Yin-Tat and Netrapalli, Praneeth and Sidford, Aaron},
@@ -66,10 +52,6 @@
   url = 	 {https://proceedings.mlr.press/v117/agarwal20a.html},
   abstract = 	 {Given a matrix $\mathbf{A}\in\R^{n\times d}$ and a vector $b\in\R^{d}$, we show how to compute an $\epsilon$-approximate solution to the regression problem  $ \min_{x\in\R^{d}}\frac{1}{2} \norm{\mathbf{A} x-b}_{2}^{2} $ in time $ \widetilde{O} ((n+\sqrt{d\cdot\kappa_{\text{sum}}}) s \log\epsilon^{-1}) $ where $\kappa_{\text{sum}}=\tr\left(\mathbf{A}^{\top}\mathbf{A}\right)/\lambda_{\min}(\mathbf{A}^{\top}\mathbf{A})$ and $s$ is the maximum number of non-zero entries in a row of $\mathbf{A}$. This improves upon the previous best running time of  $ \widetilde{O} ((n+\sqrt{n \cdot\kappa_{\text{sum}}}) s \log\epsilon^{-1})$. We achieve our result through an interesting combination of leverage score sampling, proximal point methods, and accelerated coordinate descent methods. Further, we show that our method not only matches the performance of previous methods up to polylogarithmic factors, but further improves whenever leverage scores of rows are small. We also provide a non-linear generalization of these results that improves the running time for solving a broader class of ERM problems and expands the set of ERM problems provably solvable in nearly linear time.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-agarwal20b,
   title = 	 {On Learnability wih Computable Learners},
   author =       {Agarwal, Sushant and Ananthakrishnan, Nivasini and Ben-David, Shai and Lechner, Tosca and Urner, Ruth},
@@ -85,10 +67,6 @@
   url = 	 {https://proceedings.mlr.press/v117/agarwal20b.html},
   abstract = 	 {We initiate a study of learning with computable learners and computable output predictors. Recent results in statistical learning theory have shown that there are basic learning problems whose learnability can not be determined within ZFC.  This motivates us to consider learnability by algorithms with computable output predictors (both learners and predictors are then representable as finite objects). We thus propose the notion of <em>CPAC learnability</em>, by adding some basic computability requirements into a PAC learning framework. As a first step towards a characterization, we show that in this framework learnability of a binary hypothesis class is not implied by finiteness of its VC-dimension anymore.  We also present some situations where we are guaranteed to have a computable learner.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-agrawal20a,
   title = 	 {Optimal $Î´$-Correct Best-Arm Selection for Heavy-Tailed Distributions},
   author =       {Agrawal, Shubhada and Juneja, Sandeep and Glynn, Peter},
@@ -104,10 +82,6 @@
   url = 	 {https://proceedings.mlr.press/v117/agrawal20a.html},
   abstract = 	 {	Given a finite set of unknown distributions $\textit{or arms}$ that can be sampled, we consider the problem of identifying the one with the largest mean using a delta-correct algorithm (an  adaptive, sequential algorithm that restricts the probability of error to a specified delta) that has minimum sample complexity.   Lower bounds for delta-correct algorithms are well known. Delta-correct algorithms that match the lower bound asymptotically as delta reduces to zero have  been previously developed  when arm distributions are restricted to a single parameter exponential family. In this paper, we first observe a negative result that some restrictions are essential, as otherwise under a delta-correct algorithm, distributions with unbounded support would require an infinite number of samples in expectation. We then propose a delta-correct algorithm that matches the lower bound as delta reduces to zero under the mild restriction that a known bound on the expectation of a non-negative, continuous, increasing convex function (for example, the squared moment) of the underlying random variables, exists.  We also propose batch processing and identify near optimal batch sizes to substantially speed up the proposed algorithm.     The best-arm problem  has many learning applications, including  recommendation systems and product selection.  It  is also a well studied classic problem in the simulation community. }
 }
-
-
-
-
 @InProceedings{pmlr-v117-arjevani20a,
   title = 	 {A Tight Convergence Analysis for Stochastic Gradient  Descent with Delayed Updates},
   author =       {Arjevani, Yossi and Shamir, Ohad and Srebro, Nathan},
@@ -123,10 +97,6 @@
   url = 	 {https://proceedings.mlr.press/v117/arjevani20a.html},
   abstract = 	 {We establish matching upper and lower complexity bounds for  gradient descent and stochastic gradient descent on quadratic functions,  when the gradients are delayed and reflect iterates from $\tau$ rounds ago.  First, we show that without stochastic noise, delays strongly affect  the attainable optimization error: In fact, the error can be as bad as  non-delayed gradient descent ran on only $1/\tau$ of the gradients. In  sharp contrast, we quantify how stochastic noise makes the effect of  delays negligible, improving on previous work which only showed this  phenomenon asymptotically or for much smaller delays. Also, in the  context of distributed optimization, the results indicate that the  performance of gradient descent with delays is competitive with  synchronous approaches such as mini-batching. Our results are based on  a novel technique for analyzing convergence of optimization algorithms  using generating functions.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-bary-weisberg20a,
   title = 	 {Distribution Free Learning with Local Queries},
   author =       {Bary-Weisberg, Galit and Daniely, Amit and Shalev-Shwartz, Shai},
@@ -142,10 +112,6 @@
   url = 	 {https://proceedings.mlr.press/v117/bary-weisberg20a.html},
   abstract = 	 {  The model of learning with <em>local membership queries</em> interpolates between the PAC model and the membership queries model by allowing the learner to query the label of any example that is similar to an example in the training set. This model, recently proposed and studied by Aawasthi et al (2012),  aims to facilitate practical use of membership queries. We continue this line of work, proving both positive and negative results in the <em>distribution free</em> setting. We restrict to the boolean cube $\{-1, 1\}^n$, and say that a query is $q$-local if it is of a hamming distance $\le q$ from some training example. On the positive side, we show that $1$-local queries already give an additional strength, and allow to learn a certain type of DNF formulas, that are not learnable without queries, assuming that learning decision trees is hard. On the negative side, we show that even $\left(n^{0.99}\right)$-local queries cannot help to learn various classes including Automata, DNFs and more. Likewise, $q$-local queries for any constant $q$ cannot help to learn Juntas, Decision Trees, Sparse Polynomials and more. Moreover, for these classes, an algorithm that uses $\left(\log^{0.99}(n)\right)$-local queries would lead to a breakthrough in the best known running times}
 }
-
-
-
-
 @InProceedings{pmlr-v117-bhaskara20a,
   title = 	 {Robust Algorithms for Online $k$-means Clustering},
   author =       {Bhaskara, Aditya and Ruwanpathirana, Aravinda Kanchana},
@@ -161,10 +127,6 @@
   url = 	 {https://proceedings.mlr.press/v117/bhaskara20a.html},
   abstract = 	 {In the online version of the classic $k$-means clustering problem, the points of a dataset $u_1, u_2, â¦$ arrive one after another in an arbitrary order. When the algorithm sees a point, it should either add it to the set of centers, or let go of the point. Once added, a center cannot be removed. The goal is to end up with set of roughly $k$ centers, while competing in $k$-means objective value with the best set of $k$ centers in hindsight. Online versions of $k$-means and other clustering problem have received significant attention in the literature. The key idea in many algorithms is that of adaptive sampling: when a new point arrives, it is added to the set of centers with a probability that depends on the distance to the centers chosen so far. Our contributions are as follows: <ol> <li/> We give a modified adaptive sampling procedure that obtains a better approximation ratio (improving it from logarithmic to constant). <li/> Our main result is to show how to perform adaptive sampling when data has outliers ($\gg k$ points that are potentially arbitrarily far from the actual data, thus rendering distance-based sampling prone to picking the outliers). <li/> We also discuss lower bounds for $k$-means clustering in an online setting. </ol>}
 }
-
-
-
-
 @InProceedings{pmlr-v117-bhattacharjee20a,
   title = 	 {What relations are reliably embeddable in Euclidean space?},
   author =       {Bhattacharjee, Robi and Dasgupta, Sanjoy},
@@ -180,10 +142,6 @@
   url = 	 {https://proceedings.mlr.press/v117/bhattacharjee20a.html},
   abstract = 	 {We consider the problem of embedding a relation, represented as a directed graph, into Euclidean space. For three types of embeddings motivated by the recent literature on knowledge graphs, we obtain characterizations of which relations they are able to capture, as well as bounds on the minimal dimensionality and precision needed.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-bubeck20a,
   title = 	 {First-Order Bayesian Regret Analysis of Thompson Sampling},
   author =       {Bubeck, S\'ebastien and Sellke, Mark},
@@ -199,10 +157,6 @@
   url = 	 {https://proceedings.mlr.press/v117/bubeck20a.html},
   abstract = 	 {We address online combinatorial optimization when the player has a prior over the adversaryâs sequence of losses. In this setting, Russo and Van Roy proposed an information-theoretic analysis of Thompson Sampling based on the <em>information ratio</em>, allowing for elegant proofs of Bayesian regret bounds. In this paper we introduce three novel ideas to this line of work. First we propose a new quantity, the scale-sensitive information ratio, which allows us to obtain more refined first-order regret bounds (i.e., bounds of the form $O(\sqrt{L^*})$ where $L^*$ is the loss of the best combinatorial action). Second we replace the entropy over combinatorial actions by a <em>coordinate entropy</em>, which allows us to obtain the first optimal worst-case bound for Thompson Sampling in the combinatorial setting. We additionally introduce a novel link between Bayesian agents and frequentist confidence intervals. Combining these ideas we show that the classical multi-armed bandit first-order regret bound $\tilde{O}(\sqrt{d L^*})$ still holds true in the more challenging and more general semi-bandit scenario. This latter result improves the previous state of the art bound $\tilde{O}(\sqrt{(d+m^3)L^*})$ by Lykouris, Sridharan and Tardos. We tighten these results by leveraging a recent insight of Zimmert and Lattimore connecting Thompson Sampling and online stochastic mirror descent, which allows us to replace the Shannon entropy with more general mirror maps.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-cesa-bianchi20a,
   title = 	 {Cooperative Online Learning: Keeping your Neighbors Updated},
   author =       {Cesa-Bianchi, Nicol\`o and Cesari, Tommaso and Monteleoni, Claire},
@@ -218,10 +172,6 @@
   url = 	 {https://proceedings.mlr.press/v117/cesa-bianchi20a.html},
   abstract = 	 {We study an asynchronous online learning setting with a network of agents. At each time step, some of the agents are activated, requested to make a prediction, and pay the corresponding loss. The loss function is then revealed to these agents and also to their neighbors in the network. Our results characterize how much knowing the network structure affects the regret as a function of the model of agent activations. When activations are stochastic, the optimal regret (up to constant factors) is shown to be of order $\sqrt{\alpha T}$, where $T$ is the horizon and $\alpha$ is the independence number of the network. We prove that the upper bound is achieved even when agents have no information about the network structure. When activations are adversarial the situation changes dramatically: if agents ignore the network structure, a $\Omega(T)$ lower bound on the regret can be proven, showing that learning is impossible. However, when agents can choose to ignore some of their neighbors based on the knowledge of the network structure, we prove a $O(\sqrt{\overline{\chi} T})$ sublinear regret bound, where $\overline{\chi} \ge \alpha$ is the clique-covering number of the network.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-doskoc20a,
   title = 	 {Cautious Limit Learning},
   author =       {Dosko\v{c}, Vanja and K\"{o}tzing, Timo},
@@ -237,10 +187,6 @@
   url = 	 {https://proceedings.mlr.press/v117/doskoc20a.html},
   abstract = 	 {We investigate language learning in the limit from text with various <em>cautious</em> learning restrictions. Learning is <em>cautious</em> if no hypothesis is a proper subset of a previous guess. While dealing with a seemingly natural learning behaviour, cautious learning does severely restrict explanatory (syntactic) learning power. To further understand why exactly this loss of learning power arises, KÃ¶tzing and Palenta (2016) introduced weakened versions of cautious learning and gave first partial results on their relation. In this paper, we aim to understand the restriction of cautious learning more fully. To this end we compare the known variants in a number of different settings, namely full-information and (partially) set-driven learning, paired either with the syntactic convergence restriction (explanatory learning) or the semantic convergence restriction (behaviourally correct learning). To do so, we make use of normal forms presented in KÃ¶tzing et al. (2017), most notably strongly locking and consistent learning. While strongly locking learners have been exploited when dealing with a variety of syntactic learning restrictions, we show how they can be beneficial in the semantic case as well. Furthermore, we expand the normal forms to a broader range of learning restrictions, including an answer to the open question of whether cautious learners can be assumed to be consistent, as stated in KÃ¶tzing et al. (2017).}
 }
-
-
-
-
 @InProceedings{pmlr-v117-emamjomeh-zadeh20a,
   title = 	 {Interactive Learning of a Dynamic Structure},
   author =       {Emamjomeh-Zadeh, Ehsan and Kempe, David and Mahdian, Mohammad and Schapire, Robert E.},
@@ -256,10 +202,6 @@
   url = 	 {https://proceedings.mlr.press/v117/emamjomeh-zadeh20a.html},
   abstract = 	 {We propose a general framework for interactively learning combinatorial structures, such as (binary or non-binary) classifiers, orderings/rankings of items, or clusterings, when the underlying structure changes over time. Inspired by Angluinâs equivalence query model, the algorithm proposes a structure in each round, and it either learns that its proposal is the true structure in this round, or it observes a specific mistake in the proposal. The feedback is correct only with probability $1 - p$, and adversarially incorrect with probability $p$. The algorithmâs goal is to minimize its number of mistakes over the course of $R$ rounds. Our general framework is based on a graph representation of the structures and feedback in a static environment, proposed by Emamjomeh-Zadeh and Kempe (2017). To be able to learn efficiently, it is sufficient that there be a graph $G$ whose nodes are the candidate structures and whose (weighted) edges capture the possible feedback, satisfying a certain natural shortest paths property. To model the evolution of the underlying structure, we consider two natural models, which we term the Shifting Target model and Drifting Target model. In the former, the true structure always belongs to a small pool of candidate structures. In the latter, the structure can change only by transitioning along the edges of a known evolution graph. In order to achieve non-trivial results, we bound the total number of times the underlying structure can change, denoted by $B$. We provide upper and lower bounds on the number of mistakes, which depend on the total number of changes $B$, the total number of structures $n$, and natural measures of complexity of the dynamic models: the size of the pool of candidate structures in the Shifting Target model, and the maximum degree of the evolution graph in the Drifting Target model.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-fish20a,
   title = 	 {Sampling Without Compromising Accuracy in Adaptive Data Analysis},
   author =       {Fish, Benjamin and Reyzin, Lev and Rubinstein, Benjamin I. P.},
@@ -275,10 +217,6 @@
   url = 	 {https://proceedings.mlr.press/v117/fish20a.html},
   abstract = 	 {In this work, we study how to use sampling to speed up mechanisms for answering adaptive queries into datasets without reducing the accuracy of those mechanisms.  This is important to do when both the datasets and the number of queries asked are very large.  In particular, we describe a mechanism that provides a polynomial speed-up per query over previous mechanisms, without needing to increase the total amount of data required to maintain the same generalization error as before.  We prove that this speed-up holds for arbitrary statistical queries.  We also provide an even faster method for achieving statistically-meaningful responses wherein the mechanism is only allowed to see a constant number of samples from the data per query.  Finally, we show that our general results yield a simple, fast, and unified approach for adaptively optimizing convex and strongly convex functions over a dataset.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-fontaine20a,
   title = 	 {An adaptive stochastic optimization algorithm for resource allocation},
   author =       {Fontaine, Xavier and Mannor, Shie and Perchet, Vianney},
@@ -294,10 +232,6 @@
   url = 	 {https://proceedings.mlr.press/v117/fontaine20a.html},
   abstract = 	 {We consider the classical problem of sequential resource allocation where a decision maker must repeatedly divide a budget between several resources, each with diminishing returns. This can be recast as a specific stochastic optimization problem where the objective is to maximize the cumulative reward, or equivalently to minimize the regret. We construct an algorithm that is <em>adaptive</em> to the complexity of the problem, expressed in term of the regularity of the returns of the resources, measured by the exponent in the Åojasiewicz inequality (or by their universal concavity parameter). Our parameter-independent algorithm recovers the optimal rates for strongly-concave functions and the classical fast rates of multi-armed bandit (for linear reward functions). Moreover, the algorithm improves existing results on stochastic optimization in this regret minimization setting for intermediate cases.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-garg20a,
   title = 	 {Adversarially Robust Learning Could Leverage Computational Hardness.},
   author =       {Garg, Sanjam and Jha, Somesh and Mahloujifar, Saeed and Mohammad, Mahmoody},
@@ -313,10 +247,6 @@
   url = 	 {https://proceedings.mlr.press/v117/garg20a.html},
   abstract = 	 {Over recent years, devising classification algorithms that are robust to adversarial perturbations has emerged as a challenging problem. In particular, deep neural nets (DNNs) seem to be susceptible to small imperceptible changes over test instances. However, the line of work in <em>provable</em> robustness, so far, has been focused on <em>information theoretic</em> robustness, ruling out even the <em>existence</em> of any adversarial examples. In this work, we study whether there is a hope to benefit from <em>algorithmic</em> nature of an attacker that searches for adversarial examples, and ask whether there is <em>any</em>  learning task for which it is possible to design classifiers that are only robust against <em>polynomial-time</em> adversaries. Indeed, numerous cryptographic tasks (e.g. encryption of long messages) can only be secure against computationally bounded adversaries, and are indeed <em>impossible</em> for computationally unbounded attackers. Thus, it is natural to ask if the same strategy could help robust learning. We show that computational limitation of attackers can indeed be useful in robust learning by demonstrating the possibility of a classifier for some learning task  for which computational and information theoretic adversaries of bounded perturbations have very different power. Namely, while computationally unbounded adversaries can attack successfully and find adversarial examples with small perturbation, polynomial time adversaries are unable to do so   unless they can break standard cryptographic hardness assumptions.  Our results, therefore, indicate that perhaps a similar approach to cryptography (relying on computational hardness) holds promise for achieving computationally robust machine learning.  On the reverse directions, we also show that the existence of such learning task in which computational robustness beats information theoretic robustness requires computational hardness by implying (average-case) hardness of NP.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-ghai20a,
   title = 	 {Exponentiated Gradient Meets Gradient Descent},
   author =       {Ghai, Udaya and Hazan, Elad and Singer, Yoram},
@@ -332,10 +262,6 @@
   url = 	 {https://proceedings.mlr.press/v117/ghai20a.html},
   abstract = 	 { The (stochastic) gradient descent and the multiplicative update method are  probably the most popular algorithms in machine learning. We introduce and study a new regularization which provides a unification of the additive and multiplicative updates. This regularization is derived from an hyperbolic analogue of the entropy function, which we call hypentropy. It is motivated by a natural extension of the multiplicative update to negative numbers. The hypentropy has a natural spectral counterpart which we use to derive a family of matrix-based updates that bridge gradient methods and the multiplicative method for matrices. While the latter is only applicable to positive semi-definite matrices, the spectral hypentropy method can naturally be used with general rectangular matrices. We analyze the new family of updates by deriving tight regret bounds. We study empirically the applicability of the new update for settings such as multiclass learning, in which the parameters constitute a general rectangular matrix.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-hazan20a,
   title = 	 {The Nonstochastic Control Problem},
   author =       {Hazan, Elad and Kakade, Sham and Singh, Karan},
@@ -351,10 +277,6 @@
   url = 	 {https://proceedings.mlr.press/v117/hazan20a.html},
   abstract = 	 {We consider the problem of controlling an unknown linear dynamical system in the presence of (nonstochastic) adversarial perturbations and adversarial convex loss functions. In contrast to classical control, the a priori determination of an optimal controller here is hindered by the latterâs dependence on the yet unknown perturbations and costs. Instead, we measure regret against an optimal linear policy in hindsight, and give the first efficient algorithm that guarantees a sublinear regret bound, scaling as T^(2/3), in this setting.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-pravesh20a,
   title = 	 {On the Expressive Power of Kernel Methods  and the Efficiency of Kernel Learning by Association Schemes},
   author =       {Pravesh, Kothari K. and Roi, Livni},
@@ -370,10 +292,6 @@
   url = 	 {https://proceedings.mlr.press/v117/pravesh20a.html},
   abstract = 	 {We study the expressive power of kernel methods and the algorithmic feasibility of multiple kernel learning for a special rich class of kernels.  Specifically, we define <em>Euclidean kernels</em>, a diverse class that includes most, if not all, families of kernels studied in literature such as polynomial kernels and radial basis functions. We then describe the geometric and spectral structure of this family of kernels over the hypercube (and to some extent for any compact domain).  Our structural results allow us to prove meaningful limitations on the expressive power of the class as well as derive several efficient algorithms for learning kernels over different domains.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-kovalev20a,
   title = 	 {Donât Jump Through Hoops and Remove Those Loops:  SVRG and Katyusha are Better Without the Outer Loop},
   author =       {Kovalev, Dmitry and Horv{\'a}th, Samuel and Richt{\'a}rik, Peter},
@@ -389,10 +307,6 @@
   url = 	 {https://proceedings.mlr.press/v117/kovalev20a.html},
   abstract = 	 {The stochastic variance-reduced gradient method (<tt>SVRG</tt>) and its accelerated variant (<tt>Katyusha</tt>) have attracted enormous attention in the machine learning community in the last few years due to their superior theoretical properties and empirical behaviour on training supervised machine learning models via the empirical risk minimization paradigm. A key structural element in both of these methods is the inclusion of an outer loop at the beginning of which  a full pass over the training data is made in order to compute the exact gradient, which is then used in an inner loop to construct a variance-reduced estimator of the gradient using new stochastic gradient information. In this work, we design <em>loopless variants</em> of both of these methods. In particular,  we remove the outer loop and replace its function by a coin flip performed in each iteration designed to trigger, with a small probability, the computation of the gradient. We prove that the new methods enjoy the same superior theoretical convergence properties as the original methods. For loopless <tt>SVRG</tt>,  the same rate is obtained for a large interval of coin flip probabilities, including the probability $\frac{1}{n}$, where $n$ is the number of functions. This is the first result where a variant of <tt>SVRG</tt> is shown to converge with the same rate without the need for the algorithm to know the condition number, which is often unknown or hard to estimate correctly. We demonstrate through numerical experiments that the loopless methods can have  superior and more robust practical behavior.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-krishnamurthy20a,
   title = 	 {Algebraic and Analytic Approaches for Parameter Learning in Mixture Models},
   author =       {Krishnamurthy, Akshay and Mazumdar, Arya and McGregor, Andrew and Pal, Soumyabrata},
@@ -408,10 +322,6 @@
   url = 	 {https://proceedings.mlr.press/v117/krishnamurthy20a.html},
   abstract = 	 {We present two different approaches for parameter learning in several mixture models in one dimension. Our first approach uses complex-analytic methods and applies to Gaussian mixtures with shared variance, binomial mixtures with shared success probability, and Poisson mixtures, among others. An example result is that $\exp(O(N^{1/3}))$ samples suffice to exactly learn a mixture of $k<N$ Poisson distributions, each with integral rate parameters bounded by $N$. Our second approach uses algebraic and combinatorial tools and applies to binomial mixtures with shared trial parameter $N$ and differing success parameters, as well as to mixtures of geometric distributions. Again, as an example, for binomial mixtures with $k$ components and success parameters discretized to resolution $\epsilon$, $O(k^2(\nicefrac{N}{\epsilon})^{\nicefrac{8}{\sqrt{\epsilon}}})$ samples suffice to exactly recover the parameters. For some of these distributions, our results represent the first guarantees for parameter estimation.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-lee20a,
   title = 	 {Robust guarantees for learning an autoregressive filter},
   author =       {Lee, Holden and Zhang, Cyril},
@@ -427,10 +337,6 @@
   url = 	 {https://proceedings.mlr.press/v117/lee20a.html},
   abstract = 	 {The optimal predictor for a known linear dynamical system (with hidden state and Gaussian noise) takes the form of an autoregressive linear filter, namely the Kalman filter. However, making optimal predictions in an unknown linear dynamical system is a more challenging problem that is fundamental to control theory and reinforcement learning. To this end, we take the approach of directly learning an autoregressive filter for time-series prediction under unknown dynamics. Our analysis differs from previous statistical analyses in that we regress not only on the inputs to the dynamical system, but also the outputs, which is essential to dealing with process noise. The main challenge is to estimate the filter under worst case input (in $\mathcal H_\infty$ norm), for which we use an $L^\infty$-based objective rather than ordinary least-squares. For learning an autoregressive model, our algorithm has optimal sample complexity in terms of the rollout length, which does not seem to be attained by naive least-squares.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-lewi20a,
   title = 	 {Thompson Sampling for Adversarial Bit Prediction},
   author =       {Lewi, Yuval and Kaplan, Haim and Mansour, Yishay},
@@ -446,10 +352,6 @@
   url = 	 {https://proceedings.mlr.press/v117/lewi20a.html},
   abstract = 	 {We study the Thompson sampling algorithm in an adversarial setting, specifically, for adversarial bit prediction. We characterize the bit sequences with the smallest and largest expected regret. Among sequences of length $T$ with $k < \frac{T}{2}$ zeros, the  sequences of largest regret consist of alternating  zeros and ones followed by the remaining ones, and the sequence  of smallest regret consists of  ones followed by zeros. We also bound the regret of those sequences, the worst case sequences have regret  $O(\sqrt{T})$ and the best case sequence have regret  $O(1)$. We extend our results to a model where false positive and false negative errors have different weights. We characterize the sequences with largest  expected regret in this generalized setting, and derive their regret bounds. We also show that there are sequences with $O(1)$ regret.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-lin20a,
   title = 	 {On Learning Causal Structures from Non-Experimental Data without Any Faithfulness Assumption},
   author =       {Lin, Hanti and Zhang, Jiji},
@@ -465,10 +367,6 @@
   url = 	 {https://proceedings.mlr.press/v117/lin20a.html},
   abstract = 	 {Consider the problem of learning, from non-experimental data, the causal (Markov equivalence) structure of the true, unknown causal Bayesian network (CBN) on a given, fixed set of (categorical) variables. This learning problem is known to be very hard, so much so that there is no learning algorithm that converges to the truth for all possible CBNs (on the given set of variables). So the convergence property has to be sacrificed for some CBNsâbut for which? In response, the standard practice has been to design and employ learning algorithms that secure the convergence property for at least all the CBNs that satisfy the famous <em>faithfulness</em> condition, which implies sacrificing the convergence property for some CBNs that violate the faithfulness condition (Spirtes, Glymour, and Scheines, 2000). This standard design practice can be justified by assumingâthat is, accepting on faithâthat the true, unknown CBN satisfies the faithfulness condition. But the real question is this: Is it possible to explain, <em>without assuming</em> the faithfulness condition or any of its weaker variants, why it is mandatory rather than optional to follow the standard design practice? This paper aims to answer the above question in the affirmative. We first define an array of modes of convergence to the truth as desiderata that might or might not be achieved by a causal learning algorithm. Those modes of convergence concern (i) how pervasive the domain of convergence is on the space of all possible CBNs and (ii) how uniformly the convergence happens. Then we prove a result to the following effect: for <em>any</em> learning algorithm that tackles the causal learning problem in question, if it achieves the best achievable mode of convergence (considered in this paper), then it <em>must</em> follow the standard design practice of converging to the truth for at least all CBNs that satisfy the faithfulness conditionâit is a requirement, not an option.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-long20a,
   title = 	 {On the Complexity of Proper Distribution-Free Learning of Linear Classifiers},
   author =       {Long, Philip M. and Long, Raphael J.},
@@ -484,10 +382,6 @@
   url = 	 {https://proceedings.mlr.press/v117/long20a.html},
   abstract = 	 {For proper distribution-free learning of linear classifiers in $d$ dimensions from $m$ examples, we prove a lower bound on the optimal expected error of $\frac{d - o(1)}{m}$, improving on the best previous lower bound of $\frac{d/\sqrt{e} - o(1)}{m}$, and nearly matching a $\frac{d+1}{m+1}$ upper bound achieved by the linear support vector machine.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-lykouris20a,
   title = 	 {Feedback graph regret bounds for Thompson Sampling and UCB},
   author =       {Lykouris, Thodoris and Tardos, \'Eva and Wali, Drishti},
@@ -503,10 +397,6 @@
   url = 	 {https://proceedings.mlr.press/v117/lykouris20a.html},
   abstract = 	 {We study the stochastic multi-armed bandit problem with the graph-based feedback structure introduced by Mannor and Shamir. We analyze the performance of the two most prominent stochastic bandit algorithms, Thompson Sampling and Upper Confidence Bound (UCB), in the graph-based feedback setting. We show that these algorithms achieve  regret guarantees that combine the graph structure and the gaps between the means of the arm distributions. Surprisingly this holds despite the fact that these algorithms do not explicitly use the graph structure to select arms; they observe the additional feedback but do not explore based on it. Towards this result we introduce a <em>layering technique</em> highlighting the commonalities in the two algorithms.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-magner20a,
   title = 	 {Toward universal testing of dynamic network models},
   author =       {Magner, Abram and Szpankowski, Wojciech},
@@ -522,10 +412,6 @@
   url = 	 {https://proceedings.mlr.press/v117/magner20a.html},
   abstract = 	 {Numerous networks in the real world change over time, in the sense that nodes and edges enter and leave the networks.  Various dynamic random graph models have been  proposed to explain the macroscopic properties of these systems and  to provide a foundation for statistical inferences and predictions. It is of interest to have a rigorous way to determine how well these models match observed networks. We thus ask the following <em>goodness of fit</em> question:  given a sequence of observations/snapshots of a growing random  graph,  along with a candidate model $M$, can we determine whether the snapshots came from $M$ or from some arbitrary alternative model that is well-separated from $M$ in some natural  metric?  We formulate this problem precisely and boil it down to goodness of fit testing for graph-valued, infinite-state Markov  processes and exhibit and analyze a universal test based on  <em>non-stationary sampling</em> for a natural class of models.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-nagarajan20a,
   title = 	 {On the Analysis of EM for truncated mixtures of two Gaussians},
   author =       {Nagarajan, Sai Ganesh and Panageas, Ioannis},
@@ -541,10 +427,6 @@
   url = 	 {https://proceedings.mlr.press/v117/nagarajan20a.html},
   abstract = 	 {Motivated by a recent result of Daskalakis et al. (2018), we analyze the population version of Expectation-Maximization (EM) algorithm for the case of \textit{truncated} mixtures of two Gaussians. Truncated samples from a $d$-dimensional mixture of two Gaussians $\frac{1}{2} \mathcal{N}(\vec{\mu}, \vec{\Sigma})+ \frac{1}{2} \mathcal{N}(-\vec{\mu}, \vec{\Sigma})$ means that a sample is only revealed if it falls in some subset $S \subset \mathbb{R}^d$ of positive (Lebesgue) measure. We show that for $d=1$, EM converges almost surely (under random initialization) to the true mean (variance $\sigma^2$ is known) for any measurable set $S$. Moreover, for $d>1$ we show EM almost surely converges to the true mean for any measurable set $S$ when the map of EM has only three fixed points, namely $-\vec{\mu}, \vec{0}, \vec{\mu}$ (covariance matrix $\vec{\Sigma}$ is known), and prove local convergence if there are more than three fixed points. We also provide convergence rates of our findings. Our techniques deviate from those of Daskalakis et al. (2017), which heavily depend on symmetry that the untruncated problem exhibits. For example, for an arbitrary measurable set $S$, it is impossible to compute a closed form of the update rule of EM. Moreover, arbitrarily truncating the mixture, induces further correlations among the variables. We circumvent these challenges by using techniques from dynamical systems, probability and statistics; implicit function theorem, stability analysis around the fixed points of the update rule of EM and correlation inequalities (FKG).}
 }
-
-
-
-
 @InProceedings{pmlr-v117-nanashima20a,
   title = 	 {A Non-Trivial Algorithm Enumerating Relevant Features over Finite Fields},
   author =       {Nanashima, Mikito},
@@ -560,10 +442,6 @@
   url = 	 {https://proceedings.mlr.press/v117/nanashima20a.html},
   abstract = 	 {We consider the problem of enumerating relevant features hidden in other irrelevant information for multi-labeled data, which is formalized as learning juntas.  A $k$-junta function is a function which depends on only $k$ coordinates of the input. For relatively small $k$ w.r.t. the input size $n$, learning $k$-junta functions is one of fundamental problems both theoretically and practically in machine learning. For the last two decades, much effort has been made to design efficient learning algorithms for Boolean junta functions, and some novel techniques have been developed. In real-world, however, multi-labeled data seem to be obtained in much more often than binary-labeled one. Thus, it is a natural question whether these techniques can be applied to more general cases about the alphabet size. In this paper, we expand the Fourier detection techniques for the binary alphabet to any finite field $\mathbb{F}_q$, and give, roughly speaking, an $O(n^{0.8k})$-time learning algorithm for $k$-juntas over $\mathbb{F}_q$. Note that our algorithm is the first non-trivial (i.e., non-brute force) algorithm for such a class even in the case where $q=3$ and we give an affirmative answer to the question posed by Mossel et al. (2004).}
 }
-
-
-
-
 @InProceedings{pmlr-v117-nandi20a,
   title = 	 {Privately Answering Classification Queries in the Agnostic PAC Model},
   author =       {Nandi, Anupama and Bassily, Raef},
@@ -579,10 +457,6 @@
   url = 	 {https://proceedings.mlr.press/v117/nandi20a.html},
   abstract = 	 {We revisit the problem of differentially private release of classification queries. In this problem, the goal is to design an algorithm that can accurately answer a sequence of classification queries based on a private training set while ensuring differential privacy. We formally study this problem in the agnostic PAC model and derive a new upper bound on the private sample complexity. Our results improve over those obtained in a recent work (Bassily et al., 2018) for the agnostic PAC setting. In particular, we give an improved construction that yields a tighter upper bound on the sample complexity. Moreover, unlike (Bassily et al., 2018), our accuracy guarantee does not involve any blow-up in the approximation error associated with the given hypothesis class. Given any hypothesis class with VC-dimension $d$, we show that our construction can privately answer up to $m$ classification queries with average excess error $\alpha$ using a private sample of size $\approx \frac{d}{\alpha^2}\,\max\left(1, \sqrt{m}\,\alpha^{3/2}\right)$. Using recent results on private learning with auxiliary public data, we extend our construction to show that one can privately answer any number of classification queries with average excess error $\alpha$ using a private sample of size $\approx \frac{d}{\alpha^2}\,\max\left(1, \sqrt{d}\,\alpha\right)$. When $\alpha=O\left(\frac{1}{\sqrt{d}}\right)$, our private sample complexity bound is essentially optimal.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-nguy-en20a,
   title = 	 {Efficient {P}rivate {A}lgorithms for {L}earning {L}arge-{M}argin {H}alfspaces},
   author =       {Nguy\~{\^{e}}n, Huy L\^{e} and Ullman, Jonathan and Zakynthinou, Lydia},
@@ -598,10 +472,6 @@
   url = 	 {https://proceedings.mlr.press/v117/nguy-en20a.html},
   abstract = 	 {We present new differentially private algorithms for learning a large-margin halfspace.  In contrast to previous algorithms, which are based on either differentially private simulations of the statistical query model or on private convex optimization, the sample complexity of our algorithms depends only on the margin of the data, and not on the dimension.  We complement our results with a lower bound, showing that the dependence of our upper bounds on the margin is optimal.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-perchet20a,
   title = 	 {Finding Robust Nash equilibria},
   author =       {Perchet, Vianney},
@@ -617,10 +487,6 @@
   url = 	 {https://proceedings.mlr.press/v117/perchet20a.html},
   abstract = 	 {When agents or decision maker have uncertainties of underlying parameters, they may want to take ârobustâ decisions that are optimal against the worst possible values of those parameters, leading to some max-min optimization problems. With several agents in competition, in game theory, uncertainties are even more important and robust games - or game with non-unique prior - have gained a lot of interest recently, notably in auctions. The existence of  robust equilibria in those games is guaranteed using standard fixed point theorems as in classical finite games, so we focus on the problem of finding and characterizing them. Under some linear assumption on the structure of the uncertainties, we provide a polynomial reduction of the robust Nash problem to a standard Nash problem (on some auxiliary different game). This is possible by proving the existence of a lifting transforming robust linear programs into standard linear programs.  In the general case, the above direct reduction is not always possible. However, we prove how to adapt the Lemke-Howson algorithm to find robust Nash equilibria  in non-degenerate games.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-rejwan20a,
   title = 	 {Top-$k$ Combinatorial Bandits with Full-Bandit Feedback},
   author =       {Rejwan, Idan and Mansour, Yishay},
@@ -636,10 +502,6 @@
   url = 	 {https://proceedings.mlr.press/v117/rejwan20a.html},
   abstract = 	 {Top-$k$ Combinatorial Bandits generalize multi-armed bandits, where at each round any subset of $k$ out of $n$ arms may be chosen and the sum of the rewards is gained. We address the full-bandit feedback, in which the agent observes only the sum of rewards, in contrast to the semi-bandit feedback, in which the agent observes also the individual armsâ rewards. We present the <em>Combinatorial Successive Accepts and Rejects</em> (CSAR) algorithm, which generalizes SAR (Bubeck et al., 2013) for top-k combinatorial bandits. Our main contribution is an efficient sampling scheme that uses Hadamard matrices in order to estimate accurately the individual armsâ expected rewards. We discuss two variants of the algorithm, the first minimizes the sample complexity and the second minimizes the regret.  We also prove a lower bound on sample complexity, which is tight for $k=O(1)$. Finally, we run experiments and show that our algorithm outperforms other methods.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-riou20a,
   title = 	 {Bandit Algorithms Based on Thompson Sampling for Bounded Reward Distributions},
   author =       {Riou, Charles and Honda, Junya},
@@ -655,10 +517,6 @@
   url = 	 {https://proceedings.mlr.press/v117/riou20a.html},
   abstract = 	 {We focus on a classic reinforcement learning problem, called a multi-armed bandit, and more specifically in the stochastic setting with reward distributions bounded in $[0,1]$. For this model, an optimal problem-dependent asymptotic regret lower bound has been derived. However, the existing algorithms achieving this regret lower bound all require to solve an optimization problem at each step, inducing a large complexity. In this paper, we propose two new algorithms, which we prove to achieve the problem-dependent asymptotic regret lower bound. The first one, which we call Multinomial TS, is an adaptation of Thompson Sampling for Bernoulli rewards to multinomial reward distributions whose support is included in $\{0, \frac{1}{M}, â¦, 1\}$. This algorithm achieves the regret lower bound in the case of multinomial distributions with the aforementioned support, and it can be easily generalized to bounded reward distributions in $[0, 1]$ by randomly rounding the observed rewards. The second algorithm we introduce, which we call Non-parametric TS, is a randomized algorithm but not based on the posterior sampling in the strict sense. At each step, it computes an average of the observed rewards with random weight. Not only is it asymptotically optimal, but also it performs very well even for small horizons.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-schlegel20a,
   title = 	 {Approximate Representer Theorems in Non-reflexive Banach Spaces},
   author =       {Schlegel, Kevin},
@@ -674,10 +532,6 @@
   url = 	 {https://proceedings.mlr.press/v117/schlegel20a.html},
   abstract = 	 {The representer theorem is one of the most important mathematical foundations for regularised learning and kernel methods. Classical formulations of the theorem state sufficient conditions under which a regularisation problem on a Hilbert space admits a solution in the subspace spanned by the representers of the data points. This turns the problem into an equivalent optimisation problem in a finite dimensional space, making it computationally tractable. Moreover, Banach space methods for learning have been receiving more and more attention. Considering the representer theorem in Banach spaces is hence of increasing importance. Recently the question of the necessary condition for a representer theorem to hold in Hilbert spaces and certain Banach spaces has been considered. It has been shown that a classical representer theorem cannot exist in general in non-reflexive Banach spaces. In this paper we propose a notion of approximate solutions and approximate representer theorem to overcome this problem. We show that for these notions we can indeed extend the previous results to obtain a unified theory for the existence of representer theorems in any general Banach spaces, in particular including $l^1$-type spaces. We give a precise characterisation when a regulariser admits a classical representer theorem and when only an approximate representer theorem is possible.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-suggala20a,
   title = 	 {Online Non-Convex Learning: Following the Perturbed Leader is Optimal},
   author =       {Suggala, Arun Sai and Netrapalli, Praneeth},
@@ -693,10 +547,6 @@
   url = 	 {https://proceedings.mlr.press/v117/suggala20a.html},
   abstract = 	 {We study the problem of online learning with non-convex losses, where the learner has access to an offline optimization oracle. We show that the classical Follow the Perturbed Leader (FTPL) algorithm achieves optimal regret rate of $O(T^{-1/2})$ in this setting. This improves upon the previous best-known regret rate of $O(T^{-1/3})$ for FTPL. We further show that an optimistic variant of FTPL achieves better regret bounds when the sequence of losses encountered by the learner is âpredictableâ.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-trinh20a,
   title = 	 {Solving Bernoulli Rank-One Bandits with Unimodal Thompson Sampling},
   author =       {Trinh, Cindy and Kaufmann, Emilie and Vernade, Claire and Combes, Richard},
@@ -712,10 +562,6 @@
   url = 	 {https://proceedings.mlr.press/v117/trinh20a.html},
   abstract = 	 {<em>Stochastic Rank-One Bandits</em> are a simple framework for regret minimization problems over rank-one matrices of arms. The initially proposed algorithms are proved to have logarithmic regret, but do not match the existing lower bound for this problem. We close this gap by first proving that rank-one bandits are a particular instance of unimodal bandits, and then providing a new analysis of  Unimodal Thompson Sampling (UTS). We prove an asymptotically optimal regret bound on the frequentist regret of UTS and we support our claims with simulations showing the significant improvement of our method compared to the state-of-the-art.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-wolfer20a,
   title = 	 {Mixing Time Estimation in Ergodic Markov Chains from a Single Trajectory with Contraction Methods},
   author =       {Wolfer, Geoffrey},
@@ -731,10 +577,6 @@
   url = 	 {https://proceedings.mlr.press/v117/wolfer20a.html},
   abstract = 	 {The mixing time $t_{\mathsf{mix}}$ of an ergodic Markov chain measures the rate of  convergence towards its stationary distribution $\boldsymbol{\pi}$. We consider the problem of estimating $t_{\mathsf{mix}}$ from one single trajectory  of $m$ observations $(X_1, â¦, X_m)$,  in the case where the transition kernel $\boldsymbol{M}$ is unknown, a research program started by Hsu et al. [2015]. The community has so far focused primarily on leveraging spectral methods to estimate the <em>relaxation time</em> $t_{\mathsf{rel}}$ of a <em>reversible</em> Markov chain as a proxy for $t_{\mathsf{mix}}$. Although these techniques have recently been extended to tackle non-reversible chains,  this general setting remains much less understood. Our new approach based on contraction methods is the first that aims at directly  estimating $t_{\mathsf{mix}}$ up to multiplicative small universal constants instead of $t_{\mathsf{rel}}$. It does so by introducing a generalized version of Dobrushinâs contraction coefficient $\kappa_{\mathsf{gen}}$, which is shown to control the mixing time regardless of reversibility. We subsequently design fully data-dependent high confidence intervals around $\kappa_{\mathsf{gen}}$  that generally yield better convergence guarantees and  are more practical than state-of-the-art.}
 }
-
-
-
-
 @InProceedings{pmlr-v117-zahavy20a,
   title = 	 {Planning in Hierarchical Reinforcement Learning: Guarantees for Using Local Policies},
   author =       {Zahavy, Tom and Hasidim, Avinatan and Kaplan, Haim and Mansour, Yishay},

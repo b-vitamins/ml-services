@@ -1,6 +1,4 @@
 
-
-
 @Proceedings{HEAR2021,
   title =     {HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)},
   booktitle = {HEAR: Holistic Evaluation of Audio Representations (NeurIPS 2021 Competition)},
@@ -9,10 +7,6 @@
   series =    {Proceedings of Machine Learning Research},
   volume =    166
 }
-
-
-
-
 @InProceedings{pmlr-v166-niizumi22a,
   title = 	 {Masked Spectrogram Modeling using Masked Autoencoders for Learning General-purpose Audio Representation},
   author =       {Niizumi, Daisuke and Takeuchi, Daiki and Ohishi, Yasunori and Harada, Noboru and Kashino, Kunio},
@@ -28,10 +22,6 @@
   url = 	 {https://proceedings.mlr.press/v166/niizumi22a.html},
   abstract = 	 { Recent general-purpose audio representations show state-of-the-art performance on various audio tasks. These representations are pre-trained by self-supervised learning methods that create training signals from the input. For example, typical audio contrastive learning uses temporal relationships among input sounds to create training signals, whereas some methods use a difference among input views created by data augmentations. However, these training signals do not provide information derived from the intact input sound, which we think is suboptimal for learning representation that describes the input as it is. In this paper, we seek to learn audio representations from the input itself as supervision using a pretext task of auto-encoding of masked spectrogram patches, Masked Spectrogram Modeling (MSM, a variant of Masked Image Modeling applied to audio spectrogram). To implement MSM, we use Masked Autoencoders (MAE), an image self-supervised learning method. MAE learns to efficiently encode the small number of visible patches into latent representations to carry essential information for reconstructing a large number of masked patches. While training, MAE minimizes the reconstruction error, which uses the input as training signal, consequently achieving our goal. We conducted experiments on our MSM using MAE (MSM-MAE) models under the evaluation benchmark of the HEAR 2021 NeurIPS Challenge. Our MSM-MAE models outperformed the HEAR 2021 Challenge results on seven out of 15 tasks (e.g., accuracies of 73.4% on CREMA-D and 85.8% on LibriCount), while showing top performance on other tasks where specialized models perform better. We also investigate how the design choices of MSM-MAE impact the performance and conduct qualitative analysis of visualization outcomes to gain an understanding of learned representations. We have made our code available online for further improvements and applications of the MSM framework. }
 }
-
-
-
-
 @InProceedings{pmlr-v166-elbanna22a,
   title = 	 {{BYOL-S}: Learning Self-supervised Speech Representations by Bootstrapping},
   author =       {Elbanna, Gasser and Scheidwasser-Clow, Neil and Kegler, Mikolaj and Beckmann, Pierre and El Hajal, Karl and Cernak, Milos},
@@ -47,10 +37,6 @@
   url = 	 {https://proceedings.mlr.press/v166/elbanna22a.html},
   abstract = 	 {Methods for extracting audio and speech features have been studied since pioneering work on spectrum analysis decades ago. Recent efforts are guided by the ambition to develop general-purpose audio representations. For example, deep neural networks can extract optimal embeddings if they are trained on large audio datasets. This work extends existing methods based on self-supervised learning by bootstrapping, proposes various encoder architectures, and explores the effects of using different pre-training datasets. Lastly, we present a novel training framework to come up with a <em>hybrid</em> audio representation, which combines handcrafted and data-driven learned audio features. All the proposed representations were evaluated within the HEAR NeurIPS 2021 challenge for auditory scene classification and timestamp detection tasks. Our results indicate that the hybrid model with a convolutional transformer as the encoder yields superior performance in most HEAR challenge tasks.}
 }
-
-
-
-
 @InProceedings{pmlr-v166-lostanlen22a,
   title = 	 {From {HEAR} to {GEAR}: Generative Evaluation of Audio Representations},
   author =       {Lostanlen, Vincent and Yan, Lingyao and Yang, Xianyi},
@@ -66,10 +52,6 @@
   url = 	 {https://proceedings.mlr.press/v166/lostanlen22a.html},
   abstract = 	 {The âHolistic Evaluation of Audio Representationsâ (HEAR) is an emerging research program towards statistical models that can transfer to diverse machine listening tasks. The originality of HEAR is to conduct a fair,  âapples-to-applesâ comparison of many deep learning models over many datasets, resulting in multitask evaluation metrics that are readily interpretable by practitioners. On the flip side, this comparison incurs a neural architecture search: as such, it is not directly interpretable in terms of audio signal processing. In this paper, we propose a complementary viewpoint on the HEAR benchmark, which we name GEAR: Generative Evaluation of Audio Representations. The key idea behind GEAR is to generate a dataset of sounds with few independent factors of variability, analyze it with HEAR embeddings, and visualize it with an unsupervised manifold learning algorithm. Visual inspection reveals stark contrasts in the global structure of the nearest-neighbor graphs associated to logmelspec, Open-$L^3$, BYOL, CREPE, wav2vec2, GURA, and YAMNet. Although GEAR currently lacks mathematical refinement, we intend it as a proof of concept to show the potential of parametric audio synthesis in general-purpose machine listening research.}
 }
-
-
-
-
 @InProceedings{pmlr-v166-koutini22a,
   title = 	 {Learning General Audio Representations With Large-Scale Training of Patchout Audio Transformers},
   author =       {Koutini, Khaled and Masoudian, Shahed and Schmid, Florian and Eghbal-zadeh, Hamid and Schl\"{u}ter, Jan and Widmer, Gerhard},
@@ -85,10 +67,6 @@
   url = 	 {https://proceedings.mlr.press/v166/koutini22a.html},
   abstract = 	 {The success of supervised deep learning methods is largely due to their ability to learn relevant features from raw data. Deep Neural Networks (DNNs) trained on large-scale datasets are capable of capturing a diverse set of features, and learning a representation that can generalize onto unseen tasks and datasets that are from the same domain. Hence, these models can be used as powerful feature extractors, in combination with shallower models as classifiers, for smaller tasks and datasets where the amount of training data is insufficient for learning an end-to-end model from scratch. During the past years, Convolutional Neural Networks (CNNs) have largely been the method of choice for audio processing. However, recently attention-based transformer models have demonstrated great potential in supervised settings, outperforming CNNs. In this work, we investigate the use of audio transformers trained on large-scale datasets to learn general-purpose representations. We study how the different setups in these audio transformers affect the quality of their embeddings. We experiment with the modelsâ time resolution, extracted embedding level, and receptive fields in order to see how they affect performance on a variety of tasks and datasets, following the HEAR 2021 NeurIPS challenge evaluation setup. Our results show that representations extracted by audio transformers outperform CNN representations. Furthermore, we will show that transformers trained on Audioset can be extremely effective representation extractors for a wide range of downstream tasks.}
 }
-
-
-
-
 @InProceedings{pmlr-v166-wu22a,
   title = 	 {The Ability of Self-Supervised Speech Models for Audio Representations},
   author =       {Wu, Tung-Yu and Hsu, Tsu-Yuan and Li, Chen-An and Lin, Tzu-Han and Lee, Hung-yi},
