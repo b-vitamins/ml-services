@@ -44,20 +44,21 @@ Resources related to the tools above:
 
 Working list of resources that serve as foundational reading relevant to this project (for each page, scroll down and explore the `See also` section and the `Navigation templates`):
 
-1. [Information science](https://en.wikipedia.org/wiki/Information_science): A field focused on the systematic study and management of data and information across systems and processes.
-2. [Library and Information Science](https://en.wikipedia.org/wiki/Library_and_information_science): An interdisciplinary field that applies the practices, perspectives, and tools of management, information technology, education, and other areas to libraries.
-3. [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing): The technology used to aid computers to understand the human’s natural language.
-4. [Text Mining](https://en.wikipedia.org/wiki/Text_mining): The process of deriving high-quality information from text through computational means.
-5. [Knowledge Management](https://en.wikipedia.org/wiki/Knowledge_management): Strategies and processes to manage organizational knowledge effectively.
-6. [Bibliometrics](https://en.wikipedia.org/wiki/Bibliometrics): Analyzes scientific and technological literature quantitatively.
-7. [Information Extraction](https://en.wikipedia.org/wiki/Information_extraction): Techniques for automatically extracting structured information from unstructured/semi-structured data sources.
-8. [Information Retrieval](https://en.wikipedia.org/wiki/Information_retrieval): The science of searching for information in documents, searching for documents themselves, and also searching for metadata which describes documents.
-9. [Automatic Summarization](https://en.wikipedia.org/wiki/Automatic_summarization): The process of reducing a text document with a computer program to create a summary that retains the most important points of the original document.
-10. [Distributional Semantics](https://en.wikipedia.org/wiki/Distributional_semantics): Approaches to quantify and categorize semantic similarities between linguistic items based on their distributional properties in large samples of language data.
-11. [Topic Model](https://en.wikipedia.org/wiki/Topic_model): Statistical models to discover abstract topics that occur in a collection of documents.
-12. [Computer-assisted Reviewing](https://en.wikipedia.org/wiki/Computer-assisted_reviewing): The use of automated processes to aid in the review of documents and data.
-13. [Automated Reasoning](https://en.wikipedia.org/wiki/Automated_reasoning): The use of computers to emulate human reasoning, typically within the realm of mathematics or logic.
-14. [Language Resource](https://en.wikipedia.org/wiki/Language_resource): Operational datasets in various forms used to build, improve, or evaluate natural language processing applications. In particular, see [Text Encoding Initiative](https://tei-c.org/): a comprehensive encoding standard for machine-readable texts. [A Gentle Introduction to XML](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html) is also a useful read.
+1. [OpenCog AtomSpace](https://github.com/opencog/atomspace): The `README.md` is an excellent starting point. So is [Luke’s Atomspace Bootstrap Guide](https://luketpeterson.github.io/atomspace-bootstrap-guide/). The [examples](https://github.com/opencog/atomspace/tree/master/examples/atomspace) are a good next target.
+2. [Information science](https://en.wikipedia.org/wiki/Information_science): A field focused on the systematic study and management of data and information across systems and processes.
+3. [Library and Information Science](https://en.wikipedia.org/wiki/Library_and_information_science): An interdisciplinary field that applies the practices, perspectives, and tools of management, information technology, education, and other areas to libraries.
+4. [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing): The technology used to aid computers to understand the human’s natural language.
+5. [Text Mining](https://en.wikipedia.org/wiki/Text_mining): The process of deriving high-quality information from text through computational means.
+6. [Knowledge Management](https://en.wikipedia.org/wiki/Knowledge_management): Strategies and processes to manage organizational knowledge effectively.
+7. [Bibliometrics](https://en.wikipedia.org/wiki/Bibliometrics): Analyzes scientific and technological literature quantitatively.
+8. [Information Extraction](https://en.wikipedia.org/wiki/Information_extraction): Techniques for automatically extracting structured information from unstructured/semi-structured data sources.
+9. [Information Retrieval](https://en.wikipedia.org/wiki/Information_retrieval): The science of searching for information in documents, searching for documents themselves, and also searching for metadata which describes documents.
+10. [Automatic Summarization](https://en.wikipedia.org/wiki/Automatic_summarization): The process of reducing a text document with a computer program to create a summary that retains the most important points of the original document.
+11. [Distributional Semantics](https://en.wikipedia.org/wiki/Distributional_semantics): Approaches to quantify and categorize semantic similarities between linguistic items based on their distributional properties in large samples of language data.
+12. [Topic Model](https://en.wikipedia.org/wiki/Topic_model): Statistical models to discover abstract topics that occur in a collection of documents.
+13. [Computer-assisted Reviewing](https://en.wikipedia.org/wiki/Computer-assisted_reviewing): The use of automated processes to aid in the review of documents and data.
+14. [Automated Reasoning](https://en.wikipedia.org/wiki/Automated_reasoning): The use of computers to emulate human reasoning, typically within the realm of mathematics or logic.
+15. [Language Resource](https://en.wikipedia.org/wiki/Language_resource): Operational datasets in various forms used to build, improve, or evaluate natural language processing applications. In particular, see [Text Encoding Initiative](https://tei-c.org/): a comprehensive encoding standard for machine-readable texts. [A Gentle Introduction to XML](https://tei-c.org/release/doc/tei-p5-doc/en/html/SG.html) is also a useful read.
 
 Working list of relevant books:
 
