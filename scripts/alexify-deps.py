@@ -2,10 +2,7 @@ import os
 import json
 import time
 import logging
-from fuzzywuzzy import fuzz
 import pyalex
-import bibtexparser
-import concurrent.futures
 from requests.exceptions import HTTPError, RequestException
 
 # Configuration for pyalex
