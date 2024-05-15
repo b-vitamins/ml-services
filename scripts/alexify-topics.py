@@ -70,23 +70,23 @@ def process_topics(url_list, topic_dir, requests_per_day=100000):
     """Process URLs to fetch data from OpenAlex."""
     processed_count = 0
     start_time = time.time()
-    
+
     for i, full_id_link in enumerate(url_list):
         if processed_count >= requests_per_day:
             logging.info(
                 f"Reached daily quota of {requests_per_day} requests. Stopping processing."
             )
             break
-        
+
         topic_id = full_id_link.rsplit("/", 1)[-1]
         file_path = os.path.join(topic_dir, f"{topic_id}.json")
-        
+
         if os.path.exists(file_path):
             logging.info(
                 f"File {topic_id}.json already exists. Skipping download."
             )
             continue
-        
+
         try:
             url = f"https://api.openalex.org/topics/{topic_id}"
             response = requests.get(url)
@@ -95,15 +95,16 @@ def process_topics(url_list, topic_dir, requests_per_day=100000):
             save_json(topic, topic_dir, topic_id)
             processed_count += 1
             logging.info(f"Successfully processed and saved {topic_id}.json")
-        
+
         except Exception as e:
             logging.error(f"Error fetching data for topic ID {topic_id}: {e}")
-        
+
         if (i + 1) % 1000 == 0:
             elapsed_time = time.time() - start_time
             logging.info(
                 f"Processed {i + 1}/{len(url_list)} URLs in {elapsed_time//3600}h {elapsed_time%3600//60}m."
             )
+
 
 if __name__ == "__main__":
     os.makedirs(TOPICS_DIR, exist_ok=True)
